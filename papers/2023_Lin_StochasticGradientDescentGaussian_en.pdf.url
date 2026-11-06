@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2310.20581v2
+
+[File]
+Name=2023_Lin_StochasticGradientDescentGaussian_en.pdf
+Work=Stochastic Gradient Descent for Gaussian Processes Done Right
+SizeBytes=1387273
+SHA256=e06ca801b67653e7a8aff475a1296466f07248bb93b757141bbcc529ac9a16cb
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2310.20581
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

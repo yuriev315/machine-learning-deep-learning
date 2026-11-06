@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2207.01848v6
+
+[File]
+Name=2022_Hollmann_TabPFN_en.pdf
+Work=TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second
+SizeBytes=3793138
+SHA256=97796b6e6b134b200555a7ebbacea2f6daecb9ab309279ba50d915d5ac5c9df6
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2207.01848
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

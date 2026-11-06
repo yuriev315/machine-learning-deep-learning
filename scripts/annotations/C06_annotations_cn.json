@@ -1,0 +1,458 @@
+{
+ "MLP0276": {
+  "problem": "构建原生支持多语言、编程、推理与工具使用的新一代开源基础模型。",
+  "method": "训练 Llama 3 系列语言模型，最大为 405B 参数、上下文窗口达 128K 的稠密 Transformer，并发布预训练与后训练版本及安全模型 Llama Guard 3；另以组合式方法尝试接入图像、视频和语音能力。",
+  "evaluation": "大量任务上的广泛实证评测（摘要未列出具体基准）；以及图像、视频、语音识别任务。",
+  "summary": "Llama 3 技术报告完整记录了开源大模型的构建与评测。作者称 Llama 3 在大量任务上质量与 GPT-4 等领先模型相当，组合式多模态扩展与 SOTA 有竞争力，但多模态版本尚在开发中未广泛发布。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0277": {
+  "problem": "如何在控制推理计算量的同时获得更大模型容量的语言模型。",
+  "method": "Mixtral 8x7B 采用稀疏专家混合（SMoE）：与 Mistral 7B 架构相同，但每层含 8 个前馈专家，路由网络为每个 token 在每层选择 2 个专家并合并输出；总参数 47B、推理激活 13B，上下文 32k。",
+  "evaluation": "与 Llama 2 70B、GPT-3.5 在各评测基准上比较，含数学、代码生成、多语言基准；Instruct 版本在人工评测基准上比较。",
+  "summary": "Mixtral 是开源稀疏 MoE 语言模型的代表，以 Apache 2.0 发布。作者称其在所有评测基准上超过或持平 Llama 2 70B 与 GPT-3.5，数学、代码与多语言上大幅领先 Llama 2 70B；Instruct 版本超过 GPT-3.5 Turbo、Claude-2.1、Gemini Pro 等。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0278": {
+  "problem": "如何高效推理并低成本训练强大的大规模 MoE 语言模型。",
+  "method": "DeepSeek-V3 为总参数 671B、每 token 激活 37B 的 MoE 模型，采用 MLA 与 DeepSeekMoE 架构，首创无辅助损失的负载均衡策略并使用多 token 预测训练目标；在 14.8T token 上预训练后进行 SFT 与 RL。",
+  "evaluation": "综合评测，与开源及领先闭源模型比较（摘要未列出具体基准）。",
+  "summary": "DeepSeek-V3 技术报告展示了高性价比训练大规模 MoE 的完整方案。作者称其优于其他开源模型、与领先闭源模型相当，完整训练仅需 2.788M H800 GPU 小时，且训练全程无不可恢复的损失尖峰、无回滚。",
+  "difficulty": "高级",
+  "priority": "高"
+ },
+ "MLP0279": {
+  "problem": "LLM 推理能力依赖大量人工标注的示范，且对更复杂问题仍不足。",
+  "method": "通过纯强化学习激励 LLM 的推理能力，无需人工标注的推理轨迹，使自我反思、验证和动态策略调整等高级推理模式自发涌现；并利用大模型涌现的推理模式指导和增强小模型。",
+  "evaluation": "数学、编程竞赛与 STEM 等可验证任务（摘要未列出具体基准）。",
+  "summary": "DeepSeek-R1 表明纯 RL 即可激发 LLM 的高级推理行为，是推理模型方向的里程碑工作。作者称所训练模型在可验证任务上超过基于人类示范监督学习训练的对应模型，且推理模式可迁移到小模型。",
+  "difficulty": "高级",
+  "priority": "高"
+ },
+ "MLP0280": {
+  "problem": "数学推理结构复杂，开源语言模型在此方面能力有限。",
+  "method": "在 DeepSeek-Coder-Base-v1.5 7B 上用从 Common Crawl 精选的 120B 数学 token（加自然语言与代码数据）继续预训练；并提出 PPO 的变体 Group Relative Policy Optimization（GRPO），在增强数学推理的同时降低 PPO 的内存开销。",
+  "evaluation": "竞赛级 MATH 基准（含 64 样本自一致性）。",
+  "summary": "DeepSeekMath 展示了精心筛选公开网页数据的潜力，并提出后来被广泛采用的 GRPO 算法。作者称 DeepSeekMath 7B 不借助外部工具和投票在 MATH 上达 51.7%，接近 Gemini-Ultra 和 GPT-4，64 样本自一致性达 60.9%。",
+  "difficulty": "高级",
+  "priority": "高"
+ },
+ "MLP0281": {
+  "problem": "如何在预训练与后训练两个阶段全面提升系列化大模型以满足多样需求。",
+  "method": "将高质量预训练数据从 7T token 扩展到 18T token；后训练采用超过 100 万样本的精细 SFT 与多阶段强化学习；提供多种规模的开放权重基座/指令/量化模型，以及 MoE 闭源变体 Qwen2.5-Turbo 和 Qwen2.5-Plus。",
+  "evaluation": "语言理解、推理、数学、编程、人类偏好对齐等多类基准（摘要未列出具体名称）。",
+  "summary": "Qwen2.5 技术报告介绍了一个覆盖多规模的开源 LLM 系列，并作为 Qwen2.5-Math、Qwen2.5-Coder、QwQ 等专用模型的基础。作者称 Qwen2.5-72B-Instruct 与约 5 倍大的 Llama-3-405B-Instruct 有竞争力，Turbo 和 Plus 分别可与 GPT-4o-mini 和 GPT-4o 竞争且性价比更高。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0282": {
+  "problem": "如何在单一模型中兼顾复杂多步推理与快速响应，并提升效率与多语言能力。",
+  "method": "Qwen3 包含稠密与 MoE 架构（0.6B–235B），将思考模式与非思考模式统一到一个框架并支持动态切换；引入思考预算机制在推理时自适应分配计算；利用旗舰模型的知识降低构建小模型的计算成本。",
+  "evaluation": "代码生成、数学推理、智能体任务等多种基准（摘要未列出具体名称）。",
+  "summary": "Qwen3 是统一思考/非思考模式的开源模型系列，以 Apache 2.0 发布。作者称其在多种基准上达到 SOTA，可与更大的 MoE 模型和专有模型竞争，多语言支持从 29 种扩展到 119 种语言和方言。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0283": {
+  "problem": "最强的语言模型日益封闭，训练数据、架构与开发细节不公开，阻碍对其偏差和风险的科学研究。",
+  "method": "构建具有竞争力的真正开放语言模型 OLMo，不仅发布权重和推理代码，还发布训练数据以及训练和评测代码。",
+  "evaluation": "摘要未说明评测范围与结果。",
+  "summary": "OLMo 的核心贡献在于完全开放的语言模型研究基础设施。摘要主要阐述开放理念，未给出性能数值。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0284": {
+  "problem": "如何改进完全开放语言模型的训练稳定性、单 token 效率与整体能力。",
+  "method": "修改模型架构与训练配方以提高训练稳定性；在预训练退火阶段通过后期课程引入专门数据混合 Dolmino Mix 1124；借鉴 Tülu 3 构建 OLMo 2-Instruct，并扩展最终阶段的可验证奖励强化学习（RLVR）。",
+  "evaluation": "多项下游任务基准（摘要未列出具体名称），与 Llama 3.1、Qwen 2.5、Gemma 2、GPT-3.5 Turbo、GPT 4o Mini 等比较。",
+  "summary": "OLMo 2 发布 7B、13B、32B 稠密模型及全部训练数据、代码、日志和数千个中间检查点。作者称其基座模型处于性能-训练计算的帕累托前沿，常以更少 FLOPs 持平或超过 Llama 3.1、Qwen 2.5、Gemma 2 等仅开放权重的模型。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0285": {
+  "problem": "如何在实用规模（2B–27B）下提升轻量开放语言模型的性能。",
+  "method": "对 Transformer 应用局部-全局交替注意力、分组查询注意力（GQA）等已知改进，并用知识蒸馏而非下一 token 预测训练 2B 和 9B 模型。",
+  "evaluation": "摘要未列出具体评测基准。",
+  "summary": "Gemma 2 是 Google 的轻量开放模型系列新版本。作者称这些模型在同等规模中性能最佳，甚至可与 2–3 倍大的模型竞争。",
+  "difficulty": "入门",
+  "priority": "低"
+ },
+ "MLP0286": {
+  "problem": "如何为轻量开放模型加入视觉理解、更广语言覆盖与长上下文，同时控制长上下文下的 KV 缓存内存。",
+  "method": "提高局部与全局注意力层的比例并保持局部注意力跨度较短以减少 KV 缓存；用蒸馏训练 1B–27B 模型，并采用新的后训练配方提升数学、对话、指令遵循和多语言能力；上下文至少 128K。",
+  "evaluation": "多项基准（摘要未列出具体名称），与 Gemma 2 和 Gemini-1.5-Pro 比较。",
+  "summary": "Gemma 3 是多模态、长上下文的轻量开放模型系列。作者称 Gemma3-4B-IT 可与 Gemma2-27B-IT 竞争，Gemma3-27B-IT 在各基准上与 Gemini-1.5-Pro 相当。",
+  "difficulty": "入门",
+  "priority": "低"
+ },
+ "MLP0287": {
+  "problem": "小到可在手机上部署的语言模型能否达到大模型的能力水平。",
+  "method": "用 3.3T token 训练 3.8B 参数的 phi-3-mini，数据为 phi-2 数据的扩展版（大量过滤的公开网页数据与合成数据），并做鲁棒性、安全和对话格式对齐；另提供 7B/14B 模型以及 phi-3.5-mini、phi-3.5-MoE、phi-3.5-Vision。",
+  "evaluation": "学术基准与内部测试，包括 MMLU、MT-bench；以及语言推理、数学、代码及单图/多图任务。",
+  "summary": "Phi-3 展示了高质量数据训练小模型的潜力。作者称 phi-3-mini 在 MMLU 上达 69%、MT-bench 8.38，可与 Mixtral 8x7B 和 GPT-3.5 相比；phi-3.5-MoE（激活 6.6B）与 Gemini-1.5-Flash、GPT-4o-mini 相当。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0288": {
+  "problem": "如何以数据质量为核心训练出相对规模性能很强的小型语言模型。",
+  "method": "在整个训练过程中策略性地引入合成数据，并改进数据、训练课程与后训练方案，架构相对 phi-3 改动很小，得到 14B 参数的 phi-4。",
+  "evaluation": "以 STEM 问答和推理为主的基准（摘要未列出具体名称）。",
+  "summary": "Phi-4 强调合成数据与后训练技术超越单纯蒸馏。作者称 phi-4 在 STEM 问答上大幅超过其教师模型 GPT-4，并在推理类基准上相对其规模表现强劲；摘要未给出具体数值。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0289": {
+  "problem": "万亿参数级 LLM 实验成本巨大，需要探索资源高效的小型语言模型及可扩展的训练策略。",
+  "method": "通过大量模型“风洞实验”实现稳定且最优的模型扩展；提出 Warmup-Stable-Decay（WSD）学习率调度以支持持续训练与领域适配，并借此在不大量重训的情况下研究数据-模型规模定律；推出 MiniCPM-DPO、MiniCPM-MoE、MiniCPM-128K 等变体。",
+  "evaluation": "与 7B–13B LLM 对比（摘要未列出具体基准）。",
+  "summary": "MiniCPM（1.2B/2.4B 非嵌入参数）展示了小模型的潜力，其 WSD 调度器具有较广泛影响。作者称其能力与 7B–13B 模型相当，并得出比 Chinchilla 最优高得多的计算最优数据-模型比。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0290": {
+  "problem": "SOTA 开源 LLM 的预训练数据集不公开，如何构建高质量预训练数据知之甚少。",
+  "method": "从 96 个 Common Crawl 快照构建 15T token 的 FineWeb，详细记录并消融所有设计选择（尤其去重与过滤策略）；另从中过滤出 1.3T token 的教育类文本 FineWeb-Edu。",
+  "evaluation": "与其他开放预训练数据集训练的 LLM 比较；FineWeb-Edu 在 MMLU、ARC 等知识与推理密集基准上评测。",
+  "summary": "FineWeb 是开放、文档详尽的大规模预训练网页数据集，并公开数据整理代码与全部消融模型。作者称其训练的 LLM 优于其他开放数据集，FineWeb-Edu 在 MMLU 和 ARC 上带来显著提升。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0291": {
+  "problem": "缺乏受控的实验平台来系统研究如何构建语言模型训练数据集。",
+  "method": "提出 DCLM 基准：提供 240T token 的标准化 Common Crawl 语料、基于 OpenLM 的预训练配方和 53 项下游评测，参与者可在 412M–7B 规模上实验去重、过滤和数据混合；基线实验发现基于模型的过滤是关键，并得到 DCLM-Baseline 数据集。",
+  "evaluation": "53 项下游评测，重点报告 MMLU 5-shot，与 MAP-Neo、Mistral-7B-v0.3、Llama 3 8B 比较。",
+  "summary": "DataComp-LM 将数据集设计变成可控的基准竞赛。作者称用 DCLM-Baseline 以 2.6T token 从零训练的 7B 模型在 MMLU 上达 64%，比 MAP-Neo 高 6.6 个百分点且计算少 40%，与 Llama 3 8B 表现相近但计算少 6.6 倍。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0292": {
+  "problem": "最佳语言模型的预训练语料很少公开，难以研究训练数据如何影响模型能力与局限。",
+  "method": "整理并发布 3T token 的英文语料 Dolma，混合网页、科学论文、代码、公有领域书籍、社交媒体与百科资料；详细记录设计原则与构建过程，并开源数据整理工具包。",
+  "evaluation": "对 Dolma 中间状态的分析与实验（摘要未列出具体评测基准）。",
+  "summary": "Dolma 是用于语言模型预训练研究的开放语料。论文重点在数据文档与整理经验分享，摘要未给出模型性能数值。",
+  "difficulty": "入门",
+  "priority": "低"
+ },
+ "MLP0293": {
+  "problem": "基于分词的 LLM 依赖固定词表，字节级模型此前难以在规模上匹敌其性能。",
+  "method": "提出 Byte Latent Transformer（BLT）：把字节编码成动态大小的 patch 作为基本计算单元，按下一字节的熵切分 patch，在数据复杂处分配更多计算；并进行至 8B 参数、4T 训练字节的 FLOP 受控扩展研究。",
+  "evaluation": "FLOP 受控的扩展实验；推理与长尾泛化的定性评估（摘要未列出具体基准）。",
+  "summary": "BLT 是无分词器、字节级动态分块的 LLM 架构。作者称其首次在规模上匹配基于分词的 LLM，同时提升推理效率与鲁棒性，在固定推理成本下扩展性显著优于基于分词的模型。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0294": {
+  "problem": "下一 token 预测训练的样本效率有限。",
+  "method": "在共享主干上用 n 个独立输出头让模型在每个位置同时预测后续 n 个 token，作为辅助训练任务，且不增加训练时间。",
+  "evaluation": "代码与自然语言模型的下游任务，包括 HumanEval、MBPP；小型算法任务；推理速度。",
+  "summary": "论文提出多 token 预测作为预训练目标，收益随模型规模增大而增大。作者称 13B 模型在 HumanEval 和 MBPP 上分别比同类下一 token 模型多解出 12% 和 17% 的题目，且 4-token 预测模型推理最多快 3 倍。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0295": {
+  "problem": "如何设计比 DPO 更简单、更有效的离线偏好优化算法。",
+  "method": "以序列平均对数概率作为隐式奖励，与生成过程更一致且无需参考模型；并在 Bradley-Terry 目标中加入目标奖励间隔，拉大胜负回答的差距。",
+  "evaluation": "在 Mistral、Llama 3、Gemma 2 的基座与指令模型上，评测 AlpacaEval 2、MT-Bench、Arena-Hard 及 Chatbot Arena。",
+  "summary": "SimPO 是无参考模型的偏好优化方法，计算与内存更高效。作者称其比 DPO 在 AlpacaEval 2 上最多高 6.4 分、Arena-Hard 上最多高 7.5 分且不显著增加回答长度，基于 Gemma-2-9B-it 的模型在 Chatbot Arena 的 10B 以下模型中排名第一。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0296": {
+  "problem": "现有对齐目标所隐含的人类效用函数与前景理论文献不一致，且依赖成对偏好数据。",
+  "method": "指出 DPO 等对齐目标属于“人类感知损失”（HALOs）家族；基于 Kahneman-Tversky 人类效用模型提出直接最大化生成效用的 HALO，即 KTO，只需“输出是否可取”的二元信号。",
+  "evaluation": "1B 到 30B 规模下与基于偏好的方法比较（摘要未列出具体基准）。",
+  "summary": "KTO 从前景理论角度理解并设计对齐损失。作者称 KTO 在仅使用二元反馈的情况下达到或超过基于偏好的方法，并认为不存在普遍最优的 HALO，最佳损失取决于具体场景的归纳偏置。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0297": {
+  "problem": "偏好对齐通常仍需单独的 SFT 阶段和参考模型，流程复杂。",
+  "method": "研究 SFT 在偏好对齐中的作用，指出对不受欢迎生成风格施加轻微惩罚即可；据此提出无参考模型的单阶段几率比偏好优化 ORPO，将偏好对齐融入 SFT。",
+  "evaluation": "125M–7B 模型；在 UltraFeedback 上微调 Phi-2、Llama-2、Mistral，评测 AlpacaEval 2.0、IFEval、MT-Bench。",
+  "summary": "ORPO 将 SFT 与偏好优化合并为单一阶段，并从理论与实验上论证几率比的合理性。作者称其微调模型超过 7B、13B 以上的 SOTA 模型，在 AlpacaEval 2.0 上达 12.20%、IFEval 66.19%、MT-Bench 7.32。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0298": {
+  "problem": "从人类偏好训练的奖励模型受人类水平限制，且冻结的奖励模型无法在 LLM 训练中改进。",
+  "method": "让语言模型通过 LLM-as-a-Judge 提示为自己提供奖励，在迭代 DPO 训练中同时提升指令遵循能力和自我奖励能力。",
+  "evaluation": "在 Llama 2 70B 上迭代三轮，评测 AlpacaEval 2.0 排行榜。",
+  "summary": "自我奖励语言模型为模型在指令遵循与奖励建模两方面持续自我改进打开了可能。作者称三轮迭代后模型在 AlpacaEval 2.0 上超过 Claude 2、Gemini Pro 和 GPT-4 0613 等系统。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0299": {
+  "problem": "学术基准上 DPO 等无奖励模型方法常取得 SOTA，但工业界多用 PPO；DPO 是否真的优于 PPO，PPO 为何在基准上表现不佳。",
+  "method": "从理论与实证两方面分析 DPO 的算法性质并指出其可能存在根本局限；全面考察 PPO，找出其在 LLM 微调中取得最佳性能的关键因素；并在多种 RLHF 测试平台上对比两者。",
+  "evaluation": "从对话到代码生成的一系列 RLHF 测试平台，包括高难度代码竞赛。",
+  "summary": "这是对 DPO 与 PPO 的系统比较研究。作者称 PPO 在所有情形下都能超过其他对齐方法，并在高难度代码竞赛上取得 SOTA 结果。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0300": {
+  "problem": "后训练的开放配方落后于专有方案，训练数据与配方最缺乏透明度。",
+  "method": "基于 Llama 3.1 基座，发布完全开放的后训练模型 Tulu 3 及其数据、代码与配方；训练算法包括 SFT、DPO 和新提出的可验证奖励强化学习（RLVR）；并提出含开发集与未见评测、标准基准实现及数据去污染的多任务评测方案。",
+  "evaluation": "多任务评测方案中的开发评测与未见评测（摘要未列出具体基准），与 Llama 3.1、Qwen 2.5、Mistral 的指令版及 GPT-4o-mini、Claude 3.5-Haiku 比较。",
+  "summary": "Tulu 3 是现代后训练技术的完整开放指南，还讨论了未能可靠提升性能的方法。作者称其结果超过 Llama 3.1、Qwen 2.5、Mistral 的指令版本，甚至超过 GPT-4o-mini 和 Claude 3.5-Haiku 等闭源模型。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0301": {
+  "problem": "奖励模型是 RLHF 的关键，但对其评估的研究很少。",
+  "method": "构建 RewardBench 基准数据集与代码库：由覆盖对话、推理和安全的 prompt-chosen-rejected 三元组组成，包含具有细微但可验证偏好理由（如 bug、事实错误）的对比数据。",
+  "evaluation": "在 RewardBench 排行榜上评测多种方法训练的奖励模型，包括直接 MLE 训练的分类器和 DPO 的隐式奖励模型。",
+  "summary": "RewardBench 是首个系统性的奖励模型评测基准。论文报告了各类奖励模型在拒答倾向、推理局限和指令遵循不足等方面的诸多发现，有助于理解 RLHF 过程。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0302": {
+  "problem": "训练过程奖励模型严重依赖人工标注的逐步监督数据。",
+  "method": "提出数学过程奖励模型 Math-Shepherd，用自动构建的过程监督数据训练，为解题的每一步打分；用于两种场景：对 LLM 多个输出进行重排序验证，以及配合逐步 PPO 进行强化学习。",
+  "evaluation": "GSM8K 与 MATH，基于 Mistral-7B 等开源 LLM。",
+  "summary": "Math-Shepherd 展示了无需人工标注的自动过程监督。作者称逐步 PPO 使 Mistral-7B 在 GSM8K 上从 77.9% 提升到 84.1%、MATH 从 28.6% 提升到 33.0%，再加上 Math-Shepherd 验证可进一步达到 89.1% 和 43.5%。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0303": {
+  "problem": "STaR 只能在问答场景中从少样本示例学习推理，能否让语言模型在任意文本中学会推断未言明的理由。",
+  "method": "提出 Quiet-STaR：让语言模型在每个 token 处生成解释后续文本的理由（rationale）以改进预测；采用逐 token 并行采样算法、标记思考起止的可学习 token 以及扩展的 teacher-forcing 技术。",
+  "evaluation": "在互联网文本上继续预训练后，零样本评测 GSM8K 与 CommonsenseQA；自然文本中难预测 token 的困惑度。",
+  "summary": "Quiet-STaR 让语言模型学会“说话前先思考”，且无需针对任务微调。作者称其零样本 GSM8K 从 5.9% 提升到 10.9%、CommonsenseQA 从 36.3% 提升到 47.2%，并改善难预测 token 的困惑度。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0304": {
+  "problem": "在固定但可观的推理时计算预算下，LLM 能在困难提示上提升多少，以及推理计算与预训练计算如何权衡。",
+  "method": "分析两种扩展测试时计算的机制：针对稠密的过程验证器奖励模型进行搜索，以及在测试时根据提示自适应更新模型对回答的分布；据此提出按提示难度自适应分配计算的“计算最优”扩展策略。",
+  "evaluation": "与 best-of-N 基线比较；在 FLOPs 匹配条件下与更大模型比较（摘要未列出具体数据集）。",
+  "summary": "论文系统研究了测试时计算的扩展规律，发现不同方法的有效性强烈依赖于提示难度。作者称计算最优策略比 best-of-N 的效率高 4 倍以上，且在小模型已有一定成功率的问题上，测试时计算可使其超过 14 倍大的模型。",
+  "difficulty": "高级",
+  "priority": "高"
+ },
+ "MLP0305": {
+  "problem": "寻找实现测试时扩展与强推理性能的最简单方法。",
+  "method": "构建按难度、多样性和质量筛选的 1000 题推理轨迹数据集 s1K，在其上对 Qwen2.5-32B-Instruct 做 SFT；提出“预算强制”（budget forcing），通过强制终止思考或在模型欲结束时追加“Wait”来控制测试时计算。",
+  "evaluation": "竞赛数学题 MATH 与 AIME24，与 o1-preview 比较。",
+  "summary": "s1 以极少数据和简单的预算强制实现测试时扩展，模型、数据与代码开源。作者称 s1-32B 在竞赛数学题上比 o1-preview 最多高 27%，且借助预算强制可在 AIME24 上从 50% 外推到 57%。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0306": {
+  "problem": "推理时通常只让模型尝试一次，推理计算能否作为另一个扩展维度。",
+  "method": "对同一问题重复采样多个候选解，研究覆盖率（任一样本解出的问题比例）随样本数的变化，并用指数化幂律建模。",
+  "evaluation": "多种任务和模型，包括代码、形式化证明与 SWE-bench Lite；比较多数投票和奖励模型等选择方法。",
+  "summary": "论文发现覆盖率随样本数在四个数量级上增长、常呈对数线性，提示存在推理时扩展律。作者称在 SWE-bench Lite 上 DeepSeek-Coder-V2-Instruct 的解决率从单样本 15.9% 提升到 250 样本 56%，超过单样本 SOTA 43%；但在无自动验证器的领域，多数投票和奖励模型在数百样本后趋于饱和。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0307": {
+  "problem": "SOTA 推理 LLM 的关键 RL 技术细节未公开，社区难以复现大规模 RL 训练结果。",
+  "method": "提出解耦裁剪与动态采样策略优化算法 DAPO，介绍使大规模 LLM RL 成功的四项关键技术，并开源基于 verl 框架的训练代码和精心处理的数据集。",
+  "evaluation": "AIME 2024，基于 Qwen2.5-32B 基座模型。",
+  "summary": "DAPO 提供了完全开源的大规模推理 RL 系统，提升可复现性。作者称其用 Qwen2.5-32B 基座在 AIME 2024 上达到 50 分。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0308": {
+  "problem": "下一 token 预测受限于可用数据量，而此前公开的 LLM 强化学习工作未取得有竞争力的结果。",
+  "method": "报告多模态 LLM Kimi k1.5 的 RL 训练实践，包括 RL 技术、多模态数据配方与基础设施优化；以长上下文扩展和改进的策略优化为核心，不依赖蒙特卡洛树搜索、价值函数和过程奖励模型；并提出用长 CoT 改进短 CoT 模型的 long2short 方法。",
+  "evaluation": "AIME、MATH 500、Codeforces、MathVista、LiveCodeBench 等多基准多模态评测。",
+  "summary": "Kimi k1.5 展示了一套简洁有效的 LLM 强化学习框架。作者称其在 AIME 77.5、MATH 500 96.2、Codeforces 94 百分位、MathVista 74.9，与 OpenAI o1 相当；long2short 方法使短 CoT 结果大幅超过 GPT-4o 和 Claude Sonnet 3.5（最多 +550%）。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0309": {
+  "problem": "思维链（CoT）能提升 LLM 推理准确率，但其背后的机制尚不清楚。",
+  "method": "从表达能力角度理论分析仅解码器 Transformer：证明常数深度、常数比特精度的 Transformer 无 CoT 时只能解 AC⁰ 问题；而有 T 步 CoT 时，使用 O(log n) 嵌入维度即可解决任何规模为 T 的布尔电路可解问题。",
+  "evaluation": "理论证明；实证任务包括置换群复合、迭代平方和电路值问题。",
+  "summary": "论文从电路复杂度角度说明 CoT 赋予 Transformer 进行本质串行计算的能力。作者称在难以并行计算的任务上，启用 CoT 显著提升准确率，对低深度 Transformer 尤为明显。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0310": {
+  "problem": "复杂推理是否必须依赖海量训练数据。",
+  "method": "仅用少量精心设计的示例做简单监督微调得到 LIMO，并提出“少即是多推理假设”：预训练已充分编码领域知识时，复杂推理可由少量作为“认知模板”的示范激发。",
+  "evaluation": "AIME24、MATH500 以及多种分布外基准。",
+  "summary": "LIMO 挑战了推理需要海量数据的假设。作者称 LIMO 在 AIME24 上达 63.3%、MATH500 上达 95.6%，只用以往方法 1% 的训练数据，在多个分布外基准上取得 45.8% 的绝对提升，超过用 100 倍数据训练的模型。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0311": {
+  "problem": "可验证奖励强化学习（RLVR）是否真的让 LLM 获得超越基础模型的新推理能力。",
+  "method": "在多个模型家族、RL 算法以及数学、代码和视觉推理基准上，以大 k 值的 pass@k 为指标系统探测 RLVR 模型的推理能力边界，并做覆盖率与困惑度分析；同时与蒸馏对比。",
+  "evaluation": "数学、编程与视觉推理基准（摘要未列出具体名称），六种流行 RLVR 算法。",
+  "summary": "论文发现 RLVR 模型在小 k 时优于基础模型，但大 k 时基础模型 pass@k 更高，推理能力来源于且受限于基础模型。作者称六种 RLVR 算法表现相近且远未充分发挥基础模型潜力，而蒸馏能真正引入新的推理模式。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0312": {
+  "problem": "语言模型究竟如何解决小学数学题，是真正学会推理还是记忆模板。",
+  "method": "设计一系列受控实验，研究模型能否发展推理技能、其隐藏推理过程、与人类技能的异同、是否超出训练所需的推理能力、出错的内在原因，以及解决 GSM8K 级问题所需的模型规模与深度。",
+  "evaluation": "以 GSM8K 类小学数学问题为背景的受控实验（摘要未列出具体数据设置与数值结果）。",
+  "summary": "本文是“语言模型物理学”系列中关于数学推理机理的研究。作者称揭示了语言模型解数学题的许多隐藏机制，提供超出当前 LLM 认识的洞见；摘要未给出具体结论数值。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0313": {
+  "problem": "GSM8K 上的性能提升是否反映数学推理能力的真正进步，报告指标是否可靠。",
+  "method": "基于符号模板构建可生成多样题目的 GSM-Symbolic 基准，进行更可控的评测；考察改变数值、增加从句数量及加入看似相关但无关的从句对模型的影响。",
+  "evaluation": "多个 SOTA 开源与闭源模型在 GSM-Symbolic 上的评测。",
+  "summary": "论文揭示 LLM 数学推理的脆弱性：同一问题不同实例间方差明显，仅改变数值即导致所有模型性能下降，从句增多性能显著恶化。作者称加入一个无关从句可使 SOTA 模型性能最多下降 65%，并推测当前 LLM 只是复制训练数据中的推理步骤。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0314": {
+  "problem": "LoRA 等参数高效微调方法与全参数微调之间仍常存在精度差距。",
+  "method": "通过新的权重分解分析比较全参微调与 LoRA 的差异，提出 DoRA：把预训练权重分解为幅度和方向两部分进行微调，方向更新用 LoRA 实现，以提升学习能力与训练稳定性且无额外推理开销。",
+  "evaluation": "在 LLaMA、LLaVA、VL-BART 上的常识推理、视觉指令微调、图像/视频-文本理解等下游任务。",
+  "summary": "DoRA 是 LoRA 的一种改进变体。作者称 DoRA 在上述任务上持续优于 LoRA，且不增加推理开销。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0315": {
+  "problem": "LoRA 与全参数微调在目标领域学习和非目标领域遗忘上有何差异。",
+  "method": "在编程与数学两个目标领域，比较 LoRA 与全参数微调在指令微调（约 10 万对）和继续预训练（200 亿 token）两种数据设置下的表现，并分析全参微调所学扰动的秩。",
+  "evaluation": "编程与数学目标领域任务及目标领域外任务（摘要未列出具体基准名称）。",
+  "summary": "论文发现标准低秩设置下 LoRA 明显不如全参微调，但更能保持基础模型在目标领域外的能力，缓解遗忘的效果优于权重衰减和 dropout，并保持生成多样性。作者称全参微调学到的扰动秩比典型 LoRA 配置高 10–100 倍，并给出 LoRA 微调最佳实践。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0316": {
+  "problem": "LoRA 以高斯噪声和零初始化适配器矩阵，可能导致收敛缓慢。",
+  "method": "提出 PiSSA：架构与 LoRA 相同，但用原权重矩阵的主奇异值与奇异向量初始化适配器 A、B，其余成分放入冻结的残差矩阵；可与量化结合（QPiSSA），并用快速 SVD 在数秒内完成初始化。",
+  "evaluation": "184M 到 70B 的 12 个模型，5 个 NLG 与 8 个 NLU 任务，包括 GSM8K。",
+  "summary": "PiSSA 通过更新主成分、冻结残差加快收敛。作者称其在相同设置下持续优于 LoRA：Mistral-7B 在 GSM8K 上达 72.86%（LoRA 为 67.7%），LLaMA-3-70B 用 QPiSSA 达 86.05%（QLoRA 为 81.73%）。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0317": {
+  "problem": "高质量对齐数据多不公开，开源数据构建方法受人工成本和预定义提示范围限制难以扩展。",
+  "method": "提出自合成方法 Magpie：利用对齐 LLM 的自回归特性，仅输入到用户消息位置为止的左侧模板，即可让 Llama-3-Instruct 生成用户查询及回答；共生成 400 万条并筛选出 30 万条高质量样本。",
+  "evaluation": "用各数据集微调 Llama-3-8B-Base 后在 AlpacaEval、ArenaHard、WildBench 等对齐基准上比较。",
+  "summary": "Magpie 无需种子提示即可大规模合成指令数据。作者称在部分任务上，用 Magpie 微调的模型可与使用 1000 万条数据经 SFT 和反馈学习的官方 Llama-3-8B-Instruct 相当，仅用于 SFT 即可超过此前用于 SFT 加偏好优化的公开数据集。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0318": {
+  "problem": "微调成本高、长文本稀缺以及新位置引入的异常值，使现有上下文窗口扩展大多止步于约 128k token。",
+  "method": "高效搜索并利用位置插值中的两种非均匀性，为微调提供更好初始化；采用渐进扩展策略：先微调到 256k，再对其做二次位置插值达到 2048k；并在 8k 长度上重新调整以恢复短上下文性能。",
+  "evaluation": "在 LLaMA2 与 Mistral 上的多种任务（摘要未列出具体基准）。",
+  "summary": "LongRoPE 首次把预训练 LLM 的上下文窗口扩展到 2048k token，只需最多 1k 步、256k 以内长度的微调。作者称其在保持原短上下文性能的同时有效，且模型仅对位置嵌入做少量修改，可复用现有优化。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0319": {
+  "problem": "大海捞针（NIAH）测试只反映浅层的长上下文理解，无法全面评估长上下文语言模型。",
+  "method": "构建可灵活配置序列长度和任务复杂度的合成基准 RULER：扩展 NIAH 为多种类型和数量的“针”，并新增多跳追踪与聚合等任务类别。",
+  "evaluation": "17 个长上下文语言模型在 RULER 的 13 项代表性任务上的评测，包括对支持 200K 上下文的 Yi-34B 的分析。",
+  "summary": "RULER 揭示了长上下文模型的“真实”有效长度。作者称尽管几乎所有模型在原始 NIAH 上接近满分，但随上下文增长性能大幅下降，声称支持 32K 以上的模型中只有一半能在 32K 长度保持令人满意的性能。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0320": {
+  "problem": "模型在 MMLU 上的性能趋于饱和，难以区分模型能力差异。",
+  "method": "在 MMLU 基础上加入更具挑战、侧重推理的问题，将选项从 4 个扩展到 10 个，并剔除琐碎和有噪声的问题，构成 MMLU-Pro。",
+  "evaluation": "多种模型在 MMLU-Pro 与 MMLU 上对比，测试 24 种提示风格，以及 CoT 与直接回答对比。",
+  "summary": "MMLU-Pro 是更难、更稳健的多任务语言理解基准。作者称其相对 MMLU 使准确率下降 16%–33%，提示敏感度从 4–5% 降至 2%，且使用 CoT 的模型表现更好，与原 MMLU 上的发现相反。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0321": {
+  "problem": "需要能支持“可扩展监督”实验的极难问答数据集，即使专业非专家借助网络也难以作答。",
+  "method": "由生物、物理、化学领域专家编写 448 道高质量多选题，并验证其对专家与高水平非专家（可无限制上网）的难度，即“防谷歌”问题。",
+  "evaluation": "领域专家、非专家验证者和基于 GPT-4 的基线的作答准确率。",
+  "summary": "GPQA 是研究生水平的防检索问答基准。作者称领域专家准确率为 65%（排除事后发现的明显失误为 74%），非专家平均花 30 分钟以上上网也仅 34%，最强 GPT-4 基线为 39%。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0322": {
+  "problem": "测试集污染以及依赖 LLM 评判或人工众包的评测偏差，使 LLM 基准很快失效或失真。",
+  "method": "构建 LiveBench：题目来自近期数学竞赛、arXiv 论文、新闻和数据集并按月更新，按客观真值自动评分，涵盖数学、编程、推理、语言、指令遵循和数据分析，并包含 Big-Bench Hard、AMPS、IFEval 等任务的更难、限污染版本。",
+  "evaluation": "众多闭源模型以及 0.5B–405B 的数十个开源模型。",
+  "summary": "LiveBench 是抗污染、客观评分且持续更新的 LLM 基准。作者称其难度很高，顶尖模型准确率低于 70%，并公开全部题目、代码与模型答案。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0323": {
+  "problem": "评估 LLM 与人类偏好的对齐程度仍面临很大挑战。",
+  "method": "搭建开放平台 Chatbot Arena，采用成对比较并通过众包收集多样用户的投票，结合统计方法对模型进行高效准确的评估与排名。",
+  "evaluation": "平台运行数月积累的超过 24 万次投票；众包问题的多样性与区分度、众包投票与专家评判的一致性分析。",
+  "summary": "Chatbot Arena 是基于人类成对偏好的开放 LLM 评测平台与排行榜。作者称众包问题足够多样且有区分度，众包投票与专家评判高度一致，该平台已成为被引用最多的 LLM 排行榜之一。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0324": {
+  "problem": "LLM 在 MMLU 等流行基准上已超过 90% 准确率，基准难度跟不上模型进步。",
+  "method": "由全球学科专家编写 2500 道覆盖数学、人文、自然科学等数十个学科的多模态题目（多选与简答），答案明确、易验证且无法通过网络检索快速获得，构成 Humanity's Last Exam（HLE）。",
+  "evaluation": "SOTA LLM 在 HLE 上的准确率与校准度。",
+  "summary": "HLE 定位为人类知识前沿的最终封闭式学术基准。作者称 SOTA LLM 在 HLE 上准确率和校准度都很低，表明当前 LLM 与人类专家前沿之间仍有显著差距。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0325": {
+  "problem": "LLM 存在幻觉、知识过时和推理不透明不可追溯等问题，需要系统梳理检索增强生成（RAG）的发展。",
+  "method": "综述 Naive RAG、Advanced RAG、Modular RAG 三种范式的演进，剖析检索、生成和增强三大技术基础中的前沿技术，并介绍最新评测框架与基准。",
+  "evaluation": "综述性文章，无实验评测。",
+  "summary": "本文是 RAG 方向被广泛参考的综述。还总结了当前面临的挑战与未来研究方向，适合作为该领域的入门读物。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0326": {
+  "problem": "自回归解码逐步串行、受内存带宽限制，而推测解码需要获取和维护单独的草稿模型。",
+  "method": "在 LLM 上增加多个额外解码头并行预测后续多个 token，利用树状注意力同时构造并验证多个候选续写；提供冻结骨干微调（Medusa-1，无损加速）与联合微调（Medusa-2）两种方案，并提出自蒸馏与典型接受（typical acceptance）等扩展。",
+  "evaluation": "多种规模与训练方式的模型（摘要未列出具体模型与数据集）。",
+  "summary": "Medusa 是无需草稿模型的简单推理加速框架。作者称 Medusa-1 可在不损失生成质量的情况下加速 2.2 倍以上，Medusa-2 进一步达到 2.3–3.6 倍。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0327": {
+  "problem": "自回归解码使 LLM 推理耗时，现有推测采样效率有待提升。",
+  "method": "观察到在特征层（倒数第二层）做自回归比在 token 层更直接，但特征层存在固有不确定性；EAGLE 通过引入提前一个时间步的 token 序列消除不确定性，以极小开销精确预测倒数第二层特征。",
+  "evaluation": "Vicuna 与 LLaMA2-Chat 全系列、Mixtral 8x7B Instruct；对话、代码生成、数学推理和指令遵循任务。",
+  "summary": "EAGLE 是在特征层进行推测采样的高效框架。作者称在 LLaMA2-Chat 70B 上实现 2.7–3.5 倍延迟加速、吞吐量翻倍，同时保持生成文本的分布不变。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0328": {
+  "problem": "现有语言表示模型无法在所有层同时利用左右双向上下文进行深度预训练。",
+  "method": "提出 BERT：在无标注文本上预训练深度双向 Transformer 编码器表示，下游只需添加一个输出层微调即可适配问答、语言推断等多种任务。",
+  "evaluation": "11 项 NLP 任务，包括 GLUE、MultiNLI、SQuAD v1.1 与 v2.0。",
+  "summary": "BERT 是预训练-微调范式的奠基之作，概念简单而效果强大。作者称其在 11 项任务上取得新 SOTA，GLUE 达 80.5%（绝对提升 7.7 个百分点），SQuAD v1.1 Test F1 达 93.2、v2.0 达 83.1。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0329": {
+  "problem": "预训练+微调范式仍需数千到数万条任务特定数据，而人类仅凭少量示例或简单指令即可完成新任务。",
+  "method": "训练 1750 亿参数的自回归语言模型 GPT-3，在少样本设置下不做任何梯度更新或微调，仅通过文本给出任务与示例。",
+  "evaluation": "翻译、问答、完形填空，以及单词重组、新词造句、三位数算术等需要即时推理或领域适应的任务；以及人类辨别生成新闻的实验。",
+  "summary": "GPT-3 揭示了规模扩大带来的上下文学习（少样本）能力，是大语言模型时代的开端。作者称其在许多 NLP 数据集上表现强劲，有时可与 SOTA 微调方法竞争，同时也指出部分数据集上仍有困难，并讨论了社会影响。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0330": {
+  "problem": "更大的语言模型并不天然更会遵循用户意图，可能生成不真实、有害或无用的输出。",
+  "method": "收集标注者编写的示范对 GPT-3 进行监督微调，再收集模型输出排序数据，通过基于人类反馈的强化学习（RLHF）进一步微调，得到 InstructGPT。",
+  "evaluation": "在其提示分布上的人工评测；真实性与有害输出评测；公开 NLP 数据集上的性能回退。",
+  "summary": "InstructGPT 确立了 SFT + 奖励模型 + RLHF 的对齐范式。作者称 1.3B 的 InstructGPT 输出比 175B GPT-3 更受偏好，真实性提升、有害输出减少，在公开 NLP 数据集上性能回退很小。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0331": {
+  "problem": "给定计算预算下，Transformer 语言模型的最优参数量与训练 token 数应如何分配。",
+  "method": "训练 400 多个 70M 到 16B 参数、5B 到 500B token 的语言模型拟合规律，得出模型规模与训练 token 数应等比例扩展的结论，并据此训练与 Gopher 计算量相同但 70B 参数、4 倍数据的 Chinchilla 进行验证。",
+  "evaluation": "大量下游评测任务，包括 MMLU；与 Gopher、GPT-3、Jurassic-1、Megatron-Turing NLG 比较。",
+  "summary": "Chinchilla 论文指出当时的大模型普遍训练不足，提出影响深远的计算最优扩展规律。作者称 Chinchilla 在广泛任务上一致且显著优于 Gopher（280B）、GPT-3 等更大模型，MMLU 平均准确率达 67.5%，比 Gopher 高 7% 以上。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0332": {
+  "problem": "RLHF 先拟合奖励模型再用 RL 微调，流程复杂且常不稳定。",
+  "method": "提出 RLHF 中奖励模型的新参数化，使对应最优策略可闭式得到，从而只需一个简单的分类损失即可求解标准 RLHF 问题，即直接偏好优化（DPO），无需在微调时从语言模型采样或大量调参。",
+  "evaluation": "生成情感控制、摘要与单轮对话任务，与基于 PPO 的 RLHF 比较。",
+  "summary": "DPO 是偏好对齐领域的奠基性方法，稳定、高效且易实现。作者称其对齐效果与现有方法相当或更好，在情感控制上超过基于 PPO 的 RLHF，在摘要和单轮对话上持平或提升回答质量。",
+  "difficulty": "高级",
+  "priority": "高"
+ }
+}

@@ -1,0 +1,410 @@
+{
+ "MLP0439": {
+  "problem": "为（深度）强化学习与序贯决策领域提供一份全景式、与时俱进的总览。",
+  "method": "以长篇讲义形式系统梳理 value-based、policy-based、model-based 方法、multi-agent RL、LLM 与 RL 的结合，以及 offline RL、hierarchical RL、intrinsic reward 等主题，并附带用 RL 训练 LLM 的代码片段。",
+  "evaluation": "教程/综述性质，无实验评测；摘要未列出数据集。",
+  "summary": "这是一份覆盖面很广的深度强化学习总览手稿，从经典值方法、策略梯度到模型式方法和多智能体 RL 均有涉及。文中还专门讨论 LLM 与 RL 的关系，并提供训练 LLM 的 RL 代码片段，适合作为入门与查阅的总纲。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0440": {
+  "problem": "用均方误差回归训练价值函数的值方法深度 RL 难以扩展到大网络（如高容量 Transformer）。",
+  "method": "用 categorical cross-entropy 分类损失替代回归损失来训练价值函数，并分析其收益来源。",
+  "evaluation": "Atari 2600 单任务（SoftMoE）、Atari 多任务（大规模 ResNet）、Q-transformer 机器人操作、无搜索国际象棋、语言智能体 Wordle 任务。",
+  "summary": "论文研究仅把价值函数的训练目标从回归改为分类能否提升深度 RL 的可扩展性。作者称该做法在多个领域显著提升性能与可扩展性并达到 state-of-the-art；分析表明收益主要来自缓解目标噪声与非平稳性等值方法固有问题。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0441": {
+  "problem": "深度 RL 中增大模型参数量常常损害最终性能，缺乏类似监督学习的 scaling law。",
+  "method": "在 value-based 网络中引入 Mixture-of-Experts 模块，特别是 Soft MoE，使模型更易随参数扩展。",
+  "evaluation": "多种训练设定与模型规模；摘要未列出具体数据集或环境。",
+  "summary": "论文将 Soft MoE 等 MoE 模块加入值方法网络，考察参数规模扩展效果。作者称这带来更可随参数扩展的模型，并在多种训练设定和模型规模下观察到显著性能提升，为建立 RL 的 scaling law 提供了经验证据。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0442": {
+  "problem": "深度 RL 智能体难以有效利用其网络参数。",
+  "method": "在 value-based 智能体训练中使用 gradual magnitude pruning（渐进式幅值剪枝）这一稀疏训练技术。",
+  "evaluation": "摘要未说明评测环境或数据集。",
+  "summary": "论文借鉴稀疏训练的已有见解，将渐进式幅值剪枝用于值方法深度 RL。作者称剪枝后的网络只用全网络的一小部分参数，却比传统网络取得大幅性能提升。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0443": {
+  "problem": "强化学习的样本效率传统上依赖算法改进，缩放模型容量的作用尚未被充分利用。",
+  "method": "系统研究模型容量缩放与 RL 特定改进的相互作用，据此提出 BRO：用强正则化使 critic 网络可有效扩大，并结合乐观探索。",
+  "evaluation": "DeepMind Control、MetaWorld、MyoSuite 三个基准共 40 个复杂任务，包括 Dog 与 Humanoid 任务。",
+  "summary": "BRO（Bigger, Regularized, Optimistic）表明扩大规模同样能显著提升连续控制的样本效率。作者称 BRO 在 40 个任务上显著超过领先的 model-based 与 model-free 算法，并且是首个在 Dog 与 Humanoid 任务上达到接近最优策略的 model-free 算法。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0444": {
+  "problem": "深度 RL 中网络的设计与参数规模扩展研究较少，缺少能随规模受益的架构。",
+  "method": "提出 SimBa 架构，通过注入 simplicity bias 来扩展参数：包括基于运行统计的观测归一化层、提供输入到输出线性通路的残差前馈块，以及控制特征幅度的 layer normalization。",
+  "evaluation": "DMC、MyoSuite、HumanoidBench；覆盖 off-policy、on-policy 与无监督 RL 算法。",
+  "summary": "SimBa 借鉴 CV/NLP 中大模型通过简单性偏置避免过拟合的思路，为 RL 设计可扩展的网络结构。作者称用 SimBa 扩大参数能一致提升多种 RL 算法的样本效率，且仅把 SimBa 接入 SAC 即可以较高计算效率达到或超过 state-of-the-art 方法。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0445": {
+  "problem": "值方法 off-policy RL 能否像其他 ML 方法一样，从小规模实验可预测地外推大规模性能。",
+  "method": "表明达到给定性能所需的数据与算力位于由 updates-to-data (UTD) 比率控制的 Pareto 前沿；据此预测资源需求、在数据与算力间最优分配预算，并通过估计超参数之间的可预测关系来管理过拟合与可塑性丧失。",
+  "evaluation": "SAC、BRO、PQL 三种算法，在 DeepMind Control、OpenAI gym、IsaacGym 上外推到更高的数据、算力、预算或性能水平。",
+  "summary": "论文反驳社区关于值方法 RL 行为病态、不可预测的看法，给出基于 UTD 比率的资源 Pareto 前沿与预算分配方法。作者称该方法可在不跑大规模实验的情况下预测数据与算力需求，并据此选取给定预算下的最佳超参数。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0446": {
+  "problem": "自监督 RL 尚未取得类似语言与视觉中的规模化突破，且多数 RL 工作只用 2–5 层的浅层网络。",
+  "method": "研究可扩展自监督 RL 的构建要素，将网络深度增加到最多 1024 层，用于无监督目标条件设定下的 contrastive RL。",
+  "evaluation": "模拟的运动（locomotion）与操作（manipulation）任务，无示范、无奖励的无监督目标条件设定。",
+  "summary": "论文表明网络深度是自监督 RL 可扩展性的关键因素。作者称将深度提升到上千层可使自监督 contrastive RL 的性能提高 2 到 50 倍，超过其他目标条件基线，且加深模型还会在质上改变所学行为。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0447": {
+  "problem": "非平稳训练（如深度 RL）中神经网络的可塑性丧失有哪些机制、它们如何重叠，以及如何组合缓解策略。",
+  "method": "将可塑性丧失分解为多个相互独立的机制，并论证需同时干预多个机制；具体发现 layer normalization 与 weight decay 的组合能有效保持可塑性。",
+  "evaluation": "多种合成非平稳学习任务，以及 Arcade Learning Environment 上的强化学习等自然出现的非平稳场景。",
+  "summary": "论文指出可塑性丧失由多个独立机制共同造成，只干预单一机制不足以在所有情况下避免该问题。作者称同时干预多个机制可得到高度稳健的学习算法，其中 layer norm 加 weight decay 的组合在合成任务和 ALE 上均有效。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0448": {
+  "problem": "如何设计一种既简单又具备深度探索能力的强化学习探索策略。",
+  "method": "提出 Random Latent Exploration (RLE)：让智能体追求在潜在空间中随机采样的目标，以探索环境的不同部分，避免复杂的奖励加成计算。",
+  "evaluation": "离散任务（如 Atari）和连续控制任务（如 Isaac Gym）。",
+  "summary": "RLE 介于基于噪声的探索和基于 bonus 的探索之间，像前者一样简单，又保留后者的深度探索优势。作者称 RLE 平均优于这两类方法，并可作为通用插件接入现有 RL 算法。",
+  "difficulty": "入门",
+  "priority": "低"
+ },
+ "MLP0449": {
+  "problem": "离线 RL 常不如模仿学习，其主要瓶颈究竟是价值函数学习还是其他环节。",
+  "method": "系统实证研究离线 RL 中的价值学习、策略提取与策略泛化三个组成部分；并提出两种简单的测试时策略改进方法。",
+  "evaluation": "离线 RL 问题上的系统实验；摘要未列出具体数据集。",
+  "summary": "论文发现策略提取算法的选择往往比价值学习目标更影响性能与可扩展性，例如从 AWR 类价值加权行为克隆换为 DDPG+BC 类行为约束策略梯度常有显著改善。另一大障碍是策略在训练数据支撑之外的测试状态上泛化不佳；作者称使用高覆盖但次优的数据或测试时策略训练可缓解这一问题。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0450": {
+  "problem": "用 RL 训练表达力强的 flow-matching 策略很困难，因为动作生成是迭代过程。",
+  "method": "提出 flow Q-learning (FQL)：不直接引导迭代式 flow 策略最大化价值，而是用 RL 训练一个表达力强的一步策略，从而避免不稳定的递归反向传播和测试时的迭代生成。",
+  "evaluation": "OGBench 与 D4RL 中 73 个基于状态和像素的任务，涵盖离线 RL 与 offline-to-online RL。",
+  "summary": "FQL 是一种简单的离线 RL 方法，利用 flow-matching 策略建模数据中任意复杂的动作分布。作者称该方法在大体保持表达力的同时消除了昂贵的迭代动作生成，并在 73 个任务上表现强劲。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0451": {
+  "problem": "离线目标条件强化学习（offline GCRL）缺乏能系统评估算法能力的标准基准。",
+  "method": "提出 OGBench 基准，包含 8 类环境、85 个数据集以及 6 个代表性离线 GCRL 算法的参考实现，环境设计用于探测 stitching、长时程推理、高维输入与随机性处理等能力。",
+  "evaluation": "OGBench 自身的 8 类环境与 85 个数据集，对 6 个代表性算法进行评测。",
+  "summary": "OGBench 为离线目标条件 RL 提供了高质量、面向算法研究的基准。作者称在旧基准上排名相近的算法在 OGBench 的不同能力维度上表现出明显的优劣差异，可为新算法开发提供基础。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0452": {
+  "problem": "如何从无奖励的离线数据中以无监督方式预训练可零样本适配任意新任务的通用策略。",
+  "method": "学习保持环境时间结构的结构化表示（Hilbert 表示），再用潜空间中的方向性移动张成该空间，从而支持多种零样本策略 \"prompting\" 方案。",
+  "evaluation": "模拟机器人运动与操作基准，涵盖目标条件 RL 与一般 RL 任务。",
+  "summary": "论文提出一种无监督框架，从无标注离线数据预训练能捕捉多样、最优、长时程行为的 foundation policy。作者称其无监督策略可零样本解决目标条件和一般 RL 任务，且常常优于为各设定专门设计的先前方法。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0453": {
+  "problem": "离线 RL 预训练后的在线微调通常需继续使用离线数据，这既慢又可能限制性能提升。",
+  "method": "分析保留离线数据的作用，发现它主要用于防止微调开始时因分布不匹配导致的价值函数骤然发散；据此提出 Warm-start RL (WSRL)，用预训练策略的少量 rollout 做 warmup，重新校准离线 Q 函数后完全丢弃离线数据。",
+  "evaluation": "摘要未列出具体数据集或环境。",
+  "summary": "论文认为只要在线 RL 方法设计得当，离线到在线微调无需保留离线数据。作者称 WSRL 在不保留任何离线数据的情况下学习更快、性能更高，优于无论是否保留离线数据的现有算法。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0454": {
+  "problem": "行为克隆（BC）被认为在时间跨度上有不利的二次样本复杂度依赖，离线与在线模仿学习之间的差距究竟多大。",
+  "method": "从学习理论角度，在 realizable 设定和包括深度网络在内的一般策略类下，对使用 logarithmic loss 的行为克隆进行新的分析。",
+  "evaluation": "以理论分析为主，辅以标准 RL 任务和自回归语言生成上的实验。",
+  "summary": "论文证明只要累计回报范围和策略类的监督学习复杂度受控，离线模仿学习可达到与时间跨度无关的样本复杂度。对确定性平稳策略，dense reward 下离线 IL 可得到线性跨度依赖；且在不加额外假设时，即使在良性 MDP 中在线 IL 也无法改进使用 log loss 的离线 IL，说明二者差距比以往认为的小。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0455": {
+  "problem": "梳理扩散模型在强化学习中的应用这一新兴方向。",
+  "method": "先分析 RL 算法面临的挑战，再按扩散模型在 RL 中所扮演的角色对现有方法进行分类，并讨论其如何应对这些挑战。",
+  "evaluation": "综述性质，无实验评测；摘要未列出数据集。",
+  "summary": "该综述概述了扩散模型在 RL 中的应用，提出基于扩散模型角色的分类法，并介绍其在多种 RL 相关任务中的成功应用。文末总结并给出未来研究方向，作者维护有相关论文的 GitHub 仓库。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0456": {
+  "problem": "主流世界模型将环境压缩为离散潜变量，可能丢失对强化学习重要的视觉细节。",
+  "method": "提出 DIAMOND：在扩散世界模型中训练 RL 智能体，并分析使扩散模型适合世界建模的关键设计选择。",
+  "evaluation": "Atari 100k 基准；另在静态 Counter-Strike: Global Offensive 游戏数据上训练独立的交互式神经游戏引擎。",
+  "summary": "DIAMOND 用扩散模型作为环境模型，表明更好的视觉细节能带来更好的智能体表现。作者称其在 Atari 100k 上达到 1.46 的平均人类归一化分数，为完全在世界模型中训练的智能体的新最佳；其扩散世界模型还可单独作为可交互的神经游戏引擎。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0457": {
+  "problem": "多任务、多形态设定下 RL 表现不佳，世界模型方法又常依赖低效的无梯度优化来提取策略。",
+  "method": "提出 PWM：先在离线数据上预训练多任务世界模型，再利用良好正则化的世界模型提供的更平滑优化景观，用一阶优化提取策略。",
+  "evaluation": "连续控制任务，最高 152 维动作空间，以及 80 个任务的多任务设定。",
+  "summary": "论文发现良好正则化的世界模型比真实动力学具有更平滑的优化景观，从而有利于一阶策略优化。作者称 PWM 每个任务不到 10 分钟即可提取策略，优于使用真实动力学的方法，并在 80 任务设定中在不依赖昂贵在线规划的情况下奖励比基线高最多 27%。",
+  "difficulty": "高级",
+  "priority": "低"
+ },
+ "MLP0458": {
+  "problem": "现有样本高效 RL 算法无法在多样领域中一致取得优异表现。",
+  "method": "提出 EfficientZero V2 通用框架，将 EfficientZero 扩展到连续与离散动作、视觉与低维输入等多个领域，并提出一系列改进。",
+  "evaluation": "有限数据设定下的 66 个任务，覆盖 Atari 100k、Proprio Control、Vision Control 等基准。",
+  "summary": "EfficientZero V2 是面向样本高效 RL 的通用 model-based 框架。作者称其在有限数据设定下显著超过当前 SOTA，并在 66 个任务中的 50 个上优于通用算法 DreamerV3。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0459": {
+  "problem": "对世界模型这一概念及相关文献进行全面梳理。",
+  "method": "按两大功能对世界模型进行系统分类：构建内部表示以理解世界机制，以及预测未来状态以模拟和指导决策；并考察其在各关键领域的应用。",
+  "evaluation": "综述性质，无实验评测；涉及生成式游戏、自动驾驶、机器人与 social simulacra 等应用领域。",
+  "summary": "该综述在多模态大模型与视频生成模型兴起的背景下，全面回顾世界模型研究，区分“理解世界”与“预测未来”两类功能。文章还讨论各应用领域如何利用这些功能，并总结关键挑战与未来方向。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0460": {
+  "problem": "RLHF 中作为标准的 PPO 计算开销大且超参数敏感。",
+  "method": "认为促使 PPO 诞生的诸多动机在 RLHF 中并非实际问题，以简单为原则回归 REINFORCE 风格的优化变体，去掉 PPO 中不必要的组件。",
+  "evaluation": "LLM 的人类偏好对齐场景；摘要未列出具体数据集。",
+  "summary": "论文在 LLM 对齐语境下重新审视 RL 的建模，表明 PPO 的许多组件在 RLHF 中并不必要。作者称更简单的 REINFORCE 风格变体优于 PPO 以及 DPO、RAFT 等“RL-free”方法，从而以低成本获得在线 RL 优化的好处。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0461": {
+  "problem": "偏好微调 LLM 时哪类方法（监督学习、on-policy RL、对比学习）重要、为什么，现有结论相互矛盾。",
+  "method": "在教学性问题和完整规模 LLM 问题上严格分析多种微调技术，并将 on-policy 采样与“negative gradient”统一到针对类别分布的 mode-seeking 目标概念下。",
+  "evaluation": "教学性（didactic）问题与完整规模的 LLM 偏好微调问题；摘要未列出具体数据集。",
+  "summary": "论文的主要发现是：使用 on-policy 采样或压低某些回答似然（negative gradient）的方法，总体上优于离线和最大似然目标。作者用 mode-seeking 目标能更快地在类别分布各 bin 间转移概率质量来解释这一现象，并给出偏好数据收集的实用建议。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0462": {
+  "problem": "现代 LLM 的自我纠错能力基本无效，而现有训练方法依赖多个模型、更强模型或额外监督。",
+  "method": "提出 SCoRe：多轮在线 RL 方法，完全使用自生成数据，在模型自身的纠错轨迹分布上训练；先在基础模型上做多轮 RL 得到不易崩塌的初始化，再用奖励加成放大自我纠错行为。",
+  "evaluation": "Gemini 1.0 Pro 与 1.5 Flash 模型，在 MATH 和 HumanEval 上评测。",
+  "summary": "论文先说明在离线生成的纠错轨迹上做 SFT 会遭遇分布不匹配或行为崩塌，再提出带正则化的多轮在线 RL 方法 SCoRe。作者称 SCoRe 达到 state-of-the-art 的自我纠错性能，使两种基础模型在 MATH 和 HumanEval 上的自我纠错分别提升 15.6% 和 9.1%。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0463": {
+  "problem": "LLM 推理任务需要多步后才获得奖励，PPO 的价值网络在信用分配上效果存疑。",
+  "method": "系统评估价值网络在推理任务中的表现，并提出 VinePPO，利用语言环境可重置的灵活性计算无偏的 Monte Carlo 价值估计以替代价值网络。",
+  "evaluation": "MATH 与 GSM8K 数据集。",
+  "summary": "论文发现价值网络在重推理的 LLM 任务中常常估计不准，比较候选步骤时几乎不比随机基线好。作者称 VinePPO 在 MATH 和 GSM8K 上一致优于 PPO 等基线，所需 wall-clock 时间更少（最多 3.0 倍），并在相同训练精度下取得更高测试精度。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0464": {
+  "problem": "批判性地理解 R1-Zero 式（无 SFT、直接大规模 RL）训练中基础模型与 RL 两部分各自的作用。",
+  "method": "考察包括 DeepSeek-V3-Base 在内的多种基础模型的预训练特性，并指出 GRPO 存在人为拉长回答长度的优化偏差，提出无偏的 Dr. GRPO，形成极简 R1-Zero 训练配方。",
+  "evaluation": "多种基础模型（包括 DeepSeek-V3-Base、Qwen2.5 base）；数学推理评测包括 AIME 2024。",
+  "summary": "论文发现 DeepSeek-V3-Base 已出现 “Aha moment”，Qwen2.5 基础模型无提示模板也有强推理能力，暗示预训练偏差。作者指出 GRPO 会人为增加回答长度（尤其是错误回答），提出的 Dr. GRPO 提高 token 效率；作者称其极简配方以 7B 基础模型在 AIME 2024 上达到 43.3% 准确率，为新的 state-of-the-art。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0465": {
+  "problem": "现有 zero RL 训练复现大多基于 Qwen2.5 系列，可能不具代表性。",
+  "method": "在 10 个不同家族和规模的基础模型上研究 zero RL 训练，采用调整格式奖励、控制问题难度等关键设计策略，并细致监测训练动态。",
+  "evaluation": "10 个基础模型：LLama3-8B、Mistral-7B/24B、DeepSeek-Math-7B、Qwen2.5-math-7B 及 0.5B–32B 的全部 Qwen2.5 模型；评测推理准确率与回答长度。",
+  "summary": "论文发现 Qwen2.5 基础模型本身已具备较强的指令跟随和自我反思能力，因此跨模型研究 zero RL 更有意义。作者称其设计在多数设定下显著提升了推理准确率与回答长度，但不同基础模型训练动态各异，回答变长并不总伴随验证等认知行为；并首次在非 Qwen 小模型中观察到 “aha moment”。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0466": {
+  "problem": "RL 是否真正扩展了 LLM 的推理能力，还是仅放大基础模型中已潜在的高奖励输出；持续加大 RL 算力是否可靠有效。",
+  "method": "提出 ProRL 训练方法，结合 KL 散度控制、参考策略重置以及多样化任务集合，进行长时间 RL 训练。",
+  "evaluation": "多种 pass@k 评测，包括基础模型无论采样多少次都失败的场景；摘要未列出具体数据集。",
+  "summary": "论文认为长时间 RL 训练能发现基础模型即使大量采样也无法得到的新推理策略。作者称 RL 训练模型在广泛的 pass@k 评测上持续优于基础模型，且推理边界的提升与基础模型的任务能力及训练时长强相关。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0467": {
+  "problem": "系统介绍从人类反馈中学习而非依赖人工设计奖励函数的 RLHF。",
+  "method": "梳理 RLHF 的基础、RL 智能体与人类反馈的交互方式、核心原理与研究趋势，覆盖多个领域，重点在控制与机器人，并设 LLM 专节。",
+  "evaluation": "综述性质，无实验评测；摘要未列出数据集。",
+  "summary": "该综述从 preference-based RL 出发，全面介绍 RLHF 的基本原理以及算法与人类反馈如何协同工作。与多数聚焦 LLM 的材料不同，它对控制与机器人领域覆盖最全面，同时包含 LLM 部分，适合建立对 RLHF 的整体认识。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0468": {
+  "problem": "RLHF 的常用形式（reverse-KL 正则化的 contextual bandit）缺乏严格理论分析，现有 offline PPO/DPO 缺少策略性探索。",
+  "method": "在离线、在线与混合三种设定下研究该形式并给出具有有限样本理论保证的高效算法；进而导出在线迭代版 DPO 和离线多步拒绝采样等实用算法。",
+  "evaluation": "理论分析加上真实世界的 LLM 对齐实验；摘要未列出具体数据集。",
+  "summary": "论文将 RLHF 形式化为 reverse-KL 正则化的 contextual bandit，在三种设定下给出理论保证的算法。作者称由此导出的迭代 DPO 与多步拒绝采样方法在 LLM 对齐实验中显著超过 DPO 和 RSO 等强基线，体现了理论与实践的联系。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0469": {
+  "problem": "不显式使用奖励模型的直接对齐算法（DAA，如 DPO）是否也会出现奖励过优化（reward hacking）。",
+  "method": "通过大量实验，形式化 DAA 中的奖励过优化问题，并考察其在不同目标、训练方式与模型规模下的表现。",
+  "evaluation": "多种 KL 预算、训练目标、训练方式与模型规模的实证实验；摘要未列出具体数据集。",
+  "summary": "论文发现 DAA 虽无独立的代理奖励模型，但在较高 KL 预算下表现出与经典 RLHF 相似的退化模式。作者称这种退化在广泛的 KL 预算范围内都会出现，且常常在完成一个数据集 epoch 之前就已发生。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0470": {
+  "problem": "现有 LLM 的 RL 方法多优化单轮奖励，难以在多轮智能体任务中进行信息搜集、信用分配与对过往动作的推理。",
+  "method": "提出分层多轮 RL 框架 ArCHer：并行运行高层 off-policy 值方法 RL（在话语层面聚合奖励）和低层 RL（利用高层价值函数在每轮内训练 token 策略）。",
+  "evaluation": "多轮智能体任务（摘要未列出具体数据集），模型规模测试到 7B。",
+  "summary": "ArCHer 在保留现有单轮 RL 方法灵活性的同时，处理多轮、长时程和延迟奖励问题。作者称其在智能体任务上显著提升效率与性能，样本效率约为现有方法的 100 倍，且随模型容量增大而进一步提升。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0471": {
+  "problem": "现成 VLM 缺乏决策类数据，静态示范训练难以应对真实 GUI 设备控制中的随机性与非平稳性。",
+  "method": "提出 DigiRL：两阶段微调预训练 VLM（先离线 RL 初始化，再 offline-to-online RL），构建带 VLM 评估器的可扩展并行 Android 学习环境，使用考虑随机性的增强优势估计的 advantage-weighted RL 及自动课程。",
+  "evaluation": "Android-in-the-Wild (AitW) 数据集，1.3B VLM。",
+  "summary": "DigiRL 用自主强化学习训练真实环境中的设备控制智能体。作者称其 1.3B VLM 的成功率从 SFT 的 17.7% 提升到 67.2%，超过 GPT-4V 版 AppAgent、17B CogAgent 以及基于 filtered behavior cloning 的此前最佳自主 RL 方法。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0472": {
+  "problem": "梳理 RL 智能体不更新参数、仅凭上下文（如动作-观测历史）解决新任务的现象，即 in-context RL。",
+  "method": "对 in-context reinforcement learning 相关工作进行综述；摘要未进一步说明分类方式或内容组织。",
+  "evaluation": "综述性质；摘要极为简短，未说明覆盖范围或评测。",
+  "summary": "该综述关注一类无需反向传播更新参数、仅靠条件化于额外上下文即可解决新任务的 RL 智能体。摘要仅一两句，未说明具体组织结构与结论，需阅读正文了解详情。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0473": {
+  "problem": "当前 LLM 能否在不经训练干预的情况下，原生地进行强化学习与决策中所需的探索。",
+  "method": "将 LLM 作为智能体部署在简单多臂老虎机环境中，环境描述与交互历史完全放在提示中，测试多种提示设计。",
+  "evaluation": "多臂老虎机环境；模型包括 GPT-3.5、GPT-4、Llama2。",
+  "summary": "论文发现模型在没有大量干预时无法稳健地探索：所有实验中只有 GPT-4 配合 chain-of-thought 且交互历史经外部汇总为充分统计量的配置表现令人满意。作者据此认为，在复杂设定中可能需要微调或数据集整理等非平凡算法干预才能使 LLM 决策智能体有效探索。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0474": {
+  "problem": "构建能在任意 3D 环境中遵循任意语言指令的具身智能体，需要把语言落地到感知与动作。",
+  "method": "SIMA 项目在多样虚拟 3D 环境（研究环境与商业电子游戏）中训练智能体，使用类人通用接口：输入图像观测和语言指令，输出键盘鼠标动作，并尽量少作假设。",
+  "evaluation": "若干研究环境与多款商业电子游戏；摘要称为初步结果，未给出量化指标。",
+  "summary": "论文介绍 SIMA 项目的动机、目标与初步进展，目标是让智能体在任何模拟 3D 环境中完成人类能做的事。摘要报告了在多种研究环境和商业游戏上“有前景的初步结果”，但未给出具体数值。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0475": {
+  "problem": "现有 vision-language-action (VLA) 模型多为闭源，且缺少面向新任务的高效微调方法研究。",
+  "method": "提出 7B 参数开源 VLA 模型 OpenVLA：基于 Llama 2 语言模型，结合融合 DINOv2 与 SigLIP 预训练特征的视觉编码器，在 97 万条真实机器人示范上训练；并研究 LoRA 微调和量化部署。",
+  "evaluation": "29 个任务、多种机器人形态；多物体、多任务环境的微调评测；数据来自 Open X-Embodiment 等。",
+  "summary": "OpenVLA 是开源的通用机器人操作 VLA 模型，同时公开权重、微调 notebook 与训练代码。作者称其以少 7 倍的参数在绝对任务成功率上超过 55B 的 RT-2-X 16.5%，微调后超过 Diffusion Policy 20.4%，且可在消费级 GPU 上用低秩适配微调、经量化高效部署而不损失成功率。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0476": {
+  "problem": "机器人学习要达到真实系统所需的通用性，面临数据、泛化与鲁棒性方面的重大障碍。",
+  "method": "在预训练 VLM 之上构建新的 flow matching 架构以继承互联网规模的语义知识，并在多个灵巧机器人平台（单臂、双臂、移动操作臂）的大规模多样数据上训练。",
+  "evaluation": "预训练后的零样本任务执行、遵循人类与高层 VLM 策略的语言指令、通过微调习得新技能；任务包括叠衣服、清理桌面、组装纸箱等。",
+  "summary": "π0 是一种面向通用机器人控制的 vision-language-action flow 模型，探讨通用机器人策略（robot foundation model）如何应对通用性挑战。论文从零样本能力、语言指令跟随和微调习得新技能三方面进行评估，覆盖多种灵巧任务；摘要未给出具体数值。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0477": {
+  "problem": "通用机器人策略需要处理多样传感器和动作空间、适配多种平台，并能高效微调到新领域。",
+  "method": "提出 Octo：基于 Transformer 的大型策略，在 Open X-Embodiment 数据集的 80 万条轨迹上训练，可通过语言指令或目标图像指定任务，并能在消费级 GPU 上数小时内微调到新的观测与动作空间。",
+  "evaluation": "9 个机器人平台上的实验，并对架构与训练数据等设计决策做详细消融。",
+  "summary": "Octo 旨在为开源、广泛适用的通用机器人操作策略奠定基础。作者称它可作为多用途的策略初始化，被有效微调到新的观测和动作空间；论文的消融实验可为构建通用机器人模型提供设计参考。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0478": {
+  "problem": "多智能体 RL 环境传统上运行在 CPU 上，限制了在常规学术算力下的可扩展性。",
+  "method": "提出 JaxMARL：首个基于 Python 的开源库，结合 GPU 加速效率与大量常用 MARL 环境和基线算法；并提出 SMAX，即 StarCraft Multi-Agent Challenge 的 JAX 近似重实现，无需运行 StarCraft II 引擎。",
+  "evaluation": "常用 MARL 环境与基线算法的训练速度对比，以及在 SMAX 上的基准测试。",
+  "summary": "JaxMARL 将 JAX 硬件加速引入多智能体 RL，以支持高效而充分的评测。作者称其训练流程在 wall-clock 时间上比现有方法快约 14 倍，多次训练向量化时可快至 12500 倍；SMAX 也为自博弈、元学习等研究提供更灵活的环境。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0479": {
+  "problem": "现有开放式学习基准要么太慢（Crafter、NetHack、Minecraft），要么不够难（Minigrid、Procgen）。",
+  "method": "用 JAX 从头重写 Crafter 得到 Craftax-Classic；并在其基础上借鉴 NetHack 元素扩展出更具挑战的 Craftax 主基准。",
+  "evaluation": "Craftax-Classic 与 Craftax；测试 PPO、全局与 episodic 探索方法、无监督环境设计等现有方法。",
+  "summary": "Craftax 提供在有限算力下即可运行的复杂开放式 RL 环境。作者称 Craftax-Classic 比原 Python 实现快至 250 倍，单 GPU 上 10 亿步 PPO 不到一小时即可完成；而现有方法在 Craftax 主基准上都未取得实质进展，需要深度探索、长期规划与记忆。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0480": {
+  "problem": "缺乏能全面评估 LLM/VLM 在复杂动态环境中智能体能力（长期规划、空间推理、持续探索等）的方法。",
+  "method": "提出 BALROG 基准，整合一系列难度各异的现有强化学习游戏环境（从数秒可解到如 NetHack 需多年掌握），并设计细粒度性能指标。",
+  "evaluation": "多款开源与闭源 LLM 与 VLM 在 BALROG 游戏环境（含 NetHack Learning Environment）上的评测。",
+  "summary": "BALROG 通过多样游戏评测 LLM 与 VLM 的智能体推理能力。作者发现当前模型在简单游戏上部分成功，但在困难任务上表现很差；尤其在视觉决策方面存在严重不足，若干模型在提供环境的视觉表示后反而表现更差。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0481": {
+  "problem": "TRPO 理论保证强但依赖二阶优化，PPO 用比率裁剪提高效率却牺牲部分理论性质，能否兼得。",
+  "method": "提出 Simple Policy Optimization (SPO)：一种无约束一阶算法，对 PPO 的策略损失稍作修改，以更好地将概率比率约束在信任域内。",
+  "evaluation": "摘要未列出具体环境或数据集，仅称在训练大型复杂网络端到端时进行了比较。",
+  "summary": "SPO 旨在结合 TRPO 与 PPO 的优点，替代比率裁剪的新目标具有更强的理论性质。作者称 SPO 实现简单，且优于 PPO，尤其是在端到端训练大型复杂网络架构时。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0482": {
+  "problem": "RL 研究中的基准实验做法仍常产生误导或无依据的结论。",
+  "method": "分析严谨实验设计中计算成本增加的来源，论证严谨的性能基准实验成本往往高得难以承受，并主张引入额外的实验范式。",
+  "evaluation": "以对实验设计计算成本的分析为主的立场论文；摘要未列出具体环境。",
+  "summary": "这是一篇立场论文，指出严谨基准评测所需的计算时间是不良实验实践持续存在的原因之一。作者认为严谨基准的计算成本常常令人望而却步，因此主张用另一种实验范式补充基准评测的局限。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0483": {
+  "problem": "LLM 是否具备规划能力，以及号称“大型推理模型（LRM）”的 OpenAI o1 能否突破这一局限。",
+  "method": "在作者 2022 年提出的可扩展规划基准 PlanBench 上，全面评测当前 LLM 与新的 LRM（o1）。",
+  "evaluation": "PlanBench 基准；对象为多种 LLM 与 OpenAI o1。",
+  "summary": "论文指出自 GPT-3 以来 LLM 在 PlanBench 上进展出乎意料地缓慢。作者称 o1 在该基准上有质的提升、超过竞争者，但离饱和仍远，并提出部署此类系统前需考虑的准确性、效率与保证等问题。",
+  "difficulty": "入门",
+  "priority": "低"
+ },
+ "MLP0484": {
+  "problem": "将 LLM 从被动序列生成器重塑为在复杂动态世界中自主决策的智能体，需要对 Agentic RL 这一范式转变加以形式化与梳理。",
+  "method": "将 LLM-RL 的退化单步 MDP 与 Agentic RL 的时间扩展、部分可观测 POMDP 进行对比；提出双重分类法：按核心智能体能力（规划、工具使用、记忆、推理、自我改进、感知）和按应用任务领域；并汇总开源环境、基准与框架。",
+  "evaluation": "综述性质，综合 500 余篇近期工作；无实验评测。",
+  "summary": "该综述形式化了从传统 LLM RL 到 Agentic RL 的概念转变，核心论点是 RL 是把各项能力从静态启发式模块转变为自适应、鲁棒智能体行为的关键机制。文中整理了开源环境、基准与框架，并讨论构建可扩展通用 AI 智能体的机遇与挑战。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0485": {
+  "problem": "如何用强化学习直接从高维感知输入（原始像素）学习控制策略。",
+  "method": "使用以 Q-learning 变体训练的卷积神经网络，输入原始像素，输出估计未来奖励的价值函数（即 DQN）。",
+  "evaluation": "Arcade Learning Environment 中的 7 款 Atari 2600 游戏，架构与算法不做调整。",
+  "summary": "这是首个用强化学习直接从高维感知输入成功学习控制策略的深度学习模型。作者称该方法在 6 款游戏上优于此前所有方法，并在其中 3 款上超过人类专家。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0486": {
+  "problem": "标准策略梯度方法每个样本只做一次梯度更新，TRPO 又实现复杂，需要更简单高效的策略优化方法。",
+  "method": "提出 PPO：交替进行环境交互采样与用随机梯度上升优化“surrogate”目标函数，新的目标允许对同一批数据进行多轮 minibatch 更新。",
+  "evaluation": "模拟机器人运动任务与 Atari 游戏等基准任务。",
+  "summary": "PPO 具备 TRPO 的部分优点，但实现更简单、更通用，且经验上样本复杂度更好。作者称 PPO 优于其他在线策略梯度方法，在样本复杂度、简单性与运行时间之间取得良好平衡。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0487": {
+  "problem": "model-free 深度 RL 存在样本复杂度高和收敛脆弱、需精细调参的问题。",
+  "method": "提出 soft actor-critic (SAC)：基于最大熵 RL 框架的 off-policy actor-critic 算法，actor 同时最大化期望奖励和熵，并结合稳定的随机 actor-critic 形式。",
+  "evaluation": "一系列连续控制基准任务；摘要未列出具体任务名称。",
+  "summary": "SAC 让智能体在完成任务的同时尽可能随机地行动，结合 off-policy 更新提高样本效率。作者称其在连续控制基准上达到 state-of-the-art，优于此前的 on-policy 和 off-policy 方法，且在不同随机种子下表现非常稳定。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0488": {
+  "problem": "能否将强化学习抽象为序列建模问题，以利用 Transformer 的简单性与可扩展性。",
+  "method": "提出 Decision Transformer：用因果掩码 Transformer，以期望回报、历史状态与动作为条件，自回归地输出动作，而不拟合价值函数或计算策略梯度。",
+  "evaluation": "Atari、OpenAI Gym 与 Key-to-Door 任务（离线 RL 设定）。",
+  "summary": "Decision Transformer 把 RL 转化为条件序列建模，借鉴 GPT、BERT 等语言建模进展。作者称尽管方法简单，其性能达到或超过 state-of-the-art 的 model-free 离线 RL 基线。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0489": {
+  "problem": "现有 RL 算法迁移到新领域需要大量专家经验与实验调参，缺少通用算法。",
+  "method": "提出 DreamerV3：学习环境模型并通过想象未来场景改进行为，采用基于归一化、平衡与变换的鲁棒性技术，使单一配置可跨领域稳定学习。",
+  "evaluation": "超过 150 个多样任务，使用单一配置；包括 Minecraft 从零收集钻石。",
+  "summary": "DreamerV3 是一种基于世界模型的通用 RL 算法。作者称其以单一配置在 150 多个任务上超过专门方法，并且是首个无需人类数据或课程、从零在 Minecraft 中收集到钻石的算法。",
+  "difficulty": "中级",
+  "priority": "高"
+ }
+}

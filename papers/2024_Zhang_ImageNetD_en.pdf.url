@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2403.18775v1
+
+[File]
+Name=2024_Zhang_ImageNetD_en.pdf
+Work=ImageNet-D: Benchmarking Neural Network Robustness on Diffusion Synthetic Object
+SizeBytes=8569848
+SHA256=f5582998d8084df2e888096da8219e7639a29a98b898b4d33df7687e1d0db90a
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2403.18775
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

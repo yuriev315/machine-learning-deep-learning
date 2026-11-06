@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
+
+[File]
+Name=Boyd_ConvexOptimization_2004_en.pdf
+Work=Convex Optimization
+SizeBytes=6881335
+SHA256=40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e
+DirectDownload=yes
+Checked=2026-11-05 SHA-256 verified
+Licence=no redistribution licence found
+SourcePage=https://web.stanford.edu/~boyd/cvxbook/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

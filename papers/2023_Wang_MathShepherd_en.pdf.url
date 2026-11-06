@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2312.08935v3
+
+[File]
+Name=2023_Wang_MathShepherd_en.pdf
+Work=Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations
+SizeBytes=827225
+SHA256=980b2b6b9e0042f86c6b6e4120fd056d5f1885d71c9c1d32416bcef2692f978d
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2312.08935
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

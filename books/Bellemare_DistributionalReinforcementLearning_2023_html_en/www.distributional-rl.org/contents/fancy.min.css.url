@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/fancy.min.css
+
+[File]
+Name=fancy.min.css
+Work=Distributional Reinforcement Learning
+SizeBytes=3189
+SHA256=0a793eccfc23b2346f742255b084564246ee088d48c04d2a3fb536dbd45bbce7
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

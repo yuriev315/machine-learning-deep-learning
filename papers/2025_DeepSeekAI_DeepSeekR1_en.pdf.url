@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2501.12948v2
+
+[File]
+Name=2025_DeepSeekAI_DeepSeekR1_en.pdf
+Work=DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+SizeBytes=5034998
+SHA256=b191b0a365a64b4ab2791d117069ed17a2933d03554a662ced58b37df52018f4
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2501.12948
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

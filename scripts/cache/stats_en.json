@@ -1,0 +1,118 @@
+{
+ "per_category": {
+  "C01": {
+   "verified_primary": 56,
+   "cross_listed": 94,
+   "recent": 51,
+   "recent_share": 0.911,
+   "older": 5,
+   "failed": 0
+  },
+  "C02": {
+   "verified_primary": 53,
+   "cross_listed": 24,
+   "recent": 48,
+   "recent_share": 0.906,
+   "older": 5,
+   "failed": 0
+  },
+  "C03": {
+   "verified_primary": 56,
+   "cross_listed": 30,
+   "recent": 51,
+   "recent_share": 0.911,
+   "older": 5,
+   "failed": 0
+  },
+  "C04": {
+   "verified_primary": 59,
+   "cross_listed": 65,
+   "recent": 54,
+   "recent_share": 0.915,
+   "older": 5,
+   "failed": 0
+  },
+  "C05": {
+   "verified_primary": 55,
+   "cross_listed": 37,
+   "recent": 50,
+   "recent_share": 0.909,
+   "older": 5,
+   "failed": 0
+  },
+  "C06": {
+   "verified_primary": 57,
+   "cross_listed": 123,
+   "recent": 52,
+   "recent_share": 0.912,
+   "older": 5,
+   "failed": 0
+  },
+  "C07": {
+   "verified_primary": 56,
+   "cross_listed": 22,
+   "recent": 51,
+   "recent_share": 0.911,
+   "older": 5,
+   "failed": 0
+  },
+  "C08": {
+   "verified_primary": 52,
+   "cross_listed": 5,
+   "recent": 47,
+   "recent_share": 0.904,
+   "older": 5,
+   "failed": 0
+  },
+  "C09": {
+   "verified_primary": 52,
+   "cross_listed": 30,
+   "recent": 47,
+   "recent_share": 0.904,
+   "older": 5,
+   "failed": 0
+  },
+  "C10": {
+   "verified_primary": 55,
+   "cross_listed": 58,
+   "recent": 50,
+   "recent_share": 0.909,
+   "older": 5,
+   "failed": 0
+  },
+  "C11": {
+   "verified_primary": 38,
+   "cross_listed": 0,
+   "recent": 17,
+   "recent_share": 0.447,
+   "older": 21,
+   "failed": 0
+  },
+  "C12": {
+   "verified_primary": 59,
+   "cross_listed": 0,
+   "recent": 23,
+   "recent_share": 0.39,
+   "older": 36,
+   "failed": 0
+  }
+ },
+ "unique": {
+  "原始研究论文": 506,
+  "教程/讲义式文章": 12,
+  "综述": 33,
+  "大学课程讲义": 38,
+  "教科书/专著/参考书": 59
+ },
+ "failures": 5,
+ "formats": {
+  "PDF": 626,
+  "HTML 离线完整正文": 10,
+  "PDF 资料包": 12
+ },
+ "venues_papers": {
+  "arXiv 预印本": 138,
+  "有正式渠道信息": 413
+ },
+ "total_unique": 648
+}

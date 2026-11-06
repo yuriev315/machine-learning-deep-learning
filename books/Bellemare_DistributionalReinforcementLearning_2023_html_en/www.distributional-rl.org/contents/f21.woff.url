@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/f21.woff
+
+[File]
+Name=f21.woff
+Work=Distributional Reinforcement Learning
+SizeBytes=6028
+SHA256=10cb956a32ffa0a55a67ba2c0658ae2976989157ee9ef6f1c29d2fad6d534023
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

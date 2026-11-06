@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2401.08514v1
+
+[File]
+Name=2024_Zhang_BeyondWeisfeilerLehman_en.pdf
+Work=Beyond Weisfeiler-Lehman: A Quantitative Framework for GNN Expressiveness
+SizeBytes=2785225
+SHA256=7f0e605bc0472ae33c2c3082141b868808a9f61845f7422d22591264aaee17d2
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2401.08514
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

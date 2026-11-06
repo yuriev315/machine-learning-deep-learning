@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2409.13373v1
+
+[File]
+Name=2024_Valmeekam_LLMsStillTPlan_en.pdf
+Work=LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench
+SizeBytes=2066833
+SHA256=998ca2d60ba3973d93ace3cebad3d492307c338d0256b1c2f0eae393bd032713
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2409.13373
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1502.03167v3
+
+[File]
+Name=2015_Ioffe_BatchNormalization_en.pdf
+Work=Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
+SizeBytes=173548
+SHA256=bdc69e0b568f41d8d3181cc9077a461f58fcdd1c70c9f49efe60a05ee6109655
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/1502.03167
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2407.03475v1
+
+[File]
+Name=2024_Littwin_JEPAAvoidsNoisyFeatures_en.pdf
+Work=How JEPA Avoids Noisy Features: The Implicit Bias of Deep Linear Self Distillation Networks
+SizeBytes=3507375
+SHA256=332054c52e3000240ba1ae13867ed1ae12a9b77757d9b70ff07236e574b62bae
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2407.03475
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

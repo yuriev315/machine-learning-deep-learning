@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2406.06525v1
+
+[File]
+Name=2024_Sun_AutoregressiveModelBeatsDiffusion_en.pdf
+Work=Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation
+SizeBytes=21965938
+SHA256=fd2c8453a061561d2bcb051eadf62f45aa3c17b2344499a7cf087fd53be4567d
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2406.06525
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

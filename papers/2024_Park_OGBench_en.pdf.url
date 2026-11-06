@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2410.20092v2
+
+[File]
+Name=2024_Park_OGBench_en.pdf
+Work=OGBench: Benchmarking Offline Goal-Conditioned RL
+SizeBytes=22156482
+SHA256=047b2c7b221487b79396b326cc0691350e52470c794fcef90b4d7254759a1047
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2410.20092
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

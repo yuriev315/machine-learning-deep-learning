@@ -1,0 +1,442 @@
+{
+ "MLP0221": {
+  "problem": "如何用一个基础模型统一解决图像和视频中的可提示视觉分割。",
+  "method": "构建通过用户交互同时改进模型与数据的数据引擎，收集大规模视频分割数据集；模型采用带流式记忆（streaming memory）的简单 Transformer 结构以实时处理视频。",
+  "evaluation": "图像分割与视频分割的多种任务（摘要未列出具体数据集）。",
+  "summary": "SAM 2 将 SAM 从图像扩展到视频，并发布模型、数据集与训练代码。作者称其在视频分割中以约 1/3 的交互次数取得更高精度，在图像分割上比 SAM 更准确且快 6 倍；作者称所收集的是迄今最大的视频分割数据集。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0222": {
+  "problem": "如何根据概念提示（短名词短语、图像示例或二者组合）在图像和视频中检测、分割并跟踪所有匹配的物体实例。",
+  "method": "定义可提示概念分割（PCS）任务；用可扩展数据引擎构建含 4M 唯一概念标签（含困难负样本）的数据集；模型由共享骨干的图像级检测器与基于记忆的视频跟踪器组成，并用 presence head 解耦识别与定位。",
+  "evaluation": "图像与视频上的 PCS 任务及既有 SAM 视觉分割任务；同时发布新基准 SA-Co。",
+  "summary": "SAM 3 把 SAM 系列从几何提示扩展到概念级提示，统一检测、分割与跟踪。作者称其在图像和视频 PCS 上将现有系统的精度提升一倍，并改进了以往 SAM 的视觉分割能力；模型与 SA-Co 基准开源。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0223": {
+  "problem": "如何构建对任意场景图像都鲁棒的单目深度估计基础模型。",
+  "method": "不追求新模块，而是用数据引擎自动标注约 62M 张无标签图像以扩大数据覆盖；借助数据增强构造更难的优化目标，并加入辅助监督使模型继承预训练编码器的语义先验。",
+  "evaluation": "6 个公开数据集及随手拍照片上的零样本深度估计；在 NYUv2、KITTI 上用度量深度微调；以及深度条件 ControlNet。",
+  "summary": "Depth Anything 展示了大规模无标签数据对单目深度估计的价值。作者称其零样本泛化能力很强，在 NYUv2 和 KITTI 上微调后取得新的 SOTA，并带来更好的深度条件 ControlNet。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0224": {
+  "problem": "如何获得比 V1 更精细、更鲁棒的单目深度预测。",
+  "method": "三项关键做法：用合成图像替代全部有标签真实图像；扩大教师模型容量；通过大规模伪标注真实图像教授学生模型。另提供 25M 到 1.3B 参数的多种规模并微调出度量深度模型。",
+  "evaluation": "与基于 Stable Diffusion 的深度模型比较；另构建了标注精确、场景多样的新评测基准（摘要未列出具体数据集名称）。",
+  "summary": "Depth Anything V2 总结了“合成数据 + 大教师 + 伪标签”的深度估计训练范式。作者称其比基于 Stable Diffusion 的最新模型快 10 倍以上且更准确；同时指出现有测试集多样性不足、噪声多，因此提出新基准。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0225": {
+  "problem": "野外多视图立体重建需要先估计相机内外参，过程繁琐但又是三角化的前提。",
+  "method": "提出 DUSt3R：把成对重建视为点图（pointmap）回归，放松射影相机模型的硬约束，统一单目与双目情形；多于两张图时用全局对齐把所有成对点图放到同一坐标系；网络基于标准 Transformer 编码器-解码器，可利用预训练模型。",
+  "evaluation": "单目/多视图深度估计、相对位姿估计、像素匹配与相机恢复等三维任务（摘要未列出具体数据集）。",
+  "summary": "DUSt3R 提出无需相机标定和位姿先验的稠密三维重建新范式，可直接输出场景三维模型并从中恢复匹配与相机参数。作者称其统一了多种三维视觉任务，并在单目/多视图深度估计和相对位姿估计上取得新的 SOTA。",
+  "difficulty": "高级",
+  "priority": "高"
+ },
+ "MLP0226": {
+  "problem": "三维视觉模型通常只针对单一任务，且依赖后处理的几何优化。",
+  "method": "提出 VGGT：一个前馈神经网络，从一张、少数几张或数百张视图直接推断相机参数、点图、深度图和三维点轨迹等全部关键三维属性。",
+  "evaluation": "相机参数估计、多视图深度估计、稠密点云重建、三维点跟踪；以及作为特征骨干用于非刚性点跟踪和前馈新视角合成。",
+  "summary": "VGGT 以单个前馈网络统一多种三维几何任务，作者称重建耗时不到一秒。作者称其在多项三维任务上达到 SOTA，且优于需要几何优化后处理的方法；预训练 VGGT 作为骨干还能显著提升下游任务。",
+  "difficulty": "高级",
+  "priority": "高"
+ },
+ "MLP0227": {
+  "problem": "图像匹配本质上是三维问题，却通常被当作二维问题处理；DUSt3R 匹配鲁棒但精度有限。",
+  "method": "在 DUSt3R 网络上新增输出稠密局部特征的头，并用额外的匹配损失训练；针对稠密匹配的二次复杂度提出快速互惠匹配方案，具有理论保证。",
+  "evaluation": "多个匹配任务，特别是 Map-free 定位数据集（VCRE AUC 指标）。",
+  "summary": "MASt3R 把图像匹配建立在三维重建框架上，兼顾鲁棒性与精度。作者称快速互惠匹配使匹配加速数个数量级，并在 Map-free 定位数据集上的 VCRE AUC 比已发表最佳方法高 30%（绝对值）。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0228": {
+  "problem": "YOLO 检测器依赖预定义的训练类别，难以用于开放场景。",
+  "method": "通过视觉-语言建模和大规模预训练为 YOLO 增加开放词汇检测能力，提出可重参数化的视觉-语言路径聚合网络 RepVL-PAN 和区域-文本对比损失。",
+  "evaluation": "LVIS 零样本检测；微调后的目标检测和开放词汇实例分割等下游任务。",
+  "summary": "YOLO-World 将开放词汇检测引入实时 YOLO 框架。作者称其在 LVIS 上以 V100 52.0 FPS 取得 35.4 AP，在精度和速度上优于许多 SOTA 方法。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0229": {
+  "problem": "YOLO 依赖 NMS 后处理影响端到端部署和推理延迟，且各组件设计存在计算冗余。",
+  "method": "提出一致的双重分配（consistent dual assignments）实现免 NMS 训练，并采用整体的效率-精度驱动模型设计策略，从效率和精度两方面优化 YOLO 各组件。",
+  "evaluation": "COCO 目标检测，覆盖多种模型规模，与 RT-DETR、YOLOv9 等对比。",
+  "summary": "YOLOv10 是面向实时端到端检测的新一代 YOLO。作者称 YOLOv10-S 在相近 AP 下比 RT-DETR-R18 快 1.8 倍、参数量与 FLOPs 少 2.8 倍；YOLOv10-B 与 YOLOv9-C 性能相同时延迟低 46%、参数少 25%。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0230": {
+  "problem": "数据在深度网络逐层特征提取中会丢失大量信息（信息瓶颈），影响梯度可靠性。",
+  "method": "提出可编程梯度信息（PGI），为目标任务提供完整输入信息以获得可靠梯度；并基于梯度路径规划设计轻量架构 GELAN。",
+  "evaluation": "MS COCO 目标检测。",
+  "summary": "YOLOv9 从信息瓶颈与可逆函数角度分析深度网络的信息损失。作者称 GELAN 仅用常规卷积即可比基于深度可分离卷积的方法有更好的参数利用率，且 PGI 使从零训练的模型优于用大数据集预训练的 SOTA 模型。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0231": {
+  "problem": "注意力机制建模能力强但速度慢，YOLO 架构改进长期集中于 CNN。",
+  "method": "提出以注意力为中心的 YOLO 框架 YOLOv12，在保持与 CNN 类 YOLO 相当速度的同时利用注意力的性能优势（摘要未详述具体模块）。",
+  "evaluation": "实时目标检测，在 T4 GPU 上与 YOLOv10/YOLOv11、RT-DETR/RT-DETRv2 比较（摘要未明确列出数据集）。",
+  "summary": "YOLOv12 尝试把注意力机制作为实时检测器的核心。作者称 YOLOv12-N 以 1.64 ms 延迟达到 40.6% mAP，比 YOLOv10-N/YOLOv11-N 高 2.1%/1.2%；YOLOv12-S 比 RT-DETR-R18/RT-DETRv2-R18 快 42%，计算量仅 36%、参数仅 45%。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0232": {
+  "problem": "从最新技术视角重新审视 YOLO 系列（v1 到 v10）的特点与影响。",
+  "method": "综述 YOLO 系列近十年提出的方法，分析其对实时计算机视觉及后续视觉-语言模型研究的影响，并展示其在各领域的应用。",
+  "evaluation": "综述性文章，无实验评测。",
+  "summary": "本文是 YOLO 系列的全面综述，强调各代方法如何推动后续技术发展。适合作为了解实时目标检测演进脉络的入门读物。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0233": {
+  "problem": "DETR 类实时检测器的边界框回归定位精度不足。",
+  "method": "把回归从预测固定坐标改为迭代细化概率分布（FDR），并用全局最优定位自蒸馏（GO-LSD）把精细分布中的定位知识传给浅层；同时对计算密集模块做轻量化优化。",
+  "evaluation": "COCO 目标检测（含 Objects365 预训练设置），T4 GPU 测速；以及在多种 DETR 模型上的插件式提升。",
+  "summary": "D-FINE 重新定义了 DETR 中的回归任务以提升定位精度。作者称 D-FINE-L/X 在 COCO 上以 124/78 FPS 达到 54.0%/55.8% AP，经 Objects365 预训练后达 57.1%/59.3% AP，超过所有现有实时检测器，并能以可忽略的额外开销将多种 DETR 模型提升最多 5.3% AP。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0234": {
+  "problem": "如何在不损失速度的前提下提升 RT-DETR 的灵活性、实用性与性能。",
+  "method": "在可变形注意力中为不同尺度设置不同采样点数；提供可选的离散采样算子替代 grid_sample 以消除部署限制；训练上采用动态数据增强和尺度自适应超参数。",
+  "evaluation": "摘要未说明评测数据集与具体结果。",
+  "summary": "RT-DETRv2 是 RT-DETR 的改进基线技术报告，提供一组“bag-of-freebies”。摘要只描述改进项，未给出量化结果。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0235": {
+  "problem": "如何构建开放世界下统一的以物体为中心的检测与理解模型，尤其改善长尾物体检测。",
+  "method": "沿用 Grounding DINO 1.5 的 Transformer 编码器-解码器，支持文本、视觉和自定义提示，并设计通用物体提示实现免提示检测；构建 1 亿级高质量 grounding 数据集 Grounding-100M 进行预训练，再集成多个感知头。",
+  "evaluation": "COCO、LVIS-minival、LVIS-val 零样本检测（含 LVIS 稀有类）；并支持分割、姿态估计、物体描述、基于物体的问答等任务。",
+  "summary": "DINO-X 是 IDEA Research 的开放世界物体级视觉统一模型。作者称 DINO-X Pro 在 COCO、LVIS-minival、LVIS-val 零样本检测上分别达 56.0、59.8、52.4 AP，在 LVIS 稀有类上比此前 SOTA 提升 5.8 和 5.0 AP。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0236": {
+  "problem": "如何同时推进开放集目标检测的泛化性能与边缘部署效率。",
+  "method": "推出两个模型：Pro 版扩大模型规模、增强视觉骨干并把训练数据扩展到 2000 万张以上带 grounding 标注的图像；Edge 版缩减特征尺度以提升速度，使用同一数据集训练。",
+  "evaluation": "COCO 检测与 LVIS-minival 零样本迁移；Edge 版在 TensorRT 下测速。",
+  "summary": "Grounding DINO 1.5 是面向高性能与边缘部署的开放集检测模型套件。作者称 Pro 版在 COCO 上达 54.3 AP、LVIS-minival 零样本 55.7 AP，Edge 版经 TensorRT 优化可达 75.2 FPS、LVIS-minival 零样本 36.2 AP。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0237": {
+  "problem": "现有大视觉模型迁移能力强，但难以通过简单指令完成多种空间层级与语义粒度的任务。",
+  "method": "以文本提示作为任务指令、以文本形式输出结果，采用序列到序列结构统一描述、检测、grounding、分割等任务；为此通过自动标注与模型迭代构建含 126M 图像、5.4B 标注的 FLD-5B 数据集。",
+  "evaluation": "大量视觉与视觉-语言任务的零样本与微调评测（摘要未列出具体数据集）。",
+  "summary": "Florence-2 用统一的基于提示的表示处理多种视觉任务。作者称其具有前所未有的零样本与微调能力，是有力的视觉基础模型候选。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0238": {
+  "problem": "视觉数据位置敏感且需要全局上下文，纯 SSM 难以构建通用视觉骨干。",
+  "method": "提出 Vim：用位置嵌入标记图像序列，并用双向 Mamba 块压缩视觉表示，不依赖自注意力。",
+  "evaluation": "ImageNet 分类、COCO 目标检测、ADE20k 语义分割；高分辨率（1248×1248）批量推理效率。",
+  "summary": "Vision Mamba 证明了视觉表示学习不必依赖自注意力。作者称 Vim 性能高于 DeiT 等视觉 Transformer，且在 1248×1248 图像上提取特征时比 DeiT 快 2.8 倍、节省 86.8% 显存。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0239": {
+  "problem": "如何把一维选择性扫描的 Mamba 适配到非序列结构的二维视觉数据，得到线性复杂度的视觉骨干。",
+  "method": "提出由视觉状态空间（VSS）块组成的 VMamba，核心是沿四条扫描路径遍历的二维选择扫描模块 SS2D；并通过一系列架构与实现改进加速。",
+  "evaluation": "多种视觉感知任务（摘要未列出具体数据集）。",
+  "summary": "VMamba 是将 Mamba 引入视觉骨干的代表工作之一。作者称其在多种视觉感知任务上表现良好，且相较现有基准模型具有更优的输入规模扩展效率。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0240": {
+  "problem": "Mamba 在视觉任务上的表现常不如卷积和注意力模型，视觉任务是否真的需要 Mamba。",
+  "method": "从概念上分析 Mamba 适合长序列且自回归的任务；构建去掉核心 token mixer（SSM）、仅堆叠 Mamba 块的 MambaOut 模型来验证假设。",
+  "evaluation": "ImageNet 图像分类；目标检测与分割（摘要未列出具体数据集）。",
+  "summary": "MambaOut 对视觉 Mamba 的必要性提出质疑并给出实证检验。作者称 MambaOut 在 ImageNet 分类上超过所有视觉 Mamba 模型，说明分类任务不需要 Mamba；但在检测与分割上不及 SOTA 视觉 Mamba，说明 Mamba 对长序列视觉任务仍有潜力。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0241": {
+  "problem": "能否把 xLSTM 作为通用的计算机视觉骨干。",
+  "method": "提出 Vision-LSTM（ViL）：堆叠 xLSTM 块处理图像块序列，奇数块自上而下、偶数块自下而上遍历。",
+  "evaluation": "摘要未列出具体数据集与结果。",
+  "summary": "ViL 将 xLSTM 引入视觉领域。摘要仅称实验表明 ViL 有望作为新的通用视觉骨干，未给出具体数值。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0242": {
+  "problem": "高效视觉 Transformer 在宏观与微观设计层面存在计算冗余，影响资源受限设备上的速度。",
+  "method": "使用更大步长的 patchify stem 降低内存访问成本，早期阶段用卷积替代注意力，并提出单头注意力模块避免多头冗余、并行融合全局与局部信息，构成 SHViT。",
+  "evaluation": "ImageNet-1k 分类（GPU、CPU、iPhone12 测速）；MS COCO 上基于 Mask-RCNN 头的目标检测与实例分割。",
+  "summary": "SHViT 关注内存高效的宏观设计与单头注意力。作者称 SHViT-S4 在 GPU、CPU、iPhone12 上分别比 MobileViTv2 x1.0 快 3.3、8.1、2.4 倍且精度高 1.3%；在 COCO 上与 FastViT-SA12 性能相当但骨干延迟更低。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0243": {
+  "problem": "如何设计在各类移动硬件上都高效的通用模型。",
+  "method": "提出融合 IB、ConvNext、FFN 和新 ExtraDW 变体的通用倒残差瓶颈（UIB）搜索块，面向移动加速器的 Mobile MQA 注意力块，改进的 NAS 方案，以及新的蒸馏技术。",
+  "evaluation": "ImageNet-1K 分类；在移动 CPU、DSP、GPU、Apple Neural Engine、Pixel EdgeTPU 等硬件上测速。",
+  "summary": "MobileNetV4 是新一代移动端高效模型。作者称 Mobile MQA 带来 39% 加速，MNv4 模型在多种移动硬件上大多为帕累托最优，MNv4-Hybrid-Large 达到 87% ImageNet-1K 准确率、Pixel 8 EdgeTPU 运行时间 3.8ms。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0244": {
+  "problem": "残差连接中的深度退化效应使依赖堆叠层交换信息的高效 ViT 信息混合不足。",
+  "method": "提出模拟生物中央凹视觉和连续眼动的聚合注意力（Aggregated Attention），并加入与 query/key 交互的可学习 token；同时提出连接 GLU 与 SE 机制的通道混合器 Convolutional GLU，组成骨干 TransNeXt。",
+  "evaluation": "ImageNet 与 ImageNet-A 分类、COCO 目标检测、ADE20K 语义分割。",
+  "summary": "TransNeXt 是一种仿生设计的视觉骨干。作者称 TransNeXt-Tiny 在 224² 分辨率下 ImageNet 准确率 84.0%，以少 69% 的参数超过 ConvNeXt-B；TransNeXt-Base 在 384² 下 ImageNet 86.2%、ImageNet-A 61.6%、COCO mAP 57.1、ADE20K mIoU 54.7。",
+  "difficulty": "高级",
+  "priority": "低"
+ },
+ "MLP0245": {
+  "problem": "ViT 特征图存在网格状伪影，损害语义分割、深度预测等稠密预测任务。",
+  "method": "将伪影溯源到输入端的位置嵌入，提出两阶段去噪方法 DVT：先逐图用神经场强制跨视图特征一致性以分离干净特征，再训练轻量 Transformer 块从原始 ViT 输出预测干净特征；无需重训原 ViT。",
+  "evaluation": "DINO、DeiT-III、EVA02、CLIP、DINOv2、DINOv2-reg 等 ViT，在多个数据集的语义与几何任务上评测（摘要未列出数据集名称）。",
+  "summary": "论文揭示了 ViT 位置嵌入导致的特征伪影问题并提出通用修复方法。作者称 DVT 能持续提升现有 SOTA 通用模型，并呼吁重新审视位置嵌入的朴素用法。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0246": {
+  "problem": "多模态大模型的视觉部分仅依赖 CLIP，其视觉能力存在系统性缺陷。",
+  "method": "找出 CLIP 认为相似但视觉差异明显的“CLIP-blind pairs”，据此构建 MMVP 基准；分析 CLIP 与纯视觉自监督表示的差距，并提出把自监督视觉特征与 MLLM 融合的 Mixture of Features（MoF）方法。",
+  "evaluation": "MMVP 基准（九种基本视觉模式），评测 GPT-4V 等 MLLM 及多种基于 CLIP 的视觉-语言模型。",
+  "summary": "论文指出当前 MLLM 在简单视觉问题上常答错并产生幻觉解释，且这些难点与 CLIP 的弱点显著相关。作者称 MoF 能显著增强视觉 grounding 能力，并认为视觉表示学习仍是开放挑战。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0247": {
+  "problem": "如何用单一开源多模态模型同时覆盖单图、多图和视频场景。",
+  "method": "整合 LLaVA-NeXT 博客系列中关于数据、模型与视觉表示的经验，构建 LLaVA-OneVision 模型家族，支持跨模态/场景的迁移学习。",
+  "evaluation": "单图、多图与视频三类场景（摘要未列出具体基准）。",
+  "summary": "LLaVA-OneVision 是统一图像与视频理解的开源多模态模型。作者称它是首个同时在三种场景推进开源 LMM 性能边界的单一模型，并通过图像到视频的任务迁移展现了较强的视频理解与跨场景能力。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0248": {
+  "problem": "传统视觉-语言模型采用预设固定分辨率处理图像，限制了视觉表示效率与精度。",
+  "method": "提出朴素动态分辨率（Naive Dynamic Resolution），将不同分辨率图像处理为不同数量的视觉 token；引入多模态旋转位置编码 M-RoPE 融合文本、图像、视频位置信息；统一处理图像与视频，并研究 LVLM 的规模定律（2B/8B/72B）。",
+  "evaluation": "多种多模态基准（摘要未列出具体名称），与 GPT-4o、Claude3.5-Sonnet 比较。",
+  "summary": "Qwen2-VL 是支持任意分辨率的开源视觉-语言模型系列。作者称 Qwen2-VL-72B 在多种多模态基准上与 GPT-4o、Claude3.5-Sonnet 相当，并优于其他通用模型。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0249": {
+  "problem": "如何全面提升视觉-语言模型在视觉识别、物体定位、文档解析和长视频理解上的能力。",
+  "method": "引入动态分辨率处理和绝对时间编码以处理不同尺寸图像和长达数小时的视频；从零训练原生动态分辨率 ViT 并加入窗口注意力以降低计算开销；支持用边界框或点进行定位及结构化数据抽取。",
+  "evaluation": "图像与文档/图表理解、物体定位、长视频秒级事件定位、操作电脑和手机的视觉智能体任务（摘要未列出具体基准名称）。",
+  "summary": "Qwen2.5-VL 是 Qwen 视觉-语言系列的旗舰技术报告，提供三种规模。作者称 Qwen2.5-VL-72B 可与 GPT-4o、Claude 3.5 Sonnet 等 SOTA 模型相当，尤其擅长文档与图表理解，同时保持 Qwen2.5 LLM 的语言能力。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0250": {
+  "problem": "视觉及视觉-语言基础模型的发展落后于大语言模型。",
+  "method": "把视觉基础模型扩展到 60 亿参数，并利用多来源的网络规模图文数据将其与 LLM 逐步对齐，构成 InternVL。",
+  "evaluation": "32 个通用视觉-语言基准，包括图像级/像素级识别、零样本图像/视频分类、零样本图文/视频-文本检索，以及多模态对话。",
+  "summary": "InternVL 是规模化视觉编码器并与 LLM 对齐的代表工作。作者称其在 32 个基准上达到 SOTA，可作为 ViT-22B 的良好替代。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0251": {
+  "problem": "多模态大模型中视觉组件的设计选择探索不足，且与视觉表示学习研究脱节。",
+  "method": "以 LLM 和视觉指令微调为接口评估 20 余种视觉编码器（自监督、强监督及其组合）；审视现有 MLLM 基准并提出以视觉为中心的 CV-Bench；提出动态、空间感知的连接器 Spatial Vision Aggregator（SVA）；讨论指令微调数据的来源平衡与配比。",
+  "evaluation": "现有 MLLM 基准与新提出的 CV-Bench（摘要未列出其他基准名称）。",
+  "summary": "Cambrian-1 是以视觉为中心的完全开放 MLLM 研究，提供权重、代码、数据和训练评测配方。作者称其达到 SOTA，并可作为指令微调 MLLM 的开放“cookbook”。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0252": {
+  "problem": "最强的开放权重 VLM 依赖专有 VLM 的合成数据（实为蒸馏），社区缺乏从零构建高性能 VLM 的基础知识。",
+  "method": "收集不使用外部 VLM 的新数据集 PixMo（详细图像描述预训练数据、自由形式图像问答微调数据、2D 指点数据），并配合精心的建模选择与调优的训练流程训练 Molmo 模型家族。",
+  "evaluation": "学术基准与大规模人工评测（摘要未列出具体基准名称）。",
+  "summary": "Molmo 与 PixMo 提供开放权重与开放数据的 VLM 方案，强调数据质量是关键。作者称其 72B 模型在开放权重和数据类模型中最佳，并超过 Claude 3.5 Sonnet、Gemini 1.5 Pro 和 Flash 等更大的专有模型，仅次于 GPT-4o。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0253": {
+  "problem": "如何构建一个通用、知识广泛且便于迁移的小型开源视觉-语言基础模型。",
+  "method": "基于 SigLIP-So400m 视觉编码器与 Gemma-2B 语言模型构建 PaliGemma，训练为易迁移的基础模型。",
+  "evaluation": "近 40 项多样任务，包括标准 VLM 基准以及遥感、分割等专门任务。",
+  "summary": "PaliGemma 是约 3B 参数的开源可迁移 VLM。摘要称其在多种开放世界任务上表现强劲，但未给出具体数值。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0254": {
+  "problem": "大型多模态模型的模态对齐受限于高质量图文数据稀缺。",
+  "method": "从 GPT4-Vision 收集 10 万条高质量描述，再训练描述模型扩展到 120 万条，构成 ShareGPT4V 数据集；将其用于 SFT 以及预训练与 SFT 两阶段。",
+  "evaluation": "在 LLaVA-7B、LLaVA-1.5-13B、Qwen-VL-Chat-7B 上的 MME 与 MMBench；以及多数多模态基准上的 ShareGPT4V-7B。",
+  "summary": "ShareGPT4V 说明高信息量描述数据对多模态模型的价值。作者称仅替换等量 SFT 描述数据即可使上述模型在 MME 上提升 222.8/22.0/22.3、在 MMBench 上提升 2.7/1.3/1.5，ShareGPT4V-7B 在多数基准上表现突出。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0255": {
+  "problem": "现有方法把图像和视频编码到不同特征空间，投影前未对齐，使 LLM 难以学习多模态交互。",
+  "method": "在投影前将图像与视频的视觉表示统一到语言特征空间（alignment before projection），并用图像与视频混合数据训练 Video-LLaVA 基线。",
+  "evaluation": "9 个图像基准（5 个图像问答数据集与 4 个基准工具包）；视频问答 MSRVTT、MSVD、TGIF、ActivityNet。",
+  "summary": "Video-LLaVA 提供了图像与视频统一表示的简洁 LVLM 基线。作者称其在 MSRVTT、MSVD、TGIF、ActivityNet 上分别超过 Video-ChatGPT 5.8%、9.9%、18.6%、10.1%，且图像与视频在统一表示中相互促进。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0256": {
+  "problem": "视频理解面临局部冗余与全局依赖双重挑战，3D CNN 与视频 Transformer 难以高效建模长视频。",
+  "method": "将 Mamba 适配到视频领域，利用线性复杂度算子进行长时建模，并用新的自蒸馏技术实现无需大规模预训练的可扩展性。",
+  "evaluation": "短时动作识别、长时视频理解及多模态场景（摘要未列出具体数据集）。",
+  "summary": "VideoMamba 是基于 SSM 的高效视频理解骨干。作者称其具备可扩展性、对细粒度动作敏感、长视频理解优势以及与其他模态的兼容性四项核心能力。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0257": {
+  "problem": "如何规模化视频基础模型以同时胜任视频识别、视频-文本任务和视频对话。",
+  "method": "采用渐进式训练统一掩码视频建模、跨模态对比学习和下一 token 预测，把视频编码器扩展到 6B 参数；数据上通过语义切分视频并生成视频-音频-语音描述以增强时空一致性与图文对齐。",
+  "evaluation": "60 余项视频与音频任务，包括视频对话与长视频理解基准（摘要未列出具体名称）。",
+  "summary": "InternVideo2 是视频基础模型家族。作者称其在视频识别、视频-文本和视频对话任务上达到 SOTA，并在长视频理解基准上表现突出。",
+  "difficulty": "高级",
+  "priority": "中"
+ },
+ "MLP0258": {
+  "problem": "如何增强视频大语言模型的时空建模与音频理解能力。",
+  "method": "在前代基础上引入定制的时空卷积（STC）连接器捕获视频时空动态，并通过联合训练集成音频分支。",
+  "evaluation": "多选视频问答（MC-VQA）、开放式视频问答（OE-VQA）、视频描述（VC），以及纯音频与音视频问答（AQA、OE-AVQA）基准。",
+  "summary": "VideoLLaMA 2 是面向视频与音频任务的开源 Video-LLM。作者称其在开源模型中表现有竞争力，在部分基准上接近专有模型，并在音频相关问答上有所改进。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0259": {
+  "problem": "视频 LMM 的视频理解机制缺乏理解，许多设计决策没有充分依据，且训练评测成本高。",
+  "method": "发现“规模一致性”（Scaling Consistency）：在较小模型和数据上做出的设计决策可迁移到更大模型；据此系统研究视频采样、架构、数据组成、训练日程等，并提出 Apollo 模型家族。",
+  "evaluation": "LongVideoBench、MLVU、Video-MME 等视频理解基准。",
+  "summary": "Apollo 是对视频 LMM 设计空间的系统性研究，例如作者发现训练时按 fps 采样远优于均匀抽帧。作者称 Apollo-3B 在 LongVideoBench 上得 55.1、超过多数 7B 模型，Apollo-7B 在 MLVU 和 Video-MME 上分别得 70.9 和 63.3。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0260": {
+  "problem": "多模态大模型在序列视觉数据（视频）上的能力缺乏全面高质量的评估。",
+  "method": "构建 Video-MME 基准：覆盖 6 个视觉领域 30 个子领域，视频时长 11 秒到 1 小时，包含字幕与音频输入，由专家人工标注；共 900 个视频（254 小时）、2700 个问答对。",
+  "evaluation": "评测 GPT-4 系列、Gemini 1.5 Pro、InternVL-Chat-V1.5、LLaVA-NeXT-Video 等 MLLM。",
+  "summary": "Video-MME 是全谱系的视频分析多模态评测基准。作者称 Gemini 1.5 Pro 是表现最好的商用模型，显著优于开源模型，并指出长序列与多模态数据处理仍需改进。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0261": {
+  "problem": "现有 MLLM 基准主要评估静态图像的空间理解，忽视视频中的时序理解。",
+  "method": "提出“静态到动态”的方法定义 20 个无法用单帧解决的时序任务，并自动把公开视频标注转为多选问答；另通过渐进式多模态训练构建视频 MLLM 基线 VideoChat2。",
+  "evaluation": "MVBench 的 20 项视频任务，评测现有 MLLM 与 VideoChat2。",
+  "summary": "MVBench 是面向时序理解的视频基准，以真实标注避免 LLM 打分偏差。作者称现有 MLLM 时序理解远不令人满意，而 VideoChat2 在 MVBench 上超过领先模型 15% 以上。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0262": {
+  "problem": "缺乏评估多模态模型在大学水平学科知识与深度推理上能力的基准。",
+  "method": "从大学考试、测验和教材中收集 11.5K 道多模态题目，覆盖 6 大学科、30 个科目、183 个子领域及图表、地图、乐谱、化学结构等 30 种图像类型，构成 MMMU。",
+  "evaluation": "评测 14 个开源 LMM 以及 GPT-4V、Gemini。",
+  "summary": "MMMU 是面向“专家级 AGI”的多学科多模态理解与推理基准。作者称即使 GPT-4V 和 Gemini Ultra 也仅分别达到 56% 和 59% 的准确率，提升空间很大。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0263": {
+  "problem": "系统梳理利用大语言模型进行视频理解（Vid-LLMs）的最新进展。",
+  "method": "将方法分为 Video Analyzer×LLM、Video Embedder×LLM、(Analyzer+Embedder)×LLM 三大类，并按 LLM 作用细分为摘要器、管理者、文本解码器、回归器、隐藏层五个子类；同时梳理任务、数据集、基准与评测方法及应用。",
+  "evaluation": "综述性文章，无实验评测。",
+  "summary": "本文是视频理解与大模型结合方向的综述，给出清晰的分类体系。还总结了现有 Vid-LLMs 的局限与未来研究方向，适合入门该方向。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0264": {
+  "problem": "SAM 计算成本巨大，限制了其在更广泛实际场景中的应用。",
+  "method": "提出掩码图像预训练方法 SAMI，学习重建 SAM 图像编码器的特征；再用 SAMI 预训练的轻量图像编码器与掩码解码器构建 EfficientSAM，并在 SA-1B 上微调。",
+  "evaluation": "图像分类、目标检测、实例分割、语义目标检测；以及 COCO/LVIS 上的零样本实例分割。",
+  "summary": "EfficientSAM 通过掩码预训练实现轻量版 SAM。作者称 SAMI 持续优于其他掩码图像预训练方法，且 EfficientSAM 在零样本实例分割上比其他快速 SAM 模型高约 4 AP（COCO/LVIS）。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0265": {
+  "problem": "如何基于任意文本输入检测并分割任意区域，并连接多种视觉模型完成多样任务。",
+  "method": "把 Grounding DINO 作为开放集检测器与 SAM 组合，并可进一步接入 BLIP、Recognize Anything、Stable-Diffusion、OSX 等模型，实现自动标注、可控图像编辑和可提示三维人体动作分析等流程。",
+  "evaluation": "SegInW（Segmentation in the wild）零样本基准等开放词汇基准。",
+  "summary": "Grounded SAM 是组装开放世界模型的系统性工作。作者称 Grounding DINO-Base 与 SAM-Huge 组合在 SegInW 零样本基准上达到 48.7 mean AP。",
+  "difficulty": "入门",
+  "priority": "中"
+ },
+ "MLP0266": {
+  "problem": "现有无监督分割方法只能分别处理语义分割或类别无关的实例分割，无法完成全景分割。",
+  "method": "提出 U2Seg：利用自监督模型加聚类生成伪语义标签（每个簇代表像素的语义和/或实例归属），再在伪标签上自训练，统一实例、语义与全景分割。",
+  "evaluation": "COCO 无监督实例分割、COCOStuff 无监督语义分割、无监督全景分割，以及仅用 1% COCO 标签的少样本分割。",
+  "summary": "U2Seg 是首个统一多种无监督图像分割任务的框架。作者称其在无监督实例分割上比 CutLER 高 2.6 AP^box，语义分割上比 STEGO 高 7.0 PixelAcc，少样本设置下比 CutLER 高 5.0 AP^mask，并为无监督全景分割建立新基线。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0267": {
+  "problem": "点跟踪器多在合成数据上训练，合成与真实视频的统计差距导致性能次优。",
+  "method": "提出新的跟踪模型（去除或简化以往组件）和半监督训练方案：用现成教师模型为无标注真实视频生成伪标签用于训练；并研究使用更多真实无监督数据的扩展行为。",
+  "evaluation": "摘要未列出具体数据集；模型提供在线与离线版本，可跟踪可见及被遮挡的点。",
+  "summary": "CoTracker3 以更简单的架构和伪标签训练改进视频点跟踪。作者称其训练方案比以往更简单，且用少 1000 倍的数据取得更好的结果。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0268": {
+  "problem": "如何让光流估计方法 RAFT 更简单、更高效、更准确。",
+  "method": "使用新的混合 Laplace 损失训练；直接回归初始光流以加快迭代细化收敛；引入刚体运动预训练提升泛化。",
+  "evaluation": "Spring 基准；KITTI 与 Spring 上的跨数据集泛化；推理速度对比。",
+  "summary": "SEA-RAFT 是 RAFT 光流方法的改进版。作者称其在 Spring 上 EPE 为 3.69、1px 离群率为 0.36，比已发表最佳结果误差分别降低 22.9% 和 17.8%，跨数据集泛化最好，且速度至少快 2.3 倍。",
+  "difficulty": "中级",
+  "priority": "低"
+ },
+ "MLP0269": {
+  "problem": "单目深度估计器在陌生内容和布局的图像上泛化困难，受限于训练数据。",
+  "method": "提出 Marigold：从 Stable Diffusion 派生的仿射不变单目深度估计方法，保留生成式扩散模型的丰富先验；仅用合成数据在单 GPU 上微调数天即可。",
+  "evaluation": "多个数据集上的零样本深度估计（摘要未列出具体名称）。",
+  "summary": "Marigold 探索把扩散生成模型的先验用于深度估计。作者称其在多个数据集上达到 SOTA，部分情形下性能提升超过 20%。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0270": {
+  "problem": "如何为以人为中心的视觉任务构建可泛化的基础模型。",
+  "method": "在 3 亿余张野外人体图像上进行自监督预训练，原生支持 1K 高分辨率推理，再针对 2D 姿态估计、身体部位分割、深度估计和表面法线预测分别微调；模型参数规模从 0.3B 到 2B。",
+  "evaluation": "Humans-5K（姿态）、Humans-2K（部位分割）、Hi4D（深度）、THuman2（法线）等以人为中心的基准。",
+  "summary": "Sapiens 显示在精选人体图像上的自监督预训练能显著提升多种人体任务，且性能随参数规模提升。作者称其在 Humans-5K 上提升 7.6 mAP、Humans-2K 提升 17.1 mIoU、Hi4D 相对 RMSE 改善 22.4%、THuman2 相对角误差改善 53.5%。",
+  "difficulty": "中级",
+  "priority": "中"
+ },
+ "MLP0271": {
+  "problem": "视觉领域的注意力通常与卷积网络结合使用，能否不依赖 CNN。",
+  "method": "将纯 Transformer 直接应用于图像块（patch）序列进行图像分类，即 Vision Transformer（ViT），并在大规模数据上预训练后迁移。",
+  "evaluation": "迁移到 ImageNet、CIFAR-100、VTAB 等中小规模图像识别基准。",
+  "summary": "ViT 是将 Transformer 引入视觉的奠基性工作，深刻影响了后续视觉骨干与多模态模型。作者称在大量数据上预训练后，ViT 相比 SOTA 卷积网络取得优异结果，且训练所需计算资源显著更少。",
+  "difficulty": "入门",
+  "priority": "高"
+ },
+ "MLP0272": {
+  "problem": "如何用简单、灵活、通用的框架完成目标实例分割。",
+  "method": "在 Faster R-CNN 的边界框识别分支之外并行增加预测物体掩码的分支，额外开销很小；同一框架可推广到人体姿态估计等任务。",
+  "evaluation": "COCO 挑战的实例分割、边界框目标检测和人体关键点检测三个赛道。",
+  "summary": "Mask R-CNN 是实例分割的经典基线框架，运行速度约 5 fps。作者称其不加花哨技巧即在 COCO 各任务上超过所有已有单模型结果，包括 COCO 2016 挑战赛冠军。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0273": {
+  "problem": "目标检测流程依赖 NMS、锚框生成等大量手工设计组件。",
+  "method": "将目标检测视为直接集合预测问题：用基于二分匹配的集合全局损失保证预测唯一，配合 Transformer 编码器-解码器和一组固定的可学习 object queries 并行输出最终预测。",
+  "evaluation": "COCO 目标检测（与 Faster RCNN 比较）；全景分割。",
+  "summary": "DETR 开创了端到端的 Transformer 检测范式，概念简单且无需专用库。作者称其在 COCO 上的精度与速度与高度优化的 Faster RCNN 基线相当，并可统一扩展到全景分割且显著优于有竞争力的基线。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0274": {
+  "problem": "如何为图像分割建立类似基础模型的通用任务、模型与数据集。",
+  "method": "提出可提示分割任务和可提示的 SAM 模型，并把高效模型放入数据收集循环，构建含 11M 张授权且保护隐私图像、超过 10 亿掩码的 SA-1B 数据集。",
+  "evaluation": "大量下游任务上的零样本迁移评测（摘要未列出具体数据集）。",
+  "summary": "Segment Anything 推出 SAM 模型与 SA-1B 数据集，是视觉分割基础模型的标志性工作。作者称其零样本性能常与此前的全监督结果相当甚至更好。",
+  "difficulty": "中级",
+  "priority": "高"
+ },
+ "MLP0275": {
+  "problem": "深度网络训练通常需要数千个标注样本，而生物医学图像标注稀缺。",
+  "method": "提出由捕获上下文的收缩路径和对称的扩张路径（实现精确定位）组成的网络，并大量使用数据增强以高效利用少量标注样本，端到端训练。",
+  "evaluation": "ISBI 电子显微镜神经结构分割挑战；ISBI 2015 细胞跟踪挑战（相差与 DIC 透射光显微图像）。",
+  "summary": "U-Net 是图像分割（尤其医学图像）中最经典的编码器-解码器架构之一。作者称其优于此前最佳的滑窗卷积网络，并大幅领先赢得 ISBI 2015 细胞跟踪挑战相关类别，512×512 图像分割耗时不到一秒。",
+  "difficulty": "入门",
+  "priority": "高"
+ }
+}

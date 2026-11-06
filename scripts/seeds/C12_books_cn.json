@@ -1,0 +1,2660 @@
+[
+ {
+  "id": "MLB001",
+  "type": "book",
+  "file_stem": "Hastie_ElementsOfStatisticalLearning_2ndEd_en",
+  "lang": "en",
+  "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+  "authors": "Trevor Hastie; Robert Tibshirani; Jerome Friedman",
+  "edition": "第 2 版，第 12 次印刷（2017-01）",
+  "orig_year": 2001,
+  "edition_year": 2017,
+  "publisher": "Springer",
+  "format": "pdf",
+  "title_phrase": "Elements of Statistical Learning",
+  "min_pages": 700,
+  "source_page": "https://hastie.su.domains/ElemStatLearn/",
+  "license_note": "作者官网免费 PDF（作者 Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C02",
+   "C01"
+  ],
+  "prereq": "线性代数、概率统计、微积分",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "高",
+  "reason": "统计学习标准参考书，覆盖线性方法、核方法、树、提升、集成、模型评估与选择",
+  "old_reason": "经典教材；第 12 次印刷为作者官方提供的最新完整 PDF，近三年无同等覆盖面的替代",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1--Wo5Hcl2y_v3DL-tGgcJHRPdtjiVYjS",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB002",
+  "type": "book",
+  "file_stem": "James_IntroductionStatisticalLearningPython_1stEd_en",
+  "lang": "en",
+  "title": "An Introduction to Statistical Learning with Applications in Python",
+  "authors": "Gareth James; Daniela Witten; Trevor Hastie; Robert Tibshirani; Jonathan Taylor",
+  "edition": "Python 版第 1 版（2023）",
+  "orig_year": 2013,
+  "edition_year": 2023,
+  "publisher": "Springer",
+  "format": "pdf",
+  "title_phrase": "Introduction to Statistical Learning",
+  "min_pages": 550,
+  "source_page": "https://www.statlearning.com/",
+  "license_note": "作者官网免费 PDF（statlearning.com，Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C02",
+   "C01"
+  ],
+  "prereq": "基础统计、Python",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "高",
+  "reason": "最常用的统计学习入门教材；Python 版含深度学习、生存分析与多重检验章节",
+  "old_reason": "2023 年出版，早于近三年窗口起点；为 ISLR 系列最新版本（R 版 ISLR2 内容相同，不重复收录）",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1ajFkHO6zjrdGNqhqW1jKBZdiNGh_8YQ1",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB003",
+  "type": "book",
+  "file_stem": "Hastie_StatisticalLearningWithSparsity_1stEd_en",
+  "lang": "en",
+  "title": "Statistical Learning with Sparsity: The Lasso and Generalizations",
+  "authors": "Trevor Hastie; Robert Tibshirani; Martin Wainwright",
+  "edition": "第 1 版（勘误版 PDF）",
+  "orig_year": 2015,
+  "edition_year": 2016,
+  "publisher": "CRC Press (Chapman & Hall)",
+  "format": "pdf",
+  "title_phrase": "Statistical Learning with Sparsity",
+  "min_pages": 300,
+  "source_page": "https://hastie.su.domains/StatLearnSparsity/",
+  "license_note": "作者官网免费 PDF（Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C02"
+  ],
+  "prereq": "线性回归、凸优化基础",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "Lasso 与稀疏建模（广义线性模型、正则化、矩阵分解）的系统专著",
+  "old_reason": "稀疏正则化的标准专著；作者官方 PDF，近三年无新版",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1-9MWBSfViiymncPD60bCDTAicai3o2W8",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB004",
+  "type": "book",
+  "file_stem": "Efron_ComputerAgeStatisticalInference_1stEd_en",
+  "lang": "en",
+  "title": "Computer Age Statistical Inference: Algorithms, Evidence, and Data Science",
+  "authors": "Bradley Efron; Trevor Hastie",
+  "edition": "第 1 版（2016）",
+  "orig_year": 2016,
+  "edition_year": 2016,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Computer Age Statistical Inference",
+  "min_pages": 450,
+  "source_page": "https://hastie.su.domains/CASI/",
+  "license_note": "作者官网免费 PDF（Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "数理统计",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "从经典推断到 bootstrap、经验贝叶斯、随机森林、深度学习的统计视角",
+  "old_reason": "连接统计推断与机器学习的经典专著；作者官方 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1--hEc7dt-bfMxF-qhKsPuDxDEVJzLalS",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB005",
+  "type": "book",
+  "file_stem": "Bishop_PatternRecognitionMachineLearning_1stEd_en",
+  "lang": "en",
+  "title": "Pattern Recognition and Machine Learning",
+  "authors": "Christopher M. Bishop",
+  "edition": "第 1 版（2006）",
+  "orig_year": 2006,
+  "edition_year": 2006,
+  "publisher": "Springer",
+  "format": "pdf",
+  "title_phrase": "Pattern Recognition and Machine Learning",
+  "min_pages": 700,
+  "source_page": "https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/",
+  "license_note": "Microsoft Research 官方免费 PDF",
+  "cats": [
+   "C12",
+   "C02",
+   "C03"
+  ],
+  "prereq": "线性代数、概率、微积分",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "概率视角机器学习经典教材：贝叶斯方法、核方法、图模型、EM、变分推断",
+  "old_reason": "经典教材；作者所在机构（Microsoft Research）官方免费 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB006",
+  "type": "book",
+  "file_stem": "Murphy_ProbabilisticMachineLearningIntroduction_2022_en",
+  "lang": "en",
+  "title": "Probabilistic Machine Learning: An Introduction",
+  "authors": "Kevin P. Murphy",
+  "edition": "MIT Press 2022（作者持续发布修订 PDF）",
+  "orig_year": 2022,
+  "edition_year": 2022,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Probabilistic Machine Learning",
+  "min_pages": 800,
+  "source_page": "https://probml.github.io/pml-book/book1.html",
+  "license_note": "作者官方 GitHub 发布",
+  "cats": [
+   "C12",
+   "C01",
+   "C02",
+   "C04"
+  ],
+  "prereq": "线性代数、概率、Python",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "现代机器学习全景教材：线性模型、树、核、神经网络、表示学习",
+  "old_reason": "2022 年出版，早于窗口；作者 GitHub 持续发布修订版",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB007",
+  "type": "book",
+  "file_stem": "Murphy_ProbabilisticMachineLearningAdvanced_2023_en",
+  "lang": "en",
+  "title": "Probabilistic Machine Learning: Advanced Topics",
+  "authors": "Kevin P. Murphy",
+  "edition": "MIT Press 2023（作者持续发布修订 PDF）",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Probabilistic Machine Learning",
+  "min_pages": 1000,
+  "source_page": "https://probml.github.io/pml-book/book2.html",
+  "license_note": "作者官方 GitHub 发布",
+  "cats": [
+   "C12",
+   "C07",
+   "C09",
+   "C10"
+  ],
+  "prereq": "PML 第一卷",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "推断、生成模型（VAE/GAN/扩散/流）、因果、决策与强化学习的高级专题",
+  "old_reason": "2023 年出版，早于窗口；作者官方最新 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://github.com/probml/pml2-book/releases/latest/download/book2.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB008",
+  "type": "book",
+  "file_stem": "Prince_UnderstandingDeepLearning_2023_en",
+  "lang": "en",
+  "title": "Understanding Deep Learning",
+  "authors": "Simon J. D. Prince",
+  "edition": "MIT Press 2023；作者 PDF 版本日期 2026-02-08（GitHub v5.0.3）",
+  "orig_year": 2023,
+  "edition_year": "2026-02-08",
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Understanding Deep Learning",
+  "min_pages": 500,
+  "source_page": "https://udlbook.github.io/udlbook/",
+  "license_note": "作者官方 GitHub 发布",
+  "cats": [
+   "C12",
+   "C04",
+   "C07",
+   "C09"
+  ],
+  "prereq": "线性代数、概率、微积分",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "近年最系统的深度学习教材：网络、训练、正则化、CNN/Transformer/GNN、生成模型、强化学习",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB009",
+  "type": "book",
+  "file_stem": "Zhang_DiveIntoDeepLearning_2023_en",
+  "lang": "en",
+  "title": "Dive into Deep Learning",
+  "authors": "Aston Zhang; Zachary C. Lipton; Mu Li; Alexander J. Smola",
+  "edition": "Cambridge University Press 2023；官网最新开放 PDF",
+  "orig_year": 2020,
+  "edition_year": 2023,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Dive into Deep Learning",
+  "min_pages": 900,
+  "source_page": "https://d2l.ai/",
+  "license_note": "官网开放 PDF",
+  "cats": [
+   "C12",
+   "C04",
+   "C05",
+   "C06"
+  ],
+  "prereq": "Python、线性代数基础",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "高",
+  "reason": "代码驱动的深度学习教材，从线性网络到 Transformer、优化与计算性能",
+  "old_reason": "剑桥出版版本对应的官网开放 PDF（出版日期是否落入窗口待核实）",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://d2l.ai/d2l-en.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB010",
+  "type": "book",
+  "file_stem": "Deisenroth_MathematicsForMachineLearning_2020_en",
+  "lang": "en",
+  "title": "Mathematics for Machine Learning",
+  "authors": "Marc Peter Deisenroth; A. Aldo Faisal; Cheng Soon Ong",
+  "edition": "Cambridge University Press 2020；官网 PDF",
+  "orig_year": 2020,
+  "edition_year": 2020,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Mathematics for Machine Learning",
+  "min_pages": 350,
+  "source_page": "https://mml-book.github.io/",
+  "license_note": "官网免费 PDF（个人使用）",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "高中数学、微积分",
+  "stage": "数学基础",
+  "difficulty": "入门",
+  "priority": "高",
+  "reason": "机器学习所需的线性代数、解析几何、矩阵分解、向量微积分、概率与优化",
+  "old_reason": "机器学习数学基础的标准入门书，近三年无新版",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://mml-book.github.io/book/mml-book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB011",
+  "type": "book",
+  "file_stem": "Boyd_ConvexOptimization_2004_en",
+  "lang": "en",
+  "title": "Convex Optimization",
+  "authors": "Stephen Boyd; Lieven Vandenberghe",
+  "edition": "第 1 版（2004；官网 PDF）",
+  "orig_year": 2004,
+  "edition_year": 2004,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Convex Optimization",
+  "min_pages": 650,
+  "source_page": "https://web.stanford.edu/~boyd/cvxbook/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "线性代数、微积分",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "凸集、凸函数、对偶、内点法；优化理论标准教材",
+  "old_reason": "优化方向标准教材，作者官网全文，近三年无新版",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB012",
+  "type": "book",
+  "file_stem": "Boyd_IntroductionAppliedLinearAlgebra_2018_en",
+  "lang": "en",
+  "title": "Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares",
+  "authors": "Stephen Boyd; Lieven Vandenberghe",
+  "edition": "第 1 版（2018；官网 PDF）",
+  "orig_year": 2018,
+  "edition_year": 2018,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Introduction to Applied Linear Algebra",
+  "min_pages": 450,
+  "source_page": "https://web.stanford.edu/~boyd/vmls/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12"
+  ],
+  "prereq": "高中数学",
+  "stage": "数学基础",
+  "difficulty": "入门",
+  "priority": "高",
+  "reason": "面向应用的线性代数与最小二乘入门",
+  "old_reason": "线性代数入门首选之一，作者官网全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/~boyd/vmls/vmls.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB013",
+  "type": "book",
+  "file_stem": "Sutton_ReinforcementLearningIntroduction_2ndEd_en",
+  "lang": "en",
+  "title": "Reinforcement Learning: An Introduction",
+  "authors": "Richard S. Sutton; Andrew G. Barto",
+  "edition": "第 2 版（2018；2020 修订 PDF）",
+  "orig_year": 1998,
+  "edition_year": 2018,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Reinforcement Learning",
+  "min_pages": 500,
+  "source_page": "http://incompleteideas.net/book/the-book-2nd.html",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "概率、基础编程",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "强化学习标准教材：MDP、动态规划、TD、函数逼近、策略梯度",
+  "old_reason": "强化学习最权威教材，作者官网第 2 版全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "http://incompleteideas.net/book/RLbook2020.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB014",
+  "type": "book",
+  "file_stem": "MacKay_InformationTheoryInferenceLearning_2003_en",
+  "lang": "en",
+  "title": "Information Theory, Inference, and Learning Algorithms",
+  "authors": "David J. C. MacKay",
+  "edition": "第 1 版（2003；官网在线版）",
+  "orig_year": 2003,
+  "edition_year": 2003,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Information Theory, Inference",
+  "min_pages": 600,
+  "source_page": "https://www.inference.org.uk/itila/",
+  "license_note": "作者官网免费在线阅读 PDF",
+  "cats": [
+   "C12",
+   "C01",
+   "C03"
+  ],
+  "prereq": "概率",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "信息论、贝叶斯推断、蒙特卡洛与神经网络的统一视角",
+  "old_reason": "经典教材，作者官方开放 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.inference.org.uk/itprnn/book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB015",
+  "type": "book",
+  "file_stem": "ShalevShwartz_UnderstandingMachineLearning_2014_en",
+  "lang": "en",
+  "title": "Understanding Machine Learning: From Theory to Algorithms",
+  "authors": "Shai Shalev-Shwartz; Shai Ben-David",
+  "edition": "第 1 版（2014）",
+  "orig_year": 2014,
+  "edition_year": 2014,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Understanding Machine Learning",
+  "min_pages": 400,
+  "source_page": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/",
+  "license_note": "作者官网免费 PDF（个人使用）",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "概率、离散数学",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "高",
+  "reason": "PAC 学习、VC 维、正则化与稳定性、凸学习等学习理论核心",
+  "old_reason": "学习理论标准教材，作者官网个人使用版全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB016",
+  "type": "book",
+  "file_stem": "Mohri_FoundationsOfMachineLearning_2ndEd_en",
+  "lang": "en",
+  "title": "Foundations of Machine Learning",
+  "authors": "Mehryar Mohri; Afshin Rostamizadeh; Ameet Talwalkar",
+  "edition": "第 2 版（2018）",
+  "orig_year": 2012,
+  "edition_year": 2018,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Foundations of Machine Learning",
+  "min_pages": 450,
+  "source_page": "https://cs.nyu.edu/~mohri/mlbook/",
+  "license_note": "作者主页链接的开放 PDF",
+  "cats": [
+   "C12",
+   "C01",
+   "C02"
+  ],
+  "prereq": "概率、线性代数",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "Rademacher 复杂度、核方法、提升、在线学习、排序等理论与算法",
+  "old_reason": "学习理论经典教材第 2 版，作者主页链接的开放 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.dropbox.com/s/38p0j6ds5q9c8oe/10290.pdf?dl=1",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB017",
+  "type": "book",
+  "file_stem": "Bach_LearningTheoryFirstPrinciples_2024_en",
+  "lang": "en",
+  "title": "Learning Theory from First Principles",
+  "authors": "Francis Bach",
+  "edition": "MIT Press 2024；作者官网 PDF 版本日期 2025-05-26",
+  "orig_year": 2024,
+  "edition_year": "2025-05-26",
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Learning Theory from First Principles",
+  "min_pages": 400,
+  "source_page": "https://www.di.ens.fr/~fbach/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C01",
+   "C02"
+  ],
+  "prereq": "实分析、概率、线性代数",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "高",
+  "reason": "近年最系统的学习理论教材：最小二乘、核方法、神经网络、优化与泛化",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.di.ens.fr/~fbach/ltfp_book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB018",
+  "type": "book",
+  "file_stem": "Hardt_PatternsPredictionsActions_2022_en",
+  "lang": "en",
+  "title": "Patterns, Predictions, and Actions: Foundations of Machine Learning",
+  "authors": "Moritz Hardt; Benjamin Recht",
+  "edition": "Princeton University Press 2022；官网 PDF",
+  "orig_year": 2022,
+  "edition_year": 2022,
+  "publisher": "Princeton University Press",
+  "format": "pdf",
+  "title_phrase": "Patterns, Predictions, and Actions",
+  "min_pages": 250,
+  "source_page": "https://mlstory.org/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C01",
+   "C09",
+   "C10"
+  ],
+  "prereq": "概率、线性代数",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "从预测到决策：监督学习、泛化、数据集与基准、因果、序列决策",
+  "old_reason": "2022 年出版，早于窗口；兼顾基准与评测的现代视角",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://mlstory.org/pdf/patterns.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB019",
+  "type": "book",
+  "file_stem": "Barocas_FairnessAndMachineLearning_2023_en",
+  "lang": "en",
+  "title": "Fairness and Machine Learning: Limitations and Opportunities",
+  "authors": "Solon Barocas; Moritz Hardt; Arvind Narayanan",
+  "edition": "MIT Press 2023；官网 PDF 编译于 2023-12-13",
+  "orig_year": 2019,
+  "edition_year": "2023-12-13",
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Fairness and Machine Learning",
+  "min_pages": 200,
+  "source_page": "https://fairmlbook.org/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C10"
+  ],
+  "prereq": "机器学习基础",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "算法公平性标准专著：分类公平准则、因果、测量与法律视角",
+  "old_reason": "MIT Press 2023 版（出版月份是否落入窗口待核实）",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB020",
+  "type": "book",
+  "file_stem": "Hamilton_GraphRepresentationLearning_2020_en",
+  "lang": "en",
+  "title": "Graph Representation Learning",
+  "authors": "William L. Hamilton",
+  "edition": "Morgan & Claypool 2020（作者官网预印 PDF）",
+  "orig_year": 2020,
+  "edition_year": 2020,
+  "publisher": "Morgan & Claypool",
+  "format": "pdf",
+  "title_phrase": "Graph Representation Learning",
+  "min_pages": 120,
+  "source_page": "https://www.cs.mcgill.ca/~wlh/grl_book/",
+  "license_note": "作者官网免费预印 PDF",
+  "cats": [
+   "C12",
+   "C08"
+  ],
+  "prereq": "线性代数、深度学习基础",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "图嵌入、GNN、图生成的简明系统教材",
+  "old_reason": "图表示学习最常用入门专著，作者官方预印 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB021",
+  "type": "book",
+  "file_stem": "Vershynin_HighDimensionalProbability_2ndEd_en",
+  "lang": "en",
+  "title": "High-Dimensional Probability: An Introduction with Applications in Data Science",
+  "authors": "Roman Vershynin",
+  "edition": "第 2 版（作者官网 PDF，版本日期 2026-10-23）",
+  "orig_year": 2018,
+  "edition_year": "2026-10-23",
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "High-Dimensional Probability",
+  "min_pages": 200,
+  "source_page": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "概率论、线性代数",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "集中不等式、随机矩阵、经验过程等学习理论概率工具",
+  "old_reason": "第 2 版为作者官网最新版本",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB022",
+  "type": "book",
+  "file_stem": "Grinstead_IntroductionToProbability_2ndEd_en",
+  "lang": "en",
+  "title": "Introduction to Probability",
+  "authors": "Charles M. Grinstead; J. Laurie Snell",
+  "edition": "第 2 修订版（AMS 1997；GNU FDL 版本 2006-07-04）",
+  "orig_year": 1997,
+  "edition_year": 2006,
+  "publisher": "American Mathematical Society",
+  "format": "pdf",
+  "title_phrase": "Introduction to Probability",
+  "min_pages": 450,
+  "source_page": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+  "license_note": "GNU FDL 开放许可",
+  "cats": [
+   "C12"
+  ],
+  "prereq": "微积分",
+  "stage": "数学基础",
+  "difficulty": "入门",
+  "priority": "中",
+  "reason": "概率论入门：离散/连续分布、大数定律、中心极限定理、马尔可夫链",
+  "old_reason": "经典概率入门教材，GNU 自由文档许可全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB023",
+  "type": "book",
+  "file_stem": "Lattimore_BanditAlgorithms_2020_en",
+  "lang": "en",
+  "title": "Bandit Algorithms",
+  "authors": "Tor Lattimore; Csaba Szepesvári",
+  "edition": "第 1 版（2020）",
+  "orig_year": 2020,
+  "edition_year": 2020,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Bandit Algorithms",
+  "min_pages": 500,
+  "source_page": "https://tor-lattimore.com/downloads/book/book.pdf",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "概率论",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "多臂老虎机理论与算法的权威专著",
+  "old_reason": "老虎机领域标准参考书，作者官网全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://tor-lattimore.com/downloads/book/book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB024",
+  "type": "book",
+  "file_stem": "Agarwal_ReinforcementLearningTheoryAlgorithms_draft_en",
+  "lang": "en",
+  "title": "Reinforcement Learning: Theory and Algorithms",
+  "authors": "Alekh Agarwal; Kianté Brantley; Nan Jiang; Sham M. Kakade; Wen Sun",
+  "edition": "作者工作草稿（PDF 日期 2026-06-27）",
+  "orig_year": 2019,
+  "edition_year": "2026-06-27",
+  "publisher": "作者网站草稿",
+  "format": "pdf",
+  "title_phrase": "Reinforcement Learning",
+  "min_pages": 150,
+  "source_page": "https://rltheorybook.github.io/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C09",
+   "C01"
+  ],
+  "prereq": "概率、优化、MDP 基础",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "强化学习理论：样本复杂度、策略梯度、探索、离线 RL",
+  "old_reason": "作者持续更新的官方草稿",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://rltheorybook.github.io/rltheorybook_ABJKS.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB025",
+  "type": "book",
+  "file_stem": "Szepesvari_AlgorithmsForReinforcementLearning_2010_en",
+  "lang": "en",
+  "title": "Algorithms for Reinforcement Learning",
+  "authors": "Csaba Szepesvári",
+  "edition": "第 1 版（2010；作者修订 PDF）",
+  "orig_year": 2010,
+  "edition_year": 2010,
+  "publisher": "Morgan & Claypool",
+  "format": "pdf",
+  "title_phrase": "Algorithms for Reinforcement Learning",
+  "min_pages": 80,
+  "source_page": "https://sites.ualberta.ca/~szepesva/rlbook.html",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "MDP 基础",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "低",
+  "reason": "值函数逼近、控制与 TD 方法的精简专著",
+  "old_reason": "短篇经典专著，作者官网全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB026",
+  "type": "book",
+  "file_stem": "Albrecht_MultiAgentReinforcementLearning_2024_en",
+  "lang": "en",
+  "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
+  "authors": "Stefano V. Albrecht; Filippos Christianos; Lukas Schäfer",
+  "edition": "MIT Press 2024；官网 PDF",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Multi-Agent Reinforcement Learning",
+  "min_pages": 300,
+  "source_page": "https://www.marl-book.com/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "强化学习基础",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "多智能体强化学习系统教材：博弈论基础与深度 MARL",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.marl-book.com/download/",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB027",
+  "type": "book",
+  "file_stem": "Kochenderfer_AlgorithmsForDecisionMaking_2022_en",
+  "lang": "en",
+  "title": "Algorithms for Decision Making",
+  "authors": "Mykel J. Kochenderfer; Tim A. Wheeler; Kyle H. Wray",
+  "edition": "MIT Press 2022；官网 PDF",
+  "orig_year": 2022,
+  "edition_year": 2022,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Algorithms for Decision Making",
+  "min_pages": 600,
+  "source_page": "https://algorithmsbook.com/decisionmaking/",
+  "license_note": "作者官网免费 PDF（Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "概率、编程",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "概率推理、序贯决策、模型与状态不确定性、多智能体决策",
+  "old_reason": "2022 年出版，早于窗口；序列决策方向现代教材",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1drcYW3iJz4wnnCqjuVwQyc5a6eC7i6cu",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB028",
+  "type": "book",
+  "file_stem": "Kochenderfer_AlgorithmsForOptimization_2ndEd_en",
+  "lang": "en",
+  "title": "Algorithms for Optimization",
+  "authors": "Mykel J. Kochenderfer; Tim A. Wheeler",
+  "edition": "第 2 版（PDF 版权页 © 2026）",
+  "orig_year": 2019,
+  "edition_year": 2026,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Algorithms for Optimization",
+  "min_pages": 400,
+  "source_page": "https://algorithmsbook.com/optimization/",
+  "license_note": "作者官网免费 PDF（Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C04"
+  ],
+  "prereq": "微积分、编程",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "导数、局部下降、一阶/二阶方法、随机方法、约束优化、代理模型",
+  "old_reason": "作者官网最新版本",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB029",
+  "type": "book",
+  "file_stem": "Kochenderfer_AlgorithmsForValidation_2025_en",
+  "lang": "en",
+  "title": "Algorithms for Validation",
+  "authors": "Mykel J. Kochenderfer; Sydney M. Katz; Anthony L. Corso; Robert J. Moss",
+  "edition": "第 1 版（PDF 版权页 © 2026）",
+  "orig_year": 2026,
+  "edition_year": 2026,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Algorithms for Validation",
+  "min_pages": 300,
+  "source_page": "https://algorithmsbook.com/validation/",
+  "license_note": "作者官网免费 PDF（Google Drive 托管）",
+  "cats": [
+   "C12",
+   "C10"
+  ],
+  "prereq": "概率、编程",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "系统验证：失效分析、可达性、形式化方法、可解释性与运行时监控",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1ia_-f26tQKvomfyhtvXa02_0CPWZhxMZ",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB030",
+  "type": "book",
+  "file_stem": "Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_en",
+  "lang": "en",
+  "title": "Speech and Language Processing (3rd edition draft)",
+  "authors": "Daniel Jurafsky; James H. Martin",
+  "edition": "第 3 版草稿（Draft of August 19, 2026）",
+  "orig_year": 2000,
+  "edition_year": "2026-08-19",
+  "publisher": "未出版草稿（作者网站）",
+  "format": "pdf",
+  "title_phrase": "Speech and Language Processing",
+  "min_pages": 500,
+  "source_page": "https://web.stanford.edu/~jurafsky/slp3/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C06"
+  ],
+  "prereq": "概率、编程",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "NLP 标准教材：n-gram、嵌入、Transformer、LLM、后训练、语音",
+  "old_reason": "作者持续更新的第 3 版草稿",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB031",
+  "type": "book",
+  "file_stem": "Fleuret_LittleBookOfDeepLearning_2023_en",
+  "lang": "en",
+  "title": "The Little Book of Deep Learning",
+  "authors": "François Fleuret",
+  "edition": "作者官网 PDF（版本以 PDF 为准）",
+  "orig_year": 2023,
+  "edition_year": "",
+  "publisher": "自出版",
+  "format": "pdf",
+  "title_phrase": "Little Book of Deep Learning",
+  "min_pages": 100,
+  "source_page": "https://fleuret.org/francois/lbdl.html",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C04"
+  ],
+  "prereq": "线性代数、概率",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "中",
+  "reason": "深度学习核心概念极简手册：训练、组件、架构、应用",
+  "old_reason": "PDF 未标注版本日期（待核实）；保留理由：简明完整的深度学习概念手册，作者官网持续更新",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://fleuret.org/public/lbdl.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB032",
+  "type": "book",
+  "file_stem": "Gelman_BayesianDataAnalysis_3rdEd_en",
+  "lang": "en",
+  "title": "Bayesian Data Analysis",
+  "authors": "Andrew Gelman; John B. Carlin; Hal S. Stern; David B. Dunson; Aki Vehtari; Donald B. Rubin",
+  "edition": "第 3 版（作者官网 PDF，勘误至 2025-02-20）",
+  "orig_year": 1995,
+  "edition_year": "2025-02-20",
+  "publisher": "CRC Press",
+  "format": "pdf",
+  "title_phrase": "Bayesian Data Analysis",
+  "min_pages": 600,
+  "source_page": "http://www.stat.columbia.edu/~gelman/book/",
+  "license_note": "作者官网免费 PDF（非商业用途）",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "概率、数理统计",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "贝叶斯建模、层次模型、MCMC、模型检验标准教材",
+  "old_reason": "贝叶斯统计权威教材，作者官网非商业用途全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "http://www.stat.columbia.edu/~gelman/book/BDA3.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB033",
+  "type": "book",
+  "file_stem": "Rasmussen_GaussianProcessesForMachineLearning_2006_en",
+  "lang": "en",
+  "title": "Gaussian Processes for Machine Learning",
+  "authors": "Carl Edward Rasmussen; Christopher K. I. Williams",
+  "edition": "第 1 版（2006）",
+  "orig_year": 2006,
+  "edition_year": 2006,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Gaussian Processes for Machine Learning",
+  "min_pages": 200,
+  "source_page": "https://gaussianprocess.org/gpml/",
+  "license_note": "官网免费 PDF",
+  "cats": [
+   "C12",
+   "C02"
+  ],
+  "prereq": "线性代数、概率",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "高斯过程回归/分类、协方差函数、模型选择",
+  "old_reason": "高斯过程与核方法标准专著，官网全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://gaussianprocess.org/gpml/chapters/RW.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB034",
+  "type": "book",
+  "file_stem": "Axler_LinearAlgebraDoneRight_4thEd_en",
+  "lang": "en",
+  "title": "Linear Algebra Done Right",
+  "authors": "Sheldon Axler",
+  "edition": "第 4 版（© 2024；PDF 版本日期 2026-10-28）",
+  "orig_year": 1995,
+  "edition_year": "2026-10-28",
+  "publisher": "Springer",
+  "format": "pdf",
+  "title_phrase": "Linear Algebra Done Right",
+  "min_pages": 300,
+  "source_page": "https://linear.axler.net/",
+  "license_note": "Springer 开放获取",
+  "cats": [
+   "C12"
+  ],
+  "prereq": "高中数学",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "以线性映射为中心的线性代数教材",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://linear.axler.net/LADR4e.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB035",
+  "type": "book",
+  "file_stem": "Daume_CourseInMachineLearning_v099_en",
+  "lang": "en",
+  "title": "A Course in Machine Learning",
+  "authors": "Hal Daumé III",
+  "edition": "v0.99（2017 草稿）",
+  "orig_year": 2012,
+  "edition_year": 2017,
+  "publisher": "自出版（作者网站）",
+  "format": "pdf",
+  "title_phrase": "Course in Machine Learning",
+  "min_pages": 150,
+  "source_page": "http://ciml.info/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C02"
+  ],
+  "prereq": "基础编程、概率",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "低",
+  "reason": "简明机器学习入门（决策树、感知机、线性模型、偏差与公平）",
+  "old_reason": "作者官方最新版本，入门友好",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "http://ciml.info/dl/v0_99/ciml-v0_99-all.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB036",
+  "type": "book",
+  "file_stem": "Kroese_DataScienceAndMachineLearning_2019_en",
+  "lang": "en",
+  "title": "Data Science and Machine Learning: Mathematical and Statistical Methods",
+  "authors": "Dirk P. Kroese; Zdravko I. Botev; Thomas Taimre; Radislav Vaisman",
+  "edition": "第 1 版（2019）；作者网站 PDF 版本日期 2024-08-22",
+  "orig_year": 2019,
+  "edition_year": "2024-08-22",
+  "publisher": "CRC Press",
+  "format": "pdf",
+  "title_phrase": "Data Science and Machine Learning",
+  "min_pages": 500,
+  "source_page": "https://people.smp.uq.edu.au/DirkKroese/DSML/",
+  "license_note": "作者网站免费 PDF（个人使用）",
+  "cats": [
+   "C12",
+   "C01",
+   "C02"
+  ],
+  "prereq": "微积分、概率",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "低",
+  "reason": "机器学习的数学与统计方法，附完整 Python 代码",
+  "old_reason": "作者网站完整 PDF",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB037",
+  "type": "book",
+  "file_stem": "Blum_FoundationsOfDataScience_2020_en",
+  "lang": "en",
+  "title": "Foundations of Data Science",
+  "authors": "Avrim Blum; John Hopcroft; Ravindran Kannan",
+  "edition": "作者官网草稿版（2018-01-04；剑桥 2020 年正式出版）",
+  "orig_year": 2020,
+  "edition_year": "2018-01-04",
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Foundations of Data Science",
+  "min_pages": 400,
+  "source_page": "https://www.cs.cornell.edu/jeh/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C01",
+   "C03"
+  ],
+  "prereq": "线性代数、概率",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "高维几何、SVD、随机游走、学习理论、聚类、图模型的数学基础",
+  "old_reason": "作者官网全文",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.cs.cornell.edu/jeh/book.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB038",
+  "type": "book",
+  "file_stem": "Polyanskiy_InformationTheoryCodingToLearning_2025_en",
+  "lang": "en",
+  "title": "Information Theory: From Coding to Learning",
+  "authors": "Yury Polyanskiy; Yihong Wu",
+  "edition": "剑桥出版社排版稿（PDF 页眉 2024-08-16）",
+  "orig_year": 2024,
+  "edition_year": "2024-08-16",
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Information Theory",
+  "min_pages": 600,
+  "source_page": "https://people.lids.mit.edu/yp/homepage/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "概率论",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "信息论在统计学习中的应用：f-散度、率失真、Fano/Le Cam 方法、极小极大下界",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://people.lids.mit.edu/yp/homepage/data/itbook-export.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB039",
+  "type": "book",
+  "file_stem": "Petersen_MatrixCookbook_2012_en",
+  "lang": "en",
+  "title": "The Matrix Cookbook",
+  "authors": "Kaare Brandt Petersen; Michael Syskind Pedersen",
+  "edition": "2012-11-15 版",
+  "orig_year": 2005,
+  "edition_year": 2012,
+  "publisher": "技术报告（丹麦技术大学）",
+  "format": "pdf",
+  "title_phrase": "Matrix Cookbook",
+  "min_pages": 60,
+  "source_page": "https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf",
+  "license_note": "作者免费分发版本（滑铁卢大学教师主页镜像）",
+  "cats": [
+   "C12"
+  ],
+  "prereq": "线性代数",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "低",
+  "reason": "矩阵求导、恒等式、分布公式速查参考书",
+  "old_reason": "最常用矩阵公式参考，2012 年为最终版本",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB040",
+  "type": "book",
+  "file_stem": "Garnett_BayesianOptimization_2023_en",
+  "lang": "en",
+  "title": "Bayesian Optimization",
+  "authors": "Roman Garnett",
+  "edition": "Cambridge University Press 2023；作者官网 PDF",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Bayesian Optimization",
+  "min_pages": 300,
+  "source_page": "https://bayesoptbook.com/",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C02",
+   "C01"
+  ],
+  "prereq": "高斯过程、概率",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "低",
+  "reason": "高斯过程建模与采集函数的系统专著",
+  "old_reason": "2023 年出版，早于窗口；超参数优化方向标准专著",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://bayesoptbook.com/book/bayesoptbook.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB041",
+  "type": "book",
+  "file_stem": "Bertsekas_CourseInReinforcementLearning_2ndEd_en",
+  "lang": "en",
+  "title": "A Course in Reinforcement Learning",
+  "authors": "Dimitri P. Bertsekas",
+  "edition": "第 2 版（PDF © 2026，最近修订 2026-04-27）",
+  "orig_year": 2023,
+  "edition_year": "2026-04-27",
+  "publisher": "Athena Scientific",
+  "format": "pdf",
+  "title_phrase": "Reinforcement Learning",
+  "min_pages": 300,
+  "source_page": "https://web.mit.edu/dimitrib/www/RLbook.html",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "动态规划、概率",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "基于 ASU 课程的强化学习教材：近似动态规划、rollout、策略迭代",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://web.mit.edu/dimitrib/www/RLCOURSECOMPLETE%202ndEDITION.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB042",
+  "type": "book",
+  "file_stem": "Hernan_CausalInferenceWhatIf_2026_en",
+  "lang": "en",
+  "title": "Causal Inference: What If",
+  "authors": "Miguel A. Hernán; James M. Robins",
+  "edition": "CRC 2020；作者官网 2026-08-19 更新版",
+  "orig_year": 2020,
+  "edition_year": 2026,
+  "publisher": "Chapman & Hall/CRC",
+  "format": "pdf",
+  "title_phrase": "Causal Inference",
+  "min_pages": 300,
+  "source_page": "https://miguelhernan.org/whatifbook",
+  "license_note": "作者官网免费 PDF",
+  "cats": [
+   "C12",
+   "C10"
+  ],
+  "prereq": "统计学基础",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "中",
+  "reason": "因果推断：反事实、混杂、工具变量、时变处理",
+  "old_reason": "",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://miguelhernan.org/s/hernanrobins_WhatIf_19aug26.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB043",
+  "type": "book",
+  "file_stem": "Eisenstein_IntroductionNaturalLanguageProcessing_2018_en",
+  "lang": "en",
+  "title": "Natural Language Processing (lecture notes; published as Introduction to Natural Language Processing, MIT Press 2019)",
+  "authors": "Jacob Eisenstein",
+  "edition": "2018 讲义版（作者 GitHub 开放草稿）",
+  "orig_year": 2018,
+  "edition_year": 2018,
+  "publisher": "MIT Press（正式版）；本文件为作者开放草稿",
+  "format": "pdf",
+  "title_phrase": "Natural Language Processing",
+  "min_pages": 450,
+  "source_page": "https://github.com/jacobeisenstein/gt-nlp-class/tree/master/notes",
+  "license_note": "作者 GitHub 开放草稿",
+  "cats": [
+   "C12",
+   "C06"
+  ],
+  "prereq": "概率、线性代数",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "低",
+  "reason": "统计与神经 NLP 系统教材（分类、序列标注、句法、语义、生成）",
+  "old_reason": "LLM 之前 NLP 方法的系统教材，作者开放草稿",
+  "toc_check": "",
+  "files": [
+   {
+    "url": "https://raw.githubusercontent.com/jacobeisenstein/gt-nlp-class/master/notes/eisenstein-nlp-notes.pdf",
+    "label": "full"
+   }
+  ]
+ },
+ {
+  "id": "MLB044",
+  "type": "book",
+  "file_stem": "Roberts_PrinciplesOfDeepLearningTheory_2022_en",
+  "lang": "en",
+  "title": "The Principles of Deep Learning Theory",
+  "authors": "Daniel A. Roberts; Sho Yaida; Boris Hanin",
+  "edition": "arXiv 版（Cambridge University Press 2022）",
+  "orig_year": 2021,
+  "edition_year": 2022,
+  "publisher": "Cambridge University Press",
+  "format": "pdf",
+  "title_phrase": "Principles of Deep Learning Theory",
+  "min_pages": 400,
+  "source_page": "https://arxiv.org/abs/2106.10165",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04",
+   "C01"
+  ],
+  "prereq": "统计物理、概率、线性代数",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "有限宽度网络有效理论：初始化、临界性、表示学习",
+  "old_reason": "深度学习理论代表性专著，arXiv 全文",
+  "toc_check": "",
+  "arxiv": "2106.10165",
+  "files": []
+ },
+ {
+  "id": "MLB045",
+  "type": "book",
+  "file_stem": "Bronstein_GeometricDeepLearning_2021_en",
+  "lang": "en",
+  "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
+  "authors": "Michael M. Bronstein; Joan Bruna; Taco Cohen; Petar Veličković",
+  "edition": "arXiv 原型书（proto-book）",
+  "orig_year": 2021,
+  "edition_year": 2021,
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Geometric Deep Learning",
+  "min_pages": 150,
+  "source_page": "https://arxiv.org/abs/2104.13478",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C08",
+   "C04"
+  ],
+  "prereq": "深度学习、群论初步",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "以对称性统一 CNN、GNN、Transformer 的几何深度学习框架",
+  "old_reason": "几何深度学习纲领性专著，arXiv 全文",
+  "toc_check": "",
+  "arxiv": "2104.13478",
+  "files": []
+ },
+ {
+  "id": "MLB046",
+  "type": "book",
+  "file_stem": "Scardapane_AlicesAdventuresDifferentiableWonderland_2024_en",
+  "lang": "en",
+  "title": "Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land",
+  "authors": "Simone Scardapane",
+  "edition": "arXiv 版（2024）",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Differentiable Wonderland",
+  "min_pages": 150,
+  "source_page": "https://arxiv.org/abs/2404.17625",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04"
+  ],
+  "prereq": "线性代数、微积分",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "中",
+  "reason": "可微编程视角的现代神经网络入门（CNN、Transformer、GNN、SSM）",
+  "old_reason": "",
+  "toc_check": "",
+  "arxiv": "2404.17625",
+  "files": []
+ },
+ {
+  "id": "MLB047",
+  "type": "book",
+  "file_stem": "Blondel_ElementsOfDifferentiableProgramming_2024_en",
+  "lang": "en",
+  "title": "The Elements of Differentiable Programming",
+  "authors": "Mathieu Blondel; Vincent Roulet",
+  "edition": "arXiv 版（2024）",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Differentiable Programming",
+  "min_pages": 300,
+  "source_page": "https://arxiv.org/abs/2403.14606",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04"
+  ],
+  "prereq": "微积分、线性代数、概率",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "自动微分、可微控制流、平滑化与概率编程的系统讲解",
+  "old_reason": "",
+  "toc_check": "",
+  "arxiv": "2403.14606",
+  "files": []
+ },
+ {
+  "id": "MLB048",
+  "type": "book",
+  "file_stem": "Jentzen_MathematicalIntroductionToDeepLearning_2023_en",
+  "lang": "en",
+  "title": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+  "authors": "Arnulf Jentzen; Benno Kuckuck; Philippe von Wurstemberger",
+  "edition": "arXiv 版（2023 起持续更新）",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Mathematical Introduction to Deep Learning",
+  "min_pages": 500,
+  "source_page": "https://arxiv.org/abs/2310.20360",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04",
+   "C01"
+  ],
+  "prereq": "实分析、概率",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "深度学习的数学：逼近、优化（SGD/Adam 收敛）、泛化与 PDE 应用",
+  "old_reason": "",
+  "toc_check": "",
+  "arxiv": "2310.20360",
+  "files": []
+ },
+ {
+  "id": "MLB049",
+  "type": "book",
+  "file_stem": "Xiao_FoundationsOfLargeLanguageModels_2025_en",
+  "lang": "en",
+  "title": "Foundations of Large Language Models",
+  "authors": "Tong Xiao; Jingbo Zhu",
+  "edition": "arXiv 版（2025 起持续更新）",
+  "orig_year": 2025,
+  "edition_year": 2025,
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Foundations of Large Language Models",
+  "min_pages": 200,
+  "source_page": "https://arxiv.org/abs/2501.09223",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C06"
+  ],
+  "prereq": "深度学习、Transformer",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "大语言模型预训练、生成、提示、对齐与推理的系统教材",
+  "old_reason": "",
+  "toc_check": "",
+  "arxiv": "2501.09223",
+  "files": []
+ },
+ {
+  "id": "MLB050",
+  "type": "book",
+  "file_stem": "Petersen_MathematicalTheoryOfDeepLearning_2024_en",
+  "lang": "en",
+  "title": "Mathematical theory of deep learning",
+  "authors": "Philipp Petersen; Jakob Zech",
+  "edition": "arXiv 版（2024）",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Mathematical theory of deep learning",
+  "min_pages": 150,
+  "source_page": "https://arxiv.org/abs/2407.18384",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04",
+   "C01"
+  ],
+  "prereq": "实分析、泛函分析初步",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "reason": "深度网络逼近、优化与泛化理论的讲义式专著",
+  "old_reason": "",
+  "toc_check": "",
+  "arxiv": "2407.18384",
+  "files": []
+ },
+ {
+  "id": "MLB051",
+  "type": "book",
+  "file_stem": "Bubeck_ConvexOptimizationAlgorithmsComplexity_2015_en",
+  "lang": "en",
+  "title": "Convex Optimization: Algorithms and Complexity",
+  "authors": "Sébastien Bubeck",
+  "edition": "Foundations and Trends 2015；arXiv 版",
+  "orig_year": 2014,
+  "edition_year": 2015,
+  "publisher": "Now Publishers (FnT ML)",
+  "format": "pdf",
+  "title_phrase": "Convex Optimization",
+  "min_pages": 100,
+  "source_page": "https://arxiv.org/abs/1405.4980",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04",
+   "C01"
+  ],
+  "prereq": "凸分析基础",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "reason": "一阶方法复杂度、镜像下降、随机优化的精简专著",
+  "old_reason": "凸优化算法复杂度经典专著",
+  "toc_check": "",
+  "arxiv": "1405.4980",
+  "files": []
+ },
+ {
+  "id": "MLB052",
+  "type": "book",
+  "file_stem": "Hazan_IntroductionOnlineConvexOptimization_2ndEd_en",
+  "lang": "en",
+  "title": "Introduction to Online Convex Optimization",
+  "authors": "Elad Hazan",
+  "edition": "第 2 版（MIT Press 2022）；arXiv 版",
+  "orig_year": 2016,
+  "edition_year": 2022,
+  "publisher": "MIT Press",
+  "format": "pdf",
+  "title_phrase": "Online Convex Optimization",
+  "min_pages": 150,
+  "source_page": "https://arxiv.org/abs/1909.05207",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C01"
+  ],
+  "prereq": "凸优化",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "reason": "在线凸优化、正则化、Bandit、提升与博弈",
+  "old_reason": "在线学习标准教材",
+  "toc_check": "",
+  "arxiv": "1909.05207",
+  "files": []
+ },
+ {
+  "id": "MLB053",
+  "type": "book",
+  "file_stem": "Orabona_ModernIntroductionOnlineLearning_arXiv_en",
+  "lang": "en",
+  "title": "Online Learning: A Modern Introduction Using Convex Optimization（arXiv 原题 A Modern Introduction to Online Learning）",
+  "authors": "Francesco Orabona",
+  "edition": "arXiv 版（持续更新，版本以 arXiv 为准）",
+  "orig_year": 2019,
+  "edition_year": "",
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Online Learning",
+  "min_pages": 150,
+  "source_page": "https://arxiv.org/abs/1912.13213",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C01",
+   "C04"
+  ],
+  "prereq": "凸分析",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "reason": "在线镜像下降、FTRL、无参数算法，与优化器设计相关",
+  "old_reason": "作者持续更新的讲义式专著",
+  "toc_check": "",
+  "arxiv": "1912.13213",
+  "files": []
+ },
+ {
+  "id": "MLB054",
+  "type": "book",
+  "file_stem": "Thuerey_PhysicsBasedDeepLearning_arXiv_en",
+  "lang": "en",
+  "title": "Physics-based Deep Learning",
+  "authors": "N. Thuerey; B. Holzschuh; P. Holl; G. Kohl; M. Lino; Q. Liu; P. Schnell; F. Trost",
+  "edition": "v0.3（arXiv 持续更新）",
+  "orig_year": 2021,
+  "edition_year": "",
+  "publisher": "arXiv",
+  "format": "pdf",
+  "title_phrase": "Physics-based Deep Learning",
+  "min_pages": 150,
+  "source_page": "https://arxiv.org/abs/2109.05237",
+  "license_note": "arXiv 开放全文",
+  "cats": [
+   "C12",
+   "C04"
+  ],
+  "prereq": "深度学习、数值方法",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "低",
+  "reason": "物理约束、可微物理与扩散模型在科学计算中的应用",
+  "old_reason": "作者持续更新",
+  "toc_check": "",
+  "arxiv": "2109.05237",
+  "files": []
+ },
+ {
+  "id": "MLB055",
+  "file_stem": "Goodfellow_DeepLearning_2016_html_en",
+  "title": "Deep Learning",
+  "authors": "Ian Goodfellow; Yoshua Bengio; Aaron Courville",
+  "edition": "MIT Press 2016；官网 HTML 版",
+  "orig_year": 2016,
+  "edition_year": 2016,
+  "publisher": "MIT Press",
+  "title_phrase": "Deep Learning",
+  "min_chars_per_page": 300,
+  "source_page": "https://www.deeplearningbook.org/",
+  "cats": [
+   "C12",
+   "C04",
+   "C03",
+   "C07"
+  ],
+  "prereq": "线性代数、概率、微积分",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "深度学习经典教材：数学基础、前馈/卷积/循环网络、正则化与优化、表示学习与生成模型",
+  "old_reason": "2016 年出版，深度学习最常被引用的系统教材；出版社协议仅允许官网 HTML 形式",
+  "license_note": "作者官网免费 HTML（出版社协议不提供 PDF）",
+  "type": "book",
+  "lang": "en",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://www.deeplearningbook.org/",
+    "label": "toc"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/acknowledgements.html",
+    "label": "acknowledgements"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/notation.html",
+    "label": "notation"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/intro.html",
+    "label": "intro"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/part_basics.html",
+    "label": "part_basics"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/linear_algebra.html",
+    "label": "linear_algebra"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/prob.html",
+    "label": "prob"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/numerical.html",
+    "label": "numerical"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/ml.html",
+    "label": "ml"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/part_practical.html",
+    "label": "part_practical"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/mlp.html",
+    "label": "mlp"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/regularization.html",
+    "label": "regularization"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/optimization.html",
+    "label": "optimization"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/convnets.html",
+    "label": "convnets"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/rnn.html",
+    "label": "rnn"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/guidelines.html",
+    "label": "guidelines"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/applications.html",
+    "label": "applications"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/part_research.html",
+    "label": "part_research"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/linear_factors.html",
+    "label": "linear_factors"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/autoencoders.html",
+    "label": "autoencoders"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/representation.html",
+    "label": "representation"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/graphical_models.html",
+    "label": "graphical_models"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/monte_carlo.html",
+    "label": "monte_carlo"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/partition.html",
+    "label": "partition"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/inference.html",
+    "label": "inference"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/generative_models.html",
+    "label": "generative_models"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/bib.html",
+    "label": "bib"
+   },
+   {
+    "url": "https://www.deeplearningbook.org/contents/index-.html",
+    "label": "index-"
+   }
+  ],
+  "min_pages": 0,
+  "span_hosts": false,
+  "toc_check": "官网首页目录列出的全部章节、前言、记号、参考文献与索引页面；分部标题页较短，故每页最少正文阈值设为 300 字符；目录页 https://www.deeplearningbook.org/ 解析得到 27 个正文页面 + 目录页"
+ },
+ {
+  "id": "MLB056",
+  "file_stem": "Nielsen_NeuralNetworksDeepLearning_2019_html_en",
+  "title": "Neural Networks and Deep Learning",
+  "authors": "Michael A. Nielsen",
+  "edition": "Determination Press 2015；官网 HTML 版（2019-12 更新）",
+  "orig_year": 2015,
+  "edition_year": 2019,
+  "publisher": "Determination Press",
+  "title_phrase": "Neural Networks and Deep Learning",
+  "min_chars_per_page": 1500,
+  "source_page": "http://neuralnetworksanddeeplearning.com/",
+  "cats": [
+   "C12",
+   "C04"
+  ],
+  "prereq": "微积分、线性代数、Python",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "中",
+  "reason": "从感知机到反向传播、训练技巧与卷积网络的入门在线书",
+  "old_reason": "经典入门读物，作者官网仅以 HTML 形式发布；用于建立反向传播直觉",
+  "license_note": "作者官网免费 HTML（CC BY-NC 3.0）",
+  "type": "book",
+  "lang": "en",
+  "format": "html",
+  "files": [
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/",
+    "label": "toc"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/about.html",
+    "label": "about"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/exercises_and_problems.html",
+    "label": "exercises_and_problems"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/chap1.html",
+    "label": "chap1"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/chap2.html",
+    "label": "chap2"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/chap3.html",
+    "label": "chap3"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/chap4.html",
+    "label": "chap4"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/chap5.html",
+    "label": "chap5"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/chap6.html",
+    "label": "chap6"
+   },
+   {
+    "url": "http://neuralnetworksanddeeplearning.com/sai.html",
+    "label": "sai"
+   }
+  ],
+  "min_pages": 0,
+  "span_hosts": false,
+  "toc_check": "首页目录：6 章 + 附录（sai）+ 说明页（about、exercises_and_problems）；目录页 http://neuralnetworksanddeeplearning.com/ 解析得到 9 个正文页面 + 目录页"
+ },
+ {
+  "id": "MLB057",
+  "file_stem": "Molnar_InterpretableMachineLearning_3rdEd_html_en",
+  "title": "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable",
+  "authors": "Christoph Molnar",
+  "edition": "第 3 版（官网 HTML）",
+  "orig_year": 2019,
+  "edition_year": "",
+  "publisher": "自出版（Leanpub/官网）",
+  "title_phrase": "Interpretable Machine Learning",
+  "min_chars_per_page": 800,
+  "source_page": "https://christophm.github.io/interpretable-ml-book/",
+  "cats": [
+   "C12",
+   "C10"
+  ],
+  "prereq": "机器学习基础",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "可解释机器学习标准参考：可解释模型、PDP/ALE、LIME、SHAP、反事实、神经网络解释",
+  "old_reason": "官网第 3 版页面未标注发布日期（待核实）；保留理由：可解释性方向最常用的系统参考书",
+  "license_note": "作者官网免费 HTML（CC BY-NC-SA 4.0）",
+  "type": "book",
+  "lang": "en",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/",
+    "label": "toc"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/intro.html",
+    "label": "intro"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/interpretability.html",
+    "label": "interpretability"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/goals.html",
+    "label": "goals"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/overview.html",
+    "label": "overview"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/data.html",
+    "label": "data"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/limo.html",
+    "label": "limo"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/logistic.html",
+    "label": "logistic"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/extend-lm.html",
+    "label": "extend-lm"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/tree.html",
+    "label": "tree"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/rules.html",
+    "label": "rules"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/rulefit.html",
+    "label": "rulefit"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/ceteris-paribus.html",
+    "label": "ceteris-paribus"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/ice.html",
+    "label": "ice"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/lime.html",
+    "label": "lime"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/counterfactual.html",
+    "label": "counterfactual"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/anchors.html",
+    "label": "anchors"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/shapley.html",
+    "label": "shapley"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/shap.html",
+    "label": "shap"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/pdp.html",
+    "label": "pdp"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/ale.html",
+    "label": "ale"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/interaction.html",
+    "label": "interaction"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/decomposition.html",
+    "label": "decomposition"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/feature-importance.html",
+    "label": "feature-importance"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/lofo.html",
+    "label": "lofo"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/global.html",
+    "label": "global"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/proto.html",
+    "label": "proto"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/cnn-features.html",
+    "label": "cnn-features"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/pixel-attribution.html",
+    "label": "pixel-attribution"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/detecting-concepts.html",
+    "label": "detecting-concepts"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/adversarial.html",
+    "label": "adversarial"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/influential.html",
+    "label": "influential"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/evaluation.html",
+    "label": "evaluation"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/storytime.html",
+    "label": "storytime"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/future.html",
+    "label": "future"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/translations.html",
+    "label": "translations"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/cite.html",
+    "label": "cite"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/acknowledgements.html",
+    "label": "acknowledgements"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/what-is-machine-learning.html",
+    "label": "what-is-machine-learning"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/math-terms.html",
+    "label": "math-terms"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/r-packages.html",
+    "label": "r-packages"
+   },
+   {
+    "url": "https://christophm.github.io/interpretable-ml-book/references.html",
+    "label": "references"
+   }
+  ],
+  "min_pages": 0,
+  "span_hosts": false,
+  "toc_check": "官网侧栏目录中的全部章节页面（去重、按出现顺序）；参考文献等短页阈值 800 字符；目录页 https://christophm.github.io/interpretable-ml-book/ 解析得到 41 个正文页面 + 目录页"
+ },
+ {
+  "id": "MLB058",
+  "file_stem": "Torralba_FoundationsOfComputerVision_2024_html_en",
+  "title": "Foundations of Computer Vision",
+  "authors": "Antonio Torralba; Phillip Isola; William T. Freeman",
+  "edition": "MIT Press 2024；官网 HTML 版",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "publisher": "MIT Press",
+  "title_phrase": "Foundations of Computer Vision",
+  "min_chars_per_page": 500,
+  "source_page": "https://visionbook.mit.edu/",
+  "cats": [
+   "C12",
+   "C05",
+   "C04",
+   "C07"
+  ],
+  "prereq": "线性代数、概率、基础机器学习",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "reason": "MIT 计算机视觉新教材：成像、信号处理、学习、表示、生成模型、三维与运动",
+  "old_reason": "",
+  "license_note": "作者官网免费 HTML（MIT Press 开放网页版）",
+  "type": "book",
+  "lang": "en",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://visionbook.mit.edu/",
+    "label": "toc"
+   },
+   {
+    "url": "https://visionbook.mit.edu/copyright.html",
+    "label": "copyright"
+   },
+   {
+    "url": "https://visionbook.mit.edu/notations.html",
+    "label": "notations"
+   },
+   {
+    "url": "https://visionbook.mit.edu/taxonomy.html",
+    "label": "taxonomy"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_foundations.html",
+    "label": "part_foundations"
+   },
+   {
+    "url": "https://visionbook.mit.edu/simplesystem.html",
+    "label": "simplesystem"
+   },
+   {
+    "url": "https://visionbook.mit.edu/visionscience.html",
+    "label": "visionscience"
+   },
+   {
+    "url": "https://visionbook.mit.edu/fairness.html",
+    "label": "fairness"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_image_formation.html",
+    "label": "part_image_formation"
+   },
+   {
+    "url": "https://visionbook.mit.edu/imaging.html",
+    "label": "imaging"
+   },
+   {
+    "url": "https://visionbook.mit.edu/lenses.html",
+    "label": "lenses"
+   },
+   {
+    "url": "https://visionbook.mit.edu/camera_as_linsys.html",
+    "label": "camera_as_linsys"
+   },
+   {
+    "url": "https://visionbook.mit.edu/color.html",
+    "label": "color"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_foundation_learning.html",
+    "label": "part_foundation_learning"
+   },
+   {
+    "url": "https://visionbook.mit.edu/intro_to_learning.html",
+    "label": "intro_to_learning"
+   },
+   {
+    "url": "https://visionbook.mit.edu/gradient_descent.html",
+    "label": "gradient_descent"
+   },
+   {
+    "url": "https://visionbook.mit.edu/problem_of_generalization.html",
+    "label": "problem_of_generalization"
+   },
+   {
+    "url": "https://visionbook.mit.edu/neural_nets.html",
+    "label": "neural_nets"
+   },
+   {
+    "url": "https://visionbook.mit.edu/neural_nets_as_distribution_transformers.html",
+    "label": "neural_nets_as_distribution_transformers"
+   },
+   {
+    "url": "https://visionbook.mit.edu/backpropagation.html",
+    "label": "backpropagation"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_foundation_image_processing.html",
+    "label": "part_foundation_image_processing"
+   },
+   {
+    "url": "https://visionbook.mit.edu/linear_image_filtering.html",
+    "label": "linear_image_filtering"
+   },
+   {
+    "url": "https://visionbook.mit.edu/image_processing_fourier.html",
+    "label": "image_processing_fourier"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_linear_filters.html",
+    "label": "part_linear_filters"
+   },
+   {
+    "url": "https://visionbook.mit.edu/blurring_2.html",
+    "label": "blurring_2"
+   },
+   {
+    "url": "https://visionbook.mit.edu/derivatives.html",
+    "label": "derivatives"
+   },
+   {
+    "url": "https://visionbook.mit.edu/temporal_filters_v2.html",
+    "label": "temporal_filters_v2"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_sampling_and_multiscale.html",
+    "label": "part_sampling_and_multiscale"
+   },
+   {
+    "url": "https://visionbook.mit.edu/sampling_and_aliasing.html",
+    "label": "sampling_and_aliasing"
+   },
+   {
+    "url": "https://visionbook.mit.edu/upsamplig_downsampling_2.html",
+    "label": "upsamplig_downsampling_2"
+   },
+   {
+    "url": "https://visionbook.mit.edu/spatial_filter_sets.html",
+    "label": "spatial_filter_sets"
+   },
+   {
+    "url": "https://visionbook.mit.edu/pyramids_new_notation.html",
+    "label": "pyramids_new_notation"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_neural_architectures.html",
+    "label": "part_neural_architectures"
+   },
+   {
+    "url": "https://visionbook.mit.edu/convolutional_neural_nets.html",
+    "label": "convolutional_neural_nets"
+   },
+   {
+    "url": "https://visionbook.mit.edu/recurrent_neural_nets.html",
+    "label": "recurrent_neural_nets"
+   },
+   {
+    "url": "https://visionbook.mit.edu/transformers.html",
+    "label": "transformers"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_statistical_image_models.html",
+    "label": "part_statistical_image_models"
+   },
+   {
+    "url": "https://visionbook.mit.edu/stat_image_models_revised.html",
+    "label": "stat_image_models_revised"
+   },
+   {
+    "url": "https://visionbook.mit.edu/textures.html",
+    "label": "textures"
+   },
+   {
+    "url": "https://visionbook.mit.edu/graphical_models.html",
+    "label": "graphical_models"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_generative_models_and_representation.html",
+    "label": "part_generative_models_and_representation"
+   },
+   {
+    "url": "https://visionbook.mit.edu/representation_learning.html",
+    "label": "representation_learning"
+   },
+   {
+    "url": "https://visionbook.mit.edu/perceptual_organization.html",
+    "label": "perceptual_organization"
+   },
+   {
+    "url": "https://visionbook.mit.edu/generative_models.html",
+    "label": "generative_models"
+   },
+   {
+    "url": "https://visionbook.mit.edu/generative_modeling_and_rep_learning.html",
+    "label": "generative_modeling_and_rep_learning"
+   },
+   {
+    "url": "https://visionbook.mit.edu/conditional_generative_models.html",
+    "label": "conditional_generative_models"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_challenges_in_learning_based_vision.html",
+    "label": "part_challenges_in_learning_based_vision"
+   },
+   {
+    "url": "https://visionbook.mit.edu/bias_and_shift.html",
+    "label": "bias_and_shift"
+   },
+   {
+    "url": "https://visionbook.mit.edu/data_augmentation.html",
+    "label": "data_augmentation"
+   },
+   {
+    "url": "https://visionbook.mit.edu/transfer_learning.html",
+    "label": "transfer_learning"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_understanding_geometry.html",
+    "label": "part_understanding_geometry"
+   },
+   {
+    "url": "https://visionbook.mit.edu/homogeneous_coordinates.html",
+    "label": "homogeneous_coordinates"
+   },
+   {
+    "url": "https://visionbook.mit.edu/imaging_geometry.html",
+    "label": "imaging_geometry"
+   },
+   {
+    "url": "https://visionbook.mit.edu/3d_scene_understanding_stereo.html",
+    "label": "3d_scene_understanding_stereo"
+   },
+   {
+    "url": "https://visionbook.mit.edu/homography.html",
+    "label": "homography"
+   },
+   {
+    "url": "https://visionbook.mit.edu/3d_scene_understanding_single_view.html",
+    "label": "3d_scene_understanding_single_view"
+   },
+   {
+    "url": "https://visionbook.mit.edu/3d_learning.html",
+    "label": "3d_learning"
+   },
+   {
+    "url": "https://visionbook.mit.edu/multiview.html",
+    "label": "multiview"
+   },
+   {
+    "url": "https://visionbook.mit.edu/nerf.html",
+    "label": "nerf"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_understanding_motion.html",
+    "label": "part_understanding_motion"
+   },
+   {
+    "url": "https://visionbook.mit.edu/motion_estimation_intro.html",
+    "label": "motion_estimation_intro"
+   },
+   {
+    "url": "https://visionbook.mit.edu/2d_motion_from_3d.html",
+    "label": "2d_motion_from_3d"
+   },
+   {
+    "url": "https://visionbook.mit.edu/optical_flow.html",
+    "label": "optical_flow"
+   },
+   {
+    "url": "https://visionbook.mit.edu/motion_estimation.html",
+    "label": "motion_estimation"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_scene_understanding.html",
+    "label": "part_scene_understanding"
+   },
+   {
+    "url": "https://visionbook.mit.edu/object_recognition_v3.html",
+    "label": "object_recognition_v3"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_on_research.html",
+    "label": "part_on_research"
+   },
+   {
+    "url": "https://visionbook.mit.edu/how_to_do_research.html",
+    "label": "how_to_do_research"
+   },
+   {
+    "url": "https://visionbook.mit.edu/how_to_write_papers.html",
+    "label": "how_to_write_papers"
+   },
+   {
+    "url": "https://visionbook.mit.edu/how_to_give_talks.html",
+    "label": "how_to_give_talks"
+   },
+   {
+    "url": "https://visionbook.mit.edu/part_closing_remarks.html",
+    "label": "part_closing_remarks"
+   },
+   {
+    "url": "https://visionbook.mit.edu/simplesystem_final.html",
+    "label": "simplesystem_final"
+   },
+   {
+    "url": "https://visionbook.mit.edu/references.html",
+    "label": "references"
+   },
+   {
+    "url": "https://visionbook.mit.edu/series.html",
+    "label": "series"
+   }
+  ],
+  "min_pages": 0,
+  "span_hosts": false,
+  "toc_check": "官网首页目录中的全部章节页面（去重、按出现顺序）；各\"部分\"标题页（part_*）与版权页正文仅 600–1400 字符，故阈值设为 500 字符；目录页 https://visionbook.mit.edu/ 解析得到 73 个正文页面 + 目录页"
+ },
+ {
+  "id": "MLB059",
+  "file_stem": "Bellemare_DistributionalReinforcementLearning_2023_html_en",
+  "title": "Distributional Reinforcement Learning",
+  "authors": "Marc G. Bellemare; Will Dabney; Mark Rowland",
+  "edition": "MIT Press 2023；官网 HTML 草稿版",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "publisher": "MIT Press",
+  "title_phrase": "Distributional Reinforcement Learning",
+  "min_chars_per_page": 1500,
+  "source_page": "https://www.distributional-rl.org/",
+  "cats": [
+   "C12",
+   "C09"
+  ],
+  "prereq": "强化学习基础、概率论",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "reason": "分布式强化学习的系统专著：回报分布、分布式动态规划与 TD、函数逼近、深度 RL",
+  "old_reason": "2023 年出版（早于窗口起点）；出版社协议只允许网页版草稿，不提供 PDF",
+  "license_note": "作者官网 HTML 草稿（出版社协议不提供 PDF）",
+  "type": "book",
+  "lang": "en",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://www.distributional-rl.org/",
+    "label": "toc"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/toc",
+    "label": "toc"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/preface",
+    "label": "preface"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter1",
+    "label": "chapter1"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter2",
+    "label": "chapter2"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter3",
+    "label": "chapter3"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter4",
+    "label": "chapter4"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter5",
+    "label": "chapter5"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter6",
+    "label": "chapter6"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter7",
+    "label": "chapter7"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter8",
+    "label": "chapter8"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter9",
+    "label": "chapter9"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter10",
+    "label": "chapter10"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/chapter11",
+    "label": "chapter11"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/notation",
+    "label": "notation"
+   },
+   {
+    "url": "https://www.distributional-rl.org/contents/bibliography",
+    "label": "bibliography"
+   }
+  ],
+  "min_pages": 0,
+  "span_hosts": false,
+  "toc_check": "官网目录：前言、目录、第 1–11 章、记号、参考文献；目录页 https://www.distributional-rl.org/ 解析得到 15 个正文页面 + 目录页"
+ }
+]

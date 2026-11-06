@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/fb.woff
+
+[File]
+Name=fb.woff
+Work=Distributional Reinforcement Learning
+SizeBytes=6552
+SHA256=887ef16cbefe3d1722a194262bf37605819fb0d6ccbfa8a602dce48d78b68242
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

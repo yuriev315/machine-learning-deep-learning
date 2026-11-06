@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2401.09417v3
+
+[File]
+Name=2024_Zhu_VisionMamba_en.pdf
+Work=Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
+SizeBytes=1118652
+SHA256=15c3ccf7340a412e6ce408526c03a67e412d9bb4958e6c0bfe310394b6337444
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2401.09417
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

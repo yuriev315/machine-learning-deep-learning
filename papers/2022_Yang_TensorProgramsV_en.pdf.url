@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2203.03466v2
+
+[File]
+Name=2022_Yang_TensorProgramsV_en.pdf
+Work=Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer
+SizeBytes=3195677
+SHA256=62d1d70dac7d66038505fa7eaa371c45e9c7d2242e62a5a240e43e8fab39134e
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2203.03466
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

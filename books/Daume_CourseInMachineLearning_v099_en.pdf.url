@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=http://ciml.info/dl/v0_99/ciml-v0_99-all.pdf
+
+[File]
+Name=Daume_CourseInMachineLearning_v099_en.pdf
+Work=A Course in Machine Learning
+SizeBytes=3921784
+SHA256=32251b6d23adf23e887ba1dcb6fbd91c5369a5c6c99df4b16dd2da56bf0fdad5
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=http://ciml.info/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

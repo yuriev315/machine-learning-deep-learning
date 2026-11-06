@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2503.14476v2
+
+[File]
+Name=2025_Yu_DAPO_en.pdf
+Work=DAPO: An Open-Source LLM Reinforcement Learning System at Scale
+SizeBytes=826801
+SHA256=f01e4fd347530cadd68e5c36b1998532a6d1adb272c817e73b927453c26e9d79
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2503.14476
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

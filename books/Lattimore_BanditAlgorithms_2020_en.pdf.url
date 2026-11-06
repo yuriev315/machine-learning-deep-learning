@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://tor-lattimore.com/downloads/book/book.pdf
+
+[File]
+Name=Lattimore_BanditAlgorithms_2020_en.pdf
+Work=Bandit Algorithms
+SizeBytes=5400750
+SHA256=b71acb03034d73ca0ea148c9c6a91c34a88dd8c7ab8471af38035b34399bad9f
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://tor-lattimore.com/downloads/book/book.pdf
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2410.18164v3
+
+[File]
+Name=2024_Ma_TabDPT_en.pdf
+Work=TabDPT: Scaling Tabular Foundation Models on Real Data
+SizeBytes=864580
+SHA256=f336b271ffe3df26319bbba823d7f74ba30594a7b97e7247b2eedab58e0ffb47
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2410.18164
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

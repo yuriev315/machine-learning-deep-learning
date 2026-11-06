@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2404.07724v2
+
+[File]
+Name=2024_Kynkaanniemi_ApplyingGuidanceLimitedInterval_en.pdf
+Work=Applying Guidance in a Limited Interval Improves Sample and Distribution Quality in Diffusion Models
+SizeBytes=23256886
+SHA256=e70884bc2572cdaa865bf2ef984015a6d6c4a03c7e5d2f882b94f019549b2efa
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2404.07724
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

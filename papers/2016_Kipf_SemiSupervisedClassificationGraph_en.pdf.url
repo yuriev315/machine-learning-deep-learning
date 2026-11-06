@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1609.02907v4
+
+[File]
+Name=2016_Kipf_SemiSupervisedClassificationGraph_en.pdf
+Work=Semi-Supervised Classification with Graph Convolutional Networks
+SizeBytes=873897
+SHA256=a654f884db04a317b0f2414a83f2ba32a9f8442d29bcf1cb5f73f7af78a98070
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/1609.02907
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

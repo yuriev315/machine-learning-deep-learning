@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/f2d.woff
+
+[File]
+Name=f2d.woff
+Work=Distributional Reinforcement Learning
+SizeBytes=3904
+SHA256=1777ce8031e7b15d1c550452522266cfa15f7f0b4cc7d7b1126a9f0e4dc41cab
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

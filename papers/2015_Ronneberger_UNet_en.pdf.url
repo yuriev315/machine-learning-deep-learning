@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1505.04597v1
+
+[File]
+Name=2015_Ronneberger_UNet_en.pdf
+Work=U-Net: Convolutional Networks for Biomedical Image Segmentation
+SizeBytes=1648684
+SHA256=a3172b2124f38e260dc2c7ed968d87c31bc94dbc19a42a7ab3dcbd7534319c44
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/1505.04597
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

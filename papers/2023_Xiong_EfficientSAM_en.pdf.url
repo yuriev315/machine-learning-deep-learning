@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2312.00863v1
+
+[File]
+Name=2023_Xiong_EfficientSAM_en.pdf
+Work=EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything
+SizeBytes=14196364
+SHA256=bc2387ae2edf2dfb8ead7a944245f3d1efd9c7062025f163346eaedbbaea03d7
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2312.00863
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

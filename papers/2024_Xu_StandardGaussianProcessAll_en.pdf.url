@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2402.02746v5
+
+[File]
+Name=2024_Xu_StandardGaussianProcessAll_en.pdf
+Work=Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization
+SizeBytes=3524455
+SHA256=6fc1b5051d78b7996370eb25108e4d9d64fe1ab23c8bb561c8977fcce606e35c
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2402.02746
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

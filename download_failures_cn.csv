@@ -1,0 +1,6 @@
+﻿编号,分类,类型,标题,尝试来源,失败原因,处理
+—,C12,书籍,"Computer Vision: Algorithms and Applications, 2nd ed. (Szeliski, 2022)",https://szeliski.org/Book/download.php,官网 PDF 需填写姓名与邮箱表单后才能下载（登记限制），按规则不绕过,不计数；以 Torralba 等 Foundations of Computer Vision（官网 HTML 全文）替代
+—,C12,书籍,"Introduction to Information Retrieval (Manning, Raghavan, Schütze, 2008)",https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf,2026-10-29 多次请求 nlp.stanford.edu 无响应（连接超时）,不计数；可续跑重试
+—,C12,书籍,"Elements of Causal Inference (Peters, Janzing, Schölkopf, 2017)",https://mitpress.mit.edu/9780262037310/elements-of-causal-inference/,出版社页面对脚本请求返回 403；未找到可直接下载的官方开放 PDF 链接,不计数；以 Hernán & Robins《Causal Inference: What If》覆盖因果推断
+—,C12,书籍,"Deep Learning: Foundations and Concepts (Bishop & Bishop, 2024)",https://www.bishopbook.com/,官方仅提供在线阅读（不可下载完整 PDF）,不计数；不以在线阅读页面替代全文
+MLU004（已撤出）,C11,课程资料,CS4780/CS5780: Machine Learning for Intelligent Systems — Lecture Notes（Fall 2018，Kilian Weinberger）,https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/,官方讲义索引共 21 项，第 21 项为无文本层的扫描 PDF，无法与 HTML 讲义一起完整保存；资料包不完整,按规则不计数

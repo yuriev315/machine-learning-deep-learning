@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/base.min.css
+
+[File]
+Name=base.min.css
+Work=Distributional Reinforcement Learning
+SizeBytes=2389
+SHA256=4ff791ec00de70ccb1073c55098489878dc8f5ac28367c2e5f7f80089e5c533c
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

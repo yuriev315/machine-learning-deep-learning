@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2401.05566v3
+
+[File]
+Name=2024_Hubinger_SleeperAgents_en.pdf
+Work=Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
+SizeBytes=3696766
+SHA256=988e62785a47533775a543c78415dd0994341987f3124d57a81f46c931227bed
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2401.05566
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

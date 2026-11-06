@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1801.01290v2
+
+[File]
+Name=2018_Haarnoja_SoftActorCritic_en.pdf
+Work=Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+SizeBytes=4388102
+SHA256=5c33fae017d02f7025730f05198d4a6b103402822c8bbf48cbc5d8a0474c336a
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/1801.01290
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

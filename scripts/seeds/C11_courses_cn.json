@@ -1,0 +1,2805 @@
+[
+ {
+  "id": "MLU001",
+  "type": "course",
+  "file_stem": "Stanford_CS229_2026_LectureNotes_en",
+  "lang": "en",
+  "title": "CS229 Lecture Notes",
+  "authors": "Tengyu Ma; Andrew Ng",
+  "institution": "Stanford University",
+  "course_code": "CS229",
+  "course_name": "Machine Learning",
+  "term": "Spring 2026（讲义页眉 'CS229 Spring 2026'，首页日期 August 23, 2026）",
+  "version_note": "PDF 页眉 CS229 Spring 2026，首页日期 August 23, 2026；HTTP Last-Modified 2026-08-23；课程主页当前显示 Summer 2026",
+  "orig_year": "",
+  "edition_year": 2026,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://cs229.stanford.edu/main_notes.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "CS229 Lecture Notes",
+  "min_pages": 250,
+  "source_page": "https://cs229.stanford.edu/",
+  "toc_check": "课程主页唯一的完整讲义 main_notes.pdf（含目录：监督学习、深度学习、泛化与正则化、无监督学习、强化学习）；单文件即全部",
+  "prereq": "线性代数、概率论、多元微积分、Python",
+  "coverage": "线性回归与 GLM、生成式学习算法、核方法与 SVM、深度学习、泛化与正则化/模型选择、k-means 与 EM、PCA/ICA、生成模型与基础模型（表示学习、大语言模型、LLM 推理）、强化学习与 LQR/DDP/LQG",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C02",
+   "C04",
+   "C06",
+   "C09"
+  ],
+  "reason": "斯坦福 CS229 官方完整讲义，机器学习入门课程的标准文本，2026 年仍在更新",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU002",
+  "type": "course",
+  "file_stem": "Berkeley_CS189_2025_LectureNotes_en",
+  "lang": "en",
+  "title": "Concise Machine Learning",
+  "authors": "Jonathan Richard Shewchuk",
+  "institution": "University of California, Berkeley",
+  "course_code": "CS 189/289A",
+  "course_name": "Introduction to Machine Learning",
+  "term": "待核实（讲义版本 May 5, 2025）",
+  "version_note": "PDF 首页日期 May 5, 2025；摘要称为 UC Berkeley 机器学习入门课讲义；对应学期页面未核实",
+  "orig_year": "",
+  "edition_year": 2025,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://people.eecs.berkeley.edu/~jrs/papers/machlearn.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Concise Machine Learning",
+  "min_pages": 171,
+  "source_page": "https://people.eecs.berkeley.edu/~jrs/",
+  "toc_check": "作者主页提供的单一完整 PDF（191 页，含全部讲次内容），单文件即全部",
+  "prereq": "线性代数、向量微积分、概率论",
+  "coverage": "感知机、SVM、决策理论、高斯判别分析、回归、正则化、核方法、决策树与集成、神经网络与 CNN、无监督学习（PCA、聚类）、谱方法等",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C02"
+  ],
+  "reason": "Berkeley CS189 讲授者 Shewchuk 的完整讲义，几何直觉强、推导清楚，2025 年版本",
+  "old_reason": "",
+  "license_note": "作者学校主页公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU003",
+  "type": "course",
+  "file_stem": "MIT_6390_Online_LectureNotes_en",
+  "lang": "en",
+  "title": "6.390 - Intro to Machine Learning (lecture notes)",
+  "authors": "待核实（MIT 6.390 课程组，页面未署名）",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.390",
+  "course_name": "Introduction to Machine Learning",
+  "term": "待核实（在线讲义当前版本；课程主页当前为 Fall 2026）",
+  "version_note": "讲义站点 introml.mit.edu/notes 无学期标注；课程主页显示 Fall 2026",
+  "orig_year": "",
+  "edition_year": "",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://introml.mit.edu/notes/index.html",
+    "label": "01 1 Introduction"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/regression.html",
+    "label": "02 2 Regression"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/gradient_descent.html",
+    "label": "03 3 Gradient Descent"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/classification.html",
+    "label": "04 4 Classification"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/feature_representation.html",
+    "label": "05 5 Feature Representation"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/neural_networks.html",
+    "label": "06 6 Neural Networks"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/convolutional_neural_networks.html",
+    "label": "07 7 Convolutional Neural Networks"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/representation.html",
+    "label": "08 8 Representation Learning"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/transformers.html",
+    "label": "09 9 Transformers"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/non_parametric.html",
+    "label": "10 10 Non-parametric Models"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/mdp.html",
+    "label": "11 11 Markov Decision Processes"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/reinforcement_learning.html",
+    "label": "12 12 Reinforcement Learning"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/matrix_calculus.html",
+    "label": "13 Appendix A — Matrix Calculus"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/neural_network_appendix.html",
+    "label": "14 Appendix B — Optimizing Neural Networks"
+   },
+   {
+    "url": "https://introml.mit.edu/notes/nutshell.html",
+    "label": "15 Appendix C — Supervised learning in a nutshell"
+   }
+  ],
+  "title_phrase": "Intro to Machine Learning",
+  "min_pages": 0,
+  "min_chars_per_page": 2000,
+  "span_hosts": false,
+  "source_page": "https://introml.mit.edu/notes/",
+  "toc_check": "introml.mit.edu/notes 侧栏目录列出 12 章 + 附录 A–C 共 15 页；全部按序收录，逐页核验 HTTP 200、text/html、可见文本 ≥10k 字符",
+  "prereq": "Python、线性代数、微积分、基础概率",
+  "coverage": "回归、梯度下降、分类、特征表示、神经网络、CNN、表示学习、Transformer、非参数模型、MDP、强化学习，附录矩阵微积分与神经网络优化",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C02",
+   "C04",
+   "C09"
+  ],
+  "reason": "MIT 6.390 官方公开讲义，覆盖从回归到 Transformer、强化学习的入门全链路，持续更新",
+  "old_reason": "在线讲义未标注版本日期（待核实）；为 MIT 6.390 当前官方讲义，覆盖回归、分类、神经网络、CNN、Transformer、RL 等入门主题",
+  "license_note": "课程官网公开 HTML 讲义",
+  "related": ""
+ },
+ {
+  "id": "MLU005",
+  "type": "course",
+  "file_stem": "Harvard_CS181_Online_LectureNotes_en",
+  "lang": "en",
+  "title": "Undergraduate Fundamentals of Machine Learning",
+  "authors": "William J. Deuschle（初版）；Harvard CS181 课程组维护",
+  "institution": "Harvard University",
+  "course_code": "CS 181",
+  "course_name": "Machine Learning",
+  "term": "待核实（初版基于 Spring 2017 课堂笔记，此后由课程组维护）",
+  "version_note": "PDF 前言：初版由 William J. Deuschle 根据 2017 春 CS181 课堂笔记写成，此后由 CS181 课程组维护；无明确版本日期",
+  "orig_year": 2017,
+  "edition_year": "",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://github.com/harvard-ml-courses/cs181-textbook/raw/master/Textbook.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Undergraduate Fundamentals of Machine Learning",
+  "min_pages": 146,
+  "source_page": "https://github.com/harvard-ml-courses/cs181-textbook",
+  "toc_check": "课程组织 harvard-ml-courses 的教材仓库唯一 PDF（Textbook.pdf），单文件即全部",
+  "prereq": "线性代数、概率、微积分",
+  "coverage": "回归、线性分类、神经网络、概率生成模型、混合模型与 EM、聚类、降维、HMM、强化学习、SVM、贝叶斯推断",
+  "stage": "入门",
+  "difficulty": "入门",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01",
+   "C02"
+  ],
+  "reason": "哈佛 CS181 官方课程教材（课程组 GitHub 发布），本科入门层次系统",
+  "old_reason": "版本日期不明（初版 2017）；为 Harvard CS181 课程组当前维护的官方教材，暂无替代",
+  "license_note": "课程组织 GitHub 仓库公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU006",
+  "type": "course",
+  "file_stem": "MIT_6867_2006Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "6.867 Machine Learning, Fall 2006: Lecture Notes",
+  "authors": "Tommi Jaakkola",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.867",
+  "course_name": "Machine Learning",
+  "term": "Fall 2006",
+  "version_note": "MIT OCW 课程页 As Taught In Fall 2006",
+  "orig_year": 2006,
+  "edition_year": 2006,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/d26f49e758fa83b40c8f22496c857f14_lec1.pdf",
+    "label": "Lecture 1 - Introduction, linear classification, perceptron update rule"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/df535ce359aad52f48c203db64558fe8_lec2.pdf",
+    "label": "Lecture 2 - Perceptron convergence, generalization"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/c8442240a87cdacbb2b90f8b53393e9d_lec3.pdf",
+    "label": "Lecture 3 - Maximum margin classification"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/59a63d2efbe8aa01041937ff539a449a_lec4.pdf",
+    "label": "Lecture 4 - Classification errors, regularization, logistic regression"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/9e7f8fb89d65d7572980907fd6d12315_lec5.pdf",
+    "label": "Lecture 5 - Linear regression, estimator bias and variance, active learning"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/1eedc5b3427ca3eef198d707f016f295_lec6.pdf",
+    "label": "Lecture 6 - Active learning (cont.), non-linear predictions, kernels"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/1b55295adbca700abfa7356a4f832e33_lec7.pdf",
+    "label": "Lecture 7 - Kernel regression, kernels"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/33a6c8e66c62602f9f03ab6a2c632eed_lec8.pdf",
+    "label": "Lecture 8 - Support vector machine (SVM) and kernels, kernel optimization"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/2051efc0159bf145f2050469b7589fc5_lec9.pdf",
+    "label": "Lecture 9 - Model selection"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/d5a30e80d0ae7a6796186f40640d3b7d_lec10.pdf",
+    "label": "Lecture 10 - Model selection criteria"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/dd0fdf90cb4bb7f2a1b04358588ca506_lec11.pdf",
+    "label": "Lecture 11 - Description length, feature selection"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/fa94ca034b2700e553744c689fb9360e_lec12.pdf",
+    "label": "Lecture 12 - Combining classifiers, boosting"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/616f1abe4c4fec09907aa27e5a81f18d_lec13.pdf",
+    "label": "Lecture 13 - Boosting, margin, and complexity"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/44b0ad92b2f9d58e590783fa97b5edf3_lec14.pdf",
+    "label": "Lecture 14 - Margin and generalization, mixture models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/a5a5b7b5a8c2eb7d7d23eac5c7f3a9af_lec15.pdf",
+    "label": "Lecture 15 - Mixtures and the expectation maximization (EM) algorithm"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/735de5b1396c8364cc51a5b1d479760e_lec16.pdf",
+    "label": "Lecture 16 - EM, regularization, clustering"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/5450b1187d84d8ea1cd99ac75526212c_lec17.pdf",
+    "label": "Lecture 17 - Clustering"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/0871ac04afeb2df4e9b69738a6d0d38b_lec18.pdf",
+    "label": "Lecture 18 - Spectral clustering, Markov models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/bd962d39492e55697cfa6bb418ae1642_lec19.pdf",
+    "label": "Lecture 19 - Hidden Markov models (HMMs)"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/1ad9ace4da67d4c396fa56c250dc2b12_lec20.pdf",
+    "label": "Lecture 20 - HMMs (cont.)"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/c0becfe9e6d659575a8c9e30b90f55dd_lec21.pdf",
+    "label": "Lecture 21 - Bayesian networks"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/0b2ddf0b3af319e4b2dd204fec91da56_lec22.pdf",
+    "label": "Lecture 22 - Learning Bayesian networks"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/b1139f1648df9d4cfe7fd4cc09c3b259_lec23.pdf",
+    "label": "Lecture 23 - Probabilistic inference; guest lecture on collaborative filtering"
+   }
+  ],
+  "title_phrase": "6.867 Machine learning",
+  "min_pages": 155,
+  "source_page": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/pages/lecture-notes/",
+  "toc_check": "OCW Lecture Notes 页列出第 1–23 讲 PDF（第 24 讲无讲义）；23 份全部按序收录（直接 PDF 链接由各 OCW 资源页解析得到），逐一核验 HTTP 200 + %PDF",
+  "prereq": "线性代数、概率论",
+  "coverage": "感知机、最大间隔、逻辑回归、核方法与 SVM、模型选择与描述长度、Boosting、混合模型与 EM、聚类、HMM、贝叶斯网络",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "低",
+  "cats": [
+   "C11",
+   "C02",
+   "C03"
+  ],
+  "reason": "MIT 研究生机器学习课 Jaakkola 的逐讲讲义，概率与判别方法并重",
+  "old_reason": "2006 年经典 OCW 讲义；作为研究生 ML 课程完整逐讲文本保留，供与现代课程对照",
+  "license_note": "MIT OCW 公开 PDF（CC BY-NC-SA）",
+  "related": ""
+ },
+ {
+  "id": "MLU007",
+  "type": "course",
+  "file_stem": "Cambridge_MathsOfML_2026_LectureNotes_en",
+  "lang": "en",
+  "title": "Mathematics of Machine Learning",
+  "authors": "Rajen D. Shah",
+  "institution": "University of Cambridge",
+  "course_code": "Part II Mathematics of Machine Learning",
+  "course_name": "Mathematics of Machine Learning",
+  "term": "待核实（PDF 无日期；Last-Modified 2026-05-14）",
+  "version_note": "课程页 'Printed notes' 链接 notes_cur.pdf；PDF 无日期，HTTP Last-Modified 2026-05-14",
+  "orig_year": "",
+  "edition_year": 2026,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.statslab.cam.ac.uk/~rds37/teaching/machine_learning/notes_cur.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Mathematics of Machine Learning",
+  "min_pages": 37,
+  "source_page": "https://www.statslab.cam.ac.uk/~rds37/machine_learning.html",
+  "toc_check": "课程页 'Printed notes' 唯一讲义 PDF（42 页，目录 1–5 章全部在内），单文件即全部",
+  "prereq": "概率论（条件期望）、线性代数、分析",
+  "coverage": "贝叶斯风险与 ERM、偏差-方差与交叉验证、决策树与随机森林、次高斯与 Hoeffding、有限假设类、Rademacher 复杂度、VC 维、凸替代损失、投影/次梯度/随机梯度下降、AdaBoost、梯度提升、前馈神经网络",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C02"
+  ],
+  "reason": "剑桥 Part II 学习理论与算法讲义，篇幅精炼、数学严谨",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU008",
+  "type": "course",
+  "file_stem": "Stanford_CS229T_2016Winter_LectureNotes_en",
+  "lang": "en",
+  "title": "CS229T/STAT231: Statistical Learning Theory (Winter 2016)",
+  "authors": "Percy Liang",
+  "institution": "Stanford University",
+  "course_code": "CS229T/STATS231",
+  "course_name": "Statistical Learning Theory",
+  "term": "Winter 2016",
+  "version_note": "PDF 首页：Winter 2016，Last updated Wed Apr 20 2016",
+  "orig_year": 2016,
+  "edition_year": 2016,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/class/cs229t/notes.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Statistical Learning Theory",
+  "min_pages": 195,
+  "source_page": "https://web.stanford.edu/class/cs229t/",
+  "toc_check": "课程页提供的单一完整讲义 notes.pdf（217 页，含附录），单文件即全部",
+  "prereq": "CS229 水平的机器学习、概率论、线性代数、实分析基础",
+  "coverage": "渐近分析、一致收敛、Rademacher 复杂度、VC 维、核方法与 RKHS、在线学习与遗憾界、多臂老虎机",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "Percy Liang 的统计学习理论完整讲义，覆盖统计与在线学习两条主线",
+  "old_reason": "2016 年经典理论讲义；与 STATS214 新讲义侧重点不同（含在线学习与渐近分析），仍被广泛引用（Cambridge 课程页也推荐）",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU009",
+  "type": "course",
+  "file_stem": "Stanford_STATS214_2022_LectureNotes_en",
+  "lang": "en",
+  "title": "Lecture Notes for Machine Learning Theory (CS229M/STATS214)",
+  "authors": "Tengyu Ma",
+  "institution": "Stanford University",
+  "course_code": "STATS214/CS229M",
+  "course_name": "Machine Learning Theory",
+  "term": "待核实（讲义日期 June 26, 2022）",
+  "version_note": "PDF 首页日期 June 26, 2022；托管于作者 GitHub 仓库 tengyuma/cs229m_notes",
+  "orig_year": 2021,
+  "edition_year": 2022,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://raw.githubusercontent.com/tengyuma/cs229m_notes/main/master.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Machine Learning Theory",
+  "min_pages": 150,
+  "source_page": "https://github.com/tengyuma/cs229m_notes",
+  "toc_check": "作者 GitHub 仓库的合订讲义 master.pdf（167 页，全部章节），单文件即全部",
+  "prereq": "CS229、概率论、线性代数",
+  "coverage": "ERM 与一致收敛、集中不等式、Rademacher 复杂度、深度网络泛化界、隐式正则化、NTK、无监督与自监督理论、在线学习",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C04"
+  ],
+  "reason": "马腾宇的机器学习理论课程讲义，含深度学习理论最新专题",
+  "old_reason": "2022 年版本为该课程公开的最新完整合订讲义；含过参数化、隐式正则化等现代内容，无更新替代",
+  "license_note": "作者 GitHub 公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU010",
+  "type": "course",
+  "file_stem": "Oxford_AFoL_2022MT_LectureNotes_en",
+  "lang": "en",
+  "title": "Algorithmic Foundations of Learning — Lecture Notes (Michaelmas 2022)",
+  "authors": "Patrick Rebeschini",
+  "institution": "University of Oxford",
+  "course_code": "Algorithmic Foundations of Learning（Part C / MSc）",
+  "course_name": "Algorithmic Foundations of Learning",
+  "term": "Michaelmas (Fall) Term 2022",
+  "version_note": "课程页标题 Algorithmic Foundations of Learning 2022/23，Michaelmas Term 2022；AFoL/ 目录下仅有 22/ 一个学年；各讲 PDF 自带版本日期 2021-12-08 至 2022-11",
+  "orig_year": 2018,
+  "edition_year": 2022,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture00.pdf",
+    "label": "Lecture 0"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture01.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture02.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture03.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture04.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture05.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture06.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture07.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture08.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture09.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture10.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture11.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture12.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture13.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture14.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture15.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/material/lecture16.pdf",
+    "label": "Lecture 16"
+   }
+  ],
+  "title_phrase": "Algorithmic Foundations of Learning",
+  "min_pages": 130,
+  "source_page": "https://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/22/",
+  "toc_check": "AFoL/22 课程页列出 Lecture 0–16 共 17 份 Notes（另有 Slides 与习题，未收录）；全部 17 份按序收录，逐一核验 HTTP 200 + %PDF；各讲 PDF 自带版本日期 2021-12 至 2022-11",
+  "prereq": "概率论、线性代数、优化基础",
+  "coverage": "预备知识、极大不等式与 Rademacher 复杂度、VC 维与覆盖/填充数、链式法、次高斯与 Bernstein 集中及快速率、凸替代损失、梯度下降与镜像下降、随机预言机与算法稳定性、高维统计与高斯复杂度、Lasso 与近端梯度、最小二乘的隐式正则化、随机多臂老虎机、极小极大下界",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "牛津 Rebeschini 的学习理论+优化讲义，统计与算法视角结合",
+  "old_reason": "2022/23 学年为作者公开的最新完整讲义集",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU011",
+  "type": "course",
+  "file_stem": "MIT_18657_2015Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "18.657: Mathematics of Machine Learning (Fall 2015) — Full Lecture Notes",
+  "authors": "Philippe Rigollet（讲授；各讲 scribe 署名见 PDF）",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "18.657",
+  "course_name": "Mathematics of Machine Learning",
+  "term": "Fall 2015",
+  "version_note": "MIT OCW 课程页 As Taught In Fall 2015（Prof. Philippe Rigollet）；使用 OCW 提供的全讲合订 PDF",
+  "orig_year": 2015,
+  "edition_year": 2015,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/81406c87dccb9e873cfafa876a4d69c3_MIT18_657F15_LecNote.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Mathematics of Machine Learning",
+  "min_pages": 174,
+  "source_page": "https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/pages/lecture-notes/",
+  "toc_check": "OCW 讲义页提供 23 讲分册与 'full lecture notes' 合订本；选合订本（含全部 23 讲），单文件即全部",
+  "prereq": "概率论、实分析、凸分析基础",
+  "coverage": "二分类与集中不等式、VC 理论、覆盖数与链式、凸化、Boosting、SVM、（投影/镜像/随机）梯度下降、专家建议预测、FTPL、随机/对抗/线性老虎机、Blackwell 可接近性",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01",
+   "C09"
+  ],
+  "reason": "Rigollet 的机器学习数学讲义，统计学习理论、凸优化与在线学习三条线完整",
+  "old_reason": "2015 年 OCW 经典讲义；理论内容稳定",
+  "license_note": "MIT OCW 公开 PDF（CC BY-NC-SA）",
+  "related": ""
+ },
+ {
+  "id": "MLU012",
+  "type": "course",
+  "file_stem": "UPenn_STAT928_2014Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "Statistical Learning and Sequential Prediction",
+  "authors": "Alexander Rakhlin; Karthik Sridharan",
+  "institution": "University of Pennsylvania",
+  "course_code": "STAT 928",
+  "course_name": "Statistical Learning Theory and Sequential Prediction",
+  "term": "Spring 2014（讲义 DRAFT September 7, 2014）",
+  "version_note": "课程页 STAT928 Spring 2014（Instructors Rakhlin, Sridharan）；PDF 首页 DRAFT September 7, 2014",
+  "orig_year": 2014,
+  "edition_year": 2014,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "http://www.mit.edu/~rakhlin/courses/stat928/stat928_notes.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Statistical Learning and Sequential Prediction",
+  "min_pages": 234,
+  "source_page": "https://www.mit.edu/~rakhlin/courses/stat928/",
+  "toc_check": "课程页单一完整讲义 PDF（261 页），单文件即全部",
+  "prereq": "概率论、学习理论基础",
+  "coverage": "i.i.d. 统计学习与在线学习统一视角、极小极大遗憾、序贯 Rademacher 复杂度、覆盖数、组合参数、算法构造（松弛方法）",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "统计学习与在线学习统一理论的代表性讲义",
+  "old_reason": "2014 年经典理论讲义，序贯复杂度理论的主要教学文本，无更新版",
+  "license_note": "作者主页公开 PDF",
+  "related": "Orabona/Bubeck（相关主题，不同文本）"
+ },
+ {
+  "id": "MLU013",
+  "type": "course",
+  "file_stem": "UIUC_ECE543_2021_LectureNotes_en",
+  "lang": "en",
+  "title": "ECE 543: Statistical Learning Theory",
+  "authors": "Bruce Hajek; Maxim Raginsky",
+  "institution": "University of Illinois Urbana-Champaign",
+  "course_code": "ECE 543",
+  "course_name": "Statistical Learning Theory",
+  "term": "待核实（讲义 Last updated March 18, 2021）",
+  "version_note": "PDF 首页 Last updated March 18, 2021",
+  "orig_year": "",
+  "edition_year": 2021,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "http://maxim.ece.illinois.edu/teaching/SLT/SLT.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Statistical Learning Theory",
+  "min_pages": 191,
+  "source_page": "http://maxim.ece.illinois.edu/teaching/SLT/",
+  "toc_check": "课程讲义单一完整 PDF（213 页，含全部部分），单文件即全部",
+  "prereq": "概率论、实分析",
+  "coverage": "集中不等式、凸性与光滑性、核决定的函数空间、学习问题的形式化、ERM 与 Rademacher 风险界、VC 理论、二分类、平方损失回归、经验向量量化、Hilbert 空间降维、Rademacher bootstrap、学习算法稳定性等进阶专题",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "UIUC 统计学习理论讲义，严谨完整",
+  "old_reason": "2021 年版为作者公开的最新完整版本",
+  "license_note": "作者学校主页公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU014",
+  "type": "course",
+  "file_stem": "Berkeley_Stat241B_2024Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "Advanced Topics in Statistical Learning (Stat 241B / CS 281B), Spring 2024 — Lecture notes",
+  "authors": "Ryan Tibshirani",
+  "institution": "University of California, Berkeley",
+  "course_code": "Stat 241B / CS 281B",
+  "course_name": "Advanced Topics in Statistical Learning",
+  "term": "Spring 2024",
+  "version_note": "课程页标题 Spring 2024；第 14 周链接为大纲（outline）与 'last year's notes'（S23 calibration 讲义），按官方索引一并收录",
+  "orig_year": 2023,
+  "edition_year": 2024,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/review.pdf",
+    "label": "Stat/ML in a nutshell (review)"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/nn_kernels.pdf",
+    "label": "Nearest neighbors and kernels"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/splines_rkhs.pdf",
+    "label": "Splines and RKHS methods"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/minimax.pdf",
+    "label": "Minimax theory"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/emp_process.pdf",
+    "label": "Empirical process theory"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/lasso.pdf",
+    "label": "Lasso"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/ridge.pdf",
+    "label": "Ridge"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/ridgeless.pdf",
+    "label": "Ridgeless"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/conformal.pdf",
+    "label": "Conformal prediction"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/conformal_ds.pdf",
+    "label": "Conformal under distribution shift"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/calib_bw.pdf",
+    "label": "Calibration, scoring, and Blackwell (outline)"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/calibration.pdf",
+    "label": "Scoring and calibration (S23 notes, linked from S24 schedule)"
+   }
+  ],
+  "title_phrase": "Advanced Topics in Statistical Learning",
+  "min_pages": 143,
+  "source_page": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/",
+  "toc_check": "Spring 2024 课程页日程列出 10 份讲义 PDF + 第 14 周 outline（calib_bw.pdf）及同周链接的 S23 'last year's notes'（calibration.pdf），共 12 个 PDF；全部按日程顺序收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "研究生概率统计、ESL 水平的统计学习",
+  "coverage": "统计/ML 速览、近邻与核、样条与 RKHS、极小极大理论、经验过程、Lasso、岭回归、无岭（插值）回归、保形预测、分布漂移下的保形预测、校准与评分规则",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C02",
+   "C10"
+  ],
+  "reason": "Tibshirani 的高级统计学习讲义，覆盖插值、保形预测、校准等前沿主题",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": "ESL（背景）"
+ },
+ {
+  "id": "MLU015",
+  "type": "course",
+  "file_stem": "Cambridge_ModernStatMethods_2025_LectureNotes_en",
+  "lang": "en",
+  "title": "Modern Statistical Methods",
+  "authors": "Rajen D. Shah",
+  "institution": "University of Cambridge",
+  "course_code": "Part III Modern Statistical Methods",
+  "course_name": "Modern Statistical Methods",
+  "term": "课程页称 'Course notes from last year'（Last-Modified 2025-12-03，推测为 2025 学年，待核实）",
+  "version_note": "课程页同时提供本学年进行中版本 notes_current.pdf（24 页，'to be updated as the course progresses'，不完整）与上一学年完整版 notes.pdf；选后者",
+  "orig_year": "",
+  "edition_year": 2025,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Modern Statistical Methods",
+  "min_pages": 61,
+  "source_page": "https://www.statslab.cam.ac.uk/~rds37/modern_stat_methods.html",
+  "toc_check": "课程页 'Course notes from last year' 完整 PDF（68 页），单文件即全部",
+  "prereq": "线性模型、概率论、统计推断",
+  "coverage": "岭回归与核方法（RKHS、核机器）、Lasso 及其扩展与高维回归、图模型与因果推断（含 double/debiased ML）、多重检验",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C02",
+   "C01"
+  ],
+  "reason": "剑桥 Part III 高维统计与核方法讲义，ML 统计基础",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU016",
+  "type": "course",
+  "file_stem": "MIT_18657_2023_LectureNotes_en",
+  "lang": "en",
+  "title": "High-Dimensional Statistics: Lecture Notes",
+  "authors": "Philippe Rigollet; Jan-Christian Hütter",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "18.657（High Dimensional Statistics）",
+  "course_name": "High Dimensional Statistics",
+  "term": "待核实（讲义日期 October 29, 2023）",
+  "version_note": "arXiv 2310.19244v1（仅 v1，2023-10-30 提交），PDF 日期 October 29, 2023；前言称为 MIT 18.657 High Dimensional Statistics 课程编写；讲义标注日期 October 29, 2023（恰为窗口起点）",
+  "orig_year": 2015,
+  "edition_year": "2023-10-29",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2310.19244",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "High-Dimensional Statistics",
+  "min_pages": 151,
+  "source_page": "https://arxiv.org/abs/2310.19244",
+  "toc_check": "arXiv 单一完整讲义（168 页），单文件即全部",
+  "prereq": "概率论、线性代数、数理统计",
+  "coverage": "次高斯随机变量与集中、线性回归与稀疏回归（Lasso、BIC）、矩阵估计与低秩、主成分分析、极小极大下界",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01",
+   "C03"
+  ],
+  "reason": "高维统计核心讲义，为稀疏学习与 PCA 等提供理论基础，2023 年整理版",
+  "old_reason": "",
+  "license_note": "arXiv 公开",
+  "related": "Vershynin HDP（相关，不重复）"
+ },
+ {
+  "id": "MLU017",
+  "type": "course",
+  "file_stem": "UIUC_DLT_2021_LectureNotes_en",
+  "lang": "en",
+  "title": "Deep learning theory lecture notes",
+  "authors": "Matus Telgarsky",
+  "institution": "University of Illinois Urbana-Champaign",
+  "course_code": "待核实",
+  "course_name": "Deep learning theory",
+  "term": "待核实（讲义版本 2021-10-27 v0.0-e7150f2d (alpha)）",
+  "version_note": "PDF 首页：2021-10-27 v0.0-e7150f2d (alpha)；Last-Modified 2021-10-27。作者另有 two.pdf（2023-09-25 'DRAFT 1'，自述为进行中的重写，未完成），故选完整的 index.pdf",
+  "orig_year": 2021,
+  "edition_year": 2021,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://mjt.cs.illinois.edu/dlt/index.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Deep learning theory lecture notes",
+  "min_pages": 114,
+  "source_page": "https://mjt.cs.illinois.edu/dlt/",
+  "toc_check": "dlt 主页的 PDF 版本 index.pdf（127 页，逼近/优化/泛化三部分全部章节），单文件即全部",
+  "prereq": "概率论、线性代数、凸优化、学习理论基础",
+  "coverage": "神经网络逼近理论、深度的作用、NTK 与优化、隐式偏置、泛化界（Rademacher、VC、margin）",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C04",
+   "C01"
+  ],
+  "reason": "深度学习理论的系统讲义，证明简化、组织清晰",
+  "old_reason": "2021 年完整版仍是作者推荐的完整版本（2023 新稿 two.pdf 为未完成草稿）",
+  "license_note": "作者学校主页公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU018",
+  "type": "course",
+  "file_stem": "UPenn_ESE546_2024Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "ESE 546: Principles of Deep Learning",
+  "authors": "Pratik Chaudhari",
+  "institution": "University of Pennsylvania",
+  "course_code": "ESE 546",
+  "course_name": "Principles of Deep Learning",
+  "term": "Fall 2024（PDF 首页 'Updated for Fall 2024'）",
+  "version_note": "PDF 首页标注 Updated for Fall 2024；文件名 23_ese546_accessible.pdf 沿用旧名",
+  "orig_year": 2019,
+  "edition_year": 2024,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://pratikac.github.io/pub/23_ese546_accessible.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Principles of Deep Learning",
+  "min_pages": 194,
+  "source_page": "https://pratikac.github.io/",
+  "toc_check": "作者主页发布的该课程合订讲义（216 页，含全部章节目录），单文件即全部；另有 Fall 2023 等旧版本未选",
+  "prereq": "线性代数、概率、优化基础、Python",
+  "coverage": "智能简史、线性/核方法、深度全连接网络与反向传播、卷积网络、数据增强与损失、正则化（Dropout、BN）、循环网络与注意力、优化（梯度下降、加速、SGD）、神经网络能量景观、泛化理论、变分推断、GAN",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C04",
+   "C05",
+   "C07"
+  ],
+  "reason": "宾大 ESE 546 深度学习课程的完整合订讲义，理论与实践结合，2024 年更新",
+  "old_reason": "",
+  "license_note": "作者主页公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU019",
+  "type": "course",
+  "file_stem": "Stanford_CS231n_Online_LectureNotes_en",
+  "lang": "en",
+  "title": "CS231n Convolutional Neural Networks for Visual Recognition — Course Notes",
+  "authors": "待核实（CS231n 课程组；原作者 Andrej Karpathy 等，页面未逐页署名）",
+  "institution": "Stanford University",
+  "course_code": "CS231n",
+  "course_name": "Deep Learning for Computer Vision",
+  "term": "待核实（在线讲义无学期标注；站点当前作业为 2026 版）",
+  "version_note": "cs231n.github.io 讲义页无学期标注，Module 1–2 内容主要写于 2015–2017 年；站点作业链接为 assignments2026",
+  "orig_year": 2015,
+  "edition_year": "",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://cs231n.github.io/classification/",
+    "label": "01 Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits"
+   },
+   {
+    "url": "https://cs231n.github.io/linear-classify/",
+    "label": "02 Linear classification: Support Vector Machine, Softmax"
+   },
+   {
+    "url": "https://cs231n.github.io/optimization-1/",
+    "label": "03 Optimization: Stochastic Gradient Descent"
+   },
+   {
+    "url": "https://cs231n.github.io/optimization-2/",
+    "label": "04 Backpropagation, Intuitions"
+   },
+   {
+    "url": "https://cs231n.github.io/neural-networks-1/",
+    "label": "05 Neural Networks Part 1: Setting up the Architecture"
+   },
+   {
+    "url": "https://cs231n.github.io/neural-networks-2/",
+    "label": "06 Neural Networks Part 2: Setting up the Data and the Loss"
+   },
+   {
+    "url": "https://cs231n.github.io/neural-networks-3/",
+    "label": "07 Neural Networks Part 3: Learning and Evaluation"
+   },
+   {
+    "url": "https://cs231n.github.io/neural-networks-case-study/",
+    "label": "08 Putting it together: Minimal Neural Network Case Study"
+   },
+   {
+    "url": "https://cs231n.github.io/convolutional-networks/",
+    "label": "09 Convolutional Neural Networks: Architectures, Convolution / Pooling Layers"
+   },
+   {
+    "url": "https://cs231n.github.io/understanding-cnn/",
+    "label": "10 Understanding and Visualizing Convolutional Neural Networks"
+   },
+   {
+    "url": "https://cs231n.github.io/transfer-learning/",
+    "label": "11 Transfer Learning and Fine-tuning Convolutional Neural Networks"
+   },
+   {
+    "url": "https://cs231n.github.io/rnn/",
+    "label": "12 Recurrent Neural Networks"
+   }
+  ],
+  "title_phrase": "CS231n Deep Learning for Computer Vision",
+  "min_pages": 0,
+  "min_chars_per_page": 2000,
+  "span_hosts": false,
+  "source_page": "https://cs231n.github.io/",
+  "toc_check": "cs231n.github.io 首页 Module 1（8 页）、Module 2（卷积网络、可视化、迁移学习 3 页）及 Module 2 末尾学生贡献的 RNN 笔记，共 12 页全部收录；Module 0 环境/工具教程与 'Taking a Course Project to Publication' 非课程讲义，未收录；逐页核验 HTTP 200、可见文本 ≥6.7k 字符",
+  "prereq": "Python/NumPy、线性代数、微积分",
+  "coverage": "图像分类与 kNN、线性分类（SVM/Softmax）、SGD 优化、反向传播、神经网络结构/数据与损失/训练与评估、CNN 结构、CNN 可视化、迁移学习、RNN",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C04",
+   "C05"
+  ],
+  "reason": "深度学习与视觉入门最常用的官方课程笔记",
+  "old_reason": "Module 1–2 笔记写于 2015–2017 年，至今仍是课程官方笔记，内容为深度学习基础",
+  "license_note": "课程官网公开 HTML 讲义",
+  "related": ""
+ },
+ {
+  "id": "MLU020",
+  "type": "course",
+  "file_stem": "NYU_DSGA1008_2020Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "Deep Learning (NYU, Spring 2020) — lecture notes",
+  "authors": "Yann LeCun; Alfredo Canziani（课程讲授）；学生撰写、Canziani 编辑",
+  "institution": "New York University",
+  "course_code": "DS-GA 1008",
+  "course_name": "Deep Learning",
+  "term": "Spring 2020",
+  "version_note": "站点 NYU-DLSP20（Deep Learning Spring 2020）",
+  "orig_year": 2020,
+  "edition_year": 2020,
+  "format": "html",
+  "files": [
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week01/01-1/",
+    "label": "01 Motivation of Deep Learning, and Its History and Inspiration"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week01/01-2/",
+    "label": "02 Evolution and Uses of CNNs and Why Deep Learning?"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week01/01-3/",
+    "label": "03 Problem Motivation, Linear Algebra, and Visualization"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week02/02-1/",
+    "label": "04 Introduction to Gradient Descent and Backpropagation Algorithm"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week02/02-2/",
+    "label": "05 Computing gradients for NN modules and Practical tricks for Back Propagation"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week02/02-3/",
+    "label": "06 Artificial neural networks (ANNs)"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week03/03-1/",
+    "label": "07 Visualization of neural networks parameter transformation and fundamental concepts of convolution"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week03/03-2/",
+    "label": "08 ConvNet Evolutions, Architectures, Implementation Details and Advantages."
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week03/03-3/",
+    "label": "09 Properties of natural signals"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week04/04-1/",
+    "label": "10 Linear Algebra and Convolutions"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week05/05-1/",
+    "label": "11 Optimisation Techniques I"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week05/05-2/",
+    "label": "12 Optimisation Techniques II"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week05/05-3/",
+    "label": "13 Understanding convolutions and automatic differentiation engine"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week06/06-1/",
+    "label": "14 Applications of Convolutional Network"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week06/06-2/",
+    "label": "15 RNNs, GRUs, LSTMs, Attention, Seq2Seq, and Memory Networks"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week06/06-3/",
+    "label": "16 Architecture of RNN and LSTM Model"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week07/07-1/",
+    "label": "17 Energy-Based Models"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week07/07-2/",
+    "label": "18 SSL, EBM with details and examples"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week07/07-3/",
+    "label": "19 Introduction to autoencoders"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week08/08-1/",
+    "label": "20 Contrastive Methods in Energy-Based Models"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week08/08-2/",
+    "label": "21 Regularized Latent Variable Energy Based Models"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week08/08-3/",
+    "label": "22 Generative Models - Variational Autoencoders"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week09/09-1/",
+    "label": "23 Discriminative Recurrent Sparse Auto-Encoder and Group Sparsity"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week09/09-2/",
+    "label": "24 World Models and Generative Adversarial Networks"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week09/09-3/",
+    "label": "25 Generative Adversarial Networks"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week10/10-1/",
+    "label": "26 Self-Supervised Learning - Pretext Tasks"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week10/10-2/",
+    "label": "27 Self-Supervised Learning - ClusterFit and PIRL"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week10/10-3/",
+    "label": "28 The Truck Backer-Upper"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week11/11-1/",
+    "label": "29 Activation and loss functions (part 1)"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week11/11-2/",
+    "label": "30 Loss Functions (cont.) and Loss Functions for Energy Based Models"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week11/11-3/",
+    "label": "31 Prediction and Policy learning Under Uncertainty (PPUU)"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week12/12-1/",
+    "label": "32 Deep Learning for NLP"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week12/12-2/",
+    "label": "33 Decoding Language Models"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week12/12-3/",
+    "label": "34 Attention and the Transformer"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week13/13-1/",
+    "label": "35 Graph Convolutional Networks I"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week13/13-2/",
+    "label": "36 Graph Convolutional Networks II"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week13/13-3/",
+    "label": "37 Graph Convolutional Networks III"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week14/14-1/",
+    "label": "38 Deep Learning for Structured Prediction"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week14/14-2/",
+    "label": "39 Graphical Energy-based Methods"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week14/14-3/",
+    "label": "40 Overfitting and regularization"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week15/15-1/",
+    "label": "41 Inference for latent variable Energy-Based Models (EBMs)"
+   },
+   {
+    "url": "https://atcold.github.io/NYU-DLSP20/en/week15/15-2/",
+    "label": "42 Training latent variable Energy-Based Models (EBMs)"
+   }
+  ],
+  "title_phrase": "Motivation of Deep Learning",
+  "min_pages": 0,
+  "min_chars_per_page": 2000,
+  "span_hosts": false,
+  "source_page": "https://atcold.github.io/NYU-DLSP20/",
+  "toc_check": "NYU-DLSP20 英文版目录共 15 周；全部分讲讲义页（weekNN/NN-k）42 页按序收录（逐页核验 HTTP 200、可见文本 ≥9k 字符）；各周概览页（weekNN/NN，仅视频与摘要）和 FAQ/贡献说明未收录",
+  "prereq": "线性代数、概率、Python/PyTorch",
+  "coverage": "深度学习动机与历史、梯度下降与反向传播、CNN、优化、RNN/LSTM/注意力、能量模型（EBM）、自编码器与 VAE、GAN、自监督学习、损失函数、NLP 与 Transformer、图卷积网络、结构化预测、正则化",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C04",
+   "C07",
+   "C08"
+  ],
+  "reason": "LeCun/Canziani 深度学习课的完整英文讲义站点，能量模型视角独特",
+  "old_reason": "Spring 2020 为该课程唯一完整讲义版本（SP21 站点仅部分周次）",
+  "license_note": "课程站点公开 HTML 讲义",
+  "related": ""
+ },
+ {
+  "id": "MLU021",
+  "type": "course",
+  "file_stem": "Toronto_CSC321_2018Winter_LectureNotes_en",
+  "lang": "en",
+  "title": "CSC321 Winter 2018: Intro to Neural Networks and Machine Learning — Lecture Notes",
+  "authors": "Roger Grosse",
+  "institution": "University of Toronto",
+  "course_code": "CSC321",
+  "course_name": "Intro to Neural Networks and Machine Learning",
+  "term": "Winter 2018",
+  "version_note": "课程目录 csc321_2018；页面标题 Winter 2018",
+  "orig_year": 2018,
+  "edition_year": 2018,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L01%20Introduction.pdf",
+    "label": "L01 Introduction"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L02%20Linear%20Regression.pdf",
+    "label": "L02 Linear Regression"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L03%20Linear%20Classifiers.pdf",
+    "label": "L03 Linear Classifiers"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L04%20Training%20a%20Classifier.pdf",
+    "label": "L04 Training a Classifier"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L05%20Multilayer%20Perceptrons.pdf",
+    "label": "L05 Multilayer Perceptrons"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L06%20Backpropagation.pdf",
+    "label": "L06 Backpropagation"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L07%20Distributed%20Representations.pdf",
+    "label": "L07 Distributed Representations"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L08%20Optimization.pdf",
+    "label": "L08 Optimization"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L09%20Generalization.pdf",
+    "label": "L09 Generalization"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L11%20Convolutional%20Networks.pdf",
+    "label": "L11 Convolutional Networks"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L12%20Object%20Recognition.pdf",
+    "label": "L12 Object Recognition"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L15%20Recurrent%20Neural%20Nets.pdf",
+    "label": "L15 Recurrent Neural Nets"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L16%20Learning%20Long%20Term%20Dependencies.pdf",
+    "label": "L16 Learning Long Term Dependencies"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L17%20ResNets%20and%20Attention.pdf",
+    "label": "L17 ResNets and Attention"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L18%20Learning%20Probabilistic%20Models.pdf",
+    "label": "L18 Learning Probabilistic Models"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L19%20GANs.pdf",
+    "label": "L19 GANs"
+   },
+   {
+    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L20%20Reversible%20and%20Autoregressive%20Models.pdf",
+    "label": "L20 Reversible and Autoregressive Models"
+   }
+  ],
+  "title_phrase": "Intro to Neural Networks",
+  "min_pages": 151,
+  "source_page": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/",
+  "toc_check": "课程页列出 17 份 [Lecture Notes]（L01–L09、L11、L12、L15–L20；L10、L13、L14 只有幻灯片无讲义）；17 份全部按序收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "线性代数、微积分、概率、Python",
+  "coverage": "线性回归与分类、训练分类器、多层感知机、反向传播、分布式表示、优化、泛化、卷积网络、目标识别、RNN 与长期依赖、ResNet 与注意力、概率模型学习、GAN、可逆与自回归模型",
+  "stage": "入门",
+  "difficulty": "中级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C04",
+   "C07"
+  ],
+  "reason": "Grosse 的神经网络入门讲义，讲解清晰、数学适度",
+  "old_reason": "2018 年为作者最后一版完整公开讲义集，主题为深度学习基础，仍具教学价值",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU022",
+  "type": "course",
+  "file_stem": "MIT_6S184_2026_LectureNotes_en",
+  "lang": "en",
+  "title": "An Introduction to Flow Matching and Diffusion Models",
+  "authors": "Peter Holderrieth; Ezra Erives",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.S184",
+  "course_name": "Generative AI With Stochastic Differential Equations",
+  "term": "2026（PDF 首页 'MIT Class 6.S184 ..., 2026'）",
+  "version_note": "课程站点 2026 版讲义 PDF 首页标注 MIT Class 6.S184, 2026；同内容另有 arXiv 2506.02070（v3, 2026-03-18）",
+  "orig_year": 2025,
+  "edition_year": 2026,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Flow Matching and Diffusion Models",
+  "min_pages": 75,
+  "source_page": "https://diffusion.csail.mit.edu/2026/index.html",
+  "toc_check": "课程站点 2026 版唯一讲义 PDF（课程页称讲义为课程主干），单文件即全部",
+  "prereq": "概率论、微积分、线性代数、深度学习基础",
+  "coverage": "ODE/SDE 基础、流模型与扩散模型、条件与边际概率路径、Flow Matching、Score Matching、无分类器引导、潜空间与 VAE、U-Net/DiT 架构、离散扩散",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C07",
+   "C04"
+  ],
+  "reason": "MIT 6.S184 官方讲义，从数学基础系统讲解流匹配与扩散模型，2026 年最新版",
+  "old_reason": "",
+  "license_note": "课程站点公开 PDF（CC BY-NC-SA）",
+  "related": ""
+ },
+ {
+  "id": "MLU023",
+  "type": "course",
+  "file_stem": "Stanford_CS228_Online_LectureNotes_en",
+  "lang": "en",
+  "title": "CS228 Notes: Probabilistic Graphical Models",
+  "authors": "Volodymyr Kuleshov; Stefano Ermon",
+  "institution": "Stanford University",
+  "course_code": "CS228",
+  "course_name": "Probabilistic Graphical Models",
+  "term": "待核实（在线讲义无学期标注）",
+  "version_note": "ermongroup.github.io/cs228-notes 无学期标注；首页称基于 Stanford CS228，'still under construction' 但 'written up most of the material'",
+  "orig_year": 2016,
+  "edition_year": "",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/preliminaries/introduction/",
+    "label": "01 Introduction"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview",
+    "label": "02 Probability Review"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/preliminaries/applications",
+    "label": "03 Real-World Applications"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/representation/directed/",
+    "label": "04 Bayesian networks"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/representation/undirected/",
+    "label": "05 Markov random fields"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/inference/ve/",
+    "label": "06 Variable Elimination"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/inference/jt/",
+    "label": "07 Junction Tree Algorithm"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/inference/map/",
+    "label": "08 MAP inference"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/inference/sampling/",
+    "label": "09 Sampling methods"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/inference/variational/",
+    "label": "10 Variational inference"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/learning/directed/",
+    "label": "11 Learning in directed models"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/learning/undirected/",
+    "label": "12 Learning in undirected models"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/learning/latent/",
+    "label": "13 Learning in latent variable models"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/learning/bayesian/",
+    "label": "14 Bayesian Learning"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/learning/structure/",
+    "label": "15 Structure learning for Bayesian networks"
+   },
+   {
+    "url": "https://ermongroup.github.io/cs228-notes/extras/vae",
+    "label": "16 The variational auto-encoder"
+   }
+  ],
+  "title_phrase": "graphical modeling",
+  "min_pages": 0,
+  "min_chars_per_page": 2000,
+  "span_hosts": false,
+  "source_page": "https://ermongroup.github.io/cs228-notes/",
+  "toc_check": "首页目录列出 16 个讲义页（Preliminaries 3、Representation 2、Inference 5、Learning 5、Extras: VAE 1）；全部按序收录；'List of further readings' 为书目，未收录；逐页核验 HTTP 200、可见文本 ≥8.7k 字符",
+  "prereq": "概率论、线性代数、基础机器学习",
+  "coverage": "概率复习、贝叶斯网络、马尔可夫随机场、变量消元、信念传播、MAP 推断、采样推断、变分推断、有向/无向模型学习、隐变量模型与 EM、贝叶斯学习、结构学习、VAE",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C03",
+   "C02"
+  ],
+  "reason": "概率图模型课程的官方简明讲义，覆盖表示、推断、学习三部分",
+  "old_reason": "在线讲义无版本日期（约 2016 起编写），为 CS228 官方笔记，主题经典稳定",
+  "license_note": "课程组 GitHub Pages 公开 HTML 讲义",
+  "related": ""
+ },
+ {
+  "id": "MLU024",
+  "type": "course",
+  "file_stem": "CMU_10708_2019Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "10-708 Probabilistic Graphical Models, Spring 2019 — lecture notes",
+  "authors": "Eric P. Xing（讲授）；各讲学生 scribe",
+  "institution": "Carnegie Mellon University",
+  "course_code": "10-708",
+  "course_name": "Probabilistic Graphical Models",
+  "term": "Spring 2019",
+  "version_note": "站点 pgm-spring-2019",
+  "orig_year": 2019,
+  "edition_year": 2019,
+  "format": "html",
+  "files": [
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-01/",
+    "label": "01 Lecture 1: Introduction to Graphical Models"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-02/",
+    "label": "02 Lecture 2: Bayesian Networks"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-03/",
+    "label": "03 Lecture 3: Undirected Graphical Models"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-04/",
+    "label": "04 Lecture 4: Exact Inference"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-05/",
+    "label": "05 Lecture 5: Parameter Estimation in Fully Observed Bayesian Networks"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-06/",
+    "label": "06 Lecture 6: Learning Partially Observed GM and the EM Algorithm"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-07/",
+    "label": "07 Lecture 7: Maximum likelihood learning of undirected GM"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-08/",
+    "label": "08 Lecture 8: Causal Discovery and Inference"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-09/",
+    "label": "09 Lecture 9: Modeling Networks"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-10/",
+    "label": "10 Lecture 10: Sequential Models"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-11/",
+    "label": "11 Lecture 11: Kalman Filtering and Topic Models"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-12/",
+    "label": "12 Lecture 12: Theory of Variational Inference: Marginal Polytope, Inner and Outer Approximation"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-13/",
+    "label": "13 Lecture 13: Approximate Inference: Monte Carlo and Sequential Monte Carlo Methods"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-14/",
+    "label": "14 Lecture 14: Approximate Inference: Markov Chain Monte Carlo"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-15/",
+    "label": "15 Lecture 15: Statistical and Algorithmic Foundations of Deep Learning"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-16/",
+    "label": "16 Lecture 16: Building Blocks of Deep Learning"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-17/",
+    "label": "17 Lecture 17: Deep generative models (part 1)"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-18/",
+    "label": "18 Lecture 18: Deep Generative Models (Part 2)"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-19/",
+    "label": "19 Lecture 19: Case Study: Text Generation"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-20/",
+    "label": "20 Lecture 20: Reinforcement Learning & Control Through Inference in GM"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-21/",
+    "label": "21 Lecture 21: Sequential decision making (part 2): The algorithms"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-22/",
+    "label": "22 Lecture 22: Bayesian non-parametrics"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-23/",
+    "label": "23 Lecture 23: Bayesian non-parametrics (continued)"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-24/",
+    "label": "24 Lecture 24: Integrative Paradigms of GM: Regularized Bayesian Methods"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-25/",
+    "label": "25 Lecture 25: Spectral Learning for Graphical Models"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture/",
+    "label": "26 Lecture 26: Gaussian processes (GPs) and elements of meta-learning"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-27/",
+    "label": "27 Lecture 27: Scalable Algorithms and Systems for Learning, Inference, and Prediction"
+   },
+   {
+    "url": "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-28/",
+    "label": "28 Lecture 28: A Civil Engineering Perspective on AI"
+   }
+  ],
+  "title_phrase": "Introduction to Graphical Models",
+  "min_pages": 0,
+  "min_chars_per_page": 2000,
+  "span_hosts": false,
+  "source_page": "https://sailinglab.github.io/pgm-spring-2019/notes/",
+  "toc_check": "notes 列表 3 页共列出 Lecture 1–28 讲义（第 26 讲 URL 为 /notes/lecture/）；28 篇全部按讲次顺序收录（逐页核验 HTTP 200、可见文本 ≥9k 字符）；'Lecture Notes Template' 非讲义，未收录",
+  "prereq": "概率论、机器学习基础",
+  "coverage": "贝叶斯网络、无向图模型、精确推断、参数估计与 EM、因果发现、序列模型与卡尔曼滤波、主题模型、变分推断理论、蒙特卡洛与 MCMC、深度学习基础与深度生成模型、强化学习与控制即推断、贝叶斯非参数、谱学习、GP 与元学习",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C03",
+   "C07",
+   "C09"
+  ],
+  "reason": "CMU 10-708 全部 28 讲的官方 scribe 讲义集，覆盖经典 PGM 与深度生成模型的联系",
+  "old_reason": "Spring 2019 为该课程最后一版完整公开的官方讲义网站",
+  "license_note": "课程站点公开 HTML 讲义",
+  "related": ""
+ },
+ {
+  "id": "MLU025",
+  "type": "course",
+  "file_stem": "MIT_6438_2014Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "6.438 Algorithms for Inference, Fall 2014: Lecture Notes",
+  "authors": "待核实（讲义 PDF 未署名；OCW 课程页授课教师 Devavrat Shah）",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.438",
+  "course_name": "Algorithms for Inference",
+  "term": "Fall 2014",
+  "version_note": "MIT OCW 课程页 As Taught In Fall 2014，授课 Prof. Devavrat Shah；讲义 PDF 页眉为 Fall 2014（Preliminaries 一篇页眉为 Fall 2011）",
+  "orig_year": 2014,
+  "edition_year": 2014,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/177720360c220f677921a76b6cc33174_MIT6_438F14_Lec1.pdf",
+    "label": "Course Overview"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/cf6def356f49f232190b1bfa5e9996dd_MIT6_438F14_Preliminaries.pdf",
+    "label": "Preliminaries"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/bc106f74ca7ba98b70126cedc3e22f75_MIT6_438F14_Lec2.pdf",
+    "label": "Directed Graphical Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/ad67edc82806a92982df67589e58be63_MIT6_438F14_Lec3.pdf",
+    "label": "Undirected Graphical Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/3e3e9934d12e3537b4e9b46b53cd5bf1_MIT6_438F14_Lec4.pdf",
+    "label": "Factor Graphs and Comparing Graphical Model Types"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/87aa16353af04125ca2ef41ad2c63217_MIT6_438F14_Lec5.pdf",
+    "label": "Minimal I-Maps, Chordal Graphs, Trees, and Markov Chains"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/4f312f9c99b48b35dae961d24f10c471_MIT6_438F14_Lec6.pdf",
+    "label": "Gaussian Graphical Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/bdd8037261f666e8971a6af984146877_MIT6_438F14_Lec7.pdf",
+    "label": "Inference On Graphs: The Elimination Algorithm"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/1faaccb44f78c4f4e99c6814842082a0_MIT6_438F14_Lec8.pdf",
+    "label": "Inference On Trees: Sum-Product Algorithm"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/07fd05499a8596682dedce6fd0a229c3_MIT6_438F14_Lec9.pdf",
+    "label": "Forward-Backward Algorithm, Sum-Product On Factor Graphs"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/64772be3dfc6b9ef7f598e1cca14f1f5_MIT6_438F14_Lec10.pdf",
+    "label": "Sum-Product On Factor Graphs, MAP Elimination"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/adb9cebcb7c3feae1cabe02127a4eba5_MIT6_438F14_Lec11.pdf",
+    "label": "The Max-Product Algorithm"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/6a7ca2bf29cf5135ea5df3534463ff1f_MIT6_438F14_Lec12.pdf",
+    "label": "Gaussian Belief Propagation"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/6a29d3d38474e9c62b746fa646899552_MIT6_438F14_Lec13.pdf",
+    "label": "BP on Gaussian Hidden Markov Models: Kalman Filtering"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/a49d895264467b7e118bf0602616cc37_MIT6_438F14_Lec14.pdf",
+    "label": "The Junction Tree Algorithm"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/3466e7709129ed7357c765a888e0ff06_MIT6_438F14_Lec15-16.pdf",
+    "label": "Loopy Belief Propagation and its Properties"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/a9afb28814bd1e9edd628bd0279979c1_MIT6_438F14_Lec17.pdf",
+    "label": "Variational Inference"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/e193ad751ae309992372b55e70b8a080_MIT6_438F14_Lec18.pdf",
+    "label": "Markov Chain Monte Carlo Methods and Approximate MAP"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/c3901f6fb6213d7966caace10bd663aa_MIT6_438F14_Lec19.pdf",
+    "label": "Approximate Inference: Importance Sampling and Particle Filters"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/f4ec8e2913228f8cc644aceba43ff5e4_MIT6_438F14_Lec20.pdf",
+    "label": "Learning Graphical Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/e42e8ff4f0e8e2addf43de42d4f96062_MIT6_438F14_Lec21.pdf",
+    "label": "Learning Parameters of an Undirected Graphical Model"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/7b1e302a77ea08f830f9adb9920ade43_MIT6_438F14_Lec22.pdf",
+    "label": "Parameter Estimation from Partial Observations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/0446f83b8b5a3768dc349d8d8c8fd4be_MIT6_438F14_Lec23.pdf",
+    "label": "Learning Structure in Directed Graphs"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/42cd38e171046c8b0d912856e966bdc2_MIT6_438F14_Lec24.pdf",
+    "label": "Learning Exponential Family Models"
+   }
+  ],
+  "title_phrase": "Algorithms for Inference",
+  "min_pages": 189,
+  "source_page": "https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/pages/lecture-notes/",
+  "toc_check": "OCW Lecture Notes 页列出 24 个 PDF（Course Overview、Preliminaries、Lec 2–14、Lec 15–16 合并、Lec 17–24）；全部按序收录（直接 PDF 链接由各 OCW 资源页解析得到），逐一核验 HTTP 200 + %PDF",
+  "prereq": "概率论、线性代数",
+  "coverage": "有向/无向图模型、因子图、高斯图模型、消元算法、和积/最大积算法、高斯 BP 与卡尔曼滤波、联结树、环路 BP、变分推断、MCMC、粒子滤波、图模型参数与结构学习、指数族",
+  "stage": "进阶",
+  "difficulty": "高级",
+  "priority": "低",
+  "cats": [
+   "C11",
+   "C03"
+  ],
+  "reason": "MIT 推断算法课逐讲讲义，图模型推断算法讲解细致",
+  "old_reason": "2014 年 OCW 完整讲义集；推断算法为稳定的经典内容",
+  "license_note": "MIT OCW 公开 PDF（CC BY-NC-SA）",
+  "related": ""
+ },
+ {
+  "id": "MLU026",
+  "type": "course",
+  "file_stem": "ETH_PAI_2025_LectureNotes_en",
+  "lang": "en",
+  "title": "Probabilistic Artificial Intelligence",
+  "authors": "Andreas Krause; Jonas Hübotter",
+  "institution": "ETH Zürich",
+  "course_code": "263-5210-00L",
+  "course_name": "Probabilistic Artificial Intelligence",
+  "term": "待核实（arXiv 2502.05244v1，Compiled on February 11, 2025）",
+  "version_note": "arXiv 2502.05244 仅 v1（2025-02-07 提交）；PDF 称基于 ETH 课程 263-5210-00L",
+  "orig_year": 2025,
+  "edition_year": 2025,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2502.05244",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Probabilistic Artificial Intelligence",
+  "min_pages": 376,
+  "source_page": "https://arxiv.org/abs/2502.05244",
+  "toc_check": "arXiv 单一完整手稿（418 页），单文件即全部",
+  "prereq": "概率论、线性代数、机器学习基础",
+  "coverage": "贝叶斯线性回归、卡尔曼滤波、高斯过程、变分推断、MCMC、贝叶斯深度学习、主动学习、贝叶斯优化、MDP、表格与近似强化学习、基于模型的 RL",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C03",
+   "C09",
+   "C10"
+  ],
+  "reason": "ETH PAI 课程官方讲义，概率推断、不确定性与序贯决策一体化",
+  "old_reason": "",
+  "license_note": "arXiv 公开",
+  "related": ""
+ },
+ {
+  "id": "MLU027",
+  "type": "course",
+  "file_stem": "Stanford_Stats311_2025Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "Information Theory, Learning, and Statistics",
+  "authors": "John Duchi",
+  "institution": "Stanford University",
+  "course_code": "Stats 311 / EE 377",
+  "course_name": "Information Theory and Statistics",
+  "term": "Fall 2025（课程页指定教材）；PDF 版本 October 9, 2026",
+  "version_note": "课程页（Fall 2025）称主教材为 Duchi 将由 CUP 出版的《Information Theory, Learning, and Statistics》预出版稿；PDF 首页日期 October 9, 2026。旧版 'Lecture Notes on Statistics and Information Theory'（2023-12-06）未选",
+  "orig_year": "",
+  "edition_year": 2026,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/~jduchi/projects/Duchi27.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Information Theory, Learning, and Statistics",
+  "min_pages": 592,
+  "source_page": "https://web.stanford.edu/class/ee377/book.html",
+  "toc_check": "课程 Textbook 页链接的单一完整预出版 PDF（658 页），单文件即全部",
+  "prereq": "测度论概率、统计推断、凸优化",
+  "coverage": "信息论入门（熵、KL、f 散度）、指数族与统计建模、集中不等式、信息/稳定性与泛化、隐私与信息披露限制、极小极大下界（Le Cam、Fano、Assouad）、约束风险不等式、检验与泛函估计、预测/损失与熵、校准与 proper loss、替代风险、随机与在线凸优化、探索-利用与老虎机",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "斯坦福信息论与统计课程的官方课程文本，学习理论下界与信息论工具全面",
+  "old_reason": "",
+  "license_note": "作者学校主页公开 PDF（出版社许可的预出版稿）",
+  "related": "Polyanskiy–Wu（信息论，主题相关但不同文本）"
+ },
+ {
+  "id": "MLU028",
+  "type": "course",
+  "file_stem": "MIT_18S096_2015_LectureNotes_en",
+  "lang": "en",
+  "title": "Ten Lectures and Forty-Two Open Problems in the Mathematics of Data Science",
+  "authors": "Afonso S. Bandeira",
+  "institution": "Massachusetts Institute of Technology（MIT 18.S096 Fall 2015）/ New York University（Fall 2016）",
+  "course_code": "18.S096",
+  "course_name": "Topics in Mathematics of Data Science",
+  "term": "Fall 2015（MIT）/ Fall 2016（NYU）；讲义版本 October 10, 2016",
+  "version_note": "PDF 首页日期 October 10, 2016；前言称为 NYU Fall 2016 及此前 MIT 所授课程的讲义",
+  "orig_year": 2015,
+  "edition_year": 2016,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://people.math.ethz.ch/~abandeira/TenLecturesFortyTwoProblems.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Ten Lectures and Forty-Two Open Problems",
+  "min_pages": 136,
+  "source_page": "https://people.math.ethz.ch/~abandeira/",
+  "toc_check": "作者主页单一完整 PDF（152 页，十讲全部），单文件即全部",
+  "prereq": "线性代数、概率论",
+  "coverage": "PCA 与随机矩阵、扩散映射与谱聚类、图割与 Cheeger 不等式、集中不等式与 JL、群组测试与稀疏恢复、压缩感知、同步问题、SDP 松弛与社区发现",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C03",
+   "C08"
+  ],
+  "reason": "数据科学数学的经典讲义，谱方法、随机矩阵、SDP 讲解精炼",
+  "old_reason": "2016 年经典讲义，无同课程更新完整版",
+  "license_note": "作者学校主页公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU029",
+  "type": "course",
+  "file_stem": "Princeton_APC550_2016_LectureNotes_en",
+  "lang": "en",
+  "title": "Probability in High Dimension (APC 550 Lecture Notes)",
+  "authors": "Ramon van Handel",
+  "institution": "Princeton University",
+  "course_code": "APC 550",
+  "course_name": "Probability in High Dimension",
+  "term": "Spring 2014 / Fall 2016；讲义版本 December 21, 2016",
+  "version_note": "PDF 首页 'This version: December 21, 2016'，前言称为 2014 春、2016 秋两次授课所写",
+  "orig_year": 2014,
+  "edition_year": 2016,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://web.math.princeton.edu/~rvan/APC550.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Probability in High Dimension",
+  "min_pages": 293,
+  "source_page": "https://web.math.princeton.edu/~rvan/",
+  "toc_check": "作者主页单一完整 PDF（326 页），单文件即全部",
+  "prereq": "测度论概率、泛函分析基础",
+  "coverage": "集中不等式（方差、熵方法、Lipschitz）、鞅方法、传输不等式、高斯过程与链式、经验过程与 VC、上确界的泛型链式方法",
+  "stage": "数学基础",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "高维概率的研究生讲义，学习理论所需集中与经验过程工具的经典来源",
+  "old_reason": "2016 年版本为作者公开最终版，内容经典",
+  "license_note": "作者学校主页公开 PDF",
+  "related": "Vershynin HDP（主题相关，不同文本）"
+ },
+ {
+  "id": "MLU030",
+  "type": "course",
+  "file_stem": "Stanford_CS168_2024Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "CS168: The Modern Algorithmic Toolbox — Lecture Notes",
+  "authors": "Tim Roughgarden; Gregory Valiant",
+  "institution": "Stanford University",
+  "course_code": "CS168",
+  "course_name": "The Modern Algorithmic Toolbox",
+  "term": "Spring 2024",
+  "version_note": "课程主页标题 CS 168 Spring 2024（讲授 Gregory Valiant）；讲义署名以 PDF 为准",
+  "orig_year": 2015,
+  "edition_year": 2024,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l1.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l2.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l3.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l4.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l5.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l6.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l7.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l8.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l9.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l10.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l11.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l12.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l13.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l14.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l15.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l17.pdf",
+    "label": "Lecture 17"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l18a.pdf",
+    "label": "Lecture 18a"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l18b.pdf",
+    "label": "Lecture 18b"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l19.pdf",
+    "label": "Lecture 19"
+   }
+  ],
+  "title_phrase": "The Modern Algorithmic Toolbox",
+  "min_pages": 166,
+  "source_page": "https://web.stanford.edu/class/cs168/",
+  "toc_check": "课程主页（Spring 2024）列出 19 个 Lecture notes PDF（l1–l15、l17、l18a、l18b、l19；l15 覆盖第 15–16 讲）；全部按序收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "算法、线性代数、概率",
+  "coverage": "一致性哈希、Bloom 过滤器与 Count-Min、相似度搜索与降维（JL）、泛化与正则化、线性回归、PCA、SVD 与低秩近似、谱图论、采样与估计、Markov 链 MCMC、傅里叶变换、压缩感知、线性与凸规划、在线学习与乘性权重",
+  "stage": "进阶",
+  "difficulty": "中级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C03",
+   "C01"
+  ],
+  "reason": "面向数据与学习的现代算法工具讲义，PCA/SVD/降维/压缩感知等数学工具讲解出色",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU031",
+  "type": "course",
+  "file_stem": "MIT_18S096_2023IAP_LectureNotes_en",
+  "lang": "en",
+  "title": "Matrix Calculus (for Machine Learning and Beyond)",
+  "authors": "Paige Bright; Alan Edelman; Steven G. Johnson（Lecturers: Alan Edelman, Steven G. Johnson）",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "18.S096（现 18.063）",
+  "course_name": "Matrix Calculus for Machine Learning and Beyond",
+  "term": "IAP 2023（讲义 arXiv 2501.14787v1，2025-01）",
+  "version_note": "PDF 首页 'Based on MIT course 18.S096 (now 18.063) in IAP 2023'；arXiv 仅 v1（2025-01-07）",
+  "orig_year": 2023,
+  "edition_year": 2025,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2501.14787",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Matrix Calculus",
+  "min_pages": 90,
+  "source_page": "https://arxiv.org/abs/2501.14787",
+  "toc_check": "arXiv 单一完整讲义（101 页），单文件即全部",
+  "prereq": "线性代数、多元微积分",
+  "coverage": "作为线性算子的导数、矩阵函数的微分、Kronecker 积与向量化、有限差分、一般向量空间中的导数、反向模式自动微分、梯度与内积、非线性根求解与 ODE 的微分、二阶导与 Hessian、随机函数的导数",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C04"
+  ],
+  "reason": "面向机器学习的矩阵微积分与自动微分讲义，深度学习反向传播的数学基础",
+  "old_reason": "",
+  "license_note": "arXiv 公开",
+  "related": "Matrix Cookbook（主题相关，不同文本）"
+ },
+ {
+  "id": "MLU032",
+  "type": "course",
+  "file_stem": "Berkeley_EECS127_2024Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "EECS 127/227AT Optimization Models in Engineering — Course Reader (Spring 2024)",
+  "authors": "Druv Pai; Arwa Alanqary; Aditya Ramabadran 等（基于 Gireeja Ranade 讲课，Ranade 审阅）",
+  "institution": "University of California, Berkeley",
+  "course_code": "EECS 127/227AT",
+  "course_name": "Optimization Models in Engineering",
+  "term": "Spring 2024（Course Reader 2024-05-04）",
+  "version_note": "PDF 首页 'Course Reader Spring 2024 ... 2024-05-04'；致谢称由 Spring 2023 GSI 主笔、Ranade 审阅；课程主页（Spring 2026）称此 reader 为往届课程讲义集",
+  "orig_year": 2023,
+  "edition_year": 2024,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://eecs127.github.io/assets/notes/eecs127_reader.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Course Reader",
+  "min_pages": 179,
+  "source_page": "https://eecs127.github.io/",
+  "toc_check": "课程主页 'Course Reader' 链接的单一完整 PDF（199 页），单文件即全部",
+  "prereq": "线性代数、多元微积分",
+  "coverage": "线性代数回顾、SVD 与 PCA、最小二乘与正则化、向量微积分、凸集与凸函数、对偶性与 KKT、LP/QP/SOCP/SDP、梯度下降与牛顿法、应用（ML 中的优化）",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "伯克利优化课程完整讲义集，面向 ML 的线性代数与凸优化基础",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": "Boyd Convex Optimization（主题相关，不同文本）"
+ },
+ {
+  "id": "MLU033",
+  "type": "course",
+  "file_stem": "EPFL_CS439_2025Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "Optimization for Machine Learning — Lecture Notes, CS-439, Spring 2025",
+  "authors": "Bernd Gärtner; Martin Jaggi",
+  "institution": "EPFL / ETH Zürich",
+  "course_code": "CS-439",
+  "course_name": "Optimization for Machine Learning",
+  "term": "Spring 2025",
+  "version_note": "PDF 首页 'CS-439, Spring 2025'，日期 February 17, 2025；托管于课程 GitHub 仓库 epfml/OptML_course",
+  "orig_year": 2018,
+  "edition_year": 2025,
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://github.com/epfml/OptML_course/raw/master/lecture_notes/lecture-notes.pdf",
+    "label": "full"
+   }
+  ],
+  "title_phrase": "Optimization for Machine Learning",
+  "min_pages": 162,
+  "source_page": "https://github.com/epfml/OptML_course",
+  "toc_check": "课程仓库 lecture_notes/lecture-notes.pdf（181 页，目录含全部章节），单文件即全部",
+  "prereq": "线性代数、多元微积分",
+  "coverage": "凸函数理论、梯度下降、投影与近端梯度、次梯度、随机梯度下降、非凸优化、Newton 与拟牛顿、坐标下降、Frank-Wolfe 等",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "高",
+  "cats": [
+   "C11",
+   "C01",
+   "C04"
+  ],
+  "reason": "EPFL 机器学习优化课程官方讲义，收敛分析证明完整，2025 年版本",
+  "old_reason": "",
+  "license_note": "课程 GitHub 仓库公开 PDF",
+  "related": "Boyd/Hazan（相关主题，不同文本）"
+ },
+ {
+  "id": "MLU034",
+  "type": "course",
+  "file_stem": "MIT_67220_2025Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "MIT 6.7220/15.084 Nonlinear Optimization (Spring 2025) — Lecture notes",
+  "authors": "Gabriele Farina",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.7220 / 15.084",
+  "course_name": "Nonlinear Optimization",
+  "term": "Spring 2025",
+  "version_note": "课程页标题 MIT 6.7220 / 15.084 (S25)；讲义路径 /2025/67220s25_*",
+  "orig_year": 2024,
+  "edition_year": 2025,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L01_introduction/L01.pdf",
+    "label": "L01 introduction"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L02_first_order_optimality_conditions/L02.pdf",
+    "label": "L02 first order optimality conditions"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L03_more_on_normal_cones/L03.pdf",
+    "label": "L03 more on normal cones"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L04_convex_functions/L04.pdf",
+    "label": "L04 convex functions"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L05_separation/L05.pdf",
+    "label": "L05 separation"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L06_farkas/L06.pdf",
+    "label": "L06 farkas"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L07_kkt/L07.pdf",
+    "label": "L07 kkt"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L08_lagrangian_duality/L08.pdf",
+    "label": "L08 lagrangian duality"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L09_conic_optimization/L09.pdf",
+    "label": "L09 conic optimization"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L10_polynomial_optimization/L10.pdf",
+    "label": "L10 polynomial optimization"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L11_oracle_equivalence/L11.pdf",
+    "label": "L11 oracle equivalence"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L12_gradient_descent/L12.pdf",
+    "label": "L12 gradient descent"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L13_acceleration_momentum/L13.pdf",
+    "label": "L13 acceleration momentum"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L14_mirror_descent/L14.pdf",
+    "label": "L14 mirror descent"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L15_sgd/L15.pdf",
+    "label": "L15 sgd"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L16_admm/L16.pdf",
+    "label": "L16 admm"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L17_newton/L17.pdf",
+    "label": "L17 newton"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L18_adagrad/L18.pdf",
+    "label": "L18 adagrad"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L19_self_concordance/L19.pdf",
+    "label": "L19 self concordance"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2025/67220s25_L20_barrier/L20.pdf",
+    "label": "L20 barrier"
+   }
+  ],
+  "title_phrase": "Nonlinear Optimization",
+  "min_pages": 152,
+  "source_page": "https://www.mit.edu/~gfarina/67220/",
+  "toc_check": "课程页（Spring 2025）日程列出 L01–L20 共 20 份讲义 PDF；全部按序收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "线性代数、多元微积分、实分析基础",
+  "coverage": "一阶最优性条件与法锥、凸函数、分离定理与 Farkas、KKT、拉格朗日对偶、锥优化、多项式优化与 SOS、预言机等价、梯度下降、加速与动量、镜像下降、SGD、ADMM、牛顿法、AdaGrad、自协调与障碍法",
+  "stage": "数学基础",
+  "difficulty": "高级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "MIT 非线性优化课程的逐讲讲义，涵盖 ML 中常用的一阶/随机/自适应方法",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU035",
+  "type": "course",
+  "file_stem": "MIT_6S890_2024Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "MIT 6.S890 Topics in Multiagent Learning (Fall 2024) — Lecture notes",
+  "authors": "Gabriele Farina",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.S890",
+  "course_name": "Topics in Multiagent Learning",
+  "term": "Fall 2024",
+  "version_note": "课程页标题 MIT 6.S890 (F24)",
+  "orig_year": 2023,
+  "edition_year": 2024,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L02_nfg_nash/L02.pdf",
+    "label": "L02 nfg nash"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L03_nfg_corr/L03.pdf",
+    "label": "L03 nfg corr"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L04_regret/L04.pdf",
+    "label": "L04 regret"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L05_algo1/L05.pdf",
+    "label": "L05 algo1"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L06_algo2/L06.pdf",
+    "label": "L06 algo2"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L07_bandit/L07.pdf",
+    "label": "L07 bandit"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L08_phi/L08.pdf",
+    "label": "L08 phi"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L09_efg/L09.pdf",
+    "label": "L09 efg"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L10_cfr/L10.pdf",
+    "label": "L10 cfr"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L11_refinements/L11.pdf",
+    "label": "L11 refinements"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L14_combinatorial/L14.pdf",
+    "label": "L14 combinatorial"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L15_eah/L15.pdf",
+    "label": "L15 eah"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L16_sg/L16.pdf",
+    "label": "L16 sg"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L17_ppad/L17.pdf",
+    "label": "L17 ppad"
+   },
+   {
+    "url": "https://www.mit.edu/~gfarina/2024/6S890f24_L18_ppad/L18.pdf",
+    "label": "L18 ppad"
+   }
+  ],
+  "title_phrase": "Topics in Multiagent Learning",
+  "min_pages": 82,
+  "source_page": "https://www.mit.edu/~gfarina/6S890/",
+  "toc_check": "课程页（Fall 2024）日程列出 16 个讲义 PDF 链接（L02–L11、L14 Part I/II、L15–L18）；其中 L14 Part I 与 Part II 指向字节完全相同的同一份讲义（112335 字节），只收一次，共 15 份按序收录，逐一核验 HTTP 200 + %PDF。L09 在课程页上的 PDF 链接（6S890f24_L10_phi/L09.pdf）返回 404，改用同讲 html 版目录下的 6S890f24_L09_efg/L09.pdf（200，PDF）；L01 及第 16、17 次课（深度 RL 客座讲座）仅有幻灯片，未收录",
+  "prereq": "线性代数、优化、概率",
+  "coverage": "范式博弈与纳什均衡、相关均衡、遗憾与无遗憾学习算法、老虎机反馈、Φ-遗憾、扩展式博弈与 CFR、均衡精炼、组合博弈、随机博弈、PPAD 复杂性",
+  "stage": "研究",
+  "difficulty": "高级",
+  "priority": "低",
+  "cats": [
+   "C11",
+   "C09"
+  ],
+  "reason": "多智能体学习与博弈中的在线学习讲义，补充 RL/决策类的博弈论基础",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU036",
+  "type": "course",
+  "file_stem": "MIT_1805_2022Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "18.05 Introduction to Probability and Statistics, Spring 2022: Readings",
+  "authors": "Jeremy Orloff; Jonathan Bloom",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "18.05",
+  "course_name": "Introduction to Probability and Statistics",
+  "term": "Spring 2022",
+  "version_note": "MIT OCW 课程页 As Taught In Spring 2022（Orloff, Kamrin）；作者署名以 PDF 为准",
+  "orig_year": 2014,
+  "edition_year": 2022,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_probability.pdf",
+    "label": "All Probability Reading"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_statistics.pdf",
+    "label": "All Statistics Reading"
+   }
+  ],
+  "title_phrase": "Probability vs. Statistics",
+  "min_pages": 256,
+  "source_page": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/pages/readings/",
+  "toc_check": "OCW Readings 页提供 'All Probability Reading' 与 'All Statistics Reading' 两个合订 PDF（覆盖页面所列全部分讲 Reading）；两份均收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "单变量与多变量微积分",
+  "coverage": "计数、概率基础、条件概率与贝叶斯、离散与连续随机变量、期望方差、中心极限定理、联合分布与相关、最大似然、贝叶斯更新与共轭先验、频率学派假设检验、置信区间、Bootstrap、线性回归",
+  "stage": "数学基础",
+  "difficulty": "入门",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "MIT 概率统计入门课官方阅读材料（概率与统计两部分合订本），频率与贝叶斯并讲",
+  "old_reason": "Spring 2022 为 OCW 最新完整版本，内容为稳定的基础概率统计",
+  "license_note": "MIT OCW 公开 PDF（CC BY-NC-SA）",
+  "related": ""
+ },
+ {
+  "id": "MLU037",
+  "type": "course",
+  "file_stem": "CMU_36705_2020Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "36-705 Intermediate Statistics, Fall 2020: Lecture Notes",
+  "authors": "Larry Wasserman",
+  "institution": "Carnegie Mellon University",
+  "course_code": "36-705",
+  "course_name": "Intermediate Statistics",
+  "term": "Fall 2020",
+  "version_note": "课程页标题 10-705 Intermediate Statistics, Fall 2020（页内 36-705）",
+  "orig_year": 2020,
+  "edition_year": 2020,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture1.pdf",
+    "label": "Lecture Notes 1"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture2.pdf",
+    "label": "Lecture Notes 2"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture3.pdf",
+    "label": "Lecture Notes 3"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture4.pdf",
+    "label": "Lecture Notes 4"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture5.pdf",
+    "label": "Lecture Notes 5"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture6.pdf",
+    "label": "Lecture Notes 6"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture7.pdf",
+    "label": "Lecture Notes 7"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture8.pdf",
+    "label": "Lecture Notes 8"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture9.pdf",
+    "label": "Lecture Notes 9"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture10.pdf",
+    "label": "Lecture Notes 10"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture11a.pdf",
+    "label": "Lecture Notes 11"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture12a.pdf",
+    "label": "Lecture Notes 12"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture13.pdf",
+    "label": "Lecture Notes 13"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture14.pdf",
+    "label": "Lecture Notes 14"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture15.pdf",
+    "label": "Lecture Notes 15"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture16.pdf",
+    "label": "Lecture Notes 16"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture17.pdf",
+    "label": "Lecture Notes 17"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture18.pdf",
+    "label": "Lecture Notes 18"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture19.pdf",
+    "label": "Lecture Notes 19"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture20.pdf",
+    "label": "Lecture Notes 20"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture21.pdf",
+    "label": "Lecture Notes 21"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture22.pdf",
+    "label": "Lecture Notes 22"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture23.pdf",
+    "label": "Lecture Notes 23"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture24.pdf",
+    "label": "Lecture Notes 24"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture25.pdf",
+    "label": "Lecture Notes 25"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture26.pdf",
+    "label": "Lecture Notes 26"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~larry/=stat705/Lecture27.pdf",
+    "label": "Lecture Notes 27"
+   }
+  ],
+  "title_phrase": "36-705",
+  "min_pages": 181,
+  "source_page": "https://www.stat.cmu.edu/~larry/=stat705/",
+  "toc_check": "课程页（Fall 2020）日程列出 Lecture Notes 1–27（第 11、12 讲链接为 Lecture11a.pdf/Lecture12a.pdf；页面末尾另有未排入日程的 Lecture11.pdf/Lecture12.pdf，未收录）；27 份按序收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "概率论、微积分、线性代数",
+  "coverage": "集中不等式（次高斯、Hoeffding）、随机变量收敛与 CLT、一致大数律（VC、Rademacher）、充分性、指数族、点估计与决策理论、MLE 渐近理论、假设检验与拟合优度、FDR、非参数推断（插件估计、影响函数、Bootstrap）、因果推断、高维统计与高维回归、贝叶斯推断、模型选择、核密度估计与非参数回归、分布间距离",
+  "stage": "数学基础",
+  "difficulty": "中级",
+  "priority": "中",
+  "cats": [
+   "C11",
+   "C01"
+  ],
+  "reason": "Wasserman 的研究生统计学讲义，统计推断与 ML 所需理论的桥梁",
+  "old_reason": "Fall 2020 为该课程页当前公开的完整讲义集；统计理论内容稳定",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ },
+ {
+  "id": "MLU038",
+  "type": "course",
+  "file_stem": "MIT_6436J_2018Fall_LectureNotes_en",
+  "lang": "en",
+  "title": "6.436J/15.085J Fundamentals of Probability, Fall 2018: Lecture Notes",
+  "authors": "待核实（OCW 课程讲授 Yury Polyanskiy；讲义署名以 PDF 为准）",
+  "institution": "Massachusetts Institute of Technology",
+  "course_code": "6.436J/15.085J",
+  "course_name": "Fundamentals of Probability",
+  "term": "Fall 2018",
+  "version_note": "MIT OCW 课程页 As Taught In Fall 2018，Instructor Prof. Yury Polyanskiy",
+  "orig_year": "",
+  "edition_year": 2018,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/c37dc8b61cdf6bde689a627bfa5b4942_MIT6_436JF18_lec01.pdf",
+    "label": "Lecture 1 - Probabilistic Models and Probability Measures"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/03cb805c752a7e89e52878e8e6270e34_MIT6_436JF18_lec02.pdf",
+    "label": "Lecture 2 - Two Fundamental Probabalistic Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/5ba99e3803701c145f1d06c26dcf61b8_MIT6_436JF18_lec03.pdf",
+    "label": "Lecture 3 - Conditioning and Independence"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9797310bed4c7f5b5d40d007783eec8d_MIT6_436JF18_lec04.pdf",
+    "label": "Lecture 4 - Random Variables"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/491fa11552c94413806e5a09a9d6c237_MIT6_436JF18_lec05.pdf",
+    "label": "Lecture 5 - Discrete Random Variables and Their Expectations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f6a391ad22d454dea0903bb72eb58728_MIT6_436JF18_lec06.pdf",
+    "label": "Lecture 6 - More on Discrete Random Variables and Their Expectations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9042f3ddd88971c6ce116e0a1d7faec4_MIT6_436JF18_lec07.pdf",
+    "label": "Lecture 7 - Abstract Integration I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/a8b70283ce951b43d64f419b0857e0a3_MIT6_436JF18_lec08.pdf",
+    "label": "Lecture 8 - Abstract Integration II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/6fe5ce4d56945ce7241679998922fb3a_MIT6_436JF18_lec09.pdf",
+    "label": "Lecture 9 - Product Measure and Fubini&rsquo;s Theorem"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/12b27e5630be533e1385ac142df8a70a_MIT6_436JF18_lec10.pdf",
+    "label": "Lecture 10 - Continous Random Variables I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/67826d2ee5082d4a4b732b4dd73c0895_MIT6_436JF18_lec11.pdf",
+    "label": "Lecture 11 - Continous Random Variables II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/fffea6a21fa73ed546d9edfcb4384bef_MIT6_436JF18_lec12.pdf",
+    "label": "Lecture 12 - Derived Distributions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/1a592ed184fb4c444547f67c9bcdd8ec_MIT6_436JF18_lec13.pdf",
+    "label": "Lecture 13 - Moment Generating Functions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/ceb423b6a703abd60429367b733f45bf_MIT6_436JF18_lec14.pdf",
+    "label": "Lecture 14 - Multivariate Normal Distributions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/87422049e8f05459ee857eb475f3a667_MIT6_436JF18_lec15.pdf",
+    "label": "Lecture 15 - Multivariate Normal Distributions. Characteristic Functions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b4ebf022b1060fcce920227d934dd6f0_MIT6_436JF18_lec16.pdf",
+    "label": "Lecture 16 - Convergence of Random Variables"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f44fa78f05ac31a4ba2bd82f599dcf60_MIT6_436JF18_lec17.pdf",
+    "label": "Lecture 17 - Laws of Large Numbers I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/10625dc0942f47c4ddc004b3dbba11d5_MIT6_436JF18_lec18.pdf",
+    "label": "Lecture 18 - Laws of Large Numbers II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/3858b970eb2d877440a485b8ff9cff8a_MIT6_436JF18_lec19.pdf",
+    "label": "Lecture 19 - Uniform Integrability. Convergence of Series"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b9342e718ec4c58d98ec97dcfcb0d56e_MIT6_436JF18_lec20.pdf",
+    "label": "Lecture 20 - The Basics of Stochastic Processes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/141423989a49375f14f0a44940d81e67_MIT6_436JF18_lec21.pdf",
+    "label": "Lecture 21 - Markov Chains I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f7bbbb40126e2e9e505cbbf64dc36ff1_MIT6_436JF18_lec22.pdf",
+    "label": "Lecture 22 - Markov Chains II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/857446d2b16bbc12f0499a61c93833c2_MIT6_436JF18_lec23.pdf",
+    "label": "Lecture 23 - Markov Chains III"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/087af3cedbc9def5b156c5e1665ac79c_MIT6_436JF18_lec24.pdf",
+    "label": "Lecture 24 - Infinite Markov Chains. Continuous Time Markov Chains"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/d734a5f3c245eef581b2937b53d8e6dd_MIT6_436JF18_lec25.pdf",
+    "label": "Lecture 25 - Martingales I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f8ffbc1a27d17d83aaca980fc499d477_MIT6_436JF18_lec26.pdf",
+    "label": "Lecture 26 - Martingales II"
+   }
+  ],
+  "title_phrase": "Probabilistic Models and Probability Measures",
+  "min_pages": 285,
+  "source_page": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/pages/lecture-notes/",
+  "toc_check": "OCW Lecture Notes 页列出 26 讲 PDF；26 份全部按序收录（直接 PDF 链接由各 OCW 资源页解析得到），逐一核验 HTTP 200 + %PDF",
+  "prereq": "实分析、本科概率",
+  "coverage": "测度论概率空间、条件与独立、随机变量与期望（抽象积分）、乘积测度与 Fubini、连续随机变量、矩母函数、多元正态与特征函数、收敛模式、大数定律、随机过程基础、马尔可夫链、鞅",
+  "stage": "数学基础",
+  "difficulty": "高级",
+  "priority": "低",
+  "cats": [
+   "C11"
+  ],
+  "reason": "MIT 研究生概率论逐讲讲义，为学习理论与随机优化提供严格概率基础",
+  "old_reason": "2018 年 OCW 完整讲义集；测度论概率内容稳定",
+  "license_note": "MIT OCW 公开 PDF（CC BY-NC-SA）",
+  "related": ""
+ },
+ {
+  "id": "MLU039",
+  "type": "course",
+  "file_stem": "Berkeley_CS70_2026Spring_LectureNotes_en",
+  "lang": "en",
+  "title": "CS 70: Discrete Mathematics and Probability Theory — Notes",
+  "authors": "待核实（CS 70 课程讲义，逐篇署名以 PDF 为准）",
+  "institution": "University of California, Berkeley",
+  "course_code": "CS 70",
+  "course_name": "Discrete Mathematics and Probability Theory",
+  "term": "Spring 2026",
+  "version_note": "sp26.eecs70.org 主页 CS 70 Spring 2026（Alistair Sinclair, Yun S. Song）",
+  "orig_year": "",
+  "edition_year": 2026,
+  "format": "pdf_multi",
+  "files": [
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n0.pdf",
+    "label": "Note 0"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n1.pdf",
+    "label": "Note 1"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n2.pdf",
+    "label": "Note 2"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n3.pdf",
+    "label": "Note 3"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n4.pdf",
+    "label": "Note 4"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n5.pdf",
+    "label": "Note 5"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n6.pdf",
+    "label": "Note 6"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n7.pdf",
+    "label": "Note 7"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n8.pdf",
+    "label": "Note 8"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n9.pdf",
+    "label": "Note 9"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n10.pdf",
+    "label": "Note 10"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n11.pdf",
+    "label": "Note 11"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n12.pdf",
+    "label": "Note 12"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n13.pdf",
+    "label": "Note 13"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n14.pdf",
+    "label": "Note 14"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n15.pdf",
+    "label": "Note 15"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n16.pdf",
+    "label": "Note 16"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n17.pdf",
+    "label": "Note 17"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n18.pdf",
+    "label": "Note 18"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n19.pdf",
+    "label": "Note 19"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n20.pdf",
+    "label": "Note 20"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n21.pdf",
+    "label": "Note 21"
+   }
+  ],
+  "title_phrase": "Discrete Mathematics and Probability Theory",
+  "min_pages": 182,
+  "source_page": "https://sp26.eecs70.org/",
+  "toc_check": "sp26.eecs70.org 课程主页 Notes 列列出 Note 0–21 共 22 篇（编号连续）；全部 22 篇按序收录，逐一核验 HTTP 200 + %PDF",
+  "prereq": "高中数学",
+  "coverage": "命题逻辑与证明、归纳、稳定匹配、图论、模运算与 RSA、多项式与纠错码、可数性与可计算性、计数、离散概率、条件概率、随机变量、期望与方差、集中不等式、连续分布、马尔可夫链",
+  "stage": "数学基础",
+  "difficulty": "入门",
+  "priority": "低",
+  "cats": [
+   "C11"
+  ],
+  "reason": "伯克利离散数学与概率课的完整官方讲义，后半部分为 ML 所需的概率基础",
+  "old_reason": "",
+  "license_note": "课程官网公开 PDF",
+  "related": ""
+ }
+]

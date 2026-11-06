@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2406.02507v3
+
+[File]
+Name=2024_Karras_GuidingDiffusionModelBad_en.pdf
+Work=Guiding a Diffusion Model with a Bad Version of Itself
+SizeBytes=25208943
+SHA256=09157454c4636e5de97e0f8e898efdd2a61b00c722c97bafccb24fdbd7f6f088
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2406.02507
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

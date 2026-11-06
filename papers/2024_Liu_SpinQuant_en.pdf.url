@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2405.16406v4
+
+[File]
+Name=2024_Liu_SpinQuant_en.pdf
+Work=SpinQuant: LLM quantization with learned rotations
+SizeBytes=10207972
+SHA256=fe437770d7c981eae9e028eacaa5c772ed0add900ed9dec54c10cfce6dfd86c3
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2405.16406
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

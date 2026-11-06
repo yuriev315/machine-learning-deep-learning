@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2501.03262v9
+
+[File]
+Name=2025_Hu_REINFORCE_en.pdf
+Work=REINFORCE++: Stabilizing Critic-Free Policy Optimization with Global Advantage Normalization
+SizeBytes=1246089
+SHA256=b868a07e9d068dd4bc13eca28e7ce4afc380e26380b05c741d5dd2cc6821a59f
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2501.03262
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

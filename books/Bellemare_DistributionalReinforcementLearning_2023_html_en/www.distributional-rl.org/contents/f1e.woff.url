@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/f1e.woff
+
+[File]
+Name=f1e.woff
+Work=Distributional Reinforcement Learning
+SizeBytes=3812
+SHA256=51d8779f34e18b5aca9f1ec6f4b03e21bfc5075426a03d45d1e61564a1fa57c9
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

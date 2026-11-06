@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://gaussianprocess.org/gpml/chapters/RW.pdf
+
+[File]
+Name=Rasmussen_GaussianProcessesForMachineLearning_2006_en.pdf
+Work=Gaussian Processes for Machine Learning
+SizeBytes=4052292
+SHA256=20355ed64b3df27c4477850dd5fcff8bfc25f56dcde043dbd08d1e5d5582db25
+DirectDownload=yes
+Checked=2026-11-05 SHA-256 verified
+Licence=no redistribution licence found
+SourcePage=https://gaussianprocess.org/gpml/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

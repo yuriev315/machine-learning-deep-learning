@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2410.24210v3
+
+[File]
+Name=2024_Gorishniy_TabM_en.pdf
+Work=TabM: Advancing Tabular Deep Learning with Parameter-Efficient Ensembling
+SizeBytes=1322161
+SHA256=a6988aa10d726e99c706dc92856c5a07f4e3f9fa854d08c8f854f06dc83ea34f
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2410.24210
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://www.distributional-rl.org/contents/f3d.woff
+
+[File]
+Name=f3d.woff
+Work=Distributional Reinforcement Learning
+SizeBytes=3664
+SHA256=29dae2723da41c56d8a2fc59069913e14b4cfef63563177e6df69cdda6e6d4ef
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=no redistribution licence found
+SourcePage=https://www.distributional-rl.org/
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

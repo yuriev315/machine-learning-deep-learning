@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2401.06066v1
+
+[File]
+Name=2024_Dai_DeepSeekMoE_en.pdf
+Work=DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+SizeBytes=733666
+SHA256=a64b509e1410d09cf5b70570788d27790985fb9808ce436b9da8de73f2eed651
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2401.06066
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

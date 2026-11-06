@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2312.02696v2
+
+[File]
+Name=2023_Karras_AnalyzingImprovingTrainingDynamics_en.pdf
+Work=Analyzing and Improving the Training Dynamics of Diffusion Models
+SizeBytes=24101593
+SHA256=59e52f098c955ef1fc9b413b1fa2fd2eee5e6efefc1e065f25ac49113f1b00e4
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2312.02696
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

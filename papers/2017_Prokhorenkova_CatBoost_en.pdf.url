@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1706.09516v5
+
+[File]
+Name=2017_Prokhorenkova_CatBoost_en.pdf
+Work=CatBoost: unbiased boosting with categorical features
+SizeBytes=723079
+SHA256=e682f177e24106a1c48a0dbba1d752a806526bd7ea85bd97e12bec07a2ed955b
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/1706.09516
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv
