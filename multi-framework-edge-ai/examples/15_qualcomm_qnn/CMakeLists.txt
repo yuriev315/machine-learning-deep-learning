@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(qnn_digits CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(ORT_ROOT "" CACHE PATH "ONNX Runtime SDK; a QNN-enabled build for running on a device")
+add_executable(qnn_digits main.cpp)
+target_include_directories(qnn_digits PRIVATE ${ORT_ROOT}/include ${CMAKE_CURRENT_SOURCE_DIR}/../common/cpp)
+target_link_libraries(qnn_digits PRIVATE ${ORT_ROOT}/lib/libonnxruntime.so)
+set_target_properties(qnn_digits PROPERTIES BUILD_RPATH "\$ORIGIN;${ORT_ROOT}/lib")

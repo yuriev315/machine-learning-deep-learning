@@ -1,0 +1,19 @@
+runtime,variant,baseline,original_bytes,converted_bytes,accuracy,accuracy_delta,latency_mean_us,latency_p95_us,peak_rss_kb,hardware
+LiteRT C API,tf_litert_float_c_api,tf_litert_float_c_api,10072,10072,0.9867,+0.0000,8.14,6.68,7104,x86-64 AMD Ryzen 5 3600 CPU
+LiteRT C API,tf_litert_dynrange_c_api,tf_litert_float_c_api,10072,6736,0.9867,+0.0000,8.52,8.65,7572,x86-64 AMD Ryzen 5 3600 CPU
+LiteRT C API,tf_litert_int8_c_api,tf_litert_float_c_api,10072,5648,0.9844,-0.0023,12.09,10.95,7480,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_fp32,ort_fp32,9157,9157,0.9756,+0.0000,16.57,21.12,280644,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_fp32_graph_optimized,ort_fp32,9157,9624,0.9756,+0.0000,11.58,15.86,285136,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_fp16,ort_fp32,9157,6065,0.9756,+0.0000,25.4,27.29,284860,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_dynamic_uint8,ort_fp32,9157,7772,0.9756,+0.0000,26.41,38.53,281088,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_static_int8_pertensor,ort_fp32,9157,9251,0.9778,+0.0022,20.7,18.85,284860,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_static_int8_perchannel,ort_fp32,9157,9760,0.9778,+0.0022,17.77,20.82,284860,x86-64 AMD Ryzen 5 3600 CPU
+ONNX Runtime Python,ort_static_weights_int4,ort_fp32,9157,9112,0.9778,+0.0022,25.13,31.28,285136,x86-64 AMD Ryzen 5 3600 CPU
+ExecuTorch C++,pytorch_executorch_xnnpack_cpp,pytorch_executorch_xnnpack_cpp,12584,12584,0.9756,+0.0000,3.87,4.94,5200,x86-64 AMD Ryzen 5 3600 CPU
+ExecuTorch C++,pytorch_executorch_xnnpack_int8_cpp,pytorch_executorch_xnnpack_cpp,12584,8232,0.9756,+0.0000,4.96,6.56,5344,x86-64 AMD Ryzen 5 3600 CPU
+OpenVINO Python,openvino_fp32,openvino_fp32,3812,3812,0.9756,+0.0000,82.43,105.22,999272,x86-64 AMD Ryzen 5 3600 CPU
+OpenVINO Python,openvino_nncf_int8,openvino_fp32,3812,2104,0.9778,+0.0022,85.84,92.9,1001532,x86-64 AMD Ryzen 5 3600 CPU
+MNN C++,pytorch_onnx_mnn_cpp,pytorch_onnx_mnn_cpp,10900,10900,0.9756,+0.0000,4.16,4.09,6920,x86-64 AMD Ryzen 5 3600 CPU
+MNN C++,pytorch_onnx_mnn_weightq8_cpp,pytorch_onnx_mnn_cpp,10900,6584,0.9756,+0.0000,4.12,4.09,7164,x86-64 AMD Ryzen 5 3600 CPU
+PyTorch,pytorch_eager_py,pytorch_eager_py,10517,10517,0.9756,+0.0000,96.64,129.71,360492,x86-64 AMD Ryzen 5 3600 CPU
+PyTorch,pytorch_qat_fbgemm_int8,pytorch_eager_py,10517,23728,0.9756,+0.0000,63.78,66.85,1023328,x86-64 AMD Ryzen 5 3600 CPU

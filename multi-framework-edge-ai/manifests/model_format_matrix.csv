@@ -1,0 +1,37 @@
+format,extension,category,produced_by,consumed_by,weights_included,portable_across_devices,status_here,artifact_or_placeholder
+PyTorch checkpoint,.pt/.pth,framework,torch.save,torch.load,yes,Needs PyTorch and the Python class,RUNNABLE_VERIFIED,examples/artifacts/pytorch/tinycnn.pth
+TorchScript,.pt,framework,torch.jit,"PyTorch, LibTorch, pnnx, coremltools",yes,Where LibTorch runs,RUNNABLE_VERIFIED,examples/artifacts/pytorch/tinycnn.torchscript.pt
+ExportedProgram,.pt2,framework,torch.export,"PyTorch, ExecuTorch flow",yes,"No, an intermediate",CONVERSION_VERIFIED,examples/artifacts/pytorch/tinycnn.pt2
+SavedModel,dir,framework,tf.saved_model,"TF, TFLite converter, ovc",yes,Needs TF or a converter,CONVERSION_VERIFIED,examples/artifacts/tensorflow/saved_model
+GraphDef (frozen),.pb,framework,TF,Converters,yes,Legacy,CONVERSION_VERIFIED,examples/artifacts/tensorflow/tinycnn_frozen.pb
+Keras,.keras/.h5,framework,Keras,Keras,yes,Needs Keras,RUNNABLE_VERIFIED,examples/artifacts/keras/tinycnn.keras
+ONNX,.onnx,interchange,"torch, mxnet, mindspore","ORT, OpenVINO, ncnn, MNN, MSLite, RKNN, TVM, TensorRT",yes,Interchange: operators vary by runtime,RUNNABLE_VERIFIED,examples/artifacts/pytorch/tinycnn.onnx
+Orbax checkpoint,dir,framework,orbax,JAX,yes,No,RUNNABLE_VERIFIED,examples/artifacts/jax/orbax_ckpt
+StableHLO,.mlir,interchange,jax.export,"IREE, XLA",yes (constants),"Compiler input, not a deployable",CONVERSION_VERIFIED,examples/artifacts/jax/tinycnn.stablehlo.mlir
+Paddle inference model,__model__ + params,framework,Paddle,"Paddle Lite opt, Paddle2ONNX",yes,No,CONVERSION_VERIFIED,third_party/paddle-mobilenet (from the release tarball)
+MindIR,.mindir,framework,mindspore.export,MindSpore; Lite only for compatible versions,yes,No: 1.0 to 2.6 failed,UNSUPPORTED,examples/artifacts/mindspore/tinycnn.mindir
+Caffe,.prototxt/.caffemodel,legacy,Caffe,"caffe2ncnn, OpenCV DNN",caffemodel,No,CONVERSION_VERIFIED,deps/archives/squeezenet11-caffemodel
+MXNet,-symbol.json/.params,legacy,MXNet,"mxnet2ncnn, mx2onnx",params,No,RUNNABLE_VERIFIED,examples/artifacts/mxnet/tinycnn-symbol.json
+Darknet,.cfg/.weights,legacy,Darknet,"darknet2ncnn, OpenCV DNN",weights,No,CONVERSION_VERIFIED,deps/archives/yolov4-tiny-weights
+LiteRT / TFLite,.tflite,mobile,TFLiteConverter,"LiteRT, TFLM (subset), ovc, mnnconvert, converter_lite",yes,CPU-portable; delegates vary,RUNNABLE_VERIFIED,examples/artifacts/tensorflow/tinycnn_float.tflite
+ExecuTorch,.pte,mobile,ExecuTorch,ExecuTorch with matching backend and kernels,yes,No: tied to lowering choices,RUNNABLE_VERIFIED,examples/artifacts/executorch/tinycnn_xnnpack.pte
+Core ML,.mlpackage,mobile,coremltools,Apple platforms only,yes,Apple only,CONVERSION_VERIFIED,examples/artifacts/coreml/TinyCNN.mlpackage
+Core ML legacy,.mlmodel,mobile,coremltools (neuralnetwork),Apple platforms only,yes,Apple only,NOT_TESTED,
+ncnn,.param/.bin,mobile,"onnx2ncnn, pnnx, caffe2ncnn, darknet2ncnn, mxnet2ncnn",ncnn,bin,All ncnn targets,RUNNABLE_VERIFIED,examples/artifacts/ncnn/tinycnn_opt.param
+MNN,.mnn,mobile,mnnconvert,MNN,yes,All MNN targets,RUNNABLE_VERIFIED,examples/artifacts/mnn/tinycnn.mnn
+TNN,.tnnproto/.tnnmodel,mobile,TNN convert,TNN,yes,TNN targets,NOT_TESTED,Tencent/TNN last commit 2025-03; not installed
+MindSpore Lite,.ms,mobile,converter_lite,MindSpore Lite,yes,Lite targets,RUNNABLE_VERIFIED,examples/artifacts/mindspore_lite/tinycnn_onnx.ms
+Paddle Lite,.nb,embedded,paddle_lite_opt,Paddle Lite for the chosen valid_targets,yes,No: the .nb here targets ARM,RUNNABLE_VERIFIED,examples/artifacts/paddle/mobilenet_v1_arm.nb
+TensorRT,.engine/.plan,gpu,trtexec,Same TensorRT version on the same GPU family,yes,No,SDK_REQUIRED,placeholders/TensorRT-Linux-x86_64.tar.gz.url
+OpenVINO IR,.xml/.bin,gpu,"ovc, NNCF",OpenVINO,bin,Across OpenVINO devices,RUNNABLE_VERIFIED,examples/artifacts/openvino/tinycnn_onnx.xml
+QNN / SNPE,".dlc, context .bin",npu,QAIRT tools,"QNN runtime, SoC-specific",yes,No,SDK_REQUIRED,placeholders/qairt-sdk.zip.url
+RKNN,.rknn,npu,rknn-toolkit2,librknnrt on the matching SoC,yes,No: RK3588 target here,CONVERSION_VERIFIED,examples/artifacts/rknn/tinycnn_rk3588_int8.rknn
+Hailo,.hef,npu,Hailo Dataflow Compiler,HailoRT,yes,No,SDK_REQUIRED,placeholders/hailo_dataflow_compiler.whl.url
+Edge TPU,_edgetpu.tflite,npu,edgetpu_compiler,libedgetpu,yes,Coral only,CONVERSION_VERIFIED,examples/artifacts/edgetpu/tinycnn_int8_edgetpu.tflite
+Ascend,.om,npu,CANN ATC,Ascend ACL,yes,No,SDK_REQUIRED,placeholders/Ascend-cann-toolkit.run.url
+Micro C array,.cc,embedded,xxd-like generation,TFLM,yes,MCU-portable with TFLM,RUNNABLE_VERIFIED,examples/artifacts/cmsis_nn/tinycnn_int8_tflm_model.cc
+CMSIS-NN C model,.h,embedded,gen_cmsis_model.py,CMSIS-NN,yes,Arm Cortex-M,RUNNABLE_VERIFIED,examples/artifacts/cmsis_nn/tinycnn_int8_cmsis_model.h
+TVM module,.so,embedded,TVM,TVM runtime,yes,No: tied to target,RUNNABLE_VERIFIED,examples/artifacts/tvm/tinycnn_x86_64.so
+IREE,.vmfb,embedded,iree-compile,IREE runtime,yes,No: tied to compile target,RUNNABLE_VERIFIED,examples/artifacts/jax/tinycnn.vmfb
+GGUF,.gguf,llm,llama.cpp tools,llama.cpp and ggml-based runtimes,yes,Across ggml runtimes; LLM-focused,RUNNABLE_VERIFIED,deps/archives/stories260k-gguf/stories260K.gguf
+ggml whisper,.bin,audio,whisper.cpp tools,whisper.cpp,yes,Across whisper.cpp targets,RUNNABLE_VERIFIED,deps/archives/ggml-tiny-en-q5/ggml-tiny.en-q5_1.bin

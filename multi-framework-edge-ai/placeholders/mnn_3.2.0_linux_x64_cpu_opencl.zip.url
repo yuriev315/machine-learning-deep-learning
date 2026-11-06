@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://github.com/alibaba/MNN/releases/download/3.2.0/mnn_3.2.0_linux_x64_cpu_opencl.zip
+; filename=mnn_3.2.0_linux_x64_cpu_opencl.zip
+; expected_size=207834567
+; version=3.2.0
+; purpose=MNN prebuilt desktop libs; built from source here instead
+; license=Apache-2.0
+; platform=linux-x64
+; official_sha256=3e86ac8fc0eba1d119919c01e4aaaa9f868dd4822adbf78a8c8005a31421de4a
+; download: curl -LO <URL>

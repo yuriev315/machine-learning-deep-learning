@@ -1,0 +1,9 @@
+7767517
+7 7
+Input                    input                    0 1 input
+Convolution              /features/features.0/Conv 1 1 input /features/features.1/Relu_output_0 0=8 1=3 4=1 5=1 6=72 9=1
+Pooling                  /features/features.2/MaxPool 1 1 /features/features.1/Relu_output_0 /features/features.2/MaxPool_output_0 1=2 2=2 5=1
+Convolution              /features/features.3/Conv 1 1 /features/features.2/MaxPool_output_0 /features/features.4/Relu_output_0 0=16 1=3 4=1 5=1 6=1152 9=1
+Pooling                  /features/features.5/MaxPool 1 1 /features/features.4/Relu_output_0 /features/features.5/MaxPool_output_0 1=2 2=2 5=1
+Flatten                  /Flatten                 1 1 /features/features.5/MaxPool_output_0 /Flatten_output_0
+InnerProduct             /fc/Gemm                 1 1 /Flatten_output_0 logits 0=10 1=1 2=640

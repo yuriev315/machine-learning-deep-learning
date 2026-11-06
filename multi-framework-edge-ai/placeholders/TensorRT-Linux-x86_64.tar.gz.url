@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://developer.nvidia.com/tensorrt/download
+; filename=TensorRT-Linux-x86_64.tar.gz
+; expected_size=11366
+; version=10.x
+; purpose=TensorRT C++ SDK, needs an NVIDIA GPU
+; license=NVIDIA proprietary
+; platform=linux-x64/aarch64 NVIDIA GPU
+; official_sha256=unavailable
+; download: NVIDIA Developer login; choose TensorRT 10 tarball for your CUDA

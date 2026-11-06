@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://www.hiascend.com/software/cann
+; filename=Ascend-cann-toolkit.run
+; expected_size=117861
+; version=8.x
+; purpose=Huawei Ascend CANN and ATC compiler
+; license=Huawei proprietary
+; platform=Ascend host
+; official_sha256=unavailable
+; download: Huawei account; pick the build matching your NPU driver

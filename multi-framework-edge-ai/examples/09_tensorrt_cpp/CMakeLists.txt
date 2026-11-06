@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(trt_digits CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(TENSORRT_ROOT "" CACHE PATH "TensorRT tarball root; needs the SDK and an NVIDIA GPU")
+add_executable(trt_digits main.cpp)
+target_include_directories(trt_digits PRIVATE ${TENSORRT_ROOT}/include ${CMAKE_CURRENT_SOURCE_DIR}/../common/cpp)
+target_link_directories(trt_digits PRIVATE ${TENSORRT_ROOT}/lib)
+target_link_libraries(trt_digits PRIVATE nvinfer_10 dl pthread)

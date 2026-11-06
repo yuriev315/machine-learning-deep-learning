@@ -1,0 +1,7 @@
+[InternetShortcut]
+URL=https://github.com/STMicroelectronics/stm32ai-modelzoo-services/blob/a07f68a/README.md
+; filename=README.md
+; size=49216
+; sha256=63aec820515bf2cf8a6d2fe3b02ff32a3a1cf0f8bb95e7ab50bf3bfd03d9b52c
+; licence=STMicroelectronics file without a declared licence (repository parts are SLA0044): not redistributed
+; restore: download from the URL above, check the SHA-256, and put the file at third_party/official_examples/stm32ai-modelzoo-services/README.md

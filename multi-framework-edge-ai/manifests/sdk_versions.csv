@@ -1,0 +1,25 @@
+tool,version,why_this_version,official_source,local_path,kind
+Python,3.12.3,Reused local build. Matches the reused torch and every main-env wheel.,https://github.com/astral-sh/python-build-standalone,~/.local/share/uv/python,reused
+Python (legacy),3.7.9,Needed by Paddle Lite 2.12 wheels and retired MXNet 1.9.1.,https://github.com/indygreg/python-build-standalone,third_party/python37,downloaded
+PyTorch,2.7.1+cpu,"Baseline for the mid-2025 toolchain. Independent wheel, hash-checked against the official index.",https://download.pytorch.org/whl/cpu,.envs/main,downloaded
+TensorFlow,2.19.0,"Mature, supports Python 3.12, and matches the LiteRT C API source.",https://pypi.org/project/tensorflow-cpu/2.19.0/,.envs/main,downloaded
+PaddlePaddle,3.0.0,First major 3.x release with cp312 wheels.,https://pypi.org/project/paddlepaddle/3.0.0/,.envs/main,downloaded
+MindSpore,2.7.2,Earliest final wheel for Python 3.12 on PyPI.,https://pypi.org/project/mindspore/2.7.2/,.envs/main,downloaded
+Android NDK / Emulator / image,r27d / 37 / API 34 x86_64,NDK r27 is a long-term release. The x86_64 image runs on KVM.,https://dl.google.com/android/repository/,third_party/android,"downloaded, not redistributable"
+Arm GNU GCC,15.2.1,Real Helium support for Cortex-M55; TFLM builds.,https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack,third_party/arm-gcc,downloaded
+Mesa lavapipe,26.0.8,"Software Vulkan driver, for the GPU compute path.",Ubuntu 26.04 archive,third_party/lavapipe,downloaded
+ONNX / ONNX Runtime,1.18.0 / 1.22.0,onnx<=1.18 is required by rknn-toolkit2. 1.22.0 is the last ORT in that line with a Linux C++ SDK asset.,https://github.com/microsoft/onnxruntime/releases/tag/v1.22.0,third_party/onnxruntime-x64,downloaded
+OpenVINO,2025.2.0,"Python wheel and C++ archive at the same version, mid-2025.",https://storage.openvinotoolkit.org/repositories/openvino/packages/2025.2/linux/,third_party/openvino,downloaded
+ExecuTorch,0.6.0,The release matching torch 2.7.,https://github.com/pytorch/executorch/tree/v0.6.0,third_party/executorch,git shallow
+LiteRT C API,TensorFlow 2.19.0 source,"Official CMake build, no third-party binary.",https://github.com/tensorflow/tensorflow/tree/v2.19.0/tensorflow/lite,third_party/_build/tflite_c,built
+ncnn,20250503,Python binding and C++ SDK at the same date.,https://github.com/Tencent/ncnn/releases/tag/20250503,third_party/ncnn-ubuntu,downloaded
+MNN,3.2.0,"Python converter and source at the same version. Linux prebuilt exceeds the limit, so built from source.",https://github.com/alibaba/MNN/releases/tag/3.2.0,third_party/_build/mnn_x64,built
+IREE,3.5.0,Matches jax 0.6 era StableHLO. Python and dist at one version.,https://github.com/iree-org/iree/releases/tag/v3.5.0,third_party/iree-dist,downloaded
+MindSpore Lite,2.6.0,Newest mid-2025 tarball under the limit.,https://www.mindspore.cn/lite,third_party/mindspore-lite,downloaded
+RKNN Toolkit,2.3.2,Mature cp312 release from 2025. Runtime at the same tag.,https://github.com/airockchip/rknn-toolkit2/tree/v2.3.2,.envs/main,downloaded
+Paddle Lite,2.12,Last final release: later tags are rc. Pip tool and C++ library at one version.,https://github.com/PaddlePaddle/Paddle-Lite/releases/tag/v2.12,third_party/paddle-lite-armv8,downloaded
+TVM,0.25.0.post1,Oldest wheel found with a Linux x86-64 build under the limit. Pair with apache-tvm-ffi 0.1.12.,https://pypi.org/project/apache-tvm/,.envs/main,downloaded
+Edge TPU compiler,16.0,Only version in the archived repo.,https://github.com/google-coral/edgetpu,third_party/edgetpu_compiler,downloaded
+CMake / Ninja / Zig,3.31.6 / 1.11.1.4 / 0.14.1,"Pip-installed into the project, no system change.",PyPI,.envs/main/bin,downloaded
+GCC aarch64 cross,15.2.0,"Unpacked Ubuntu debs. Needed for libstdc++ ABI (Paddle Lite, LiteRT).",Ubuntu 26.04 archive,third_party/gcc-aarch64,downloaded
+QEMU user / system,7.2.0-1 / 9.2.4-1,Static user-mode binaries; xPack system build.,"https://github.com/multiarch/qemu-user-static, https://github.com/xpack-dev-tools/qemu-arm-xpack","deps/archives, third_party/qemu-arm",downloaded

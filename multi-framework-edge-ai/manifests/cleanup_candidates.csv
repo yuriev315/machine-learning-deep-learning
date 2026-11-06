@@ -1,0 +1,8 @@
+path,approx_size,reason,safe_to_delete,rebuild_with
+build/,172 MB,Compiled example binaries,yes,"scripts/build_examples.sh, examples/19_arm64_cross/build_and_run.sh"
+third_party/_build/android/,several GB,Android SDK object files,"yes, rebuild takes about 40 min","scripts/build_android.sh, scripts/build_extra.sh et_android"
+build/release/,about 3 GB,Release tars that have been uploaded,yes,tar commands in docs/ENVIRONMENT.md
+third_party/_build/,3.1 GB,SDK object files. Keep libs if you do not want a rebuild,"yes, costs about 30 min to rebuild","scripts/build_sdks.sh, scripts/build_extra.sh"
+third_party/executorch/.git,249 MB,Shallow history of the clone,yes,n/a
+"third_party/iree-dist/bin/clang-21, lib/libIREECompiler.so","over 100 MB each, extracted",Duplicates compiler in the iree-base-compiler wheel,"yes, if no one uses iree-dist tools",Re-extract from deps/archives/iree-dist
+deps/archives/tensorflow-src,84 MB,Only needed to rebuild LiteRT,yes after building,scripts/fetch.py tensorflow-src

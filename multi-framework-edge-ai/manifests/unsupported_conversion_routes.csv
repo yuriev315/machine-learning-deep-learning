@@ -1,0 +1,12 @@
+source,destination,tool_or_version,kind,evidence,alternative
+"MindSpore 1.0.0 MINDIR (older version, no longer used)",MindSpore Lite 2.6.0 .ms,converter_lite 2.6.0,UNSUPPORTED (tested),load_model.cc: Parse model producer version from pb file failed,"MindSpore 2.7.2 MINDIR, verified as R10b"
+pnnx .pnnx.onnx intermediate,ONNX Runtime,"pnnx 20250725, ORT 1.22.0",UNSUPPORTED (tested),ORT fails to load the file: the intermediate is not a usable ONNX model,Use the pnnx ncnn output (R12d) or torch.onnx.export (R01a)
+ONNX ConvInteger with int8 weights,ONNX Runtime CPU,ORT 1.22.0 quantize_dynamic(QInt8),UNSUPPORTED (tested),NOT_IMPLEMENTED: Could not find an implementation for ConvInteger(10),weight_type=QUInt8 or static QDQ INT8
+StableHLO,IREE VMFB riscv64 with default ABI,iree-compile 3.5.0,UNSUPPORTED configuration (tested),iree-lld: undefined symbol __mulsf3,"--iree-llvmcpu-target-abi=lp64d --iree-llvmcpu-target-cpu-features=+m,+a,+f,+d,+c"
+Paddle 3 PIR .json,Paddle Lite 2.12 opt,paddle_lite_opt 2.12,UNSUPPORTED by version,Lite 2.12 predates PIR and takes .pdmodel,"Save with FLAGS_enable_pir_api=0, verified as R09b"
+"All of TF, Paddle, MindSpore",One Python process,"tf 2.19.0, paddle 3.0.0, mindspore 2.7.2",UNSUPPORTED (tested),"TypeError: Descriptors cannot be created directly, then a segmentation fault. Each imports fine alone",One framework per process
+Android static executable,NDK link,NDK r27d,UNSUPPORTED (tested),ld.lld: unable to find library -landroid: no static form,Dynamic linking on the emulator
+TensorFlow,TensorRT directly,TF-TRT,"NOT_TESTED, vendor deprecated",Not tested. No SDK or GPU,"tf2onnx (verified R06a), then trtexec (not run)"
+Any model,Core ML on Linux,coremltools 9.0,UNSUPPORTED,"libcoremlpython is unavailable off macOS, so predict cannot run","Convert on Linux, test on macOS or iOS"
+GGUF,General-purpose runtimes,n/a,UNSUPPORTED by design,GGUF targets ggml LLM and related runtimes,"ONNX, ExecuTorch or LiteRT for other networks"
+"Caffe, Darknet",Native training on this host,BVLC/caffe last commit 2020,NOT_TESTED,Caffe not built. Official models were converted instead,Train in a maintained framework

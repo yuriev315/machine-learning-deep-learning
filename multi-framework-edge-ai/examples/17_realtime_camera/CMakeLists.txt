@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(realtime_camera CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(ORT_ROOT "" CACHE PATH "ONNX Runtime SDK")
+add_executable(realtime_camera main.cpp)
+target_include_directories(realtime_camera PRIVATE ${ORT_ROOT}/include)
+target_link_libraries(realtime_camera PRIVATE ${ORT_ROOT}/lib/libonnxruntime.so pthread)
+set_target_properties(realtime_camera PROPERTIES BUILD_RPATH "\$ORIGIN;${ORT_ROOT}/lib")

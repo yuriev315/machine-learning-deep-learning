@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk
+; filename=qairt-sdk.zip
+; expected_size=unknown
+; version=2.x
+; purpose=Qualcomm AI Runtime SDK (QNN, SNPE)
+; license=Qualcomm proprietary
+; platform=linux-x64 host, Snapdragon target
+; official_sha256=unavailable
+; download: Qualcomm ID login

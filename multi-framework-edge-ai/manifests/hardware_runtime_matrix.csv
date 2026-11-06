@@ -1,0 +1,21 @@
+target,category,runtimes_studied,tested_here_as,best_status_here,real_hardware_available,what_is_missing
+"Ubuntu/Linux x64, AMD CPU",desktop,"ORT, OpenVINO, LiteRT, ncnn, MNN, MSLite, ExecuTorch, IREE, TVM, llama.cpp, whisper.cpp",Native on Ryzen 5 3600,RUNNABLE_VERIFIED,yes,
+Intel CPU,desktop,"OpenVINO, ORT",Not tested,HARDWARE_REQUIRED,no,Intel machine
+Windows x64,desktop,"ORT, OpenVINO",Not tested,NOT_TESTED,no,Windows and MSVC
+NVIDIA GPU,desktop,"TensorRT, ORT CUDA",Source only,HARDWARE_REQUIRED,no,"GPU, CUDA, TensorRT SDK"
+AMD GPU,desktop,"ORT MIGraphX, ncnn Vulkan",Vulkan path on software lavapipe only,HARDWARE_REQUIRED,unknown card0 with no compute stack,ROCm or Vulkan setup
+Intel GPU/NPU,desktop,OpenVINO,Not tested,HARDWARE_REQUIRED,no,Hardware and drivers
+ARM64 Linux,embedded linux,"ORT, ncnn, MNN, LiteRT, Paddle Lite",QEMU user-mode; clean Debian 12 in QEMU system mode,RUNNABLE_VERIFIED,no,Real board; real timing
+ARM32 Linux,embedded linux,ncnn,"QEMU user-mode, static musl",RUNNABLE_VERIFIED,no,Real board
+Raspberry Pi,embedded linux,Same ARM64 builds,Not tested,HARDWARE_REQUIRED,no,Board. zig builds target glibc 2.28
+NVIDIA Jetson,embedded linux,TensorRT,Source only,HARDWARE_REQUIRED,no,"Board, JetPack"
+Rockchip RK3588,npu,RKNN,Toolkit simulator; C app links,CONVERSION_VERIFIED,no,Board and NPU driver
+Qualcomm Hexagon,npu,"QNN, ORT QNN EP",C++ compiles,CPP_BUILD_VERIFIED,no,"QAIRT SDK, Snapdragon device"
+Android,mobile,"ORT, ncnn, MNN, LiteRT, ExecuTorch",Android 14 x86_64 emulator with KVM; arm64-v8a compile and link,RUNNABLE_VERIFIED,no,ARM phone; APK flow not built
+"iOS, iPadOS, Apple Silicon",mobile,Core ML,Conversion on Linux; own MIL interpreter,CONVERSION_VERIFIED,no,"Mac, Xcode, device"
+Arm Cortex-M,mcu,"CMSIS-NN, TFLM","QEMU M4 and M55: CMSIS-NN, TFLM on M4",RUNNABLE_VERIFIED,no,"Real board, cycle counts"
+STM32,mcu,"X-CUBE-AI, TFLM",Not tested,SDK_REQUIRED,no,"X-CUBE-AI, board"
+ESP32,mcu,esp-tflite-micro,Example collected,SOURCE_ONLY,no,"ESP-IDF, board"
+Google Edge TPU,npu,libedgetpu,Compiled the model; all ops mapped,CONVERSION_VERIFIED,no,Coral device
+Hailo,npu,HailoRT,Example collected,SDK_REQUIRED,no,"DFC login, device"
+Huawei Ascend,npu,"CANN, MindSpore Lite",Not tested,SDK_REQUIRED,no,"CANN, Ascend device"

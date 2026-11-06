@@ -1,0 +1,11 @@
+torchao==0.10.0
+executorch==0.6.0
+pnnx==20250725
+paddle2onnx==2.0.1
+rknn-toolkit2==2.3.2
+opencv-python-headless==4.11.0.86  # replaces opencv-python (no libGL on servers)
+apache-tvm==0.25.0.post1
+apache-tvm-ffi==0.1.12
+zstd==1.5.6.1
+tf2onnx==1.17.0
+torch==2.7.1+cpu  # from https://download.pytorch.org/whl/cpu

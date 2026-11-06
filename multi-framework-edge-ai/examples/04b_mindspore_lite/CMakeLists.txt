@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(msl_digits CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(MSL_RUNTIME "" CACHE PATH "mindspore-lite-<ver>/runtime directory")
+add_executable(msl_digits main.cpp)
+target_include_directories(msl_digits PRIVATE ${MSL_RUNTIME} ${MSL_RUNTIME}/include ${CMAKE_CURRENT_SOURCE_DIR}/../common/cpp)
+set(MSL_GLOG ${MSL_RUNTIME}/third_party/glog)
+target_link_libraries(msl_digits PRIVATE ${MSL_RUNTIME}/lib/libmindspore-lite.so pthread dl)
+target_link_options(msl_digits PRIVATE "-Wl,-rpath-link,${MSL_GLOG}" "-Wl,--disable-new-dtags")   # libmindspore-lite.so needs its bundled glog at link time
+set_target_properties(msl_digits PROPERTIES BUILD_RPATH "${MSL_RUNTIME}/lib;${MSL_GLOG}")

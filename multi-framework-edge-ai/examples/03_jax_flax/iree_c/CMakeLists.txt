@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.21)
+project(iree_digits C CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(IREE_DIST "" CACHE PATH "Extracted iree-dist directory")
+add_executable(iree_digits main.cpp)
+target_compile_definitions(iree_digits PRIVATE IREE_ALLOCATOR_SYSTEM_CTL=iree_allocator_libc_ctl)  # same choice as the prebuilt runtime
+set(IREE_RUNTIME_SRC "" CACHE PATH "iree source runtime/src: iree-dist 3.5.0 omits most runtime headers")
+target_include_directories(iree_digits PRIVATE ${IREE_RUNTIME_SRC} ${IREE_DIST}/include ${CMAKE_CURRENT_SOURCE_DIR}/../../common/cpp)
+file(GLOB IREE_EXTRA ${IREE_DIST}/lib/libflatcc*.a ${IREE_DIST}/lib/libcpuinfo*.a ${IREE_DIST}/lib/libclog*.a)
+target_link_libraries(iree_digits PRIVATE ${IREE_DIST}/lib/libiree_runtime_unified.a ${IREE_EXTRA} pthread dl m)

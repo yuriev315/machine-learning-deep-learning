@@ -1,0 +1,15 @@
+// SDK_REQUIRED: needs Android SDK and NDK r27d. Not built here.
+plugins { id 'com.android.application' version '8.5.2' }
+android {
+    namespace 'org.mfea.digits'
+    compileSdk 34
+    ndkVersion '27.3.13750724'
+    defaultConfig {
+        applicationId 'org.mfea.digits'
+        minSdk 24
+        targetSdk 34
+        ndk { abiFilters 'arm64-v8a' }
+        externalNativeBuild { cmake { arguments "-Dncnn_DIR=${projectDir}/ncnn-20250503-android/arm64-v8a/lib/cmake/ncnn" } }
+    }
+    externalNativeBuild { cmake { path 'src/main/cpp/CMakeLists.txt' } }
+}

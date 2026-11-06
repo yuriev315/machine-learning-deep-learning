@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://developer.apple.com/xcode/
+; filename=Xcode.xip
+; expected_size=unknown
+; version=16+
+; purpose=Xcode: Core ML / Swift build and on-device test
+; license=Apple EULA
+; platform=macOS only
+; official_sha256=unavailable
+; download: Mac App Store; cannot run on Linux

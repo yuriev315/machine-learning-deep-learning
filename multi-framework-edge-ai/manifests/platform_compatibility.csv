@@ -1,0 +1,14 @@
+component,version,linux_x64_tested,linux_arm64_tested,linux_arm32_tested,windows_tested,macos_tested,android_tested,ios_tested,mcu_tested,compilers_verified,notes
+ONNX Runtime SDK,1.22.0,native,QEMU,no official SDK used,no,no,x86_64 emulator; arm64-v8a build,no,n/a,"GCC 15, clang (zig 0.14.1), NDK clang",
+LiteRT C API from TF source,2.19.0,native,QEMU,no,no,no,x86_64 emulator; arm64-v8a build,no,n/a,"GCC 15, GCC 15 cross",XNNPACK needs -Wno-incompatible-pointer-types on GCC 15. KleidiAI off.
+Android NDK,r27d,n/a,n/a,n/a,no,no,x86_64 emulator; arm64-v8a compile and link,n/a,n/a,NDK clang 18,"ORT, ncnn, MNN, LiteRT, ExecuTorch."
+OpenVINO,2025.2.0,native (AMD CPU),no,no,no,no,no,no,n/a,GCC 15,Ubuntu 24 archive on Ubuntu 26.04 works. Needs rpath-link to TBB.
+ncnn,20250503,native,QEMU,QEMU,no,no,x86_64 emulator; arm64-v8a build,no,n/a,"GCC 15, clang (zig)",Static linking verified.
+MNN,3.2.0,native,QEMU,no,no,no,x86_64 emulator; arm64-v8a build,no,n/a,"GCC 15, clang (zig)",
+MindSpore Lite,2.6.0,native,no,no,no,no,no,no,n/a,GCC 15,Needs --disable-new-dtags so bundled glog resolves.
+ExecuTorch,0.6.0,native,no,no,no,no,x86_64 emulator; arm64-v8a build,no,no,GCC 15,"Needs buck2 for source lists, downloaded automatically. Size the threadpool explicitly."
+IREE,3.5.0,native,compile only,no,no,no,no,no,no,GCC 15,iree-dist 3.5.0 omits runtime headers; taken from the v3.5.0 source.
+Paddle Lite,2.12,opt tool only,QEMU,no,no,no,no,no,n/a,GCC 15 cross,Headers need -include cstdint; library needs -fopenmp. libstdc++ ABI only.
+CMSIS-NN,7.0.0,debug build,n/a,n/a,no,no,n/a,n/a,QEMU Cortex-M4 and M55,"Arm GCC 15, clang (zig) for M4",
+TFLite Micro,3200ccd,native,no,no,no,no,n/a,n/a,QEMU Cortex-M4,"GCC 15, Arm GCC 15",
+MSVC,n/a,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,none,No Windows host. Every C++ project is untested on MSVC.

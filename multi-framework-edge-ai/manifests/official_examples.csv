@@ -1,0 +1,10 @@
+name,repo,ref,commit,files,size_kb
+coremltools-docs,https://github.com/apple/coremltools.git,main,a207b1a,7,72
+esp-tflite-micro,https://github.com/espressif/esp-tflite-micro.git,master,6368cd2,17,116
+hailo-examples,https://github.com/hailo-ai/Hailo-Application-Code-Examples.git,main,7b850e0,6,100
+ort-examples,https://github.com/microsoft/onnxruntime-inference-examples.git,main,16e32e8,16,13868
+pycoral,https://github.com/google-coral/pycoral.git,master,46f06c8,12,104
+qualcomm-ai-hub-apps,https://github.com/qualcomm/ai-hub-apps.git,main,9196be7,28,260
+rknn-model-zoo,https://github.com/airockchip/rknn_model_zoo.git,main,837db8e,20,524
+stm32ai-modelzoo-services,https://github.com/STMicroelectronics/stm32ai-modelzoo-services.git,main,a07f68a,3,72
+tensorrt-samples,https://github.com/NVIDIA/TensorRT.git,release/10.11,9255eb3,44,864

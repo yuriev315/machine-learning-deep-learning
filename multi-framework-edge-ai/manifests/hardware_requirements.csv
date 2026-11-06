@@ -1,0 +1,13 @@
+project,needs_for_full_validation,available_here,status
+08 ExecuTorch on Android,ARM Android phone,x86_64 emulator only,HARDWARE_REQUIRED
+09 TensorRT,"NVIDIA GPU or Jetson, TensorRT SDK",no,HARDWARE_REQUIRED
+10 OpenVINO on Intel GPU/NPU,Intel Core Ultra or similar,no; AMD CPU only,HARDWARE_REQUIRED
+11 Core ML,"Mac, Xcode, iPhone or iPad",own MIL interpreter only,HARDWARE_REQUIRED
+12 ncnn Android,ARM Android phone,x86_64 emulator only,HARDWARE_REQUIRED
+13 MNN Android,ARM Android phone,x86_64 emulator only,HARDWARE_REQUIRED
+14 RKNN,RK3588 board with NPU driver,no,HARDWARE_REQUIRED
+15 QNN,"Snapdragon device, QAIRT SDK",no,HARDWARE_REQUIRED
+16 MCU,"Cortex-M board such as an STM32 Nucleo, for timing and memory",QEMU only,HARDWARE_REQUIRED
+17 Camera,UVC USB camera,user-space driver simulation only,HARDWARE_REQUIRED
+19 ARM64,"Raspberry Pi or similar, for real latency",QEMU only,HARDWARE_REQUIRED
+"20, 23 Clean device",A second physical Linux machine,chroot; clean Debian in QEMU,HARDWARE_REQUIRED

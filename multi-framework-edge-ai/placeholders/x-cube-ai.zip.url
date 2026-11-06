@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://www.st.com/en/embedded-software/x-cube-ai.html
+; filename=x-cube-ai.zip
+; expected_size=unknown
+; version=10.x
+; purpose=STM32Cube.AI
+; license=ST SLA
+; platform=win/linux host, STM32 target
+; official_sha256=unavailable
+; download: my.st.com login

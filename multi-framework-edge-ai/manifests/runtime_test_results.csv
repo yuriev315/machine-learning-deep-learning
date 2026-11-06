@@ -1,0 +1,73 @@
+route,status,hardware,execution,api,threads,n,accuracy,latency_mean_us,latency_p95_us,peak_rss_kb,model_bytes,date
+flax_jit_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9822,307.38,172.94,335728,7592,2026-11-05
+jax_stablehlo_iree_c_api,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C API,1,450,0.9822,7.43,7.45,4396,27901,2026-11-05
+jax_stablehlo_iree_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9822,18.33,23.85,338772,27901,2026-11-05
+keras3_jax_stablehlo_iree_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9778,30.06,39.32,949664,28861,2026-11-05
+mindspore_mindir_lite_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9822,8.38,10.34,12644,10304,2026-11-05
+mindspore_onnx_lite_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9822,9.45,11.07,12528,10032,2026-11-05
+mindspore_onnx_ort_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9822,9.9,6.47,22264,8442,2026-11-05
+mxnet_ncnn_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,13.02,17.83,6728,7604,2026-11-05
+mxnet_onnx_ort_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,11.33,11.51,22608,8925,2026-11-05
+onnxruntime_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,11.72,12.68,360492,9157,2026-11-05
+openvino_fp32,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,82.43,105.22,999272,3812,2026-11-05
+openvino_nncf_int8,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9778,85.84,92.9,1001532,2104,2026-11-05
+ort_dynamic_uint8,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,26.41,38.53,281088,7772,2026-11-05
+ort_fp16,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,25.4,27.29,284860,6065,2026-11-05
+ort_fp32,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,16.57,21.12,280644,9157,2026-11-05
+ort_fp32_graph_optimized,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,11.58,15.86,285136,9624,2026-11-05
+ort_static_int8_perchannel,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9778,17.77,20.82,284860,9760,2026-11-05
+ort_static_int8_pertensor,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9778,20.7,18.85,284860,9251,2026-11-05
+ort_static_weights_int4,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9778,25.13,31.28,285136,9112,2026-11-05
+packaged_ort_cpp,RUNNABLE_VERIFIED,isolated chroot on x86-64 host,chroot-no-network,C++,1,450,0.9756,5.6,7.34,23636,9157,2026-11-05
+paddle_inference_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9778,179.72,163.48,340580,7750,2026-11-05
+paddle_lite_nb_cpp_a64,RUNNABLE_VERIFIED,qemu-aarch64-user,qemu-user,C++,1,450,0.9778,4918.99,5919.87,25012,19062,2026-11-05
+paddle_onnx_ort_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9778,10.24,11.64,22676,10666,2026-11-05
+pytorch_coreml_fp16_mil_interpreter_py,RUNNABLE_VERIFIED,Independent MIL interpreter on x86-64 (not Core ML),simulated-interpreter,Python,1,450,0.9756,224.06,253.87,966360,4244,2026-11-05
+pytorch_coreml_int8_mil_interpreter_py,RUNNABLE_VERIFIED,Independent MIL interpreter on x86-64 (not Core ML),simulated-interpreter,Python,1,450,0.9756,231.27,282.91,966360,4244,2026-11-05
+pytorch_eager_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,96.64,129.71,360492,10517,2026-11-05
+pytorch_executorch_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C++,1,450,0.9756,2.89,2.83,5012,12584,2026-11-05
+pytorch_executorch_int8_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C++,1,450,0.9756,6.16,5.88,4992,8232,2026-11-05
+pytorch_executorch_xnnpack_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,3.87,4.94,5200,12584,2026-11-05
+pytorch_executorch_xnnpack_int8_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,4.96,6.56,5344,8232,2026-11-05
+pytorch_executorch_xnnpack_int8_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python (ExecuTorch pybindings),default pool,450,0.9756,390.15,53.74,378028,8232,2026-11-05
+pytorch_executorch_xnnpack_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python (ExecuTorch pybindings),default pool,450,0.9756,3286.39,175.92,370812,12584,2026-11-05
+pytorch_onnx_mindspore_lite_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,10.26,12.85,12800,10160,2026-11-05
+pytorch_onnx_mnn_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C++,1,450,0.9756,7.58,7.49,5568,10900,2026-11-05
+pytorch_onnx_mnn_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,4.16,4.09,6920,10900,2026-11-05
+pytorch_onnx_mnn_cpp_a64,RUNNABLE_VERIFIED,qemu-aarch64-user,qemu-user,C++,1,450,0.9756,241.52,271.61,15480,10900,2026-11-05
+pytorch_onnx_mnn_cpp_vm,RUNNABLE_VERIFIED,"QEMU virt Cortex-A76, clean Debian 12",qemu-system,C++,1,450,0.9756,202.04,234.19,3040,10900,2026-11-05
+pytorch_onnx_mnn_weightq8_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,4.12,4.09,7164,6584,2026-11-05
+pytorch_onnx_ncnn_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C++,1,450,0.9756,7.08,6.81,34220,7604,2026-11-05
+pytorch_onnx_ncnn_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,16.68,15.7,6680,7604,2026-11-05
+pytorch_onnx_ncnn_cpp_a64,RUNNABLE_VERIFIED,qemu-aarch64-user,qemu-user,C++,1,450,0.9756,510.07,535.24,11548,7604,2026-11-05
+pytorch_onnx_ncnn_cpp_arm32,RUNNABLE_VERIFIED,qemu-arm-user,qemu-user,C++,1,450,0.9756,352.51,372.36,8968,7604,2026-11-05
+pytorch_onnx_ncnn_cpp_vm,RUNNABLE_VERIFIED,"QEMU virt Cortex-A76, clean Debian 12",qemu-system,C++,1,450,0.9756,421.19,564.18,2236,7604,2026-11-05
+pytorch_onnx_ncnn_vulkan_lavapipe_cpp,RUNNABLE_VERIFIED,Mesa lavapipe software Vulkan on x86-64,software-gpu,C++,2,450,0.9756,531.16,551.09,105356,7604,2026-11-05
+pytorch_onnx_openvino_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,33.39,19.9,42592,3812,2026-11-05
+pytorch_onnx_openvino_nncf_int8_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9778,21.54,21.85,47700,2104,2026-11-05
+pytorch_onnx_ort_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C++,1,450,0.9756,6.12,6.01,25120,9157,2026-11-05
+pytorch_onnx_ort_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,7.27,6.23,21644,9157,2026-11-05
+pytorch_onnx_ort_cpp_a64,RUNNABLE_VERIFIED,qemu-aarch64-user,qemu-user,C++,1,450,0.9756,533.68,629.3,66608,9157,2026-11-05
+pytorch_onnx_ort_cpp_vm,RUNNABLE_VERIFIED,"QEMU virt Cortex-A76, clean Debian 12",qemu-system,C++,1,450,0.9756,477.55,639.33,21544,9157,2026-11-05
+pytorch_onnx_ort_static_int8_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9778,15.81,21.2,22900,9760,2026-11-05
+pytorch_onnx_rknn_int8_simulator_py,CONVERSION_VERIFIED,RKNN-Toolkit2 x86 simulator,simulator,Python,1,450,0.9756,528.33,630.49,311372,41221,2026-11-05
+pytorch_onnx_tvm_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,60.13,65.6,455144,137248,2026-11-05
+pytorch_pnnx_ncnn_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9756,15.35,20.44,6836,3876,2026-11-05
+pytorch_qat_fbgemm_int8,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,63.78,66.85,1023328,23728,2026-11-05
+tf_cmsisnn_int8_cortex_m4,RUNNABLE_VERIFIED,QEMU mps2-an386 Cortex-M4,qemu-system,C (CMSIS-NN),1,450,0.9844,,,3.0,43532,2026-11-05
+tf_cmsisnn_int8_cortex_m55_helium,RUNNABLE_VERIFIED,QEMU mps3-an547 Cortex-M55,qemu-system,C (CMSIS-NN),1,450,0.9844,,,3.0,39472,2026-11-05
+tf_litert_dynrange_c_api,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C API,1,450,0.9867,8.52,8.65,7572,6736,2026-11-05
+tf_litert_float_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C API,1,450,0.9867,9.21,9.38,7612,10072,2026-11-05
+tf_litert_float_c_api,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C API,1,450,0.9867,8.14,6.68,7104,10072,2026-11-05
+tf_litert_float_c_api_a64,RUNNABLE_VERIFIED,qemu-aarch64-user,qemu-user,C API,1,450,0.9867,333.87,391.46,17532,10072,2026-11-05
+tf_litert_int8_android_x86_64,RUNNABLE_VERIFIED,Android-14-emulator-x86_64-KVM,android-emulator,C API,1,450,0.9844,11.13,11.11,7708,5648,2026-11-05
+tf_litert_int8_c_api,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C API,1,450,0.9844,12.09,10.95,7480,5648,2026-11-05
+tf_litert_int8_c_api_a64,RUNNABLE_VERIFIED,qemu-aarch64-user,qemu-user,C API,1,450,0.9844,112.73,96.68,17808,5648,2026-11-05
+tf_savedmodel_openvino_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9867,15.67,15.05,44932,3876,2026-11-05
+tf_tf2onnx_ort_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9867,12.37,12.64,59032,9961,2026-11-05
+tf_tflite_mindspore_lite_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9867,9.43,10.2,12428,10064,2026-11-05
+tf_tflite_mnn_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9867,4.88,4.8,7168,11900,2026-11-05
+tf_tflite_openvino_cpp,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++,1,450,0.9867,17.31,20.27,44884,3868,2026-11-05
+tf_tflm_cmsisnn_int8_cortex_m4,RUNNABLE_VERIFIED,QEMU mps2-an386 Cortex-M4,qemu-system,C++ (TFLM + CMSIS-NN),1,450,0.9844,,,8.2,95384,2026-11-05
+tf_tflm_int8_x86,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,C++ (TFLM),1,450,0.9844,38.1,41.49,4156,0,2026-11-05
+torchscript_py,RUNNABLE_VERIFIED,x86-64 AMD Ryzen 5 3600 CPU,native,Python,1,450,0.9756,84.08,99.14,360492,22881,2026-11-05

@@ -1,0 +1,12 @@
+name,version,purpose,license,platform,url,size_bytes,status
+ncnn-android,20250503,ncnn Android prebuilt,BSD-3-Clause,android,https://github.com/Tencent/ncnn/releases/download/20250503/ncnn-20250503-android.zip,15421233,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+mnn-android,3.2.0,MNN Android prebuilt,Apache-2.0,android,https://github.com/alibaba/MNN/releases/download/3.2.0/mnn_3.2.0_android_armv7_armv8_cpu_opencl_vulkan.zip,4377289,SHA256_VERIFIED
+qemu-arm-static,7.2.0-1,ARM32 user-mode emulation,GPL-2.0,linux-x64,https://github.com/multiarch/qemu-user-static/releases/download/v7.2.0-1/qemu-arm-static,9043024,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+darknet-src,ed59050,AlexeyAB Darknet source snapshot; legacy fork,YOLO LICENSE,source,https://github.com/AlexeyAB/darknet/archive/refs/heads/master.tar.gz,4762168,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+llama-cpp-src,b6000,llama.cpp source for GGUF inference,MIT,source,https://github.com/ggml-org/llama.cpp/archive/refs/tags/b6000.tar.gz,25252060,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+stories260k-gguf,tinyllamas,1 MiB GGUF LLM for a real inference test,MIT,any,https://huggingface.co/ggml-org/models/resolve/main/tinyllamas/stories260K.gguf,1185376,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+whisper-cpp-src,1.7.6,whisper.cpp source: speech inference,MIT,source,https://github.com/ggerganov/whisper.cpp/archive/refs/tags/v1.7.6.tar.gz,7307730,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+ggml-tiny-en-q5,q5_1,Quantized speech model,MIT,any,https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin,32166155,HASH_UNVERIFIED_NO_OFFICIAL_DIGEST
+android-emulator,37 (16696583),"Android Emulator, KVM-accelerated",Android SDK license (no redistribution),linux-x64,https://dl.google.com/android/repository/emulator-linux_x64-16696583.zip,354166476,SHA1_VERIFIED
+android-sysimg-34-x86_64,34 r04,Android 14 x86_64 system image for the emulator,Android SDK license (no redistribution),linux-x64,https://dl.google.com/android/repository/sys-img/android/x86_64-34_r04.zip,720747116,SHA1_VERIFIED
+debian-12-arm64,bookworm,Clean ARM64 OS image for the QEMU device simulation,Debian mixed free licenses,qemu-system-aarch64,https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-nocloud-arm64.qcow2,410451968,SHA512_VERIFIED

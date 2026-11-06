@@ -1,0 +1,460 @@
+[
+ {
+  "name": "onnxruntime-x64",
+  "version": "1.22.0",
+  "purpose": "ONNX Runtime C/C++ SDK",
+  "license": "MIT",
+  "platform": "linux-x64",
+  "url": "https://github.com/microsoft/onnxruntime/releases/download/v1.22.0/onnxruntime-linux-x64-1.22.0.tgz",
+  "expected_size": 7798730,
+  "sha256": "",
+  "filename": "onnxruntime-linux-x64-1.22.0.tgz"
+ },
+ {
+  "name": "onnxruntime-aarch64",
+  "version": "1.22.0",
+  "purpose": "ONNX Runtime C/C++ SDK",
+  "license": "MIT",
+  "platform": "linux-aarch64",
+  "url": "https://github.com/microsoft/onnxruntime/releases/download/v1.22.0/onnxruntime-linux-aarch64-1.22.0.tgz",
+  "expected_size": 6849865,
+  "sha256": "",
+  "filename": "onnxruntime-linux-aarch64-1.22.0.tgz"
+ },
+ {
+  "name": "ncnn-ubuntu",
+  "version": "20250503",
+  "purpose": "ncnn libs and converters (onnx2ncnn, caffe2ncnn, darknet2ncnn, mxnet2ncnn, ncnn2table, ncnn2int8)",
+  "license": "BSD-3-Clause",
+  "platform": "linux-x64",
+  "url": "https://github.com/Tencent/ncnn/releases/download/20250503/ncnn-20250503-ubuntu-2404.zip",
+  "expected_size": 31943610,
+  "sha256": "",
+  "filename": "ncnn-20250503-ubuntu-2404.zip"
+ },
+ {
+  "name": "ncnn-android",
+  "version": "20250503",
+  "purpose": "ncnn Android prebuilt",
+  "license": "BSD-3-Clause",
+  "platform": "android",
+  "url": "https://github.com/Tencent/ncnn/releases/download/20250503/ncnn-20250503-android.zip",
+  "expected_size": 15421233,
+  "sha256": "",
+  "filename": "ncnn-20250503-android.zip"
+ },
+ {
+  "name": "ncnn-src",
+  "version": "20250503",
+  "purpose": "ncnn full source incl. submodules: cross builds",
+  "license": "BSD-3-Clause",
+  "platform": "source",
+  "url": "https://github.com/Tencent/ncnn/releases/download/20250503/ncnn-20250503-full-source.zip",
+  "expected_size": 22774404,
+  "sha256": "",
+  "filename": "ncnn-20250503-full-source.zip"
+ },
+ {
+  "name": "mnn-src",
+  "version": "3.2.0",
+  "purpose": "MNN source",
+  "license": "Apache-2.0",
+  "platform": "source",
+  "url": "https://codeload.github.com/alibaba/MNN/tar.gz/refs/tags/3.2.0",
+  "filename": "MNN-3.2.0.tar.gz"
+ },
+ {
+  "name": "mnn-android",
+  "version": "3.2.0",
+  "purpose": "MNN Android prebuilt",
+  "license": "Apache-2.0",
+  "platform": "android",
+  "url": "https://github.com/alibaba/MNN/releases/download/3.2.0/mnn_3.2.0_android_armv7_armv8_cpu_opencl_vulkan.zip",
+  "expected_size": 4377289,
+  "sha256": "c88b257768893ac67f47ba2f2422ea537a9d06e081a8b2a4835bafcbc9cc4f06",
+  "filename": "mnn_3.2.0_android_armv7_armv8_cpu_opencl_vulkan.zip"
+ },
+ {
+  "name": "openvino-ubuntu24",
+  "version": "2025.2.0",
+  "purpose": "OpenVINO C/C++ runtime archive",
+  "license": "Apache-2.0",
+  "platform": "linux-x64",
+  "url": "https://storage.openvinotoolkit.org/repositories/openvino/packages/2025.2/linux/openvino_toolkit_ubuntu24_2025.2.0.19140.c01cd93e24d_x86_64.tgz",
+  "sha256": "8b5c2a90fedd24bb7efb8403348661ab602b4fc1c181bda6f775826364368f07"
+ },
+ {
+  "name": "iree-dist",
+  "version": "3.5.0",
+  "purpose": "IREE compiler/runtime tools, C headers and static libs",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "platform": "linux-x64",
+  "url": "https://github.com/iree-org/iree/releases/download/v3.5.0/iree-dist-3.5.0rc20250609-linux-x86_64.tar.xz",
+  "expected_size": 72393384,
+  "sha256": "2e24c36207dfc469587dd0cfb00b19f05c9bfe9d04824d86daa9ead6f59a4961",
+  "filename": "iree-dist-3.5.0rc20250609-linux-x86_64.tar.xz"
+ },
+ {
+  "name": "mindspore-lite",
+  "version": "2.6.0",
+  "purpose": "MindSpore Lite converter and C++ runtime",
+  "license": "Apache-2.0",
+  "platform": "linux-x64",
+  "url": "https://ms-release.obs.cn-north-4.myhuaweicloud.com/2.6.0/MindSpore/lite/release/linux/x86_64/mindspore-lite-2.6.0-linux-x64.tar.gz"
+ },
+ {
+  "name": "qemu-arm-xpack",
+  "version": "9.2.4-1",
+  "purpose": "Cortex-M/A system emulation (qemu-system-arm)",
+  "license": "GPL-2.0",
+  "platform": "linux-x64",
+  "url": "https://github.com/xpack-dev-tools/qemu-arm-xpack/releases/download/v9.2.4-1/xpack-qemu-arm-9.2.4-1-linux-x64.tar.gz",
+  "expected_size": 37496834,
+  "sha256": "203dc2c71e25fcf97b95181328e9b888cc8092ff404bffd4d267b9defabcb698",
+  "filename": "xpack-qemu-arm-9.2.4-1-linux-x64.tar.gz"
+ },
+ {
+  "name": "qemu-aarch64-static",
+  "version": "7.2.0-1",
+  "purpose": "ARM64 user-mode emulation",
+  "license": "GPL-2.0",
+  "platform": "linux-x64",
+  "url": "https://github.com/multiarch/qemu-user-static/releases/download/v7.2.0-1/qemu-aarch64-static",
+  "expected_size": 10402960,
+  "sha256": "",
+  "filename": "qemu-aarch64-static"
+ },
+ {
+  "name": "qemu-arm-static",
+  "version": "7.2.0-1",
+  "purpose": "ARM32 user-mode emulation",
+  "license": "GPL-2.0",
+  "platform": "linux-x64",
+  "url": "https://github.com/multiarch/qemu-user-static/releases/download/v7.2.0-1/qemu-arm-static",
+  "expected_size": 9043024,
+  "sha256": "",
+  "filename": "qemu-arm-static"
+ },
+ {
+  "name": "tensorflow-src",
+  "version": "2.19.0",
+  "purpose": "TensorFlow source: tensorflow/lite CMake build of LiteRT C API",
+  "license": "Apache-2.0",
+  "platform": "source",
+  "url": "https://github.com/tensorflow/tensorflow/archive/refs/tags/v2.19.0.tar.gz",
+  "filename": "tensorflow-2.19.0.tar.gz"
+ },
+ {
+  "name": "tflite-micro-src",
+  "version": "3200ccd",
+  "purpose": "TFLite Micro source pinned to 2025-06-17 commit",
+  "license": "Apache-2.0",
+  "platform": "source",
+  "url": "https://codeload.github.com/tensorflow/tflite-micro/tar.gz/3200ccd18268346d0ea965720c5599a3d051e853",
+  "filename": "tflite-micro-3200ccd.tar.gz"
+ },
+ {
+  "name": "cmsis-nn-src",
+  "version": "7.0.0",
+  "purpose": "CMSIS-NN kernels",
+  "license": "Apache-2.0",
+  "platform": "source",
+  "url": "https://codeload.github.com/ARM-software/CMSIS-NN/tar.gz/refs/tags/v7.0.0",
+  "filename": "CMSIS-NN-7.0.0.tar.gz"
+ },
+ {
+  "name": "rknnrt-aarch64",
+  "version": "2.3.2",
+  "purpose": "Rockchip NPU runtime for RK3588/RK356x",
+  "license": "Rockchip proprietary, see repo",
+  "platform": "linux-aarch64 + NPU",
+  "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/v2.3.2/rknpu2/runtime/Linux/librknn_api/aarch64/librknnrt.so"
+ },
+ {
+  "name": "rknn-api-h",
+  "version": "2.3.2",
+  "purpose": "RKNN C API header",
+  "license": "Rockchip, see repo",
+  "platform": "any",
+  "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/v2.3.2/rknpu2/runtime/Linux/librknn_api/include/rknn_api.h"
+ },
+ {
+  "name": "paddle-lite-armv8",
+  "version": "2.12",
+  "purpose": "Paddle Lite C++ tiny-publish lib, ARMv8 Linux GCC",
+  "license": "Apache-2.0",
+  "platform": "linux-aarch64",
+  "url": "https://github.com/PaddlePaddle/Paddle-Lite/releases/download/v2.12/inference_lite_lib.armlinux.armv8.gcc.with_extra.tar.gz",
+  "expected_size": 753523,
+  "sha256": "",
+  "filename": "inference_lite_lib.armlinux.armv8.gcc.with_extra.tar.gz"
+ },
+ {
+  "name": "paddle-mobilenet-v1",
+  "version": "fluid",
+  "purpose": "Small official Paddle inference model (no local training is possible, see report)",
+  "license": "Apache-2.0",
+  "platform": "any",
+  "url": "https://paddlelite-demo.bj.bcebos.com/models/mobilenet_v1_fp32_224_fluid.tar.gz"
+ },
+ {
+  "name": "squeezenet11-caffemodel",
+  "version": "1.1",
+  "purpose": "Real Caffe model",
+  "license": "BSD-2-Clause",
+  "platform": "any",
+  "url": "https://raw.githubusercontent.com/forresti/SqueezeNet/master/SqueezeNet_v1.1/squeezenet_v1.1.caffemodel"
+ },
+ {
+  "name": "squeezenet11-prototxt",
+  "version": "1.1",
+  "purpose": "Caffe net definition",
+  "license": "BSD-2-Clause",
+  "platform": "any",
+  "url": "https://raw.githubusercontent.com/forresti/SqueezeNet/master/SqueezeNet_v1.1/deploy.prototxt"
+ },
+ {
+  "name": "yolov4-tiny-weights",
+  "version": "yolov4",
+  "purpose": "Real Darknet detector weights",
+  "license": "YOLO LICENSE (public domain style)",
+  "platform": "any",
+  "url": "https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov4-tiny.weights"
+ },
+ {
+  "name": "yolov4-tiny-cfg",
+  "version": "yolov4",
+  "purpose": "Darknet cfg",
+  "license": "see repo",
+  "platform": "any",
+  "url": "https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg"
+ },
+ {
+  "name": "darknet-src",
+  "version": "ed59050",
+  "purpose": "AlexeyAB Darknet source snapshot; legacy fork",
+  "license": "YOLO LICENSE",
+  "platform": "source",
+  "url": "https://github.com/AlexeyAB/darknet/archive/refs/heads/master.tar.gz",
+  "filename": "darknet-master.tar.gz"
+ },
+ {
+  "name": "llama-cpp-src",
+  "version": "b6000",
+  "purpose": "llama.cpp source for GGUF inference",
+  "license": "MIT",
+  "platform": "source",
+  "url": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b6000.tar.gz",
+  "filename": "llama.cpp-b6000.tar.gz"
+ },
+ {
+  "name": "stories260k-gguf",
+  "version": "tinyllamas",
+  "purpose": "1 MiB GGUF LLM for a real inference test",
+  "license": "MIT",
+  "platform": "any",
+  "url": "https://huggingface.co/ggml-org/models/resolve/main/tinyllamas/stories260K.gguf"
+ },
+ {
+  "name": "whisper-cpp-src",
+  "version": "1.7.6",
+  "purpose": "whisper.cpp source: speech inference",
+  "license": "MIT",
+  "platform": "source",
+  "url": "https://github.com/ggerganov/whisper.cpp/archive/refs/tags/v1.7.6.tar.gz",
+  "filename": "whisper.cpp-1.7.6.tar.gz"
+ },
+ {
+  "name": "ggml-tiny-en-q5",
+  "version": "q5_1",
+  "purpose": "Quantized speech model",
+  "license": "MIT",
+  "platform": "any",
+  "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin"
+ },
+ {
+  "name": "python37-standalone",
+  "version": "3.7.9",
+  "purpose": "Legacy Python for TF 2.0 / MindSpore 1.0 / Paddle Lite 2.12 / MXNet 1.9",
+  "license": "PSF",
+  "platform": "linux-x64",
+  "url": "https://github.com/indygreg/python-build-standalone/releases/download/20200822/cpython-3.7.9-x86_64-unknown-linux-gnu-pgo-20200823T0036.tar.zst"
+ },
+ {
+  "name": "libprotobuf32-deb",
+  "version": "3.21.12",
+  "purpose": "Runtime dependency of ncnn's onnx2ncnn and caffe2ncnn on non-24.04 hosts, unpacked locally",
+  "license": "BSD-3-Clause",
+  "platform": "linux-x64",
+  "url": "http://archive.ubuntu.com/ubuntu/pool/main/p/protobuf/libprotobuf32t64_3.21.12-8.2ubuntu0.4_amd64.deb"
+ },
+ {
+  "name": "libssl1.1-deb",
+  "version": "1.1.1f",
+  "purpose": "Runtime dependency of MindSpore 1.0.0, unpacked locally; OpenSSL 1.1.1 is EOL",
+  "license": "OpenSSL",
+  "platform": "linux-x64",
+  "url": "http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb"
+ },
+ {
+  "name": "iree-src",
+  "version": "3.5.0",
+  "purpose": "IREE source: C runtime headers missing from iree-dist 3.5.0",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "platform": "source",
+  "url": "https://codeload.github.com/iree-org/iree/tar.gz/refs/tags/v3.5.0",
+  "filename": "iree-3.5.0.tar.gz"
+ },
+ {
+  "name": "onnxruntime-android",
+  "version": "1.22.0",
+  "purpose": "ONNX Runtime official Android AAR",
+  "license": "MIT",
+  "platform": "android",
+  "url": "https://repo1.maven.org/maven2/com/microsoft/onnxruntime/onnxruntime-android/1.22.0/onnxruntime-android-1.22.0.aar",
+  "sha256": "04a4617a9c797cf49225595e45b5546081cb34c86ac817581141577d3b7dbfe2"
+ },
+ {
+  "name": "android-ndk",
+  "version": "r27d",
+  "purpose": "Android C++ cross-compilation",
+  "license": "Android SDK license (no redistribution)",
+  "platform": "linux-x64",
+  "url": "https://dl.google.com/android/repository/android-ndk-r27d-linux.zip",
+  "expected_size": 663956036,
+  "sha1": "22105e410cf29afcf163760cc95522b9fb981121",
+  "approved_oversize": true
+ },
+ {
+  "name": "android-emulator",
+  "version": "37 (16696583)",
+  "purpose": "Android Emulator, KVM-accelerated",
+  "license": "Android SDK license (no redistribution)",
+  "platform": "linux-x64",
+  "url": "https://dl.google.com/android/repository/emulator-linux_x64-16696583.zip",
+  "expected_size": 354166476,
+  "sha1": "4296551c0fce5928710bf29bd1ce6d4888372051",
+  "approved_oversize": true
+ },
+ {
+  "name": "android-sysimg-34-x86_64",
+  "version": "34 r04",
+  "purpose": "Android 14 x86_64 system image for the emulator",
+  "license": "Android SDK license (no redistribution)",
+  "platform": "linux-x64",
+  "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-34_r04.zip",
+  "expected_size": 720747116,
+  "sha1": "5f6a249f9bc3b1b4c459b13ce2eb646c9680bed1",
+  "approved_oversize": true
+ },
+ {
+  "name": "android-platform-tools",
+  "version": "37.0.2",
+  "purpose": "adb",
+  "license": "Android SDK license (no redistribution)",
+  "platform": "linux-x64",
+  "url": "https://dl.google.com/android/repository/platform-tools_r37.0.2-linux.zip",
+  "expected_size": 9541228,
+  "sha1": "736a08af10515674e40d8b754fe87390d698da2b"
+ },
+ {
+  "name": "arm-none-eabi-gcc",
+  "version": "15.2.1-1.1",
+  "purpose": "GCC for Cortex-M: TFLite Micro build",
+  "license": "GPL-3.0",
+  "platform": "linux-x64",
+  "approved_oversize": true,
+  "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-x64.tar.gz",
+  "expected_size": 307090703,
+  "sha256": "da6a49ad4003944b823c6c93702a8787c922ab34bd7e918ec0eaf6933a9b1ff6",
+  "filename": "xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-x64.tar.gz"
+ },
+ {
+  "name": "debian-12-arm64",
+  "version": "bookworm",
+  "purpose": "Clean ARM64 OS image for the QEMU device simulation",
+  "license": "Debian mixed free licenses",
+  "platform": "qemu-system-aarch64",
+  "url": "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-nocloud-arm64.qcow2",
+  "expected_size": 410451968,
+  "approved_oversize": true,
+  "sha512": "f5889d18bbd59228c6cafce7ab98dfc01129aa62b4ca9be044ff5a2149c3880ad3d44eaf62f80f0f85d3ab026082aa929f5b71731b8098e3acd09edcf8615c38"
+ },
+ {
+  "name": "mnn-linux-prebuilt",
+  "version": "3.2.0",
+  "purpose": "MNN prebuilt desktop libs; built from source here instead",
+  "license": "Apache-2.0",
+  "platform": "linux-x64",
+  "url": "https://github.com/alibaba/MNN/releases/download/3.2.0/mnn_3.2.0_linux_x64_cpu_opencl.zip",
+  "expected_size": 207834567,
+  "sha256": "3e86ac8fc0eba1d119919c01e4aaaa9f868dd4822adbf78a8c8005a31421de4a",
+  "filename": "mnn_3.2.0_linux_x64_cpu_opencl.zip"
+ },
+ {
+  "name": "tensorrt-sdk",
+  "version": "10.x",
+  "purpose": "TensorRT C++ SDK, needs an NVIDIA GPU",
+  "license": "NVIDIA proprietary",
+  "platform": "linux-x64/aarch64 NVIDIA GPU",
+  "url": "https://developer.nvidia.com/tensorrt/download",
+  "filename": "TensorRT-Linux-x86_64.tar.gz",
+  "placeholder": true,
+  "instructions": "NVIDIA Developer login; choose TensorRT 10 tarball for your CUDA"
+ },
+ {
+  "name": "qairt-sdk",
+  "version": "2.x",
+  "purpose": "Qualcomm AI Runtime SDK (QNN, SNPE)",
+  "license": "Qualcomm proprietary",
+  "platform": "linux-x64 host, Snapdragon target",
+  "url": "https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk",
+  "filename": "qairt-sdk.zip",
+  "placeholder": true,
+  "instructions": "Qualcomm ID login"
+ },
+ {
+  "name": "hailo-dfc",
+  "version": "3.x",
+  "purpose": "Hailo Dataflow Compiler and HailoRT",
+  "license": "Hailo proprietary",
+  "platform": "linux-x64 host, Hailo device",
+  "url": "https://hailo.ai/developer-zone/software-downloads/",
+  "filename": "hailo_dataflow_compiler.whl",
+  "placeholder": true,
+  "instructions": "Hailo Developer Zone login"
+ },
+ {
+  "name": "x-cube-ai",
+  "version": "10.x",
+  "purpose": "STM32Cube.AI",
+  "license": "ST SLA",
+  "platform": "win/linux host, STM32 target",
+  "url": "https://www.st.com/en/embedded-software/x-cube-ai.html",
+  "filename": "x-cube-ai.zip",
+  "placeholder": true,
+  "instructions": "my.st.com login"
+ },
+ {
+  "name": "cann-toolkit",
+  "version": "8.x",
+  "purpose": "Huawei Ascend CANN and ATC compiler",
+  "license": "Huawei proprietary",
+  "platform": "Ascend host",
+  "url": "https://www.hiascend.com/software/cann",
+  "filename": "Ascend-cann-toolkit.run",
+  "placeholder": true,
+  "instructions": "Huawei account; pick the build matching your NPU driver"
+ },
+ {
+  "name": "xcode",
+  "version": "16+",
+  "purpose": "Xcode: Core ML / Swift build and on-device test",
+  "license": "Apple EULA",
+  "platform": "macOS only",
+  "url": "https://developer.apple.com/xcode/",
+  "filename": "Xcode.xip",
+  "placeholder": true,
+  "instructions": "Mac App Store; cannot run on Linux"
+ }
+]
