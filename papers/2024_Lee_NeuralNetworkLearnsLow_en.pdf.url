@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2406.01581v2
+
+[File]
+Name=2024_Lee_NeuralNetworkLearnsLow_en.pdf
+Work=Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit
+SizeBytes=947732
+SHA256=77a483643363f7d207ae574c4380c8c7ad8b9c76c10c6412192399459e74df32
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2406.01581
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

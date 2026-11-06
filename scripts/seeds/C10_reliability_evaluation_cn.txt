@@ -1,0 +1,56 @@
+# C10 可靠性与评测：不确定性、校准、鲁棒性、可解释性、公平性、分布变化、数据泄漏、可复现性
+2411.11824 | Theoretical Foundations of Conformal Prediction | T | C01 | 共形预测理论基础的系统讲解（专著式）
+2402.07307 | Self-Calibrating Conformal Prediction | R | - | 结合校准与共形预测区间
+2402.10978 | Language Models with Conformal Factuality Guarantees | R | C06 | 为 LLM 输出提供共形事实性保证
+2311.08298 | A Survey of Confidence Estimation and Calibration in Large Language Models | S | C06 | LLM 置信度估计与校准综述
+2402.13187 | Testing Calibration in Nearly-Linear Time | R | - | 校准检验的高效算法
+2406.08391 | Large Language Models Must Be Taught to Know What They Don't Know | R | C06 | 微调提升 LLM 不确定性估计
+2403.05973 | Calibrating Large Language Models Using Their Generations Only | R | C06 | 仅基于生成文本的 LLM 校准
+2403.08819 | Thermometer: Towards Universal Calibration for Large Language Models | R | C06 | 跨任务的 LLM 温度校准
+doi:10.1038/s41586-024-07421-0 | Detecting hallucinations in large language models using semantic entropy | R | C06 | 语义熵检测幻觉，Nature 2024
+2412.05563 | A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions | S | C06 | LLM 不确定性量化综述
+2402.00809 | Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI | R | C04 | 贝叶斯深度学习在大模型时代的价值
+2402.19460 | Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks | R | - | 不确定性分解方法的系统基准
+2402.09056 | Is Epistemic Uncertainty Faithfully Represented by Evidential Deep Learning Methods? | R | - | 证据深度学习认知不确定性的理论检验
+2402.04249 | HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal | R | C06 | 红队与拒答鲁棒性评测框架
+2404.02151 | Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks | R | C06 | 自适应攻击评估对齐鲁棒性
+2402.12336 | Robust CLIP: Unsupervised Adversarial Fine-Tuning of Vision Embeddings for Robust Large Vision-Language Models | R | C05 | 视觉-语言嵌入的对抗鲁棒性
+2403.18775 | ImageNet-D: Benchmarking Neural Network Robustness on Diffusion Synthetic Object | R | C05 | 扩散合成图像的鲁棒性基准
+2401.05566 | Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training | R | C06 | 后门行为在安全训练后仍持续存在
+2403.19647 | Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models | R | C06 | 稀疏特征电路的发现与编辑
+2501.16496 | Open Problems in Mechanistic Interpretability | S | - | 机制可解释性开放问题综述
+2404.14082 | Mechanistic Interpretability for AI Safety -- A Review | S | - | 面向 AI 安全的机制可解释性综述
+2408.05147 | Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2 | R | C03 | 开放稀疏自编码器套件
+2406.11717 | Refusal in Language Models Is Mediated by a Single Direction | R | C06 | 拒答行为由单一方向介导
+2403.00745 | AtP*: An efficient and scalable method for localizing LLM behaviour to components | R | - | 大规模归因定位模型组件
+2310.19775 | Explainable Artificial Intelligence (XAI) 2.0: A Manifesto of Open Challenges and Interdisciplinary Research Directions | S | - | 可解释 AI 开放挑战宣言
+2402.01761 | Rethinking Interpretability in the Era of Large Language Models | R | C06 | LLM 时代的可解释性议程
+2503.08679 | Chain-of-Thought Reasoning In The Wild Is Not Always Faithful | R | C06 | 思维链忠实性评估
+2406.03198 | The Impossibility of Fair LLMs | R | C06 | LLM 公平性的形式困难
+2403.00742 | Dialect prejudice predicts AI decisions about people's character, employability, and criminality | R | C06 | 方言偏见揭示 LLM 隐性歧视
+2406.06487 | When is Multicalibration Post-Processing Necessary? | R | - | 多重校准（群体公平校准）后处理的实证研究
+2406.12624 | Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges | R | C06 | LLM 作为评审者的可靠性与偏差
+2410.08258 | In Search of Forgotten Domain Generalization | R | C05 | 控制数据污染后重新评估 CLIP 的域泛化
+2404.04125 | No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance | R | C03 | 预训练概念频率决定零样本性能
+2403.01874 | A Survey on Evaluation of Out-of-Distribution Generalization | S | - | 分布外泛化评测综述
+2402.12715 | The Clever Hans Mirage: A Comprehensive Survey on Spurious Correlations in Machine Learning | S | C01 | 伪相关与捷径学习综述（arXiv 后续版本改用现标题）
+2405.00332 | A Careful Examination of Large Language Model Performance on Grade School Arithmetic | R | C06 | GSM1k：检测基准污染导致的过拟合
+2406.04244 | Benchmark Data Contamination of Large Language Models: A Survey | S | C06 | 基准数据污染综述
+2311.09783 | Investigating Data Contamination in Modern Benchmarks for Large Language Models | R | C06 | 现代基准的数据污染检测
+2407.07890 | Training on the Test Task Confounds Evaluation and Emergence | R | C06 | "在测试任务上训练"对评测与涌现的混淆
+2405.14782 | Lessons from the Trenches on Reproducible Evaluation of Language Models | R | C06 | 语言模型可复现评测经验与 lm-eval-harness
+2405.02200 | Position: Why We Must Rethink Empirical Research in Machine Learning | R | C01 | 机器学习实证研究方法论反思
+2406.10229 | Quantifying Variance in Evaluation Benchmarks | R | C06 | 评测基准的方差量化
+2411.00640 | Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations | R | C06 | 模型评测的统计推断与误差棒
+2504.20879 | The Leaderboard Illusion | R | C06 | 排行榜评测中的系统性偏差
+2411.12990 | BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices | R | - | AI 基准质量评估框架
+2405.10938 | Observational Scaling Laws and the Predictability of Language Model Performance | R | C01 | 观测式标度律预测模型能力
+2311.05232 | A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions | S | C06 | 幻觉综述
+2509.04664 | Why Language Models Hallucinate | R | C06 | 从训练与评测激励角度解释幻觉
+2311.01453 | PPI++: Efficient Prediction-Powered Inference | R | C01 | 用模型预测提升统计推断效率
+- | Reproducibility in Machine Learning-based Research: Overview, Barriers and Drivers | S | - | 机器学习研究可复现性综述
+1706.04599 | On Calibration of Modern Neural Networks | R | C04 | 深度网络校准 | 校准研究标准起点（温度缩放）
+2107.07511 | A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification | T | - | 共形预测入门 | 最常用的共形预测教程
+2207.07048 | Leakage and the Reproducibility Crisis in ML-based Science | R | C01 | 数据泄漏分类 | 数据泄漏问题的系统分类，近年可复现性讨论的基础
+1612.01474 | Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles | R | - | 深度集成 | 不确定性估计的强基线
+1705.07874 | A Unified Approach to Interpreting Model Predictions | R | - | SHAP | 特征归因最常用方法

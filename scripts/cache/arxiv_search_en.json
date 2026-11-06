@@ -1,0 +1,828 @@
+{
+ "datasciencewithllmsandinterpretablemodels": [
+  {
+   "id": "2402.14474",
+   "latest_version": "2402.14474v1",
+   "abs_url": "http://arxiv.org/abs/2402.14474v1",
+   "title": "Data Science with LLMs and Interpretable Models",
+   "authors": [
+    "Sebastian Bordt",
+    "Ben Lengerich",
+    "Harsha Nori",
+    "Rich Caruana"
+   ],
+   "published": "2024-02-22",
+   "updated": "2024-02-22",
+   "abstract": "Recent years have seen important advances in the building of interpretable models, machine learning models that are designed to be easily understood by humans. In this work, we show that large language models (LLMs) are remarkably good at working with interpretable models, too. In particular, we show that LLMs can describe, interpret, and debug Generalized Additive Models (GAMs). Combining the flexibility of LLMs with the breadth of statistical patterns accurately described by GAMs enables dataset summarization, question answering, and model critique. LLMs can also improve the interaction between domain experts and interpretable models, and generate hypotheses about the underlying phenomenon. We release \\url{https://github.com/interpretml/TalkToEBM} as an open-source LLM-GAM interface.",
+   "comment": "XAI4Sci Workshop at AAAI-24",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "aunifiedapproachtoextractinterpretablerulesfromtreeensemblesviaintegerprogramming": [
+  {
+   "id": "2407.00843",
+   "latest_version": "2407.00843v3",
+   "abs_url": "http://arxiv.org/abs/2407.00843v3",
+   "title": "A Unified Approach to Extract Interpretable Rules from Tree Ensembles via Integer Programming",
+   "authors": [
+    "Lorenzo Bonasera",
+    "Emilio Carrizosa"
+   ],
+   "published": "2024-06-30",
+   "updated": "2025-01-13",
+   "abstract": "Tree ensembles are very popular machine learning models, known for their effectiveness in supervised classification and regression tasks. Their performance derives from aggregating predictions of multiple decision trees, which are renowned for their interpretability properties. However, tree ensemble models do not reliably exhibit interpretable output. Our work aims to extract an optimized list of rules from a trained tree ensemble, providing the user with a condensed, interpretable model that retains most of the predictive power of the full model. Our approach consists of solving a set partitioning problem formulated through Integer Programming. The proposed method works with either tabular or time series data, for both classification and regression tasks, and its flexible formulation can include any arbitrary loss or regularization functions. Our extensive computational experiments offer statistically significant evidence that our method is competitive with other rule extraction methods in terms of predictive performance and fidelity towards the tree ensemble. Moreover, we empirically show that the proposed method effectively extracts interpretable rules from tree ensemble that are designed for time series data.",
+   "comment": "- Improved overall manuscript flow and clearness - Added related work on explanation fidelity - Added computational results on fidelity - Fixed some flaws on data inference - Optimization problem with weighted objectives - Added appendix containing qualitative examples - New computational results",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "math.OC"
+  }
+ ],
+ "themanyfacesofoptimalweaktostronglearning": [
+  {
+   "id": "2408.17148",
+   "latest_version": "2408.17148v1",
+   "abs_url": "http://arxiv.org/abs/2408.17148v1",
+   "title": "The Many Faces of Optimal Weak-to-Strong Learning",
+   "authors": [
+    "Mikael Møller Høgsgaard",
+    "Kasper Green Larsen",
+    "Markus Engelund Mathiasen"
+   ],
+   "published": "2024-08-30",
+   "updated": "2024-08-30",
+   "abstract": "Boosting is an extremely successful idea, allowing one to combine multiple low accuracy classifiers into a much more accurate voting classifier. In this work, we present a new and surprisingly simple Boosting algorithm that obtains a provably optimal sample complexity. Sample optimal Boosting algorithms have only recently been developed, and our new algorithm has the fastest runtime among all such algorithms and is the simplest to describe: Partition your training data into 5 disjoint pieces of equal size, run AdaBoost on each, and combine the resulting classifiers via a majority vote. In addition to this theoretical contribution, we also perform the first empirical comparison of the proposed sample optimal Boosting algorithms. Our pilot empirical study suggests that our new algorithm might outperform previous algorithms on large data sets.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "representationlearningfortabulardataacomprehensivesurvey": [
+  {
+   "id": "2504.16109",
+   "latest_version": "2504.16109v1",
+   "abs_url": "http://arxiv.org/abs/2504.16109v1",
+   "title": "Representation Learning for Tabular Data: A Comprehensive Survey",
+   "authors": [
+    "Jun-Peng Jiang",
+    "Si-Yang Liu",
+    "Hao-Run Cai",
+    "Qile Zhou",
+    "Han-Jia Ye"
+   ],
+   "published": "2025-04-17",
+   "updated": "2025-04-17",
+   "abstract": "Tabular data, structured as rows and columns, is among the most prevalent data types in machine learning classification and regression applications. Models for learning from tabular data have continuously evolved, with Deep Neural Networks (DNNs) recently demonstrating promising results through their capability of representation learning. In this survey, we systematically introduce the field of tabular representation learning, covering the background, challenges, and benchmarks, along with the pros and cons of using DNNs. We organize existing methods into three main categories according to their generalization capabilities: specialized, transferable, and general models. Specialized models focus on tasks where training and evaluation occur within the same data distribution. We introduce a hierarchical taxonomy for specialized models based on the key aspects of tabular data -- features, samples, and objectives -- and delve into detailed strategies for obtaining high-quality feature- and sample-level representations. Transferable models are pre-trained on one or more datasets and subsequently fine-tuned on downstream tasks, leveraging knowledge acquired from homogeneous or heterogeneous sources, or even cross-modalities such as vision and language. General models, also known as tabular foundation models, extend this concept further, allowing direct application to downstream tasks without fine-tuning. We group these general models based on the strategies used to adapt across heterogeneous datasets. Additionally, we explore ensemble methods, which integrate the strengths of multiple tabular models. Finally, we discuss representative extensions of tabular learning, including open-environment tabular machine learning, multimodal learning with tabular data, and tabular understanding. More information can be found in the following repository: https://github.com/LAMDA-Tabular/Tabular-Survey.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "dinov3": [
+  {
+   "id": "2508.10104",
+   "latest_version": "2508.10104v1",
+   "abs_url": "http://arxiv.org/abs/2508.10104v1",
+   "title": "DINOv3",
+   "authors": [
+    "Oriane Siméoni",
+    "Huy V. Vo",
+    "Maximilian Seitzer",
+    "Federico Baldassarre",
+    "Maxime Oquab",
+    "Cijo Jose",
+    "Vasil Khalidov",
+    "Marc Szafraniec",
+    "Seungeun Yi",
+    "Michaël Ramamonjisoa",
+    "Francisco Massa",
+    "Daniel Haziza",
+    "Luca Wehrstedt",
+    "Jianyuan Wang",
+    "Timothée Darcet",
+    "Théo Moutakanni",
+    "Leonel Sentana",
+    "Claire Roberts",
+    "Andrea Vedaldi",
+    "Jamie Tolan",
+    "John Brandt",
+    "Camille Couprie",
+    "Julien Mairal",
+    "Hervé Jégou",
+    "Patrick Labatut",
+    "Piotr Bojanowski"
+   ],
+   "published": "2025-08-13",
+   "updated": "2025-08-13",
+   "abstract": "Self-supervised learning holds the promise of eliminating the need for manual data annotation, enabling models to scale effortlessly to massive datasets and larger architectures. By not being tailored to specific tasks or domains, this training paradigm has the potential to learn visual representations from diverse sources, ranging from natural to aerial images -- using a single algorithm. This technical report introduces DINOv3, a major milestone toward realizing this vision by leveraging simple yet effective strategies. First, we leverage the benefit of scaling both dataset and model size by careful data preparation, design, and optimization. Second, we introduce a new method called Gram anchoring, which effectively addresses the known yet unsolved issue of dense feature maps degrading during long training schedules. Finally, we apply post-hoc strategies that further enhance our models' flexibility with respect to resolution, model size, and alignment with text. As a result, we present a versatile vision foundation model that outperforms the specialized state of the art across a broad range of settings, without fine-tuning. DINOv3 produces high-quality dense features that achieve outstanding performance on various vision tasks, significantly surpassing previous self- and weakly-supervised foundation models. We also share the DINOv3 suite of vision models, designed to advance the state of the art on a wide spectrum of tasks and data by providing scalable solutions for diverse resource constraints and deployment scenarios.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2603.19531",
+   "latest_version": "2603.19531v1",
+   "abs_url": "http://arxiv.org/abs/2603.19531v1",
+   "title": "dinov3.seg: Open-Vocabulary Semantic Segmentation with DINOv3",
+   "authors": [
+    "Saikat Dutta",
+    "Biplab Banerjee",
+    "Hamid Rezatofighi"
+   ],
+   "published": "2026-03-19",
+   "updated": "2026-03-19",
+   "abstract": "Open-Vocabulary Semantic Segmentation (OVSS) assigns pixel-level labels from an open set of text-defined categories, demanding reliable generalization to unseen classes at inference. Although modern vision-language models (VLMs) support strong open-vocabulary recognition, their representations learned through global contrastive objectives remain suboptimal for dense prediction, prompting many OVSS methods to depend on limited adaptation or refinement of image-text similarity maps. This, in turn, restricts spatial precision and robustness in complex, cluttered scenes. We introduce dinov3.seg, extending dinov3.txt into a dedicated framework for OVSS. Our contributions are four-fold. First, we design a task-specific architecture tailored to this backbone, systematically adapting established design principles from prior open-vocabulary segmentation work. Second, we jointly leverage text embeddings aligned with both the global [CLS] token and local patch-level visual features from ViT-based encoder, effectively combining semantic discrimination with fine-grained spatial locality. Third, unlike prior approaches that rely primarily on post hoc similarity refinement, we perform early refinement of visual representations prior to image-text interaction, followed by late refinement of the resulting image-text correlation features, enabling more accurate and robust dense predictions in cluttered scenes. Finally, we propose a high-resolution local-global inference strategy based on sliding-window aggregation, which preserves spatial detail while maintaining global context. We conduct extensive experiments on five widely adopted OVSS benchmarks to evaluate our approach. The results demonstrate its effectiveness and robustness, consistently outperforming current state-of-the-art methods.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2603.23104",
+   "latest_version": "2603.23104v1",
+   "abs_url": "http://arxiv.org/abs/2603.23104v1",
+   "title": "NeuroSeg Meets DINOv3: Transferring 2D Self-Supervised Visual Priors to 3D Neuron Segmentation via DINOv3 Initialization",
+   "authors": [
+    "Yik San Cheng",
+    "Runkai Zhao",
+    "Weidong Cai"
+   ],
+   "published": "2026-03-24",
+   "updated": "2026-03-24",
+   "abstract": "2D visual foundation models, such as DINOv3, a self-supervised model trained on large-scale natural images, have demonstrated strong zero-shot generalization, capturing both rich global context and fine-grained structural cues. However, an analogous 3D foundation model for downstream volumetric neuroimaging remains lacking, largely due to the challenges of 3D image acquisition and the scarcity of high-quality annotations. To address this gap, we propose to adapt the 2D visual representations learned by DINOv3 to a 3D biomedical segmentation model, enabling more data-efficient and morphologically faithful neuronal reconstruction. Specifically, we design an inflation-based adaptation strategy that inflates 2D filters into 3D operators, preserving semantic priors from DINOv3 while adapting to 3D neuronal volume patches. In addition, we introduce a topology-aware skeleton loss to explicitly enforce structural fidelity of graph-based neuronal arbor reconstruction. Extensive experiments on four neuronal imaging datasets, including two from BigNeuron and two public datasets, NeuroFly and CWMBS, demonstrate consistent improvements in reconstruction accuracy over SoTA methods, with average gains of 2.9% in Entire Structure Average, 2.8% in Different Structure Average, and 3.8% in Percentage of Different Structure. Code: https://github.com/yy0007/NeurINO.",
+   "comment": "17 pages, 12 figures, and 11 tables. Accepted to CVPR 2026",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2509.14084",
+   "latest_version": "2509.14084v2",
+   "abs_url": "http://arxiv.org/abs/2509.14084v2",
+   "title": "AD-DINOv3: Enhancing DINOv3 for Zero-Shot Anomaly Detection with Anomaly-Aware Calibration",
+   "authors": [
+    "Jingyi Yuan",
+    "Jianxiong Ye",
+    "Wenkang Chen",
+    "Chenqiang Gao"
+   ],
+   "published": "2025-09-17",
+   "updated": "2025-09-18",
+   "abstract": "Zero-Shot Anomaly Detection (ZSAD) seeks to identify anomalies from arbitrary novel categories, offering a scalable and annotation-efficient solution. Traditionally, most ZSAD works have been based on the CLIP model, which performs anomaly detection by calculating the similarity between visual and text embeddings. Recently, vision foundation models such as DINOv3 have demonstrated strong transferable representation capabilities. In this work, we are the first to adapt DINOv3 for ZSAD. However, this adaptation presents two key challenges: (i) the domain bias between large-scale pretraining data and anomaly detection tasks leads to feature misalignment; and (ii) the inherent bias toward global semantics in pretrained representations often leads to subtle anomalies being misinterpreted as part of the normal foreground objects, rather than being distinguished as abnormal regions. To overcome these challenges, we introduce AD-DINOv3, a novel vision-language multimodal framework designed for ZSAD. Specifically, we formulate anomaly detection as a multimodal contrastive learning problem, where DINOv3 is employed as the visual backbone to extract patch tokens and a CLS token, and the CLIP text encoder provides embeddings for both normal and abnormal prompts. To bridge the domain gap, lightweight adapters are introduced in both modalities, enabling their representations to be recalibrated for the anomaly detection task. Beyond this baseline alignment, we further design an Anomaly-Aware Calibration Module (AACM), which explicitly guides the CLS token to attend to anomalous regions rather than generic foreground semantics, thereby enhancing discriminability. Extensive experiments on eight industrial and medical benchmarks demonstrate that AD-DINOv3 consistently matches or surpasses state-of-the-art methods.The code will be available at https://github.com/Kaisor-Yuan/AD-DINOv3.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2509.20787",
+   "latest_version": "2509.20787v5",
+   "abs_url": "http://arxiv.org/abs/2509.20787v5",
+   "title": "Real-Time Object Detection Meets DINOv3",
+   "authors": [
+    "Shihua Huang",
+    "Yongjie Hou",
+    "Longfei Liu",
+    "Xuanlong Yu",
+    "Xi Shen"
+   ],
+   "published": "2025-09-25",
+   "updated": "2026-10-27",
+   "abstract": "Driven by the simple and effective Dense O2O, DEIM demonstrates faster convergence and enhanced performance. In this work, we extend it with DINOv3 features, resulting in DEIMv2. DEIMv2 spans eight model sizes from X to Atto, covering GPU, edge, and mobile deployment. For the X, L, M, and S variants, we adopt DINOv3-pretrained or distilled backbones and introduce a Spatial Tuning Adapter (STA), which efficiently converts DINOv3's single-scale output into multi-scale features and complements strong semantics with fine-grained details to enhance detection. For ultra-lightweight models (Nano, Pico, Femto, and Atto), we employ HGNetv2 with depth and width pruning to meet strict resource budgets. Together with a simplified decoder and an upgraded Dense O2O, this unified design enables DEIMv2 to achieve a superior performance-cost trade-off across diverse scenarios, establishing new state-of-the-art results. Notably, our largest model, DEIMv2-X, achieves 57.8 AP with only 50.3 million parameters, surpassing prior X-scale models that require over 60 million parameters for just 56.5 AP. On the compact side, DEIMv2-S is the first sub-10 million model (9.71 million) to exceed the 50 AP milestone on COCO, reaching 50.9 AP. Even the ultra-lightweight DEIMv2-Pico, with just 1.5 million parameters, delivers 38.5 AP, matching YOLOv10-Nano (2.3 million) with around 50 percent fewer parameters. Our code and pre-trained models are available at https://github.com/Intellindust-AI-Lab/DEIMv2",
+   "comment": "Source code available at https://github.com/Intellindust-AI-Lab/DEIMv2",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2511.22471",
+   "latest_version": "2511.22471v1",
+   "abs_url": "http://arxiv.org/abs/2511.22471v1",
+   "title": "Rethinking Cross-Generator Image Forgery Detection through DINOv3",
+   "authors": [
+    "Zhenglin Huang",
+    "Jason Li",
+    "Haiquan Wen",
+    "Tianxiao Li",
+    "Xi Yang",
+    "Lu Qi",
+    "Bei Peng",
+    "Xiaowei Huang",
+    "Ming-Hsuan Yang",
+    "Guangliang Cheng"
+   ],
+   "published": "2025-11-27",
+   "updated": "2025-11-27",
+   "abstract": "As generative models become increasingly diverse and powerful, cross-generator detection has emerged as a new challenge. Existing detection methods often memorize artifacts of specific generative models rather than learning transferable cues, leading to substantial failures on unseen generators. Surprisingly, this work finds that frozen visual foundation models, especially DINOv3, already exhibit strong cross-generator detection capability without any fine-tuning. Through systematic studies on frequency, spatial, and token perspectives, we observe that DINOv3 tends to rely on global, low-frequency structures as weak but transferable authenticity cues instead of high-frequency, generator-specific artifacts. Motivated by this insight, we introduce a simple, training-free token-ranking strategy followed by a lightweight linear probe to select a small subset of authenticity-relevant tokens. This token subset consistently improves detection accuracy across all evaluated datasets. Our study provides empirical evidence and a feasible hypothesis for understanding why foundation models generalize across diverse generators, offering a universal, efficient, and interpretable baseline for image forgery detection.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2603.00160",
+   "latest_version": "2603.00160v1",
+   "abs_url": "http://arxiv.org/abs/2603.00160v1",
+   "title": "DINOv3 Meets YOLO26 for Weed Detection in Vegetable Crops",
+   "authors": [
+    "Boyang Deng",
+    "Yuzhen Lu"
+   ],
+   "published": "2026-02-25",
+   "updated": "2026-02-25",
+   "abstract": "Developing robust models for precision vegetable weeding is currently constrained by the scarcity of large-scale, annotated weed-crop datasets. To address this limitation, this study proposes a foundational crop-weed detection model by integrating heterogeneous datasets and leveraging self-supervised learning. A total of 618,642 crop-weed images were initially collected and subsequently refined to 199,388 filtered images for fine-tuning a DINOv3 vision transformer (ViT-small) through a sequential curation strategy. The fine-tuned DINOv3 backbone was then integrated into YOLO26, serving either as a primary backbone or part of a dual-backbone architecture. A feature alignment loss was introduced in the dual backbone framework to enhance feature fusion with minimal computational overhead. Experimental results show that the proposed DINOv3-finetuned ViT-small-based YOLO26-large achieved up to a +5.4% mAP50 gain on in-domain images collected in the 2025 season. Moreover, it demonstrated strong cross-domain generalization with mAP50 improvements of +14.0% on the 2021-2023 season dataset and +11.9% on the 2024 season dataset, compared to the standard YOLO26-large. Although the DINOv3-YOLO26-large model has 45.6% more parameters and a 2.9x increase in inference latency, it maintains real-time performance at ~28.5 frames per second (fps). The curated dataset and software programs developed in this study will be made publicly available.",
+   "comment": "10 pages, 2 figures",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  },
+  {
+   "id": "2603.28480",
+   "latest_version": "2603.28480v1",
+   "abs_url": "http://arxiv.org/abs/2603.28480v1",
+   "title": "INSID3: Training-Free In-Context Segmentation with DINOv3",
+   "authors": [
+    "Claudia Cuttano",
+    "Gabriele Trivigno",
+    "Christoph Reich",
+    "Daniel Cremers",
+    "Carlo Masone",
+    "Stefan Roth"
+   ],
+   "published": "2026-03-30",
+   "updated": "2026-03-30",
+   "abstract": "In-context segmentation (ICS) aims to segment arbitrary concepts, e.g., objects, parts, or personalized instances, given one annotated visual examples. Existing work relies on (i) fine-tuning vision foundation models (VFMs), which improves in-domain results but harms generalization, or (ii) combines multiple frozen VFMs, which preserves generalization but yields architectural complexity and fixed segmentation granularities. We revisit ICS from a minimalist perspective and ask: Can a single self-supervised backbone support both semantic matching and segmentation, without any supervision or auxiliary models? We show that scaled-up dense self-supervised features from DINOv3 exhibit strong spatial structure and semantic correspondence. We introduce INSID3, a training-free approach that segments concepts at varying granularities only from frozen DINOv3 features, given an in-context example. INSID3 achieves state-of-the-art results across one-shot semantic, part, and personalized segmentation, outperforming previous work by +7.5 % mIoU, while using 3x fewer parameters and without any mask or category-level supervision. Code is available at https://github.com/visinf/INSID3 .",
+   "comment": "CVPR 2026. Project page: https://visinf.github.io/INSID3",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  }
+ ],
+ "lejepaprovableandscalableselfsupervisedlearningwithouttheheuristics": [
+  {
+   "id": "2511.08544",
+   "latest_version": "2511.08544v3",
+   "abs_url": "http://arxiv.org/abs/2511.08544v3",
+   "title": "LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics",
+   "authors": [
+    "Randall Balestriero",
+    "Yann LeCun"
+   ],
+   "published": "2025-11-11",
+   "updated": "2025-11-14",
+   "abstract": "Learning manipulable representations of the world and its dynamics is central to AI. Joint-Embedding Predictive Architectures (JEPAs) offer a promising blueprint, but lack of practical guidance and theory has led to ad-hoc R&D. We present a comprehensive theory of JEPAs and instantiate it in {\\bf LeJEPA}, a lean, scalable, and theoretically grounded training objective. First, we identify the isotropic Gaussian as the optimal distribution that JEPAs' embeddings should follow to minimize downstream prediction risk. Second, we introduce a novel objective--{\\bf Sketched Isotropic Gaussian Regularization} (SIGReg)--to constrain embeddings to reach that ideal distribution. Combining the JEPA predictive loss with SIGReg yields LeJEPA with numerous theoretical and practical benefits: (i) single trade-off hyperparameter, (ii) linear time and memory complexity, (iii) stability across hyper-parameters, architectures (ResNets, ViTs, ConvNets) and domains, (iv) heuristics-free, e.g., no stop-gradient, no teacher-student, no hyper-parameter schedulers, and (v) distributed training-friendly implementation requiring only $\\approx$50 lines of code. Our empirical validation covers 10+ datasets, 60+ architectures, all with varying scales and domains. As an example, using imagenet-1k for pretraining and linear evaluation with frozen backbone, LeJEPA reaches 79\\% with a ViT-H/14. We hope that the simplicity and theory-friendly ecosystem offered by LeJEPA will reestablish self-supervised pre-training as a core pillar of AI research (\\href{https://github.com/rbalestr-lab/lejepa}{GitHub repo}).",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "francanestedmatryoshkaclusteringforscalablevisualrepresentationlearning": [
+  {
+   "id": "2507.14137",
+   "latest_version": "2507.14137v4",
+   "abs_url": "http://arxiv.org/abs/2507.14137v4",
+   "title": "Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning",
+   "authors": [
+    "Shashanka Venkataramanan",
+    "Valentinos Pariza",
+    "Mohammadreza Salehi",
+    "Lukas Knobel",
+    "Spyros Gidaris",
+    "Elias Ramzi",
+    "Andrei Bursuc",
+    "Yuki M. Asano"
+   ],
+   "published": "2025-07-18",
+   "updated": "2026-04-25",
+   "abstract": "We present Franca (pronounced Fran-ka): free one; the first fully open-source (data, code, weights) vision foundation model that matches and in many cases surpasses the performance of state-of-the-art proprietary models, e.g., DINOv2, CLIP, SigLIPv2, etc. Our approach is grounded in a transparent training pipeline inspired by Web-SSL and uses publicly available data: ImageNet-21K and a subset of ReLAION-2B. Beyond model release, we tackle critical limitations in SSL clustering methods. While modern models rely on assigning image features to large codebooks via clustering algorithms like Sinkhorn-Knopp, they fail to account for the inherent ambiguity in clustering semantics. To address this, we introduce a parameter-efficient, multi-head clustering projector based on nested Matryoshka representations. This design progressively refines features into increasingly fine-grained clusters without increasing the model size, enabling both performance and memory efficiency. Additionally, we propose a novel positional disentanglement strategy that explicitly removes positional biases from dense representations, thereby improving the encoding of semantic content. This leads to consistent gains on several downstream benchmarks, demonstrating the utility of cleaner feature spaces. Our contributions establish a new standard for transparent, high-performance vision models and open a path toward more reproducible and generalizable foundation models for the broader AI community. The code and model checkpoints are available at https://github.com/valeoai/Franca.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  }
+ ],
+ "towardsmeasuringrepresentationalsimilarityoflargelanguagemodels": [
+  {
+   "id": "2312.02730",
+   "latest_version": "2312.02730v1",
+   "abs_url": "http://arxiv.org/abs/2312.02730v1",
+   "title": "Towards Measuring Representational Similarity of Large Language Models",
+   "authors": [
+    "Max Klabunde",
+    "Mehdi Ben Amor",
+    "Michael Granitzer",
+    "Florian Lemmerich"
+   ],
+   "published": "2023-12-05",
+   "updated": "2023-12-05",
+   "abstract": "Understanding the similarity of the numerous released large language models (LLMs) has many uses, e.g., simplifying model selection, detecting illegal model reuse, and advancing our understanding of what makes LLMs perform well. In this work, we measure the similarity of representations of a set of LLMs with 7B parameters. Our results suggest that some LLMs are substantially different from others. We identify challenges of using representational similarity measures that suggest the need of careful study of similarity scores to avoid false conclusions.",
+   "comment": "Extended abstract in UniReps Workshop @ NeurIPS 2023",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "navigatingtheeffectofparametrizationfordimensionalityreduction": [
+  {
+   "id": "2411.15894",
+   "latest_version": "2411.15894v1",
+   "abs_url": "http://arxiv.org/abs/2411.15894v1",
+   "title": "Navigating the Effect of Parametrization for Dimensionality Reduction",
+   "authors": [
+    "Haiyang Huang",
+    "Yingfan Wang",
+    "Cynthia Rudin"
+   ],
+   "published": "2024-11-24",
+   "updated": "2024-11-24",
+   "abstract": "Parametric dimensionality reduction methods have gained prominence for their ability to generalize to unseen datasets, an advantage that traditional approaches typically lack. Despite their growing popularity, there remains a prevalent misconception among practitioners about the equivalence in performance between parametric and non-parametric methods. Here, we show that these methods are not equivalent -- parametric methods retain global structure but lose significant local details. To explain this, we provide evidence that parameterized approaches lack the ability to repulse negative pairs, and the choice of loss function also has an impact. Addressing these issues, we developed a new parametric method, ParamRepulsor, that incorporates Hard Negative Mining and a loss function that applies a strong repulsive force. This new method achieves state-of-the-art performance on local structure preservation for parametric methods without sacrificing the fidelity of global structural representation. Our code is available at https://github.com/hyhuang00/ParamRepulsor.",
+   "comment": "NeurIPS 2024",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "assessingandimprovingreliabilityofneighborembeddingmethodsamapcontinuityperspective": [
+  {
+   "id": "2410.16608",
+   "latest_version": "2410.16608v2",
+   "abs_url": "http://arxiv.org/abs/2410.16608v2",
+   "title": "Assessing and improving reliability of neighbor embedding methods: a map-continuity perspective",
+   "authors": [
+    "Zhexuan Liu",
+    "Rong Ma",
+    "Yiqiao Zhong"
+   ],
+   "published": "2024-10-22",
+   "updated": "2025-04-01",
+   "abstract": "Visualizing high-dimensional data is essential for understanding biomedical data and deep learning models. Neighbor embedding methods, such as t-SNE and UMAP, are widely used but can introduce misleading visual artifacts. We find that the manifold learning interpretations from many prior works are inaccurate and that the misuse stems from a lack of data-independent notions of embedding maps, which project high-dimensional data into a lower-dimensional space. Leveraging the leave-one-out principle, we introduce LOO-map, a framework that extends embedding maps beyond discrete points to the entire input space. We identify two forms of map discontinuity that distort visualizations: one exaggerates cluster separation and the other creates spurious local structures. As a remedy, we develop two types of point-wise diagnostic scores to detect unreliable embedding points and improve hyperparameter selection, which are validated on datasets from computer vision and single-cell omics.",
+   "comment": "49 pages, 20 figures",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  }
+ ],
+ "textclusteringasclassificationwithllms": [
+  {
+   "id": "2410.00927",
+   "latest_version": "2410.00927v3",
+   "abs_url": "http://arxiv.org/abs/2410.00927v3",
+   "title": "Text Clustering as Classification with LLMs",
+   "authors": [
+    "Chen Huang",
+    "Guoxiu He"
+   ],
+   "published": "2024-09-30",
+   "updated": "2025-10-07",
+   "abstract": "Text clustering serves as a fundamental technique for organizing and interpreting unstructured textual data, particularly in contexts where manual annotation is prohibitively costly. With the rapid advancement of Large Language Models (LLMs) and their demonstrated effectiveness across a broad spectrum of NLP tasks, an emerging body of research has begun to explore their potential in the domain of text clustering. However, existing LLM-based approaches still rely on fine-tuned embedding models and sophisticated similarity metrics, rendering them computationally intensive and necessitating domain-specific adaptation. To address these limitations, we propose a novel framework that reframes text clustering as a classification task by harnessing the in-context learning capabilities of LLMs. Our framework eliminates the need for fine-tuning embedding models or intricate clustering algorithms. It comprises two key steps: first, the LLM is prompted to generate a set of candidate labels based on the dataset and then merges semantically similar labels; second, it assigns the most appropriate label to each text sample. By leveraging the advanced natural language understanding and generalization capabilities of LLMs, the proposed approach enables effective clustering with minimal human intervention. Experimental results on diverse datasets demonstrate that our framework achieves comparable or superior performance to state-of-the-art embedding-based clustering techniques, while significantly reducing computational complexity and resource requirements. These findings underscore the transformative potential of LLMs in simplifying and enhancing text clustering tasks. We make our code available to the public for utilization at https://github.com/ECNU-Text-Computing/Text-Clustering-via-LLM. We also provide the supplementary Appendix within the repository.",
+   "comment": "11 pages, 3 figures",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CL"
+  }
+ ],
+ "doesrepresentationmatterexploringintermediatelayersinlargelanguagemodels": [
+  {
+   "id": "2412.09563",
+   "latest_version": "2412.09563v1",
+   "abs_url": "http://arxiv.org/abs/2412.09563v1",
+   "title": "Does Representation Matter? Exploring Intermediate Layers in Large Language Models",
+   "authors": [
+    "Oscar Skean",
+    "Md Rifat Arefin",
+    "Yann LeCun",
+    "Ravid Shwartz-Ziv"
+   ],
+   "published": "2024-12-12",
+   "updated": "2024-12-12",
+   "abstract": "Understanding what defines a good representation in large language models (LLMs) is fundamental to both theoretical understanding and practical applications. In this paper, we investigate the quality of intermediate representations in various LLM architectures, including Transformers and State Space Models (SSMs). We find that intermediate layers often yield more informative representations for downstream tasks than the final layers. To measure the representation quality, we adapt and apply a suite of metrics - such as prompt entropy, curvature, and augmentation-invariance - originally proposed in other contexts. Our empirical study reveals significant architectural differences, how representations evolve throughout training, and how factors like input randomness and prompt length affect each layer. Notably, we observe a bimodal pattern in the entropy of some intermediate layers and consider potential explanations tied to training data. Overall, our results illuminate the internal mechanics of LLMs and guide strategies for architectural optimization and training.",
+   "comment": "Accepted to 2024 NeurIPs Workshop on Machine Learning and Compression",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "clusteringpropertiesofselfsupervisedlearning": [
+  {
+   "id": "2501.18452",
+   "latest_version": "2501.18452v2",
+   "abs_url": "http://arxiv.org/abs/2501.18452v2",
+   "title": "Clustering Properties of Self-Supervised Learning",
+   "authors": [
+    "Xi Weng",
+    "Jianing An",
+    "Xudong Ma",
+    "Binhang Qi",
+    "Jie Luo",
+    "Xi Yang",
+    "Jin Song Dong",
+    "Lei Huang"
+   ],
+   "published": "2025-01-30",
+   "updated": "2025-05-11",
+   "abstract": "Self-supervised learning (SSL) methods via joint embedding architectures have proven remarkably effective at capturing semantically rich representations with strong clustering properties, magically in the absence of label supervision. Despite this, few of them have explored leveraging these untapped properties to improve themselves. In this paper, we provide an evidence through various metrics that the encoder's output $encoding$ exhibits superior and more stable clustering properties compared to other components. Building on this insight, we propose a novel positive-feedback SSL method, termed Representation Self-Assignment (ReSA), which leverages the model's clustering properties to promote learning in a self-guided manner. Extensive experiments on standard SSL benchmarks reveal that models pretrained with ReSA outperform other state-of-the-art SSL methods by a significant margin. Finally, we analyze how ReSA facilitates better clustering properties, demonstrating that it effectively enhances clustering performance at both fine-grained and coarse-grained levels, shaping representations that are inherently more structured and semantically meaningful.",
+   "comment": "Accepted at ICML 2025",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "fantasticpretrainingoptimizersandwheretofindthem": [
+  {
+   "id": "2509.02046",
+   "latest_version": "2509.02046v3",
+   "abs_url": "http://arxiv.org/abs/2509.02046v3",
+   "title": "Fantastic Pretraining Optimizers and Where to Find Them",
+   "authors": [
+    "Kaiyue Wen",
+    "David Hall",
+    "Tengyu Ma",
+    "Percy Liang"
+   ],
+   "published": "2025-09-02",
+   "updated": "2026-10-25",
+   "abstract": "AdamW has long been the dominant optimizer in language model pretraining, despite numerous claims that alternative optimizers offer 1.4 to 2x speedup. We posit that two methodological shortcomings have obscured fair comparisons and hindered practical adoption: (i) unequal hyperparameter tuning and (ii) limited or misleading evaluation setups. To address these two issues, we conduct a systematic study of ten deep learning optimizers across four model scales (0.1B-1.2B parameters) and data-to-model ratios (1-8x the Chinchilla optimum). We find that fair and informative comparisons require rigorous hyperparameter tuning and evaluations across a range of model scales and data-to-model ratios, performed at the end of training. First, optimal hyperparameters for one optimizer may be suboptimal for another, making blind hyperparameter transfer unfair. Second, the actual speedup of many proposed optimizers over well-tuned baselines is lower than claimed and decreases with model size to only 1.1x for 1.2B parameter models. Thirdly, comparing intermediate checkpoints before reaching the target training budgets can be misleading, as rankings between two optimizers can flip during training due to learning rate decay. Through our thorough investigation, we find that all the fastest optimizers such as Muon and Soap, use matrices as preconditioners -- multiplying gradients with matrices rather than entry-wise scalars. However, the speedup of matrix-based optimizers is inversely proportional to model scale, decreasing from 1.4x over AdamW for 0.1B parameter models to merely 1.1x for 1.2B parameter models.",
+   "comment": "108 pages, 8 figures, reproducible runs available at https://wandb.ai/marin-community/optimizer-scaling",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  {
+   "id": "2606.16899",
+   "latest_version": "2606.16899v2",
+   "abs_url": "http://arxiv.org/abs/2606.16899v2",
+   "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
+   "authors": [
+    "Kaiyue Wen",
+    "Xingyu Dang",
+    "Kaifeng Lyu",
+    "Tengyu Ma",
+    "Percy Liang"
+   ],
+   "published": "2026-06-15",
+   "updated": "2026-10-25",
+   "abstract": "Matrix based optimizers such as Muon can substantially speed up language model pretraining, but their gains over AdamW are observed to shrink as model size and data scale grow when using standard constant decoupled weight decay. We propose Hyperball, a simple optimizer wrapper that addresses this issue. Given a base optimizer such as Adam or Muon, Hyperball sets the Frobenius norms of weight matrices and their corresponding optimizer updates to fixed constants. On Qwen3 style models up to 1.2B parameters, Muon Hyperball achieves 20--30% token equivalent speedup over weight decay baselines. Hyperball also improves learning rate transfer across widths and depths compared to decoupled weight decay. This method is motivated by prior theory showing that training with weight decay leads to an equilibrium weight norm that only depends on the training hyperparameters. Through this mechanism, the weight decay then decides the angular learning rate, i.e. how fast the direction of the weight matrix changes.",
+   "comment": "Corresponding blog post: https://psychedelic-sunstone-851.notion.site/Fantastic-Pretraining-Optimizers-and-Where-to-Find-Them-2-1-Hyperball-Optimization-2e924306e6f280e7a5ffee00eb40a0dd",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "tabulardataisattentionallyouneed": [],
+ "thecomputationalcurseofbigdataforbayesianadditiveregressiontreesahittingtimeanalysis": [],
+ "gamformerincontextlearningforgeneralizedadditivemodels": [],
+ "mothernetafoundationalhypernetworkfortabularclassification": [],
+ "isdeeplearningfinallybetterthandecisiontreesontabulardata": [],
+ "mixtureofincontextpromptersfortabularpfns": [
+  {
+   "id": "2405.16156",
+   "latest_version": "2405.16156v1",
+   "abs_url": "http://arxiv.org/abs/2405.16156v1",
+   "title": "Mixture of In-Context Prompters for Tabular PFNs",
+   "authors": [
+    "Derek Xu",
+    "Olcay Cirit",
+    "Reza Asadi",
+    "Yizhou Sun",
+    "Wei Wang"
+   ],
+   "published": "2024-05-25",
+   "updated": "2024-05-25",
+   "abstract": "Recent benchmarks found In-Context Learning (ICL) outperforms both deep learning and tree-based algorithms on small tabular datasets. However, on larger datasets, ICL for tabular learning cannot run without severely compromising performance, due to its quadratic space and time complexity w.r.t. dataset size. We propose MIXTUREPFN, which both extends nearest-neighbor sampling to the state-of-the-art ICL for tabular learning model and uses bootstrapping to finetune said model on the inference-time dataset. MIXTUREPFN is the Condorcet winner across 36 diverse tabular datasets against 19 strong deep learning and tree-based baselines, achieving the highest mean rank among Top-10 aforementioned algorithms with statistical significance.",
+   "comment": "32 pages, 16 figures",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "metaclip2aworldwidescalingrecipe": [],
+ "sam3segmentanythingwithconcepts": [
+  {
+   "id": "2511.16719",
+   "latest_version": "2511.16719v2",
+   "abs_url": "http://arxiv.org/abs/2511.16719v2",
+   "title": "SAM 3: Segment Anything with Concepts",
+   "authors": [
+    "Nicolas Carion",
+    "Laura Gustafson",
+    "Yuan-Ting Hu",
+    "Shoubhik Debnath",
+    "Ronghang Hu",
+    "Didac Suris",
+    "Chaitanya Ryali",
+    "Kalyan Vasudev Alwala",
+    "Haitham Khedr",
+    "Andrew Huang",
+    "Jie Lei",
+    "Tengyu Ma",
+    "Baishan Guo",
+    "Arpit Kalla",
+    "Markus Marks",
+    "Joseph Greer",
+    "Meng Wang",
+    "Peize Sun",
+    "Roman Rädle",
+    "Triantafyllos Afouras",
+    "Effrosyni Mavroudi",
+    "Katherine Xu",
+    "Tsung-Han Wu",
+    "Yu Zhou",
+    "Liliane Momeni",
+    "Rishi Hazra",
+    "Shuangrui Ding",
+    "Sagar Vaze",
+    "Francois Porcher",
+    "Feng Li",
+    "Siyuan Li",
+    "Aishwarya Kamath",
+    "Ho Kei Cheng",
+    "Piotr Dollár",
+    "Nikhila Ravi",
+    "Kate Saenko",
+    "Pengchuan Zhang",
+    "Christoph Feichtenhofer"
+   ],
+   "published": "2025-11-20",
+   "updated": "2026-03-28",
+   "abstract": "We present Segment Anything Model (SAM) 3, a unified model that detects, segments, and tracks objects in images and videos based on concept prompts, which we define as either short noun phrases (e.g., \"yellow school bus\"), image exemplars, or a combination of both. Promptable Concept Segmentation (PCS) takes such prompts and returns segmentation masks and unique identities for all matching object instances. To advance PCS, we build a scalable data engine that produces a high-quality dataset with 4M unique concept labels, including hard negatives, across images and videos. Our model consists of an image-level detector and a memory-based video tracker that share a single backbone. Recognition and localization are decoupled with a presence head, which boosts detection accuracy. SAM 3 doubles the accuracy of existing systems in both image and video PCS, and improves previous SAM capabilities on visual segmentation tasks. We open source SAM 3 along with our new Segment Anything with Concepts (SA-Co) benchmark for promptable concept segmentation.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CV"
+  }
+ ],
+ "theprinciplesofdiffusionmodels": [
+  {
+   "id": "2510.21890",
+   "latest_version": "2510.21890v3",
+   "abs_url": "http://arxiv.org/abs/2510.21890v3",
+   "title": "The Principles of Diffusion Models",
+   "authors": [
+    "Chieh-Hsin Lai",
+    "Yang Song",
+    "Dongjun Kim",
+    "Yuki Mitsufuji",
+    "Stefano Ermon"
+   ],
+   "published": "2025-10-24",
+   "updated": "2026-08-27",
+   "abstract": "This book presents the core principles that have guided the development of diffusion models, tracing their origins and showing how diverse formulations arise from shared mathematical ideas. Diffusion modeling starts by defining a forward process that gradually corrupts data into noise, linking the data distribution to a simple prior through a continuum of intermediate distributions. The goal is to learn a reverse process that transforms noise back into data while recovering the same intermediates. We describe three complementary views. The variational view, inspired by variational autoencoders, sees diffusion as learning to remove noise step by step. The score-based view, rooted in energy-based modeling, learns the gradient of the evolving data distribution, indicating how to nudge samples toward more likely regions. The flow-based view, related to normalizing flows, treats generation as following a smooth path that moves samples from noise to data under a learned velocity field. These perspectives share a common backbone: a time-dependent velocity field whose flow transports a simple prior to the data. Sampling then amounts to solving a differential equation that evolves noise into data along a continuous trajectory. On this foundation, the book discusses guidance for controllable generation, efficient numerical solvers, and diffusion-motivated flow-map models that learn direct mappings between arbitrary times. It provides a conceptual and mathematically grounded understanding of diffusion models for readers with basic deep-learning knowledge. Supplementary materials for the book are available at the book website: https://the-principles-of-diffusion-models.github.io/",
+   "comment": "Supplementary materials for the book are available at the book website: https://the-principles-of-diffusion-models.github.io/",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "rethinkingoversmoothingingraphneuralnetworksarankbasedperspective": [],
+ "graphanyafoundationmodelfornodeclassificationonanygraph": [],
+ "graphfoundationmodelsacomprehensivesurvey": [
+  {
+   "id": "2505.15116",
+   "latest_version": "2505.15116v1",
+   "abs_url": "http://arxiv.org/abs/2505.15116v1",
+   "title": "Graph Foundation Models: A Comprehensive Survey",
+   "authors": [
+    "Zehong Wang",
+    "Zheyuan Liu",
+    "Tianyi Ma",
+    "Jiazheng Li",
+    "Zheyuan Zhang",
+    "Xingbo Fu",
+    "Yiyang Li",
+    "Zhengqing Yuan",
+    "Wei Song",
+    "Yijun Ma",
+    "Qingkai Zeng",
+    "Xiusi Chen",
+    "Jianan Zhao",
+    "Jundong Li",
+    "Meng Jiang",
+    "Pietro Lio",
+    "Nitesh Chawla",
+    "Chuxu Zhang",
+    "Yanfang Ye"
+   ],
+   "published": "2025-05-21",
+   "updated": "2025-05-21",
+   "abstract": "Graph-structured data pervades domains such as social networks, biological systems, knowledge graphs, and recommender systems. While foundation models have transformed natural language processing, vision, and multimodal learning through large-scale pretraining and generalization, extending these capabilities to graphs -- characterized by non-Euclidean structures and complex relational semantics -- poses unique challenges and opens new opportunities. To this end, Graph Foundation Models (GFMs) aim to bring scalable, general-purpose intelligence to structured data, enabling broad transfer across graph-centric tasks and domains. This survey provides a comprehensive overview of GFMs, unifying diverse efforts under a modular framework comprising three key components: backbone architectures, pretraining strategies, and adaptation mechanisms. We categorize GFMs by their generalization scope -- universal, task-specific, and domain-specific -- and review representative methods, key innovations, and theoretical insights within each category. Beyond methodology, we examine theoretical foundations including transferability and emergent capabilities, and highlight key challenges such as structural alignment, heterogeneity, scalability, and evaluation. Positioned at the intersection of graph learning and general-purpose AI, GFMs are poised to become foundational infrastructure for open-ended reasoning over structured data. This survey consolidates current progress and outlines future directions to guide research in this rapidly evolving field. Resources are available at https://github.com/Zehong-Wang/Awesome-Foundation-Models-on-Graphs.",
+   "comment": "Github Repo: https://github.com/Zehong-Wang/Awesome-Foundation-Models-on-Graphs. 93 pages, 438 references",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "generalizationofgraphneuralnetworksthroughthelensofhomomorphism": [
+  {
+   "id": "2403.06079",
+   "latest_version": "2403.06079v2",
+   "abs_url": "http://arxiv.org/abs/2403.06079v2",
+   "title": "Generalization of Graph Neural Networks through the Lens of Homomorphism",
+   "authors": [
+    "Shouheng Li",
+    "Dongwoo Kim",
+    "Qing Wang"
+   ],
+   "published": "2024-03-10",
+   "updated": "2024-04-16",
+   "abstract": "Despite the celebrated popularity of Graph Neural Networks (GNNs) across numerous applications, the ability of GNNs to generalize remains less explored. In this work, we propose to study the generalization of GNNs through a novel perspective - analyzing the entropy of graph homomorphism. By linking graph homomorphism with information-theoretic measures, we derive generalization bounds for both graph and node classifications. These bounds are capable of capturing subtleties inherent in various graph structures, including but not limited to paths, cycles and cliques. This enables a data-dependent generalization analysis with robust theoretical guarantees. To shed light on the generality of of our proposed bounds, we present a unifying framework that can characterize a broad spectrum of GNN models through the lens of graph homomorphism. We validate the practical applicability of our theoretical findings by showing the alignment between the proposed bounds and the empirically observed generalization gaps over both real-world and synthetic datasets.",
+   "comment": "17 pages, 3 figures",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "mixtureofweakstrongexpertsongraphs": [
+  {
+   "id": "2311.05185",
+   "latest_version": "2311.05185v2",
+   "abs_url": "http://arxiv.org/abs/2311.05185v2",
+   "title": "Mixture of Weak & Strong Experts on Graphs",
+   "authors": [
+    "Hanqing Zeng",
+    "Hanjia Lyu",
+    "Diyi Hu",
+    "Yinglong Xia",
+    "Jiebo Luo"
+   ],
+   "published": "2023-11-09",
+   "updated": "2024-06-22",
+   "abstract": "Realistic graphs contain both (1) rich self-features of nodes and (2) informative structures of neighborhoods, jointly handled by a Graph Neural Network (GNN) in the typical setup. We propose to decouple the two modalities by Mixture of weak and strong experts (Mowst), where the weak expert is a light-weight Multi-layer Perceptron (MLP), and the strong expert is an off-the-shelf GNN. To adapt the experts' collaboration to different target nodes, we propose a \"confidence\" mechanism based on the dispersion of the weak expert's prediction logits. The strong expert is conditionally activated in the low-confidence region when either the node's classification relies on neighborhood information, or the weak expert has low model quality. We reveal interesting training dynamics by analyzing the influence of the confidence function on loss: our training algorithm encourages the specialization of each expert by effectively generating soft splitting of the graph. In addition, our \"confidence\" design imposes a desirable bias toward the strong expert to benefit from GNN's better generalization capability. Mowst is easy to optimize and achieves strong expressive power, with a computation cost comparable to a single GNN. Empirically, Mowst on 4 backbone GNN architectures show significant accuracy improvement on 6 standard node classification benchmarks, including both homophilous and heterophilous graphs (https://github.com/facebookresearch/mowst-gnn).",
+   "comment": "Accepted for publication in ICLR 2024",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "reinforceanefficientrlhfalgorithmwithrobustnesstobothpromptandrewardmodels": [],
+ "simplepolicyoptimization": [
+  {
+   "id": "2401.16025",
+   "latest_version": "2401.16025v9",
+   "abs_url": "http://arxiv.org/abs/2401.16025v9",
+   "title": "Simple Policy Optimization",
+   "authors": [
+    "Zhengpeng Xie",
+    "Qiang Zhang",
+    "Fan Yang",
+    "Marco Hutter",
+    "Renjing Xu"
+   ],
+   "published": "2024-01-29",
+   "updated": "2025-07-26",
+   "abstract": "Model-free reinforcement learning algorithms have seen remarkable progress, but key challenges remain. Trust Region Policy Optimization (TRPO) is known for ensuring monotonic policy improvement through conservative updates within a trust region, backed by strong theoretical guarantees. However, its reliance on complex second-order optimization limits its practical efficiency. Proximal Policy Optimization (PPO) addresses this by simplifying TRPO's approach using ratio clipping, improving efficiency but sacrificing some theoretical robustness. This raises a natural question: Can we combine the strengths of both methods? In this paper, we introduce Simple Policy Optimization (SPO), a novel unconstrained first-order algorithm. By slightly modifying the policy loss used in PPO, SPO can achieve the best of both worlds. Our new objective improves upon ratio clipping, offering stronger theoretical properties and better constraining the probability ratio within the trust region. Empirical results demonstrate that SPO outperforms PPO with a simple implementation, particularly for training large, complex network architectures end-to-end.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "positionbenchmarkingislimitedinreinforcementlearningresearch": [
+  {
+   "id": "2406.16241",
+   "latest_version": "2406.16241v1",
+   "abs_url": "http://arxiv.org/abs/2406.16241v1",
+   "title": "Position: Benchmarking is Limited in Reinforcement Learning Research",
+   "authors": [
+    "Scott M. Jordan",
+    "Adam White",
+    "Bruno Castro da Silva",
+    "Martha White",
+    "Philip S. Thomas"
+   ],
+   "published": "2024-06-23",
+   "updated": "2024-06-23",
+   "abstract": "Novel reinforcement learning algorithms, or improvements on existing ones, are commonly justified by evaluating their performance on benchmark environments and are compared to an ever-changing set of standard algorithms. However, despite numerous calls for improvements, experimental practices continue to produce misleading or unsupported claims. One reason for the ongoing substandard practices is that conducting rigorous benchmarking experiments requires substantial computational time. This work investigates the sources of increased computation costs in rigorous experiment designs. We show that conducting rigorous performance benchmarks will likely have computational costs that are often prohibitive. As a result, we argue for using an additional experimentation paradigm to overcome the limitations of benchmarking.",
+   "comment": "19 pages, 13 figures, The Forty-first International Conference on Machine Learning (ICML 2024)",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "llmsstillcantplancanlrmsapreliminaryevaluationofopenaiso1onplanbench": [
+  {
+   "id": "2409.13373",
+   "latest_version": "2409.13373v1",
+   "abs_url": "http://arxiv.org/abs/2409.13373v1",
+   "title": "LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench",
+   "authors": [
+    "Karthik Valmeekam",
+    "Kaya Stechly",
+    "Subbarao Kambhampati"
+   ],
+   "published": "2024-09-20",
+   "updated": "2024-09-20",
+   "abstract": "The ability to plan a course of action that achieves a desired state of affairs has long been considered a core competence of intelligent agents and has been an integral part of AI research since its inception. With the advent of large language models (LLMs), there has been considerable interest in the question of whether or not they possess such planning abilities. PlanBench, an extensible benchmark we developed in 2022, soon after the release of GPT3, has remained an important tool for evaluating the planning abilities of LLMs. Despite the slew of new private and open source LLMs since GPT3, progress on this benchmark has been surprisingly slow. OpenAI claims that their recent o1 (Strawberry) model has been specifically constructed and trained to escape the normal limitations of autoregressive LLMs--making it a new kind of model: a Large Reasoning Model (LRM). Using this development as a catalyst, this paper takes a comprehensive look at how well current LLMs and new LRMs do on PlanBench. As we shall see, while o1's performance is a quantum improvement on the benchmark, outpacing the competition, it is still far from saturating it. This improvement also brings to the fore questions about accuracy, efficiency, and guarantees which must be considered before deploying such systems.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.AI"
+  }
+ ],
+ "thelandscapeofagenticreinforcementlearningforllmsasurvey": [
+  {
+   "id": "2509.02547",
+   "latest_version": "2509.02547v5",
+   "abs_url": "http://arxiv.org/abs/2509.02547v5",
+   "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+   "authors": [
+    "Guibin Zhang",
+    "Hejia Geng",
+    "Xiaohang Yu",
+    "Zhenfei Yin",
+    "Zaibin Zhang",
+    "Zelin Tan",
+    "Heng Zhou",
+    "Zhongzhi Li",
+    "Xiangyuan Xue",
+    "Yijiang Li",
+    "Yifan Zhou",
+    "Yang Chen",
+    "Chen Zhang",
+    "Yutao Fan",
+    "Zihu Wang",
+    "Songtao Huang",
+    "Francisco Piedrahita-Velez",
+    "Yue Liao",
+    "Hongru Wang",
+    "Mengyue Yang",
+    "Heng Ji",
+    "Jun Wang",
+    "Shuicheng Yan",
+    "Philip Torr",
+    "Lei Bai"
+   ],
+   "published": "2025-09-02",
+   "updated": "2026-04-17",
+   "abstract": "The emergence of agentic reinforcement learning (Agentic RL) marks a paradigm shift from conventional reinforcement learning applied to large language models (LLM RL), reframing LLMs from passive sequence generators into autonomous, decision-making agents embedded in complex, dynamic worlds. This survey formalizes this conceptual shift by contrasting the degenerate single-step Markov Decision Processes (MDPs) of LLM-RL with the temporally extended, partially observable Markov decision processes (POMDPs) that define Agentic RL. Building on this foundation, we propose a comprehensive twofold taxonomy: one organized around core agentic capabilities, including planning, tool use, memory, reasoning, self-improvement, and perception, and the other around their applications across diverse task domains. Central to our thesis is that reinforcement learning serves as the critical mechanism for transforming these capabilities from static, heuristic modules into adaptive, robust agentic behavior. To support and accelerate future research, we consolidate the landscape of open-source environments, benchmarks, and frameworks into a practical compendium. By synthesizing over five hundred recent works, this survey charts the contours of this rapidly evolving field and highlights the opportunities and challenges that will shape the development of scalable, general-purpose AI agents.",
+   "comment": "Published on Transactions on Machine Learning Research: https://openreview.net/forum?id=RY19y2RI1O",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.AI"
+  }
+ ],
+ "spuriouscorrelationsinmachinelearningasurvey": [
+  {
+   "id": "2402.12715",
+   "latest_version": "2402.12715v4",
+   "abs_url": "http://arxiv.org/abs/2402.12715v4",
+   "title": "The Clever Hans Mirage: A Comprehensive Survey on Spurious Correlations in Machine Learning",
+   "authors": [
+    "Wenqian Ye",
+    "Luyang Jiang",
+    "Eric Xie",
+    "Guangtao Zheng",
+    "Yunsheng Ma",
+    "Xu Cao",
+    "Dongliang Guo",
+    "Daiqing Qi",
+    "Zeyu He",
+    "Yijun Tian",
+    "Megan Coffee",
+    "Zhe Zeng",
+    "Sheng Li",
+    " Ting-hao",
+    " Huang",
+    "Ziran Wang",
+    "James M. Rehg",
+    "Henry Kautz",
+    "Aidong Zhang"
+   ],
+   "published": "2024-02-20",
+   "updated": "2025-10-01",
+   "abstract": "Back in the early 20th century, a horse named Hans appeared to perform arithmetic and other intellectual tasks during exhibitions in Germany, while it actually relied solely on involuntary cues in the body language from the human trainer. Modern machine learning models are no different. These models are known to be sensitive to spurious correlations between non-essential features of the inputs (e.g., background, texture, and secondary objects) and the corresponding labels. Such features and their correlations with the labels are known as \"spurious\" because they tend to change with shifts in real-world data distributions, which can negatively impact the model's generalization and robustness. In this paper, we provide a comprehensive survey of this emerging issue, along with a fine-grained taxonomy of existing state-of-the-art methods for addressing spurious correlations in machine learning models. Additionally, we summarize existing datasets, benchmarks, and metrics to facilitate future research. The paper concludes with a discussion of the broader impacts, the recent advancements, and future challenges in the era of generative AI, aiming to provide valuable insights for researchers in the related domains of the machine learning community.",
+   "comment": "Version 3 with Major Revision; Github Link: https://github.com/wenqian-ye/Awesome-Spurious-Correlations",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ ],
+ "reproducibilityinmachinelearningbasedresearchoverviewbarriersanddrivers": [
+  {
+   "id": "2406.14325",
+   "latest_version": "2406.14325v3",
+   "abs_url": "http://arxiv.org/abs/2406.14325v3",
+   "title": "Reproducibility in Machine Learning-based Research: Overview, Barriers and Drivers",
+   "authors": [
+    "Harald Semmelrock",
+    "Tony Ross-Hellauer",
+    "Simone Kopeinik",
+    "Dieter Theiler",
+    "Armin Haberl",
+    "Stefan Thalmann",
+    "Dominik Kowald"
+   ],
+   "published": "2024-06-20",
+   "updated": "2025-02-26",
+   "abstract": "Many research fields are currently reckoning with issues of poor levels of reproducibility. Some label it a \"crisis\", and research employing or building Machine Learning (ML) models is no exception. Issues including lack of transparency, data or code, poor adherence to standards, and the sensitivity of ML training conditions mean that many papers are not even reproducible in principle. Where they are, though, reproducibility experiments have found worryingly low degrees of similarity with original results. Despite previous appeals from ML researchers on this topic and various initiatives from conference reproducibility tracks to the ACM's new Emerging Interest Group on Reproducibility and Replicability, we contend that the general community continues to take this issue too lightly. Poor reproducibility threatens trust in and integrity of research results. Therefore, in this article, we lay out a new perspective on the key barriers and drivers (both procedural and technical) to increased reproducibility at various levels (methods, code, data, and experiments). We then map the drivers to the barriers to give concrete advice for strategies for researchers to mitigate reproducibility issues in their own work, to lay out key areas where further research is needed in specific areas, and to further ignite discussion on the threat presented by these urgent issues.",
+   "comment": "Accepted for publication in the AI Magazine",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.SE"
+  }
+ ]
+}

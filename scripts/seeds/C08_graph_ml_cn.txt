@@ -1,0 +1,53 @@
+# C08 图机器学习：图表示、图神经网络、图 Transformer、图学习应用
+2407.09777 | Graph Transformers: A Survey | S | - | 图 Transformer 综述：位置编码、结构感知注意力与应用
+2403.01232 | Polynormer: Polynomial-Expressive Graph Transformer in Linear Time | R | - | 线性复杂度、多项式表达力的图 Transformer
+2406.08993 | Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification | R | C10 | 重新调参后经典 GNN 在节点分类上的竞争力
+2502.09263 | Can Classic GNNs Be Strong Baselines for Graph-level Tasks? Simple Architectures Meet Excellence | R | C10 | 图级任务上的经典 GNN 再评估
+2410.16699 | Graph Transformers Dream of Electric Flow | R | - | 线性图 Transformer 可实现电流/谱算法
+2406.04336 | On the Expressive Power of Spectral Invariant Graph Neural Networks | R | C01 | 谱不变 GNN 的表达力分析
+2402.14202 | Comparing Graph Transformers via Positional Encodings | R | - | 不同位置编码下图 Transformer 表达力比较
+2403.13749 | Weisfeiler and Leman Go Loopy: A New Hierarchy for Graph Representational Learning | R | - | 基于环结构的新 WL 表达力层级
+2401.08514 | Beyond Weisfeiler-Lehman: A Quantitative Framework for GNN Expressiveness | R | C01 | 以同态表达力量化 GNN 能力
+2402.02287 | Future Directions in the Theory of Graph Machine Learning | R | C01 | 图机器学习理论的研究议程
+2405.19121 | Spatio-Spectral Graph Neural Networks | R | - | 空域+谱域结合缓解过度挤压
+2405.13526 | Understanding Virtual Nodes: Oversquashing and Node Heterogeneity | R | - | 虚拟节点对过度挤压的作用
+2502.04591 | Are We Measuring Oversmoothing in Graph Neural Networks Correctly? | R | - | 以秩度量重新审视过平滑（arXiv 后续版本改用现标题）
+2402.08678 | Graph Mamba: Towards Learning on Graphs with State Space Models | R | C04 | 状态空间模型用于图学习
+2402.02216 | Position: Graph Foundation Models Are Already Here | R | - | 图基础模型的可迁移性与词表视角
+2405.20445 | Fully-inductive Node Classification on Arbitrary Graphs | R | - | 任意图上的归纳式节点分类基础模型（arXiv 后续版本改用现标题）
+2403.01121 | OpenGraph: Towards Open Graph Foundation Models | R | - | 零样本图基础模型
+2408.10700 | AnyGraph: Graph Foundation Model in the Wild | R | - | 处理跨域异构图的图基础模型
+2402.11235 | ZeroG: Investigating Cross-dataset Zero-shot Transferability in Graphs | R | - | 跨数据集零样本图迁移
+2407.09709 | GOFA: A Generative One-For-All Model for Joint Graph Language Modeling | R | C06 | 生成式图-语言联合模型
+2406.10727 | Text-space Graph Foundation Models: Comprehensive Benchmarks and New Insights | R | C10 | 文本属性图基础模型基准
+2404.07198 | A Foundation Model for Zero-shot Logical Query Reasoning | R | - | 知识图谱零样本复杂逻辑查询
+2402.08170 | LLaGA: Large Language and Graph Assistant | R | C06 | 将图结构对齐到 LLM 的图助手
+2402.05862 | Let Your Graph Do the Talking: Encoding Structured Data for LLMs | R | C06 | GraphToken：学习图编码作为 LLM 软提示
+2312.02783 | Large Language Models on Graphs: A Comprehensive Survey | S | C06 | LLM 与图结合的综述
+2311.12399 | A Survey of Graph Meets Large Language Model: Progress and Future Directions | S | C06 | 图与 LLM 交叉综述
+2311.16534 | Graph Prompt Learning: A Comprehensive Survey and Beyond | S | - | 图提示学习综述
+2404.16130 | From Local to Global: A Graph RAG Approach to Query-Focused Summarization | R | C06 | GraphRAG：构建知识图做检索增强
+2408.08921 | Graph Retrieval-Augmented Generation: A Survey | S | C06 | 图检索增强生成综述
+2402.07630 | G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering | R | C06 | 文本图问答的检索增强
+2405.18512 | Understanding Transformer Reasoning Capabilities via Graph Algorithms | R | C06 | 以图算法任务刻画 Transformer 推理能力
+2406.04229 | The CLRS-Text Algorithmic Reasoning Language Benchmark | R | C10 | 算法推理（含图算法）文本基准
+2402.02054 | Neural Scaling Laws on Graphs | R | C01 | 图模型的标度律
+2502.14546 | Position: Graph Learning Will Lose Relevance Due To Poor Benchmarks | R | C10 | 图学习基准问题的批评
+2407.09618 | The Heterophilic Graph Learning Handbook: Benchmarks, Models, Theoretical Analysis, Applications and Challenges | S | - | 异配图学习手册式综述
+2406.09639 | TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs | R | C10 | 时序与异构图基准
+2312.04615 | Position: Relational Deep Learning - Graph Representation Learning on Relational Databases | R | C02 | 关系数据库上的图表示学习
+2407.20060 | RelBench: A Benchmark for Deep Learning on Relational Databases | R | C10 | 关系深度学习基准
+2410.04263 | DeFoG: Discrete Flow Matching for Graph Generation | R | C07 | 离散流匹配的图生成
+2312.07511 | A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems | T | - | 几何 GNN（等变网络）教程式综述
+2410.11443 | Are High-Degree Representations Really Unnecessary in Equivariant Graph Neural Networks? | R | - | 等变 GNN 高阶表示的必要性
+2401.00096 | A foundation model for atomistic materials chemistry | R | - | MACE-MP-0：图神经网络原子间势基础模型
+doi:10.1038/s41586-023-06735-9 | Scaling deep learning for materials discovery | R | - | GNoME：GNN 大规模材料发现（Nature 2023）
+2312.15796 | GenCast: Diffusion-based ensemble forecasting for medium-range weather | R | C07 | 网格图上的扩散集合天气预报
+- | Graph Foundation Models: A Comprehensive Survey | S | - | 图基础模型综述
+- | Generalization of Graph Neural Networks through the Lens of Homomorphism | R | C01 | 以同态视角分析 GNN 泛化
+- | Mixture of Weak & Strong Experts on Graphs | R | - | 弱/强专家混合的节点分类
+1609.02907 | Semi-Supervised Classification with Graph Convolutional Networks | R | - | GCN | 图神经网络最常用基线
+1710.10903 | Graph Attention Networks | R | - | GAT | 注意力式消息传递的原始论文
+1810.00826 | How Powerful are Graph Neural Networks? | R | C01 | GIN 与 WL 表达力 | 近年表达力研究的出发点
+1706.02216 | Inductive Representation Learning on Large Graphs | R | - | GraphSAGE | 归纳式大图学习的基础
+1704.01212 | Neural Message Passing for Quantum Chemistry | R | - | MPNN 框架 | 消息传递统一框架，近年 GNN 的通用表述

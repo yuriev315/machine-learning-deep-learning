@@ -1,0 +1,13 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2402.15926v2
+
+[File]
+Name=2024_Wu_LargeStepsizeGradientDescent_en.pdf
+Work=Large Stepsize Gradient Descent for Logistic Loss: Non-Monotonicity of the Loss Improves Optimization Efficiency
+SizeBytes=846065
+SHA256=8a23a3ccd41a86d7dd96e3cc6495d27729e2a551facbb1bf923e6fa7ce48ff32
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Licence=http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+SourcePage=https://arxiv.org/abs/2402.15926
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

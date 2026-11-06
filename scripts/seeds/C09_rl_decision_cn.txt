@@ -1,0 +1,53 @@
+# C09 强化学习与决策：基础算法、离线强化学习、模型式方法、序列决策
+2412.05265 | Reinforcement Learning: An Overview | T | - | Murphy 撰写的强化学习长篇综述，覆盖值方法、策略梯度、模型式与 LLM 相关 RL
+2403.03950 | Stop Regressing: Training Value Functions via Classification for Scalable Deep RL | R | C04 | 用分类损失训练价值函数提升可扩展性
+2402.08609 | Mixtures of Experts Unlock Parameter Scaling for Deep RL | R | C04 | MoE 使深度 RL 可随参数规模提升
+2402.12479 | In value-based deep reinforcement learning, a pruned network is a good network | R | - | 剪枝提升值方法深度 RL 表现
+2405.16158 | Bigger, Regularized, Optimistic: scaling for compute and sample-efficient continuous control | R | - | BRO：大网络+正则+乐观探索的连续控制
+2410.09754 | SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning | R | C04 | 简单性偏置架构扩展 RL 网络
+2502.04327 | Value-Based Deep RL Scales Predictably | R | C01 | 值方法深度 RL 的可预测标度
+2503.14858 | 1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities | R | C04 | 极深网络用于自监督目标条件 RL
+2402.18762 | Disentangling the Causes of Plasticity Loss in Neural Networks | R | C04 | 可塑性丧失的成因分解
+2407.13755 | Random Latent Exploration for Deep Reinforcement Learning | R | - | 随机潜在目标的探索方法
+2406.09329 | Is Value Learning Really the Main Bottleneck in Offline RL? | R | - | 离线 RL 中策略提取与泛化瓶颈分析
+2502.02538 | Flow Q-Learning | R | C07 | 流匹配策略的离线 RL
+2410.20092 | OGBench: Benchmarking Offline Goal-Conditioned RL | R | C10 | 离线目标条件 RL 基准
+2402.15567 | Foundation Policies with Hilbert Representations | R | C03 | 从无奖励离线数据学习通用策略
+2412.07762 | Efficient Online Reinforcement Learning Fine-Tuning Need Not Retain Offline Data | R | - | 离线到在线微调无需保留离线数据
+2407.15007 | Is Behavior Cloning All You Need? Understanding Horizon in Imitation Learning | R | C01 | 模仿学习中时间跨度的理论分析
+2311.01223 | Diffusion Models for Reinforcement Learning: A Survey | S | C07 | 扩散模型在 RL 中的应用综述
+2405.12399 | Diffusion for World Modeling: Visual Details Matter in Atari | R | C07 | DIAMOND：扩散世界模型
+2407.02466 | PWM: Policy Learning with Multi-Task World Models | R | - | 多任务世界模型上的一阶策略学习
+2403.00564 | EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data | R | - | 样本高效的模型式规划
+2411.14499 | Understanding World or Predicting Future? A Comprehensive Survey of World Models | S | C07 | 世界模型综述
+2402.14740 | Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs | R | C06 | RLOO：REINFORCE 类方法替代 PPO
+2501.03262 | REINFORCE++: Stabilizing Critic-Free Policy Optimization with Global Advantage Normalization | R | C06 | 改进的 REINFORCE 对齐算法（arXiv 后续版本改用现标题）
+2404.14367 | Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data | R | C06 | 偏好微调中在线策略采样与负梯度的作用
+2409.12917 | Training Language Models to Self-Correct via Reinforcement Learning | R | C06 | 多轮在线 RL 训练自我纠错
+2410.01679 | VinePPO: Refining Credit Assignment in RL Training of LLMs | R | C06 | 蒙特卡洛价值估计改进 LLM RL 信用分配
+2503.20783 | Understanding R1-Zero-Like Training: A Critical Perspective | R | C06 | 分析 GRPO 偏差并提出 Dr. GRPO
+2503.18892 | SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild | R | C06 | 多种基础模型上的零起点 RL
+2505.24864 | ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models | R | C06 | 长时间 RL 训练扩展推理边界
+2312.14925 | A Survey of Reinforcement Learning from Human Feedback | S | C06 | RLHF 综述
+2312.11456 | Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-Constraint | R | C06 | KL 约束 RLHF 的理论与迭代算法
+2406.02900 | Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms | R | C06 | 直接对齐算法中的奖励过优化
+2402.19446 | ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL | R | C06 | 分层多轮 RL 训练语言智能体
+2406.11896 | DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning | R | C06 | 真实设备控制智能体的自主 RL
+2502.07978 | A Survey of In-Context Reinforcement Learning | S | - | 上下文强化学习综述
+2403.15371 | Can large language models explore in-context? | R | C06 | LLM 在多臂老虎机中的上下文探索能力
+2404.10179 | Scaling Instructable Agents Across Many Simulated Worlds | R | - | SIMA：多 3D 环境的指令跟随智能体
+2406.09246 | OpenVLA: An Open-Source Vision-Language-Action Model | R | C05 | 开源视觉-语言-动作模型
+2410.24164 | $π_0$: A Vision-Language-Action Flow Model for General Robot Control | R | C07 | 流匹配动作生成的通用机器人策略
+2405.12213 | Octo: An Open-Source Generalist Robot Policy | R | - | 开源通用机器人策略
+2311.10090 | JaxMARL: Multi-Agent RL Environments and Algorithms in JAX | R | C10 | 硬件加速的多智能体 RL 环境与算法
+2402.16801 | Craftax: A Lightning-Fast Benchmark for Open-Ended Reinforcement Learning | R | C10 | 开放式 RL 快速基准
+2411.13543 | BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games | R | C10 | 游戏环境中智能体推理评测
+- | Simple Policy Optimization | R | - | 改进 PPO 比率裁剪的策略优化
+- | Position: Benchmarking is Limited in Reinforcement Learning Research | R | C10 | RL 基准实验的统计局限
+- | LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench | R | C06 | 规划任务上 LLM/推理模型评测
+- | The Landscape of Agentic Reinforcement Learning for LLMs: A Survey | S | C06 | 面向 LLM 智能体的强化学习综述
+1312.5602 | Playing Atari with Deep Reinforcement Learning | R | - | DQN | 深度强化学习的起点
+1707.06347 | Proximal Policy Optimization Algorithms | R | C06 | PPO | 最常用策略梯度算法，RLHF 的基础
+1801.01290 | Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor | R | - | SAC | 连续控制标准基线
+2106.01345 | Decision Transformer: Reinforcement Learning via Sequence Modeling | R | C06 | 序列建模视角的 RL | 序列决策与离线 RL 近年工作的出发点
+2301.04104 | Mastering Diverse Domains through World Models | R | - | DreamerV3 | 模型式 RL 的通用基线（2023-01，后于 Nature 2025 发表）

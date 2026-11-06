@@ -1,0 +1,60 @@
+# C04 深度学习基础与训练：网络结构、初始化、优化、归一化、训练稳定性、训练效率
+2312.00752 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces | R | C06 | 选择性状态空间模型，Transformer 之外的主要序列架构
+2405.21060 | Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality | R | C06 | Mamba-2：建立 SSM 与注意力的对偶关系
+2404.19756 | KAN: Kolmogorov-Arnold Networks | R | C01 | 以可学习激活函数替代 MLP 的新结构
+2405.04517 | xLSTM: Extended Long Short-Term Memory | R | C06 | 指数门控与矩阵记忆扩展 LSTM
+2410.01201 | Were RNNs All We Needed? | R | - | 极简并行可训练 RNN（minLSTM/minGRU）
+2410.05258 | Differential Transformer | R | C06 | 差分注意力抑制注意力噪声
+2503.10622 | Transformers without Normalization | R | - | 用 Dynamic Tanh 替代归一化层
+2410.01131 | nGPT: Normalized Transformer with Representation Learning on the Hypersphere | R | - | 超球面归一化 Transformer 加速训练
+2502.02732 | Peri-LN: Revisiting Normalization Layer in the Transformer Architecture | R | - | 比较 Pre-LN/Post-LN/Peri-LN 对训练稳定性的影响
+2405.15682 | The Road Less Scheduled | R | - | Schedule-Free 优化器，免学习率调度
+2409.11321 | SOAP: Improving and Stabilizing Shampoo using Adam | R | - | 二阶预条件优化器 Shampoo 与 Adam 的结合
+2502.16982 | Muon is Scalable for LLM Training | R | C06 | Muon 正交化优化器在大模型上的规模化
+2409.20325 | Old Optimizer, New Norm: An Anthology | T | C01 | 从范数约束最速下降统一理解 Adam/Shampoo/Prodigy
+2405.14813 | Scalable Optimization in the Modular Norm | R | - | 模块化范数实现跨宽度/深度的学习率迁移
+2406.16793 | Adam-mini: Use Fewer Learning Rates To Gain More | R | - | 减少 Adam 二阶矩存储的内存高效优化器
+2411.10438 | MARS: Unleashing the Power of Variance Reduction for Training Large Models | R | - | 方差缩减与预条件结合的大模型优化器
+2407.07972 | Deconstructing What Makes a Good Optimizer for Language Models | R | C06 | 系统比较 SGD/Adam/Lion/Signum 等优化器
+- | Fantastic Pretraining Optimizers and Where to Find Them | R | C10 | 严格调参下的大模型优化器公平比较
+2406.09405 | Why Warmup the Learning Rate? Underlying Mechanisms and Improvements | R | C01 | 学习率预热的机理分析
+2410.05192 | Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective | R | C01 | WSD 学习率调度的损失景观解释
+2405.18392 | Scaling Laws and Compute-Optimal Training Beyond Fixed Training Durations | R | C06 | 常数学习率+冷却替代余弦调度
+2410.24206 | Understanding Optimization in Deep Learning with Central Flows | R | C01 | 用"中心流"刻画稳定性边缘上的优化轨迹
+2407.17465 | u-$μ$P: The Unit-Scaled Maximal Update Parametrization | R | - | 单位缩放与 μP 结合，简化超参数迁移
+2407.05872 | Scaling Exponents Across Parameterizations and Optimizers | R | - | 不同参数化与优化器下学习率随宽度的缩放
+2405.13698 | How to set AdamW's weight decay as you scale model and dataset size | R | C01 | AdamW 权重衰减随模型与数据规模的设定
+2410.21676 | How Does Critical Batch Size Scale in Pre-training? | R | - | 临界批大小随数据量的缩放
+2411.04330 | Scaling Laws for Precision | R | C01 | 训练与推理精度纳入标度律
+2407.08608 | FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision | R | - | 面向 Hopper GPU 的注意力内核，训练效率核心技术
+2402.17764 | The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits | R | C06 | 三值权重 BitNet b1.58
+2403.03507 | GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection | R | - | 梯度低秩投影降低训练内存
+2409.12517 | Scaling FP8 training to trillion-token LLMs | R | - | FP8 训练在万亿 token 规模下的稳定性问题
+2401.06066 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | R | C06 | 细粒度专家与共享专家的 MoE 结构
+2402.07871 | Scaling Laws for Fine-Grained Mixture of Experts | R | C01 | MoE 粒度纳入标度律
+2404.02258 | Mixture-of-Depths: Dynamically allocating compute in transformer-based language models | R | C06 | 动态分配每个 token 的计算深度
+2409.19606 | Hyper-Connections | R | - | 可学习的多路残差连接替代残差
+2312.06635 | Gated Linear Attention Transformers with Hardware-Efficient Training | R | C06 | 硬件高效的门控线性注意力
+2412.06464 | Gated Delta Networks: Improving Mamba2 with Delta Rule | R | C06 | 门控 delta 规则的线性 RNN
+2404.05892 | Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence | R | C06 | RWKV-5/6 架构
+2402.19427 | Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models | R | C06 | 线性循环与局部注意力混合
+2501.00663 | Titans: Learning to Memorize at Test Time | R | C06 | 测试时学习的神经长期记忆模块
+2407.04620 | Learning to (Learn at Test Time): RNNs with Expressive Hidden States | R | C06 | TTT 层：以模型为隐状态的序列层
+2502.11089 | Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | R | C06 | 可原生训练的稀疏注意力
+2311.18823 | Initializing Models with Larger Ones | R | - | 权重选择：用大模型权重初始化小模型
+2502.05795 | The Curse of Depth in Large Language Models | R | C06 | Pre-LN 导致深层失效及 LayerNorm 缩放修正
+2312.16903 | Spike No More: Stabilizing the Pre-training of Large Language Models | R | - | 分析并抑制预训练损失尖峰
+2410.08198 | Adam Exploits $\ell_\infty$-geometry of Loss Landscape via Coordinate-wise Adaptivity | R | C01 | 解释 Adam 优于 SGD 的几何原因
+2312.03863 | Efficient Large Language Models: A Survey | S | C06 | 大模型训练与推理效率综述
+2401.15024 | SliceGPT: Compress Large Language Models by Deleting Rows and Columns | R | - | 结构化剪枝压缩
+2403.17887 | The Unreasonable Ineffectiveness of the Deeper Layers | R | C06 | 层剪枝揭示深层冗余
+2402.04396 | QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks | R | - | 2 比特后训练量化
+2405.16406 | SpinQuant: LLM quantization with learned rotations | R | - | 学习旋转消除离群值的量化
+2501.18965 | The Surprising Agreement Between Convex Optimization Theory and Learning-Rate Scheduling for Large Model Training | R | C01 | 凸优化理论解释学习率调度
+2405.14578 | Surge Phenomenon in Optimal Learning Rate and Batch Size Scaling | R | - | Adam 类优化器最优学习率随批大小的非单调变化
+2410.06205 | Round and Round We Go! What makes Rotary Positional Encodings useful? | R | C06 | 旋转位置编码作用机理
+1412.6980 | Adam: A Method for Stochastic Optimization | R | - | Adam | 深度学习最常用优化器，近年优化器研究的共同基线
+1512.03385 | Deep Residual Learning for Image Recognition | R | C05 | ResNet | 残差结构是几乎所有现代深层网络的基础
+1706.03762 | Attention Is All You Need | R | C06 | Transformer | 当前主流架构的原始论文
+1502.03167 | Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift | R | - | BatchNorm | 归一化方法的起点，理解后续 LayerNorm/RMSNorm/DyT 的必要背景
+2203.03466 | Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer | R | C01 | μP | 超参数迁移的理论与实践基础，u-μP 等近年工作的前提

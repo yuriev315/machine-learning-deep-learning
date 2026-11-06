@@ -1,0 +1,54 @@
+# C02 传统机器学习：线性/广义线性模型、核方法、SVM、树模型、集成学习、梯度提升（含表格数据学习）
+doi:10.1038/s41586-024-08328-6 | Accurate predictions on small data with a tabular foundation model | R | C06 | TabPFN v2：表格基础模型在小数据上系统超过调参 GBDT，Nature 2025
+2410.24210 | TabM: Advancing Tabular Deep Learning with Parameter-Efficient Ensembling | R | C04 | 参数高效集成的表格深度模型，与 GBDT 对比的强基线
+2407.04491 | Better by Default: Strong Pre-Tuned MLPs and Boosted Trees on Tabular Data | R | - | 为 GBDT 与 MLP 提供元学习的默认超参数，大规模基准比较
+2506.16791 | TabArena: A Living Benchmark for Machine Learning on Tabular Data | R | C10 | 持续维护的表格学习基准，覆盖树模型、深度模型与基础模型
+2407.00956 | A Closer Look at Deep Learning Methods on Tabular Datasets | R | - | 300+ 数据集上比较树模型与深度方法，分析何时各自占优
+2406.19380 | TabReD: Analyzing Pitfalls and Filling the Gaps in Tabular Deep Learning Benchmarks | R | C10 | 指出表格基准的时间漂移与特征工程缺失问题，提供工业级数据集
+2407.03257 | Revisiting Nearest Neighbor for Tabular Data: A Deep Tabular Baseline Two Decades Later | R | - | 将近邻成分分析现代化，作为传统方法与深度学习的桥梁
+2411.04324 | Gradient Boosting Trees and Large Language Models for Tabular Data Few-Shot Learning | R | C06 | 梯度提升与 LLM 在小样本表格任务上的比较与结合
+2410.18164 | TabDPT: Scaling Tabular Foundation Models | R | - | 用真实数据预训练的检索式表格基础模型与其标度规律
+2502.05564 | TabICL: A Tabular Foundation Model for In-Context Learning on Large Data | R | - | 面向大样本表格数据的上下文学习基础模型
+2402.01502 | Why do Random Forests Work? Understanding Tree Ensembles as Self-Regularizing Adaptive Smoothers | R | C01 | 将随机森林解释为自正则的自适应平滑器
+2310.20581 | Stochastic Gradient Descent for Gaussian Processes Done Right | R | - | 用 SGD 正确求解高斯过程线性系统，可扩展核方法
+2405.18457 | Improving Linear System Solvers for Hyperparameter Optimisation in Iterative Gaussian Processes | R | - | 迭代式高斯过程超参数优化的线性求解器改进
+2401.04553 | Linear Recursive Feature Machines provably recover low-rank matrices | R | C01 | 递归特征机（核方法+特征学习）的理论保证
+2404.01233 | Optimal Ridge Regularization for Out-of-Distribution Prediction | R | C10 | 分布外预测下岭回归最优正则可为负值
+2402.16793 | Failures and Successes of Cross-Validation for Early-Stopped Gradient Descent | R | C01 | 线性模型早停时交叉验证的一致性分析
+2406.19958 | On the Computational Efficiency of Bayesian Additive Regression Trees: An Asymptotic Analysis | R | - | BART 采样器在大数据下的混合困难（arXiv 后续版本改用现标题）
+2402.17944 | Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding -- A Survey | S | C06 | LLM 用于表格预测/生成/理解的综述
+2405.01147 | Position: Why Tabular Foundation Models Should Be a Research Priority | R | - | 论证表格基础模型的重要性与研究议程
+2406.12031 | Large Scale Transfer Learning for Tabular Data via Language Modeling | R | C06 | TabuLa-8B：用语言模型做表格迁移学习
+2402.16785 | CARTE: Pretraining and Transfer for Tabular Learning | R | C08 | 图注意力表示表格行并实现跨表迁移
+2407.04057 | TALENT: A Tabular Analytics and Learning Toolbox | R | C10 | 统一的表格学习工具箱与基准
+2410.16201 | Theoretical Limitations of Ensembles in the Age of Overparameterization | R | C01 | 过参数化时代集成方法的理论局限
+2411.16658 | Fast training of large kernel models with delayed projections | R | - | EigenPro4：超大规模核模型训练
+2401.01599 | Generalization error curves for analytic spectral algorithms under power-law decay | R | C01 | 核谱算法（含核岭回归、梯度流）的泛化误差曲线
+2401.01270 | Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions | R | C01 | 大维数核岭回归的最优速率
+2410.04560 | GAMformer: Bridging Tabular Foundation Models and Interpretable Machine Learning | R | C10 | 用上下文学习拟合广义可加模型，兼顾可解释性（arXiv 后续版本改用现标题）
+2402.14645 | Sparse Linear Regression and Lattice Problems | R | C01 | 稀疏线性回归的计算复杂度下界
+2410.17787 | Large Language Models Engineer Too Many Simple Features For Tabular Data | R | C06 | LLM 自动特征工程的偏置分析
+2407.02279 | How to Boost Any Loss Function | R | C01 | 无需一阶信息即可对任意损失做提升
+2408.16653 | Optimal Parallelization of Boosting | R | - | 提升算法并行轮数与总工作量的最优权衡
+2410.12034 | A Survey on Deep Tabular Learning | S | - | 表格深度学习综述，含与树模型的对比
+2406.05207 | Retrieval & Fine-Tuning for In-Context Tabular Models | R | - | 检索+微调扩展 TabPFN 到大数据集
+2402.11137 | TuneTables: Context Optimization for Scalable Prior-Data Fitted Networks | R | - | 提示调优扩展 PFN 至大表格数据
+2411.01036 | Computation-Aware Gaussian Processes: Model Selection And Linear-Time Inference | R | C01 | 计算感知高斯过程的模型选择与线性时间推断
+2402.17756 | Robustly Learning Single-Index Models via Alignment Sharpness | R | C01 | 广义线性/单指标模型在对抗噪声下的鲁棒学习
+2402.14335 | HyperFast: Instant Classification for Tabular Data | R | - | 超网络一次前向生成表格分类器
+2312.08598 | MotherNet: Fast Training and Inference via Hyper-Network Transformers | R | - | 基础超网络为表格任务直接生成小网络（arXiv 后续版本改用现标题）
+2403.01841 | Making Pre-trained Language Models Great on Tabular Prediction | R | C06 | TP-BERTa：相对数值编码的表格预训练语言模型
+2404.09491 | Large Language Models Can Automatically Engineer Features for Few-Shot Tabular Learning | R | C06 | FeatLLM：LLM 生成特征规则供简单模型使用
+- | Data Science with LLMs and Interpretable Models | R | C10 | LLM 与可解释模型（GAM 等）结合的数据科学流程
+- | A Unified Approach to Extract Interpretable Rules from Tree Ensembles via Integer Programming | R | C10 | 从树集成中提取可解释规则的整数规划方法
+- | The Many Faces of Optimal Weak-to-Strong Learning | R | C01 | 弱到强学习（提升）的最优样本复杂度
+- | Representation Learning for Tabular Data: A Comprehensive Survey | S | C03 | 表格数据表示学习综述
+- | Mixture of In-Context Prompters for Tabular PFNs | R | - | 混合专家式提示扩展 PFN 的规模
+2402.00645 | Spectrally Transformed Kernel Regression | R | C03 | 用谱变换核利用无标签数据的核回归
+2402.02229 | Vanilla Bayesian Optimization Performs Great in High Dimensions | R | C01 | 高维贝叶斯优化中高斯过程先验长度尺度的作用
+2402.02746 | Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization | R | - | 标准 GP 在高维 BO 中的有效性
+1603.02754 | XGBoost: A Scalable Tree Boosting System | R | - | 梯度提升树的工业标准实现 | 梯度提升领域最常用系统，近年表格工作均以其为基线
+1706.09516 | CatBoost: unbiased boosting with categorical features | R | - | 有序提升与类别特征处理 | 主流 GBDT 实现之一，近年基准的标准对照
+2207.08815 | Why do tree-based models still outperform deep learning on tabular data? | R | C04 | 树模型优于深度模型的原因分析 | 近年表格学习讨论的出发点与标准基准
+2301.03962 | A Unified Theory of Diversity in Ensemble Learning | R | C01 | 集成多样性的统一偏差-方差理论 | 集成学习理论的新近经典，仅早于窗口约 10 个月
+2207.01848 | TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second | R | - | 先验拟合网络的原始工作 | TabPFN v2 及大量后续表格基础模型工作的直接前身

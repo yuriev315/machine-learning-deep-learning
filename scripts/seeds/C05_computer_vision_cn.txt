@@ -1,0 +1,56 @@
+# C05 计算机视觉：图像分类、检测、分割、视觉表示、视频理解
+2408.00714 | SAM 2: Segment Anything in Images and Videos | R | - | 统一图像与视频的可提示分割基础模型
+- | SAM 3: Segment Anything with Concepts | R | - | 以概念提示进行检测、分割与跟踪
+2401.10891 | Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | R | C03 | 大规模无标签数据训练单目深度基础模型
+2406.09414 | Depth Anything V2 | R | - | 合成数据+伪标签改进单目深度估计
+2312.14132 | DUSt3R: Geometric 3D Vision Made Easy | R | - | 无需相机标定的稠密三维重建
+2503.11651 | VGGT: Visual Geometry Grounded Transformer | R | - | 前馈网络直接推断相机、深度与点图
+2406.09756 | Grounding Image Matching in 3D with MASt3R | R | - | 三维感知的图像匹配
+2401.17270 | YOLO-World: Real-Time Open-Vocabulary Object Detection | R | - | 实时开放词汇目标检测
+2405.14458 | YOLOv10: Real-Time End-to-End Object Detection | R | - | 免 NMS 的端到端实时检测
+2402.13616 | YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information | R | - | 可编程梯度信息的实时检测器
+2502.12524 | YOLOv12: Attention-Centric Real-Time Object Detectors | R | - | 以注意力为中心的实时检测器
+2408.09332 | YOLOv1 to YOLOv10: The fastest and most accurate real-time object detection systems | S | - | YOLO 系列实时检测综述
+2410.13842 | D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement | R | - | DETR 类实时检测的回归改进
+2407.17140 | RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer | R | - | 实时检测 Transformer 改进基线
+2411.14347 | DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding | R | - | 开放世界检测与理解统一模型
+2405.10300 | Grounding DINO 1.5: Advance the "Edge" of Open-Set Object Detection | R | - | 开放集检测的规模化与边缘部署
+2311.06242 | Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks | R | C03 | 序列到序列统一多种视觉任务
+2401.09417 | Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model | R | C04 | 双向 SSM 视觉骨干
+2401.10166 | VMamba: Visual State Space Model | R | C04 | 二维选择扫描的视觉 SSM
+2405.07992 | MambaOut: Do We Really Need Mamba for Vision? | R | C04 | 检验 SSM 对视觉分类/检测的必要性
+2406.04303 | Vision-LSTM: xLSTM as Generic Vision Backbone | R | C04 | xLSTM 视觉骨干
+2401.16456 | SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design | R | - | 高效视觉 Transformer 分类骨干
+2404.10518 | MobileNetV4 - Universal Models for the Mobile Ecosystem | R | C04 | 面向移动端的通用高效分类骨干
+2311.17132 | TransNeXt: Robust Foveal Visual Perception for Vision Transformers | R | - | 仿生中央凹注意力的视觉骨干
+2401.02957 | Denoising Vision Transformers | R | C03 | 去除 ViT 特征中的位置伪影
+2401.06209 | Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs | R | C10 | 揭示 CLIP 类视觉表示在多模态模型中的盲点
+2408.03326 | LLaVA-OneVision: Easy Visual Task Transfer | R | C06 | 单图/多图/视频统一的开源多模态模型
+2409.12191 | Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution | R | C06 | 任意分辨率视觉语言模型
+2502.13923 | Qwen2.5-VL Technical Report | R | C06 | 视觉定位、文档与长视频理解的视觉语言模型
+2312.14238 | InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks | R | C06 | 规模化视觉编码器并与 LLM 对齐
+2406.16860 | Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs | R | C03 | 以视觉为中心系统评估多模态模型中的视觉表示
+2409.17146 | Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models | R | C06 | 完全开放数据的视觉语言模型
+2407.07726 | PaliGemma: A versatile 3B VLM for transfer | R | C06 | 小型可迁移视觉语言模型
+2311.12793 | ShareGPT4V: Improving Large Multi-Modal Models with Better Captions | R | C06 | 高质量描述数据改进多模态模型
+2311.10122 | Video-LLaVA: Learning United Visual Representation by Alignment Before Projection | R | C06 | 图像与视频统一表示的视频语言模型
+2403.06977 | VideoMamba: State Space Model for Efficient Video Understanding | R | C04 | 视频理解的 SSM 骨干
+2403.15377 | InternVideo2: Scaling Foundation Models for Multimodal Video Understanding | R | C03 | 视频基础模型规模化
+2406.07476 | VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs | R | C06 | 时空建模与音频理解的视频大模型
+2412.10360 | Apollo: An Exploration of Video Understanding in Large Multimodal Models | R | C06 | 系统研究视频多模态模型的设计选择
+2405.21075 | Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis | R | C10 | 视频理解评测基准
+2311.17005 | MVBench: A Comprehensive Multi-modal Video Understanding Benchmark | R | C10 | 时序理解评测基准
+2311.16502 | MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI | R | C10 | 多学科多模态理解与推理基准
+2312.17432 | Video Understanding with Large Language Models: A Survey | S | C06 | 视频理解与大模型综述
+2312.00863 | EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything | R | C03 | 掩码预训练实现轻量 SAM
+2401.14159 | Grounded SAM: Assembling Open-World Models for Diverse Visual Tasks | R | - | 检测+分割组合的开放世界视觉系统
+2312.17243 | Unsupervised Universal Image Segmentation | R | C03 | 无监督的实例/语义/全景分割
+2410.11831 | CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos | R | - | 视频点跟踪
+2405.14793 | SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow | R | - | 光流估计
+2312.02145 | Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | R | C07 | Marigold：扩散模型用于深度估计
+2408.12569 | Sapiens: Foundation for Human Vision Models | R | - | 人体视觉任务基础模型
+2010.11929 | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | R | C04 | ViT | 视觉 Transformer 原始论文，近年视觉骨干的共同起点
+1703.06870 | Mask R-CNN | R | - | 实例分割经典框架 | 检测/分割领域标准基线
+2005.12872 | End-to-End Object Detection with Transformers | R | - | DETR | DETR 系列（RT-DETR、D-FINE、DINO-X）的源头
+2304.02643 | Segment Anything | R | - | SAM | 可提示分割基础模型的原始论文（2023-04），SAM 2/3 的前身
+1505.04597 | U-Net: Convolutional Networks for Biomedical Image Segmentation | R | C07 | U-Net | 分割与扩散模型去噪网络的基础结构

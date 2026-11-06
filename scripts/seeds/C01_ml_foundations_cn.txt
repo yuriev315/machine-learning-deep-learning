@@ -1,0 +1,58 @@
+# C01 机器学习基础：监督学习、泛化、正则化、损失函数、模型选择、学习理论
+# 格式：id_hint | 预期标题 | 类型(R/S/T) | 交叉分类 | 选入理由 [| 三年前保留理由]
+2409.15156 | Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling | R | C04 | 对比"泛化中心"与"规模中心"两种范式，梳理正则化、过拟合等传统观念在大模型时代的变化
+2503.02113 | Deep Learning is Not So Mysterious or Different | R | - | 用 PAC-Bayes/软归纳偏置统一解释良性过拟合、双下降等"深度学习反常"现象
+2310.18988 | A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning | R | C02 | 指出双下降源于参数计数方式，重新审视经典模型复杂度
+2409.18842 | Classical Statistical (In-Sample) Intuitions Don't Generalize Well: A Note on Bias-Variance Tradeoffs, Overfitting and Moving from Fixed to Random Designs | R | - | 区分固定设计与随机设计，澄清偏差-方差与过拟合直觉的适用条件
+2312.17173 | Non-Vacuous Generalization Bounds for Large Language Models | R | C06 | 首个对数十亿参数语言模型给出非空泛化界的工作
+2407.18158 | Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models | R | C06 | 以 token 为样本推导更大 LLM 的非空泛化界
+2405.20233 | Grokfast: Accelerated Grokking by Amplifying Slow Gradients | R | - | 从频域角度解释并加速 grokking（延迟泛化）
+2501.04697 | Grokking at the Edge of Numerical Stability | R | C04 | 将 grokking 与 softmax 数值稳定性及 logit 增长联系起来
+2405.19454 | Deep Grokking: Would Deep Neural Networks Generalize Better? | R | - | 研究网络深度对 grokking 与泛化的影响
+2407.20199 | Emergence in non-neural models: grokking modular arithmetic via average gradient outer product | R | C02 | 在核机器（非神经网络）中复现 grokking，说明特征学习是关键
+2402.07043 | A Tale of Tails: Model Collapse as a Change of Scaling Laws | R | C06 | 从标度律角度分析合成数据导致的模型坍塌
+2404.01413 | Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data | R | C07 | 证明累积真实与合成数据可避免模型坍塌
+2410.04840 | Strong Model Collapse | R | - | 给出少量合成数据即可导致坍塌的理论刻画
+2405.15074 | 4+3 Phases of Compute-Optimal Neural Scaling Laws | R | - | 可解模型中计算最优标度律的相图
+2406.08466 | Scaling Laws in Linear Regression: Compute, Parameters, and Data | R | - | 在线性回归中严格推导参数/数据/计算三者标度律
+2402.01092 | A Dynamical Model of Neural Scaling Laws | R | - | 用训练动力学解释标度律与计算最优分配
+2409.17858 | How Feature Learning Can Improve Neural Scaling Laws | R | - | 刻画特征学习如何改变标度律指数
+2405.00592 | Scaling and renormalization in high-dimensional regression | T | - | 用随机矩阵/重整化视角系统讲解高维回归泛化，偏教程
+2406.19146 | Resolving Discrepancies in Compute-Optimal Scaling of Language Models | R | C06 | 解释 Kaplan 与 Chinchilla 标度律差异的来源
+2404.10102 | Chinchilla Scaling: A replication attempt | R | C10 | 复现 Chinchilla 拟合并发现原估计问题，兼具可复现性价值
+2410.07746 | Benign Overfitting in Single-Head Attention | R | - | 首次在注意力模型中证明良性过拟合
+2403.06903 | Benign overfitting in leaky ReLU networks with moderate input dimension | R | - | 放宽高维假设下 ReLU 网络良性过拟合的条件
+2403.10459 | Understanding the Double Descent Phenomenon in Deep Learning | T | - | 双下降现象的教程式综述
+2403.02241 | Neural Redshift: Random Networks are not Random Functions | R | C04 | 研究随机初始化网络的简单性偏置，解释归纳偏置来源
+2407.05664 | How DNNs break the Curse of Dimensionality: Compositionality and Symmetry Learning | R | - | 组合性与对称性如何使深网突破维数灾难
+2404.04454 | Implicit Bias of AdamW: ℓ∞ Norm Constrained Optimization | R | C04 | 证明 AdamW 隐式求解 ℓ∞ 范数约束问题
+2406.10650 | The Implicit Bias of Adam on Separable Data | R | C04 | Adam 在可分数据上的隐式偏置
+2402.15926 | Large Stepsize Gradient Descent for Logistic Loss: Non-Monotonicity of the Loss Improves Optimization Efficiency | R | C04 | 大步长梯度下降的非单调性与加速
+2406.05033 | Gradient descent on logistic regression with non-separable data and large step sizes | R | C02 | 不可分数据上大步长 GD 的收敛与发散
+2402.03220 | The Benefits of Reusing Batches for Gradient Descent in Two-Layer Networks: Breaking the Curse of Information and Leap Exponents | R | - | 重复使用样本如何改变两层网络学习的样本复杂度
+2406.01581 | Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit | R | - | SGD 学习单指标模型接近信息论下界
+2405.03676 | Why is SAM Robust to Label Noise? | R | C10 | 解释锐度感知最小化对标签噪声的鲁棒性
+2410.10373 | Sharpness-Aware Minimization Efficiently Selects Flatter Minima Late in Training | R | C04 | 训练后期使用 SAM 即可获得平坦极小值
+2410.23819 | Weight decay induces low-rank attention layers | R | C04 | 权重衰减作为正则化对注意力层低秩性的影响
+2408.11804 | Approaching Deep Learning through the Spectral Dynamics of Weights | R | - | 以权重谱动力学统一解释 grokking、泛化与正则化
+2406.03880 | Memorization in Deep Learning: A Survey | S | C10 | 记忆与泛化关系的综述
+2403.06871 | On the Generalization Ability of Unsupervised Pretraining | R | C03 | 无监督预训练后微调的泛化界
+2405.01964 | Position: Understanding LLMs Requires More Than Statistical Generalization | R | C06 | 指出经典统计泛化不足以解释 LLM 行为
+2312.09390 | Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision | R | C06 | 提出弱监督强模型泛化问题，对齐与学习理论交叉
+2405.16043 | Theoretical Analysis of Weak-to-Strong Generalization | R | - | 弱到强泛化的理论分析
+2405.15116 | Quantifying the Gain in Weak-to-Strong Generalization | R | - | 用错配度量化弱到强增益
+2410.22854 | Hyperparameter Optimization in Machine Learning | S | - | 超参数优化与模型选择的系统综述
+2405.05968 | A Universal Growth Rate for Learning with Smooth Surrogate Losses | R | - | 光滑代理损失的一致性界增长率
+2407.13722 | Enhanced H-Consistency Bounds | R | - | 代理损失与目标损失之间的 H-一致性界
+2402.04376 | Scaling Laws for Learning with Real and Surrogate Data | R | - | 混合真实数据与代理数据的标度律
+2501.16265 | Training Dynamics of In-context Learning in Linear Attention | R | C06 | 线性注意力中上下文学习的训练动力学
+2410.04642 | The Optimization Landscape of SGD Across the Feature Learning Strength | R | C04 | 特征学习强度对 SGD 优化景观的影响
+2403.17592 | On the Benefits of Over-parameterization for Out-of-Distribution Generalization | R | C10 | 过参数化对分布外泛化的作用
+2407.02754 | Is Cross-Validation the Gold Standard to Evaluate Model Performance? | R | C10 | 交叉验证在模型评估中的统计性质再审视
+2502.07551 | Early Stopping Against Label Noise Without Validation Data | R | - | 无验证集的早停正则化
+2410.18938 | A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities | R | - | 用随机矩阵理论刻画学到特征的谱与泛化
+2309.04381 | Generalization Bounds: Perspectives from Information Theory and PAC-Bayes | T | - | 信息论与 PAC-Bayes 泛化界的系统专著式综述 | 2023-09 首发，近三年内无同等完整度的泛化界教程，作为学习理论入门必要补充
+2104.00673 | Cross-validation: what does it estimate and how well does it do it? | R | C10 | 澄清交叉验证估计对象与置信区间问题 | 模型选择领域的经典参考，近年工作普遍以其为起点
+1812.11118 | Reconciling modern machine learning practice and the bias-variance trade-off | R | - | 提出"双下降"曲线 | 双下降概念原始出处，理解近年泛化研究的必要背景
+1611.03530 | Understanding deep learning requires rethinking generalization | R | - | 随机标签实验揭示深网记忆能力 | 现代泛化理论讨论的起点，近三年论文大量引用
+1912.02178 | Fantastic Generalization Measures and Where to Find Them | R | C10 | 大规模比较泛化度量 | 泛化度量实证评估的经典基准，仍是近年工作的对照

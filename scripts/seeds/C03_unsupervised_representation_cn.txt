@@ -1,0 +1,57 @@
+# C03 无监督与表示学习：聚类、降维、自监督学习、对比学习、表征评估
+2508.10104 | DINOv3 | R | C05 | 规模化自蒸馏视觉自监督模型，提出 Gram anchoring 解决稠密特征退化
+2504.01017 | Scaling Language-Free Visual Representation Learning | R | C05 | 纯视觉自监督与 CLIP 在同等数据规模下的对比（Web-SSL）
+2404.08471 | Revisiting Feature Prediction for Learning Visual Representations from Video | R | C05 | V-JEPA：在潜空间预测特征的视频自监督学习
+2506.09985 | V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning | R | C09 | 视频自监督世界模型用于理解、预测与规划
+2401.08541 | Scalable Pre-training of Large Autoregressive Image Models | R | C05 | AIM：自回归视觉预训练的标度性质
+2411.14402 | Multimodal Autoregressive Pre-training of Large Vision Encoders | R | C05 | AIMv2：多模态自回归预训练视觉编码器
+2502.14786 | SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features | R | C05 | sigmoid 对比损失视觉-语言编码器的改进版
+2405.07987 | The Platonic Representation Hypothesis | R | C01 | 不同模型/模态表示趋同的假说与证据
+2402.11337 | Learning by Reconstruction Produces Uninformative Features For Perception | R | C01 | 解释重建式目标为何学到对感知无用的特征
+2405.15613 | Automatic Data Curation for Self-Supervised Learning: A Clustering-Based Approach | R | - | 用层次 k-means 自动构建平衡的自监督数据集
+2406.19602 | A Survey on Deep Clustering: From the Prior Perspective | S | - | 以先验知识为线索的深度聚类综述
+2402.02996 | Text-Guided Image Clustering | R | C06 | 用生成文本引导图像聚类
+2311.03087 | Persistent Homology for High-dimensional Data Based on Spectral Methods | R | - | 基于谱方法的高维数据拓扑分析，涉及降维与流形结构
+2312.04000 | LiDAR: Sensing Linear Probing Performance in Joint Embedding SSL Architectures | R | C10 | 无标签预测线性探测性能的表征评估指标
+2502.02013 | Layer by Layer: Uncovering Hidden Representations in Language Models | R | C06 | 用信息论/几何指标评估 LLM 各层表示质量
+2401.14404 | Deconstructing Denoising Diffusion Models for Self-Supervised Learning | R | C07 | 拆解扩散模型找出对表示学习真正有效的成分
+2312.03701 | Return of Unconditional Generation: A Self-supervised Representation Generation Method | R | C07 | 用自监督表示驱动无条件生成
+2407.03475 | How JEPA Avoids Noisy Features: The Implicit Bias of Deep Linear Self Distillation Networks | R | C01 | JEPA 与重建目标隐式偏置的理论比较
+2511.08544 | LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics | R | - | 有理论保证、去除启发式技巧的 JEPA 训练
+2507.22062 | Meta CLIP 2: A Worldwide Scaling Recipe | R | C05 | 多语言全球数据上的 CLIP 训练配方（arXiv 后续版本改用现标题）
+2403.15378 | Long-CLIP: Unlocking the Long-Text Capability of CLIP | R | C05 | 扩展 CLIP 的长文本对齐能力
+2402.01399 | A Probabilistic Model Behind Self-Supervised Learning | R | C01 | 为对比/非对比自监督方法给出统一生成模型解释
+2411.06508 | Understanding the Role of Equivariance in Self-supervised Learning | R | - | 等变自监督目标的信息论分析
+2403.11391 | Investigating the Benefits of Projection Head for Representation Learning | R | - | 解释投影头为何提升下游表示
+2401.00368 | Improving Text Embeddings with Large Language Models | R | C06 | 用 LLM 合成数据训练文本嵌入
+2402.01613 | Nomic Embed: Training a Reproducible Long Context Text Embedder | R | C06 | 完全开放、可复现的长上下文文本嵌入模型
+2405.17428 | NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models | R | C06 | 将解码器 LLM 训练为通用嵌入模型
+2404.05961 | LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders | R | C06 | 无监督地把 LLM 转为文本编码器
+2402.09906 | Generative Representational Instruction Tuning | R | C06 | 统一生成与嵌入任务的指令微调
+2502.13595 | MMTEB: Massive Multilingual Text Embedding Benchmark | R | C10 | 多语言文本表示评测基准
+2406.04093 | Scaling and evaluating sparse autoencoders | R | C10 | 稀疏自编码器的规模化训练与评估，用于提取可解释特征
+2404.08636 | Probing the 3D Awareness of Visual Foundation Models | R | C05 | 评估视觉基础模型表示中的三维信息
+2312.06709 | AM-RADIO: Agglomerative Vision Foundation Model -- Reduce All Domains Into One | R | C05 | 多教师蒸馏融合多个视觉基础模型的表示
+2407.12210 | A Closer Look at Benchmarking Self-Supervised Pre-training with Image Classification | R | C10 | 自监督表示评测协议的系统分析
+2502.10385 | Simplifying DINO via Coding Rate Regularization | R | - | 用编码率正则简化 DINO 训练
+2504.13181 | Perception Encoder: The best visual embeddings are not at the output of the network | R | C05 | 发现最优视觉嵌入在中间层，并提出对齐方法
+2410.16512 | TIPS: Text-Image Pretraining with Spatial awareness | R | C05 | 兼顾全局与稠密任务的图文预训练
+2507.14137 | Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning | R | - | 嵌套聚类目标的完全开源视觉自监督模型
+2310.19909 | Battle of the Backbones: A Large-Scale Comparison of Pretrained Models across Computer Vision Tasks | R | C05 | 多任务大规模比较预训练骨干表示
+2406.01506 | The Geometry of Categorical and Hierarchical Concepts in Large Language Models | R | C10 | LLM 表示中类别与层级概念的几何结构
+2311.03658 | The Linear Representation Hypothesis and the Geometry of Large Language Models | R | C10 | 形式化线性表示假说
+2404.08197 | Scaling (Down) CLIP: A Comprehensive Analysis of Data, Architecture, and Training Strategies | R | - | 有限计算下 CLIP 数据/架构/训练策略分析
+2312.17742 | Learning Vision from Models Rivals Learning Vision from Data | R | C07 | SynCLR：仅用合成图像与文本进行对比学习
+2404.07983 | Two Effects, One Trigger: On the Modality Gap, Object Bias, and Information Imbalance in Contrastive Vision-Language Models | R | - | 对比视觉-语言表示的模态间隙成因
+2408.06687 | Masked Image Modeling: A Survey | S | C05 | 掩码图像建模综述
+- | Towards Measuring Representational Similarity of Large Language Models | R | C10 | LLM 表示相似性度量
+- | Navigating the Effect of Parametrization for Dimensionality Reduction | R | - | 参数化降维（神经网络版 t-SNE/UMAP）的局部/全局结构权衡
+- | Assessing and improving reliability of neighbor embedding methods: a map-continuity perspective | R | C10 | 评估 t-SNE/UMAP 等邻域嵌入可视化的可靠性
+- | Text Clustering as Classification with LLMs | R | C06 | 用 LLM 将文本聚类转为分类
+- | Does Representation Matter? Exploring Intermediate Layers in Large Language Models | R | C06 | 比较 LLM 各层表示的质量指标
+- | Clustering Properties of Self-Supervised Learning | R | - | 自监督表示的聚类性质
+2002.05709 | A Simple Framework for Contrastive Learning of Visual Representations | R | - | SimCLR | 对比学习的标准框架，近年方法的基线与概念来源
+2111.06377 | Masked Autoencoders Are Scalable Vision Learners | R | C05 | MAE | 掩码重建式自监督的代表，近年工作的对照
+2304.07193 | DINOv2: Learning Robust Visual Features without Supervision | R | C05 | DINOv2 | 当前最常用的视觉自监督骨干，DINOv3 等的直接前身
+2103.00020 | Learning Transferable Visual Models From Natural Language Supervision | R | C05 | CLIP | 图文对比表示学习的奠基工作
+1802.03426 | UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction | R | - | UMAP | 最常用的非线性降维/可视化方法，近年降维研究的基线

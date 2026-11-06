@@ -1,0 +1,57 @@
+# C07 生成模型：VAE、GAN、扩散模型、流匹配、多模态生成
+2403.03206 | Scaling Rectified Flow Transformers for High-Resolution Image Synthesis | R | C05 | SD3：整流流 + MM-DiT 的文生图规模化
+2412.06264 | Flow Matching Guide and Code | T | - | 流匹配的系统教程与参考实现
+2401.08740 | SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers | R | - | 在随机插值框架下系统比较流与扩散设计
+2404.02905 | Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction | R | C05 | VAR：下一尺度预测的自回归图像生成
+2406.11838 | Autoregressive Image Generation without Vector Quantization | R | - | MAR：连续 token 自回归 + 扩散损失
+2406.06525 | Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation | R | C06 | LlamaGen：纯语言模型架构的图像生成
+2412.04431 | Infinity: Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis | R | - | 位级自回归高分辨率生成
+2410.13863 | Fluid: Scaling Autoregressive Text-to-image Generative Models with Continuous Tokens | R | - | 连续 token 自回归文生图规模化
+2312.02696 | Analyzing and Improving the Training Dynamics of Diffusion Models | R | C04 | EDM2：扩散网络训练动力学与幅值保持设计
+2406.02507 | Guiding a Diffusion Model with a Bad Version of Itself | R | - | Autoguidance：用弱模型替代无条件模型引导
+2404.07724 | Applying Guidance in a Limited Interval Improves Sample and Distribution Quality in Diffusion Models | R | - | 限定区间的无分类器引导
+2410.06940 | Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think | R | C03 | REPA：用自监督表示对齐加速 DiT 训练
+2410.11081 | Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models | R | - | 连续时间一致性模型的稳定训练
+2311.18828 | One-step Diffusion with Distribution Matching Distillation | R | - | DMD：分布匹配蒸馏一步生成
+2311.17042 | Adversarial Diffusion Distillation | R | - | 对抗扩散蒸馏实现少步生成
+2403.12015 | Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation | R | - | 潜空间对抗蒸馏
+2505.13447 | Mean Flows for One-step Generative Modeling | R | - | 平均速度场实现一步生成
+2503.07565 | Inductive Moment Matching | R | - | 矩匹配的少步生成新范式
+2404.14507 | Align Your Steps: Optimizing Sampling Schedules in Diffusion Models | R | - | 扩散采样时间表优化
+2406.07524 | Simple and Effective Masked Diffusion Language Models | R | C06 | MDLM：掩码离散扩散语言模型
+2502.09992 | Large Language Diffusion Models | R | C06 | LLaDA：大规模扩散语言模型
+2407.15595 | Discrete Flow Matching | R | - | 离散数据上的流匹配
+2412.06329 | Normalizing Flows are Capable Generative Models | R | - | TarFlow：Transformer 自回归归一化流
+2501.05441 | The GAN is dead; long live the GAN! A Modern GAN Baseline | R | - | R3GAN：有理论保证的现代 GAN 基线
+2501.01423 | Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models | R | C03 | VA-VAE：对齐视觉基础模型的潜空间 VAE
+2410.10733 | Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models | R | - | 高压缩比自编码器
+2406.07550 | An Image is Worth 32 Tokens for Reconstruction and Generation | R | C03 | TiTok：一维图像 tokenizer
+2410.24060 | Understanding Generalizability of Diffusion Models Requires Rethinking the Hidden Gaussian Structure | R | C01 | 扩散模型泛化与隐藏高斯结构
+2412.20292 | An analytic theory of creativity in convolutional diffusion models | R | C01 | 卷积扩散模型"创造性"的解析理论
+2403.18103 | Tutorial on Diffusion Models for Imaging and Vision | T | - | 面向成像与视觉的扩散模型教程
+2406.08929 | Step-by-Step Diffusion: An Elementary Tutorial | T | - | 扩散与流匹配的入门教程
+- | The Principles of Diffusion Models | T | - | 扩散模型原理的长篇系统讲解
+2311.12908 | Diffusion Model Alignment Using Direct Preference Optimization | R | C09 | Diffusion-DPO：扩散模型偏好对齐
+2401.09603 | Rethinking FID: Towards a Better Evaluation Metric for Image Generation | R | C10 | 生成模型评测指标 CMMD
+2407.01392 | Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion | R | C09 | 逐 token 噪声水平的序列扩散
+2402.15391 | Genie: Generative Interactive Environments | R | C09 | 由视频学习可交互的生成式环境
+2408.14837 | Diffusion Models Are Real-Time Game Engines | R | C09 | 扩散模型作为实时游戏引擎
+2410.13720 | Movie Gen: A Cast of Media Foundation Models | R | C05 | 视频与音频生成基础模型
+2311.15127 | Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets | R | C05 | 潜空间视频扩散的数据与训练
+2401.12945 | Lumiere: A Space-Time Diffusion Model for Video Generation | R | C05 | 时空 U-Net 一次生成整段视频
+2412.03603 | HunyuanVideo: A Systematic Framework For Large Video Generative Models | R | C05 | 开源大规模视频生成
+2503.20314 | Wan: Open and Advanced Large-Scale Video Generative Models | R | C05 | 开源视频生成模型系列
+2408.06072 | CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer | R | C05 | 专家 Transformer 文生视频
+2405.09818 | Chameleon: Mixed-Modal Early-Fusion Foundation Models | R | C06 | 早期融合的图文混合生成
+2408.11039 | Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model | R | C06 | 单模型同时做语言自回归与图像扩散
+2409.18869 | Emu3: Next-Token Prediction is All You Need | R | C06 | 纯下一 token 预测的多模态生成
+2501.17811 | Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling | R | C06 | 解耦视觉编码的统一理解与生成
+2408.12528 | Show-o: One Single Transformer to Unify Multimodal Understanding and Generation | R | C06 | 自回归与离散扩散统一
+2403.04692 | PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation | R | - | 高效 DiT 文生图
+2506.15742 | FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space | R | C05 | 基于流匹配的上下文图像生成与编辑
+2407.14358 | Stable Audio Open | R | - | 开放权重的音频生成模型
+2006.11239 | Denoising Diffusion Probabilistic Models | R | - | DDPM | 扩散模型的奠基论文
+1406.2661 | Generative Adversarial Networks | R | - | GAN | GAN 原始论文，R3GAN 等的出发点
+1312.6114 | Auto-Encoding Variational Bayes | R | C03 | VAE | VAE 原始论文，潜扩散自编码器的基础
+2112.10752 | High-Resolution Image Synthesis with Latent Diffusion Models | R | C05 | 潜扩散 | 现代文生图/视频系统的基本框架
+2210.02747 | Flow Matching for Generative Modeling | R | - | 流匹配 | 流匹配原始论文，SD3/MeanFlow 等的基础

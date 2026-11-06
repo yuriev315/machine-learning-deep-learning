@@ -1,0 +1,58 @@
+# C06 自然语言处理与大语言模型：语言建模、预训练、微调、对齐、推理、评测
+2407.21783 | The Llama 3 Herd of Models | R | C04 | 开源大模型预训练、后训练与评测的完整技术报告
+2401.04088 | Mixtral of Experts | R | C04 | 稀疏专家混合语言模型
+2412.19437 | DeepSeek-V3 Technical Report | R | C04 | MLA、无辅助损失负载均衡、FP8 训练与多 token 预测
+2501.12948 | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | R | C09 | 纯强化学习激发推理能力
+2402.03300 | DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models | R | C09 | 数学预训练语料与 GRPO 算法
+2412.15115 | Qwen2.5 Technical Report | R | - | 开源模型系列的预训练与后训练
+2505.09388 | Qwen3 Technical Report | R | - | 思考/非思考统一的开源模型
+2402.00838 | OLMo: Accelerating the Science of Language Models | R | C10 | 数据、代码、检查点完全开放的语言模型
+2501.00656 | 2 OLMo 2 Furious | R | C04 | 完全开放模型的训练稳定性与课程
+2408.00118 | Gemma 2: Improving Open Language Models at a Practical Size | R | - | 知识蒸馏训练的小型开放模型
+2503.19786 | Gemma 3 Technical Report | R | C05 | 多模态、长上下文的开放模型
+2404.14219 | Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone | R | - | 高质量数据训练的小模型
+2412.08905 | Phi-4 Technical Report | R | - | 合成数据为中心的小模型训练
+2404.06395 | MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies | R | C04 | 小模型风洞实验与 WSD 调度
+2406.17557 | The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale | R | - | 开放预训练网页数据的构建与消融
+2406.11794 | DataComp-LM: In search of the next generation of training sets for language models | R | C10 | 预训练数据集构建的受控基准
+2402.00159 | Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research | R | - | 开放预训练语料
+2412.09871 | Byte Latent Transformer: Patches Scale Better Than Tokens | R | C04 | 无分词器的字节级动态分块语言模型
+2404.19737 | Better & Faster Large Language Models via Multi-token Prediction | R | C04 | 多 token 预测预训练目标
+2405.14734 | SimPO: Simple Preference Optimization with a Reference-Free Reward | R | - | 无参考模型的偏好优化
+2402.01306 | KTO: Model Alignment as Prospect Theoretic Optimization | R | - | 基于前景理论的二元反馈对齐
+2403.07691 | ORPO: Monolithic Preference Optimization without Reference Model | R | - | 合并 SFT 与偏好优化
+2401.10020 | Self-Rewarding Language Models | R | - | 模型自我评判生成偏好数据
+2404.10719 | Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study | R | C09 | DPO 与 PPO 的系统比较
+2411.15124 | Tulu 3: Pushing Frontiers in Open Language Model Post-Training | R | - | 完全开放的后训练配方（SFT/DPO/RLVR）
+2403.13787 | RewardBench: Evaluating Reward Models for Language Modeling | R | C10 | 奖励模型评测基准
+2312.08935 | Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations | R | C09 | 自动构建过程奖励模型
+2403.09629 | Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking | R | - | 自学习隐式推理
+2408.03314 | Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters | R | - | 测试时计算的最优分配
+2501.19393 | s1: Simple test-time scaling | R | - | 少量数据+预算强制实现测试时扩展
+2407.21787 | Large Language Monkeys: Scaling Inference Compute with Repeated Sampling | R | - | 重复采样的推理计算标度律
+2503.14476 | DAPO: An Open-Source LLM Reinforcement Learning System at Scale | R | C09 | 开源大规模推理强化学习系统
+2501.12599 | Kimi k1.5: Scaling Reinforcement Learning with LLMs | R | C09 | 长上下文强化学习扩展推理
+2402.12875 | Chain of Thought Empowers Transformers to Solve Inherently Serial Problems | R | C01 | 思维链提升 Transformer 表达能力的理论
+2502.03387 | LIMO: Less is More for Reasoning | R | - | 少量高质量样本激发推理
+2504.13837 | Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model? | R | C09 | 检验 RLVR 是否扩展基础模型推理边界
+2407.20311 | Physics of Language Models: Part 2.1, Grade-School Math and the Hidden Reasoning Process | R | C01 | 合成数据受控实验研究推理机理
+2410.05229 | GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models | R | C10 | 符号化变体揭示数学推理的脆弱性
+2402.09353 | DoRA: Weight-Decomposed Low-Rank Adaptation | R | - | 分解幅度与方向的低秩微调
+2405.09673 | LoRA Learns Less and Forgets Less | R | - | LoRA 与全参微调的学习/遗忘比较
+2404.02948 | PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models | R | - | 主奇异分量初始化的低秩微调
+2406.08464 | Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing | R | - | 无种子提示合成指令数据
+2402.13753 | LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens | R | C04 | 位置编码插值扩展上下文
+2404.06654 | RULER: What's the Real Context Size of Your Long-Context Language Models? | R | C10 | 长上下文能力评测
+2406.01574 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark | R | C10 | 更难更稳健的知识评测
+2311.12022 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark | R | C10 | 研究生水平防检索问答基准
+2406.19314 | LiveBench: A Challenging, Contamination-Limited LLM Benchmark | R | C10 | 限制数据污染的动态评测
+2403.04132 | Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference | R | C10 | 基于人类成对偏好的开放评测平台
+2501.14249 | Humanity's Last Exam | R | C10 | 前沿难题评测基准
+2312.10997 | Retrieval-Augmented Generation for Large Language Models: A Survey | S | - | 检索增强生成综述
+2401.10774 | Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads | R | C04 | 多解码头的推测解码
+2401.15077 | EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty | R | C04 | 特征层推测采样
+1810.04805 | BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | R | C03 | BERT | 预训练-微调范式的奠基工作
+2005.14165 | Language Models are Few-Shot Learners | R | - | GPT-3 | 上下文学习与大规模语言建模的起点
+2203.02155 | Training language models to follow instructions with human feedback | R | C09 | InstructGPT | RLHF 对齐的标准流程，近年偏好优化方法的基线
+2203.15556 | Training Compute-Optimal Large Language Models | R | C01 | Chinchilla | 计算最优标度律，近年预训练规划的基准
+2305.18290 | Direct Preference Optimization: Your Language Model is Secretly a Reward Model | R | - | DPO | 2023-05 提出，SimPO/KTO/ORPO 等近年方法均以其为基础

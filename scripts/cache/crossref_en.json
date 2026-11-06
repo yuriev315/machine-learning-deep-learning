@@ -1,0 +1,56 @@
+{
+ "10.1038/s41586-024-08328-6": {
+  "title": "Accurate predictions on small data with a tabular foundation model",
+  "authors": [
+   "Noah Hollmann",
+   "Samuel Müller",
+   "Lennart Purucker",
+   "Arjun Krishnakumar",
+   "Max Körfer",
+   "Shi Bin Hoo",
+   "Robin Tibor Schirrmeister",
+   "Frank Hutter"
+  ],
+  "published_online": "2025-01-08",
+  "published_print": "2025-01-09",
+  "issued": "2025-01-08",
+  "container": "Nature",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "abstract": "Abstract\n                  \n                    Tabular data, spreadsheets organized in rows and columns, are ubiquitous across scientific fields, from biomedicine to particle physics to economics and climate science\n                    1,2\n                    . The fundamental prediction task of filling in missing values of a label column based on the rest of the columns is essential for various applications as diverse as biomedical risk models, drug discovery and materials science. Although deep learning has revolutionized learning from raw data and led to numerous high-profile success stories\n                    3–5\n                    , gradient-boosted decision trees\n                    6–9\n                    have dominated tabular data for the past 20 years. Here we present the Tabular Prior-data Fitted Network (TabPFN), a tabular foundation model that outperforms all previous methods on datasets with up to 10,000 samples by a wide margin, using substantially less training time. In 2.8 s, TabPFN outperforms an ensemble of the strongest baselines tuned for 4 h in a classification setting. As a generative transformer-based foundation model, this model also allows fine-tuning, data generation, density estimation and learning reusable embeddings. TabPFN is a learning algorithm that is itself learned across millions of synthetic datasets, demonstrating the power of this approach for algorithm development. By improving modelling abilities across diverse fields, TabPFN has the potential to accelerate scientific discovery and enhance important decision-making in various domains.\n                  "
+ },
+ "10.1038/s41586-023-06735-9": {
+  "title": "Scaling deep learning for materials discovery",
+  "authors": [
+   "Amil Merchant",
+   "Simon Batzner",
+   "Samuel S. Schoenholz",
+   "Muratahan Aykol",
+   "Gowoon Cheon",
+   "Ekin Dogus Cubuk"
+  ],
+  "published_online": "2023-11-29",
+  "published_print": "2023-12-07",
+  "issued": "2023-11-29",
+  "container": "Nature",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "abstract": "Abstract\n                  \n                    Novel functional materials enable fundamental breakthroughs across technological applications from clean energy to information processing\n                    1–11\n                    . From microchips to batteries and photovoltaics, discovery of inorganic crystals has been bottlenecked by expensive trial-and-error approaches. Concurrently, deep-learning models for language, vision and biology have showcased emergent predictive capabilities with increasing data and computation\n                    12–14\n                    . Here we show that graph networks trained at scale can reach unprecedented levels of generalization, improving the efficiency of materials discovery by an order of magnitude. Building on 48,000 stable crystals identified in continuing studies\n                    15–17\n                    , improved efficiency enables the discovery of 2.2 million structures below the current convex hull, many of which escaped previous human chemical intuition. Our work represents an order-of-magnitude expansion in stable materials known to humanity. Stable discoveries that are on the final convex hull will be made available to screen for technological applications, as we demonstrate for layered materials and solid-electrolyte candidates. Of the stable structures, 736 have already been independently experimentally realized. The scale and diversity of hundreds of millions of first-principles calculations also unlock modelling capabilities for downstream applications, leading in particular to highly accurate and robust learned interatomic potentials that can be used in condensed-phase molecular-dynamics simulations and high-fidelity zero-shot prediction of ionic conductivity.\n                  "
+ },
+ "10.1038/s41586-024-07421-0": {
+  "title": "Detecting hallucinations in large language models using semantic entropy",
+  "authors": [
+   "Sebastian Farquhar",
+   "Jannik Kossen",
+   "Lorenz Kuhn",
+   "Yarin Gal"
+  ],
+  "published_online": "2024-06-19",
+  "published_print": "2024-06-20",
+  "issued": "2024-06-19",
+  "container": "Nature",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "abstract": "Abstract\n                  \n                    Large language model (LLM) systems, such as ChatGPT\n                    1\n                    or Gemini\n                    2\n                    , can show impressive reasoning and question-answering capabilities but often ‘hallucinate’ false outputs and unsubstantiated answers\n                    3,4\n                    . Answering unreliably or without the necessary information prevents adoption in diverse fields, with problems including fabrication of legal precedents\n                    5\n                    or untrue facts in news articles\n                    6\n                    and even posing a risk to human life in medical domains such as radiology\n                    7\n                    . Encouraging truthfulness through supervision or reinforcement has been only partially successful\n                    8\n                    . Researchers need a general method for detecting hallucinations in LLMs that works even with new and unseen questions to which humans might not know the answer. Here we develop new methods grounded in statistics, proposing entropy-based uncertainty estimators for LLMs to detect a subset of hallucinations—confabulations—which are arbitrary and incorrect generations. Our method addresses the fact that one idea can be expressed in many ways by computing uncertainty at the level of meaning rather than specific sequences of words. Our method works across datasets and tasks without a priori knowledge of the task, requires no task-specific data and robustly generalizes to new tasks not seen before. By detecting when a prompt is likely to produce a confabulation, our method helps users understand when they must take extra care with LLMs and opens up new possibilities for using LLMs that are otherwise prevented by their unreliability.\n                  "
+ }
+}
