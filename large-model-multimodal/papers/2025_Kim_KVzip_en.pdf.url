@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2505.23416v2
+
+[File]
+Name=2025_Kim_KVzip_en.pdf
+Work=KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction
+SizeBytes=759314
+SHA256=d8d7e51973ef234d66c9925fa3aa2e65a8e61a17d84ada17afc6a61c9117aa1d
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2505.23416
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

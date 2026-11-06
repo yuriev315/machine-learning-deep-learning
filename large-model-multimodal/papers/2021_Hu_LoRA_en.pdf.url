@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2106.09685v2
+
+[File]
+Name=2021_Hu_LoRA_en.pdf
+Work=LoRA: Low-Rank Adaptation of Large Language Models
+SizeBytes=1609513
+SHA256=e9a0d3128767db616085dc0f4e6e455e672e89af823e8ed1282793682787395a
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2106.09685
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

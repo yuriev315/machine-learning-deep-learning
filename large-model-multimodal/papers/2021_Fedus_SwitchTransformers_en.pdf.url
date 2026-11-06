@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2101.03961v3
+
+[File]
+Name=2021_Fedus_SwitchTransformers_en.pdf
+Work=Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+SizeBytes=1304157
+SHA256=f340f6ace31abf7d0730ef461404279f40d3c890e9cc2daeb7068b3304afdbd6
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2101.03961
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

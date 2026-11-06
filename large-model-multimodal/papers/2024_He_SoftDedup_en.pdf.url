@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2407.06654v1
+
+[File]
+Name=2024_He_SoftDedup_en.pdf
+Work=SoftDedup: an Efficient Data Reweighting Method for Speeding Up Language Model Pre-training
+SizeBytes=1317562
+SHA256=b2e5ac1337a5aa1534466ef05c66cbaccaa10f57eab51d3e5c154a29db7d1560
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2407.06654
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

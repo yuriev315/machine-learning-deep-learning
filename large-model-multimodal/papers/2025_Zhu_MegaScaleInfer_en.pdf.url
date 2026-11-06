@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2504.02263v4
+
+[File]
+Name=2025_Zhu_MegaScaleInfer_en.pdf
+Work=MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism
+SizeBytes=1143163
+SHA256=77ddd00732edb5728059243282cd2d80fe916fe28dca45818513ff08865a0f26
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2504.02263
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

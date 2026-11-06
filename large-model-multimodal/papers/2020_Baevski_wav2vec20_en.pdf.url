@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2006.11477v3
+
+[File]
+Name=2020_Baevski_wav2vec20_en.pdf
+Work=wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations
+SizeBytes=740863
+SHA256=4a881708378143547a5c053f62090104afb49782a4c71d78441dde0a818758ff
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2006.11477
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

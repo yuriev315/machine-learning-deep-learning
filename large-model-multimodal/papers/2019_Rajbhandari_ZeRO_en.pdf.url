@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1910.02054v3
+
+[File]
+Name=2019_Rajbhandari_ZeRO_en.pdf
+Work=ZeRO: Memory Optimizations Toward Training Trillion Parameter Models
+SizeBytes=779206
+SHA256=c531734c7d9ee647fda9b4f0e1a6abd6d58ad34e862bc945451b09032be3167e
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/1910.02054
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

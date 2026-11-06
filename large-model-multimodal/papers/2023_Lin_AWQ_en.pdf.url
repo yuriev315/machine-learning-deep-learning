@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2306.00978v6
+
+[File]
+Name=2023_Lin_AWQ_en.pdf
+Work=AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration
+SizeBytes=19804976
+SHA256=6e35c8fe7af1f18a5c48dd2524629d859a2013a91d4b3666b554705287a17764
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2306.00978
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

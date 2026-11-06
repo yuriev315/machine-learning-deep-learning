@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2106.07447v1
+
+[File]
+Name=2021_Hsu_HuBERT_en.pdf
+Work=HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units
+SizeBytes=374525
+SHA256=3a919c3ede82b15c3c28f648ea8c8ef7417bab533b04f9b2b97a324c9be688d9
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2106.07447
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/1712.05884v2
+
+[File]
+Name=2017_Shen_NaturalTTSSynthesisConditioning_en.pdf
+Work=Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions
+SizeBytes=339384
+SHA256=7609c6af1f6cf7649747a0b28d4fc50e7bf523cd6c9b756bb6791635d5c9c029
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/1712.05884
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

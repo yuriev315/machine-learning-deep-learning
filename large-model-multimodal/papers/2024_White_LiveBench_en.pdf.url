@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2406.19314v2
+
+[File]
+Name=2024_White_LiveBench_en.pdf
+Work=LiveBench: A Challenging, Contamination-Limited LLM Benchmark
+SizeBytes=791089
+SHA256=38207db0331896e9558cc803d04188f32dddda1709139c53f985680d1b78e06c
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2406.19314
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

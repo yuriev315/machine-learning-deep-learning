@@ -1,0 +1,782 @@
+{
+ "01": [
+  {
+   "id": "2601.21204",
+   "title": "Scaling Embeddings Outperforms Scaling Experts in Language Models",
+   "upvotes": 102,
+   "date": "2026-01-29",
+   "query": "mixture of experts language model"
+  },
+  {
+   "id": "2601.01739",
+   "title": "K-EXAONE Technical Report",
+   "upvotes": 96,
+   "date": "2026-01-05",
+   "query": "long context language model architecture"
+  },
+  {
+   "id": "2604.20796",
+   "title": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+   "upvotes": 89,
+   "date": "2026-04-22",
+   "query": "tokenizer language model"
+  },
+  {
+   "id": "2605.15178",
+   "title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer",
+   "upvotes": 87,
+   "date": "2026-05-14",
+   "query": "linear attention transformer"
+  },
+  {
+   "id": "2605.14906",
+   "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+   "upvotes": 76,
+   "date": "2026-05-14",
+   "query": "long context language model architecture"
+  },
+  {
+   "id": "2601.07022",
+   "title": "Solar Open Technical Report",
+   "upvotes": 66,
+   "date": "2026-01-11",
+   "query": "mixture of experts language model"
+  },
+  {
+   "id": "2605.31268",
+   "title": "Mellum2 Technical Report",
+   "upvotes": 59,
+   "date": "2026-05-29",
+   "query": "mixture of experts language model"
+  },
+  {
+   "id": "2601.07832",
+   "title": "MHLA: Restoring Expressivity of Linear Attention via Token-Level Multi-Head",
+   "upvotes": 53,
+   "date": "2026-01-12",
+   "query": "linear attention transformer"
+  },
+  {
+   "id": "2602.10934",
+   "title": "MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models",
+   "upvotes": 50,
+   "date": "2026-02-11",
+   "query": "tokenizer language model"
+  }
+ ],
+ "02": [
+  {
+   "id": "2609.17488",
+   "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+   "upvotes": 269,
+   "date": "2026-09-15",
+   "query": "synthetic data pretraining"
+  },
+  {
+   "id": "2603.26164",
+   "title": "DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models",
+   "upvotes": 248,
+   "date": "2026-03-27",
+   "query": "data mixture pretraining"
+  },
+  {
+   "id": "2605.30280",
+   "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+   "upvotes": 144,
+   "date": "2026-05-28",
+   "query": "synthetic data pretraining"
+  },
+  {
+   "id": "2603.03276",
+   "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+   "upvotes": 105,
+   "date": "2026-03-03",
+   "query": "data mixture pretraining"
+  },
+  {
+   "id": "2610.30949",
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "upvotes": 99,
+   "date": "2026-10-22",
+   "query": "data mixture pretraining"
+  },
+  {
+   "id": "2605.13831",
+   "title": "Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context",
+   "upvotes": 89,
+   "date": "2026-05-13",
+   "query": "data mixture pretraining"
+  },
+  {
+   "id": "2607.07675",
+   "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+   "upvotes": 59,
+   "date": "2026-07-08",
+   "query": "data mixture pretraining"
+  },
+  {
+   "id": "2602.06949",
+   "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+   "upvotes": 36,
+   "date": "2026-02-06",
+   "query": "data mixture pretraining"
+  },
+  {
+   "id": "2604.02045",
+   "title": "BidirLM: From Text to Omnimodal Bidirectional Encoders by Adapting and Composing Causal LLMs",
+   "upvotes": 35,
+   "date": "2026-04-02",
+   "query": "data mixture pretraining"
+  }
+ ],
+ "03": [
+  {
+   "id": "2604.03128",
+   "title": "Self-Distilled RLVR",
+   "upvotes": 140,
+   "date": "2026-04-03",
+   "query": "RLVR"
+  },
+  {
+   "id": "2601.22975",
+   "title": "Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text",
+   "upvotes": 110,
+   "date": "2026-01-30",
+   "query": "RLVR"
+  },
+  {
+   "id": "2607.21655",
+   "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+   "upvotes": 78,
+   "date": "2026-07-22",
+   "query": "reward model"
+  },
+  {
+   "id": "2607.23802",
+   "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+   "upvotes": 78,
+   "date": "2026-07-26",
+   "query": "RLVR"
+  },
+  {
+   "id": "2605.06139",
+   "title": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+   "upvotes": 73,
+   "date": "2026-05-07",
+   "query": "RLVR"
+  },
+  {
+   "id": "2609.37372",
+   "title": "Think Before You Score: Thinking Reward Model for Visual Generation",
+   "upvotes": 57,
+   "date": "2026-09-29",
+   "query": "reward model"
+  },
+  {
+   "id": "2609.06107",
+   "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
+   "upvotes": 56,
+   "date": "2026-09-05",
+   "query": "RLVR"
+  },
+  {
+   "id": "2603.08660",
+   "title": "How Far Can Unsupervised RLVR Scale LLM Training?",
+   "upvotes": 52,
+   "date": "2026-03-09",
+   "query": "RLVR"
+  },
+  {
+   "id": "2605.21468",
+   "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
+   "upvotes": 50,
+   "date": "2026-05-20",
+   "query": "RLVR"
+  }
+ ],
+ "04": [
+  {
+   "id": "2601.10477",
+   "title": "Urban Socio-Semantic Segmentation with Vision-Language Reasoning",
+   "upvotes": 146,
+   "date": "2026-01-15",
+   "query": "reasoning language model reinforcement learning"
+  },
+  {
+   "id": "2607.05394",
+   "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+   "upvotes": 142,
+   "date": "2026-07-08",
+   "query": "reasoning language model reinforcement learning"
+  },
+  {
+   "id": "2605.04461",
+   "title": "Stream-T1: Test-Time Scaling for Streaming Video Generation",
+   "upvotes": 106,
+   "date": "2026-05-06",
+   "query": "test-time scaling"
+  },
+  {
+   "id": "2606.13473",
+   "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+   "upvotes": 97,
+   "date": "2026-06-11",
+   "query": "test-time scaling"
+  },
+  {
+   "id": "2610.16794",
+   "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
+   "upvotes": 79,
+   "date": "2026-10-12",
+   "query": "reasoning language model reinforcement learning"
+  },
+  {
+   "id": "2605.08083",
+   "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+   "upvotes": 70,
+   "date": "2026-05-08",
+   "query": "test-time scaling"
+  },
+  {
+   "id": "2609.35748",
+   "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+   "upvotes": 62,
+   "date": "2026-09-28",
+   "query": "test-time scaling"
+  },
+  {
+   "id": "2601.06002",
+   "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+   "upvotes": 60,
+   "date": "2026-01-09",
+   "query": "long chain-of-thought"
+  },
+  {
+   "id": "2605.10344",
+   "title": "TMAS: Scaling Test-Time Compute via Multi-Agent Synergy",
+   "upvotes": 51,
+   "date": "2026-05-11",
+   "query": "test-time scaling"
+  }
+ ],
+ "05": [
+  {
+   "id": "2607.11683",
+   "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+   "upvotes": 146,
+   "date": "2026-07-13",
+   "query": "RAG"
+  },
+  {
+   "id": "2605.05242",
+   "title": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+   "upvotes": 125,
+   "date": "2026-05-03",
+   "query": "embedding model retrieval"
+  },
+  {
+   "id": "2605.29307",
+   "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction",
+   "upvotes": 114,
+   "date": "2026-05-28",
+   "query": "deep research agent retrieval"
+  },
+  {
+   "id": "2603.20278",
+   "title": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
+   "upvotes": 103,
+   "date": "2026-03-17",
+   "query": "deep research agent retrieval"
+  },
+  {
+   "id": "2603.28407",
+   "title": "MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome",
+   "upvotes": 69,
+   "date": "2026-03-30",
+   "query": "deep research agent retrieval"
+  },
+  {
+   "id": "2604.06268",
+   "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+   "upvotes": 68,
+   "date": "2026-04-07",
+   "query": "RAG"
+  },
+  {
+   "id": "2607.15257",
+   "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+   "upvotes": 68,
+   "date": "2026-07-16",
+   "query": "deep research agent retrieval"
+  },
+  {
+   "id": "2604.04949",
+   "title": "Learning to Retrieve from Agent Trajectories",
+   "upvotes": 67,
+   "date": "2026-03-30",
+   "query": "deep research agent retrieval"
+  },
+  {
+   "id": "2601.04720",
+   "title": "Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking",
+   "upvotes": 60,
+   "date": "2026-01-08",
+   "query": "embedding model retrieval"
+  }
+ ],
+ "06": [
+  {
+   "id": "2602.15763",
+   "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+   "upvotes": 223,
+   "date": "2026-02-17",
+   "query": "software engineering agent"
+  },
+  {
+   "id": "2601.12538",
+   "title": "Agentic Reasoning for Large Language Models",
+   "upvotes": 205,
+   "date": "2026-01-18",
+   "query": "agentic"
+  },
+  {
+   "id": "2606.18023",
+   "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+   "upvotes": 150,
+   "date": "2026-06-16",
+   "query": "software engineering agent"
+  },
+  {
+   "id": "2603.13594",
+   "title": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+   "upvotes": 146,
+   "date": "2026-03-13",
+   "query": "tool use language model"
+  },
+  {
+   "id": "2511.20639",
+   "title": "Latent Collaboration in Multi-Agent Systems",
+   "upvotes": 131,
+   "date": "2026-08-03",
+   "query": "multi-agent"
+  },
+  {
+   "id": "2601.18418",
+   "title": "daVinci-Dev: Agent-native Mid-training for Software Engineering",
+   "upvotes": 126,
+   "date": "2026-01-26",
+   "query": "software engineering agent"
+  },
+  {
+   "id": "2607.28227",
+   "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+   "upvotes": 107,
+   "date": "2026-07-30",
+   "query": "GUI agent"
+  },
+  {
+   "id": "2610.26860",
+   "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+   "upvotes": 101,
+   "date": "2026-10-19",
+   "query": "tool use language model"
+  },
+  {
+   "id": "2604.11784",
+   "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+   "upvotes": 93,
+   "date": "2026-04-13",
+   "query": "GUI agent"
+  }
+ ],
+ "07": [
+  {
+   "id": "2601.06521",
+   "title": "BabyVision: Visual Reasoning Beyond Language",
+   "upvotes": 200,
+   "date": "2026-01-10",
+   "query": "visual reasoning MLLM"
+  },
+  {
+   "id": "2603.06569",
+   "title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+   "upvotes": 114,
+   "date": "2026-03-06",
+   "query": "vision encoder"
+  },
+  {
+   "id": "2602.12205",
+   "title": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+   "upvotes": 82,
+   "date": "2026-02-13",
+   "query": "unified multimodal model"
+  },
+  {
+   "id": "2602.02437",
+   "title": "UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing",
+   "upvotes": 80,
+   "date": "2026-02-02",
+   "query": "unified multimodal model"
+  },
+  {
+   "id": "2605.18678",
+   "title": "Lance: Unified Multimodal Modeling by Multi-Task Synergy",
+   "upvotes": 79,
+   "date": "2026-05-18",
+   "query": "unified multimodal model"
+  },
+  {
+   "id": "2608.26105",
+   "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+   "upvotes": 75,
+   "date": "2026-08-26",
+   "query": "visual reasoning MLLM"
+  },
+  {
+   "id": "2604.24763",
+   "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+   "upvotes": 70,
+   "date": "2026-04-27",
+   "query": "unified multimodal model"
+  },
+  {
+   "id": "2603.03241",
+   "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+   "upvotes": 65,
+   "date": "2026-03-03",
+   "query": "unified multimodal model"
+  },
+  {
+   "id": "2605.31604",
+   "title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+   "upvotes": 61,
+   "date": "2026-05-29",
+   "query": "unified multimodal model"
+  }
+ ],
+ "08": [
+  {
+   "id": "2607.09024",
+   "title": "Video Generation Models are General-Purpose Vision Learners",
+   "upvotes": 80,
+   "date": "2026-07-10",
+   "query": "video generation"
+  },
+  {
+   "id": "2610.40191",
+   "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+   "upvotes": 78,
+   "date": "2026-10-29",
+   "query": "video generation"
+  },
+  {
+   "id": "2601.16208",
+   "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+   "upvotes": 55,
+   "date": "2026-01-22",
+   "query": "text-to-image diffusion"
+  },
+  {
+   "id": "2606.18558",
+   "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
+   "upvotes": 53,
+   "date": "2026-06-17",
+   "query": "flow matching generation"
+  },
+  {
+   "id": "2607.28675",
+   "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+   "upvotes": 50,
+   "date": "2026-07-28",
+   "query": "flow matching generation"
+  },
+  {
+   "id": "2602.14041",
+   "title": "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+   "upvotes": 46,
+   "date": "2026-03-13",
+   "query": "autoregressive image generation"
+  },
+  {
+   "id": "2601.15282",
+   "title": "Rethinking Video Generation Model for the Embodied World",
+   "upvotes": 45,
+   "date": "2026-01-21",
+   "query": "video generation"
+  },
+  {
+   "id": "2607.14202",
+   "title": "KeyFrame-Compass: Towards Comprehensive Evaluation of Keyframe-Conditioned Video Generation",
+   "upvotes": 40,
+   "date": "2026-07-15",
+   "query": "video generation"
+  },
+  {
+   "id": "2610.25404",
+   "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+   "upvotes": 39,
+   "date": "2026-10-18",
+   "query": "image editing diffusion"
+  }
+ ],
+ "09": [
+  {
+   "id": "2609.33757",
+   "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+   "upvotes": 156,
+   "date": "2026-09-27",
+   "query": "music generation"
+  },
+  {
+   "id": "2609.14005",
+   "title": "StepAudio 3 Realtime Technical Report",
+   "upvotes": 109,
+   "date": "2026-09-12",
+   "query": "spoken dialogue model"
+  },
+  {
+   "id": "2609.08977",
+   "title": "Omni Interaction Agent Technical Report",
+   "upvotes": 71,
+   "date": "2026-09-08",
+   "query": "spoken dialogue model"
+  },
+  {
+   "id": "2609.04250",
+   "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+   "upvotes": 42,
+   "date": "2026-08-28",
+   "query": "spoken dialogue model"
+  },
+  {
+   "id": "2607.10387",
+   "title": "GigaChat Audio: Time-aware Large Audio Language Model",
+   "upvotes": 38,
+   "date": "2026-07-11",
+   "query": "audio language model"
+  },
+  {
+   "id": "2610.40738",
+   "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
+   "upvotes": 37,
+   "date": "2026-10-29",
+   "query": "speech language model"
+  },
+  {
+   "id": "2603.25750",
+   "title": "Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models",
+   "upvotes": 31,
+   "date": "2026-03-20",
+   "query": "speech language model"
+  },
+  {
+   "id": "2605.20266",
+   "title": "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
+   "upvotes": 31,
+   "date": "2026-05-18",
+   "query": "audio language model"
+  },
+  {
+   "id": "2604.10905",
+   "title": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
+   "upvotes": 27,
+   "date": "2026-04-13",
+   "query": "audio language model"
+  }
+ ],
+ "10": [
+  {
+   "id": "2604.05015",
+   "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+   "upvotes": 228,
+   "date": "2026-04-06",
+   "query": "video understanding"
+  },
+  {
+   "id": "2604.04707",
+   "title": "OpenWorldLib: A Unified Codebase and Definition of Advanced World Models",
+   "upvotes": 177,
+   "date": "2026-04-06",
+   "query": "world model"
+  },
+  {
+   "id": "2602.23152",
+   "title": "The Trinity of Consistency as a Defining Principle for General World Models",
+   "upvotes": 172,
+   "date": "2026-02-26",
+   "query": "world model"
+  },
+  {
+   "id": "2604.22748",
+   "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+   "upvotes": 150,
+   "date": "2026-04-24",
+   "query": "world model"
+  },
+  {
+   "id": "2604.07430",
+   "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+   "upvotes": 116,
+   "date": "2026-04-08",
+   "query": "robot foundation model"
+  },
+  {
+   "id": "2606.17046",
+   "title": "Geometric Action Model for Robot Policy Learning",
+   "upvotes": 110,
+   "date": "2026-06-15",
+   "query": "robot foundation model"
+  },
+  {
+   "id": "2610.00854",
+   "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+   "upvotes": 104,
+   "date": "2026-10-23",
+   "query": "embodied agent"
+  },
+  {
+   "id": "2605.28816",
+   "title": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+   "upvotes": 94,
+   "date": "2026-05-27",
+   "query": "world model"
+  },
+  {
+   "id": "2608.15875",
+   "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+   "upvotes": 91,
+   "date": "2026-08-16",
+   "query": "robot foundation model"
+  }
+ ],
+ "11": [
+  {
+   "id": "2609.19969",
+   "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+   "upvotes": 202,
+   "date": "2026-09-17",
+   "query": "KV cache compression"
+  },
+  {
+   "id": "2606.13392",
+   "title": "MiniMax Sparse Attention",
+   "upvotes": 169,
+   "date": "2026-06-11",
+   "query": "sparse attention"
+  },
+  {
+   "id": "2610.12242",
+   "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+   "upvotes": 118,
+   "date": "2026-10-08",
+   "query": "LLM inference serving"
+  },
+  {
+   "id": "2602.03152",
+   "title": "FASA: Frequency-aware Sparse Attention",
+   "upvotes": 117,
+   "date": "2026-02-03",
+   "query": "sparse attention"
+  },
+  {
+   "id": "2604.04921",
+   "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+   "upvotes": 111,
+   "date": "2026-04-06",
+   "query": "KV cache compression"
+  },
+  {
+   "id": "2609.03430",
+   "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+   "upvotes": 97,
+   "date": "2026-09-03",
+   "query": "KV cache compression"
+  },
+  {
+   "id": "2605.16928",
+   "title": "Full Attention Strikes Back: Transferring Full Attention into Sparse within Hundred Training Steps",
+   "upvotes": 90,
+   "date": "2026-05-16",
+   "query": "sparse attention"
+  },
+  {
+   "id": "2609.26333",
+   "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
+   "upvotes": 82,
+   "date": "2026-09-22",
+   "query": "quantization LLM"
+  },
+  {
+   "id": "2607.02980",
+   "title": "Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling",
+   "upvotes": 82,
+   "date": "2026-07-03",
+   "query": "sparse attention"
+  }
+ ],
+ "12": [
+  {
+   "id": "2603.29616",
+   "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
+   "upvotes": 64,
+   "date": "2026-07-02",
+   "query": "LLM benchmark"
+  },
+  {
+   "id": "2601.03986",
+   "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+   "upvotes": 34,
+   "date": "2026-01-07",
+   "query": "LLM benchmark"
+  },
+  {
+   "id": "2609.26550",
+   "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+   "upvotes": 34,
+   "date": "2026-09-22",
+   "query": "LLM-as-a-judge"
+  },
+  {
+   "id": "2603.15557",
+   "title": "Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models",
+   "upvotes": 30,
+   "date": "2026-03-16",
+   "query": "hallucination"
+  },
+  {
+   "id": "2604.09497",
+   "title": "BERT-as-a-Judge: A Robust Alternative to Lexical Methods for Efficient Reference-Based LLM Evaluation",
+   "upvotes": 28,
+   "date": "2026-04-10",
+   "query": "LLM-as-a-judge"
+  },
+  {
+   "id": "2605.01428",
+   "title": "Hallucinations Undermine Trust; Metacognition is a Way Forward",
+   "upvotes": 23,
+   "date": "2026-05-02",
+   "query": "hallucination"
+  },
+  {
+   "id": "2601.05111",
+   "title": "Agent-as-a-Judge",
+   "upvotes": 20,
+   "date": "2026-01-08",
+   "query": "LLM-as-a-judge"
+  },
+  {
+   "id": "2608.26623",
+   "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+   "upvotes": 20,
+   "date": "2026-08-27",
+   "query": "LLM-as-a-judge"
+  },
+  {
+   "id": "2607.02032",
+   "title": "PACE: A Proxy for Agentic Capability Evaluation",
+   "upvotes": 17,
+   "date": "2026-07-02",
+   "query": "LLM benchmark"
+  }
+ ]
+}

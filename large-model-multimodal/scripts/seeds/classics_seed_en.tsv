@@ -1,0 +1,205 @@
+01	1706.03762	Attention Is All You Need
+01	1810.04805	BERT
+01	2005.14165	Language Models are Few-Shot Learners
+01	1910.10683	Exploring the Limits of Transfer Learning
+01	2001.08361	Scaling Laws for Neural Language Models
+01	2203.15556	Training Compute-Optimal Large Language Models
+01	2302.13971	LLaMA
+01	2307.09288	Llama 2
+01	2104.09864	RoFormer
+01	2312.00752	Mamba
+01	2407.21783	The Llama 3 Herd of Models
+01	1508.07909	Neural Machine Translation of Rare Words with Subword Units
+01	2002.05202	GLU Variants Improve Transformer
+01	1701.06538	Outrageously Large Neural Networks
+01	2101.03961	Switch Transformers
+01	2310.06825	Mistral 7B
+01	2401.04088	Mixtral of Experts
+01	2412.19437	DeepSeek-V3 Technical Report
+01	2108.12409	Train Short, Test Long
+01	2309.00071	YaRN
+01	2305.13245	GQA
+02	2101.00027	The Pile
+02	2306.01116	The RefinedWeb Dataset
+02	2406.17557	The FineWeb Datasets
+02	2402.00159	Dolma
+02	2406.11794	DataComp-LM
+02	2305.10429	DoReMi
+02	2107.06499	Deduplicating Training Data Makes Language Models Better
+02	2112.11446	Scaling Language Models: Methods, Analysis
+02	2204.02311	PaLM
+02	2402.00838	OLMo
+02	2305.16264	Scaling Data-Constrained Language Models
+02	2306.11644	Textbooks Are All You Need
+02	2211.05100	BLOOM
+02	2305.06161	StarCoder
+02	2401.02954	DeepSeek LLM
+02	2309.16609	Qwen Technical Report
+03	2203.02155	Training language models to follow instructions with human feedback
+03	2305.18290	Direct Preference Optimization
+03	2106.09685	LoRA
+03	2305.14314	QLoRA
+03	2212.08073	Constitutional AI
+03	1707.06347	Proximal Policy Optimization Algorithms
+03	2109.01652	Finetuned Language Models Are Zero-Shot Learners
+03	2210.11416	Scaling Instruction-Finetuned Language Models
+03	2212.10560	Self-Instruct
+03	2305.11206	LIMA
+03	2009.01325	Learning to summarize from human feedback
+03	2204.05862	Training a Helpful and Harmless Assistant
+03	2402.01306	KTO
+03	2310.12036	A General Theoretical Paradigm to Understand Learning from Human Preferences
+03	2403.07691	ORPO
+03	2405.14734	SimPO
+03	2402.03300	DeepSeekMath
+04	2201.11903	Chain-of-Thought Prompting
+04	2203.11171	Self-Consistency
+04	2205.11916	Large Language Models are Zero-Shot Reasoners
+04	2305.10601	Tree of Thoughts
+04	2305.20050	Let's Verify Step by Step
+04	2110.14168	Training Verifiers to Solve Math Word Problems
+04	2103.03874	Measuring Mathematical Problem Solving
+04	2203.14465	STaR
+04	2408.03314	Scaling LLM Test-Time Compute
+04	2501.12948	DeepSeek-R1
+04	2501.19393	s1: Simple test-time scaling
+04	2211.12588	Program of Thoughts
+04	2211.10435	PAL
+04	2312.08935	Math-Shepherd
+05	2005.11401	Retrieval-Augmented Generation
+05	2004.04906	Dense Passage Retrieval
+05	2002.08909	REALM
+05	2112.04426	Improving language models by retrieving from trillions of tokens
+05	2007.01282	Leveraging Passage Retrieval with Generative Models
+05	2208.03299	Atlas
+05	2310.11511	Self-RAG
+05	2307.03172	Lost in the Middle
+05	2312.10997	Retrieval-Augmented Generation for Large Language Models: A Survey
+05	2004.12832	ColBERT
+05	2212.10496	Precise Zero-Shot Dense Retrieval
+05	2404.16130	From Local to Global
+05	2401.15884	Corrective Retrieval Augmented Generation
+05	2104.08663	BEIR
+05	2210.07316	MTEB
+05	2401.18059	RAPTOR
+06	2210.03629	ReAct
+06	2302.04761	Toolformer
+06	2303.11366	Reflexion
+06	2304.03442	Generative Agents
+06	2305.16291	Voyager
+06	2307.16789	ToolLLM
+06	2305.15334	Gorilla
+06	2308.08155	AutoGen
+06	2308.00352	MetaGPT
+06	2310.06770	SWE-bench
+06	2405.15793	SWE-agent
+06	2307.13854	WebArena
+06	2308.03688	AgentBench
+06	2303.17580	HuggingGPT
+06	2311.12983	GAIA
+06	2207.01206	WebShop
+06	2112.09332	WebGPT
+07	2103.00020	Learning Transferable Visual Models From Natural Language Supervision
+07	2010.11929	An Image is Worth 16x16 Words
+07	2204.14198	Flamingo
+07	2301.12597	BLIP-2
+07	2201.12086	BLIP
+07	2304.08485	Visual Instruction Tuning
+07	2310.03744	Improved Baselines with Visual Instruction Tuning
+07	2308.12966	Qwen-VL
+07	2303.15343	Sigmoid Loss for Language Image Pre-Training
+07	2304.10592	MiniGPT-4
+07	2305.06500	InstructBLIP
+07	2312.14238	InternVL
+07	2304.07193	DINOv2
+07	2111.06377	Masked Autoencoders Are Scalable Vision Learners
+07	2102.05918	Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+07	2303.08774	GPT-4 Technical Report
+07	2306.13549	A Survey on Multimodal Large Language Models
+08	2006.11239	Denoising Diffusion Probabilistic Models
+08	2112.10752	High-Resolution Image Synthesis with Latent Diffusion Models
+08	2212.09748	Scalable Diffusion Models with Transformers
+08	2010.02502	Denoising Diffusion Implicit Models
+08	2011.13456	Score-Based Generative Modeling through Stochastic Differential Equations
+08	2207.12598	Classifier-Free Diffusion Guidance
+08	2102.12092	Zero-Shot Text-to-Image Generation
+08	2204.06125	Hierarchical Text-Conditional Image Generation with CLIP Latents
+08	2205.11487	Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+08	2302.05543	Adding Conditional Control to Text-to-Image Diffusion Models
+08	2307.01952	SDXL
+08	2403.03206	Scaling Rectified Flow Transformers
+08	2210.02747	Flow Matching for Generative Modeling
+08	2209.03003	Flow Straight and Fast
+08	2208.12242	DreamBooth
+08	2311.15127	Stable Video Diffusion
+08	2204.03458	Video Diffusion Models
+08	1406.2661	Generative Adversarial Networks
+09	2212.04356	Robust Speech Recognition via Large-Scale Weak Supervision
+09	2006.11477	wav2vec 2.0
+09	2106.07447	HuBERT
+09	1609.03499	WaveNet
+09	2301.02111	Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers
+09	2209.03143	AudioLM
+09	2107.03312	SoundStream
+09	2210.13438	High Fidelity Neural Audio Compression
+09	2306.05284	Simple and Controllable Music Generation
+09	2301.12503	AudioLDM
+09	2010.05646	HiFi-GAN
+09	2106.06103	Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech
+09	2410.00037	Moshi
+09	2407.10759	Qwen2-Audio Technical Report
+09	2308.11596	SeamlessM4T
+09	1712.05884	Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions
+09	2005.08100	Conformer
+10	2212.06817	RT-1
+10	2307.15818	RT-2
+10	2406.09246	OpenVLA
+10	2303.03378	PaLM-E
+10	2410.24164	π0
+10	2310.08864	Open X-Embodiment
+10	2303.04137	Diffusion Policy
+10	2405.12213	Octo
+10	2103.15691	ViViT
+10	2102.05095	Is Space-Time Attention All You Need for Video Understanding
+10	2203.12602	VideoMAE
+10	2305.06355	VideoChat
+10	2306.05424	Video-ChatGPT
+10	2311.10122	Video-LLaVA
+10	2204.01691	Do As I Can, Not As I Say
+10	2209.07753	Code as Policies
+10	2307.05973	VoxPoser
+11	2205.14135	FlashAttention
+11	2307.08691	FlashAttention-2
+11	2309.06180	Efficient Memory Management for Large Language Model Serving with PagedAttention
+11	1910.02054	ZeRO
+11	1909.08053	Megatron-LM
+11	2104.04473	Efficient Large-Scale Language Model Training on GPU Clusters
+11	2208.07339	LLM.int8()
+11	2210.17323	GPTQ
+11	2306.00978	AWQ
+11	2211.10438	SmoothQuant
+11	2211.17192	Fast Inference from Transformers via Speculative Decoding
+11	2302.01318	Accelerating Large Language Model Decoding with Speculative Sampling
+11	1503.02531	Distilling the Knowledge in a Neural Network
+11	2401.10774	Medusa
+11	2309.17453	Efficient Streaming Language Models with Attention Sinks
+11	1710.03740	Mixed Precision Training
+11	2312.07104	SGLang
+11	2304.11277	PyTorch FSDP
+12	2009.03300	Measuring Massive Multitask Language Understanding
+12	2211.09110	Holistic Evaluation of Language Models
+12	2206.04615	Beyond the Imitation Game
+12	2109.07958	TruthfulQA
+12	2306.05685	Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+12	2403.04132	Chatbot Arena
+12	2307.15043	Universal and Transferable Adversarial Attacks on Aligned Language Models
+12	2202.03286	Red Teaming Language Models with Language Models
+12	2311.12022	GPQA
+12	2107.03374	Evaluating Large Language Models Trained on Code
+12	2012.07805	Extracting Training Data from Large Language Models
+12	2311.05232	A Survey on Hallucination in Large Language Models
+12	2406.01574	MMLU-Pro
+12	2306.13394	MME
+12	2307.06281	MMBench
+12	2311.16502	MMMU
+12	2310.03693	Fine-tuning Aligned Language Models Compromises Safety

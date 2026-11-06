@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://codeload.github.com/cs231n/cs231n.github.io/tar.gz/8ec57ccfc32379ae4b37c45de949af359673f92f
+
+[File]
+Name=cs231n.github.io_8ec57ccfc323_src_en.tar.gz
+Work=CS231n course notes
+SizeBytes=105906176
+SHA256=
+DirectDownload=yes
+Licence=MIT
+SourcePage=https://cs231n.github.io/
+Note=Not stored in this repository: the file is larger than 100 MiB. Download it from the URL above.

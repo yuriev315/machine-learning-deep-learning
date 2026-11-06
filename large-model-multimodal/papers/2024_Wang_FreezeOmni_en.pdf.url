@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2411.00774v5
+
+[File]
+Name=2024_Wang_FreezeOmni_en.pdf
+Work=Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM
+SizeBytes=710258
+SHA256=aab97feda599e8c62c187f15a44694a63c884b19bf60425795d9b2f4957b727b
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2411.00774
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

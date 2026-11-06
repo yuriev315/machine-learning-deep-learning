@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2609.19969v1
+
+[File]
+Name=2026_DeepSeekAI_DeepSeekV41Flash_en.pdf
+Work=DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression
+SizeBytes=1663475
+SHA256=0cfdda19c8e1691b5226dd0d4949e2397051268e8a823c2fb61db94ea20c4ac0
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2609.19969
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

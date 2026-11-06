@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2307.08691v1
+
+[File]
+Name=2023_Dao_FlashAttention2_en.pdf
+Work=FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning
+SizeBytes=1660578
+SHA256=4aa8935dfacaf6ae8c68f772ca92f730154a0dd0e1bceeb59c7bc56c512d5868
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2307.08691
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

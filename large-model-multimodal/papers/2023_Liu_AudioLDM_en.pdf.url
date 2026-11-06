@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2301.12503v3
+
+[File]
+Name=2023_Liu_AudioLDM_en.pdf
+Work=AudioLDM: Text-to-Audio Generation with Latent Diffusion Models
+SizeBytes=26718782
+SHA256=3021560ca71a1100df38d7da4e4db5b8ff72e063e25e6dbf775013ab2020fb69
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2301.12503
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

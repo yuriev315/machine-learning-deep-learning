@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2205.14135v2
+
+[File]
+Name=2022_Dao_FlashAttention_en.pdf
+Work=FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
+SizeBytes=2630825
+SHA256=ca7f9fda10b90fc05dd291a3accc85e9c1a4a860b99b31928dab03ed3fcb14e4
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2205.14135
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

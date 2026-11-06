@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2104.04473v5
+
+[File]
+Name=2021_Narayanan_EfficientLargeScaleLanguage_en.pdf
+Work=Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
+SizeBytes=1035739
+SHA256=7d78344f7fd322c901ad14046eeeaa9fd798416ad35190ffc6a6ecca0f7f79b0
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2104.04473
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv

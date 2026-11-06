@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=https://arxiv.org/pdf/2108.12409v2
+
+[File]
+Name=2021_Press_TrainShortTestLong_en.pdf
+Work=Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation
+SizeBytes=759030
+SHA256=26223f5ecbc5983d0cb183c5fd61d09c814247a57b855b2b15717009664db70a
+DirectDownload=yes
+Licence=arXiv non-exclusive licence
+SourcePage=https://arxiv.org/abs/2108.12409
+Note=Not stored in this repository: its licence does not grant redistribution. See release_status_cn.csv
