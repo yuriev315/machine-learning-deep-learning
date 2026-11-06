@@ -1,0 +1,1047 @@
+[
+ {
+  "sid": "02-001",
+  "arxiv": "2410.12656",
+  "title": "Evaluating Morphological Compositional Generalization in Large Language Models",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以黏着语（土耳其语、芬兰语等）考察大模型对新词形的形态组合泛化，是形态丰富小语种建模的核心评估。"
+ },
+ {
+  "sid": "02-002",
+  "arxiv": "2411.14198",
+  "title": "Why do language models perform worse for morphologically complex languages?",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "检验形态复杂语言建模表现较差的几种假说（分词对齐、字节预算等），对形态丰富小语种的建模设计有直接意义。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "主分类已由 06 类认领/列入种子；本类作为形态学与大模型方向的交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "02-003",
+  "arxiv": "2310.15113",
+  "title": "Counting the Bugs in ChatGPT's Wugs: A Multilingual Investigation into the Morphological Capabilities of a Large Language Model",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用新造词（wug 测试）跨多种语言检验大模型的形态能力，是 LLM 形态能力探测的代表工作。",
+  "old_reason": "LLM 形态能力多语言探测的代表性工作（2023-10-23，仅早于窗口 6 天），后续形态泛化研究多以其为起点。"
+ },
+ {
+  "sid": "02-004",
+  "arxiv": "2403.06399",
+  "title": "GlossLM: A Massively Multilingual Corpus and Pretrained Model for Interlinear Glossed Text",
+  "subtopic": "形态学与大模型",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建大规模多语言行间注释（IGT）语料并训练注释模型，直接服务濒危/低资源语言的语言记录。"
+ },
+ {
+  "sid": "02-005",
+  "arxiv": "2406.18895",
+  "title": "Can we teach language models to gloss endangered languages?",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "探索以上下文学习让大模型为濒危语言生成行间注释，比较示例选择策略。"
+ },
+ {
+  "sid": "02-006",
+  "arxiv": "2412.10960",
+  "title": "Can LLMs Help Create Grammar?: Automating Grammar Creation for Endangered Languages with In-Context Learning",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "尝试用大模型从有限双语/注释材料自动整理濒危语言语法描述。"
+ },
+ {
+  "sid": "02-007",
+  "arxiv": "2205.03608",
+  "title": "UniMorph 4.0: Universal Morphology",
+  "subtopic": "形态学与大模型",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "UniMorph 统一形态标注资源的最新大版本，覆盖大量低资源语言，是形态评测与数据的基础设施。",
+  "old_reason": "UniMorph 形态资源的现行主版本说明论文，近三年形态评测普遍依赖，没有更新的整体版本论文。"
+ },
+ {
+  "sid": "02-008",
+  "arxiv": "2401.06416",
+  "title": "Mission: Impossible Language Models",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "比较模型学习自然语言与“不可能语言”的难易，为“语言模型能否作为语言习得模型”提供实证；帮助理解模型对语言结构的归纳偏置。"
+ },
+ {
+  "sid": "02-009",
+  "arxiv": "2501.06346",
+  "title": "Large Language Models Share Representations of Latent Grammatical Concepts Across Typologically Diverse Languages",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用稀疏自编码器发现跨类型多样语言共享的语法概念特征，说明语法知识可跨语言共享。"
+ },
+ {
+  "sid": "02-010",
+  "arxiv": "2504.02768",
+  "title": "MultiBLiMP 1.0: A Massively Multilingual Benchmark of Linguistic Minimal Pairs",
+  "subtopic": "句法与语言能力探测",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "覆盖百余种语言的语言学最小对基准，可直接测小语种的形态句法一致能力。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "同时是评测基准"
+ },
+ {
+  "sid": "02-011",
+  "arxiv": "2410.09223",
+  "title": "The Same But Different: Structural Similarities and Differences in Multilingual Language Modeling",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用机制可解释性比较模型处理两种语言相同/不同形态句法过程时是否复用同一回路。"
+ },
+ {
+  "sid": "02-012",
+  "arxiv": "2409.12435",
+  "title": "Linguistic Minimal Pairs Elicit Linguistic Similarity in Large Language Models",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用最小对激活差异度量模型内部的语言相似性，并跨语言比较。"
+ },
+ {
+  "sid": "02-013",
+  "arxiv": "2408.07144",
+  "title": "Language Models as Models of Language",
+  "subtopic": "句法与语言能力探测",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "从理论语言学视角综述语言模型的句法、语义习得证据，是理解 LLM 语言能力的入门综述。"
+ },
+ {
+  "sid": "02-014",
+  "arxiv": "2406.04289",
+  "title": "What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以概率正则语言研究哪些语言性质让语言更难建模，为“不同语言建模难度不同”提供理论视角。"
+ },
+ {
+  "sid": "02-015",
+  "arxiv": "2404.18923",
+  "title": "Holmes: A Benchmark to Assess the Linguistic Competence of Language Models",
+  "subtopic": "句法与语言能力探测",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "系统评估语言模型的形态、句法、语义、语篇能力（英语），可作为构建小语种语言学探测的方法模板。",
+  "reserve": true
+ },
+ {
+  "sid": "02-016",
+  "arxiv": "2409.18472",
+  "title": "URIEL+: Enhancing Linguistic Inclusion and Usability in a Typological and Multilingual Knowledge Base",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "扩展 URIEL 类型学知识库的语言覆盖与可用性，用于语言距离计算与迁移语言选择。"
+ },
+ {
+  "sid": "02-017",
+  "arxiv": "2501.14491",
+  "title": "Analyzing the Effect of Linguistic Similarity on Cross-Lingual Transfer: Tasks and Experimental Setups Matter",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "大规模分析语言相似度（多种度量）与跨语言迁移效果的关系，指导小语种选择源语言。"
+ },
+ {
+  "sid": "02-018",
+  "arxiv": "2402.04222",
+  "title": "What is \"Typologically Diverse\" in NLP?",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "审视 NLP 论文中“类型学多样”说法的依据并给出度量，帮助小语种研究合理选取评测语言。"
+ },
+ {
+  "sid": "02-019",
+  "arxiv": "2407.05022",
+  "title": "A Principled Framework for Evaluating on Typologically Diverse Languages",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出基于类型学的评测语言抽样框架，提高多语言评测的代表性。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测语言选择方法"
+ },
+ {
+  "sid": "02-020",
+  "arxiv": "2410.07809",
+  "title": "No Optimal Language Set Exists for Multilingual Instruction Tuning: Insights from a Linguistically-Informed Analysis",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以语言学特征分析多语言指令微调的语言集选择。",
+  "reserve": true,
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "指令微调语言选择"
+ },
+ {
+  "sid": "02-021",
+  "arxiv": "2401.14280",
+  "title": "RomanSetu: Efficiently unlocking multilingual capabilities of Large Language Models via Romanization",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以罗马化文本作为非拉丁文字语言与英语模型间的桥梁进行持续预训练与微调，代表文字系统路线。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 06 类认领/列入种子；本类作为文字系统、音译与罗马化方向的交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "02-022",
+  "arxiv": "2401.06620",
+  "title": "TransliCo: A Contrastive Learning Framework to Address the Script Barrier in Multilingual Pretrained Language Models",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用音译对比学习缓解多语言模型中的文字壁垒，提升同语言不同文字/相关语言间的对齐。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 06 类认领/列入种子；本类作为文字系统、音译与罗马化方向的交叉标签"
+ },
+ {
+  "sid": "02-023",
+  "arxiv": "2407.02320",
+  "title": "Exploring the Role of Transliteration in In-Context Learning for Low-resource Languages Written in Non-Latin Scripts",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较原文字、拉丁音译及组合提示对非拉丁文字低资源语言上下文学习的影响。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 06 类认领/列入种子；本类作为文字系统、音译与罗马化方向的交叉标签"
+ },
+ {
+  "sid": "02-024",
+  "arxiv": "2406.19759",
+  "title": "Breaking the Script Barrier in Multilingual Pre-Trained Language Models with Transliteration-Based Post-Training Alignment",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "基于音译的后训练对齐，改善不同文字的相关语言之间的跨语言迁移。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 06 类认领/列入种子；本类作为文字系统、音译与罗马化方向的交叉标签"
+ },
+ {
+  "sid": "02-025",
+  "arxiv": "2411.02398",
+  "title": "Prompting with Phonemes: Enhancing LLMs' Multilinguality for Non-Latin Script Languages",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "引入音素表示作为非拉丁文字语言的补充提示信号，探讨文字差异造成的性能差距。"
+ },
+ {
+  "sid": "02-026",
+  "arxiv": "2401.05632",
+  "title": "Natural Language Processing for Dialects of a Language: A Survey",
+  "subtopic": "方言与语言变体",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统综述方言 NLP 的任务、数据与方法，是方言/变体方向的入门综述。"
+ },
+ {
+  "sid": "02-027",
+  "arxiv": "2403.11009",
+  "title": "DIALECTBENCH: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages",
+  "subtopic": "方言与语言变体",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "首个大规模方言与近缘语言 NLP 基准，量化标准变体与方言变体间的性能差距。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "02-028",
+  "arxiv": "2403.00742",
+  "title": "Dialect prejudice predicts AI decisions about people's character, employability, and criminality",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "揭示语言模型对非裔美国英语方言的隐性偏见，说明方言变体在模型中的社会影响。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "涉及偏见与安全"
+ },
+ {
+  "sid": "02-029",
+  "arxiv": "2406.08726",
+  "title": "Standard Language Ideology in AI-Generated Language",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从社会语言学角度讨论模型输出偏向标准语变体的问题，与方言及少数语言变体使用者直接相关。"
+ },
+ {
+  "sid": "02-030",
+  "arxiv": "2411.02460",
+  "title": "Code-Switching Curriculum Learning for Multilingual Transfer in LLMs",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "借鉴二语习得中的语码转换，设计由语码转换到单语的课程以增强跨语言迁移。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 07 类认领/列入种子；本类作为语码转换（code-switching）方向的交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "02-031",
+  "arxiv": "2410.22660",
+  "title": "Linguistics Theory Meets LLM: Code-Switched Text Generation via Equivalence Constrained Large Language Model Prompting",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把语码转换的“等价约束”语言学理论融入大模型提示，生成更自然的语码转换文本。"
+ },
+ {
+  "sid": "02-032",
+  "arxiv": "2506.14012",
+  "title": "Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统评估大模型理解语码转换文本的能力。"
+ },
+ {
+  "sid": "02-033",
+  "arxiv": "2510.05678",
+  "title": "Gradual Code-Switching as Inference-Time Cross-Lingual Representational Alignment for LLMs",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在推理时用渐进语码转换实现跨语言表示对齐，连接语码转换与跨语言迁移。"
+ },
+ {
+  "sid": "02-034",
+  "arxiv": "2410.20817",
+  "title": "The Zeno's Paradox of `Low-Resource' Languages",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析 NLP 文献中“低资源语言”的不同定义及其后果，帮助本库区分“小语种”与“低资源”。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 04 类认领/列入种子；本类作为语言多样性与 NLP 不平等方向的交叉标签"
+ },
+ {
+  "sid": "02-035",
+  "arxiv": "2311.08391",
+  "title": "A Material Lens on Coloniality in NLP",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从物质与殖民性视角分析 NLP 资源与语言不平等的结构性来源。"
+ },
+ {
+  "sid": "02-036",
+  "arxiv": "2412.04497",
+  "title": "Opportunities and Challenges of Large Language Models for Low-Resource Languages in Humanities Research",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "综述大模型在低资源语言人文研究（语言学、历史、文化遗产等）中的机遇与挑战。"
+ },
+ {
+  "sid": "02-037",
+  "arxiv": "2404.11553",
+  "title": "Language Ranker: A Metric for Quantifying LLM Performance Across High and Low-Resource Languages",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出以表示相似度量化模型在不同资源语言上表现差距的指标。",
+  "reserve": true,
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测指标"
+ },
+ {
+  "sid": "02-038",
+  "arxiv": "2004.09095",
+  "title": "The State and Fate of Linguistic Diversity and Inclusion in the NLP World",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出按资源量划分世界语言的 0–5 等级分类，是讨论 NLP 语言不平等最常引用的框架。",
+  "old_reason": "语言资源分级（Joshi 等级）的奠基工作，近三年小语种论文普遍沿用该分级定义资源条件。"
+ },
+ {
+  "sid": "02-039",
+  "arxiv": "2409.19151",
+  "title": "Can LLMs Really Learn to Translate a Low-Resource Language from One Grammar Book?",
+  "subtopic": "语言学推理与语言记录",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "拆解语法书中解释性语法知识与平行例句对低资源语言翻译的各自贡献，对利用语言学文献辅助小语种有重要启示。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类已由 09 类认领/列入种子；本类作为语言学推理与语言记录方向的交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "02-040",
+  "arxiv": "2406.06196",
+  "title": "LINGOLY: A Benchmark of Olympiad-Level Linguistic Reasoning Puzzles in Low-Resource and Extinct Languages",
+  "subtopic": "语言学推理与语言记录",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以低资源与已灭绝语言的语言学奥赛题测试大模型的语言学推理，减少记忆污染。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "02-041",
+  "arxiv": "2409.12126",
+  "title": "Linguini: A benchmark for language-agnostic linguistic reasoning",
+  "subtopic": "语言学推理与语言记录",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以多种低资源语言的语言学题目测试与语言无关的语言学推理能力。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "02-042",
+  "arxiv": "2406.17038",
+  "title": "modeLing: A Novel Dataset for Testing Linguistic Reasoning in Language Models",
+  "subtopic": "语言学推理与语言记录",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以新编语言学奥赛风格题测试少样本语言学推理。",
+  "reserve": true
+ },
+ {
+  "sid": "02-043",
+  "arxiv": "2004.10643",
+  "title": "Universal Dependencies v2: An Evergrowing Multilingual Treebank Collection",
+  "subtopic": "资源与基础设施",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "Universal Dependencies v2 的总体说明，统一跨语言依存标注，是众多小语种句法资源的来源。",
+  "old_reason": "UD v2 是现行多语言依存树库的统一标注规范说明，近三年 UD 相关工作均基于此，无更新的总体论文。"
+ },
+ {
+  "sid": "02-044",
+  "arxiv": "2412.05149",
+  "title": "Findings of the Second BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora",
+  "subtopic": "资源与基础设施",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "总结在约 1 亿词规模数据上样本高效预训练的方法，与小语种数据受限的预训练直接可比。"
+ },
+ {
+  "sid": "02-045",
+  "arxiv": "2506.05227",
+  "title": "Improving Low-Resource Morphological Inflection via Self-Supervised Objectives",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在极低资源条件下用自监督目标改进形态屈折生成，覆盖多种类型学多样语言。"
+ },
+ {
+  "sid": "02-046",
+  "arxiv": "2601.10925",
+  "title": "Massively Multilingual Joint Segmentation and Glossing",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "联合进行语素切分与行间注释的大规模多语言模型，服务语言记录。"
+ },
+ {
+  "sid": "02-047",
+  "arxiv": "2502.09778",
+  "title": "Prompt and circumstance: A word-by-word LLM prompting approach to interlinear glossing for low-resource languages",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以逐词检索增强提示让大模型为低资源语言生成行间注释。"
+ },
+ {
+  "sid": "02-048",
+  "arxiv": "2603.00923",
+  "title": "Hybrid Neural-LLM Pipeline for Morphological Glossing in Endangered Language Documentation: A Case Study of Jungar Tuvan",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以准噶尔图瓦语为案例，结合神经模型与大模型做形态注释。",
+  "reserve": true
+ },
+ {
+  "sid": "02-049",
+  "arxiv": "2403.08189",
+  "title": "Embedded Translations for Low-resource Automated Glossing",
+  "subtopic": "形态学与大模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "利用译文嵌入辅助低资源语言自动行间注释。",
+  "reserve": true
+ },
+ {
+  "sid": "02-050",
+  "arxiv": "2511.00343",
+  "title": "LingGym: How Far Are LLMs from Thinking Like Field Linguists?",
+  "subtopic": "语言学推理与语言记录",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以参考语法与行间注释数据测试大模型像田野语言学家一样做元语言推理的能力。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "02-051",
+  "arxiv": "2609.07791",
+  "title": "LLM Agents as Computational Typologists",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "让大模型智能体从语言描述材料中提取类型学特征，连接类型学数据库与大模型。"
+ },
+ {
+  "sid": "02-052",
+  "arxiv": "2506.09983",
+  "title": "Step-by-step Instructions and a Simple Tabular Output Format Improve the Dependency Parsing Accuracy of LLMs",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究以分步指令和表格输出格式提升大模型依存句法分析（UD）精度，覆盖多种语言。"
+ },
+ {
+  "sid": "02-053",
+  "arxiv": "2510.20957",
+  "title": "Irish-BLiMP: A Linguistic Benchmark for Evaluating Human and Language Model Performance in a Low-Resource Setting",
+  "subtopic": "句法与语言能力探测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为爱尔兰语构建语言学最小对基准并与人类表现比较，是小语种语言学评测的案例。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "02-054",
+  "arxiv": "2404.18810",
+  "title": "Unknown Script: Impact of Script on Cross-Lingual Transfer",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析目标语言文字是否被预训练覆盖对跨语言迁移的影响，直接关系到非拉丁/稀有文字小语种。"
+ },
+ {
+  "sid": "02-055",
+  "arxiv": "2604.05090",
+  "title": "Multilingual Language Models Encode Script Over Linguistic Structure",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "发现多语言模型表示更多按文字而非语言结构组织，对跨文字迁移有警示意义。"
+ },
+ {
+  "sid": "02-056",
+  "arxiv": "2608.25904",
+  "title": "One Form to Transfer Them All: Pretraining Multilingual Language Models Beyond Native Orthography",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究以统一书写形式（超越原生正字法）预训练多语言模型以促进跨文字迁移。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "预训练方案"
+ },
+ {
+  "sid": "02-057",
+  "arxiv": "2412.00218",
+  "title": "NushuRescue: Revitalization of the Endangered Nushu Language with AI",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以濒危女书文字为对象，探索大模型在极少资源文字复兴中的作用。"
+ },
+ {
+  "sid": "02-058",
+  "arxiv": "2311.18034",
+  "title": "Hyperpolyglot LLMs: Cross-Lingual Interpretability in Token Embeddings",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析多语言模型词元嵌入中按文字与语系形成的结构，连接表示与语言谱系/文字系统。"
+ },
+ {
+  "sid": "02-059",
+  "arxiv": "2510.07037",
+  "title": "Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large Language Models across Modalities",
+  "subtopic": "语码转换（code-switching）",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统综述大模型时代的语码转换 NLP（文本与多模态），是该方向的最新入门综述。"
+ },
+ {
+  "sid": "02-060",
+  "arxiv": "2504.01801",
+  "title": "Investigating and Scaling up Code-Switching for Multilingual Language Model Pre-Training",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析预训练语料中自然出现的语码转换对跨语言对齐的作用，并合成语码转换数据扩展预训练。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "预训练数据"
+ },
+ {
+  "sid": "02-061",
+  "arxiv": "2410.18436",
+  "title": "Can Code-Switched Texts Activate a Knowledge Switch in LLMs? A Case Study on English-Korean Code-Switching",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以英韩语码转换为例研究语码转换文本能否激活模型中的语言特定知识。"
+ },
+ {
+  "sid": "02-062",
+  "arxiv": "2606.19668",
+  "title": "Code-Switching Reveals Language Anchoring in Multilingual LLMs",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用语码转换探查多语言模型的语言锚定行为。"
+ },
+ {
+  "sid": "02-063",
+  "arxiv": "2506.01840",
+  "title": "Minimal Pair-Based Evaluation of Code-Switching",
+  "subtopic": "语码转换（code-switching）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以最小对方法评估模型对语码转换合法位置的判断，并与双语者判断比较。"
+ },
+ {
+  "sid": "02-064",
+  "arxiv": "2512.03334",
+  "title": "Modeling Topics and Sociolinguistic Variation in Code-Switched Discourse: Insights from Spanish-English and Spanish-Guarani",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以西英与西班牙语—瓜拉尼语语码转换语篇研究话题与社会语言学变异。"
+ },
+ {
+  "sid": "02-065",
+  "arxiv": "2604.15490",
+  "title": "Think Multilingual, Not Harder: A Framework for Analyzing and Teaching Code-Switched Reasoning",
+  "subtopic": "语码转换（code-switching）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析并训练推理链中的语码转换行为。",
+  "reserve": true,
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "推理"
+ },
+ {
+  "sid": "02-066",
+  "arxiv": "2510.00962",
+  "title": "Analyzing Dialectical Biases in LLMs for Knowledge and Reasoning Benchmarks",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把标准英语题目改写为方言变体，分析方言造成的知识与推理表现下降。"
+ },
+ {
+  "sid": "02-067",
+  "arxiv": "2404.08092",
+  "title": "Data-Augmentation-Based Dialectal Adaptation for LLMs",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以数据增强把大模型适配到南斯拉夫方言变体（VarDial 任务），是方言适配案例。"
+ },
+ {
+  "sid": "02-068",
+  "arxiv": "2510.22747",
+  "title": "Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以法语方言（魁北克法语等）为例研究低资源方言的持续预训练适配。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "02-069",
+  "arxiv": "2412.04193",
+  "title": "AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统评估大模型生成阿拉伯语方言的保真度、理解与质量，区分方言与标准语输出。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测"
+ },
+ {
+  "sid": "02-070",
+  "arxiv": "2504.05898",
+  "title": "Assessing Thai Dialect Performance in LLMs with Automatic Benchmarks and Human Evaluation",
+  "subtopic": "方言与语言变体",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为泰语地方方言构建评测并结合人工评价分析大模型方言能力。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测"
+ },
+ {
+  "sid": "02-071",
+  "arxiv": "2608.10414",
+  "title": "How Robust Are LLMs to Vietnamese Dialects?",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估大模型对越南语方言的鲁棒性。"
+ },
+ {
+  "sid": "02-072",
+  "arxiv": "2506.08907",
+  "title": "Dialect Normalization using Large Language Models and Morphological Rules",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "结合大模型与形态规则把方言文本规范化为标准语，以希腊方言为例。"
+ },
+ {
+  "sid": "02-073",
+  "arxiv": "2311.00915",
+  "title": "Task-Agnostic Low-Rank Adapters for Unseen English Dialects",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "利用语言学特征生成适配器以泛化到未见英语方言。",
+  "reserve": true
+ },
+ {
+  "sid": "02-074",
+  "arxiv": "2502.12858",
+  "title": "Rejected Dialects: Biases Against African American Language in Reward Models",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "揭示奖励模型对非裔美国英语的偏见。",
+  "reserve": true,
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "偏好对齐中的方言偏见"
+ },
+ {
+  "sid": "02-075",
+  "arxiv": "2610.30296",
+  "title": "Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "量化低资源语言 NLP 研究进展与语言包容度。"
+ },
+ {
+  "sid": "02-076",
+  "arxiv": "2605.19066",
+  "title": "The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "回顾十年低资源 NLP 评测中的标注稀缺问题及其约束。"
+ },
+ {
+  "sid": "02-077",
+  "arxiv": "2504.01522",
+  "title": "Redefining technology for indigenous languages",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从原住民语言社区视角重新界定语言技术的目标与伦理。"
+ },
+ {
+  "sid": "02-078",
+  "arxiv": "2407.12620",
+  "title": "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "总结以 AI（含大模型）支持濒危原住民语言（巴西等）复兴的技术与经验。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 04 类认领/列入种子；本类作为语言多样性与 NLP 不平等方向的交叉标签"
+ },
+ {
+  "sid": "02-079",
+  "arxiv": "2505.04531",
+  "title": "Overcoming Data Scarcity in Generative Language Modelling for Low-Resource Languages: A Systematic Review",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "系统综述低资源语言生成式建模中应对数据稀缺的方法。",
+  "reserve": true
+ },
+ {
+  "sid": "02-080",
+  "arxiv": "2609.09964",
+  "title": "5-Dialects-BN: Unmasking the Impact of Transliteration on Bangla Dialectal LLMs",
+  "subtopic": "方言与语言变体",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究音译对孟加拉语方言大模型的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "02-081",
+  "arxiv": "2601.16629",
+  "title": "Typologically Informed Parameter Aggregation",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "按类型学相似度聚合语言特定参数以服务未见/低资源语言，把类型学知识直接用于跨语言迁移。"
+ },
+ {
+  "sid": "02-082",
+  "arxiv": "2601.21587",
+  "title": "A Study of Crosslinguistic Influence in Language Models",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "借鉴二语习得中的“跨语言影响”概念研究语言模型中语言间的相互影响。"
+ },
+ {
+  "sid": "02-083",
+  "arxiv": "2605.10714",
+  "title": "Why Low-Resource NLP Needs More Than Cross-Lingual Transfer: Lessons Learned from Luxembourgish",
+  "subtopic": "语言多样性与 NLP 不平等",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以卢森堡语为例总结仅依赖跨语言迁移的局限，讨论小语种所需的原生资源。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 04 类认领/列入种子；本类作为语言多样性与 NLP 不平等方向的交叉标签"
+ },
+ {
+  "sid": "02-084",
+  "arxiv": "2311.07497",
+  "title": "Multilingual Nonce Dependency Treebanks: Understanding how Language Models represent and process syntactic structure",
+  "subtopic": "句法与语言能力探测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "基于 UD 构建多语言“无意义词”依存树库，用于区分模型的句法与语义处理。"
+ },
+ {
+  "sid": "02-085",
+  "arxiv": "2506.07274",
+  "title": "Parsing the Switch: LLM-Based UD Annotation for Complex Code-Switched and Low-Resource Languages",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用大模型为语码转换与低资源语言生成 UD 依存标注，连接语码转换与句法资源建设。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "以大模型生成标注数据"
+ },
+ {
+  "sid": "02-086",
+  "arxiv": "2601.05776",
+  "title": "One Script Instead of Hundreds? On Pretraining Romanized Encoder Language Models",
+  "subtopic": "文字系统、音译与罗马化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究以统一罗马化文字预训练编码器模型的利弊，量化罗马化带来的信息损失与迁移收益。"
+ },
+ {
+  "sid": "02-087",
+  "arxiv": "2505.13908",
+  "title": "Cross-Linguistic Transfer in Multilingual NLP: The Role of Language Families and Morphology",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析语系与形态特征对跨语言迁移的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "02-088",
+  "arxiv": "2603.00432",
+  "title": "A Typologically Grounded Evaluation Framework for Word Order and Morphology Sensitivity in Multilingual Masked LMs",
+  "subtopic": "句法与语言能力探测",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以类型学为基础评估多语言掩码模型对语序与形态的敏感度。",
+  "reserve": true
+ },
+ {
+  "sid": "02-089",
+  "arxiv": "2512.00214",
+  "title": "Towards Corpus-Grounded Agentic LLMs for Multilingual Grammatical Analysis",
+  "subtopic": "语言学推理与语言记录",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以语料为依据的智能体大模型做多语言语法分析。",
+  "reserve": true
+ },
+ {
+  "sid": "02-090",
+  "arxiv": "2610.20102",
+  "title": "Language Exposure Matters: Distribution and Order in Multilingual BabyLM Pre-training",
+  "subtopic": "资源与基础设施",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究多语言小数据（BabyLM）预训练中语言暴露分布与顺序的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "02-091",
+  "arxiv": "2402.14411",
+  "title": "J-UniMorph: Japanese Morphological Annotation through the Universal Feature Schema",
+  "subtopic": "形态学与大模型",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "按 UniMorph 通用特征体系为日语构建形态标注。",
+  "reserve": true
+ },
+ {
+  "sid": "02-092",
+  "arxiv": "2507.20279",
+  "title": "What Language(s) Does Aya-23 Think In? How Multilinguality Affects Internal Language Representations",
+  "subtopic": "语言类型学与跨语言迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "比较多语言均衡训练模型的内部语言表示与以英语为中心模型的差异。",
+  "reserve": true
+ }
+]

@@ -1,0 +1,4574 @@
+{
+ "18-001": {
+  "sid": "18-001",
+  "time": "2026-10-29 15:38:13",
+  "files": [
+   {
+    "path": "books/Deisenroth_MathematicsForMachineLearning_2020_en.pdf",
+    "url": "https://mml-book.github.io/book/mml-book.pdf",
+    "final_url": "https://mml-book.github.io/book/mml-book.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 17565898,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 417,
+     "sample_chars": 6419
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "3f87b70c64a35d30ec4e565b4d5cfd18fe913002d3b3bed44691c7d0838911bc"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Deisenroth_MathematicsForMachineLearning_2020_en.pdf"
+  ],
+  "book_check": {
+   "pages": 417,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 400
+  },
+  "local_path": "books/Deisenroth_MathematicsForMachineLearning_2020_en.pdf",
+  "pack_sha256": "3f87b70c64a35d30ec4e565b4d5cfd18fe913002d3b3bed44691c7d0838911bc",
+  "status": "verified"
+ },
+ "18-002": {
+  "sid": "18-002",
+  "time": "2026-10-29 15:38:13",
+  "files": [
+   {
+    "path": "books/Boyd_ConvexOptimization_2004_en.pdf",
+    "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+    "final_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 6881335,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 714,
+     "sample_chars": 1670
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Boyd_ConvexOptimization_2004_en.pdf"
+  ],
+  "book_check": {
+   "pages": 714,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 700
+  },
+  "local_path": "books/Boyd_ConvexOptimization_2004_en.pdf",
+  "pack_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+  "status": "verified"
+ },
+ "18-003": {
+  "sid": "18-003",
+  "time": "2026-10-29 15:38:14",
+  "files": [
+   {
+    "path": "books/Boyd_IntroductionAppliedLinearAlgebra_2018_en.pdf",
+    "url": "https://web.stanford.edu/~boyd/vmls/vmls.pdf",
+    "final_url": "https://web.stanford.edu/~boyd/vmls/vmls.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 7061628,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 473,
+     "sample_chars": 3803
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "254738c8763f6c6fc29c0a837884bc58deca7c3e762e5ec79068208ac7214362"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Boyd_IntroductionAppliedLinearAlgebra_2018_en.pdf"
+  ],
+  "book_check": {
+   "pages": 473,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 450
+  },
+  "local_path": "books/Boyd_IntroductionAppliedLinearAlgebra_2018_en.pdf",
+  "pack_sha256": "254738c8763f6c6fc29c0a837884bc58deca7c3e762e5ec79068208ac7214362",
+  "status": "verified"
+ },
+ "18-004": {
+  "sid": "18-004",
+  "time": "2026-10-29 15:38:15",
+  "files": [
+   {
+    "path": "books/MacKay_InformationTheoryInferenceLearning_2003_en.pdf",
+    "url": "https://www.inference.org.uk/itprnn/book.pdf",
+    "final_url": "https://www.inference.org.uk/itprnn/book.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 11675219,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 640,
+     "sample_chars": 11943
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "868adc5f0ef6630366b122d88d691acfbe8339978b4ec3f38fca5e231f135791"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/MacKay_InformationTheoryInferenceLearning_2003_en.pdf"
+  ],
+  "book_check": {
+   "pages": 640,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 600
+  },
+  "local_path": "books/MacKay_InformationTheoryInferenceLearning_2003_en.pdf",
+  "pack_sha256": "868adc5f0ef6630366b122d88d691acfbe8339978b4ec3f38fca5e231f135791",
+  "status": "verified"
+ },
+ "18-005": {
+  "sid": "18-005",
+  "time": "2026-10-29 15:38:16",
+  "files": [
+   {
+    "path": "books/Vershynin_HighDimensionalProbability_2ndEd_en.pdf",
+    "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+    "final_url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 5634996,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 341,
+     "sample_chars": 4023
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "6a13eea20e3749e01a421a1aa722e90963e70f5e1ba462281b45ffdbc26800f6"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Vershynin_HighDimensionalProbability_2ndEd_en.pdf"
+  ],
+  "book_check": {
+   "pages": 341,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 300
+  },
+  "local_path": "books/Vershynin_HighDimensionalProbability_2ndEd_en.pdf",
+  "pack_sha256": "6a13eea20e3749e01a421a1aa722e90963e70f5e1ba462281b45ffdbc26800f6",
+  "status": "verified"
+ },
+ "18-006": {
+  "sid": "18-006",
+  "time": "2026-10-29 15:38:18",
+  "files": [
+   {
+    "path": "books/Polyanskiy_InformationTheoryCodingToLearning_2025_en.pdf",
+    "url": "https://people.lids.mit.edu/yp/homepage/data/itbook-export.pdf",
+    "final_url": "https://people.lids.mit.edu/yp/homepage/data/itbook-export.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 5523972,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 730,
+     "sample_chars": 7743
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "c76c5cd867818ef66e9d63c2f899dccdff9a501456160df153d0fa981db83de3"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Polyanskiy_InformationTheoryCodingToLearning_2025_en.pdf"
+  ],
+  "book_check": {
+   "pages": 730,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 650
+  },
+  "local_path": "books/Polyanskiy_InformationTheoryCodingToLearning_2025_en.pdf",
+  "pack_sha256": "c76c5cd867818ef66e9d63c2f899dccdff9a501456160df153d0fa981db83de3",
+  "status": "verified"
+ },
+ "18-007": {
+  "sid": "18-007",
+  "time": "2026-10-29 15:38:19",
+  "files": [
+   {
+    "path": "books/Axler_LinearAlgebraDoneRight_4thEd_en.pdf",
+    "url": "https://linear.axler.net/LADR4e.pdf",
+    "final_url": "https://linear.axler.net/LADR4e.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 2795184,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 404,
+     "sample_chars": 7684
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "2c79b287b11abbfd49f3c73beef3055cff3ba3975474600d4b931eab778863ec"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Axler_LinearAlgebraDoneRight_4thEd_en.pdf"
+  ],
+  "book_check": {
+   "pages": 404,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 380
+  },
+  "local_path": "books/Axler_LinearAlgebraDoneRight_4thEd_en.pdf",
+  "pack_sha256": "2c79b287b11abbfd49f3c73beef3055cff3ba3975474600d4b931eab778863ec",
+  "status": "verified"
+ },
+ "18-008": {
+  "sid": "18-008",
+  "time": "2026-10-29 15:38:20",
+  "files": [
+   {
+    "path": "books/Kochenderfer_AlgorithmsForOptimization_2ndEd_en.pdf",
+    "url": "https://drive.google.com/uc?export=download&id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp",
+    "final_url": "https://drive.google.com/uc?export=download&id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 18967454,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 634,
+     "sample_chars": 2269
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "874e643064b827597a7fd872144df91ebc68092fb68121f828b7f71a18799bd4"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Kochenderfer_AlgorithmsForOptimization_2ndEd_en.pdf"
+  ],
+  "book_check": {
+   "pages": 634,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 600
+  },
+  "local_path": "books/Kochenderfer_AlgorithmsForOptimization_2ndEd_en.pdf",
+  "pack_sha256": "874e643064b827597a7fd872144df91ebc68092fb68121f828b7f71a18799bd4",
+  "status": "verified"
+ },
+ "18-009": {
+  "sid": "18-009",
+  "time": "2026-10-29 15:38:21",
+  "files": [
+   {
+    "path": "books/Murphy_ProbabilisticMLIntroduction_2022_en.pdf",
+    "url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+    "final_url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 92323940,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 860,
+     "sample_chars": 7327
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "89749245bc8065d7575f990815c621a091de3facca1585168fc0369542742dcf"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Murphy_ProbabilisticMachineLearningIntroduction_2022_en.pdf"
+  ],
+  "book_check": {
+   "pages": 860,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 800
+  },
+  "local_path": "books/Murphy_ProbabilisticMLIntroduction_2022_en.pdf",
+  "pack_sha256": "89749245bc8065d7575f990815c621a091de3facca1585168fc0369542742dcf",
+  "status": "verified"
+ },
+ "18-010": {
+  "sid": "18-010",
+  "time": "2026-10-29 15:38:22",
+  "files": [
+   {
+    "path": "books/Murphy_ProbabilisticMLAdvancedTopics_2023_en.pdf",
+    "url": "https://github.com/probml/pml2-book/releases/latest/download/book2.pdf",
+    "final_url": "https://github.com/probml/pml2-book/releases/latest/download/book2.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 151421194,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 1370,
+     "sample_chars": 3168
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "54d6bfa8cc4a367bb553bea1c5127ca63696a9655b2ca1f6137a8584dccfdbaf"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Murphy_ProbabilisticMLAdvancedTopics_en.pdf"
+  ],
+  "book_check": {
+   "pages": 1370,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 1300
+  },
+  "local_path": "books/Murphy_ProbabilisticMLAdvancedTopics_2023_en.pdf",
+  "pack_sha256": "54d6bfa8cc4a367bb553bea1c5127ca63696a9655b2ca1f6137a8584dccfdbaf",
+  "status": "verified"
+ },
+ "18-011": {
+  "sid": "18-011",
+  "time": "2026-10-29 15:38:25",
+  "files": [
+   {
+    "path": "books/Prince_UnderstandingDeepLearning_v5.0.3_en.pdf",
+    "url": "https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf",
+    "final_url": "https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 22344992,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 541,
+     "sample_chars": 3747
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "f8237d393163900fa8e43210e680a3f987b45ccac7750b372e156fae3df0bf32"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Prince_UnderstandingDeepLearning_v5.0.3_en.pdf"
+  ],
+  "book_check": {
+   "pages": 541,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 500
+  },
+  "local_path": "books/Prince_UnderstandingDeepLearning_v5.0.3_en.pdf",
+  "pack_sha256": "f8237d393163900fa8e43210e680a3f987b45ccac7750b372e156fae3df0bf32",
+  "status": "verified"
+ },
+ "18-012": {
+  "sid": "18-012",
+  "time": "2026-10-29 15:38:27",
+  "files": [
+   {
+    "path": "books/Zhang_DiveIntoDeepLearning_2023_en.pdf",
+    "url": "https://d2l.ai/d2l-en.pdf",
+    "final_url": "https://d2l.ai/d2l-en.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 44685994,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 1151,
+     "sample_chars": 2701
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "b3129f44c4a26b534176bb0f83d85e1ed26a6cdf93ebebacb20104eab2d6bc00"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Zhang_DiveIntoDeepLearning_en.pdf"
+  ],
+  "book_check": {
+   "pages": 1151,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 1100
+  },
+  "local_path": "books/Zhang_DiveIntoDeepLearning_2023_en.pdf",
+  "pack_sha256": "b3129f44c4a26b534176bb0f83d85e1ed26a6cdf93ebebacb20104eab2d6bc00",
+  "status": "verified"
+ },
+ "18-013": {
+  "sid": "18-013",
+  "time": "2026-10-29 15:38:29",
+  "files": [
+   {
+    "path": "books/Bach_LearningTheoryFirstPrinciples_2024_en.pdf",
+    "url": "https://www.di.ens.fr/~fbach/ltfp_book.pdf",
+    "final_url": "https://www.di.ens.fr/~fbach/ltfp_book.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 12490444,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 488,
+     "sample_chars": 6651
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "5e7840c545d24aaf21a1ea5fbddd76e78153de0a9a952f56810a8618a9fc9e06"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Bach_LearningTheoryFirstPrinciples_2024_en.pdf"
+  ],
+  "book_check": {
+   "pages": 488,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 450
+  },
+  "local_path": "books/Bach_LearningTheoryFirstPrinciples_2024_en.pdf",
+  "pack_sha256": "5e7840c545d24aaf21a1ea5fbddd76e78153de0a9a952f56810a8618a9fc9e06",
+  "status": "verified"
+ },
+ "18-014": {
+  "sid": "18-014",
+  "time": "2026-10-29 15:38:30",
+  "files": [
+   {
+    "path": "books/Fleuret_LittleBookOfDeepLearning_2023_en.pdf",
+    "url": "https://fleuret.org/public/lbdl.pdf",
+    "final_url": "https://fleuret.org/public/lbdl.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 4747258,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 189,
+     "sample_chars": 1484
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "a5dcbff3eb090dc55bd05d969f610c97a63983d6c07bd736c06d24132019e5e6"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Fleuret_LittleBookOfDeepLearning_en.pdf"
+  ],
+  "book_check": {
+   "pages": 189,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Fleuret_LittleBookOfDeepLearning_2023_en.pdf",
+  "pack_sha256": "a5dcbff3eb090dc55bd05d969f610c97a63983d6c07bd736c06d24132019e5e6",
+  "status": "verified"
+ },
+ "18-015": {
+  "sid": "18-015",
+  "time": "2026-10-29 15:38:30",
+  "files": [
+   {
+    "path": "books/Scardapane_AlicesAdventuresDifferentiableWonderland_v3_en.pdf",
+    "url": "https://arxiv.org/pdf/2404.17625v3",
+    "final_url": "https://arxiv.org/pdf/2404.17625v3",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 17034739,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 378,
+     "sample_chars": 3509
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "f6bd1280e7cdd281be84ba3177704b7039903f337d942570d326de3496878262"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2404.17625",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Scardapane_AlicesAdventuresDifferentiableWonderland_v3_en.pdf"
+  ],
+  "book_check": {
+   "pages": 378,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 300
+  },
+  "local_path": "books/Scardapane_AlicesAdventuresDifferentiableWonderland_v3_en.pdf",
+  "pack_sha256": "f6bd1280e7cdd281be84ba3177704b7039903f337d942570d326de3496878262",
+  "status": "verified"
+ },
+ "18-016": {
+  "sid": "18-016",
+  "time": "2026-10-29 15:38:31",
+  "files": [
+   {
+    "path": "books/Blondel_ElementsOfDifferentiableProgramming_v4_en.pdf",
+    "url": "https://arxiv.org/pdf/2403.14606v4",
+    "final_url": "https://arxiv.org/pdf/2403.14606v4",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 7451044,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 492,
+     "sample_chars": 5960
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "a6998856ff15c5c417c0704b92cc3cf2c8a0fbda34b8afa3bbdadb63103a5f7d"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2403.14606",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Blondel_ElementsOfDifferentiableProgramming_2024_en.pdf"
+  ],
+  "book_check": {
+   "pages": 492,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 450
+  },
+  "local_path": "books/Blondel_ElementsOfDifferentiableProgramming_v4_en.pdf",
+  "pack_sha256": "a6998856ff15c5c417c0704b92cc3cf2c8a0fbda34b8afa3bbdadb63103a5f7d",
+  "status": "verified"
+ },
+ "18-017": {
+  "sid": "18-017",
+  "time": "2026-10-29 15:38:32",
+  "files": [
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/acknowledgements.html",
+    "ok": true,
+    "sha256": "f108a3e0e77821ed14c7c13b93ae9921f05d670d4bc689e931fd35ceb5bb384d",
+    "bytes": 166498,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/applications.html",
+    "ok": true,
+    "sha256": "261ef054d6ff34314fdaf6c6252225e384b0b223175de66e99340ec961d18f8f",
+    "bytes": 2775684,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/autoencoders.html",
+    "ok": true,
+    "sha256": "6105f0e77a30ac341064a26cdbcb7ce0da7e9e282b745814cbe478dec2eca1af",
+    "bytes": 2465913,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/bib.html",
+    "ok": true,
+    "sha256": "9cdb712730a1b969c329b2952283b6c24a10c6801d8e00893dc65a634a52b84d",
+    "bytes": 1410300,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/convnets.html",
+    "ok": true,
+    "sha256": "d24448a299ab4d4ee07ff444ed75d1c38b818dec408ce91092bf039ab1abc2c5",
+    "bytes": 8607525,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/generative_models.html",
+    "ok": true,
+    "sha256": "952c760e1d10b94cdb0f5ebe865f97b0aa6313d2b98366ec401d7e15337bb5be",
+    "bytes": 7122027,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/graphical_models.html",
+    "ok": true,
+    "sha256": "48af7ff09bc686b541a4ff4d496bebbd868cc48b6f519dd92a9efe7cf0e9070d",
+    "bytes": 3365676,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/guidelines.html",
+    "ok": true,
+    "sha256": "6243555e98ace2b52eb3002a4514fb5a6ae722a654f742fe3c163c7857c02e8b",
+    "bytes": 881687,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/index-.html",
+    "ok": true,
+    "sha256": "c140efa7f12ae16334a351ce4034cedf12f0509f2821eec171f0bb096890b0f0",
+    "bytes": 493901,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/inference.html",
+    "ok": true,
+    "sha256": "79c8975b57ec3bba4c9917b56f68dca763e98ab4346c53c520fe1ab956eb65c1",
+    "bytes": 1433252,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/intro.html",
+    "ok": true,
+    "sha256": "1f3650b0b4eb64aca58b54c3bf1da7ff2e2b783d24f0bff356f1c10204df015e",
+    "bytes": 2303736,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/linear_algebra.html",
+    "ok": true,
+    "sha256": "3027a6be383f144f51d6c56a896fc1ec6d4fe18c38ceb9c1670f96c8e6b43717",
+    "bytes": 1400846,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/linear_factors.html",
+    "ok": true,
+    "sha256": "09482bdebebb976e44667784ad5df2c1a92beca7d420ee4637d3efe303e4a28b",
+    "bytes": 1198709,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/ml.html",
+    "ok": true,
+    "sha256": "7e59b5a59b2df2431bfc7cfd2ccf3642e9cd902c4973573fe149c509fb1472bd",
+    "bytes": 4943763,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/mlp.html",
+    "ok": true,
+    "sha256": "31e7cec25fa2245b06ae0a3094ca473c2a5510688e58746a0b428e723217327f",
+    "bytes": 4373695,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/monte_carlo.html",
+    "ok": true,
+    "sha256": "18312795e8e33fc2364c3a36bf8e254eabe381accc0bf3b10973b63288bd7127",
+    "bytes": 1001022,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/notation.html",
+    "ok": true,
+    "sha256": "e4c9af60d7fd004de305e46f83edbfe4175f9c179a968dad4f77884ea814e049",
+    "bytes": 351512,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/numerical.html",
+    "ok": true,
+    "sha256": "f393723f33eb0b1445f90111d1e23562e414af426468d1f8151b071f29ac8ac7",
+    "bytes": 1586584,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/optimization.html",
+    "ok": true,
+    "sha256": "01119e325e890c65822846fe1ea855c38005930c1ae3feb502fc6399743e9e87",
+    "bytes": 3250093,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/part_basics.html",
+    "ok": true,
+    "sha256": "6576eb074c0ec3f6b570e7ee8bde7d18186efb6cf587c31b514fdbc8121064ef",
+    "bytes": 91183,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/part_practical.html",
+    "ok": true,
+    "sha256": "92dfe290a988d96c15a2510095f7bad7f23a319dd6cfb34a3e24c43c6759e9fc",
+    "bytes": 101874,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/part_research.html",
+    "ok": true,
+    "sha256": "9a6302a5c6d96daeb33525e1ec452f11398550537deba9b5e3adb0b7283cc3ca",
+    "bytes": 153541,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/partition.html",
+    "ok": true,
+    "sha256": "43f0cc460cb123ccf9f71166a105993d1305e4c35d8095688d033fd76e25bab4",
+    "bytes": 1365822,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/prob.html",
+    "ok": true,
+    "sha256": "284e11b1b31bcb6fc1e240d690fbacb427734e3601b24435a293b95331d63493",
+    "bytes": 1720944,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/regularization.html",
+    "ok": true,
+    "sha256": "a03b11531e9ad47c375347a763f655a42c0ed4971a2fb7d6bf0407a6462c58e5",
+    "bytes": 5046710,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/representation.html",
+    "ok": true,
+    "sha256": "125d921ee3195490939357fe95218a81b8827672eabb57380de8945439a742e9",
+    "bytes": 3526035,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/contents/rnn.html",
+    "ok": true,
+    "sha256": "d45168a429c693d5dc28ff3f5a743e4b7427fc6a3c355776e9ae6e802255bba3",
+    "bytes": 12808560,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/index.html",
+    "ok": true,
+    "sha256": "9a5021b685da9a9fbcb3c63ab7a18acab1df10a7ca2d811c008b5b2c888db56c",
+    "bytes": 6108,
+    "mirror": true
+   },
+   {
+    "path": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/udem.jpg",
+    "ok": true,
+    "sha256": "507ab0c32196ea1dce07c84f2e90c0bf19deae0e6e7921a136fe1530355a5cbb",
+    "bytes": 37476,
+    "mirror": true
+   }
+  ],
+  "notes": [],
+  "mirror": {
+   "wget_rc": 0,
+   "html_pages": 28,
+   "missing": [],
+   "remote_src_refs_same_host": 0,
+   "ok": true
+  },
+  "local_path": "books/Goodfellow_DeepLearning_2016_html_en",
+  "pack_sha256": "26caef6dd69ee3807ddaef6b0985e6b9011341607479bd8d4b72b55a09603763",
+  "status": "verified",
+  "origin": "downloaded_this_round",
+  "naming_conversion": {
+   "time": "2026-10-29 16:32:27",
+   "sites": [
+    {
+     "site_dir": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site",
+     "original_archive": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site_original_en.tar.gz",
+     "original_archive_sha256": "6bc1d0a7ceae3c76bc6165835fc7977a1ec30b10019197074e196e05844003dc",
+     "files": 29,
+     "path_map": "books/Goodfellow_DeepLearning_2016_html_en/deeplearningbook_site/path_map_en.csv"
+    }
+   ],
+   "note": "原始结构网站在 *_original_en.tar.gz（解压后可离线阅读）；目录内为加语言后缀的只读副本，链接未改写，不能直接作为网站使用"
+  }
+ },
+ "18-018": {
+  "sid": "18-018",
+  "time": "2026-10-29 15:39:36",
+  "files": [
+   {
+    "path": "books/Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_2026_en.pdf",
+    "url": "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf",
+    "final_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 26506144,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 646,
+     "sample_chars": 12437
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "88d0362c3bcb62a0cd09403fb80fd15e778dd53566943912ab1047cda3ff5c79"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_en.pdf"
+  ],
+  "book_check": {
+   "pages": 646,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 600
+  },
+  "local_path": "books/Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_2026_en.pdf",
+  "pack_sha256": "88d0362c3bcb62a0cd09403fb80fd15e778dd53566943912ab1047cda3ff5c79",
+  "status": "verified"
+ },
+ "18-019": {
+  "sid": "18-019",
+  "time": "2026-10-29 15:39:37",
+  "files": [
+   {
+    "path": "books/Eisenstein_NaturalLanguageProcessing_2018_en.pdf",
+    "url": "https://raw.githubusercontent.com/jacobeisenstein/gt-nlp-class/master/notes/eisenstein-nlp-notes.pdf",
+    "final_url": "https://raw.githubusercontent.com/jacobeisenstein/gt-nlp-class/master/notes/eisenstein-nlp-notes.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 3359237,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 587,
+     "sample_chars": 4399
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "62cebf5fa920422bcec87b923e171a01f072fc3048631d5b2d15e78ec11c592d"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/machine_learning_deep_learning_literature/books/Eisenstein_IntroductionNaturalLanguageProcessing_2018_en.pdf"
+  ],
+  "book_check": {
+   "pages": 587,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 550
+  },
+  "local_path": "books/Eisenstein_NaturalLanguageProcessing_2018_en.pdf",
+  "pack_sha256": "62cebf5fa920422bcec87b923e171a01f072fc3048631d5b2d15e78ec11c592d",
+  "status": "verified"
+ },
+ "18-020": {
+  "sid": "18-020",
+  "time": "2026-10-29 15:39:38",
+  "files": [
+   {
+    "path": "books/Zong_NLPAndLargeLanguageModels_2026_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-92-0682-7.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/978-981-92-0682-7.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 10425600,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 400,
+     "sample_chars": 2365
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "ff8e4ba55261c1d7081a0fea1ab5a6fac0da9e6d78f49bc813f75312f85fb64a"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Zong_NLPAndLargeLanguageModels_2026_en.pdf"
+  ],
+  "book_check": {
+   "pages": 400,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 380
+  },
+  "local_path": "books/Zong_NLPAndLargeLanguageModels_2026_en.pdf",
+  "pack_sha256": "ff8e4ba55261c1d7081a0fea1ab5a6fac0da9e6d78f49bc813f75312f85fb64a",
+  "status": "verified"
+ },
+ "18-021": {
+  "sid": "18-021",
+  "time": "2026-10-29 15:39:39",
+  "files": [
+   {
+    "path": "books/Paass_FoundationModelsForNLP_2023_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-23190-2.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-23190-2.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 25047750,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 448,
+     "sample_chars": 6036
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "7d3004065c2c52579314de022932b2303c2405e1ca033f24b284f22dd27cd298"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Paass_FoundationModelsForNLP_2023_en.pdf"
+  ],
+  "book_check": {
+   "pages": 448,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 420
+  },
+  "local_path": "books/Paass_FoundationModelsForNLP_2023_en.pdf",
+  "pack_sha256": "7d3004065c2c52579314de022932b2303c2405e1ca033f24b284f22dd27cd298",
+  "status": "verified"
+ },
+ "18-022": {
+  "sid": "18-022",
+  "time": "2026-10-29 15:39:40",
+  "files": [
+   {
+    "path": "books/Liu_RepresentationLearningForNLP_2ndEd_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-99-1600-9.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/978-981-99-1600-9.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 15434208,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 535,
+     "sample_chars": 7205
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "994193979ea2bb1e7efb8d7082af4e662331afcc6a94a2bf84c739169e32b2af"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Liu_RepresentationLearningForNLP_2ndEd_en.pdf"
+  ],
+  "book_check": {
+   "pages": 535,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 500
+  },
+  "local_path": "books/Liu_RepresentationLearningForNLP_2ndEd_en.pdf",
+  "pack_sha256": "994193979ea2bb1e7efb8d7082af4e662331afcc6a94a2bf84c739169e32b2af",
+  "status": "verified"
+ },
+ "18-023": {
+  "sid": "18-023",
+  "time": "2026-10-29 15:39:41",
+  "files": [
+   {
+    "path": "books/Xiao_NLPNeuralNetworksAndLLMs_2026_en.pdf",
+    "url": "https://raw.githubusercontent.com/NiuTrans/NLPBook/b1255a0f9bfda198ee2ee533869a88137c23a108/chapters/nlp-book.pdf",
+    "final_url": "https://raw.githubusercontent.com/NiuTrans/NLPBook/b1255a0f9bfda198ee2ee533869a88137c23a108/chapters/nlp-book.pdf",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 4888845,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 745,
+     "sample_chars": 7735
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "c56182538a71d935ec4d43d825f7ee62376cfb293ed2783b7c6f5eefe03eb363"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 745,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 700
+  },
+  "local_path": "books/Xiao_NLPNeuralNetworksAndLLMs_2026_en.pdf",
+  "pack_sha256": "c56182538a71d935ec4d43d825f7ee62376cfb293ed2783b7c6f5eefe03eb363",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-024": {
+  "sid": "18-024",
+  "time": "2026-10-29 15:39:43",
+  "files": [
+   {
+    "path": "books/Glass_LanguageAndComputers_2024_en.pdf",
+    "url": "https://zenodo.org/api/records/12730906/files/454-GlassEtAl-2024.pdf/content",
+    "final_url": "https://zenodo.org/api/records/12730906/files/454-GlassEtAl-2024.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 13006104,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 374,
+     "sample_chars": 5477
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "618249371074e90aedda1be52cd86b0f3a0bfd6dd6819964e6b5782426d9a3fe"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 374,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Glass_LanguageAndComputers_2024_en.pdf",
+  "pack_sha256": "618249371074e90aedda1be52cd86b0f3a0bfd6dd6819964e6b5782426d9a3fe",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-025": {
+  "sid": "18-025",
+  "time": "2026-10-29 15:39:50",
+  "files": [
+   {
+    "path": "books/Mueller_GrammaticalTheory_5thEd_en.pdf",
+    "url": "https://zenodo.org/api/records/7376662/files/380.pdf/content",
+    "final_url": "https://zenodo.org/api/records/7376662/files/380.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 4392147,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 889,
+     "sample_chars": 7902
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "867ef2b4cd9a3bce32a9496807bd1ffd3e5935d3ac10cdff0fb22c9f08eaa3ac"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 889,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 600
+  },
+  "local_path": "books/Mueller_GrammaticalTheory_5thEd_en.pdf",
+  "pack_sha256": "867ef2b4cd9a3bce32a9496807bd1ffd3e5935d3ac10cdff0fb22c9f08eaa3ac",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-026": {
+  "sid": "18-026",
+  "time": "2026-10-29 15:39:54",
+  "files": [
+   {
+    "path": "books/Stefanowitsch_CorpusLinguistics_2020_en.pdf",
+    "url": "https://zenodo.org/api/records/3735822/files/final.pdf/content",
+    "final_url": "https://zenodo.org/api/records/3735822/files/final.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 4920233,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 510,
+     "sample_chars": 4634
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "c67246be40f0991a195b98abaaa51c083a247c5c325686c3421216b6e5b9b9ce"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 510,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 400
+  },
+  "local_path": "books/Stefanowitsch_CorpusLinguistics_2020_en.pdf",
+  "pack_sha256": "c67246be40f0991a195b98abaaa51c083a247c5c325686c3421216b6e5b9b9ce",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-027": {
+  "sid": "18-027",
+  "time": "2026-10-29 15:39:58",
+  "files": [
+   {
+    "path": "books/Kroeger_AnalyzingMeaning_3rdEd_en.pdf",
+    "url": "https://zenodo.org/api/records/6855854/files/359.pdf/content",
+    "final_url": "https://zenodo.org/api/records/6855854/files/359.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 1757986,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 496,
+     "sample_chars": 4224
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "cfaf575e582cb022bcdb4e429f14257d4d8ce6f18e1a128182f1034aaf8a4a35"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 496,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 400
+  },
+  "local_path": "books/Kroeger_AnalyzingMeaning_3rdEd_en.pdf",
+  "pack_sha256": "cfaf575e582cb022bcdb4e429f14257d4d8ce6f18e1a128182f1034aaf8a4a35",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-028": {
+  "sid": "18-028",
+  "time": "2026-10-29 15:40:00",
+  "files": [
+   {
+    "path": "books/Xiao_JiQiFanYiJiChuYuMoXing_2024_cn.pdf",
+    "url": "https://raw.githubusercontent.com/NiuTrans/MTBook/a55dd1a8612355ba53845f5ede33989d1e66e8f6/mt-book.pdf",
+    "final_url": "https://raw.githubusercontent.com/NiuTrans/MTBook/a55dd1a8612355ba53845f5ede33989d1e66e8f6/mt-book.pdf",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 8943437,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 748,
+     "sample_chars": 2144
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "11fd884cdbe9106a051729a1f54815de5b3ffbcc65bd4b4bac85220ec52ed83b"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 748,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 700
+  },
+  "local_path": "books/Xiao_JiQiFanYiJiChuYuMoXing_2024_cn.pdf",
+  "pack_sha256": "11fd884cdbe9106a051729a1f54815de5b3ffbcc65bd4b4bac85220ec52ed83b",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-029": {
+  "sid": "18-029",
+  "time": "2026-10-29 15:40:03",
+  "files": [
+   {
+    "path": "books/Kenny_MachineTranslationForEveryone_2022_en.pdf",
+    "url": "https://zenodo.org/api/records/6653406/files/342-Kenny-2022.pdf/content",
+    "final_url": "https://zenodo.org/api/records/6653406/files/342-Kenny-2022.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 1096124,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 224,
+     "sample_chars": 5863
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "f33b287f84a4aeeeaa82b32d28751de672f1a0c95e119788480331f936a7e489"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 224,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Kenny_MachineTranslationForEveryone_2022_en.pdf",
+  "pack_sha256": "f33b287f84a4aeeeaa82b32d28751de672f1a0c95e119788480331f936a7e489",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-030": {
+  "sid": "18-030",
+  "time": "2026-10-29 15:40:04",
+  "files": [
+   {
+    "path": "books/Rehm_EuropeanLanguageEquality_2023_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-28819-7.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-28819-7.pdf?error=cookies_not_supported&code=a8a071fc-b061-41d1-9a47-6a515e6263f9",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 11722887,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 441,
+     "sample_chars": 8410
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "e5946d05fd9234caaf15fa1e1ccb87db8ed251dd456c7ae88f791b2561571811"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 441,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 300
+  },
+  "local_path": "books/Rehm_EuropeanLanguageEquality_2023_en.pdf",
+  "pack_sha256": "e5946d05fd9234caaf15fa1e1ccb87db8ed251dd456c7ae88f791b2561571811",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-031": {
+  "sid": "18-031",
+  "time": "2026-10-29 15:40:06",
+  "files": [
+   {
+    "path": "books/Rehm_EuropeanLanguageGrid_2023_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-17258-8.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-17258-8.pdf?error=cookies_not_supported&code=cf3b33b8-542e-44f5-b721-4cd9fc64e773",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 19049208,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 380,
+     "sample_chars": 6691
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "edeb2267d769e7981565c613b125fffe91aa8398d7756e58cf83984be5191a11"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 380,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 300
+  },
+  "local_path": "books/Rehm_EuropeanLanguageGrid_2023_en.pdf",
+  "pack_sha256": "edeb2267d769e7981565c613b125fffe91aa8398d7756e58cf83984be5191a11",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-032": {
+  "sid": "18-032",
+  "time": "2026-10-29 15:40:09",
+  "files": [
+   {
+    "path": "books/Rehm_LanguageTechnologiesMultilingualEurope_2018_en.pdf",
+    "url": "https://zenodo.org/api/records/1291947/files/final.pdf/content",
+    "final_url": "https://zenodo.org/api/records/1291947/files/final.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 8107695,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 220,
+     "sample_chars": 5142
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "4f83e6ea189fa5c204e4d2039bfd56cbe46b25348d27fac0f38f8eb4b3f4cbc6"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 220,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Rehm_LanguageTechnologiesMultilingualEurope_2018_en.pdf",
+  "pack_sha256": "4f83e6ea189fa5c204e4d2039bfd56cbe46b25348d27fac0f38f8eb4b3f4cbc6",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-033": {
+  "sid": "18-033",
+  "time": "2026-10-29 15:40:14",
+  "files": [
+   {
+    "path": "books/Moran_UnicodeCookbookForLinguists_2018_en.pdf",
+    "url": "https://langsci-press.org/catalog/download/176/889/1135?inline=1",
+    "final_url": "https://langsci-press.org/catalog/download/176/889/1135?inline=1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 708163,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 148,
+     "sample_chars": 5721
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "4f9cd9b4597b20a9d38dfc3541b5edf4b2c88289010fdb161a069d8212c72ff7"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 148,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 100
+  },
+  "local_path": "books/Moran_UnicodeCookbookForLinguists_2018_en.pdf",
+  "pack_sha256": "4f9cd9b4597b20a9d38dfc3541b5edf4b2c88289010fdb161a069d8212c72ff7",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-034": {
+  "sid": "18-034",
+  "time": "2026-10-29 15:40:15",
+  "files": [
+   {
+    "path": "books/Saguaro_IndigenousLanguagesAmericasSounds_2026_en.pdf",
+    "url": "https://zenodo.org/api/records/20542602/files/563-Saguaro2026.pdf/content",
+    "final_url": "https://zenodo.org/api/records/20542602/files/563-Saguaro2026.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 6396848,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 623,
+     "sample_chars": 6373
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "a14e0a80ade63093d4654c2ddfd3d6517b40aabc12c5ccf838fa91490ac6d34c"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 623,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Saguaro_IndigenousLanguagesAmericasSounds_2026_en.pdf",
+  "pack_sha256": "a14e0a80ade63093d4654c2ddfd3d6517b40aabc12c5ccf838fa91490ac6d34c",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-035": {
+  "sid": "18-035",
+  "time": "2026-10-29 15:40:19",
+  "files": [
+   {
+    "path": "books/Berthele_Multilingualism_2026_en.pdf",
+    "url": "https://zenodo.org/api/records/20613094/files/589-Berthele-2026.pdf/content",
+    "final_url": "https://zenodo.org/api/records/20613094/files/589-Berthele-2026.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 8221183,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 372,
+     "sample_chars": 4252
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "8f6431e9b0303f23822ee12f0ccb3735201ae1f71521e1a733ccc2006539e11d"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 372,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Berthele_Multilingualism_2026_en.pdf",
+  "pack_sha256": "8f6431e9b0303f23822ee12f0ccb3735201ae1f71521e1a733ccc2006539e11d",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-036": {
+  "sid": "18-036",
+  "time": "2026-10-29 15:40:24",
+  "files": [
+   {
+    "path": "books/Neacsu_LinguisticsOlympiadTrainingGuide_2024_en.pdf",
+    "url": "https://zenodo.org/api/records/10947862/files/420-neacsu-2024.pdf/content",
+    "final_url": "https://zenodo.org/api/records/10947862/files/420-neacsu-2024.pdf/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 3759546,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 444,
+     "sample_chars": 3672
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "3ec26777ceb96dc9cd3d00d9a7a1a6b3e1d5d908421b328ad341875c96c12493"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 444,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 150
+  },
+  "local_path": "books/Neacsu_LinguisticsOlympiadTrainingGuide_2024_en.pdf",
+  "pack_sha256": "3ec26777ceb96dc9cd3d00d9a7a1a6b3e1d5d908421b328ad341875c96c12493",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-037": {
+  "sid": "18-037",
+  "time": "2026-10-29 15:40:27",
+  "files": [
+   {
+    "path": "books/Xiao_FoundationsOfLargeLanguageModels_v4_en.pdf",
+    "url": "https://arxiv.org/pdf/2501.09223v4",
+    "final_url": "https://arxiv.org/pdf/2501.09223v4",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 2260055,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 315,
+     "sample_chars": 8687
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "427b44ea2acbdefe7b31f29f99ddc9a48620e1deae8793de6044cf778ed6154a"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2501.09223",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Xiao_FoundationsOfLargeLanguageModels_v4_en.pdf"
+  ],
+  "book_check": {
+   "pages": 315,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 300
+  },
+  "local_path": "books/Xiao_FoundationsOfLargeLanguageModels_v4_en.pdf",
+  "pack_sha256": "427b44ea2acbdefe7b31f29f99ddc9a48620e1deae8793de6044cf778ed6154a",
+  "status": "verified"
+ },
+ "18-038": {
+  "sid": "18-038",
+  "time": "2026-10-29 15:40:28",
+  "files": [
+   {
+    "path": "books/Lambert_ReinforcementLearningFromHumanFeedback_v12_en.pdf",
+    "url": "https://arxiv.org/pdf/2504.12501v12",
+    "final_url": "https://arxiv.org/pdf/2504.12501v12",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 11594452,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 243,
+     "sample_chars": 12115
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "b2aa204bb6d098c50af4c61e25fd8faf2a06980ae2194a9b97006b6dc387feaf"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2504.12501",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Lambert_ReinforcementLearningFromHumanFeedback_v12_en.pdf"
+  ],
+  "book_check": {
+   "pages": 243,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 200
+  },
+  "local_path": "books/Lambert_ReinforcementLearningFromHumanFeedback_v12_en.pdf",
+  "pack_sha256": "b2aa204bb6d098c50af4c61e25fd8faf2a06980ae2194a9b97006b6dc387feaf",
+  "status": "verified"
+ },
+ "18-039": {
+  "sid": "18-039",
+  "time": "2026-10-29 15:40:29",
+  "files": [
+   {
+    "path": "books/Zhang_DaGuiMoYuYanMoXing_2ndEd_cn.pdf",
+    "url": "https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf",
+    "final_url": "https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 55873871,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 533,
+     "sample_chars": 3855
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "6221b57fc8689b837593e68d20445676bc86d00e687dabb5f0a9bf70a506808d"
+   }
+  ],
+  "notes": [],
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Zhang_DaGuiMoYuYanMoXing_2ndEd_cn.pdf"
+  ],
+  "book_check": {
+   "pages": 533,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 500
+  },
+  "local_path": "books/Zhang_DaGuiMoYuYanMoXing_2ndEd_cn.pdf",
+  "pack_sha256": "6221b57fc8689b837593e68d20445676bc86d00e687dabb5f0a9bf70a506808d",
+  "status": "verified"
+ },
+ "18-040": {
+  "sid": "18-040",
+  "time": "2026-10-29 15:40:30",
+  "files": [
+   {
+    "path": "books/Zhao_DaYuYanMoXing_2025_cn.pdf",
+    "url": "https://llmbook-zh.github.io/LLMBook.pdf",
+    "final_url": "https://llmbook-zh.github.io/LLMBook.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 10798945,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 391,
+     "sample_chars": 2897
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "8a3d26e2030334013c22eb95708bf57e47cc605eb97a9cfa8cb37b75fd1976a6"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 391,
+   "title_match": 1.0,
+   "toc_found": false,
+   "author_found": true,
+   "min_pages": 380
+  },
+  "local_path": "books/Zhao_DaYuYanMoXing_2025_cn.pdf",
+  "pack_sha256": "8a3d26e2030334013c22eb95708bf57e47cc605eb97a9cfa8cb37b75fd1976a6",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-041": {
+  "sid": "18-041",
+  "time": "2026-10-29 15:40:31",
+  "files": [
+   {
+    "path": "books/Truong_MachineLearningFromHumanPreferences_2025_en.pdf",
+    "url": "https://mlhp.stanford.edu/Machine-Learning-from-Human-Preferences.pdf",
+    "final_url": "https://mlhp.stanford.edu/Machine-Learning-from-Human-Preferences.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1391898,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 362,
+     "sample_chars": 3028
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "eac8ddf071435f9ef82526dc33eb81ad58385509d1089b4ce063000d53d622d8"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 362,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 300
+  },
+  "local_path": "books/Truong_MachineLearningFromHumanPreferences_2025_en.pdf",
+  "pack_sha256": "eac8ddf071435f9ef82526dc33eb81ad58385509d1089b4ce063000d53d622d8",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-042": {
+  "sid": "18-042",
+  "time": "2026-10-29 15:40:34",
+  "files": [
+   {
+    "path": "books/Murphy_ReinforcementLearningAnOverview_v5_en.pdf",
+    "url": "https://arxiv.org/pdf/2412.05265v5",
+    "final_url": "https://arxiv.org/pdf/2412.05265v5",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 10998286,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 253,
+     "sample_chars": 5900
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "15f481922acde9c4ede73da12783c823bde17ccb5f01af1343166fdb2f56d987"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2412.05265",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Murphy_ReinforcementLearningAnOverview_v5_en.pdf"
+  ],
+  "book_check": {
+   "pages": 253,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 230
+  },
+  "local_path": "books/Murphy_ReinforcementLearningAnOverview_v5_en.pdf",
+  "pack_sha256": "15f481922acde9c4ede73da12783c823bde17ccb5f01af1343166fdb2f56d987",
+  "status": "verified"
+ },
+ "18-043": {
+  "sid": "18-043",
+  "time": "2026-10-29 15:40:35",
+  "files": [
+   {
+    "path": "books/Hendrycks_IntroductionToAISafetyEthicsSociety_v2_en.pdf",
+    "url": "https://arxiv.org/pdf/2411.01042v2",
+    "final_url": "https://arxiv.org/pdf/2411.01042v2",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 20292411,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 630,
+     "sample_chars": 5295
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "ffdc6d17c24b2a2c44463f7dd16174b304e2aa5ec56ffb23bbd51a79beefa2e7"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2411.01042",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Hendrycks_IntroductionToAISafetyEthicsSociety_v2_en.pdf"
+  ],
+  "book_check": {
+   "pages": 630,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 550
+  },
+  "local_path": "books/Hendrycks_IntroductionToAISafetyEthicsSociety_v2_en.pdf",
+  "pack_sha256": "ffdc6d17c24b2a2c44463f7dd16174b304e2aa5ec56ffb23bbd51a79beefa2e7",
+  "status": "verified"
+ },
+ "18-044": {
+  "sid": "18-044",
+  "time": "2026-10-29 15:40:36",
+  "files": [
+   {
+    "path": "books/Croft_SearchEnginesIRInPractice_2015_en.pdf",
+    "url": "https://ciir.cs.umass.edu/downloads/SEIRiP.pdf",
+    "final_url": "https://ciir.cs.umass.edu/downloads/SEIRiP.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 9553114,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 542,
+     "sample_chars": 4339
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "21c01ac92b3df957260cf264ebc90cb5d8d204487af3a9ed7a581c13bb735919"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 542,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 500
+  },
+  "local_path": "books/Croft_SearchEnginesIRInPractice_2015_en.pdf",
+  "pack_sha256": "21c01ac92b3df957260cf264ebc90cb5d8d204487af3a9ed7a581c13bb735919",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-045": {
+  "sid": "18-045",
+  "time": "2026-10-29 15:40:38",
+  "files": [
+   {
+    "path": "books/Bruch_FoundationsOfVectorRetrieval_2024_en.pdf",
+    "url": "https://arxiv.org/pdf/2401.09350v1",
+    "final_url": "https://arxiv.org/pdf/2401.09350v1",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 5054465,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 203,
+     "sample_chars": 4686
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "1717db36656009f5631afa65bafd8acacf9ac4ea4f85f3ec65f74c75b3294a2d"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2401.09350",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Bruch_FoundationsOfVectorRetrieval_2024_en.pdf"
+  ],
+  "book_check": {
+   "pages": 203,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 190
+  },
+  "local_path": "books/Bruch_FoundationsOfVectorRetrieval_2024_en.pdf",
+  "pack_sha256": "1717db36656009f5631afa65bafd8acacf9ac4ea4f85f3ec65f74c75b3294a2d",
+  "status": "verified"
+ },
+ "18-046": {
+  "sid": "18-046",
+  "time": "2026-10-29 15:40:39",
+  "files": [
+   {
+    "path": "books/Lin_PretrainedTransformersForTextRanking_v3_en.pdf",
+    "url": "https://arxiv.org/pdf/2010.06467v3",
+    "final_url": "https://arxiv.org/pdf/2010.06467v3",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 4517250,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 204,
+     "sample_chars": 16669
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "45517e237075f18dae9e4c7238cec9377e10d92142483f95bde5dd33eb268c4b"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2010.06467",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Lin_PretrainedTransformersForTextRanking_v3_en.pdf"
+  ],
+  "book_check": {
+   "pages": 204,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 190
+  },
+  "local_path": "books/Lin_PretrainedTransformersForTextRanking_v3_en.pdf",
+  "pack_sha256": "45517e237075f18dae9e4c7238cec9377e10d92142483f95bde5dd33eb268c4b",
+  "status": "verified"
+ },
+ "18-047": {
+  "sid": "18-047",
+  "time": "2026-10-29 15:40:40",
+  "files": [
+   {
+    "path": "books/Gao_NeuralApproachesConversationalIR_2022_en.pdf",
+    "url": "https://arxiv.org/pdf/2201.05176v1",
+    "final_url": "https://arxiv.org/pdf/2201.05176v1",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 17596180,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 150,
+     "sample_chars": 10909
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "74a9a9f11ac841023b018b2220e369bbd0b258a6fbfba6b65231630b74f99a46"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2201.05176",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/Gao_NeuralApproachesToConversationalIR_en.pdf"
+  ],
+  "book_check": {
+   "pages": 150,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 140
+  },
+  "local_path": "books/Gao_NeuralApproachesConversationalIR_2022_en.pdf",
+  "pack_sha256": "74a9a9f11ac841023b018b2220e369bbd0b258a6fbfba6b65231630b74f99a46",
+  "status": "verified"
+ },
+ "18-048": {
+  "sid": "18-048",
+  "time": "2026-10-29 15:40:40",
+  "files": [
+   {
+    "path": "books/vanDuijn_AgenticLargeLanguageModels_2026_en.pdf",
+    "url": "https://arxiv.org/pdf/2610.13455v1",
+    "final_url": "https://arxiv.org/pdf/2610.13455v1",
+    "http_status": 200,
+    "content_type": "copied",
+    "bytes": 31037280,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 472,
+     "sample_chars": 4343
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "1db992a5135cafed50d1e53d90a92d8fceeb1f7052ccfb42edccf2aadd887461"
+   }
+  ],
+  "notes": [],
+  "key": "arxiv:2610.13455",
+  "origin": "reused_other_library",
+  "origin_paths": [
+   "/root/large_model_multimodal_literature/books/vanDuijn_AgenticLargeLanguageModels_2026_en.pdf"
+  ],
+  "book_check": {
+   "pages": 472,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 400
+  },
+  "local_path": "books/vanDuijn_AgenticLargeLanguageModels_2026_en.pdf",
+  "pack_sha256": "1db992a5135cafed50d1e53d90a92d8fceeb1f7052ccfb42edccf2aadd887461",
+  "status": "verified"
+ },
+ "18-049": {
+  "sid": "18-049",
+  "time": "2026-10-29 15:40:41",
+  "files": [
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/applied-inference.html",
+    "ok": true,
+    "sha256": "f4e42b010becf8f5e5050fe4246e4b739758c0cda263cd6db440d835d30c5e76",
+    "bytes": 62385,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/applied-training.html",
+    "ok": true,
+    "sha256": "c77cdafeb3a782bfde2371baba5b5d555ddcda80220f123ea58a457532997600",
+    "bytes": 38806,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5.css",
+    "ok": true,
+    "sha256": "192600b14c3d4f44e0ab41647bdd023cdf37bc411b092491addd488698457b75",
+    "bytes": 7894,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04.css",
+    "ok": true,
+    "sha256": "f886516f3d41e9e7bd994c7f7a39a89cafae9483f90396cb0ddeafe8d1ea5e72",
+    "bytes": 162264,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca.css",
+    "ok": true,
+    "sha256": "45067d53316e9649a092f0f5c78c05b6700f3f518728a6f77d2b84f2c1b7124c",
+    "bytes": 2415,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/css/jekyll-pygments-themes-vs.css?4ee1a2facd1a8a76347f4bd43a740500.css",
+    "ok": true,
+    "sha256": "833d19507ab6ca4b6c9ac871bd9be0557b8e8abc5ab9d335e14d64a8f2914c1d",
+    "bytes": 999,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e.css",
+    "ok": true,
+    "sha256": "b660d16cac6a04550f5061032429c9e81ff644622ffd486822f0b483131c43b6",
+    "bytes": 621311,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772.css",
+    "ok": true,
+    "sha256": "7ebae9f7da2fc9f751098ea9660d528202660b44aee316bf258c8b93ef2bd1ad",
+    "bytes": 4788,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/academicons.ttf",
+    "ok": true,
+    "sha256": "8cd0a3d973da5e93fdbdd4563a60419a645bac65e2baafa5025a5118971d82fe",
+    "bytes": 67872,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/academicons.woff",
+    "ok": true,
+    "sha256": "296a3eb1deb204e996b572116997ab0c5245b03ad459f0fd22c4060b9d123f74",
+    "bytes": 131616,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/roboto/roboto-latin-ext.woff2",
+    "ok": true,
+    "sha256": "cdd53dc5576a79f35cf280dfbd9c1cb2a5dd2f0ede30afba9b9ccdc7fe12e7d0",
+    "bytes": 24444,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/roboto/roboto-latin.woff2",
+    "ok": true,
+    "sha256": "0a44e0bb6ba5c8537e8814c148ef7755f1bce12112361231f595ecc584a18d7a",
+    "bytes": 37520,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/scholar-icons.ttf",
+    "ok": true,
+    "sha256": "91947b61dd939ff56bbe3344c5679dffba8b0613ba9afd76dbd0b6e20eea1d5b",
+    "bytes": 103460,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/scholar-icons.woff",
+    "ok": true,
+    "sha256": "60d2881c4735dce0a9519a27bf99e7dce1496622ba0df9819175333333a4b7bd",
+    "bytes": 103536,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons-filled.ttf?v3.20.0",
+    "ok": true,
+    "sha256": "c9f93353c79c70e9f52f04293e40ab3f42d4534e265354b6f64780c1dd64ba4a",
+    "bytes": 260148,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons-filled.woff2?v3.20.0",
+    "ok": true,
+    "sha256": "eb945e73b755eb2719992cbf2fc5195709437a40f633a1bcc36fa3b334f60b4a",
+    "bytes": 103616,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons-filled.woff?",
+    "ok": true,
+    "sha256": "87096766cd4493e3ac2d05165cf51cd0638e88868744a4793fd4b3cb65765325",
+    "bytes": 130096,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons-outline.ttf?v3.20.0",
+    "ok": true,
+    "sha256": "29c72795f2c5d6d24449c4902c12b83f44acb0bb1bbd7ee415386bb8875d8021",
+    "bytes": 2205192,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons-outline.woff2?v3.20.0",
+    "ok": true,
+    "sha256": "483776a8844208b4112542c4a87d06d61400df1d68f5bac7c069895f820369bf",
+    "bytes": 773144,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons-outline.woff?",
+    "ok": true,
+    "sha256": "af8a613f9a83c757be6ea97baf7c8b15f54c77a5ec29ba15faff23c377bba5f9",
+    "bytes": 1102996,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons.ttf?v3.20.0",
+    "ok": true,
+    "sha256": "7b9ba639538f12d2b7c41a46114b6cde353ddaed6dee371590132f256f2e4422",
+    "bytes": 2479088,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons.woff2?v3.20.0",
+    "ok": true,
+    "sha256": "2f862c0efea46984c4d380ba9dc5e3924c23477e8a997ab51d553582742b042b",
+    "bytes": 867452,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/fonts/tabler-icons.woff?",
+    "ok": true,
+    "sha256": "4da8725fbf41fb454012483faacc25c85db14d5ff1a01c5c0e034a3f2f77f6e7",
+    "bytes": 1234424,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/all-gather.gif",
+    "ok": true,
+    "sha256": "fa84e515440ad5b8698fc1b3fea760015715333e407b7dd72e9a6839dd883748",
+    "bytes": 723727,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/all-to-all-approx.png",
+    "ok": true,
+    "sha256": "7268f1780f8e04e57605a8f3c719b2e46aba70328598331349625852ecc03ec9",
+    "bytes": 92884,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/b200-node.png",
+    "ok": true,
+    "sha256": "6c121a380c599d17afe259baea87c9991b260550d02eaa061c57c73510839bd1",
+    "bytes": 170483,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/blackwell-sm.png",
+    "ok": true,
+    "sha256": "35a593e7c9e81884366a68f2a755906b21b798d06f21698a0b30201e6e4f7fdc",
+    "bytes": 267147,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/gb200-superpod.png",
+    "ok": true,
+    "sha256": "4e244b3c92088771820212f125821acf104d628a4a27d9983f67d7ed81b3e5c3",
+    "bytes": 595343,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/gpu-all-gather-bw.png",
+    "ok": true,
+    "sha256": "f4bcf47bd92aa3eb83200eca10e15ee8949147839e5b01d2ce98548d1893db1b",
+    "bytes": 300902,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/gpu-all-reduce-bw.png",
+    "ok": true,
+    "sha256": "8cd612d839ce9c26e916a4e4526caec3af1593ea710383c57f2ced156027b0ef",
+    "bytes": 304999,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/gpu-diagram.png",
+    "ok": true,
+    "sha256": "af5df0b0b45057528ad25cae61409214d3a22716da9c04e288b8e95c272b1fd9",
+    "bytes": 257088,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/h100-superpod.png",
+    "ok": true,
+    "sha256": "c873b18bf3c122c2419a270837e8f1df4ec770fa93ee17f7422b4fb1a1319806",
+    "bytes": 1514744,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/megatron-hparams.png",
+    "ok": true,
+    "sha256": "c0aafa8a17c78a5c50c99b197360e499d54bed9d190206e2a327550cfc880876",
+    "bytes": 263882,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/nvlink-nodes.png",
+    "ok": true,
+    "sha256": "beae2d3cceb847b8c355160fe4d13a8e86355f688b598b489176bf584dd69d7e",
+    "bytes": 778560,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/nvlink4.png",
+    "ok": true,
+    "sha256": "1c3ac034349996ae9b62f9bd6dd4ad27289542c9d03079b304d9427871a715b6",
+    "bytes": 1583297,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/pipeline-bubble.png",
+    "ok": true,
+    "sha256": "3c909d42ee8772ef29354390030a9b13521dea8f28deadb617fb5160928fff81",
+    "bytes": 12645,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/pipeline-transfer.png",
+    "ok": true,
+    "sha256": "91b3f04a5289cc87de2125b7b80d88a66f57ca79828d633818ddeb73d0d0781b",
+    "bytes": 19611,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/sharded-all-gather-cost.png",
+    "ok": true,
+    "sha256": "2da636190eeba41b6138602667fa5caa5f478ec6952a204dfb6cf0892373eb07",
+    "bytes": 62013,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/sharp-algorithm.png",
+    "ok": true,
+    "sha256": "e11f00a5b6522d6b190d544a7e8b1e984b6d62e7d42e47e3e6cf618bb5f7f2a9",
+    "bytes": 163805,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/sharp-all-reduce-cost.png",
+    "ok": true,
+    "sha256": "5b46702f5ecf5140b43199d6d7c889307d050a47430a290453448b26a1d87bb7",
+    "bytes": 239402,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/superpod-diagram.png",
+    "ok": true,
+    "sha256": "2817ab222ef378b67aa1fd909f8821032a9a58ee90b040060ec2f815c555c560",
+    "bytes": 278972,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/tpu-all-gather-bw.png",
+    "ok": true,
+    "sha256": "d5f859602b8061c01d3b79dfd070eb99cfbd3ac94f37a40cbe38031705ec018c",
+    "bytes": 325427,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/tpu-all-reduce-bw.png",
+    "ok": true,
+    "sha256": "5307e9728b622f651fec1765d2e06de4ffa1d01e3c738c79af241fe7a9ba7df4",
+    "bytes": 314249,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/gpu/warp-divergence.png",
+    "ok": true,
+    "sha256": "dfc1adbad18a19ec5b069913231f6a157ef699bbbf28a1da5358377a6d63439d",
+    "bytes": 77253,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/2d-weight-stationary-1400.webp",
+    "ok": true,
+    "sha256": "67cac76aac1c656718e228b263077bc5b101e4a4a8af8a941d47c364d016ead7",
+    "bytes": 73102,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/2d-weight-stationary-480.webp",
+    "ok": true,
+    "sha256": "178d65702215f678b69bb26d4b0dd64f382166ca113083846d2ce3d0fd273fbf",
+    "bytes": 25494,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/2d-weight-stationary-800.webp",
+    "ok": true,
+    "sha256": "9473aef3ee87f5c073b2bbdc0f397f6c496b736d11db8ab9533f32df1fda54ef",
+    "bytes": 42626,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/2d-weight-stationary.png",
+    "ok": true,
+    "sha256": "8c7006062d18814686467b75ebeb77a3acf866ef80a41529ae0811a8ab48ea12",
+    "bytes": 446658,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/ag_matmul.gif",
+    "ok": true,
+    "sha256": "ce3bd54abe85a2a81e056712f86e3504afcb46eb42b1b13d9d86bcdcf509d420",
+    "bytes": 1003893,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-collectives-1400.webp",
+    "ok": true,
+    "sha256": "8472eefd4d313ed76052fbd6c4646c4f90701cb0330401dd0338d2f7d79c8074",
+    "bytes": 17360,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-collectives-480.webp",
+    "ok": true,
+    "sha256": "f03b0f7f3f1b9b27ab4e58a78261e6e40bae3c400fba0af4f577350b24c35491",
+    "bytes": 9268,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-collectives-800.webp",
+    "ok": true,
+    "sha256": "f600751a44337df0063b2efed108acae8b7df13cccbd9fe26eac78c8ccf0f9b9",
+    "bytes": 15938,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-collectives.png",
+    "ok": true,
+    "sha256": "94e61191538c81c83d09ddbb9bf56e3e7c4823b7843f9b5b317307453be092d3",
+    "bytes": 69940,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-gather-bandwidth-1400.webp",
+    "ok": true,
+    "sha256": "faf5a9b980349f125466cc0aabef66d8a3cc8ebe4e24dbdec6512aafb5a53cb8",
+    "bytes": 32102,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-gather-bandwidth-480.webp",
+    "ok": true,
+    "sha256": "5a4f293d133f0eb0b6a911208d2d934fc19bda59c41529bf7999c046beca0250",
+    "bytes": 13710,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-gather-bandwidth-800.webp",
+    "ok": true,
+    "sha256": "1bb9dd0dc70dd8feb8ccee8f57a4d6697c2654e62d81bce43c7d64bbf051d3b7",
+    "bytes": 20938,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-gather-bandwidth.png",
+    "ok": true,
+    "sha256": "220045033df402cc1737f513f90c6256770bce4471b95d9e63b81a0225706855",
+    "bytes": 256115,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-gather.gif",
+    "ok": true,
+    "sha256": "b4a6cb99cefba34b069584668637c89cf537397242a7542d9a484e66212239f9",
+    "bytes": 775581,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-reduce-profile-1400.webp",
+    "ok": true,
+    "sha256": "5ceb7b3ded6c6d3122ef6f0e4d8c75f4d00c40412b064c009e0171395d84d2a5",
+    "bytes": 37882,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-reduce-profile-480.webp",
+    "ok": true,
+    "sha256": "d9cfbcde2479d2c89bb0096827267ded36f418fb43648babfbef27c6222c7095",
+    "bytes": 8296,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-reduce-profile-800.webp",
+    "ok": true,
+    "sha256": "f6804a03ecd5ee98ea109cc52e246eb75207d6aaad68226119edecd80a411d8a",
+    "bytes": 16304,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-reduce-profile.png",
+    "ok": true,
+    "sha256": "5068ff72f6e56bcdd68e1e1bd676467f19aa6f414295e2aca083f9e727335170",
+    "bytes": 115143,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/all-to-all.gif",
+    "ok": true,
+    "sha256": "2463b7fdf237f67402fc78a9bca387b94d208f3b7fc502e60da4b0fdb7b344df",
+    "bytes": 904576,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/attn-xprof-1400.webp",
+    "ok": true,
+    "sha256": "481d10e1cd9d35ddebd507e3fb9541bd41431fa75b68fb6d3c03220ea8c01c11",
+    "bytes": 50138,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/attn-xprof-480.webp",
+    "ok": true,
+    "sha256": "ead1e2a9eabbd0ff4020bd575bebe41d0124c9d4cc0f1cecd8623fd8b06f8cd5",
+    "bytes": 9880,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/attn-xprof-800.webp",
+    "ok": true,
+    "sha256": "2db0033d329d1afcf2c2eb8bb0947fef01e8325c2774d66734825a17a5579643",
+    "bytes": 21720,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/attn-xprof.png",
+    "ok": true,
+    "sha256": "649526818488093d83100cf4edf27e3f5081f3d5d52497913716431f9bf96395",
+    "bytes": 441063,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-latency-1400.webp",
+    "ok": true,
+    "sha256": "2d3a7513db1a559407747dd817e24caf17e2b9448b35e41c4e76a5c5323b5b4f",
+    "bytes": 23524,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-latency-480.webp",
+    "ok": true,
+    "sha256": "80be0bc6af38a0de53d7a26ba9559258b82a1296e7dab3239efcbfac47fb8e43",
+    "bytes": 11696,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-latency-800.webp",
+    "ok": true,
+    "sha256": "f82709c8e8711a96acdcf870207c0e45b9908c044cdda338d5bb97b11548e4b3",
+    "bytes": 17854,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-latency.png",
+    "ok": true,
+    "sha256": "41122908289a38ced6f6501554420ef516bf19392d0076400f45c25c539f4bf9",
+    "bytes": 106484,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-throughput-1400.webp",
+    "ok": true,
+    "sha256": "0d68789524ffcf207b792174b1911afd54ae4cf82a7b5cfd0785751cd3d7563c",
+    "bytes": 22050,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-throughput-480.webp",
+    "ok": true,
+    "sha256": "2df03e017300ce84ebaa846e746a36b12df0a2762a1020f4b981e4cf65b0ab8b",
+    "bytes": 10604,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-throughput-800.webp",
+    "ok": true,
+    "sha256": "bf45619af990c079d2f205064686ece3a7a8f73ff305d22f597f1bb8acf18f05",
+    "bytes": 16110,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batch-scaling-throughput.png",
+    "ok": true,
+    "sha256": "b457366c455fe12b1c74ecd87de6de8bf13bcc254f87fb031dd74cfedb72c480",
+    "bytes": 104648,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batched-prefill-1400.webp",
+    "ok": true,
+    "sha256": "eb0eddc1926134c37e12544ab63b3b72582a7da92135b5c3ef2ab15dd0abefdc",
+    "bytes": 13254,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batched-prefill-480.webp",
+    "ok": true,
+    "sha256": "99901214aedce6dca160a89311aaaf9f41db05ac6147ce7919ebd7127f5f6d43",
+    "bytes": 3554,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batched-prefill-800.webp",
+    "ok": true,
+    "sha256": "6f2574fb499b8481a4a6bc7b3799a1c4c5118b5720ffe27bfe5aec67e9aa7bf6",
+    "bytes": 6994,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/batched-prefill.png",
+    "ok": true,
+    "sha256": "67c3ea76a4d4ed4fb9ad04d8aac69e5aeece2da0b58505d2a092c293ed20e783",
+    "bytes": 119662,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cached-inference-1400.webp",
+    "ok": true,
+    "sha256": "6120ead0f47aab9f3bac18d9368e113780da6a966f8e82691fd82cf729b65c19",
+    "bytes": 33098,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cached-inference-480.webp",
+    "ok": true,
+    "sha256": "5daa362d6888cae5d320cf491e0a26f6c88a554ba2f1e314b4e4ec4cc7b03ab1",
+    "bytes": 12824,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cached-inference-800.webp",
+    "ok": true,
+    "sha256": "1c3363e4148825fff126fd7a1f0b4a3fb1ab30390321b37ad6fdcaade9a60802",
+    "bytes": 20450,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cached-inference.png",
+    "ok": true,
+    "sha256": "4cbd6d5d8ddf21d9f894873fcd5521a96bd79da432bde939b5758efc52172a46",
+    "bytes": 232960,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/challenge-problem-1400.webp",
+    "ok": true,
+    "sha256": "7adcec1b1ab704c2c8e3fa57c43bc9a3f6db3628a57a8ba1d155bde9aa5f0306",
+    "bytes": 42366,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/challenge-problem-480.webp",
+    "ok": true,
+    "sha256": "c75dbdd03be189549d1d122c5effd3e4a6d1edabd4ba473058cc29ace6c682a2",
+    "bytes": 20602,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/challenge-problem-800.webp",
+    "ok": true,
+    "sha256": "2ef57edd4b5c5a4501ce54cb7c3b09c7a45cf434afc41c3921e2f4e8ab4c97fa",
+    "bytes": 31872,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/challenge-problem.png",
+    "ok": true,
+    "sha256": "01761d7fc5762fbcfb6cb121cad0b726e196ec9f3ae0a23c2923248921315d31",
+    "bytes": 160882,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/continuous-batching.gif",
+    "ok": true,
+    "sha256": "32c42f6d97626b86d40f58fb43d394d7cb5327739ba9406e533429207388dce0",
+    "bytes": 7369900,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cores-1400.webp",
+    "ok": true,
+    "sha256": "e580f96be7050280d86fdc8bf773e6994da7de62d7bcda06dbdf55e6574d6d86",
+    "bytes": 31654,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cores-480.webp",
+    "ok": true,
+    "sha256": "5675219975b497d9f23f3971c6ba037b650670453754104944675f052ddc2b16",
+    "bytes": 12510,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cores-800.webp",
+    "ok": true,
+    "sha256": "5e1bd14faf9ceffe247bfbc4f0500a86aaa2f44294e6974641bd41b74344d606",
+    "bytes": 18952,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/cores.png",
+    "ok": true,
+    "sha256": "387e0362b63c995177de1c6c6e352695b0b61a65b58aed9c99902c3c122305db",
+    "bytes": 103647,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/data-parallelism-1400.webp",
+    "ok": true,
+    "sha256": "e65e55e201f6fda52a65fe4b35b560eb35911354bd97e29783a1ef3f82f14f73",
+    "bytes": 31346,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/data-parallelism-480.webp",
+    "ok": true,
+    "sha256": "d1ada30a00fe86783357955d95c16a85cb779769c9a350b58e27651416e573d6",
+    "bytes": 12820,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/data-parallelism-800.webp",
+    "ok": true,
+    "sha256": "366fe742dea76eb9b6e12ecf480d9d3c081982772fd3a978413c15ec1e23e6bc",
+    "bytes": 19646,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/data-parallelism.png",
+    "ok": true,
+    "sha256": "122992e2d35318a355d826e7d69b082fa37c2afa471bcc07cc9709ee909e2c92",
+    "bytes": 201995,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/deepseek-pipeline-1400.webp",
+    "ok": true,
+    "sha256": "837795d8e4f9a5de776c907c18b2f89fe84213f0a10514433cdf5d5e34036514",
+    "bytes": 36058,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/deepseek-pipeline-480.webp",
+    "ok": true,
+    "sha256": "fb919d0f553585258098628b74b5a765370bb850dffd32759dd28dbaa557bc24",
+    "bytes": 9110,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/deepseek-pipeline-800.webp",
+    "ok": true,
+    "sha256": "4dc88904d5b18d41b915c9ec6f63c58544e5a44dd767e3447ac3ebf8ae615270",
+    "bytes": 17954,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/deepseek-pipeline.png",
+    "ok": true,
+    "sha256": "1452f5f769b992c8713ab744acefc140dacddd9533ba21f6a81683e9228f31aa",
+    "bytes": 124144,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/disaggregation-1400.webp",
+    "ok": true,
+    "sha256": "0bc209e6acdd0b75ffa10fbf5138c16face8c5b7d93bb377e19e17b239bd9217",
+    "bytes": 23288,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/disaggregation-480.webp",
+    "ok": true,
+    "sha256": "a18299a8fd0aa620bd87b4a7b61a21e69d57a605d8042d12376566c842aad0cf",
+    "bytes": 6484,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/disaggregation-800.webp",
+    "ok": true,
+    "sha256": "006a805c6dbdbc8f42df7c7b1aee1c0f61e15a412eee778758041b2144fe3207",
+    "bytes": 12574,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/disaggregation.png",
+    "ok": true,
+    "sha256": "3a60663de3e3ff16d902ba780f688f8fd18672db483f00cb94ce4b1a1ff48156",
+    "bytes": 209044,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/dragon-1400.webp",
+    "ok": true,
+    "sha256": "09ed2bca944f3ea9cbd8e787f80e2ce6a4b58d0403f89b6794b533a919310416",
+    "bytes": 115650,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/dragon-480.webp",
+    "ok": true,
+    "sha256": "7c5e67351dad0a02350ce2aa67a8326cd0e0231b1babab5c1a4bf3027cf2623c",
+    "bytes": 28378,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/dragon-800.webp",
+    "ok": true,
+    "sha256": "dd46ad1d67cbac629715dab04ed945dcfb1fdd082edfde19d99df47824ea9c05",
+    "bytes": 57348,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/dragon.png",
+    "ok": true,
+    "sha256": "ac653e2f7e90ad5ad8de56c903c668fe717194dbe8c6c672f2b12c2816c92dde",
+    "bytes": 1799487,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/esta-figure-1400.webp",
+    "ok": true,
+    "sha256": "ce78202571767027ffb2fa55af93c27b6abf9f5359a7183c4936b05e9104cd1b",
+    "bytes": 65744,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/esta-figure-480.webp",
+    "ok": true,
+    "sha256": "f74b89f1357a5d2f979426825d1b0c395a2d10c0e6020bb01bfed728f9888346",
+    "bytes": 20904,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/esta-figure-800.webp",
+    "ok": true,
+    "sha256": "2c30edb0fecef3f9761cd35ca5aaf8e158c2d6916d4325c3d1b6e7589355295c",
+    "bytes": 38502,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/esta-figure.png",
+    "ok": true,
+    "sha256": "f7e4df0d6d68dc4b26f8962862fea9b85f6c07f4bf97442fd3841562de5b5766",
+    "bytes": 234592,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/favicon-192x192.png?3fdfb758795130ba54a94ab468f6e7ec",
+    "ok": true,
+    "sha256": "5159cdaea5ed09edde06668e5754c3c13be377867ba24d56c9ccaa87d3a4fe6d",
+    "bytes": 77359,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/favicon-96x96.png?6fad83cd890cb60f9e27143afa90eefd",
+    "ok": true,
+    "sha256": "b0fe095553595cc2761615b6d62e6e464361512fbb8b1d14d3fa706fe0724d4e",
+    "bytes": 22024,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/favicon.ico?40fa984da00a7d776e79162fb29402f2",
+    "ok": true,
+    "sha256": "e51442b490d392fa4f10617a9421ec2b17846ecd296e69fcc1f8a7d4127cdfe6",
+    "bytes": 9827,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/flash-algo-1400.webp",
+    "ok": true,
+    "sha256": "f5089efb4e8488f83c259aebf61bbd1cdda8d45a10945b2c860a894f717bf843",
+    "bytes": 86866,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/flash-algo-480.webp",
+    "ok": true,
+    "sha256": "f9f3af568853b2f72f86b1a2259ff55a8ebb1bd7fc24bbbe03e2fd37ce7e5f7b",
+    "bytes": 18998,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/flash-algo-800.webp",
+    "ok": true,
+    "sha256": "651e636d2793aaff9501a7d835458b9151c2c67e1c93e6105d4436b3c6224c59",
+    "bytes": 39618,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/flash-algo.png",
+    "ok": true,
+    "sha256": "3e9d35f2a629bbecfaba6662d7daba2bb2f5b48180b5c910ad53c2efaf5683ba",
+    "bytes": 666663,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/fsdp-1400.webp",
+    "ok": true,
+    "sha256": "42a691c851c04bdf8ad9e04b90c834c3becd4030ab4d733de257674d6c588b6f",
+    "bytes": 25764,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/fsdp-480.webp",
+    "ok": true,
+    "sha256": "330442d75650fb8fb9ea54e7c576f2b54d16994ee6b65a174f5bfee5ce018a03",
+    "bytes": 10980,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/fsdp-800.webp",
+    "ok": true,
+    "sha256": "31872fbd6f821d4b1abaa4c27a66d2690e5c9b469c30977c3f21d5555c71f8fc",
+    "bytes": 16302,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/fsdp.png",
+    "ok": true,
+    "sha256": "a93683fa106229924ec4033fd4882122d7a4c76316c4c0a63a465b814bbaff29",
+    "bytes": 176332,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/gmqa-1400.webp",
+    "ok": true,
+    "sha256": "ec32b4ea9135658e47e490d59366bb924de17a673504d519e456e7b857eecdbc",
+    "bytes": 44454,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/gmqa-480.webp",
+    "ok": true,
+    "sha256": "feaa9c2ea7c67edb9b63b8afa00529c426bd0c93cf4ccbfcb45e20fb6b97a72d",
+    "bytes": 15552,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/gmqa-800.webp",
+    "ok": true,
+    "sha256": "5e74a43ed9b715c26e8d75cf85e498c845668ca5844074efec9e2a5b33ada4f5",
+    "bytes": 26458,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/gmqa.png",
+    "ok": true,
+    "sha256": "51c624a45fec6e8a097f66e5ecb780c9cb39619113c0631eb63b27a8cdbc664a",
+    "bytes": 108941,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/graph-viewer-1400.webp",
+    "ok": true,
+    "sha256": "4a41912cad5e2ec8021740dca6ded4ce7841650950f006b5ab02926b1f503442",
+    "bytes": 52760,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/graph-viewer-480.webp",
+    "ok": true,
+    "sha256": "987f9cf07b9543a6da5c853f4043d038c50c037450f36cda2855b258f750aec4",
+    "bytes": 9076,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/graph-viewer-800.webp",
+    "ok": true,
+    "sha256": "9495f9ab7eaa4fe1e5849f475c304ce2fc937c36a7004c90f663782ec3465abc",
+    "bytes": 21636,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/graph-viewer.png",
+    "ok": true,
+    "sha256": "729c506ba7632aa7ee5c4e141803443d527deaf879fb86683cae840b2282b9ed",
+    "bytes": 508355,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/ici-wraparound-1400.webp",
+    "ok": true,
+    "sha256": "930aaa0b63556cff107bca403b79cc5625c90e8978b3aa9f3caae196a037683e",
+    "bytes": 61344,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/ici-wraparound-480.webp",
+    "ok": true,
+    "sha256": "6403bb5613fc42dac98688f66f3e32b7d07b873f26f6c0a77c4e3ff3ee25eec2",
+    "bytes": 22842,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/ici-wraparound-800.webp",
+    "ok": true,
+    "sha256": "d103ea13820c314ab7c3a02c63a42452cff9a5199ab93d9c0b8a744e134bb7e8",
+    "bytes": 36860,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/ici-wraparound.png",
+    "ok": true,
+    "sha256": "3ed7837cb4b15f6b73fcd09aa571285e6db16b7857385d45606a492559863b0c",
+    "bytes": 198696,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/interleaving-1400.webp",
+    "ok": true,
+    "sha256": "165413c6979f50d7853fd5273a0f46755fd3416014974fb1c8da35c0cb22a4e5",
+    "bytes": 19896,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/interleaving-480.webp",
+    "ok": true,
+    "sha256": "bd2d5e2a0352692a9a18b28bd8969862c0933ecd6b84e9bcd75ff208f6f61bd7",
+    "bytes": 8282,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/interleaving-800.webp",
+    "ok": true,
+    "sha256": "510b25ea9b4abfbeff0a78c628c18a295b5b9b291d721120fe6ca59ce83aff04",
+    "bytes": 12182,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/interleaving.png",
+    "ok": true,
+    "sha256": "7776b70cd27268ff781b1d0dcd9bfa8986da59494d3f0a62688afc8fb558222e",
+    "bytes": 116853,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/kv-sharing-1400.webp",
+    "ok": true,
+    "sha256": "a37f8d473263391558fea77420e18d3b744a5f7979a96cebe4b15df5b311d901",
+    "bytes": 29064,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/kv-sharing-480.webp",
+    "ok": true,
+    "sha256": "a09f4a6df0b5a066e40214a92d30281ab57239012f53aa2553acf2d57b890f7c",
+    "bytes": 10532,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/kv-sharing-800.webp",
+    "ok": true,
+    "sha256": "910dc4f2b4f5797b38f92c175a843abd0394bdcfc9a423538daddaa2125268b9",
+    "bytes": 17802,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/kv-sharing.png",
+    "ok": true,
+    "sha256": "d1ad1035b65fbfddf9c2c9ca10bd2144c8be8379eab3f3bcbfcd0e6c73c45b51",
+    "bytes": 135629,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/latency-cost-1400.webp",
+    "ok": true,
+    "sha256": "d154230dd77f28404ac61cdc764679cbbd51c6d34502d19aa222edf7c3480fa1",
+    "bytes": 67328,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/latency-cost-480.webp",
+    "ok": true,
+    "sha256": "c99e1ea142ce149b5445ac9b214b5c3c84f142b18af6908a5d4dadb16e135ed6",
+    "bytes": 25008,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/latency-cost-800.webp",
+    "ok": true,
+    "sha256": "b8b1617556f9c02e24c6c3c8012c95a2ee65ee3d0ea001649b1b32dbfd78d710",
+    "bytes": 42532,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/latency-cost.png",
+    "ok": true,
+    "sha256": "cd033ca5a9809ea67955d3ff7503390a335018b04a19855b320c9bf0ede4b1d9",
+    "bytes": 245825,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/llama-json-1400.webp",
+    "ok": true,
+    "sha256": "8aa193356cc2f648234cd86d4602ad9405eb360f17e1749273e529cce5f48eb0",
+    "bytes": 38566,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/llama-json-480.webp",
+    "ok": true,
+    "sha256": "29a8189f547d22158c5301f35e4355a01de4b3da051573396fcbdbc410470782",
+    "bytes": 10788,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/llama-json-800.webp",
+    "ok": true,
+    "sha256": "35a6de8bb40b39c2540ea123c20dd44c98c67ab366d3f69dd67a617a87e6abe7",
+    "bytes": 19790,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/llama-json.png",
+    "ok": true,
+    "sha256": "f10abd7cf161b43f8955da1233ac7ec32aebf426fc03252cee7dcbed6063cadf",
+    "bytes": 331222,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/math-comms-time-1400.webp",
+    "ok": true,
+    "sha256": "ae7c59989acc4488aa5fbfa4d89dcdedbdb8cc34407bd0d28e5a7b9d200c2288",
+    "bytes": 39026,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/math-comms-time-480.webp",
+    "ok": true,
+    "sha256": "6293b47b47e37d25e553ef4fff28b073629e618f3aaff9f6250ef12063d86b61",
+    "bytes": 11334,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/math-comms-time-800.webp",
+    "ok": true,
+    "sha256": "c6dad5eaafac4d767c24b3375ae151d6c0dd70d1a710abed9d4fa423f9547c53",
+    "bytes": 22004,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/math-comms-time.png",
+    "ok": true,
+    "sha256": "33aa054f318a8cb0357d29c64a27051102e3508504a17ffe6632c1a162c188b7",
+    "bytes": 226971,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/matmul-flops.gif",
+    "ok": true,
+    "sha256": "c85c579e3a3f539fe7042c29dc19b0b5eba6a4519b28853320a2ef8da86bf97f",
+    "bytes": 3327061,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/memory-viewer-1400.webp",
+    "ok": true,
+    "sha256": "091c01059c501c09af2421345313fa3ee60a659224e49e80d6832b49369724b8",
+    "bytes": 19760,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/memory-viewer-480.webp",
+    "ok": true,
+    "sha256": "eb40706d094cd99bb948182f53d5dea9bd17ba2d2163a56befccb00a071dd51f",
+    "bytes": 3570,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/memory-viewer-800.webp",
+    "ok": true,
+    "sha256": "48977d05faaf6ef00e8594e7c2dea4719d2ab41bf8b6e79a1f3f595168e00c29",
+    "bytes": 8630,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/memory-viewer.png",
+    "ok": true,
+    "sha256": "49426138fc26edc6b21da5acbac6954a3266933f371e10ac953af2f84be31a61",
+    "bytes": 90045,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-comms-2-1400.webp",
+    "ok": true,
+    "sha256": "512766578b2cd5cf4b91de16bb560df106f19059abad8b49e8b71aa445ca349b",
+    "bytes": 60398,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-comms-2-480.webp",
+    "ok": true,
+    "sha256": "a889bd83a6ca1f6ce6afc7c9c588812cd13701d358316fae07e1048c225e725b",
+    "bytes": 21864,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-comms-2-800.webp",
+    "ok": true,
+    "sha256": "3bdffd9da808e5b9722a0fe9ec560de2e2b3027562ee2579f574500fe00a4762",
+    "bytes": 45742,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-comms-2.png",
+    "ok": true,
+    "sha256": "66aeceec349aedc72c7d0fac823432ebe07c5b3d8f9230c4dc12ec4ea34a9856",
+    "bytes": 137876,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-model-parallelism-1400.webp",
+    "ok": true,
+    "sha256": "c04b7a6140e83fcea7e561f47fa525ecba5a1ee538d36d1c93e5488586617813",
+    "bytes": 40050,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-model-parallelism-480.webp",
+    "ok": true,
+    "sha256": "1ec9ffb857c72dac6f95a57cb6aac1635fac2d9c3770f722a8feef0be9cf41f0",
+    "bytes": 15492,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-model-parallelism-800.webp",
+    "ok": true,
+    "sha256": "db70d0bfb51bd73cb203fab16f9c52bf451040a6e7d470642db0e5231b2ff7bc",
+    "bytes": 25834,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/mixed-fsdp-model-parallelism.png",
+    "ok": true,
+    "sha256": "b8adfe48d4e4def44023c60904c3abeb404ed3f6c6e0209c509fd90214a98875",
+    "bytes": 123854,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/model-parallelism-1400.webp",
+    "ok": true,
+    "sha256": "068109b0d249d654a9b0cea6225db1325f510b276ba52717caea092db5758282",
+    "bytes": 42094,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/model-parallelism-480.webp",
+    "ok": true,
+    "sha256": "ecd67c4ae2235aa1223485301ebca0df5b0d3a1cac2c18374eda3b83b79cdd5b",
+    "bytes": 15358,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/model-parallelism-800.webp",
+    "ok": true,
+    "sha256": "78572ea7095debafe578c93dbe3734a31cb147d8c5838197d4741738d2b2b152",
+    "bytes": 25532,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/model-parallelism.png",
+    "ok": true,
+    "sha256": "c44760501542aa20b2f19cec42a9b645758cbfde008f4e6eeecf9d8469d7131c",
+    "bytes": 228458,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/moe-1400.webp",
+    "ok": true,
+    "sha256": "dbf7171b09cd71ba9613bcf4d8ca6cbb84275e2cf7416793ec517d8b9fa99316",
+    "bytes": 22558,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/moe-480.webp",
+    "ok": true,
+    "sha256": "35220bea09f6dee3c6d7cfa6b914a62cfd5b914c92b1d01b7de8ed06653fc574",
+    "bytes": 6652,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/moe-800.webp",
+    "ok": true,
+    "sha256": "1cbed040efee5b7befdc98e45810a7dc2adde6fe4f27d72d63b141b3b40a671d",
+    "bytes": 12548,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/moe.png",
+    "ok": true,
+    "sha256": "5d5dda192a1dbc82646c385b0df035a13e9df658701fb114ea95fa7e661620c7",
+    "bytes": 177441,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/more-subslices-1400.webp",
+    "ok": true,
+    "sha256": "b8c1af85ca97725a77b6c48764e3e32b8d4af3b4e127c498cd0ac4b33b19feab",
+    "bytes": 34794,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/more-subslices-480.webp",
+    "ok": true,
+    "sha256": "972c7b25f3621a11b442c6153a96170ed7b5a6bf9b17a67f1946bba20afaa1fa",
+    "bytes": 12468,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/more-subslices-800.webp",
+    "ok": true,
+    "sha256": "098f1bc43461dbbda6e0482df42c38be7a99561973b984ef30572518ff1c3a79",
+    "bytes": 20276,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/more-subslices.png",
+    "ok": true,
+    "sha256": "c84fd5cefdb85d6f2508c7ba2d136285e75f8eb3adaecb0472b3d66708b61d83",
+    "bytes": 79481,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/naive-inference-1400.webp",
+    "ok": true,
+    "sha256": "717dbf0c530250aea5f1474dfbc6a480db9769949b7ac01b73ed0922992ee954",
+    "bytes": 31498,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/naive-inference-480.webp",
+    "ok": true,
+    "sha256": "14b3cb552fdb62c820fa765687d9c8caffbeca8b183fa9d0b3e22ff978e5814f",
+    "bytes": 11526,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/naive-inference-800.webp",
+    "ok": true,
+    "sha256": "51e858bf0ed4326a88409f3713441600c6cdada3ff7e9059dfe381664e359428",
+    "bytes": 18832,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/naive-inference.png",
+    "ok": true,
+    "sha256": "1c69218012e775ba06664660ba9fc978302614a7cfccedb6106e851eef8f49d2",
+    "bytes": 202129,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/not-overlapped-1400.webp",
+    "ok": true,
+    "sha256": "22cfaaec0dc3644f592677b6828dbea0e568ea27661c9eec2b7c8a96ea523909",
+    "bytes": 20582,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/not-overlapped-480.webp",
+    "ok": true,
+    "sha256": "3193f7e4ef6aad3f9295313f4b49104f008d5d9f696a31c9c962d1113d929036",
+    "bytes": 5858,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/not-overlapped-800.webp",
+    "ok": true,
+    "sha256": "a050f5de377ced82af48b555d0ec3a626136d8e964ea191c2cf27c79c142e62c",
+    "bytes": 11216,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/not-overlapped.png",
+    "ok": true,
+    "sha256": "31342e66c67465d3e5fbc51fc144409402cdab6f3c494770898e38c1332b767b",
+    "bytes": 84007,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/overlapped-1400.webp",
+    "ok": true,
+    "sha256": "fecbf3cc16c374c02f73950805d04ecc3fcd28e350a5e3fd067be95d21caad1c",
+    "bytes": 52580,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/overlapped-480.webp",
+    "ok": true,
+    "sha256": "36285f0646a3c9686f75cccf45b0e4f9017f63a1539c673cef987512dde30602",
+    "bytes": 11876,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/overlapped-800.webp",
+    "ok": true,
+    "sha256": "e8aae887cff19762180054cb6fdbc1569fd1d8b0a79aa187056ef0f53e9a7901",
+    "bytes": 25390,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/overlapped.png",
+    "ok": true,
+    "sha256": "28576f6e46cec918e923fb037f921e268f31f7194ce2929d6ec951c0dec69617",
+    "bytes": 330938,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/paged-attention-1400.webp",
+    "ok": true,
+    "sha256": "90b43c28ed602a29279d07f7088f4d4534d5223d49dda38ad86562df3fa361f5",
+    "bytes": 43972,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/paged-attention-480.webp",
+    "ok": true,
+    "sha256": "6bfc58dfe590f76dcf623252756544e887903b3dd8028a493c7afc3d572749ba",
+    "bytes": 11950,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/paged-attention-800.webp",
+    "ok": true,
+    "sha256": "5689cabcc35772cbda0049b56f95a94d086992865f45484fd5463e816499d87e",
+    "bytes": 22360,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/paged-attention.png",
+    "ok": true,
+    "sha256": "74bfc914fc908aa1585976dbf3fecf4d1f7712e829788385983a412d5dd8dbab",
+    "bytes": 137465,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/pcie-1400.webp",
+    "ok": true,
+    "sha256": "20b8bc800b70e0632e6297400a6d3bc4b6325fb557214efe35d3dd72275fd626",
+    "bytes": 24654,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/pcie-480.webp",
+    "ok": true,
+    "sha256": "065a1cda26b64b2af9d7ebc3ff91a16b0a95dd53a8b6bd1b3cc01423d8b2efba",
+    "bytes": 10722,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/pcie-800.webp",
+    "ok": true,
+    "sha256": "8698542f6d8b0510f181f69646e1cf1308f89f465fcf2851d221a27afd0b290f",
+    "bytes": 15458,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/pcie.png",
+    "ok": true,
+    "sha256": "54174659b51ee877ca2313adcb39e60614b710a23ddd8ba1f8afda1bf37088c9",
+    "bytes": 91724,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/pointwise-product.gif",
+    "ok": true,
+    "sha256": "d6ce25a158cdead84fb9d7711209e74727cd59f39c4a8e82d4b5a51c06d358c3",
+    "bytes": 7157009,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/prefix-caching-trie-1400.webp",
+    "ok": true,
+    "sha256": "a2610f1bda48e5740d0c01ce3abe2071f877a74182ea2ddc3bc947a2de6f0139",
+    "bytes": 6236,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/prefix-caching-trie-480.webp",
+    "ok": true,
+    "sha256": "cabff1bbcf5655bb0905cd645f835da122eb2eb70b56408112caf6bd7a40fca8",
+    "bytes": 3692,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/prefix-caching-trie-800.webp",
+    "ok": true,
+    "sha256": "a2610f1bda48e5740d0c01ce3abe2071f877a74182ea2ddc3bc947a2de6f0139",
+    "bytes": 6236,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/prefix-caching-trie.png",
+    "ok": true,
+    "sha256": "96e489277f56510a27b8b4d3d333dc844d9a863d66365a859cb187dd35322f82",
+    "bytes": 17011,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/reduce-scatter-xprof-1400.webp",
+    "ok": true,
+    "sha256": "879380fa51ac474805fac3ce431c8e712596da7cd2370ee3e188400364a2caaf",
+    "bytes": 54234,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/reduce-scatter-xprof-480.webp",
+    "ok": true,
+    "sha256": "dc9563a54c296a6e51578e33ec3d88cc01a83331176223fa9bd1cc6b8a36a406",
+    "bytes": 10030,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/reduce-scatter-xprof-800.webp",
+    "ok": true,
+    "sha256": "379add5ab76b167caee0bfffb17600750b46595e9c6713f6a46a6fef60ec5c49",
+    "bytes": 23070,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/reduce-scatter-xprof.png",
+    "ok": true,
+    "sha256": "673597403d1a91c23a9e5477335a021fec7b12903266874a1800d2f3d2e082ee",
+    "bytes": 269191,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/reduce-scatter.gif",
+    "ok": true,
+    "sha256": "acbf35a60e2e43d6813ee7499066887fcd099c9adc23ce607edccb1d44f7461f",
+    "bytes": 1481794,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-improved-1400.webp",
+    "ok": true,
+    "sha256": "2c9018ab614d888baec0a3cc15c41e67d195988df0f0224985968c8d36e064ce",
+    "bytes": 48532,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-improved-480.webp",
+    "ok": true,
+    "sha256": "4133a2cafd31a2833c2d2424b00dd7fe66573443f31cce7e1eed45e0728ff33f",
+    "bytes": 16166,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-improved-800.webp",
+    "ok": true,
+    "sha256": "88f216bf956db7e7d6ac913c4b3fa66b5aa404107b0a879fe999b261290d6e1a",
+    "bytes": 27218,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-improved.png",
+    "ok": true,
+    "sha256": "1e4b0e2321c6ad087fb9e33dfe18891659f120bedb619d4ffa4bfb41261937d4",
+    "bytes": 325475,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-plot-q3-1400.webp",
+    "ok": true,
+    "sha256": "7829b0598ac1610b658c2769135e77d0a448b9f484686387b1f894788e29d8ad",
+    "bytes": 22528,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-plot-q3-480.webp",
+    "ok": true,
+    "sha256": "bd7fadb63e2665b187a282eb2fde289a9ad0de4f7ae32057e3b2dca0c9d61ec4",
+    "bytes": 10136,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-plot-q3-800.webp",
+    "ok": true,
+    "sha256": "1ac696d3d493eded893065c75c9ae6ba023ceaf684f0400eb37d361b7ba6fb6b",
+    "bytes": 14804,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/roofline-plot-q3.png",
+    "ok": true,
+    "sha256": "f5d0962eb67508045c55b369f023cc958a47297ae6516386a30165a66180038a",
+    "bytes": 361090,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored1-1400.webp",
+    "ok": true,
+    "sha256": "3964aaceba7c613d8e15ea0470df6cd29e97202fa1030573836d4d6e26c81d5b",
+    "bytes": 23030,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored1-480.webp",
+    "ok": true,
+    "sha256": "54446aaad5ed0b6658c43144d4ecb589ed5fab65297fc9fe346deff776565518",
+    "bytes": 7926,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored1-800.webp",
+    "ok": true,
+    "sha256": "1d142245602439fcaad084f70fe539151f2760203e8a0e55c6706a2d3c405042",
+    "bytes": 13016,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored1.png",
+    "ok": true,
+    "sha256": "0919650c210d93f5cb012ab4613f6a4b64cdf8acd078569a28f6aafee240c434",
+    "bytes": 94825,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored2-1400.webp",
+    "ok": true,
+    "sha256": "8fd39eae472a21de9db25e5157be0545c7a3aa2d91ff522b9fbdac838c376003",
+    "bytes": 57864,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored2-480.webp",
+    "ok": true,
+    "sha256": "ac18a0d116c34d030be9c336462260691b7dabb47746b87e57b9fe87cd9ba486",
+    "bytes": 23352,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored2-800.webp",
+    "ok": true,
+    "sha256": "84c038765cf75253b3c1877a7e2fd3fee0f04a07579d01b08dc4d982f5148307",
+    "bytes": 38316,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored2.png",
+    "ok": true,
+    "sha256": "8962d183618c7dd060701d64c2fc9a84c92d3dc41148e2d57a7aed7a6e7fe92e",
+    "bytes": 64135,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored3-1400.webp",
+    "ok": true,
+    "sha256": "f10b9825ff33cdc7d1db3a212bc7aac17c13a25ffbc21eac280d85bf2c0a627e",
+    "bytes": 30928,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored3-480.webp",
+    "ok": true,
+    "sha256": "660be8447a3660132425cf6ee04c66aa382e2ec146505ba0f640d56a624d7328",
+    "bytes": 12128,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored3-800.webp",
+    "ok": true,
+    "sha256": "6dcf8f1caa7ee1cfbf1ae3c62d4787a9277cec9766e81a0f7d5a34af6fdf3f8f",
+    "bytes": 20106,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored3.png",
+    "ok": true,
+    "sha256": "baba3fbb95830e5f866f284774066d4cd973fc9fa9a5a2b3920ed625b43bdcc9",
+    "bytes": 55362,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored4-1400.webp",
+    "ok": true,
+    "sha256": "35cbdae79085b0300b8bc90ea57de002e76ec3c5cebf1cf27d91f33f033d3e31",
+    "bytes": 17510,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored4-480.webp",
+    "ok": true,
+    "sha256": "32c613a0df42872e61a472d473a304e67dea827372f7fb4ba5db8aef2a2a652d",
+    "bytes": 6852,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored4-800.webp",
+    "ok": true,
+    "sha256": "da178113fccae4a9016d89d621cc7bd43e0805d1c1351b136e078c06362151cf",
+    "bytes": 11564,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored4.png",
+    "ok": true,
+    "sha256": "6f4832ede0a3290e90b25e395a26207a552717e1daf8b6315f09e08aae8975ee",
+    "bytes": 36359,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored5-1400.webp",
+    "ok": true,
+    "sha256": "40a57e4b50a9da512309ecddf6886ba3fae43503bd38de72faaac7148b6a87bc",
+    "bytes": 85276,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored5-480.webp",
+    "ok": true,
+    "sha256": "29de1ec20f75bbdf31502cec4c547942e425ae8e502b35b829763f2e8549f3eb",
+    "bytes": 23476,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored5-800.webp",
+    "ok": true,
+    "sha256": "18cae129e5b9b471225907d7622847f8263512c9a29b1364a3f343e5ddef6c32",
+    "bytes": 44540,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored5.png",
+    "ok": true,
+    "sha256": "213e37ca5aefef5b5b8176ac7a46676d967e27a7dba9cdfb45de40ccadcd9c01",
+    "bytes": 454661,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored6-1400.webp",
+    "ok": true,
+    "sha256": "82ab161ccc4439b63eb1b8669afdbde6fe9c2ebc2dbd3a7580939986271dfdc8",
+    "bytes": 22332,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored6-480.webp",
+    "ok": true,
+    "sha256": "d2f8b9c79138c60b4ba53ed41c3ebf536abd83f0c9aa1052958a8162bf35b352",
+    "bytes": 7084,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored6-800.webp",
+    "ok": true,
+    "sha256": "3e8f2bfa3ba62b6a45bfc43fc01cb19f00a9dcd1ab161c9d11b1cd5073216c73",
+    "bytes": 12334,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-colored6.png",
+    "ok": true,
+    "sha256": "a43112301646fbb3f9504aad5c3dd50b263379a7ceec30f887544eadffae0e5e",
+    "bytes": 93836,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-example-1400.webp",
+    "ok": true,
+    "sha256": "941776c78889c2a84a3356d64d35706c3e9115635429cb99d2a46668e78f0d0b",
+    "bytes": 23816,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-example-480.webp",
+    "ok": true,
+    "sha256": "dcc1b8eec40a8270263a4737afdae6c2c73097ff38e6a77b683bf73fe6d416c4",
+    "bytes": 7230,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-example-800.webp",
+    "ok": true,
+    "sha256": "914d10c90b91c8a9906a8715ae5405db82e99620bc2b0132579c864cd355c5ca",
+    "bytes": 12956,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/sharding-example.png",
+    "ok": true,
+    "sha256": "d71e7f62deada1d8610fb620a3f2c7d46ecef85793341fe3756dace01bbf770a",
+    "bytes": 72025,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling1-1400.webp",
+    "ok": true,
+    "sha256": "fc2b11dbb296eb3f3812cfee3755b13b48f10c31f54de3e70535a95137d9c2d0",
+    "bytes": 16638,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling1-480.webp",
+    "ok": true,
+    "sha256": "75b0775f20efbff38804fc6fb4747f22de979487fb4bf461f8466606523654b1",
+    "bytes": 7750,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling1-800.webp",
+    "ok": true,
+    "sha256": "669bbcfed8499310454402e0a70c96650e1d428515348b5e5cda4f1cf1090e30",
+    "bytes": 10860,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling1.png",
+    "ok": true,
+    "sha256": "d3b13f463848dbc5972d529780ce65629c620f47e19e5de65804a400c0ee755e",
+    "bytes": 108048,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling2-1400.webp",
+    "ok": true,
+    "sha256": "cdbd20cea5132a7593362be350ce242bb3c69f602ab27b3b6101b7f08a1e9d68",
+    "bytes": 21416,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling2-480.webp",
+    "ok": true,
+    "sha256": "1c6ebb13e30b4e8cb1971189aed49b799b08c35c514cb708812e757ae5c3253c",
+    "bytes": 9292,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling2-800.webp",
+    "ok": true,
+    "sha256": "96d0f6108fc83cd68f3946d4af5e1790be0dce33015cc60ce7e797b5368de109",
+    "bytes": 13316,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling2.png",
+    "ok": true,
+    "sha256": "57e4789b90cf6ca878d6a4e4f46726e32cb4686b88f4643291504cf98bc797e0",
+    "bytes": 164235,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling3-1400.webp",
+    "ok": true,
+    "sha256": "5004dbea39280df808a28821399618cf3855c714b7dea578720a412500924613",
+    "bytes": 91138,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling3-480.webp",
+    "ok": true,
+    "sha256": "db5762f1915866c314ab8b6f4cb4ae5cb95244473bac820f78ec2fb19e790ae0",
+    "bytes": 25042,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling3-800.webp",
+    "ok": true,
+    "sha256": "6c7b099aac2dc5a745be307af9db9635e8bcebceabd556895b1bf3e7878c2e47",
+    "bytes": 47944,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/spec-sampling3.png",
+    "ok": true,
+    "sha256": "e39f17bf12acd1dacb421403fab8ff170d21f68bdd7b30b67a025b269e275625",
+    "bytes": 266380,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/subslices-1400.webp",
+    "ok": true,
+    "sha256": "6c92d0b132de4ba4cf195c4cc3d4c055c66002d07ea264c079dfaf459dd80010",
+    "bytes": 28208,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/subslices-480.webp",
+    "ok": true,
+    "sha256": "d6f32d1a87d6fc7b475e92e8aef8d01ece7981bc7edadd37532d7428f565dadf",
+    "bytes": 12490,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/subslices-800.webp",
+    "ok": true,
+    "sha256": "649cd10de564abb7e3fcf796de8fe7adb933cc7bbac143715e8bc447bd62826b",
+    "bytes": 19244,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/subslices.png",
+    "ok": true,
+    "sha256": "477417e7fbb8e65b0ed7f01a0d93ffd898e8e2dccd545134c32e2cdda217c253",
+    "bytes": 76072,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array-bad.gif",
+    "ok": true,
+    "sha256": "99668be6db7b3deb1a5a876ebbcc5f6c9a19f98028c53956a334d5d07f130cf7",
+    "bytes": 300710,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array-pipelining-1400.webp",
+    "ok": true,
+    "sha256": "bc504ebde3eaa7c04b73ebb7d9adb4c382e1fa3e76f47bbfc6a0d2c19cd3636a",
+    "bytes": 23324,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array-pipelining-480.webp",
+    "ok": true,
+    "sha256": "58c057d22ee83981a564a4cc2ab1780db9b6b8eadbf0d4270f1d97c8ea2b5a5d",
+    "bytes": 9672,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array-pipelining-800.webp",
+    "ok": true,
+    "sha256": "14f59a1739ba1dff568c5c3514e0d70fb7dda6a1a66afff6ba7ff87125f39ae5",
+    "bytes": 14024,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array-pipelining.png",
+    "ok": true,
+    "sha256": "4fda12269eb522e7b57135c69ca8ea4c6d2097e396c21c4fc2d0ecf6964a6692",
+    "bytes": 83000,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array.gif",
+    "ok": true,
+    "sha256": "3e682587919ed9958e348062d56e0a04cfa31ed30c34d2767d89a9b457588f16",
+    "bytes": 1013818,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/systolic-array2.gif",
+    "ok": true,
+    "sha256": "fbe1aec6623d07041c154644fb750fecbdc70834c0efa0d3a23af2fe3e64420e",
+    "bytes": 1397631,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling-1400.webp",
+    "ok": true,
+    "sha256": "ff3482df7179fce35491b36894385f9b19a0fb108951acf61eef990f077a5d2c",
+    "bytes": 25708,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling-480.webp",
+    "ok": true,
+    "sha256": "75b464fb94637d88196002b6d2cbf892ee141f28d885422363d447c6256a2605",
+    "bytes": 9998,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling-800.webp",
+    "ok": true,
+    "sha256": "2f4fff0c90a90f5be2bf14c0339faf5041a834b92267766d163004107ebfc98d",
+    "bytes": 15876,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling.png",
+    "ok": true,
+    "sha256": "64ece3797f5868bafa636f0b1a8e42879cffe106a763b2cc235bb998d2556023",
+    "bytes": 278270,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling2-1400.webp",
+    "ok": true,
+    "sha256": "adbb5651cc1ea86cc1e674bb43e3cf37e72125ceacb0e5d24174884479d56ba8",
+    "bytes": 32132,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling2-480.webp",
+    "ok": true,
+    "sha256": "5a65c194274b56f3165bd005abf34d07945db6b3dac09c43d96a8d8b34fa7b66",
+    "bytes": 13932,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling2-800.webp",
+    "ok": true,
+    "sha256": "525c3fe0473be86d370bea48159d30856a4c3ade5e45f487dfdb584ac2729eae",
+    "bytes": 20244,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tiling2.png",
+    "ok": true,
+    "sha256": "40492ced735823d96fa4a34e114acea217b954b281e9a23287e519f370c74028",
+    "bytes": 209749,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-bandwidth-1400.webp",
+    "ok": true,
+    "sha256": "158f672d15236bdc53c2be051ad1dd7ce4596f3f24fa5ae987b1fb1b5d31f8cb",
+    "bytes": 28486,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-bandwidth-480.webp",
+    "ok": true,
+    "sha256": "5ba26df96b36fffd82072a0061008f131c64f88983de0add052ff437c66e76fe",
+    "bytes": 11138,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-bandwidth-800.webp",
+    "ok": true,
+    "sha256": "71e5a4cf8a05e5dddf136b06d30247d903bfbd1121b416c1c8b6ccc67a4c6dc7",
+    "bytes": 17508,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-bandwidth.png",
+    "ok": true,
+    "sha256": "036145e83b5b13aad96f9defe3e161e8d488409d85c7365b6eb1df2e5ffcafb5",
+    "bytes": 137586,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-chip-1400.webp",
+    "ok": true,
+    "sha256": "225d5b84fd646fd10827ba68a9a288a6ef05828d747fdcc595e3bfbdb330850d",
+    "bytes": 48624,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-chip-480.webp",
+    "ok": true,
+    "sha256": "f1407dae411f6063c4c1cedf54729d5720ec503c6045ffbba4f2eee23722af52",
+    "bytes": 11948,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-chip-800.webp",
+    "ok": true,
+    "sha256": "e2cb72fe1fb86116031d221e9b774c93fe360e8e8f3f6f44578f7b51f6c26fda",
+    "bytes": 24866,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-chip.png",
+    "ok": true,
+    "sha256": "3c8878d42e9b43a0c22517f36a30bd14d1810044fa4dd0c83cb71a289d27f6dc",
+    "bytes": 206869,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-rack-1400.webp",
+    "ok": true,
+    "sha256": "7ee8b3147384e4e47654a3ea8079ed0902cec3db9831e2604bb513a6e005ca38",
+    "bytes": 76296,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-rack-480.webp",
+    "ok": true,
+    "sha256": "7f14f326ceee8aed0c47fe463b582699fd654f976e1b03aeea0cf3eac09d91b6",
+    "bytes": 18486,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-rack-800.webp",
+    "ok": true,
+    "sha256": "9111f99bef8cf52756f518f82d144606df49cc8a5c64f66e10dfe0f0d7f1c38a",
+    "bytes": 38292,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/tpu-rack.png",
+    "ok": true,
+    "sha256": "dfbd753ef07d86e07b8b5b69d914a22e808dfd61d6d18e1104f20f2416cadbd9",
+    "bytes": 710989,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/trace-viewer-1400.webp",
+    "ok": true,
+    "sha256": "04a5055f7c92178788017f87c0e950871d3ee04e744008aeaeb7c1d5cdedb035",
+    "bytes": 60198,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/trace-viewer-480.webp",
+    "ok": true,
+    "sha256": "4701105f7cac5a3865d93d514b80434632595db7368ac17c1351e07a3d2ac2ea",
+    "bytes": 10792,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/trace-viewer-800.webp",
+    "ok": true,
+    "sha256": "c88d9478fc6f4410f2b867e71fb044153f01978ace9e77b4df64a698058577ff",
+    "bytes": 25460,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/trace-viewer.png",
+    "ok": true,
+    "sha256": "2db10a4279cc08f36bb9ca074fd2d1107d3bc0ea9080611e117e091147a05a0a",
+    "bytes": 639382,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-diagram-1400.webp",
+    "ok": true,
+    "sha256": "cee5374ba9bc1f4206cf9fe55329fca99999fc04f5943fc0518b94fa6b331676",
+    "bytes": 50272,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-diagram-480.webp",
+    "ok": true,
+    "sha256": "6c75bf44ccdf3d7f22489bb489ae162b28cccf0508e349b85cf60fd28639426d",
+    "bytes": 13350,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-diagram-800.webp",
+    "ok": true,
+    "sha256": "4595f266d2e3fc2c562d4917c5985175f5da65f4435d535066543534c8f993ae",
+    "bytes": 25910,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-diagram.png",
+    "ok": true,
+    "sha256": "bf82777555b58ffa2eb0e60c438f139197198050eed1abbd9eb2b6b544fb09f9",
+    "bytes": 91550,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-ffw-1400.webp",
+    "ok": true,
+    "sha256": "f01ec484d2c667b3ce2789cfb584562f82db88cdaab05f7c235b4159b388b9f2",
+    "bytes": 55330,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-ffw-480.webp",
+    "ok": true,
+    "sha256": "5b6c2832b03bf199dce5c00b65048ff167efc1f3478c4960ad979da77cbc1977",
+    "bytes": 10280,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-ffw-800.webp",
+    "ok": true,
+    "sha256": "842c9321fb64dab5d52bf72ec4bcb0bd99d8d1daa18aa31baf6ee4afc01d33a0",
+    "bytes": 24374,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-ffw.png",
+    "ok": true,
+    "sha256": "297e3579abbac82f788ef757cc885108d4f58d6afdcb2761e8d19de7121e9b46",
+    "bytes": 288460,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-layer-1400.webp",
+    "ok": true,
+    "sha256": "30861ab4d6fad1422749ee2427af798cda08f2bee779ddcffa80c89df23deb31",
+    "bytes": 16308,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-layer-480.webp",
+    "ok": true,
+    "sha256": "eae9543835cb0f52140f59ef5435e481bc23077437b09afe39e3489f0f4e85a1",
+    "bytes": 7878,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-layer-800.webp",
+    "ok": true,
+    "sha256": "3b51dde5e0f1155f0cfa6c77bcff032bbe9732a63c6926031a00eee005df9ae6",
+    "bytes": 11054,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-layer.png",
+    "ok": true,
+    "sha256": "76a2096e3544bcf402b4719d975f200c8195a707cf6b605788819b0f6c3f1c84",
+    "bytes": 129985,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-xprof-1400.webp",
+    "ok": true,
+    "sha256": "8582bbf747f10604defc0f78d346b95b8b9f83fa7121852fb3d958bebbc36a87",
+    "bytes": 56460,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-xprof-480.webp",
+    "ok": true,
+    "sha256": "389021a7a55fe186fe8cffb688e612bfcca57815ef9678b36984793bd6dd3df3",
+    "bytes": 10404,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-xprof-800.webp",
+    "ok": true,
+    "sha256": "b0b4018bcb90a65a293b849f946d7a959b1eb9c9225f5d07b1da4efa318b61ff",
+    "bytes": 24174,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/transformer-xprof.png",
+    "ok": true,
+    "sha256": "c11764dd8210ebc51188fe76384969c0735a4e9d132e7fe6e713db89beef479a",
+    "bytes": 533988,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/xprof-overview-1400.webp",
+    "ok": true,
+    "sha256": "7e0c0809fae71f648994b8e3ff187c72c0852a3d31037fb964a1e1a1d6ba31e0",
+    "bytes": 76968,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/xprof-overview-480.webp",
+    "ok": true,
+    "sha256": "18e971f7ba8fd83574f24d2e5faacb4a61529b888901823d0d06b99626dcb01b",
+    "bytes": 16038,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/xprof-overview-800.webp",
+    "ok": true,
+    "sha256": "100c43d7fb37210c0df70456680633d949e8563bcf6026ea46a7c21a647295ad",
+    "bytes": 36604,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/img/xprof-overview.png",
+    "ok": true,
+    "sha256": "947781bd59c1df097454766baab18748878bcabc5b0ee1c53844ec3b52480a5a",
+    "bytes": 346047,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/bootstrap.bundle.min.js",
+    "ok": true,
+    "sha256": "19126b874a32753d42c12dfa6c17892bfd93820a5a5100ba1b34da4d07599b49",
+    "bytes": 83376,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e",
+    "ok": true,
+    "sha256": "7abb36382955c0e1d74d509902094786305f82262a69c3a49a108ee7bd74245b",
+    "bytes": 1457,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f",
+    "ok": true,
+    "sha256": "d48954a60ae51efab62b4dc6976c80a4666f551d28748c23b9f7d0a9db3be66d",
+    "bytes": 1156,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/distillpub/template.v2.js",
+    "ok": true,
+    "sha256": "45337053bbdca73ea1916209fcffd66b5e703ee4d5164bbe997c342853838c73",
+    "bytes": 118772,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/distillpub/transforms.v2.js",
+    "ok": true,
+    "sha256": "c4a17f7897cdac5a168214c459a41e599593a7ecadf903097ac785e3a725ddb9",
+    "bytes": 225018,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f",
+    "ok": true,
+    "sha256": "743e26de2df80edcd65f52cef86a0f80da0e7a3e63d49e5a5a634fb4744c6ea6",
+    "bytes": 240,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/mathjax-setup.js?70d799092f862ad98c7876aa47712e20",
+    "ok": true,
+    "sha256": "ff72c052abc4599a7b8a45f28d1264666f304efa4d29ad6f2dd072ec5821c931",
+    "bytes": 34,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126",
+    "ok": true,
+    "sha256": "6d9c94810712b02a0a1cc1365d43c3170b53019e9e8a0cb4a61b52a370ef8790",
+    "bytes": 404,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a",
+    "ok": true,
+    "sha256": "534b3d77c6237575a6f3948520bc3eb457fb18700dcbc32aabc52b986f0d20d9",
+    "bytes": 1005,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/sidenotes.js?5488feda9017667a4b53f647c3851cee",
+    "ok": true,
+    "sha256": "69b1a19276da96175e5f782a45de7c0b9333389fa9d430dedb89fc1487f60b3d",
+    "bytes": 5601,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0",
+    "ok": true,
+    "sha256": "f86ccd1ec3d251fb25f4e5e40890e1d8334d54dc8a06f0746aae5b8bb4dff09a",
+    "bytes": 4030,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17",
+    "ok": true,
+    "sha256": "10580ff98c86f02d97825b7de3a5c475dc76e10dd83ee7c27d555190ab71deb7",
+    "bytes": 2982,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308",
+    "ok": true,
+    "sha256": "bd7df320d6a98c1817d7e7249189bded516d493e476da965727c481019147a04",
+    "bytes": 172,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/plotly/latency_breakdown_log.html",
+    "ok": true,
+    "sha256": "e49f5f7db6cdf2ef90c0acb86e3d77f84e41c0779d597130093d33bfd5c5fc29",
+    "bytes": 148900,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/plotly/pareto.html",
+    "ok": true,
+    "sha256": "6ff963ffaf87d44d85c6567ab7cb78bedce5785a92648b3a9eb09fe5c6db804a",
+    "bytes": 83560,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/plotly/training-roofline.html",
+    "ok": true,
+    "sha256": "fc62c04150afc24aa726369dddce4cb427a2c045611e039fadef3410d7d06bbf",
+    "bytes": 69409,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/webfonts/fa-brands-400.ttf",
+    "ok": true,
+    "sha256": "276af0307107fc3e28218f3d580d2636b2a85966a309b9c937c799f3e14f4ea2",
+    "bytes": 210736,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/webfonts/fa-brands-400.woff2",
+    "ok": true,
+    "sha256": "4d46c3bcd49e008582f1c01ee88ed9a494d150643e3e947eb7710180808403c9",
+    "bytes": 118724,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/webfonts/fa-regular-400.ttf",
+    "ok": true,
+    "sha256": "7caa2d8d6cc03c5ee9fc23eab7a193b4e3ce667469c3f955a35f957a14ac2b7e",
+    "bytes": 68064,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/webfonts/fa-regular-400.woff2",
+    "ok": true,
+    "sha256": "003b55144f370c07c2bc6f8f80455bca7d61a2fb2766551883734249e953e700",
+    "bytes": 25484,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/webfonts/fa-solid-900.ttf",
+    "ok": true,
+    "sha256": "23c4f99ee90741117109d813b937b9bc6e971a2781fede7aa975414acec4f53f",
+    "bytes": 426112,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/assets/webfonts/fa-solid-900.woff2",
+    "ok": true,
+    "sha256": "38e76ab3d359e772e9f2aab11fbb07a2e2209318183a89ced0a97d6b958a7a6f",
+    "bytes": 158224,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/conclusion.html",
+    "ok": true,
+    "sha256": "2368d26c9e22a5cde12ed3e785c5e72362a405b5519a1d85615b61d83a1ef559",
+    "bytes": 31294,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/gpus.html",
+    "ok": true,
+    "sha256": "793be4eaea78404a63979c05cc397c0b17cc189f5d6c63cd122d563168650e79",
+    "bytes": 142669,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/index.html",
+    "ok": true,
+    "sha256": "709aedb8f81e02d81c5be55047361392e0644313262714d4bbd188da1e67dcac",
+    "bytes": 41967,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/inference.html",
+    "ok": true,
+    "sha256": "55b04b6fafbbb3c4025467c690bc47a98ec801891a1a9f159a180e43b39723b4",
+    "bytes": 111737,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/jax-stuff.html",
+    "ok": true,
+    "sha256": "0bc2ca7b4576cf7c07944bf4a55acc953e01fa01b477800eed1cd5bf24cb1650",
+    "bytes": 109381,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/profiling.html",
+    "ok": true,
+    "sha256": "92e42b8616f3684cca7eaea2ced03006d99f666681693e8a7263ecc4fa7b9e54",
+    "bytes": 64167,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/roofline.html",
+    "ok": true,
+    "sha256": "85dfe5619e60f4aa6a73728f5bddeea8f6a568baf598bbbba3f330b97b15c091",
+    "bytes": 52843,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/sharding.html",
+    "ok": true,
+    "sha256": "067d1e69d8905828a357e8482b3ba9771e98e8cadefaa5ba34d08820acf4ea1d",
+    "bytes": 106482,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/tpus.html",
+    "ok": true,
+    "sha256": "d9e20a21b1bf27984c5aa3204e692a1ed00394ed00ce34cd1234361fae2630da",
+    "bytes": 74598,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/training.html",
+    "ok": true,
+    "sha256": "6803d76318d644e5c612c5486c8214c9d0405097b61d88368adbf0576507884b",
+    "bytes": 97363,
+    "mirror": true
+   },
+   {
+    "path": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/scaling-book/transformers.html",
+    "ok": true,
+    "sha256": "50f0669ccfc9d9d69bb0af4da0afca0d263524f163d7339e47a50756459434d5",
+    "bytes": 59730,
+    "mirror": true
+   }
+  ],
+  "notes": [],
+  "mirror": {
+   "wget_rc": 8,
+   "html_pages": 16,
+   "missing": [],
+   "remote_src_refs_same_host": 0,
+   "ok": true
+  },
+  "local_path": "books/Austin_HowToScaleYourModel_2025_html_en",
+  "pack_sha256": "14f06d374650b98e898fa3da073f3af99e23f95d59fdcbdc6df6d9c60804efdd",
+  "status": "verified",
+  "origin": "downloaded_this_round",
+  "naming_conversion": {
+   "time": "2026-10-29 16:32:29",
+   "sites": [
+    {
+     "site_dir": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site",
+     "original_archive": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site_original_en.tar.gz",
+     "original_archive_sha256": "81c7021d0662bf55645e6e259563216fb7a7ba39e360b3b3812adfb7ddc34d4e",
+     "files": 346,
+     "path_map": "books/Austin_HowToScaleYourModel_2025_html_en/scaling-book_site/path_map_en.csv"
+    }
+   ],
+   "note": "原始结构网站在 *_original_en.tar.gz（解压后可离线阅读）；目录内为加语言后缀的只读副本，链接未改写，不能直接作为网站使用"
+  }
+ },
+ "18-050": {
+  "sid": "18-050",
+  "time": "2026-10-29 15:59:13",
+  "files": [
+   {
+    "path": "books/Tazi_UltraScalePlaybook_2025_en.pdf",
+    "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook/resolve/c93890dd4b22356ee18ed9b863e6f2d0909729bc/The_Ultra-Scale_Playbook_Training_LLMs_on_GPU_Clusters.pdf",
+    "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6671bffcf022d14aa10e6c65/2a7176d3297561aa2d39d8335843f6fecf78bd8053c86220a911279686b9bcc5?X-Xet-Cas-Uid=public&user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27The_Ultra-Scale_Playbook_Training_LLMs_on_GPU_Clusters.pdf%3B+filename%3D%22The_Ultra-Scale_Playbook_Training_LLMs_on_GPU_Clusters.pdf%22%3B&response-content-type=application%2Fpdf&xip=vzlH9V57VH8&Expires=1793289553&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjY3MWJmZmNmMDIyZDE0YWExMGU2YzY1LzJhNzE3NmQzMjk3NTYxYWEyZDM5ZDgzMzU4NDNmNmZlY2Y3OGJkODA1M2M4NjIyMGE5MTEyNzk2ODZiOWJjYzVcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3VGhlX1VsdHJhLVNjYWxlX1BsYXlib29rX1RyYWluaW5nX0xMTXNfb25fR1BVX0NsdXN0ZXJzLnBkZiUzQitmaWxlbmFtZSUzRCUyMlRoZV9VbHRyYS1TY2FsZV9QbGF5Ym9va19UcmFpbmluZ19MTE1zX29uX0dQVV9DbHVzdGVycy5wZGYlMjIlM0ImcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uJTJGcGRmJnhpcD12emxIOVY1N1ZIOCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRXBvY2hUaW1lIjoxNzkzMjg5NTUzfX19XX0_&Signature=MEQCIHiSBr5kCsZyDZ4M7wb4UD3F4OLtqFp%7E-6JWocjKvIO7AiAPOCtocXSTHSXpYjndKGawQEcUZSRPWuSYxzWirO-gjA__&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 14059172,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 1,
+     "sample_chars": 204286
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "274a19a2577ed220cd3a102b4469c44310e4a7c8e8f8ebc36842d907cb51e127"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 1,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 1
+  },
+  "local_path": "books/Tazi_UltraScalePlaybook_2025_en.pdf",
+  "pack_sha256": "274a19a2577ed220cd3a102b4469c44310e4a7c8e8f8ebc36842d907cb51e127",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-051": {
+  "sid": "18-051",
+  "time": "2026-10-29 15:59:36",
+  "files": [
+   {
+    "path": "books/Reddi_IntroductionToMLSystems_Vol1_v0.8.0_en.pdf",
+    "url": "https://github.com/harvard-edge/cs249r_book/releases/download/vol1-v0.8.0/Machine-Learning-Systems-Vol1.pdf",
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/688164459/7d7d8fa8-5abe-489a-ac92-1bae3799f680?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-29T15%3A51%3A59Z&rscd=attachment%3B+filename%3DMachine-Learning-Systems-Vol1.pdf&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-29T14%3A51%3A44Z&ske=2026-10-29T15%3A51%3A59Z&sks=b&skv=2018-11-09&sig=E6iTSX%2F67CJMWOTGEf1hz1EZllFGsN0nqNep53BH4Iw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzI4Nzc3NiwibmJmIjoxNzkzMjg1OTc2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.aFNeBOMDqfDQ1UONYZq98e1VkghoaeuIg3JkJVGef34&response-content-disposition=attachment%3B%20filename%3DMachine-Learning-Systems-Vol1.pdf&response-content-type=application%2Foctet-stream",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 14277370,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 1493,
+     "sample_chars": 6659
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "4b1e3ae180f58ff8783776a7e60cc1ac4bfa26a21c9f1281f83d0e051fe6ebef"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 1493,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 1400
+  },
+  "local_path": "books/Reddi_IntroductionToMLSystems_Vol1_v0.8.0_en.pdf",
+  "pack_sha256": "4b1e3ae180f58ff8783776a7e60cc1ac4bfa26a21c9f1281f83d0e051fe6ebef",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-052": {
+  "sid": "18-052",
+  "time": "2026-10-29 15:59:37",
+  "files": [
+   {
+    "path": "books/Reddi_ScalingMLSystems_Vol2_v0.3.0_en.pdf",
+    "url": "https://github.com/harvard-edge/cs249r_book/releases/download/vol2-v0.3.0/Machine-Learning-Systems-Vol2.pdf",
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/688164459/9fbbbf71-d975-476c-8562-c46a2d4a529a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-29T15%3A55%3A39Z&rscd=attachment%3B+filename%3DMachine-Learning-Systems-Vol2.pdf&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-29T14%3A54%3A57Z&ske=2026-10-29T15%3A55%3A39Z&sks=b&skv=2018-11-09&sig=COtd1Ve%2BPv7CmqIlirY0yu%2BEiI1T%2F7XMdl0HWUvOYJM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzI4Nzc3OSwibmJmIjoxNzkzMjg1OTc5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.r5l2UchKmNKX5JxpQQ53HO3-ouoXJTPEVUNB_DUY7VU&response-content-disposition=attachment%3B%20filename%3DMachine-Learning-Systems-Vol2.pdf&response-content-type=application%2Foctet-stream",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 17972283,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 1686,
+     "sample_chars": 3266
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "9cc1dc1935ee4169605fe8653781c24119a0b6b64fe54d4f91982ba6183df66a"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 1686,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 1500
+  },
+  "local_path": "books/Reddi_ScalingMLSystems_Vol2_v0.3.0_en.pdf",
+  "pack_sha256": "9cc1dc1935ee4169605fe8653781c24119a0b6b64fe54d4f91982ba6183df66a",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ },
+ "18-053": {
+  "sid": "18-053",
+  "time": "2026-10-29 15:59:40",
+  "files": [
+   {
+    "path": "books/Bekman_MachineLearningEngineeringOpenBook_2026_en.pdf",
+    "url": "https://huggingface.co/stas/ml-engineering-book/resolve/9966fd7d9c47efc894295edc9742e7524ca5a657/Stas%20Bekman%20-%20Machine%20Learning%20Engineering.pdf",
+    "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/65b1ebdd638328850e2cfa42/dbc59814c617effedb86cf9b274ed71d6931c3cdb27a22c7fc3e58bc8ed20c80?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Stas%252520Bekman%252520-%252520Machine%252520Learning%252520Engineering.pdf%3B+filename%3D%22Stas%2520Bekman%2520-%2520Machine%2520Learning%2520Engineering.pdf%22%3B&xip=vzlH9V57VH8&response-content-type=application%2Fpdf&user_id=public&X-Xet-Cas-Uid=public&Expires=1793289580&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjViMWViZGQ2MzgzMjg4NTBlMmNmYTQyL2RiYzU5ODE0YzYxN2VmZmVkYjg2Y2Y5YjI3NGVkNzFkNjkzMWMzY2RiMjdhMjJjN2ZjM2U1OGJjOGVkMjBjODBcXD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3U3RhcyUyNTI1MjBCZWttYW4lMjUyNTIwLSUyNTI1MjBNYWNoaW5lJTI1MjUyMExlYXJuaW5nJTI1MjUyMEVuZ2luZWVyaW5nLnBkZiUzQitmaWxlbmFtZSUzRCUyMlN0YXMlMjUyMEJla21hbiUyNTIwLSUyNTIwTWFjaGluZSUyNTIwTGVhcm5pbmclMjUyMEVuZ2luZWVyaW5nLnBkZiUyMiUzQiZ4aXA9dnpsSDlWNTdWSDgmcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uJTJGcGRmJnVzZXJfaWQ9cHVibGljJlgtWGV0LUNhcy1VaWQ9cHVibGljIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTMyODk1ODB9fX1dfQ__&Signature=MEQCIB5rdgIA8LY9tu1wV%7Ew0egV2xwzxDQQVGHzvJwjCLSsDAiBz6K4Rn5v9bVOucWNQA1wjl-ImlBl9g-Cl4MOccPbmJw__&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 19046636,
+    "label": "",
+    "check": {
+     "ok": true,
+     "pages": 534,
+     "sample_chars": 5875
+    },
+    "ok": true,
+    "aux": false,
+    "sha256": "df260b72dcb15a4c763553e1ae5b8d503ab75e994f176263140bf143a9d04bc3"
+   }
+  ],
+  "notes": [],
+  "book_check": {
+   "pages": 534,
+   "title_match": 1.0,
+   "toc_found": true,
+   "author_found": true,
+   "min_pages": 450
+  },
+  "local_path": "books/Bekman_MachineLearningEngineeringOpenBook_2026_en.pdf",
+  "pack_sha256": "df260b72dcb15a4c763553e1ae5b8d503ab75e994f176263140bf143a9d04bc3",
+  "status": "verified",
+  "origin": "downloaded_this_round"
+ }
+}

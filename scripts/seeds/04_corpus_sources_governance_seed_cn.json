@@ -1,0 +1,842 @@
+[
+ {
+  "sid": "04-001",
+  "arxiv": "2506.20920",
+  "title": "FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "把预训练数据处理流程按语言自适应扩展到上千种语言并发布 FineWeb2，是当前小语种网络语料的主要来源之一。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "论文核心之一是逐语言调整语言识别、去重与过滤阈值（05 数据处理）"
+ },
+ {
+  "sid": "04-002",
+  "arxiv": "2503.10267",
+  "title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "HPLT v2 发布大规模多语言单语与平行语料，覆盖大量低资源语言，并记录处理流程。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "含语言识别、去重、质量标注流程描述"
+ },
+ {
+  "sid": "04-003",
+  "arxiv": "2403.14009",
+  "title": "A New Massive Multilingual Dataset for High-Performance Language Technologies",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "HPLT v1：从 Internet Archive 与 CommonCrawl 抽取 75 种语言单语语料与平行语料，可与 v2/v3 对比演进。"
+ },
+ {
+  "sid": "04-004",
+  "arxiv": "2511.01066",
+  "title": "HPLT 3.0: Very Large-Scale Multilingual Resources for LLMs and MT. Mono- and Bi-lingual Data, Multilingual Evaluation, and Pre-Trained Models",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "HPLT 3.0 发布更大规模单语/双语数据并附评测与模型，是 HPLT 语料线的最新版本。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "同时发布多语言评测套件"
+ },
+ {
+  "sid": "04-005",
+  "arxiv": "2410.23825",
+  "title": "GlotCC: An Open Broad-Coverage CommonCrawl Corpus and Pipeline for Minority Languages",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向少数民族/小语种的 CommonCrawl 文档级语料与开源流水线，覆盖 1000+ 语言。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "基于 GlotLID 的语言识别与噪声过滤流程"
+ },
+ {
+  "sid": "04-006",
+  "arxiv": "2311.08348",
+  "title": "MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China",
+  "subtopic": "少数民族语言语料构建",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建藏、维吾尔、哈萨克、蒙古等中国少数民族语言语料，并讨论文字形式与透明度问题。"
+ },
+ {
+  "sid": "04-007",
+  "arxiv": "2406.10118",
+  "title": "SeaCrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages",
+  "subtopic": "区域语料汇集与社区参与",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以社区众包方式汇集东南亚近千种语言资源的数据中心，含数据卡与许可信息。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "同时提供基准评测套件"
+ },
+ {
+  "sid": "04-008",
+  "arxiv": "2403.06350",
+  "title": "IndicLLMSuite: A Blueprint for Creating Pre-training and Fine-Tuning Datasets for Indian Languages",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为 22 种印度语言构建预训练与微调数据的完整蓝图（Sangraha 等），覆盖网页、PDF、视频转写来源。",
+  "cross": [
+   "05",
+   "08"
+  ],
+  "cross_reason": "含清洗流水线（05）与指令数据构建（08）"
+ },
+ {
+  "sid": "04-009",
+  "arxiv": "2405.01590",
+  "title": "101 Billion Arabic Words Dataset",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从 CommonCrawl 抽取并清洗大规模阿拉伯语语料，报告来源与清洗步骤。"
+ },
+ {
+  "sid": "04-010",
+  "arxiv": "2404.17733",
+  "title": "Building a Large Japanese Web Corpus for Large Language Models",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "从 CommonCrawl 构建日语专用语料的流程，可作为非英语单语种网络语料构建模板。",
+  "relevance_use": "单语种 CommonCrawl 抽取—过滤流程可直接迁移到小语种"
+ },
+ {
+  "sid": "04-011",
+  "arxiv": "2604.00920",
+  "title": "GPT-NL Public Corpus: A Permissively Licensed, Dutch-First Dataset for LLM Pre-training",
+  "subtopic": "许可友好的语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以宽松许可为前提构建荷兰语优先的预训练语料，直接对应中等资源语言的合规数据来源问题。"
+ },
+ {
+  "sid": "04-012",
+  "arxiv": "2506.01732",
+  "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training",
+  "subtopic": "许可友好的语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "公开领域/开放许可多语言语料集合，含大量 OCR 数字化文献，讨论许可与来源。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "含 OCR 文本校正与过滤"
+ },
+ {
+  "sid": "04-013",
+  "arxiv": "2506.05209",
+  "title": "The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text",
+  "subtopic": "许可友好的语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以英语为主的开放许可语料，展示许可审查与来源记录方法。",
+  "relevance_use": "开放许可语料的许可核查方法可用于小语种语料采集"
+ },
+ {
+  "sid": "04-014",
+  "arxiv": "2506.08300",
+  "title": "Institutional Books 1.0: A 242B token dataset from Harvard Library's collections, refined for accuracy and usability",
+  "subtopic": "OCR 文献数字化来源",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "哈佛图书馆扫描书籍 OCR 文本，多语言，公开记录 OCR 质量与语言分布，是图书数字化语料来源案例。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "含 OCR 质量分析与文本清理"
+ },
+ {
+  "sid": "04-015",
+  "arxiv": "2402.00159",
+  "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+  "subtopic": "语料文档化",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "开放语料与工具链，并详细记录来源、风险与设计决策。",
+  "relevance_use": "数据文档化与可复现工具链可作为小语种语料发布范本"
+ },
+ {
+  "sid": "04-016",
+  "arxiv": "2310.20707",
+  "title": "What's In My Big Data?",
+  "subtopic": "语料文档化与审计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "提供大规模语料统计与审计工具，揭示重复、污染、个人信息与低质量内容。",
+  "relevance_use": "可对小语种语料做规模化统计、PII 与污染审计",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "审计结果直接服务数据清洗"
+ },
+ {
+  "sid": "04-017",
+  "arxiv": "2407.14933",
+  "title": "Consent in Crisis: The Rapid Decline of the AI Data Commons",
+  "subtopic": "数据授权与同意",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "Data Provenance Initiative 审计网站 robots.txt 与服务条款对 AI 爬取的限制增长。",
+  "relevance_use": "影响小语种网页语料的可采集性与合规风险评估"
+ },
+ {
+  "sid": "04-018",
+  "arxiv": "2404.12691",
+  "title": "Data Authenticity, Consent, & Provenance for AI are all broken: what will it take to fix them?",
+  "subtopic": "数据来源追踪",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "讨论数据真实性、同意与来源追踪的系统性问题与改进方向。",
+  "relevance_use": "为小语种语料来源记录与同意机制设计提供框架"
+ },
+ {
+  "sid": "04-019",
+  "arxiv": "2412.17847",
+  "title": "Bridging the Data Provenance Gap Across Text, Speech and Video",
+  "subtopic": "数据来源追踪",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "跨文本/语音/视频审计数据集来源、许可与地理/语言代表性，含语言覆盖分析。"
+ },
+ {
+  "sid": "04-020",
+  "arxiv": "2503.02784",
+  "title": "Do Not Trust Licenses You See: Dataset Compliance Requires Massive-Scale AI-Powered Lifecycle Tracing",
+  "subtopic": "数据授权与许可",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "指出数据集表面许可与其上游来源许可不一致，提出生命周期追溯。",
+  "relevance_use": "小语种语料多为二次汇编，需追溯上游许可"
+ },
+ {
+  "sid": "04-021",
+  "arxiv": "2502.04484",
+  "title": "An Empirical Analysis of Machine Learning Model and Dataset Documentation, Supply Chain, and Licensing Challenges on Hugging Face",
+  "subtopic": "数据授权与许可",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "实证分析 Hugging Face 上模型/数据集文档与许可链问题。",
+  "relevance_use": "小语种资源多托管于 HF，文档与许可缺失风险直接相关"
+ },
+ {
+  "sid": "04-022",
+  "arxiv": "2601.14311",
+  "title": "Tracing the Data Trail: A Survey of Data Provenance, Transparency and Traceability in LLMs",
+  "subtopic": "数据来源追踪",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "综述 LLM 数据来源、透明度与可追溯性方法。",
+  "relevance_use": "系统梳理来源追踪方法，可用于小语种语料治理设计"
+ },
+ {
+  "sid": "04-023",
+  "arxiv": "2512.21775",
+  "title": "Compliance Rating Scheme: A Data Provenance Framework for Generative AI Datasets",
+  "subtopic": "数据来源追踪",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "提出生成式 AI 数据集的合规评级与来源框架。",
+  "relevance_use": "可用于评估小语种语料合规等级"
+ },
+ {
+  "sid": "04-024",
+  "arxiv": "2406.16746",
+  "title": "The Responsible Foundation Model Development Cheatsheet: A Review of Tools & Resources",
+  "subtopic": "数据治理工具",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "汇总负责任基础模型开发的数据来源、文档、许可与评测工具。",
+  "relevance_use": "列出数据文档化、许可与语言资源工具，可直接查阅"
+ },
+ {
+  "sid": "04-025",
+  "arxiv": "2404.02309",
+  "title": "A Survey of Web Content Control for Generative AI",
+  "subtopic": "数据授权与同意",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "综述 robots.txt、元标签等网站内容控制机制及其对 AI 训练数据采集的影响。",
+  "relevance_use": "决定网页爬取小语种语料的合规边界"
+ },
+ {
+  "sid": "04-026",
+  "arxiv": "2409.05247",
+  "title": "Socially Responsible Data for Large Multilingual Language Models",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "讨论为多语言大模型采集低资源/原住民语言数据时的社会责任、社区参与与权益问题。"
+ },
+ {
+  "sid": "04-027",
+  "arxiv": "2311.15473",
+  "title": "Māori algorithmic sovereignty: idea, principles, and use",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出毛利算法主权原则，直接关联原住民语言数据与模型的治理。"
+ },
+ {
+  "sid": "04-028",
+  "arxiv": "2608.08905",
+  "title": "Data Findability, Governance, and Community Engagement for Māori Research Data Sovereignty",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "围绕毛利研究数据主权讨论数据可发现性、治理与社区参与。"
+ },
+ {
+  "sid": "04-029",
+  "arxiv": "2404.14740",
+  "title": "Modeling the Sacred: Considerations when Using Religious Texts in Natural Language Processing",
+  "subtopic": "语料来源伦理",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "讨论宗教文本（如圣经译本）作为低资源语言常用平行语料来源时的偏差与伦理问题。"
+ },
+ {
+  "sid": "04-030",
+  "arxiv": "2407.12620",
+  "title": "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "总结与巴西原住民社区合作开展濒危语言技术与数据工作的经验。"
+ },
+ {
+  "sid": "04-031",
+  "arxiv": "2502.12301",
+  "title": "SMOL: Professionally translated parallel data for 115 under-represented languages",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "专业人工翻译的 115 种代表性不足语言平行数据（含 GATITOS 词表），区分人工翻译与机器翻译数据。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类在 09（09-064）；本类仅作交叉标签：SMOL 是专业人工翻译的低资源平行语料来源，含许可与数据来源说明",
+  "cross_only": true
+ },
+ {
+  "sid": "04-032",
+  "arxiv": "2405.05376",
+  "title": "Kreyòl-MT: Building MT for Latin American, Caribbean and Colonial African Creole Languages",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "汇编克里奥尔语平行语料并训练翻译模型，记录来源与许可。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "包含机器翻译模型训练"
+ },
+ {
+  "sid": "04-033",
+  "arxiv": "2501.11003",
+  "title": "Building low-resource African language corpora: A case study of Kidawida, Kalenjin and Dholuo",
+  "subtopic": "低资源语料构建案例",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "肯尼亚三种低资源语言的社区参与式语料构建案例。"
+ },
+ {
+  "sid": "04-034",
+  "arxiv": "2607.08362",
+  "title": "Echoes Across Vietnam's Highlands, Delta, and Coast: A Multilingual Corpus for Cham, Khmer, and Tay-Nung",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "越南少数民族语言（占语、高棉语、岱侬语）语料构建。"
+ },
+ {
+  "sid": "04-035",
+  "arxiv": "2603.14873",
+  "title": "Developing an English-Efik Corpus and Machine Translation System for Digitization Inclusion",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "构建英语—埃菲克语平行语料与翻译系统。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "含翻译系统训练"
+ },
+ {
+  "sid": "04-036",
+  "arxiv": "2610.25440",
+  "title": "Design Considerations in Low-Resource Archival OCR: A Case Study in Lakota",
+  "subtopic": "OCR 文献数字化来源",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以拉科塔语档案文献为例讨论低资源语言 OCR 数字化的设计取舍。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "涉及 OCR 噪声与后处理"
+ },
+ {
+  "sid": "04-037",
+  "arxiv": "2405.01470",
+  "title": "WildChat: 1M ChatGPT Interaction Logs in the Wild",
+  "subtopic": "对话语料与隐私",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "真实用户与 ChatGPT 多语言对话日志，记录用户同意、去标识化与语言分布。",
+  "relevance_use": "对话语料的同意获取与 PII 处理流程、语言分布可作参考",
+  "cross": [
+   "13"
+  ],
+  "cross_reason": "对话助手数据"
+ },
+ {
+  "sid": "04-038",
+  "arxiv": "2502.15916",
+  "title": "The Esethu Framework: Reimagining Sustainable Dataset Governance and Curation for Low-Resource Languages",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出社区中心的数据治理框架与 Esethu 许可，以科萨语语音数据集为概念验证。"
+ },
+ {
+  "sid": "04-039",
+  "arxiv": "2606.28867",
+  "title": "Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages",
+  "subtopic": "数据授权与许可",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "审计非洲低资源语言常用语料的许可兼容性与来源问题（如 JW300 下架）。"
+ },
+ {
+  "sid": "04-040",
+  "arxiv": "2402.02639",
+  "title": "\"It's how you do things that matters\": Attending to Process to Better Serve Indigenous Communities with Language Technologies",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "依据 CARE 与原住民数据主权原则讨论与原住民社区合作开发语言技术的过程。"
+ },
+ {
+  "sid": "04-041",
+  "arxiv": "2603.16354",
+  "title": "PashtoCorp: A 1.25-Billion-Word Corpus, Evaluation Suite, and Reproducible Pipeline for Low-Resource Language Development",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "普什图语预训练语料 PashtoCorp 的构建，含来源消融（网页/新闻/书籍）。"
+ },
+ {
+  "sid": "04-042",
+  "arxiv": "2609.07699",
+  "title": "Fine PT-PT Web: A High-Quality 41 Billion Tokens Data Collection of the European Portuguese Web",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "针对欧洲葡萄牙语变体构建网络语料，涉及语言变体区分。",
+  "relevance_use": "语言变体（而非独立语言）的语料构建与变体过滤流程可迁移到方言/变体小语种",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "含变体识别与质量过滤"
+ },
+ {
+  "sid": "04-043",
+  "arxiv": "2605.10714",
+  "title": "Why Low-Resource NLP Needs More Than Cross-Lingual Transfer: Lessons Learned from Luxembourgish",
+  "subtopic": "低资源语料构建案例",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以卢森堡语为例总结数据挖掘与人工指导在低资源语言资源建设中的作用。"
+ },
+ {
+  "sid": "04-044",
+  "arxiv": "2605.17442",
+  "title": "Beyond Catalogue Counts: the Dataset Visibility Asymmetry in Low-Resource Multilingual NLP",
+  "subtopic": "语料文档化与资源可见性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以印尼语数据集为例审计引用证据，指出目录计数低估资源量。"
+ },
+ {
+  "sid": "04-045",
+  "arxiv": "2401.13822",
+  "title": "Navigating Dataset Documentations in AI: A Large-Scale Analysis of Dataset Cards on Hugging Face",
+  "subtopic": "语料文档化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "大规模分析 Hugging Face 数据集卡的文档实践。",
+  "relevance_use": "小语种数据集卡缺失与填写规范的参照"
+ },
+ {
+  "sid": "04-046",
+  "arxiv": "2508.07069",
+  "title": "SEADialogues: A Multilingual Culturally Grounded Multi-turn Dialogue Dataset on Southeast Asian Languages",
+  "subtopic": "对话语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "东南亚八种语言的文化背景对话数据集 SEADialogues（构建方式待核实）。",
+  "cross": [
+   "13"
+  ],
+  "cross_reason": "对话助手数据"
+ },
+ {
+  "sid": "04-047",
+  "arxiv": "2510.07551",
+  "title": "An Evaluation Study of Hybrid Methods for Multilingual PII Detection",
+  "subtopic": "隐私与个人信息",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "评估多语言个人信息检测的混合方法。",
+  "relevance_use": "小语种语料 PII 清理需要多语言检测器"
+ },
+ {
+  "sid": "04-048",
+  "arxiv": "2604.11066",
+  "title": "ks-pret-5m: a 5 million word, 12 million token kashmiri pretraining dataset",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "克什米尔语预训练语料 KS-PRET-5M，含 InPage 旧编码到 Unicode 的转换以恢复档案文本。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "旧编码转换属文字处理"
+ },
+ {
+  "sid": "04-049",
+  "arxiv": "",
+  "title": "Better Quality Pre-training Data and T5 Models for African Languages",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "WURA：审计 mC4 并重新爬取，构建 16 种非洲语言文档级预训练语料，展示审计+定向爬取提升质量。",
+  "pdf_url": "https://aclanthology.org/2023.emnlp-main.11.pdf",
+  "landing_url": "https://aclanthology.org/2023.emnlp-main.11/",
+  "authors": [
+   "Akintunde Oladipo",
+   "Mofetoluwa Adeyemi",
+   "Orevaoghene Ahia",
+   "Odunayo Ogundepo",
+   "Abraham Toluwalase Owodunni",
+   "David Ifeoluwa Adelani",
+   "Jimmy Lin"
+  ],
+  "first_public_date": "2023-12",
+  "date_precision": "月",
+  "first_public_basis": "EMNLP 2023 正式论文集（ACL Anthology；PDF 首页印 December 6-10, 2023）；未见 arXiv 版本",
+  "version": "EMNLP 2023 main, pp.158-168",
+  "version_date": "2023-12",
+  "doi": "10.18653/v1/2023.emnlp-main.11",
+  "venue": "EMNLP 2023",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "含对 mC4 的语言与质量审计"
+ },
+ {
+  "sid": "04-050",
+  "arxiv": "2309.04662",
+  "title": "MADLAD-400: A Multilingual And Document-Level Large Audited Dataset",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "419 种语言文档级 CommonCrawl 语料，附逐语言人工审计记录。",
+  "old_reason": "2023-09 公开，略早于窗口；是小语种网络语料与人工审计的标杆数据集，后续 FineWeb2/GlotCC 均对比之",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "人工审计与自审计过滤"
+ },
+ {
+  "sid": "04-051",
+  "arxiv": "2310.16787",
+  "title": "The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI",
+  "subtopic": "数据来源追踪",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "大规模审计微调数据集的许可与归属，发现大量许可错标。",
+  "old_reason": "2023-10-25 公开（窗口前 4 天）；数据来源追踪领域奠基工作，Consent in Crisis 等为其后续",
+  "relevance_use": "含按语言统计的数据集分布，揭示低资源语言数据许可状况"
+ },
+ {
+  "sid": "04-052",
+  "arxiv": "2309.09400",
+  "title": "CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages",
+  "subtopic": "多语言网络语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "合并 mC4 与 OSCAR 并清洗得到 167 语言语料。",
+  "old_reason": "2023-09 公开；被大量小语种 LLM 用作预训练来源，需作为来源基线",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "含清洗与去重流程"
+ },
+ {
+  "sid": "04-053",
+  "arxiv": "2010.02353",
+  "title": "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "Masakhane 参与式研究：社区成员参与数据创建与评测的案例。",
+  "old_reason": "2020 年；Masakhane 参与式方法是语言社区参与数据建设的经典范式，近年工作普遍引用"
+ },
+ {
+  "sid": "04-054",
+  "arxiv": "2510.13871",
+  "title": "Quechua Speech Datasets in Common Voice: The Case of Puno Quechua",
+  "subtopic": "语言社区参与与数据主权",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "克丘亚语 Common Voice 社区众包数据案例。",
+  "reserve": true
+ },
+ {
+  "sid": "04-055",
+  "arxiv": "2206.03216",
+  "title": "Data Governance in the Age of Large-Scale Data-Driven Language Technology",
+  "subtopic": "数据治理框架",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "BigScience 提出的多方数据治理框架，面向多语言数据。",
+  "old_reason": "2022 年；多语言数据治理框架奠基工作（备选）",
+  "reserve": true
+ },
+ {
+  "sid": "04-056",
+  "arxiv": "2410.20817",
+  "title": "The Zeno's Paradox of `Low-Resource' Languages",
+  "subtopic": "资源条件界定",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "调查 NLP 文献如何界定“低资源”，提示语料与资源统计口径问题（备选）。",
+  "reserve": true
+ },
+ {
+  "sid": "04-057",
+  "arxiv": "2405.05777",
+  "title": "Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language",
+  "subtopic": "低资源语料构建案例",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "萨米语数据收集与 LLM 训练进展（备选；若 03 已认领则仅交叉）。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "含模型训练",
+  "reserve": true
+ },
+ {
+  "sid": "04-058",
+  "arxiv": "2601.03791",
+  "title": "Do LLMs Really Memorize Personally Identifiable Information? Revisiting PII Leakage with a Cue-Controlled Memorization Framework",
+  "subtopic": "隐私与个人信息",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "在 32 种语言上重新评估 PII 记忆与泄露（备选）。",
+  "relevance_use": "多语言 PII 风险评估口径",
+  "reserve": true
+ },
+ {
+  "sid": "04-059",
+  "arxiv": "2605.18232",
+  "title": "SomaliWeb v1: A Quality-Filtered Somali Web Corpus with a Matched Tokenizer and a Public Language-Identification Benchmark",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "索马里语经质量过滤的网络语料，附配套分词器与语言识别基准。",
+  "cross": [
+   "05",
+   "06"
+  ],
+  "cross_reason": "含质量过滤与 LID 基准（05）及配套分词器（06）"
+ },
+ {
+  "sid": "04-060",
+  "arxiv": "2508.16048",
+  "title": "OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从 WHO 公开培训材料构建低资源语言文档级健康领域平行语料。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "用于翻译评测"
+ },
+ {
+  "sid": "04-061",
+  "arxiv": "2403.19365",
+  "title": "EthioMT: Parallel Corpus for Low-resource Ethiopian Languages",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "埃塞俄比亚多种低资源语言平行语料构建。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译基线"
+ },
+ {
+  "sid": "04-062",
+  "arxiv": "2403.16571",
+  "title": "NSINA: A News Corpus for Sinhala",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "僧伽罗语新闻语料构建与任务基准。",
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "04-063",
+  "arxiv": "2505.18905",
+  "title": "Building a Functional Machine Translation Corpus for Kpelle",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "克佩列语（利比里亚）翻译语料构建案例。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译"
+ },
+ {
+  "sid": "04-064",
+  "arxiv": "2606.06420",
+  "title": "A Komi-Yazva--Russian Parallel Corpus and Evaluation Protocol for Zero- and Few-Shot LLM Translation",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "濒危科米-亚兹瓦语与俄语平行语料及 LLM 翻译评测协议。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "LLM 翻译评测"
+ },
+ {
+  "sid": "04-065",
+  "arxiv": "2603.20732",
+  "title": "MzansiText and MzansiLM: An Open Corpus and Decoder-Only Language Model for South African Languages",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "南非多语言开放语料与模型（备选；若 03 已认领则仅交叉）。",
+  "reserve": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "含模型训练"
+ },
+ {
+  "sid": "04-066",
+  "arxiv": "2506.09560",
+  "title": "Towards Open Foundation Language Model and Corpus for Macedonian: A Low-Resource Language",
+  "subtopic": "低资源语料构建案例",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "马其顿语语料与模型（备选）。",
+  "reserve": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "含模型训练"
+ },
+ {
+  "sid": "04-067",
+  "arxiv": "2505.24472",
+  "title": "VietMix: A Naturally-Occurring Parallel Corpus and Augmentation Framework for Vietnamese-English Code-Mixed Machine Translation",
+  "subtopic": "平行语料",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "自然产生的越英语码混用平行语料（备选）。",
+  "reserve": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译"
+ }
+]

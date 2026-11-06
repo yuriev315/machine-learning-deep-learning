@@ -1,0 +1,2183 @@
+[
+ {
+  "sid": "17-026",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "CS 70",
+  "course_title": "Discrete Mathematics and Probability Theory",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Alistair Sinclair",
+   "Yun S. Song"
+  ],
+  "official_url": "https://sp26.eecs70.org/",
+  "schedule_url": "https://sp26.eecs70.org/",
+  "verification_basis": "学期站点 sp26.eecs70.org 标题“CS 70 Discrete Mathematics and Probability Theory, Spring 2026”，讲者 Alistair Sinclair、Yun S. Song；日程表逐讲列出 slides 与 Note 链接（2026-10-29 用 materials_en.py links 与 WebFetch 核对）",
+  "dir_name": "Berkeley_CS70_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec1.pdf",
+    "name": "slides_lec1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec1.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n0.pdf",
+    "name": "note_n0_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n0.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n1.pdf",
+    "name": "note_n1_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n1.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec2.pdf",
+    "name": "slides_lec2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec2.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n2.pdf",
+    "name": "note_n2_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n2.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec3.pdf",
+    "name": "slides_lec3_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec3.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n3.pdf",
+    "name": "note_n3_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n3.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec4.pdf",
+    "name": "slides_lec4_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec4.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n4.pdf",
+    "name": "note_n4_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n4.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec5.pdf",
+    "name": "slides_lec5_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec5.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n5.pdf",
+    "name": "note_n5_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n5.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec6.pdf",
+    "name": "slides_lec6_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec6.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec7.pdf",
+    "name": "slides_lec7_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec7.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n6.pdf",
+    "name": "note_n6_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n6.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec8.pdf",
+    "name": "slides_lec8_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec8.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n7.pdf",
+    "name": "note_n7_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n7.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec9.pdf",
+    "name": "slides_lec9_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec9.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec10.pdf",
+    "name": "slides_lec10_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec10.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n8.pdf",
+    "name": "note_n8_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n8.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec11.pdf",
+    "name": "slides_lec11_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec11.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n9.pdf",
+    "name": "note_n9_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n9.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec12.pdf",
+    "name": "slides_lec12_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec12.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n10.pdf",
+    "name": "note_n10_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n10.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec13.pdf",
+    "name": "slides_lec13_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec13.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n11.pdf",
+    "name": "note_n11_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n11.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec14.pdf",
+    "name": "slides_lec14_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec14.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n12.pdf",
+    "name": "note_n12_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n12.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec15.pdf",
+    "name": "slides_lec15_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec15.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec16.pdf",
+    "name": "slides_lec16_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec16.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n13.pdf",
+    "name": "note_n13_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n13.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec17.pdf",
+    "name": "slides_lec17_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec17.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n14.pdf",
+    "name": "note_n14_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n14.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec18.pdf",
+    "name": "slides_lec18_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec18.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec19.pdf",
+    "name": "slides_lec19_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec19.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n15.pdf",
+    "name": "note_n15_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n15.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec20.pdf",
+    "name": "slides_lec20_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec20.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n16.pdf",
+    "name": "note_n16_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n16.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec21.pdf",
+    "name": "slides_lec21_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec21.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n17.pdf",
+    "name": "note_n17_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n17.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec22.pdf",
+    "name": "slides_lec22_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec22.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n18.pdf",
+    "name": "note_n18_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n18.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec23.pdf",
+    "name": "slides_lec23_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec23.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n19.pdf",
+    "name": "note_n19_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n19.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec24.pdf",
+    "name": "slides_lec24_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec24.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n20.pdf",
+    "name": "note_n20_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n20.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec25.pdf",
+    "name": "slides_lec25_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec25.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec26.pdf",
+    "name": "slides_lec26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec26.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/notes/n21.pdf",
+    "name": "note_n21_en.pdf",
+    "kind": "pdf",
+    "label": "Course note n21.pdf"
+   },
+   {
+    "url": "https://sp26.eecs70.org/assets/pdf/slides/lec27.pdf",
+    "name": "slides_lec27_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec27.pdf"
+   }
+  ],
+  "expected_items": 49,
+  "completeness_note": "官方日程 27 讲（1/20–4/30）全部发布幻灯片（27 个 PDF），并配官方课程笔记 Note 0–21（22 个 PDF，多讲共用同一 Note），合计 49 个文件全部下载；第 1–13 讲另有手写批注版幻灯片（annotated，与原版重复，未收）；作业、讨论课材料不计入讲义。当前 eecs70.org 主站为进行中的 Fall 2026，故选最近完整学期 Spring 2026。",
+  "prereq": "官方要求 Math 1A（微积分）及 CS 61A 或同等编程基础（伯克利本科低年级课程）",
+  "coverage": "命题逻辑与证明、归纳、稳定匹配、图论、模运算与 RSA、多项式与纠错码、可数性与不可计算性、计数、离散概率、条件概率与独立、随机变量、期望方差、几何/泊松分布、集中不等式与大数定律、连续分布、马尔可夫链",
+  "stage": "初学",
+  "language": "en",
+  "reason": "伯克利本科离散数学与概率核心课，概率、计数、集中不等式与马尔可夫链是理解语言模型概率建模、采样与小样本评测统计误差的基础，适合作为小语种 LLM 开发者补数学基础的入门材料。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01"
+  ]
+ },
+ {
+  "sid": "17-027",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "EE364a / CME364a",
+  "course_title": "Convex Optimization I",
+  "term": "Summer 2026 (Summer quarter 2025–2026)",
+  "term_year": 2026,
+  "instructors": [
+   "Stephen Boyd（课程负责教授）",
+   "Logan Bell",
+   "Nikhil Devanathan"
+  ],
+  "official_url": "https://web.stanford.edu/class/ee364a/",
+  "schedule_url": "https://web.stanford.edu/class/ee364a/lectures.html",
+  "verification_basis": "课程主页“EE364a: Convex Optimization I, Professor Stephen Boyd”，公告“Welcome to EE364a, Summer quarter 2025–2026 … taught by Logan Bell and Nikhil Devanathan”；Lectures 页写明“The full set of slides is available as one PDF file”（页面生成于 2026-06-01）",
+  "dir_name": "Stanford_EE364a_2026Summer_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf",
+    "name": "ee364a_full_lecture_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Full set of lecture slides (one PDF)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/ee364a/lectures/examples.pdf",
+    "name": "ee364a_examples_en.pdf",
+    "kind": "pdf",
+    "label": "Convex optimization examples"
+   },
+   {
+    "url": "https://web.stanford.edu/class/ee364a/lectures/stoch_prog.pdf",
+    "name": "ee364a_stoch_prog_en.pdf",
+    "kind": "pdf",
+    "label": "Stochastic programming"
+   },
+   {
+    "url": "https://web.stanford.edu/class/ee364a/lectures/chance_constr.pdf",
+    "name": "ee364a_chance_constr_en.pdf",
+    "kind": "pdf",
+    "label": "Chance constrained optimization"
+   },
+   {
+    "url": "https://web.stanford.edu/class/ee364a/lectures/filters.pdf",
+    "name": "ee364a_filters_en.pdf",
+    "kind": "pdf",
+    "label": "Filter design and equalization"
+   },
+   {
+    "url": "https://www.stanford.edu/class/ee364b/lectures/l1_slides.pdf",
+    "name": "ee364b_l1_slides_en.pdf",
+    "kind": "pdf",
+    "label": "L1 methods for convex-cardinality problems (part I)"
+   },
+   {
+    "url": "https://www.stanford.edu/class/ee364b/lectures/l1_ext_slides.pdf",
+    "name": "ee364b_l1_ext_slides_en.pdf",
+    "kind": "pdf",
+    "label": "L1 methods for convex-cardinality problems (part II)"
+   }
+  ],
+  "expected_items": 7,
+  "completeness_note": "官方讲义以“完整幻灯片合集”单个 PDF 发布（覆盖全部正式讲次），另列 6 份补充讲义 PDF（含 2 份链接到 EE364b 的 L1 方法幻灯片），共 7 个文件全部下载；“Summer 2023 前使用的原版幻灯片”与现版内容重复未收；“Convex-concave procedure”为 GitHub 仓库、“CVXPY tutorial”为网页文档，非 PDF 讲义，未收。课程无逐讲日程表，讲数以官方讲义页为准。",
+  "prereq": "官方要求良好的线性代数基础（如 EE263）及概率基础，熟悉 Python 编程",
+  "coverage": "凸集与凸函数、凸优化问题（LP/QP/SOCP/SDP）、对偶、逼近与拟合、统计估计、几何问题、无约束与等式约束极小化、内点法、随机规划、机会约束、L1 稀疏方法",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "Boyd 的凸优化课是优化理论的权威标准课程，对偶、内点法与统计估计视角有助理解训练目标、正则化与数据配比/混合优化等小语种 LLM 训练中的优化问题。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01"
+  ]
+ },
+ {
+  "sid": "17-028",
+  "kind": "course",
+  "university": "École Polytechnique Fédérale de Lausanne (EPFL)",
+  "course_code": "CS-439",
+  "course_title": "Optimization for Machine Learning",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Martin Jaggi",
+   "Nicolas Flammarion"
+  ],
+  "official_url": "https://github.com/epfml/OptML_course",
+  "schedule_url": "https://github.com/epfml/OptML_course#program",
+  "verification_basis": "官方课程仓库 epfml/OptML_course（main 分支，固定提交 5afb6f940ab77425af7b201922048c43a06fe9e8）README：Instructors Martin Jaggi、Nicolas Flammarion，Program 表 2026 春季（20.2.–29.5.，考试 18.06.2026）；幻灯片提交记录含“update 2026 Spring”（2026-02-15）至“lecture 12”（2026-05-29）；EPFL coursebook 链接 edu.epfl.ch/coursebook/en/optimization-for-machine-learning-CS-439",
+  "dir_name": "EPFL_CS-439_OptML_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture01.pdf",
+    "name": "optml_lecture01_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture02.pdf",
+    "name": "optml_lecture02_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture03.pdf",
+    "name": "optml_lecture03_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture04.pdf",
+    "name": "optml_lecture04_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture05.pdf",
+    "name": "optml_lecture05_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture06.pdf",
+    "name": "optml_lecture06_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture07.pdf",
+    "name": "optml_lecture07_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture08.pdf",
+    "name": "optml_lecture08_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture09.pdf",
+    "name": "optml_lecture09_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture10.pdf",
+    "name": "optml_lecture10_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture11.pdf",
+    "name": "optml_lecture11_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/slides/lecture12.pdf",
+    "name": "optml_lecture12_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 slides"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/epfml/OptML_course/5afb6f940ab77425af7b201922048c43a06fe9e8/lecture_notes/lecture-notes.pdf",
+    "name": "optml_lecture_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Official course lecture notes (full)"
+   }
+  ],
+  "expected_items": 13,
+  "completeness_note": "官方日程 12 次讲课（复活节假期、Ascension 桥假、项目周不计）全部发布幻灯片 lecture01–12，另有课程配套的完整讲义 lecture-notes.pdf，共 13 个文件全部下载（固定到提交 5afb6f9）；练习、往年试卷不计入讲义。第 12 讲为 SwissAI 团队的“真实 AI 模型训练优化”。",
+  "prereq": "官方建议先修 CS-433 Machine Learning 或同等内容，需扎实的分析、线性代数与概率基础",
+  "coverage": "凸性、梯度下降、投影/近端/次梯度法、随机梯度下降、非凸优化、牛顿与拟牛顿法、Frank-Wolfe 与 Muon、坐标下降、下界与加速、无梯度与自适应方法、大模型训练中的优化实践",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "EPFL MLO 实验室（SwissAI/Apertus 多语言大模型团队所在）的机器学习优化课，2026 春新增 Muon 与大模型训练优化内容，直接服务于小语种模型持续预训练/微调中的优化器与学习率设置。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "07",
+   "16"
+  ]
+ },
+ {
+  "sid": "17-029",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "Stat 210A",
+  "course_title": "Theoretical Statistics",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Will Fithian"
+  ],
+  "official_url": "https://stat210a.berkeley.edu/fall-2025/index.html",
+  "schedule_url": "https://stat210a.berkeley.edu/fall-2025/index.html",
+  "verification_basis": "官方学期站点 stat210a.berkeley.edu/fall-2025 标题“Statistics 210a: Theoretical Statistics”，Syllabus 页“Primary Instructor Will Fithian”；日程表逐讲链接 Handwritten notes（2026-10-29 核对）",
+  "dir_name": "Berkeley_Stat210A_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture01-intro.pdf",
+    "name": "stat210a_lecture01-intro_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture01-intro.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture02-probability.pdf",
+    "name": "stat210a_lecture02-probability_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture02-probability.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture03-estimation.pdf",
+    "name": "stat210a_lecture03-estimation_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture03-estimation.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture04-sufficiency.pdf",
+    "name": "stat210a_lecture04-sufficiency_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture04-sufficiency.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture05-exponentialfamilies.pdf",
+    "name": "stat210a_lecture05-exponentialfamilies_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture05-exponentialfamilies.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture06-completeness.pdf",
+    "name": "stat210a_lecture06-completeness_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture06-completeness.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture07-unbiased.pdf",
+    "name": "stat210a_lecture07-unbiased_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture07-unbiased.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture08-fisherinfo.pdf",
+    "name": "stat210a_lecture08-fisherinfo_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture08-fisherinfo.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture09-bayesestimation.pdf",
+    "name": "stat210a_lecture09-bayesestimation_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture09-bayesestimation.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture10-bayesinterp.pdf",
+    "name": "stat210a_lecture10-bayesinterp_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture10-bayesinterp.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture11-bayescompute.pdf",
+    "name": "stat210a_lecture11-bayescompute_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture11-bayescompute.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture12-jamesstein.pdf",
+    "name": "stat210a_lecture12-jamesstein_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture12-jamesstein.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture13-minimax.pdf",
+    "name": "stat210a_lecture13-minimax_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture13-minimax.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture14-hyptesting.pdf",
+    "name": "stat210a_lecture14-hyptesting_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture14-hyptesting.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture15-testonepar.pdf",
+    "name": "stat210a_lecture15-testonepar_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture15-testonepar.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture16-pconf.pdf",
+    "name": "stat210a_lecture16-pconf_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture16-pconf.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture17-nuisanceparams.pdf",
+    "name": "stat210a_lecture17-nuisanceparams_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture17-nuisanceparams.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture18-linearmodel.pdf",
+    "name": "stat210a_lecture18-linearmodel_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture18-linearmodel.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture19-asymptotics.pdf",
+    "name": "stat210a_lecture19-asymptotics_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture19-asymptotics.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture21-mle.pdf",
+    "name": "stat210a_lecture21-mle_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture21-mle.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture22-mle-consistency.pdf",
+    "name": "stat210a_lecture22-mle-consistency_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture22-mle-consistency.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture23-likelihoodbasedinference.pdf",
+    "name": "stat210a_lecture23-likelihoodbasedinference_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture23-likelihoodbasedinference.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture25-bootstrap.pdf",
+    "name": "stat210a_lecture25-bootstrap_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture25-bootstrap.pdf"
+   },
+   {
+    "url": "https://stat210a.berkeley.edu/fall-2025/handwritten/lecture26-multipletesting.pdf",
+    "name": "stat210a_lecture26-multipletesting_en.pdf",
+    "kind": "pdf",
+    "label": "Handwritten lecture notes lecture26-multipletesting.pdf"
+   }
+  ],
+  "expected_items": 24,
+  "completeness_note": "官方日程 27 次讲课（8/28–12/4）全部链接手写讲义，其中 3 组两讲共用同一份（指数族、线性模型检验、多重检验），去重后 24 个 PDF 全部下载；讲义为教师手写板书扫描件，可抽取文字很少。另有在线 Reader（typed 网页讲义，后半部分标注“under construction”）未收；作业、复习课不计入讲义。Fall 2026 学期正在进行，故选 Fall 2025。",
+  "prereq": "官方要求线性代数、分析、概率与统计基础（研究生一年级理论统计）",
+  "coverage": "统计模型与估计、充分性与完备性、指数族、无偏估计与 Fisher 信息、贝叶斯估计与计算、James–Stein 与极小极大、假设检验与置信区间、讨厌参数、线性模型、渐近理论与 MLE、似然推断、Bootstrap、多重检验",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "伯克利研究生理论统计核心课，估计、检验、Bootstrap 与多重检验是对小语种小规模评测集做显著性检验、置信区间与多语言多任务比较时避免误判的统计基础。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-030",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "36-705",
+  "course_title": "Intermediate Statistics",
+  "term": "Fall 2019",
+  "term_year": 2019,
+  "instructors": [
+   "Sivaraman Balakrishnan"
+  ],
+  "official_url": "https://www.stat.cmu.edu/~siva/teaching/705/",
+  "schedule_url": "https://www.stat.cmu.edu/~siva/teaching/705/",
+  "verification_basis": "教师主页课程页“36-705 Intermediate Statistics”（Sivaraman Balakrishnan），日程 8/26–12/6 共 36 讲均链接 Lecture notes；随附 syllabus.pdf 首页标题“Syllabus: Intermediate Statistics, 36-705 (Fall 2019)”，学期据此认定",
+  "dir_name": "CMU_36-705_IntermediateStatistics_2019Fall_LectureNotes_en",
+  "files": [
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/syllabus.pdf",
+    "name": "36-705_syllabus_en.pdf",
+    "kind": "pdf",
+    "label": "Course syllabus",
+    "aux": true
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec1.pdf",
+    "name": "36-705_lec1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec1.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec2.pdf",
+    "name": "36-705_lec2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec2.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec3.pdf",
+    "name": "36-705_lec3_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec3.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec4.pdf",
+    "name": "36-705_lec4_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec4.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec5.pdf",
+    "name": "36-705_lec5_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec5.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec6.pdf",
+    "name": "36-705_lec6_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec6.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec7.pdf",
+    "name": "36-705_lec7_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec7.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec8.pdf",
+    "name": "36-705_lec8_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec8.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec9.pdf",
+    "name": "36-705_lec9_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec9.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec10.pdf",
+    "name": "36-705_lec10_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec10.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec11.pdf",
+    "name": "36-705_lec11_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec11.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec12.pdf",
+    "name": "36-705_lec12_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec12.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec13.pdf",
+    "name": "36-705_lec13_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec13.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec14.pdf",
+    "name": "36-705_lec14_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec14.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec15.pdf",
+    "name": "36-705_lec15_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec15.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec16.pdf",
+    "name": "36-705_lec16_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec16.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec17.pdf",
+    "name": "36-705_lec17_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec17.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec18.pdf",
+    "name": "36-705_lec18_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec18.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec19.pdf",
+    "name": "36-705_lec19_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec19.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec20.pdf",
+    "name": "36-705_lec20_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec20.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec21.pdf",
+    "name": "36-705_lec21_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec21.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec22.pdf",
+    "name": "36-705_lec22_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec22.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec23.pdf",
+    "name": "36-705_lec23_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec23.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec24.pdf",
+    "name": "36-705_lec24_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec24.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec25.pdf",
+    "name": "36-705_lec25_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec25.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec26.pdf",
+    "name": "36-705_lec26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec26.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec27.pdf",
+    "name": "36-705_lec27_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec27.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec28.pdf",
+    "name": "36-705_lec28_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec28.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec29.pdf",
+    "name": "36-705_lec29_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec29.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec30.pdf",
+    "name": "36-705_lec30_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec30.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec31.pdf",
+    "name": "36-705_lec31_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec31.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec32.pdf",
+    "name": "36-705_lec32_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec32.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec33.pdf",
+    "name": "36-705_lec33_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec33.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec34.pdf",
+    "name": "36-705_lec34_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec34.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec35.pdf",
+    "name": "36-705_lec35_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec35.pdf"
+   },
+   {
+    "url": "https://www.stat.cmu.edu/~siva/teaching/705/lec36.pdf",
+    "name": "36-705_lec36_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes lec36.pdf"
+   }
+  ],
+  "expected_items": 36,
+  "completeness_note": "官方日程 36 讲全部发布讲义 PDF（lec1–lec36），36 个全部下载；课程大纲 syllabus.pdf 作为辅助材料（aux）。页面未标学期，学期依 syllabus 首页认定为 Fall 2019。",
+  "prereq": "官方要求本科概率与数理统计（教材以 Wasserman《All of Statistics》为主）",
+  "coverage": "集中不等式、随机变量收敛与 CLT、一致大数定律与 Rademacher 复杂度、充分统计量与指数族、估计构造与 Cramér–Rao 界、决策理论与极小极大、MLE 相合性与渐近正态、假设检验、多重检验、置信区间与 Bootstrap、因果推断、高维统计、非参数回归、贝叶斯推断、模型选择、分布距离与 Fano 不等式",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "CMU 统计与机器学习博士必修的中级统计课，讲义完整覆盖集中不等式、一致收敛与 Rademacher 复杂度等学习理论工具，可用于分析小样本小语种数据上的泛化与评测误差。",
+  "priority": "低",
+  "old_reason": "2019 年秋季学期早于近三年范围；该讲义是 CMU 机器学习方向公认的统计理论基础讲义，36 讲完整公开，学习理论（集中不等式、一致大数定律、Rademacher 复杂度、Fano 不等式）部分比 Stat 210A 更贴近 ML，近年同课程未见完整公开的新学期讲义。",
+  "cross": [
+   "01",
+   "15"
+  ],
+  "exclude": true,
+  "exclude_reason": "官方日程第 5 讲讲义链接 lec5.pdf（Convergence of random variables）2026-10-29 实测 HTTP 404，讲义不完整，不计数；且为 2019 年旧学期，不再找替代。"
+ },
+ {
+  "sid": "17-031",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "10-301/10-601",
+  "course_title": "Introduction to Machine Learning",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Pat Virtue",
+   "Matt Gormley"
+  ],
+  "official_url": "https://www.cs.cmu.edu/~mgormley/courses/10601/",
+  "schedule_url": "https://www.cs.cmu.edu/~mgormley/courses/10601/schedule.html",
+  "verification_basis": "课程主页标题“Introduction to Machine Learning | 10-301 + 10-601 | Spring 2026”，“Instructors: Pat Virtue and Matt Gormley”；日程页逐讲列出 Slides 与 Slides (Inked) 链接（2026-10-29 核对）",
+  "dir_name": "CMU_10-601_IntroML_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture1-overview.pdf",
+    "name": "10601_lecture1-overview_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture1-overview.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture2-ml-approx.pdf",
+    "name": "10601_lecture2-ml-approx_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture2-ml-approx.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture3-dt.pdf",
+    "name": "10601_lecture3-dt_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture3-dt.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture4-dt-properties.pdf",
+    "name": "10601_lecture4-dt-properties_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture4-dt-properties.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture5-knn-ms.pdf",
+    "name": "10601_lecture5-knn-ms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture5-knn-ms.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture6-perc.pdf",
+    "name": "10601_lecture6-perc_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture6-perc.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture7-linreg.pdf",
+    "name": "10601_lecture7-linreg_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture7-linreg.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture8-optimization.pdf",
+    "name": "10601_lecture8-optimization_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture8-optimization.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture9-logreg.pdf",
+    "name": "10601_lecture9-logreg_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture9-logreg.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture10-feat-eng-reg.pdf",
+    "name": "10601_lecture10-feat-eng-reg_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture10-feat-eng-reg.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture11-nn.pdf",
+    "name": "10601_lecture11-nn_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture11-nn.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture12-backprop.pdf",
+    "name": "10601_lecture12-backprop_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture12-backprop.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture13-backprop-ii.pdf",
+    "name": "10601_lecture13-backprop-ii_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture13-backprop-ii.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture14-societal.pdf",
+    "name": "10601_lecture14-societal_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture14-societal.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture15-pac.pdf",
+    "name": "10601_lecture15-pac_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture15-pac.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture16-pac-map.pdf",
+    "name": "10601_lecture16-pac-map_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture16-pac-map.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture17-map-cnn-rnn.pdf",
+    "name": "10601_lecture17-map-cnn-rnn_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture17-map-cnn-rnn.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture18-rnn-transformer.pdf",
+    "name": "10601_lecture18-rnn-transformer_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture18-rnn-transformer.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture19-autodiff-icl.pdf",
+    "name": "10601_lecture19-autodiff-icl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture19-autodiff-icl.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture20-icl-mdp.pdf",
+    "name": "10601_lecture20-icl-mdp_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture20-icl-mdp.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture21-mdp.pdf",
+    "name": "10601_lecture21-mdp_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture21-mdp.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture22-policy-gradient-2.pdf",
+    "name": "10601_lecture22-policy-gradient-2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture22-policy-gradient-2.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture23-recsys.pdf",
+    "name": "10601_lecture23-recsys_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture23-recsys.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture24-ensemble.pdf",
+    "name": "10601_lecture24-ensemble_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture24-ensemble.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture25-kmeans-pca.pdf",
+    "name": "10601_lecture25-kmeans-pca_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture25-kmeans-pca.pdf"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10601//slides/lecture26-code.pdf",
+    "name": "10601_lecture26-code_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture26-code.pdf"
+   }
+  ],
+  "expected_items": 26,
+  "completeness_note": "官方日程 27 讲中 26 讲发布了幻灯片，26 个 PDF 全部下载；第 27 讲（4/20 Special Topics: Generative Models for Vision）只有课堂投票链接，未发布幻灯片。同讲的手写批注版（Inked）与原版重复未收；作业 recitation 讲义不计入。",
+  "prereq": "官方要求 15-122 与 21-127/15-151（离散数学），以及概率（36-217/36-225 等）与线性代数、多元微积分基础",
+  "coverage": "决策树、kNN 与模型选择、感知机、线性/逻辑回归与优化、特征工程与正则化、神经网络与反向传播、PAC 学习、MLE/MAP、CNN/RNN、RNN 语言模型与 Transformer 语言模型、预训练与微调、上下文学习、强化学习（MDP、策略梯度）、推荐系统、集成方法、K-means 与 PCA、编程智能体与显著性检验",
+  "stage": "初学",
+  "language": "en",
+  "reason": "CMU 机器学习本科/硕士入门课 2026 春版，在经典 ML 之外加入 Transformer 语言模型、预训练微调、上下文学习与 ML 显著性检验，适合作为小语种 LLM 团队成员的机器学习统一入门教材。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-032",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-785",
+  "course_title": "Introduction to Deep Learning",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Bhiksha Raj"
+  ],
+  "official_url": "https://deeplearning.cs.cmu.edu/S25/index.html",
+  "schedule_url": "https://deeplearning.cs.cmu.edu/S25/index.html#lectures",
+  "verification_basis": "课程主页标题“11-785 Deep Learning”，Spring 2025 页面“Instructors: Bhiksha Raj”；Lectures 表逐讲列出 Slides (PDF) 链接（2026-10-29 核对）",
+  "dir_name": "CMU_11-785_IntroDL_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec1.intro.pdf",
+    "name": "11785_lec1.intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec1.intro.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec2.universal.pdf",
+    "name": "11785_lec2.universal_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec2.universal.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec3.learning.pdf",
+    "name": "11785_lec3.learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec3.learning.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec4.learning.pdf",
+    "name": "11785_lec4.learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec4.learning.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec5.pdf",
+    "name": "11785_lec5_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec5.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec6.pdf",
+    "name": "11785_lec6_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec6.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec7.stochastic_gradient.pdf",
+    "name": "11785_lec7.stochastic_gradient_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec7.stochastic_gradient.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec8.optimizersandregularizers.pdf",
+    "name": "11785_lec8.optimizersandregularizers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec8.optimizersandregularizers.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec9.CNN1.pdf",
+    "name": "11785_lec9.CNN1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec9.CNN1.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec10.CNN2.pdf",
+    "name": "11785_lec10.CNN2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec10.CNN2.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec11.CNN3.pdf",
+    "name": "11785_lec11.CNN3_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec11.CNN3.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec12.CNN4.pdf",
+    "name": "11785_lec12.CNN4_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec12.CNN4.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec13.recurrent.pdf",
+    "name": "11785_lec13.recurrent_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec13.recurrent.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec14.recurrent.pdf",
+    "name": "11785_lec14.recurrent_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec14.recurrent.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec15.recurrent.pdf",
+    "name": "11785_lec15.recurrent_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec15.recurrent.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec16.recurrent.pdf",
+    "name": "11785_lec16.recurrent_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec16.recurrent.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec17.recurrent.pdf",
+    "name": "11785_lec17.recurrent_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec17.recurrent.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec18.attention.pdf",
+    "name": "11785_lec18.attention_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec18.attention.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec19.transformer.pdf",
+    "name": "11785_lec19.transformer_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec19.transformer.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec20.LLMs.pdf",
+    "name": "11785_lec20.LLMs_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec20.LLMs.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec21.representations.pdf",
+    "name": "11785_lec21.representations_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec21.representations.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec22.VAE.pdf",
+    "name": "11785_lec22.VAE_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec22.VAE.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lec23.diffusion_s25.pdf",
+    "name": "11785_lec23.diffusion_s25_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec23.diffusion_s25.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/GANs_Lec24_Part1.pdf",
+    "name": "11785_GANs_Lec24_Part1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides GANs_Lec24_Part1.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/GAN_Part2.pdf",
+    "name": "11785_GAN_Part2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides GAN_Part2.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/jsd.pdf",
+    "name": "11785_jsd_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides jsd.pdf",
+    "aux": true
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lecture_25_Hopfield_S25.pdf",
+    "name": "11785_lecture_25_Hopfield_S25_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture_25_Hopfield_S25.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/lecture_26_BM_S25.pdf",
+    "name": "11785_lecture_26_BM_S25_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lecture_26_BM_S25.pdf"
+   },
+   {
+    "url": "https://deeplearning.cs.cmu.edu/S25/document/slides/deeplearninggraphcnns.pptx.pdf",
+    "name": "11785_deeplearninggraphcnns.pptx_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides deeplearninggraphcnns.pptx.pdf"
+   }
+  ],
+  "expected_items": 28,
+  "completeness_note": "官方 Lectures 表 29 行（第 0–28 讲）：第 1–27 讲均发布幻灯片（第 24 讲 GAN 分两份 PDF），共 28 个讲义 PDF 全部下载；第 0 讲（Course Logistics，仅课程行政安排）页面链接 Lec-0.Logistics.pdf 于 2026-10-29 实测 HTTP 404，官方文件已不存在，未收；第 28 讲（Guest lecture / buffer）无幻灯片；第 24 讲附带的 JSD 补充幻灯片 jsd.pdf 标为 aux；HW bootcamp/recitation 幻灯片与阅读论文不计入讲义。Fall 2025 与 Spring 2026 页面讲义由脚本动态加载、未发布静态 PDF 链接（S26 lectures 页 404），故选最近可完整获取的 Spring 2025。",
+  "prereq": "官方要求 Python 编程能力、基础线性代数、微积分与概率（11-785 研究生课程，本科高年级可修）",
+  "coverage": "神经网络通用逼近、训练与反向传播、优化器与正则化、CNN、RNN/LSTM、序列预测与 CTC/束搜索、语言模型与 seq2seq、注意力与 Transformer、大语言模型、表示学习与自编码器、VAE、扩散模型、GAN、Hopfield 网络与玻尔兹曼机、图神经网络",
+  "stage": "初学/进阶研究",
+  "language": "en",
+  "reason": "CMU LTI 的深度学习核心课，语音与序列建模（CTC、束搜索、seq2seq）讲得尤为细致，对开发低资源语言的语音识别与语言模型都有直接参考价值。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-033",
+  "kind": "course",
+  "university": "Massachusetts Institute of Technology",
+  "course_code": "6.7960",
+  "course_title": "Deep Learning",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Sara Beery",
+   "Kaiming He",
+   "Omar Khattab"
+  ],
+  "official_url": "https://deeplearning6-7960.github.io/2025/index.html",
+  "schedule_url": "https://deeplearning6-7960.github.io/2025/index.html",
+  "verification_basis": "官方课程站点 2025 页标题“6.7960 Deep Learning, Fall 2025”，Course Information 列 Instructor Sara Beery、Kaiming He、Omar Khattab；日程表逐讲链接 Dropbox 幻灯片（2026-10-29 解析页面，已排除 HTML 注释中的链接）",
+  "dir_name": "MIT_6.7960_DeepLearning_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.dropbox.com/scl/fi/wfjnzp5bb2r8vcgvalv51/1_intro_2025.pdf?rlkey=3v6z1zqvp2knscopkzvstjs9n&st=tjyeqe2e&dl=1",
+    "name": "67960_1_intro_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 1_intro_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/kv1ddh7ss8oxohtvzlsjh/2_backprop_2025.pdf?rlkey=wck8o09edebcay7mp6gohygj5&st=17v992ys&dl=1",
+    "name": "67960_2_backprop_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 2_backprop_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/0uo7xhho5ws0bts6k9f5m/3_approximation_2025.pdf?rlkey=77t08souixt42rpny8v8e5sqc&st=kitgis2x&dl=1",
+    "name": "67960_3_approximation_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 3_approximation_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/g9hozgna3ralnpibg30oz/4_grid_archs_2025.pdf?rlkey=d0wbf24wck84rayhbj1q0d01m&st=vnt61skl&dl=1",
+    "name": "67960_4_grid_archs_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 4_grid_archs_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/lu2osug2lswj8gqyyuxut/5_mem_seq_2025.pdf?rlkey=z0o79n6suzrhanv9wzqo89bbs&st=3tpzzlec&dl=1",
+    "name": "67960_5_mem_seq_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 5_mem_seq_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/yorf3fw3ovrptaaoyh441/6_transformers_2025.pdf?rlkey=zkjpma8flvy5ksjc333hxp9q8&st=v403dfgl&dl=1",
+    "name": "67960_6_transformers_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 6_transformers_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/megb5rm0teodtw04fskxw/7_generalization_2025.pdf?rlkey=l88wzorvkbbgq5z584kh3tn71&st=3fie7jl6&dl=1",
+    "name": "67960_7_generalization_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 7_generalization_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/8p20mfl0w66df5pjf3z9c/8_representation_rec_2025.pdf?rlkey=8okp1xd19bq9ox59kpx93a94o&st=9butpzi3&dl=1",
+    "name": "67960_8_representation_rec_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 8_representation_rec_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/grbb1avecuwal4wndihrd/9_similarity_2025.pdf?rlkey=77916kh9nlw3b8n2m27p5otb7&st=qbd43cd5&dl=1",
+    "name": "67960_9_similarity_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 9_similarity_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/mrlthxaaa5kg36ro6ripp/10_representation_info_2025.pdf?rlkey=v1wo7nw0hbbf14it77y95dtei&st=td6wzebh&dl=1",
+    "name": "67960_10_representation_info_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 10_representation_info_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/nz1rwjoavkbzxdub3xa3z/11_pretraining_2025.pdf?rlkey=o1b5uuspzlm4kxdqqoyvaojnl&st=h3h4zkjv&dl=1",
+    "name": "67960_11_pretraining_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 11_pretraining_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/11fogeprd78pylva997b5/12_scaling_2025.pdf?rlkey=mfdajs7u70ojaugr41jpb8rvr&st=xvl1k0vx&dl=1",
+    "name": "67960_12_scaling_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 12_scaling_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/7jswvwe1c8rtherjaboh9/lec13_gen_intro.pdf?rlkey=vqx2mjujz2hc93eny55a761ij&st=mnagglkh&dl=1",
+    "name": "67960_lec13_gen_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec13_gen_intro.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/3c4mwxeweqnb84bmftgt3/lec14_vae_gan.pdf?rlkey=dw2kkoc05wf449bydqic663j8&st=le610sta&dl=1",
+    "name": "67960_lec14_vae_gan_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec14_vae_gan.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/aa9oj9sgcatu7s23iumv1/15_posttraining_2025.pdf?rlkey=1r0thyx330grcn8io2n1j5vnk&st=b2z4sh4b&dl=1",
+    "name": "67960_15_posttraining_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 15_posttraining_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/aoaddpf7wjcv28xtbwe12/lec16_diffusion.pdf?rlkey=k9op9towe7u2d4k9q4n2wu1xz&st=g8zsdbui&dl=1",
+    "name": "67960_lec16_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec16_diffusion.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/pk81c0p4mk68lli60sikl/17_ood_2025.pdf?rlkey=4ddc1nkqwpuc74130pi2wuvpy&st=7ko1cc6p&dl=1",
+    "name": "67960_17_ood_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 17_ood_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/jfa2ampn4zj98txbn29r9/18_transfer_learning_2025.pdf?rlkey=chv4b0ujjpj8512emteus9kdl&st=p74qi6jn&dl=1",
+    "name": "67960_18_transfer_learning_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 18_transfer_learning_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/9hqmdcnbz543dq6q1u8lc/19_inference_2025.pdf?rlkey=f037pje41j5up5u82h4tft9sz&st=i0ws6hg4&dl=1",
+    "name": "67960_19_inference_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 19_inference_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/dpy9knkmnmywl1yfny7t5/20_evaluation_2025.pdf?rlkey=rf5i4djze7xex2agvlyxl6n4y&st=ueikmcjc&dl=1",
+    "name": "67960_20_evaluation_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 20_evaluation_2025.pdf"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/e4ugwzvndfptz250widrq/lec21_hackers.pdf?rlkey=3zwjnpq3ej3bi8wlb11yxyp2i&st=lbwjf81k&dl=1",
+    "name": "67960_lec21_hackers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides lec21_hackers.pdf"
+   }
+  ],
+  "expected_items": 21,
+  "completeness_note": "官方日程 24 次讲课（不含 PyTorch 辅导、期中、假日与项目答疑）中 21 讲发布幻灯片（Dropbox 公共链接），21 个 PDF 全部下载；11/18（Rose E Wang）、12/2（Zongyi Li）、12/9（Jiajun Wu）三次嘉宾讲座未发布幻灯片；项目指南不计入讲义。课程主站当前为进行中的 Fall 2026，故选 Fall 2025。",
+  "prereq": "官方要求 18.05/6.3700 等概率、18.06 线性代数、6.3900 机器学习导论及 Python 编程（研究生课程）",
+  "coverage": "神经网络基础与反向传播、逼近理论、CNN、记忆与序列模型、Transformer、泛化理论、重建式与相似度式表示学习（神经信息检索）、表示与信息论、基础模型预训练与缩放律、VAE/GAN、后训练、扩散与流、分布外泛化、迁移学习与蒸馏、推理时算法、评测与基准设计",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "MIT 研究生深度学习课 2025 秋由 Kaiming He、Omar Khattab（DSPy/ColBERT 作者）等讲授，覆盖预训练、缩放律、后训练、迁移学习、神经检索与评测设计，为小语种模型的迁移、蒸馏与评测提供原理层支撑。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "06",
+   "07",
+   "12",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-034",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "CS 189/289A",
+  "course_title": "Introduction to Machine Learning",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Narges Norouzi",
+   "Joseph Gonzalez"
+  ],
+  "official_url": "https://eecs189.org/fa25/",
+  "schedule_url": "https://eecs189.org/fa25/",
+  "verification_basis": "官方学期站点 eecs189.org/fa25“CS 189 - Introduction to Machine Learning”，页面元数据作者“Narges Norouzi, Joseph Gonzalez”；首页 Week 1–15 列出 26 讲，各讲页面（/fa25/lecture/lecNN/）给出 Slides (PDF, pptx) 链接，PDF 托管在课程公开的 Google Drive（2026-10-29 逐页核对）",
+  "dir_name": "Berkeley_CS189_IntroML_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1_CfsbkvA7lmTz62xuFbjuULoMC8OI3kr",
+    "name": "cs189_fa25_lec01_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction + ML Problem Framing (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1lhQz31YfpOJCkM1OP5qS092F56AzQoY-",
+    "name": "cs189_fa25_lec02_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Data Tools (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1MnnIUMKqL8ECYaT-qnO4J50vGdGMijCq",
+    "name": "cs189_fa25_lec03_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 ML Mechanics, Terminology, and Techniques (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1M5ChwvFH-J1oMhGhPXuHZgKYXzMWgVaZ",
+    "name": "cs189_fa25_lec04_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 K-Means and Probability (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=18lwCuoIg2yqdtFIZCiBq_G-Bh95Hp04m",
+    "name": "cs189_fa25_lec05_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Density Estimation and Gaussian Mixture Models (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1QifTKa40wxFoHPaC2jz8UKU8G0EyUoxe",
+    "name": "cs189_fa25_lec06_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 GMM Recap and Linear Regression (1) (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1Pj1H_SkUsftGy5FA5f_UUcc5TjZFO2dV",
+    "name": "cs189_fa25_lec07_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Linear Regression (2) (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1kGK1vA5TdTdz6Dc_IVdgiFghrR0lNgd7",
+    "name": "cs189_fa25_lec08_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Linear Regression (3) (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1s2yjJX2L93fuT9Zc96BRJ92H-D7MMrvg",
+    "name": "cs189_fa25_lec09_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Bias-Variance Trade-off (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1yIiQjs8liZb2xgUOhQcC-snx2v6X47uI",
+    "name": "cs189_fa25_lec10_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Logistic Regression (1) (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1IoJAcFE2VpdiaDcnmIGZRX4OkDMy-jm8",
+    "name": "cs189_fa25_lec11_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Logistic Regression (2) (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1DjhJH--pv0Rb5MWjBuMeqtq5lK8e9ldO",
+    "name": "cs189_fa25_lec12_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Optimization and Gradient Descent (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1ww1FiIM7_tJfyUxwFNICX_Py5WTGfPMW",
+    "name": "cs189_fa25_lec13_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Adam and Stochastic Gradient Descent (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1AI-1WPNVBBORGXPXDaxQ7-lNz2ZW6dLb",
+    "name": "cs189_fa25_lec14_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Neural Networks and PyTorch (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=15KUV5HmGF8ptmLHQNx0xy6XyLtV0sNxe",
+    "name": "cs189_fa25_lec15_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 PyTorch Continued and Backpropagation (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1WT2IxLh0_fOhWoQic73o5qD21kS2zxva",
+    "name": "cs189_fa25_lec16_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Neural Network Design and Regularization (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1sR43jLDrvOWDLzmAV4pp5hVHMYVqRonR",
+    "name": "cs189_fa25_lec17_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 NN + Architectures: CNN (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1xje6aYfHPDdmeV45H_ZaYiRn51r9GGgt",
+    "name": "cs189_fa25_lec18_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Architectures: CNN (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=15OoGVnb6bzEQAT_aEc0cjr-sI72H3e-q",
+    "name": "cs189_fa25_lec19_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 CNN and Autoencoder (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1kz5heent9sFLjAf5Z0iW7dDnIlfHWOtN",
+    "name": "cs189_fa25_lec20_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 Transformers (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1R0JpmqH8MahxZpA1d4k4_ZlPlNDO-frd",
+    "name": "cs189_fa25_lec21_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 Transformers and Language Modeling (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1CpfTBb5A6AGTPTMsWTuUggWRZPnowzsb",
+    "name": "cs189_fa25_lec22_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 LLM Training and Applications (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1E2m-zGpGXYmfzBNOtQJVdcL0DMEU-jQR",
+    "name": "cs189_fa25_lec24_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 24 Self-Supervised Learning (slides PDF via official Google Drive link)"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1-tpebKS7z5QF3xhAlqF1Nl-yH27bB4Ck",
+    "name": "cs189_fa25_lec25_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 25 Contrastive Learning and Diffusion Models (slides PDF via official Google Drive link)"
+   }
+  ],
+  "expected_items": 24,
+  "completeness_note": "官方日程 26 讲中 24 讲在讲次页发布了 PDF 幻灯片（Google Drive 公开链接），全部下载；第 23 讲（嘉宾讲座，讲次页标题为 PCA，PDF 链接为空）与第 26 讲（Research Panel and Closing，链接为空）无幻灯片。同讲 pptx 版与 PDF 重复未收；讲义中的 notebook 链接不计入。Spring 2026 站点未发布讲义，Fall 2026 正在进行，故选 Fall 2025。",
+  "prereq": "官方要求 Math 53（多元微积分）、Math 54/EECS 16A+16B（线性代数）、CS 70（离散数学与概率）及 Python 编程",
+  "coverage": "ML 问题建模与数据工具、K-means 与概率、密度估计与 GMM、线性回归、偏差-方差、逻辑回归、梯度下降/Adam/SGD、神经网络与 PyTorch、反向传播、正则化、CNN、自编码器、Transformer 与语言建模、LLM 训练与应用、自监督与对比学习、扩散模型",
+  "stage": "初学",
+  "language": "en",
+  "reason": "伯克利本科机器学习核心课 2025 秋全新改版（Joseph Gonzalez 为 vLLM/Sky 实验室负责人之一），以 PyTorch 实践贯穿至 Transformer 与 LLM 训练，适合小语种项目新成员快速建立 ML 到 LLM 的连贯知识。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-035",
+  "kind": "course",
+  "university": "Cornell University",
+  "course_code": "CS 4780/5780",
+  "course_title": "Introduction to Machine Learning",
+  "term": "Spring 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Kilian Q. Weinberger",
+   "Karthik Sridharan"
+  ],
+  "official_url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/",
+  "schedule_url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/",
+  "verification_basis": "康奈尔课程站点 /courses/cs4780/2024sp/ 标题“CS 4/5780: Intro to Machine Learning”，讲者 Kilian Q. Weinberger 与 Karthik Sridharan；日程 1/23/24–5/7/24 逐讲链接 lecture notes（html/pdf）与幻灯片（2026-10-29 用 links 与 WebFetch 核对）",
+  "dir_name": "Cornell_CS4780_IntroML_2024Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecture00_Intro_2024.pdf",
+    "name": "cs4780_lecture00_Intro_2024_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecture00_Intro_2024.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote01_MLsetup.pdf",
+    "name": "cs4780_lecturenote01_MLsetup_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote01_MLsetup.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote02_kNN.pdf",
+    "name": "cs4780_lecturenote02_kNN_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote02_kNN.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote03.pdf",
+    "name": "cs4780_lecturenote03_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote03.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/UnsupervisedLearning.html",
+    "name": "cs4780_UnsupervisedLearning_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Unsupervised Learning (K-means, PCA) (HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote04.pdf",
+    "name": "cs4780_lecturenote04_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote04.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote05.pdf",
+    "name": "cs4780_lecturenote05_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote05.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote06.pdf",
+    "name": "cs4780_lecturenote06_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote06.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote07.pdf",
+    "name": "cs4780_lecturenote07_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote07.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote08.pdf",
+    "name": "cs4780_lecturenote08_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote08.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote09.pdf",
+    "name": "cs4780_lecturenote09_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote09.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote10.pdf",
+    "name": "cs4780_lecturenote10_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote10.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote12.pdf",
+    "name": "cs4780_lecturenote12_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote12.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote11.pdf",
+    "name": "cs4780_lecturenote11_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote11.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote13.pdf",
+    "name": "cs4780_lecturenote13_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote13.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote14.pdf",
+    "name": "cs4780_lecturenote14_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote14.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/beamer/beamer14.pdf",
+    "name": "cs4780_beamer14_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides beamer14.pdf",
+    "aux": true
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote15.pdf",
+    "name": "cs4780_lecturenote15_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote15.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote16.pdf",
+    "name": "cs4780_lecturenote16_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote16.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote17.pdf",
+    "name": "cs4780_lecturenote17_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote17.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote20.pdf",
+    "name": "cs4780_lecturenote20_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote20.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/slides/convnets.pdf",
+    "name": "cs4780_convnets_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides convnets.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/lectures/pdfs/lecturenote22.pdf",
+    "name": "cs4780_lecturenote22_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides lecturenote22.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/slides/Transformers.pdf",
+    "name": "cs4780_Transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides Transformers.pdf"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4780/2024sp/slides/ethics.pdf",
+    "name": "cs4780_ethics_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes/slides ethics.pdf"
+   }
+  ],
+  "expected_items": 24,
+  "completeness_note": "官方日程 28 次授课（不含 2 月假期、春假与期末考试）中，除 3/12 期中复习与 3/14 复习游戏（仅 pptx 题板）外的 26 讲全部有讲义：Weinberger 讲义 PDF（lecturenote01–17、20、22，部分两讲共用一份）、K-means/PCA 两讲共用的 UnsupervisedLearning 网页讲义（HTML）、第 1 讲导论幻灯片与 CNN/Transformer/伦理三份幻灯片，去重后共 24 个文件全部下载；Kernel SVM 的 beamer 幻灯片标为 aux；教师手写板书扫描件（handwritten/）与讲义正文重复未收。日程中第 17、18 讲的 PDF 链接与 HTML 讲义编号互换（lecturenote12/11），按官方链接原样收录。康奈尔该课程更新学期（2024fa 起）站点不可公开访问（404），故选 Spring 2024。",
+  "prereq": "官方要求概率、线性代数、多元微积分与编程基础（CS 2110 或同等）",
+  "coverage": "ML 基本设定、kNN 与维数灾难、感知机、K-means 与 PCA、MLE/MAP、朴素贝叶斯、逻辑回归、梯度下降/AdaGrad/牛顿法、线性回归、SVM、经验风险最小化、模型选择、偏差-方差、核方法、CART 与集成（Bagging/Boosting）、神经网络、CNN、Transformer、AI 伦理",
+  "stage": "初学",
+  "language": "en",
+  "reason": "Kilian Weinberger 的机器学习讲义以推导清晰著称，经典方法（朴素贝叶斯、核方法、集成、偏差-方差）在小语种低数据场景的基线模型、数据筛选分类器和误差分析中仍然常用。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01"
+  ]
+ },
+ {
+  "sid": "17-036",
+  "kind": "course",
+  "university": "The University of British Columbia",
+  "course_code": "CPSC 440/550",
+  "course_title": "Advanced Machine Learning",
+  "term": "2025W2 (Jan–Apr 2026)",
+  "term_year": 2026,
+  "instructors": [
+   "Danica Sutherland"
+  ],
+  "official_url": "https://www.cs.ubc.ca/~dsuth/440/25w2/",
+  "schedule_url": "https://www.cs.ubc.ca/~dsuth/440/25w2/",
+  "verification_basis": "教师课程页标题“CPSC 440/550: Advanced Machine Learning, 25W2 (Jan–Apr 2026)”，Instructor Danica Sutherland；日程逐讲链接 slides/*.pdf（2026-10-29 核对）",
+  "dir_name": "UBC_CPSC440_AdvancedML_2025W2_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/0-syllabus.pdf",
+    "name": "cpsc440_0-syllabus_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 0-syllabus.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/1-binary-density-est.pdf",
+    "name": "cpsc440_1-binary-density-est_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 1-binary-density-est.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/2-bernoulli-mle-map.pdf",
+    "name": "cpsc440_2-bernoulli-mle-map_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 2-bernoulli-mle-map.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/3-generative.pdf",
+    "name": "cpsc440_3-generative_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 3-generative.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/4-cat.pdf",
+    "name": "cpsc440_4-cat_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 4-cat.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/5-discrim.pdf",
+    "name": "cpsc440_5-discrim_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 5-discrim.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/6-gaussians.pdf",
+    "name": "cpsc440_6-gaussians_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 6-gaussians.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/7-mvn.pdf",
+    "name": "cpsc440_7-mvn_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 7-mvn.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/8-learning-gauss.pdf",
+    "name": "cpsc440_8-learning-gauss_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 8-learning-gauss.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/9-empbayes.pdf",
+    "name": "cpsc440_9-empbayes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 9-empbayes.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/10-expfam.pdf",
+    "name": "cpsc440_10-expfam_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 10-expfam.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/11-mixtures.pdf",
+    "name": "cpsc440_11-mixtures_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 11-mixtures.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/12-mc-var.pdf",
+    "name": "cpsc440_12-mc-var_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 12-mc-var.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/13-vae.pdf",
+    "name": "cpsc440_13-vae_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 13-vae.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/14-deconv-reps.pdf",
+    "name": "cpsc440_14-deconv-reps_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 14-deconv-reps.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/15-img-gen.pdf",
+    "name": "cpsc440_15-img-gen_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 15-img-gen.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/16-markov-chains.pdf",
+    "name": "cpsc440_16-markov-chains_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 16-markov-chains.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/17-msg-passing.pdf",
+    "name": "cpsc440_17-msg-passing_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 17-msg-passing.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/18-mcmc.pdf",
+    "name": "cpsc440_18-mcmc_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 18-mcmc.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/19-dags.pdf",
+    "name": "cpsc440_19-dags_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 19-dags.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/20-ugms.pdf",
+    "name": "cpsc440_20-ugms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 20-ugms.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/21-rnns.pdf",
+    "name": "cpsc440_21-rnns_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 21-rnns.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/22-attention.pdf",
+    "name": "cpsc440_22-attention_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 22-attention.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/23-rep-learning.pdf",
+    "name": "cpsc440_23-rep-learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 23-rep-learning.pdf"
+   },
+   {
+    "url": "https://www.cs.ubc.ca/~dsuth/440/25w2/slides/24-chat-fair.pdf",
+    "name": "cpsc440_24-chat-fair_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture slides 24-chat-fair.pdf"
+   }
+  ],
+  "expected_items": 25,
+  "completeness_note": "官方日程 25 次讲课中 22 讲发布了新幻灯片（部分讲次含两份），共 25 个 PDF（含 0-syllabus）全部下载；2/9、2/23、3/16 三讲为前一讲内容的续讲（Finish mixtures/EM、Finish Monte Carlo、More MCMC），沿用上一份幻灯片，无新文件。作业与项目说明不计入讲义。",
+  "prereq": "官方要求 CPSC 340（机器学习导论）或同等课程，以及概率、线性代数与多元微积分",
+  "coverage": "二元密度估计、伯努利 MLE/MAP、生成式与判别式分类器、类别数据、高斯与多元高斯、经验贝叶斯、指数族、混合模型与 EM、蒙特卡洛与 Laplace 近似、变分推断与 VAE、表示学习与图像生成、马尔可夫链、消息传递与 MCMC、有向/无向图模型、RNN/seq2seq/LSTM、注意力与 Transformer、表示学习、LLM 到对话模型与公平性",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "UBC 研究生/高年级概率机器学习课 2026 年版，从密度估计、EM、变分推断一路讲到 Transformer 与对话 LLM，概率建模视角有助理解语言模型、数据混合与不确定性估计。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-037",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CS168",
+  "course_title": "The Modern Algorithmic Toolbox",
+  "term": "Spring 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Gregory Valiant"
+  ],
+  "official_url": "https://web.stanford.edu/class/cs168/",
+  "schedule_url": "https://web.stanford.edu/class/cs168/",
+  "verification_basis": "课程主页标题“CS 168: The Modern Algorithmic Toolbox, Spring 2024”，“Instructor: Gregory Valiant”；Lectures 栏逐讲链接 l/lN.pdf 讲义（2026-10-29 用 links 与 WebFetch 核对）",
+  "dir_name": "Stanford_CS168_ModernAlgorithmicToolbox_2024Spring_LectureNotes_en",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l1.pdf",
+    "name": "cs168_l1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l1"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l2.pdf",
+    "name": "cs168_l2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l2"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l3.pdf",
+    "name": "cs168_l3_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l3"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l4.pdf",
+    "name": "cs168_l4_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l4"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l5.pdf",
+    "name": "cs168_l5_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l5"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l6.pdf",
+    "name": "cs168_l6_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l6"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l7.pdf",
+    "name": "cs168_l7_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l7"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l8.pdf",
+    "name": "cs168_l8_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l8"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l9.pdf",
+    "name": "cs168_l9_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l9"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l10.pdf",
+    "name": "cs168_l10_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l10"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l11.pdf",
+    "name": "cs168_l11_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l11"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l12.pdf",
+    "name": "cs168_l12_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l12"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l13.pdf",
+    "name": "cs168_l13_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l13"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l14.pdf",
+    "name": "cs168_l14_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l14"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l15.pdf",
+    "name": "cs168_l15_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l15"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l17.pdf",
+    "name": "cs168_l17_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l17"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l18a.pdf",
+    "name": "cs168_l18a_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l18a"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l18b.pdf",
+    "name": "cs168_l18b_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l18b"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs168/l/l19.pdf",
+    "name": "cs168_l19_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture notes l19"
+   }
+  ],
+  "expected_items": 19,
+  "completeness_note": "官方日程 20 讲（4/2–6/7，含 6/7 可选讲 Expander codes）中 19 讲发布讲义：第 15、16 讲共用 l15.pdf，第 18 讲分 l18a（压缩感知）与 l18b（线性与凸规划）两份，共 19 个 PDF 全部下载；6/4“Differential privacy”一讲无讲义（官方改荐 Dwork–Roth 专著）。迷你项目与考试不计入讲义。该课程之后未见更新学期公开站点，主页即 Spring 2024。",
+  "prereq": "官方要求 CS107 与 CS161（算法），并需线性代数与概率基础",
+  "coverage": "一致性哈希、Bloom filter 与 count-min sketch、相似性搜索与 MinHash、Johnson–Lindenstrauss 降维、泛化与正则化、PCA/SVD 与低秩近似、张量方法、谱图方法与随机游走、蓄水池抽样与重要性抽样、Good–Turing 估计、马尔可夫链与 MCMC、傅里叶方法、在线学习与乘性权重、压缩感知、线性与凸规划、扩展码",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "讲授大规模数据处理的数学工具：MinHash/LSH 去重、sketch 统计、降维与嵌入、Good–Turing 未见事件估计与抽样，这些正是小语种语料去重、语言/质量统计与低频词估计的直接方法基础。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "05"
+  ]
+ }
+]

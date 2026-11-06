@@ -1,0 +1,750 @@
+[
+ {
+  "sid": "14-001",
+  "arxiv": "2410.15037",
+  "title": "mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation",
+  "subtopic": "多自然语言→代码基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "把 HumanEval 题面扩展到约两百种自然语言（含大量低资源语言），直接度量“用小语种提编程需求”时的代码生成差距。"
+ },
+ {
+  "sid": "14-002",
+  "arxiv": "2402.16694",
+  "title": "HumanEval-XL: A Multilingual Code Generation Benchmark for Cross-lingual Natural Language Generalization",
+  "subtopic": "多自然语言→代码基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "平行的多自然语言×多编程语言代码生成基准，用于评估提示语言变化下的跨语言泛化。"
+ },
+ {
+  "sid": "14-003",
+  "arxiv": "2404.19368",
+  "title": "Exploring Multi-Lingual Bias of Large Code Models in Code Generation",
+  "subtopic": "提示语言偏差",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "实证分析代码模型在中文与英文需求描述下的生成质量差异及缓解方法，是“非英语提示性能差异”的直接证据。"
+ },
+ {
+  "sid": "14-004",
+  "arxiv": "2408.09701",
+  "title": "Bridging the Language Gap: Enhancing Multilingual Prompt-Based Code Generation in LLMs via Zero-Shot Cross-Lingual Transfer",
+  "subtopic": "跨语言迁移改进",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "针对非英语提示的代码生成提出零样本跨语言迁移方法，直接服务小语种编程助手。"
+ },
+ {
+  "sid": "14-005",
+  "arxiv": "2502.19067",
+  "title": "IndicEval-XL: Bridging Linguistic Diversity in Code Generation Across Indic Languages",
+  "subtopic": "印度语言→代码基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向多种印度语言提示的代码生成基准，覆盖低资源印度语言。"
+ },
+ {
+  "sid": "14-006",
+  "arxiv": "2505.05063",
+  "title": "CodeMixBench: Evaluating Large Language Models on Code Generation with Code-Mixed Prompts",
+  "subtopic": "语码混用提示",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "评估语码混用（如印地语-英语混写）编程提示对代码生成的影响，贴近低资源语言用户真实输入。"
+ },
+ {
+  "sid": "14-007",
+  "arxiv": "2607.14816",
+  "title": "Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and a Study on Code Quality",
+  "subtopic": "多自然语言→代码与代码质量",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建多语言提示代码生成基准并比较不同提示语言下的代码质量。"
+ },
+ {
+  "sid": "14-008",
+  "arxiv": "2609.18311",
+  "title": "A Study on the Impact of Natural Language Differences in Prompts on Automatic Code Generation Using LLMs",
+  "subtopic": "提示语言差异实证",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究提示所用自然语言不同对 LLM 自动代码生成的影响。"
+ },
+ {
+  "sid": "14-009",
+  "arxiv": "2605.05902",
+  "title": "Evaluating Non-English Developer Support in Machine Learning for Software Engineering",
+  "subtopic": "非英语开发者支持评估",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统评估面向软件工程的模型对非英语开发者（非英语注释/需求）的支持程度。"
+ },
+ {
+  "sid": "14-010",
+  "arxiv": "2511.05040",
+  "title": "UA-Code-Bench: A Competitive Programming Benchmark for Evaluating LLM Code Generation in Ukrainian",
+  "subtopic": "单一语言代码基准（乌克兰语）",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "乌克兰语题面的竞赛编程基准，提供单一中等资源语言的需求→代码评测案例。"
+ },
+ {
+  "sid": "14-011",
+  "arxiv": "2402.13222",
+  "title": "RoCode: A Dataset for Measuring Code Intelligence from Problem Definitions in Romanian",
+  "subtopic": "单一语言代码基准（罗马尼亚语）",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以罗马尼亚语原生题面构建代码智能评测集，非翻译来源的本地题面案例。"
+ },
+ {
+  "sid": "14-012",
+  "arxiv": "2507.12284",
+  "title": "MERA Code: A Unified Framework for Evaluating Code Generation Across Tasks",
+  "subtopic": "单一语言代码评测框架（俄语）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以俄语指令为主的代码生成统一评测框架，展示非英语代码评测体系的构建方式。"
+ },
+ {
+  "sid": "14-013",
+  "arxiv": "2509.09101",
+  "title": "TigerCoder: A Novel Suite of LLMs for Code Generation in Bangla",
+  "subtopic": "孟加拉语代码模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "专门为孟加拉语编程需求训练的代码模型族与数据，是“为某一语言构建代码模型”的完整案例。"
+ },
+ {
+  "sid": "14-014",
+  "arxiv": "2512.19122",
+  "title": "BanglaForge: LLM Collaboration with Self-Refinement for Bangla Code Generation",
+  "subtopic": "孟加拉语代码生成与自我修复",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以多模型协作与自我修正提升孟加拉语提示代码生成。"
+ },
+ {
+  "sid": "14-015",
+  "arxiv": "2512.23713",
+  "title": "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+  "subtopic": "孟加拉语共享任务系统",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "BLP-2025 孟加拉语→Python 共享任务系统，结合迭代自纠错与多语言智能体。"
+ },
+ {
+  "sid": "14-016",
+  "arxiv": "2511.07382",
+  "title": "Retriv at BLP-2025 Task 2: Test-Driven Feedback-Guided Framework for Bangla-to-Python Code Generation",
+  "subtopic": "孟加拉语共享任务系统/测试反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以测试驱动反馈循环做孟加拉语→Python 生成，体现测试反馈与自我修复。"
+ },
+ {
+  "sid": "14-017",
+  "arxiv": "2511.16787",
+  "title": "NALA_MAINZ at BLP-2025 Task 2: A Multi-agent Approach for Bangla Instruction to Python Code Generation",
+  "subtopic": "孟加拉语共享任务系统/多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多智能体方案处理孟加拉语指令到 Python 代码。"
+ },
+ {
+  "sid": "14-018",
+  "arxiv": "2604.25960",
+  "title": "Large Language Models for Multilingual Code Intelligence: A Survey",
+  "subtopic": "多编程语言代码智能综述（类比）",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】多编程语言代码生成与代码翻译综述（摘要中“多语言”指编程语言），可借鉴其跨语言泛化评测框架。"
+ },
+ {
+  "sid": "14-019",
+  "arxiv": "2405.04520",
+  "title": "NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and Natural User Prompts",
+  "subtopic": "真实用户提示基准（中英）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "来自真实用户的编程查询（原生多为中文），作者翻译成中英双语版本并比较两种语言下的表现。"
+ },
+ {
+  "sid": "14-020",
+  "arxiv": "2412.12800",
+  "title": "Breaking the Programming Language Barrier: Multilingual Prompting to Empower Non-Native English Learners",
+  "subtopic": "非英语母语学习者编程",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究非英语母语编程初学者用母语向 LLM 提出编程需求的效果与体验，真实学习者场景。"
+ },
+ {
+  "sid": "14-021",
+  "arxiv": "2411.02725",
+  "title": "Leveraging LLM Tutoring Systems for Non-Native English Speakers in Introductory CS Courses",
+  "subtopic": "非英语母语者编程辅导",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "入门编程课程中非英语母语学生使用 LLM 辅导系统的实证研究。"
+ },
+ {
+  "sid": "14-022",
+  "arxiv": "2511.20654",
+  "title": "CodeVaani: A Multilingual, Voice-Based Code Learning Assistant",
+  "subtopic": "多语言语音编程学习助手",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以印度语言语音提问的编程学习助手，结合语音与代码解释。"
+ },
+ {
+  "sid": "14-023",
+  "arxiv": "2602.19446",
+  "title": "\"Write in English, Nobody Understands Your Language Here\": A Study of Non-English Trends in Open-Source Repositories",
+  "subtopic": "开源仓库中的非英语内容",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "实证分析开源仓库中非英语注释/文档/议题的分布与趋势，是非英语注释理解的数据背景。"
+ },
+ {
+  "sid": "14-024",
+  "arxiv": "2505.15469",
+  "title": "A Qualitative Investigation into LLM-Generated Multilingual Code Comments and Automatic Evaluation Metrics",
+  "subtopic": "非英语代码注释生成",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "质性分析 LLM 用多种自然语言生成代码注释的错误类型及自动指标的有效性。"
+ },
+ {
+  "sid": "14-025",
+  "arxiv": "2402.15012",
+  "title": "Ar-Spider: Text-to-SQL in Arabic",
+  "subtopic": "非英语 Text-to-SQL（阿拉伯语）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语 Text-to-SQL 基准，自然语言→查询代码的非英语案例。"
+ },
+ {
+  "sid": "14-026",
+  "arxiv": "2402.07448",
+  "title": "AraSpider: Democratizing Arabic-to-SQL",
+  "subtopic": "非英语 Text-to-SQL（阿拉伯语）",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语到 SQL 的翻译基准与模型评估。"
+ },
+ {
+  "sid": "14-027",
+  "arxiv": "2501.11498",
+  "title": "Dialect2SQL: A Novel Text-to-SQL Dataset for Arabic Dialects with a Focus on Moroccan Darija",
+  "subtopic": "方言 Text-to-SQL（摩洛哥达里贾语）",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语方言（达里贾语）提问到 SQL 的数据集，覆盖低资源方言输入。"
+ },
+ {
+  "sid": "14-028",
+  "arxiv": "2602.03633",
+  "title": "BIRDTurk: Adaptation of the BIRD Text-to-SQL Dataset to Turkish",
+  "subtopic": "非英语 Text-to-SQL（土耳其语）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将 BIRD Text-to-SQL 适配到土耳其语，涉及翻译与本地化。"
+ },
+ {
+  "sid": "14-029",
+  "arxiv": "2604.13686",
+  "title": "IndicDB -- Benchmarking Multilingual Text-to-SQL Capabilities in Indian Languages",
+  "subtopic": "多语言 Text-to-SQL（印度语言）",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "多种印度语言 Text-to-SQL 基准。"
+ },
+ {
+  "sid": "14-030",
+  "arxiv": "2509.24405",
+  "title": "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents",
+  "subtopic": "多语言 Text-to-SQL 与语言智能体",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言 Text-to-SQL 基准与协作语言智能体基线。"
+ },
+ {
+  "sid": "14-031",
+  "arxiv": "2510.13827",
+  "title": "Bridging the Semantic Gap: Contrastive Rewards for Multilingual Text-to-SQL with GRPO",
+  "subtopic": "多语言 Text-to-SQL 强化学习",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以对比奖励 GRPO 改进多语言 Text-to-SQL。"
+ },
+ {
+  "sid": "14-032",
+  "arxiv": "2511.20677",
+  "title": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+  "subtopic": "多轮上下文 Text-to-SQL（阿拉伯语）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语上下文相关（多轮）Text-to-SQL 的提示工程研究。"
+ },
+ {
+  "sid": "14-033",
+  "arxiv": "2410.03981",
+  "title": "A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages",
+  "subtopic": "低资源编程语言（类比）",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】低资源/领域特定编程语言的代码生成综述，其数据稀缺对策可类比小语种。"
+ },
+ {
+  "sid": "14-034",
+  "arxiv": "2410.18957",
+  "title": "Bridge-Coder: Unlocking LLMs' Potential to Overcome Language Gaps in Low-Resource Code",
+  "subtopic": "低资源编程语言（类比）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】借高资源语言知识桥接低资源编程语言，方法思路可类比小语种迁移。"
+ },
+ {
+  "sid": "14-035",
+  "arxiv": "2402.19173",
+  "title": "StarCoder 2 and The Stack v2: The Next Generation",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "开放数据与训练流程的代码模型报告，是构建/适配代码助手的基座参考。"
+ },
+ {
+  "sid": "14-036",
+  "arxiv": "2409.12186",
+  "title": "Qwen2.5-Coder Technical Report",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "多语言能力较强的开源代码模型报告，常作小语种编程助手基座。"
+ },
+ {
+  "sid": "14-037",
+  "arxiv": "2401.14196",
+  "title": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "开源代码模型训练数据、仓库级预训练与 FIM 设计，可复用于基座选择。"
+ },
+ {
+  "sid": "14-038",
+  "arxiv": "2411.04905",
+  "title": "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "完全公开数据管线与训练配方的代码模型，便于复现并加入小语种指令数据。"
+ },
+ {
+  "sid": "14-039",
+  "arxiv": "2405.15793",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering Language Model Agents",
+  "subtopic": "编程智能体",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "智能体-计算机接口设计，编程助手执行层的基础参考。"
+ },
+ {
+  "sid": "14-040",
+  "arxiv": "2407.16741",
+  "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+  "subtopic": "编程智能体平台",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "开源智能体平台含沙箱执行，可作为小语种编程助手的工程底座。"
+ },
+ {
+  "sid": "14-041",
+  "arxiv": "2407.01489",
+  "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+  "subtopic": "编程智能体（简化流程）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "无智能体循环的定位-修复流程，低成本方案参考。"
+ },
+ {
+  "sid": "14-042",
+  "arxiv": "2402.01030",
+  "title": "Executable Code Actions Elicit Better LLM Agents",
+  "subtopic": "代码即动作",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以可执行代码作为智能体动作空间（CodeAct）。"
+ },
+ {
+  "sid": "14-043",
+  "arxiv": "2412.21139",
+  "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+  "subtopic": "智能体训练环境",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "可执行环境训练智能体与验证器，提供训练数据构建思路。"
+ },
+ {
+  "sid": "14-044",
+  "arxiv": "2504.02605",
+  "title": "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving",
+  "subtopic": "多编程语言智能体基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "多编程语言的问题修复基准（此“多语言”指编程语言）。"
+ },
+ {
+  "sid": "14-045",
+  "arxiv": "2403.07974",
+  "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+  "subtopic": "评测与污染控制",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "按时间切分的无污染代码评测，是构建小语种代码基准时控制污染的范式。"
+ },
+ {
+  "sid": "14-046",
+  "arxiv": "2402.16906",
+  "title": "Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step",
+  "subtopic": "测试反馈与自我修复",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "利用运行时执行信息逐块调试（LDB）。"
+ },
+ {
+  "sid": "14-047",
+  "arxiv": "2402.16667",
+  "title": "RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation",
+  "subtopic": "仓库级文档生成",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "仓库级文档生成框架，可用于生成小语种代码文档。"
+ },
+ {
+  "sid": "14-048",
+  "arxiv": "2406.14497",
+  "title": "CodeRAG-Bench: Can Retrieval Augment Code Generation?",
+  "subtopic": "检索增强代码生成",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "代码检索增强的基准，涵盖文档、教程等检索源。"
+ },
+ {
+  "sid": "14-049",
+  "arxiv": "2402.14261",
+  "title": "Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming",
+  "subtopic": "IDE 集成评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "面向 IDE 内交互场景的评估框架。"
+ },
+ {
+  "sid": "14-050",
+  "arxiv": "2410.23074",
+  "title": "MPLSandbox: Multi-Programming Language Sandbox for LLMs",
+  "subtopic": "执行隔离/沙箱",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "多编程语言隔离执行沙箱，为代码执行反馈提供安全隔离。"
+ },
+ {
+  "sid": "14-051",
+  "arxiv": "2406.00515",
+  "title": "A Survey on Large Language Models for Code Generation",
+  "subtopic": "综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "代码生成综述，作为本类入门地图。"
+ },
+ {
+  "sid": "14-052",
+  "arxiv": "2409.02977",
+  "title": "Large Language Model-Based Agents for Software Engineering: A Survey",
+  "subtopic": "综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "软件工程智能体综述。"
+ },
+ {
+  "sid": "14-053",
+  "arxiv": "2107.03374",
+  "title": "Evaluating Large Language Models Trained on Code",
+  "subtopic": "经典：Codex/HumanEval",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "HumanEval 与 pass@k 的出处，多数多语言代码基准由其翻译扩展而来。",
+  "old_reason": "HumanEval/pass@k 是 mHumanEval、HumanEval-XL 等多语言基准的源头，不可替代。"
+ },
+ {
+  "sid": "14-054",
+  "arxiv": "2203.08388",
+  "title": "MCoNaLa: A Benchmark for Code Generation from Multiple Natural Languages",
+  "subtopic": "经典：多自然语言→代码",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "最早系统评估西班牙语/日语/俄语意图到代码的基准之一。",
+  "old_reason": "多自然语言→代码方向的奠基基准，窗口内工作普遍引用。"
+ },
+ {
+  "sid": "14-055",
+  "arxiv": "2212.10481",
+  "title": "Execution-Based Evaluation for Open-Domain Code Generation",
+  "subtopic": "经典：多自然语言执行评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "ODEX 含英语、西班牙语、日语、俄语意图的执行式评测。",
+  "old_reason": "多自然语言意图+执行评测的早期代表，窗口内同类基准对照基线。"
+ },
+ {
+  "sid": "14-056",
+  "arxiv": "2310.06770",
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "subtopic": "经典：仓库级智能体基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "SWE-agent/OpenHands 等智能体的标准评测。",
+  "old_reason": "2023-10-10 公开，略早于窗口；编程智能体评测的事实标准。"
+ },
+ {
+  "sid": "14-057",
+  "arxiv": "2208.08227",
+  "title": "MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation",
+  "subtopic": "经典：多编程语言基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】把基准翻译到多种编程语言的可扩展方法，低资源编程语言研究的基线。",
+  "old_reason": "多编程语言（含低资源编程语言）评测的标准工具，类比材料基线。"
+ },
+ {
+  "sid": "14-058",
+  "arxiv": "2508.19268",
+  "title": "MultiPL-MoE: Multi-Programming-Lingual Extension of Large Language Models through Hybrid Mixture-of-Experts",
+  "subtopic": "低资源编程语言（类比）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】以混合专家扩展编程语言覆盖，类比语言扩展中的灾难性遗忘控制。",
+  "reserve": true
+ },
+ {
+  "sid": "14-059",
+  "arxiv": "2503.13620",
+  "title": "Programming Language Confusion: When Code LLMs Can't Keep their Languages Straight",
+  "subtopic": "语言混淆（类比）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】编程语言混淆现象，对应自然语言中的“语言混淆/回答语言漂移”。",
+  "reserve": true
+ },
+ {
+  "sid": "14-060",
+  "arxiv": "2406.11931",
+  "title": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "MoE 代码模型与持续预训练，参考其从通用模型继续训练代码能力的方式。",
+  "reserve": true
+ },
+ {
+  "sid": "14-061",
+  "arxiv": "2406.11409",
+  "title": "CodeGemma: Open Code Models Based on Gemma",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "小规模开源代码模型，适合资源受限地区本地部署。",
+  "reserve": true
+ },
+ {
+  "sid": "14-062",
+  "arxiv": "2405.04324",
+  "title": "Granite Code Models: A Family of Open Foundation Models for Code Intelligence",
+  "subtopic": "代码模型技术报告",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "企业级开放代码模型族，数据治理与许可说明可参考。",
+  "reserve": true
+ },
+ {
+  "sid": "14-063",
+  "arxiv": "2312.02120",
+  "title": "Magicoder: Empowering Code Generation with OSS-Instruct",
+  "subtopic": "代码指令数据合成",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "用开源代码片段合成指令数据，可迁移为合成小语种编程指令。",
+  "reserve": true
+ },
+ {
+  "sid": "14-064",
+  "arxiv": "2404.05427",
+  "title": "AutoCodeRover: Autonomous Program Improvement",
+  "subtopic": "编程智能体/代码检索",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "基于程序结构检索的问题修复智能体。",
+  "reserve": true
+ },
+ {
+  "sid": "14-065",
+  "arxiv": "2504.21798",
+  "title": "SWE-smith: Scaling Data for Software Engineering Agents",
+  "subtopic": "智能体训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "规模化合成智能体训练任务。",
+  "reserve": true
+ },
+ {
+  "sid": "14-066",
+  "arxiv": "2406.15877",
+  "title": "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions",
+  "subtopic": "复杂指令代码评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "复杂指令与库调用的代码生成评测。",
+  "reserve": true
+ },
+ {
+  "sid": "14-067",
+  "arxiv": "2411.15470",
+  "title": "A Preliminary Study of Multilingual Code Language Models for Code Generation Task Using Translated Benchmarks",
+  "subtopic": "翻译基准评测",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】检验翻译到多种编程语言的 HumanEval 基准可靠性，提醒“翻译基准”方法的局限。",
+  "reserve": true
+ },
+ {
+  "sid": "14-068",
+  "arxiv": "2403.03894",
+  "title": "IRCoder: Intermediate Representations Make Language Models Robust Multilingual Code Generators",
+  "subtopic": "中间表示与多语言鲁棒性",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】借编译器中间表示提升跨编程语言鲁棒性，含对多语言提示扰动的鲁棒性实验（待核实）。",
+  "reserve": true
+ },
+ {
+  "sid": "14-069",
+  "arxiv": "2603.14501",
+  "title": "CangjieBench: Benchmarking LLMs on a Low-Resource General-Purpose Programming Language",
+  "subtopic": "低资源编程语言（类比）",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】新兴低资源编程语言（仓颉）评测。",
+  "reserve": true
+ },
+ {
+  "sid": "14-070",
+  "arxiv": "2604.17016",
+  "title": "HELO-APR: Enhancing Low-Resource Program Repair through Cross-Lingual Knowledge Transfer",
+  "subtopic": "低资源编程语言修复（类比）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "【类比材料】跨编程语言知识迁移的程序修复。",
+  "reserve": true
+ },
+ {
+  "sid": "14-071",
+  "arxiv": "2507.22462",
+  "title": "IFEvalCode: Controlled Code Generation",
+  "subtopic": "中英双语受控代码生成",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "受控代码生成基准，含中文与英文查询（待正文核实），可比较两种提示语言下的指令遵循。"
+ },
+ {
+  "sid": "14-072",
+  "arxiv": "2512.21877",
+  "title": "CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics",
+  "subtopic": "多语言 Text-to-SQL（印地语/旁遮普语/泰卢固语）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "英语、印地语、旁遮普语、泰卢固语四语的领域 Text-to-SQL 金标基准，覆盖低资源印度语言提问。"
+ },
+ {
+  "sid": "14-073",
+  "arxiv": "2610.22163",
+  "title": "Multi-sourced AI Tutor for Non-Native English Speaker Students",
+  "subtopic": "非英语母语者编程课程助教",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向计算课程非英语母语学生（当前为普通话）的双语 RAG 助教，含术语表生成，并用真实论坛帖子评估。"
+ }
+]

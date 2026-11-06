@@ -1,0 +1,4 @@
+﻿文献编号,类别,标题,状态,阶段,原因,尝试来源,尝试时间,处理
+LRL-P-09-025,09 合成数据、翻译与蒸馏,Mufu: Multilingual Fused Learning for Low-Resource Translation with LLM,待核验,verify,title match 0.00 < 0.8,https://arxiv.org/pdf/2409.13949v3,2026-10-29 15:35:24,未计数；待人工核对
+LRL-P-10-061,10 偏好对齐与安全,"Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages",下载或核验失败,verify,only 2 pages；only 11076 extractable characters,https://arxiv.org/pdf/2602.13867v1,2026-10-29 16:01:16,未计数；已用备选替代
+LRL-P-15-010,15 评测与人工评价,MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark,核验后人工排除,review,"作者在 arXiv 注释中声明撤稿（“Due to the company's data approval issue, we need to withdraw the article”，v3 2026-07-15）；协调者 2026-10-29 决定不计数，PDF 移出交付目录",https://arxiv.org/pdf/2607.00724v3,2026-10-29 15:45:59,不计数；PDF 已移出交付目录

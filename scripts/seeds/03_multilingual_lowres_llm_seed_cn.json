@@ -1,0 +1,1042 @@
+[
+ {
+  "sid": "03-001",
+  "arxiv": "2401.13303",
+  "title": "MaLA-500: Massive Language Adaptation of Large Language Models",
+  "subtopic": "大规模语言覆盖适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 LLaMA 2 上通过词表扩展与持续预训练覆盖 500+ 语言，是“现有基座 + 持续预训练增强小语种”路线的代表案例。",
+  "cross": [
+   "06",
+   "07"
+  ],
+  "cross_reason": "方法核心为词表扩展（06）与持续预训练（07）"
+ },
+ {
+  "sid": "03-002",
+  "arxiv": "2402.07827",
+  "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+  "subtopic": "多语言基座/技术报告",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "覆盖 101 种语言（其中过半为低资源）的开放多语言指令模型，是大规模语言覆盖的代表性报告。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "指令微调数据与训练方式是其主要手段"
+ },
+ {
+  "sid": "03-003",
+  "arxiv": "2405.15032",
+  "title": "Aya 23: Open Weight Releases to Further Multilingual Progress",
+  "subtopic": "多语言基座/技术报告",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在较少语言（23 种）上集中容量，与 Aya 101 对照体现语言覆盖广度与单语言性能的取舍。"
+ },
+ {
+  "sid": "03-004",
+  "arxiv": "2412.04261",
+  "title": "Aya Expanse: Combining Research Breakthroughs for a New Multilingual Frontier",
+  "subtopic": "多语言基座/技术报告",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "汇总多语言数据仲裁、偏好训练与模型合并等方法的多语言模型报告。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "含多语言偏好训练"
+ },
+ {
+  "sid": "03-005",
+  "arxiv": "2409.17892",
+  "title": "EMMA-500: Enhancing Massively Multilingual Adaptation of Large Language Models",
+  "subtopic": "大规模语言覆盖适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 Llama 2 上对 546 种语言做持续预训练的大规模覆盖案例，与 MaLA-500 同系列。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "方法为持续预训练"
+ },
+ {
+  "sid": "03-006",
+  "arxiv": "2409.11272",
+  "title": "LOLA -- An Open-Source Massively Multilingual Large Language Model",
+  "subtopic": "多语言基座/MoE",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "开源 160+ 语言稀疏 MoE 模型，讨论多语言容量与语言间共享。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "采用 MoE 架构"
+ },
+ {
+  "sid": "03-007",
+  "arxiv": "2503.00865",
+  "title": "Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers",
+  "subtopic": "多语言基座/技术报告",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "按使用人口覆盖 25 种语言的开源多语言模型，含层扩展方案。"
+ },
+ {
+  "sid": "03-008",
+  "arxiv": "2408.10441",
+  "title": "Goldfish: Monolingual Language Models for 350 Languages",
+  "subtopic": "单语小模型/语言覆盖",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为 350 种语言训练单语小模型，与大规模多语言模型对比，直接检验低资源语言下的多语言诅咒。"
+ },
+ {
+  "sid": "03-009",
+  "arxiv": "2311.09205",
+  "title": "When Is Multilinguality a Curse? Language Modeling for 250 High- and Low-Resource Languages",
+  "subtopic": "多语言诅咒/语言间干扰",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统控制实验研究 250 种语言下多语言数据对高/低资源语言建模的正负影响。"
+ },
+ {
+  "sid": "03-010",
+  "arxiv": "2401.10440",
+  "title": "Breaking the Curse of Multilinguality with Cross-lingual Expert Language Models",
+  "subtopic": "多语言诅咒/语言专家模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用按语言分支独立训练的专家模型缓解多语言容量竞争，对低资源语言适配有直接借鉴。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "语言专家模块化结构"
+ },
+ {
+  "sid": "03-011",
+  "arxiv": "2510.22037",
+  "title": "ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality",
+  "subtopic": "多语言缩放律/跨语言迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "大规模多语言缩放律与跨语言迁移矩阵研究，量化多语言诅咒。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "涉及预训练与微调配方"
+ },
+ {
+  "sid": "03-012",
+  "arxiv": "2410.12883",
+  "title": "Scaling Laws for Multilingual Language Models",
+  "subtopic": "多语言缩放律",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出按语系采样比例的多语言缩放律，为语言配比与数据效率提供依据。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "涉及预训练数据配比"
+ },
+ {
+  "sid": "03-013",
+  "arxiv": "2406.10602",
+  "title": "Multilingual Large Language Models and Curse of Multilinguality",
+  "subtopic": "综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "对多语言 LLM 与多语言诅咒问题的综述。"
+ },
+ {
+  "sid": "03-014",
+  "arxiv": "2404.04925",
+  "title": "Multilingual Large Language Model: A Survey of Resources, Taxonomy and Frontiers",
+  "subtopic": "综述",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "多语言大模型资源、分类与前沿的系统综述。"
+ },
+ {
+  "sid": "03-015",
+  "arxiv": "2405.10936",
+  "title": "A Survey on Large Language Models with Multilingualism: Recent Advances and New Frontiers",
+  "subtopic": "综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言大模型训练、推理与评测方法的综述。"
+ },
+ {
+  "sid": "03-016",
+  "arxiv": "2506.02280",
+  "title": "The State of Large Language Models for African Languages: Progress and Challenges",
+  "subtopic": "综述/非洲语言",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向非洲语言的大模型现状综述，覆盖语言、模型与数据缺口。"
+ },
+ {
+  "sid": "03-017",
+  "arxiv": "2402.10588",
+  "title": "Do Llamas Work in English? On the Latent Language of Multilingual Transformers",
+  "subtopic": "跨语言机制分析",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析英语为主模型处理非英语时的潜在“英语中枢”，解释跨语言迁移与不均衡。"
+ },
+ {
+  "sid": "03-018",
+  "arxiv": "2402.18815",
+  "title": "How do Large Language Models Handle Multilingualism?",
+  "subtopic": "跨语言机制分析",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出多语言处理分层假设并定位语言特定神经元，可用于低成本增强特定语言。"
+ },
+ {
+  "sid": "03-019",
+  "arxiv": "2402.16438",
+  "title": "Language-Specific Neurons: The Key to Multilingual Capabilities in Large Language Models",
+  "subtopic": "跨语言机制分析",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "识别语言特定神经元并通过操纵其激活控制输出语言。"
+ },
+ {
+  "sid": "03-020",
+  "arxiv": "2312.00738",
+  "title": "SeaLLMs -- Large Language Models for Southeast Asia",
+  "subtopic": "东南亚语言模型",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向东南亚语言（含泰文、高棉文、老挝文、缅文等）的扩词表+持续预训练模型案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "含词表扩展"
+ },
+ {
+  "sid": "03-021",
+  "arxiv": "2407.19672",
+  "title": "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages",
+  "subtopic": "东南亚语言模型",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "SeaLLMs 后续版本，覆盖更多东南亚语言。"
+ },
+ {
+  "sid": "03-022",
+  "arxiv": "2404.03608",
+  "title": "Sailor: Open Language Models for South-East Asia",
+  "subtopic": "东南亚语言模型",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "基于 Qwen1.5 的东南亚语言持续预训练模型，报告数据清洗与配比经验。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练配方"
+ },
+ {
+  "sid": "03-023",
+  "arxiv": "2502.12982",
+  "title": "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs",
+  "subtopic": "东南亚语言模型",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "覆盖 13 种东南亚语言的开源模型，含模型扩展与后训练配方的完整说明。"
+ },
+ {
+  "sid": "03-024",
+  "arxiv": "2504.05747",
+  "title": "SEA-LION: Southeast Asian Languages in One Network",
+  "subtopic": "东南亚语言模型",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "新加坡 AI Singapore 的东南亚语言模型报告。"
+ },
+ {
+  "sid": "03-025",
+  "arxiv": "2312.13951",
+  "title": "Typhoon: Thai Large Language Models",
+  "subtopic": "泰语模型",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "泰文（非拉丁、无空格分词）语言模型的持续预训练与词表扩展案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "含泰文词表扩展"
+ },
+ {
+  "sid": "03-026",
+  "arxiv": "2403.09362",
+  "title": "Komodo: A Linguistic Expedition into Indonesia's Regional Languages",
+  "subtopic": "印尼地方语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖印尼语及多种印尼地方语言的 7B 模型案例。"
+ },
+ {
+  "sid": "03-027",
+  "arxiv": "2404.06138",
+  "title": "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages",
+  "subtopic": "印尼地方语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向印尼语与地方语言的开源模型家族，讨论词表适配与指令数据。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "以指令微调为主"
+ },
+ {
+  "sid": "03-028",
+  "arxiv": "2408.17024",
+  "title": "InkubaLM: A small language model for low-resource African languages",
+  "subtopic": "非洲语言小模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向非洲低资源语言的小参数模型，体现资源受限场景下的模型规模取舍。"
+ },
+ {
+  "sid": "03-029",
+  "arxiv": "2504.06536",
+  "title": "Lugha-Llama: Adapting Large Language Models for African Languages",
+  "subtopic": "非洲语言适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 Llama 上对非洲语言做持续预训练并比较数据组合。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "03-030",
+  "arxiv": "2401.01053",
+  "title": "Cheetah: Natural Language Generation for 517 African Languages",
+  "subtopic": "非洲语言生成模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖 517 种非洲语言的生成模型，属极广语言覆盖案例。"
+ },
+ {
+  "sid": "03-031",
+  "arxiv": "2402.08015",
+  "title": "Walia-LLM: Enhancing Amharic-LLaMA by Integrating Task-Specific and Generative Datasets",
+  "subtopic": "阿姆哈拉语（埃塞俄比亚文字）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "埃塞俄比亚文字（Ge'ez）阿姆哈拉语的 LLaMA 适配案例。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "指令数据构建"
+ },
+ {
+  "sid": "03-032",
+  "arxiv": "2311.05845",
+  "title": "Tamil-Llama: A New Tamil Language Model Based on Llama 2",
+  "subtopic": "泰米尔语（泰米尔文字）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "泰米尔文字语言的词表扩展+LoRA 持续预训练案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "含词表扩展"
+ },
+ {
+  "sid": "03-033",
+  "arxiv": "2401.18034",
+  "title": "Paramanu: Compact and Competitive Monolingual Language Models for Low-Resource Morphologically Rich Indian Languages",
+  "subtopic": "印度语言单语小模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为多种形态丰富印度语言从零训练紧凑单语模型，含专用分词器。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "专用分词器"
+ },
+ {
+  "sid": "03-034",
+  "arxiv": "2502.09642",
+  "title": "Krutrim LLM: Multilingual Foundational Model for over a Billion People",
+  "subtopic": "印度语言基座",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向印度多语言（多种婆罗米系文字）的从零预训练基座报告。"
+ },
+ {
+  "sid": "03-035",
+  "arxiv": "2504.06011",
+  "title": "Llama-3-Nanda-10B-Chat: An Open Generative Large Language Model for Hindi",
+  "subtopic": "印地语（天城文）",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "天城文印地语的模型扩展与持续预训练案例。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "03-036",
+  "arxiv": "2407.15390",
+  "title": "ALLaM: Large Language Models for Arabic and English",
+  "subtopic": "阿拉伯语模型",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "阿拉伯文字语言的预训练与词表扩展、知识迁移案例。"
+ },
+ {
+  "sid": "03-037",
+  "arxiv": "2409.17912",
+  "title": "Atlas-Chat: Adapting Large Language Models for Low-Resource Moroccan Arabic Dialect",
+  "subtopic": "阿拉伯语方言（摩洛哥达里贾）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "低资源阿拉伯语方言（阿拉伯文/拉丁转写混用）的模型适配案例。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "涉及方言"
+ },
+ {
+  "sid": "03-038",
+  "arxiv": "2501.13944",
+  "title": "Fanar: An Arabic-Centric Multimodal Generative AI Platform",
+  "subtopic": "阿拉伯语模型",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语为中心的生成式平台技术报告，含本地化数据与评测。",
+  "reserve": true
+ },
+ {
+  "sid": "03-039",
+  "arxiv": "2401.06466",
+  "title": "PersianMind: A Cross-Lingual Persian-English Large Language Model",
+  "subtopic": "波斯语（阿拉伯字母）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "波斯语扩词表+跨语言训练案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "词表扩展"
+ },
+ {
+  "sid": "03-040",
+  "arxiv": "2403.20266",
+  "title": "Latxa: An Open Language Model and Evaluation Suite for Basque",
+  "subtopic": "巴斯克语（欧洲孤立语言）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "欧洲少数语言巴斯克语的持续预训练模型与评测套件案例。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "附带评测套件"
+ },
+ {
+  "sid": "03-041",
+  "arxiv": "2405.13010",
+  "title": "UCCIX: Irish-eXcellence Large Language Model",
+  "subtopic": "爱尔兰语（濒危欧洲语言）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "极低资源爱尔兰语的 LLM 适配案例。"
+ },
+ {
+  "sid": "03-042",
+  "arxiv": "2409.16235",
+  "title": "EuroLLM: Multilingual Language Models for Europe",
+  "subtopic": "欧洲多语言模型",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖全部欧盟官方语言等的开源多语言模型。"
+ },
+ {
+  "sid": "03-043",
+  "arxiv": "2404.01856",
+  "title": "Poro 34B and the Blessing of Multilinguality",
+  "subtopic": "芬兰语/多语言之福",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用多语言（英语、代码）数据弥补芬兰语数据不足，正面讨论“多语言之福”。"
+ },
+ {
+  "sid": "03-044",
+  "arxiv": "2502.08489",
+  "title": "Salamandra Technical Report",
+  "subtopic": "伊比利亚及欧洲语言模型",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "覆盖加泰罗尼亚语、加利西亚语、巴斯克语等的欧洲多语言模型报告。",
+  "reserve": true
+ },
+ {
+  "sid": "03-045",
+  "arxiv": "2404.04042",
+  "title": "Teaching Llama a New Language Through Cross-Lingual Knowledge Transfer",
+  "subtopic": "爱沙尼亚语适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "爱沙尼亚语的持续预训练+跨语言指令迁移案例。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "03-046",
+  "arxiv": "2404.01954",
+  "title": "HyperCLOVA X Technical Report",
+  "subtopic": "韩语模型（韩文）",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "韩文（Hangul）为主的双语/多语模型报告，涉及跨语言迁移。"
+ },
+ {
+  "sid": "03-047",
+  "arxiv": "2407.03963",
+  "title": "LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs",
+  "subtopic": "日语开放模型（汉字/假名）",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "日文（汉字+假名）开放模型的语料、分词与训练全流程案例。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "含语料建设"
+ },
+ {
+  "sid": "03-048",
+  "arxiv": "2503.01493",
+  "title": "Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting",
+  "subtopic": "哈萨克语（西里尔文字，突厥语族）",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "西里尔文字突厥语哈萨克语的适配案例。"
+ },
+ {
+  "sid": "03-049",
+  "arxiv": "2405.07745",
+  "title": "LlamaTurk: Adapting Open-Source Generative Large Language Models for Low-Resource Language",
+  "subtopic": "土耳其语（突厥语族）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较持续训练、指令微调与词表扩展用于土耳其语适配。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "含词表扩展比较"
+ },
+ {
+  "sid": "03-050",
+  "arxiv": "2412.05184",
+  "title": "QueEn: A Large Language Model for Quechua-English Translation",
+  "subtopic": "克丘亚语（美洲原住民语言）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "美洲原住民语言克丘亚语的 LLM 案例。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "面向翻译任务"
+ },
+ {
+  "sid": "03-051",
+  "arxiv": "2401.14680",
+  "title": "MaLLaM -- Malaysia Large Language Model",
+  "subtopic": "马来语模型",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "马来语从零预训练的模型案例。",
+  "reserve": true
+ },
+ {
+  "sid": "03-052",
+  "arxiv": "2312.11011",
+  "title": "VinaLLaMA: LLaMA-based Vietnamese Foundation Model",
+  "subtopic": "越南语模型",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "越南语（拉丁+声调符号）基座模型案例。",
+  "reserve": true
+ },
+ {
+  "sid": "03-053",
+  "arxiv": "2402.19167",
+  "title": "Teaching Large Language Models an Unseen Language on the Fly",
+  "subtopic": "极低资源语言/上下文学习",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以壮语为例，用词典与语法书在上下文中教模型未见语言。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "主分类已由 09 认领（09-003）；本类仅作交叉标签：以壮语为例的极低资源语言即时适配案例，与 03 的语言覆盖主题直接相关。",
+  "cross_only": true
+ },
+ {
+  "sid": "03-054",
+  "arxiv": "2406.16135",
+  "title": "Crosslingual Capabilities and Knowledge Barriers in Multilingual Large Language Models",
+  "subtopic": "跨语言迁移分析",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "揭示多语言模型跨语言知识迁移壁垒。"
+ },
+ {
+  "sid": "03-055",
+  "arxiv": "2404.07982",
+  "title": "The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments",
+  "subtopic": "语言不均衡与迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究训练语言不均衡对跨语言泛化的影响。"
+ },
+ {
+  "sid": "03-056",
+  "arxiv": "2602.02104",
+  "title": "Dicta-LM 3.0: Advancing The Frontier of Hebrew Sovereign LLMs",
+  "subtopic": "希伯来语（希伯来文字）",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "希伯来文字中等资源语言的主权模型报告。"
+ },
+ {
+  "sid": "03-057",
+  "arxiv": "2408.06273",
+  "title": "FuxiTranyu: A Multilingual Large Language Model Trained with Balanced Data",
+  "subtopic": "均衡多语言预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用均衡多语言数据从零预训练，讨论语言能力不均衡问题。"
+ },
+ {
+  "sid": "03-058",
+  "arxiv": "2509.14233",
+  "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+  "subtopic": "大规模语言覆盖基座",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖上千种语言预训练数据的完全开放模型报告。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强调数据合规"
+ },
+ {
+  "sid": "03-059",
+  "arxiv": "2412.04003",
+  "title": "Marco-LLM: Bridging Languages via Massive Multilingual Training for Cross-Lingual Enhancement",
+  "subtopic": "大规模多语言持续训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "大规模多语言持续训练以提升低资源语言与跨语言能力。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练",
+  "reserve": true
+ },
+ {
+  "sid": "03-060",
+  "arxiv": "2507.04569",
+  "title": "Nile-Chat: Egyptian Language Models for Arabic and Latin Scripts",
+  "subtopic": "埃及阿拉伯语（双文字）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "同时处理阿拉伯文与拉丁转写（Arabizi）的方言模型案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "双文字与 MoE 合并"
+ },
+ {
+  "sid": "03-061",
+  "arxiv": "2407.20743",
+  "title": "Meltemi: The first open Large Language Model for Greek",
+  "subtopic": "希腊语（希腊字母）",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "希腊字母中等资源语言的持续预训练案例。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "03-062",
+  "arxiv": "2308.16149",
+  "title": "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models",
+  "subtopic": "阿拉伯语从零预训练",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语为中心从零预训练的经典双语模型，阿拉伯文字与混合英语数据配比的基线案例。",
+  "old_reason": "阿拉伯语从零预训练的奠基性开放模型，后续 ALLaM/Fanar/Nile-Chat 等均以其为对照，用作经典补充。"
+ },
+ {
+  "sid": "03-063",
+  "arxiv": "2307.06018",
+  "title": "PolyLM: An Open Source Polyglot Large Language Model",
+  "subtopic": "多语言基座（经典）",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言课程式预训练的早期开源基座，作为后续多语言模型的对照。",
+  "old_reason": "早期开源多语言基座，提出多语言课程式数据配比，用作近三年多语言基座的历史对照。"
+ },
+ {
+  "sid": "03-064",
+  "arxiv": "2305.12182",
+  "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+  "subtopic": "大规模语言覆盖（经典）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖 511 种语言的持续预训练经典工作，是 MaLA/EMMA 系列的直接前身。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "含语料 Glot500-c",
+  "old_reason": "Glot500 是 MaLA-500/EMMA-500 的直接前身与 500+ 语言覆盖的经典基线，必须作为经典补充。"
+ },
+ {
+  "sid": "03-065",
+  "arxiv": "2211.05100",
+  "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+  "subtopic": "多语言基座（经典）",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "首个大规模开放多语言基座，覆盖多种非洲与印度语言，是多语言开放模型的起点。",
+  "old_reason": "BLOOM 是首个大规模开放多语言基座，覆盖多种非洲与印度语言，是后续多语言开放模型的共同起点。"
+ },
+ {
+  "sid": "03-066",
+  "arxiv": "2507.09205",
+  "title": "From Curated Data to Scalable Models: Continual Pre-training of Dense and MoE Large Language Models for Tibetan",
+  "subtopic": "藏语（藏文）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "藏文低资源语言的稠密与 MoE 模型持续预训练案例。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "03-067",
+  "arxiv": "2512.03976",
+  "title": "Adapting Large Language Models to Low-Resource Tibetan: A Two-Stage Continual and Supervised Fine-Tuning Study",
+  "subtopic": "藏语（藏文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "藏语两阶段（持续预训练+监督微调）适配研究。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练+SFT",
+  "reserve": true
+ },
+ {
+  "sid": "03-068",
+  "arxiv": "2510.14466",
+  "title": "Toward Robust Multilingual Adaptation of LLMs for Low-Resource Languages",
+  "subtopic": "低资源语言适配方法",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向低资源语言的多语言适配稳健性方法研究。",
+  "reserve": true
+ },
+ {
+  "sid": "03-069",
+  "arxiv": "2602.02266",
+  "title": "OpenSeal: Good, Fast, and Cheap Construction of an Open-Source Southeast Asian LLM via Parallel Data",
+  "subtopic": "东南亚语言模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "利用平行数据低成本构建东南亚语言模型。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "依赖平行数据",
+  "reserve": true
+ },
+ {
+  "sid": "03-070",
+  "arxiv": "2604.21637",
+  "title": "Multilinguality at the Edge: Developing Language Models for the Global South",
+  "subtopic": "全球南方小模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向全球南方语言与端侧场景的语言模型开发。",
+  "reserve": true
+ },
+ {
+  "sid": "03-071",
+  "arxiv": "2405.05777",
+  "title": "Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language",
+  "subtopic": "萨米语（乌拉尔语系，濒危欧洲少数语言）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "极低资源乌拉尔语系萨米语的 LLM 训练进展与前景案例。"
+ },
+ {
+  "sid": "03-072",
+  "arxiv": "2508.09115",
+  "title": "SinLlama -- A Large Language Model for Sinhala",
+  "subtopic": "僧伽罗语（僧伽罗文字）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "僧伽罗文字低资源语言的词表扩展+持续预训练案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "含词表扩展"
+ },
+ {
+  "sid": "03-073",
+  "arxiv": "2603.17220",
+  "title": "TharuChat: Bootstrapping Large Language Models for a Low-Resource Language via Synthetic Data and Human Validation",
+  "subtopic": "塔鲁语（天城文，极低资源）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用合成数据与人工核验为极低资源塔鲁语构建对话模型。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "依赖合成数据"
+ },
+ {
+  "sid": "03-074",
+  "arxiv": "2610.18420",
+  "title": "Agaram 2.5B: The First Tamil-First Language Model Trained from Scratch with Tool Calling. A Playbook for Under-Represented Languages",
+  "subtopic": "泰米尔语从零预训练",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "泰米尔语优先的从零预训练小模型与“欠代表语言建模手册”。"
+ },
+ {
+  "sid": "03-075",
+  "arxiv": "2404.09138",
+  "title": "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation",
+  "subtopic": "乌克兰语（西里尔文字）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "西里尔文字乌克兰语的开源模型适配案例。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "微调为主"
+ },
+ {
+  "sid": "03-076",
+  "arxiv": "2407.12620",
+  "title": "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences",
+  "subtopic": "美洲原住民濒危语言（巴西）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向巴西原住民濒危语言的 AI/LLM 技术与实践经验。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 04 认领（04-030）；本类仅作交叉标签：巴西原住民濒危语言的 AI/LLM 实践，是美洲原住民语言覆盖案例。"
+ },
+ {
+  "sid": "03-077",
+  "arxiv": "2504.00289",
+  "title": "Do Chinese models speak Chinese languages?",
+  "subtopic": "中国境内语言覆盖（含少数民族语言）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验中国开发的模型对中国少数民族语言与方言的覆盖程度。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "以评测为主要手段"
+ },
+ {
+  "sid": "03-078",
+  "arxiv": "2509.11570",
+  "title": "Bhaasha, Bhasa, Zaban: A Survey for Low-Resourced Languages in South Asia -- Current Stage and Challenges",
+  "subtopic": "综述/南亚低资源语言",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "南亚低资源语言（多文字）在大模型时代的现状综述。"
+ },
+ {
+  "sid": "03-079",
+  "arxiv": "2506.16399",
+  "title": "NepaliGPT: A Generative Language Model for the Nepali Language",
+  "subtopic": "尼泊尔语（天城文）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "天城文尼泊尔语生成模型案例。",
+  "reserve": true
+ },
+ {
+  "sid": "03-080",
+  "arxiv": "2403.06354",
+  "title": "Amharic LLaMA and LLaVA: Multimodal LLMs for Low Resource Languages",
+  "subtopic": "阿姆哈拉语（埃塞俄比亚文字）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用合成/翻译数据扩充阿姆哈拉语预训练并适配 LLaMA 的案例。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "依赖机器翻译数据"
+ },
+ {
+  "sid": "03-081",
+  "arxiv": "2605.04948",
+  "title": "Adapting Large Language Models to a Low-Resource Agglutinative Language: A Comparative Study of LoRA and QLoRA for Bashkir",
+  "subtopic": "巴什基尔语（西里尔文字，突厥语族）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "突厥语族巴什基尔语的参数高效适配比较。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "LoRA/QLoRA",
+  "reserve": true
+ },
+ {
+  "sid": "03-082",
+  "arxiv": "2603.21036",
+  "title": "Left Behind: Cross-Lingual Transfer as a Bridge for Low-Resource Languages in Large Language Models",
+  "subtopic": "跨语言迁移桥接",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以跨语言迁移弥补低资源语言能力缺口的研究。",
+  "reserve": true
+ },
+ {
+  "sid": "03-083",
+  "arxiv": "2507.22608",
+  "title": "Language Arithmetics: Towards Systematic Language Neuron Identification and Manipulation",
+  "subtopic": "跨语言机制/语言神经元",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "系统识别并操纵语言神经元以控制和增强目标语言输出。",
+  "reserve": true
+ },
+ {
+  "sid": "03-084",
+  "arxiv": "2404.00929",
+  "title": "A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias",
+  "subtopic": "综述",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言大模型语料、对齐与偏差的综述。",
+  "reserve": true
+ },
+ {
+  "sid": "03-085",
+  "arxiv": "2603.03508",
+  "title": "Raising Bars, Not Parameters: LilMoo Compact Language Model for Hindi",
+  "subtopic": "印地语小模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "印地语紧凑模型从零训练案例。",
+  "reserve": true
+ },
+ {
+  "sid": "03-086",
+  "arxiv": "2606.16383",
+  "title": "Surpassing Scale by Efficiency: A Compact 135M Parameter Foundational LLM Natively Adapted for the Bangla Language",
+  "subtopic": "孟加拉语小模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉文字的紧凑基座模型案例。",
+  "reserve": true
+ }
+]

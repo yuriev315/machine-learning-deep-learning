@@ -1,0 +1,1178 @@
+[
+ {
+  "sid": "07-001",
+  "arxiv": "2403.08763",
+  "title": "Simple and Scalable Strategies to Continually Pre-train Large Language Models",
+  "subtopic": "学习率重热与重放",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "系统比较学习率重热/重衰减与重放比例的持续预训练配方，并含英语到德语的强分布迁移设置；用途：为小语种持续预训练提供学习率与重放比例的基线做法。"
+ },
+ {
+  "sid": "07-002",
+  "arxiv": "2308.04014",
+  "title": "Continual Pre-Training of Large Language Models: How to (re)warm your model?",
+  "subtopic": "学习率重热",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "最早专门研究持续预训练中学习率重热对上下游的影响；用途：小语种持续预训练调度设计的参考。",
+  "old_reason": "学习率重热（re-warming）问题的奠基性实证研究，后续持续预训练配方普遍引用。"
+ },
+ {
+  "sid": "07-003",
+  "arxiv": "2404.17790",
+  "title": "Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities",
+  "subtopic": "向新语言持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "Swallow：在 Llama 2 上用日语语料持续预训练并扩展词表，分析语料规模、并行语料对日语能力的作用，是语言适配的代表案例。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "含日语词表扩展（06）"
+ },
+ {
+  "sid": "07-004",
+  "arxiv": "2401.01055",
+  "title": "LLaMA Beyond English: An Empirical Study on Language Capability Transfer",
+  "subtopic": "向新语言持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以 LLaMA 为例系统考察词表扩展、进一步预训练与指令微调对语言能力迁移的作用及所需数据量。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "同时比较指令微调数据量（08）"
+ },
+ {
+  "sid": "07-005",
+  "arxiv": "2311.05741",
+  "title": "Efficiently Adapting Pretrained Language Models To New Languages",
+  "subtopic": "向新语言持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "SambaLingo 前身：给出将英文模型适配到匈牙利语、泰语的持续预训练配方（词表扩展、数据混合比例）。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "涉及词表扩展（06）"
+ },
+ {
+  "sid": "07-006",
+  "arxiv": "2407.08699",
+  "title": "Mitigating Catastrophic Forgetting in Language Transfer via Model Merging",
+  "subtopic": "遗忘缓解与模型合并",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出 Branch-and-Merge，在语言迁移的持续训练中通过分支训练与合并缓解对原语言能力的灾难性遗忘。"
+ },
+ {
+  "sid": "07-007",
+  "arxiv": "2407.03994",
+  "title": "Unlocking the Potential of Model Merging for Low-Resource Languages",
+  "subtopic": "模型合并",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以模型合并替代持续预训练+SFT 管线，为低资源语言组合语言能力与任务能力。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "合并对象包含指令微调模型（08）"
+ },
+ {
+  "sid": "07-008",
+  "arxiv": "2409.17892",
+  "title": "EMMA-500: Enhancing Massively Multilingual Adaptation of Large Language Models",
+  "subtopic": "大规模多语持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 Llama 2 上用覆盖 500+ 语言的语料做持续预训练，重点在低资源语言覆盖与数据构成。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-009",
+  "arxiv": "2506.00469",
+  "title": "Massively Multilingual Adaptation of Large Language Models Using Bilingual Translation Data",
+  "subtopic": "双语数据持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究在大规模多语持续预训练中加入双语平行数据的作用，覆盖大量低资源语言。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "使用翻译平行数据（09）"
+ },
+ {
+  "sid": "07-010",
+  "arxiv": "2405.12413",
+  "title": "Targeted Multilingual Adaptation for Low-resource Language Families",
+  "subtopic": "语言族定向适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以乌拉尔语系为例研究面向语言族的多语持续适配，分析数据混合与高资源语言比例。"
+ },
+ {
+  "sid": "07-011",
+  "arxiv": "2311.09205",
+  "title": "When Is Multilinguality a Curse? Language Modeling for 250 High- and Low-Resource Languages",
+  "subtopic": "多语预训练数据混合",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "预训练上万个小模型，量化多语数据加入对低资源/高资源语言的增益与“多语诅咒”。",
+  "cross": [
+   "01",
+   "03"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-012",
+  "arxiv": "2408.10441",
+  "title": "Goldfish: Monolingual Language Models for 350 Languages",
+  "subtopic": "小语种从零预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为 350 种语言从零训练小型单语模型并与大型多语模型比较，是小语种从零预训练的大规模案例。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-013",
+  "arxiv": "2411.02460",
+  "title": "Code-Switching Curriculum Learning for Multilingual Transfer in LLMs",
+  "subtopic": "课程学习",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "受二语习得启发，以语码转换数据构建课程进行持续预训练，促进向韩语等语言的迁移。"
+ },
+ {
+  "sid": "07-014",
+  "arxiv": "2412.10244",
+  "title": "Efficient Continual Pre-training of LLMs for Low-resource Languages",
+  "subtopic": "低资源持续预训练效率",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向低资源印度语言，研究持续预训练的文本子集选择与词表扩展以降低成本。"
+ },
+ {
+  "sid": "07-015",
+  "arxiv": "2410.14815",
+  "title": "Adapting Multilingual LLMs to Low-Resource Languages using Continued Pre-training and Synthetic Corpus",
+  "subtopic": "持续预训练+合成语料",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "Nemotron-Mini-Hindi：在小模型上用真实与合成（翻译）印地语语料做持续预训练的案例。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "使用翻译合成语料（09）"
+ },
+ {
+  "sid": "07-016",
+  "arxiv": "2506.00288",
+  "title": "Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation",
+  "subtopic": "持续预训练中的英语数据作用",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析语言适配持续预训练中混入英语数据对困惑度与下游涌现能力的影响，并讨论课程/EMA 等缓解。"
+ },
+ {
+  "sid": "07-017",
+  "arxiv": "2509.11414",
+  "title": "Continually Adding New Languages to Multilingual Language Models",
+  "subtopic": "持续增加新语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究在已有多语模型中持续加入新语言而不损害原语言的方法。"
+ },
+ {
+  "sid": "07-018",
+  "arxiv": "2407.02118",
+  "title": "Breaking Language Barriers: Cross-Lingual Continual Pre-Training at Scale",
+  "subtopic": "跨语言持续预训练规模律",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在中文等目标语言上比较从零训练与基于英文模型持续预训练，拟合跨语言持续预训练的规模规律。"
+ },
+ {
+  "sid": "07-019",
+  "arxiv": "2601.06395",
+  "title": "AfriqueLLM: How Data Mixing and Model Architecture Impact Continued Pre-training for African Languages",
+  "subtopic": "数据混合（非洲语言）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "针对非洲语言比较数据混合与基座架构对持续预训练效果的影响。"
+ },
+ {
+  "sid": "07-020",
+  "arxiv": "2507.09205",
+  "title": "From Curated Data to Scalable Models: Continual Pre-training of Dense and MoE Large Language Models for Tibetan",
+  "subtopic": "藏语持续预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "藏语语料整理与稠密/MoE 模型的持续预训练案例。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-021",
+  "arxiv": "2405.13010",
+  "title": "UCCIX: Irish-eXcellence Large Language Model",
+  "subtopic": "爱尔兰语持续预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "极低资源的爱尔兰语持续预训练案例，含数据与评测构建。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-022",
+  "arxiv": "2412.06484",
+  "title": "Small Languages, Big Models: A Study of Continual Training on Languages of Norway",
+  "subtopic": "挪威语/萨米语持续训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在挪威语与北萨米语上系统研究持续训练配方，涉及极低资源语言。"
+ },
+ {
+  "sid": "07-023",
+  "arxiv": "2412.12956",
+  "title": "SnakModel: Lessons Learned from Training an Open Danish Large Language Model",
+  "subtopic": "丹麦语适配经验",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "训练开放丹麦语模型的经验报告，记录持续预训练与指令微调各阶段设定。"
+ },
+ {
+  "sid": "07-024",
+  "arxiv": "2412.07633",
+  "title": "ChocoLlama: Lessons Learned From Teaching Llamas Dutch",
+  "subtopic": "荷兰语适配经验",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将 Llama 系列适配荷兰语的持续预训练、LoRA 与词表方案比较及经验总结。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "采用 LoRA 持续预训练（08）"
+ },
+ {
+  "sid": "07-025",
+  "arxiv": "2403.20266",
+  "title": "Latxa: An Open Language Model and Evaluation Suite for Basque",
+  "subtopic": "巴斯克语持续预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在 Llama 2 上用巴斯克语语料持续预训练并发布评测集，是孤立语言的适配案例。",
+  "cross": [
+   "03",
+   "15"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-026",
+  "arxiv": "2311.05640",
+  "title": "FinGPT: Large Generative Models for a Small Language",
+  "subtopic": "小语种从零预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为芬兰语从零训练一系列模型并对 BLOOM 继续训练，是“小语言”预训练的系统报告。"
+ },
+ {
+  "sid": "07-027",
+  "arxiv": "2408.17024",
+  "title": "InkubaLM: A small language model for low-resource African languages",
+  "subtopic": "小模型从零预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为五种非洲语言训练 0.4B 小模型的案例，关注资源受限条件。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-028",
+  "arxiv": "2401.18034",
+  "title": "Paramanu: Compact and Competitive Monolingual Language Models for Low-Resource Morphologically Rich Indian Languages",
+  "subtopic": "小模型从零预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为多种印度语言从零训练小型单语/双语模型的经验。",
+  "cross": [
+   "03",
+   "06"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-029",
+  "arxiv": "2407.12869",
+  "title": "Bilingual Adaptation of Monolingual Foundation Models",
+  "subtopic": "双语持续预训练（阿拉伯语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将 Llama 2 适配阿拉伯语的持续预训练，讨论英语数据混合比例与词表扩展。"
+ },
+ {
+  "sid": "07-030",
+  "arxiv": "2403.01851",
+  "title": "Rethinking LLM Language Adaptation: A Case Study on Chinese Mixtral",
+  "subtopic": "语言适配（MoE）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以 Mixtral 为例检验词表扩展与持续预训练在中文适配中的必要性。"
+ },
+ {
+  "sid": "07-031",
+  "arxiv": "2404.00399",
+  "title": "Aurora-M: Open Source Continual Pre-training for Multilingual Language and Code",
+  "subtopic": "多语+代码持续预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在 StarCoderPlus 上持续预训练多语与代码数据，记录两阶段课程与红队数据。",
+  "cross": [
+   "14"
+  ],
+  "cross_reason": "兼顾代码能力（14）"
+ },
+ {
+  "sid": "07-032",
+  "arxiv": "2402.17400",
+  "title": "Investigating Continual Pretraining in Large Language Models: Insights and Implications",
+  "subtopic": "持续预训练基准",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "在多领域序列上研究持续预训练的迁移与遗忘；用途：理解语言/领域序列适配的遗忘规律。"
+ },
+ {
+  "sid": "07-033",
+  "arxiv": "2401.03129",
+  "title": "Examining Forgetting in Continual Pre-training of Aligned Large Language Models",
+  "subtopic": "对齐模型持续预训练遗忘",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究对已微调/对齐的 LLM 继续预训练时在输出格式、知识与可靠性上的遗忘（含重复生成问题）。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "涉及对齐能力遗忘（10）"
+ },
+ {
+  "sid": "07-034",
+  "arxiv": "2402.01364",
+  "title": "Continual Learning for Large Language Models: A Survey",
+  "subtopic": "持续学习综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "综述 LLM 的持续预训练、持续指令微调与持续对齐；用途：小语种增量适配的方法地图。"
+ },
+ {
+  "sid": "07-035",
+  "arxiv": "2404.16789",
+  "title": "Continual Learning of Large Language Models: A Comprehensive Survey",
+  "subtopic": "持续学习综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "全面综述 LLM 持续学习（垂直/水平持续性与遗忘）；用途：语言适配中遗忘问题的背景。",
+  "cross_only": true,
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-036",
+  "arxiv": "2407.17467",
+  "title": "CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models",
+  "subtopic": "重放/混合比例规模律",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出预测通用数据与目标数据临界混合比例的规模律；用途：小语种持续预训练中英语重放比例设定。"
+ },
+ {
+  "sid": "07-037",
+  "arxiv": "2406.14833",
+  "title": "Efficient Continual Pre-training by Mitigating the Stability Gap",
+  "subtopic": "训练稳定性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "分析持续预训练初期性能下降（稳定性缺口）并给出缓解策略；用途：小语种持续预训练的稳定性。"
+ },
+ {
+  "sid": "07-038",
+  "arxiv": "2407.07263",
+  "title": "Reuse, Don't Retrain: A Recipe for Continued Pretraining of Language Models",
+  "subtopic": "持续预训练配方",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "给出持续预训练的数据分布与学习率调度配方；用途：复用现有基座的低成本适配参考。"
+ },
+ {
+  "sid": "07-039",
+  "arxiv": "2410.12883",
+  "title": "Scaling Laws for Multilingual Language Models",
+  "subtopic": "多语数据混合规模律",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "按语系研究多语预训练中采样比例与性能的规模律，可用于确定低资源语言采样比例。",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-040",
+  "arxiv": "2510.25947",
+  "title": "Revisiting Multilingual Data Mixtures in Language Model Pretraining",
+  "subtopic": "多语数据混合",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "重新检验多语预训练数据混合（英语占比、语种数量、课程）对各语言的影响。"
+ },
+ {
+  "sid": "07-041",
+  "arxiv": "2512.10545",
+  "title": "XDoGE: Multilingual Data Reweighting to Enhance Language Inclusivity in LLMs",
+  "subtopic": "数据重加权",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将 DoGE 类数据重加权方法扩展到多语场景以提升低资源语言包容性。"
+ },
+ {
+  "sid": "07-042",
+  "arxiv": "2404.07982",
+  "title": "The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments",
+  "subtopic": "语言不均衡",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以克隆语言实验研究预训练中语言比例不均衡对跨语言泛化的影响。",
+  "cross": [
+   "01",
+   "02"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-043",
+  "arxiv": "2401.10440",
+  "title": "Breaking the Curse of Multilinguality with Cross-lingual Expert Language Models",
+  "subtopic": "分语言专家预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "X-ELM：按语言分支训练专家模型以缓解多语诅咒，并可新增语言而不遗忘。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-044",
+  "arxiv": "2408.11396",
+  "title": "MoE-LPR: Multilingual Extension of Large Language Models through Mixture-of-Experts with Language Priors Routing",
+  "subtopic": "MoE 扩展与遗忘缓解",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以 MoE 扩容加语言先验路由进行多语持续预训练，并用少量重放保持原语言。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "架构扩展（06）"
+ },
+ {
+  "sid": "07-045",
+  "arxiv": "2502.09056",
+  "title": "Adapting Language-Specific LLMs to a Reasoning Model in One Day via Model Merging -- An Open Recipe",
+  "subtopic": "模型合并（泰语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "通过合并泰语专用模型与推理模型为语言专属模型补充推理能力。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "目标为推理能力（11）"
+ },
+ {
+  "sid": "07-046",
+  "arxiv": "2410.01335",
+  "title": "Layer Swapping for Zero-Shot Cross-Lingual Transfer in Large Language Models",
+  "subtopic": "层交换合并",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "合并语言专家与数学专家的层，实现低资源语言数学推理的零样本迁移。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "数学推理（11）"
+ },
+ {
+  "sid": "07-047",
+  "arxiv": "2510.00810",
+  "title": "Family Matters: Language Transfer and Merging for Adapting Small LLMs to Faroese",
+  "subtopic": "法罗语迁移与合并",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以法罗语为例，比较借助近亲语言的迁移与模型合并来适配小模型。"
+ },
+ {
+  "sid": "07-048",
+  "arxiv": "2601.01244",
+  "title": "Racka: Efficient Hungarian LLM Adaptation on Academic Infrastructure",
+  "subtopic": "匈牙利语低成本适配",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在学术算力条件下适配匈牙利语模型，关注遗忘与效率。"
+ },
+ {
+  "sid": "07-049",
+  "arxiv": "2404.04042",
+  "title": "Teaching Llama a New Language Through Cross-Lingual Knowledge Transfer",
+  "subtopic": "爱沙尼亚语适配",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "Llammas：以持续预训练与跨语言指令微调把 Llama 2 适配到爱沙尼亚语。",
+  "cross": [
+   "03",
+   "08"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-050",
+  "arxiv": "2407.20743",
+  "title": "Meltemi: The first open Large Language Model for Greek",
+  "subtopic": "希腊语持续预训练",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "在 Mistral 上用希腊语语料持续预训练的技术报告。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-051",
+  "arxiv": "2408.12963",
+  "title": "Open Llama2 Models for the Lithuanian Language",
+  "subtopic": "立陶宛语持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "立陶宛语持续预训练的开放模型案例。"
+ },
+ {
+  "sid": "07-052",
+  "arxiv": "2411.11171",
+  "title": "LLäMmlein: Compact and Competitive German-Only Language Models from Scratch",
+  "subtopic": "从零预训练（德语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从零训练德语专用小模型并记录训练动态，作为单语从零预训练经验参考。"
+ },
+ {
+  "sid": "07-053",
+  "arxiv": "2402.00786",
+  "title": "CroissantLLM: A Truly Bilingual French-English Language Model",
+  "subtopic": "双语从零预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从零训练 1:1 法英双语小模型，讨论语言比例与数据。"
+ },
+ {
+  "sid": "07-054",
+  "arxiv": "2404.06395",
+  "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+  "subtopic": "WSD 学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出 WSD 学习率调度便于持续训练；用途：小语种持续预训练与退火阶段数据设计。"
+ },
+ {
+  "sid": "07-055",
+  "arxiv": "2405.18392",
+  "title": "Scaling Laws and Compute-Optimal Training Beyond Fixed Training Durations",
+  "subtopic": "恒定学习率+冷却",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究恒定学习率加冷却替代余弦调度；用途：便于小语种增量训练的调度选择。",
+  "cross_only": true,
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-056",
+  "arxiv": "2406.14670",
+  "title": "Exploring Design Choices for Building Language-Specific LLMs",
+  "subtopic": "语言专属模型设计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较基座选择、词表扩展与持续预训练对构建语言专属模型的效率与效果。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "词表扩展（06）"
+ },
+ {
+  "sid": "07-057",
+  "arxiv": "2502.11187",
+  "title": "TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking",
+  "subtopic": "孟加拉语持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉语持续预训练模型与评测案例。"
+ },
+ {
+  "sid": "07-058",
+  "arxiv": "2601.08141",
+  "title": "Qalb: Largest State-of-the-Art Urdu Large Language Model for 230M Speakers with Systematic Continued Pre-training",
+  "subtopic": "乌尔都语持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "乌尔都语系统性持续预训练案例。"
+ },
+ {
+  "sid": "07-059",
+  "arxiv": "2508.09115",
+  "title": "SinLlama -- A Large Language Model for Sinhala",
+  "subtopic": "僧伽罗语持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "僧伽罗语词表扩展与持续预训练案例。",
+  "cross": [
+   "03",
+   "06"
+  ],
+  "cross_reason": "主分类已由 03 类认领（03-072）；本类仅作交叉标签：方法为词表扩展+持续预训练（07）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-060",
+  "arxiv": "2601.10804",
+  "title": "BYOL: Bring Your Own Language Into LLMs",
+  "subtopic": "新语言接入框架",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出将新语言接入现有 LLM 的流程（数据、持续预训练、合并等）。"
+ },
+ {
+  "sid": "07-061",
+  "arxiv": "2505.07796",
+  "title": "Learning Dynamics in Continual Pre-Training for Large Language Models",
+  "subtopic": "持续预训练动态",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "刻画持续预训练损失曲线随学习率与分布偏移的规律；用途：预测语言适配训练过程。"
+ },
+ {
+  "sid": "07-062",
+  "arxiv": "2508.01908",
+  "title": "Revisiting Replay and Gradient Alignment for Continual Pre-Training of Large Language Models",
+  "subtopic": "重放与梯度对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "在多语言序列持续预训练中比较重放与梯度对齐；用途：小语种增量训练的遗忘缓解。"
+ },
+ {
+  "sid": "07-063",
+  "arxiv": "2304.09151",
+  "title": "UniMax: Fairer and More Effective Language Sampling for Large-Scale Multilingual Pretraining",
+  "subtopic": "语言采样",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出 UniMax 语言采样，限制低资源语言重复轮数，是多语预训练采样的常用基线。",
+  "old_reason": "多语预训练语言采样比例的经典方法，后续数据混合研究的标准对照。"
+ },
+ {
+  "sid": "07-064",
+  "arxiv": "2310.04799",
+  "title": "Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages",
+  "subtopic": "任务向量合并",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在新语言持续预训练后加回 chat 向量以恢复指令遵循与对齐，是合并式适配的早期代表。",
+  "old_reason": "首次公开于 2023-10-07（略早于窗口），是“持续预训练+权重算术”适配路线的常引起点。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "恢复指令能力（08）"
+ },
+ {
+  "sid": "07-065",
+  "arxiv": "2404.05829",
+  "title": "SambaLingo: Teaching Large Language Models New Languages",
+  "subtopic": "向新语言持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统研究把 Llama 2 适配到 9 种语言的词表扩展、持续预训练与对齐配方，是语言适配的系统性实证。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "词表扩展与嵌入初始化（06）"
+ },
+ {
+  "sid": "07-066",
+  "arxiv": "2412.11704",
+  "title": "Adapting Chat Language Models Using Only Target Unlabeled Language Data",
+  "subtopic": "聊天模型的语言适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "只用目标语言无标注文本适配聊天模型，研究持续预训练后恢复对话能力（如合并）的方法。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "保持指令/对话能力（08）"
+ },
+ {
+  "sid": "07-067",
+  "arxiv": "2402.09759",
+  "title": "Efficient Language Adaptive Pre-training: Extending State-of-the-Art Large Language Models for Polish",
+  "subtopic": "波兰语适配预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以少量波兰语数据对 Mistral 做语言适配预训练的案例。"
+ },
+ {
+  "sid": "07-068",
+  "arxiv": "2412.04277",
+  "title": "Arabic Stable LM: Adapting Stable LM 2 1.6B to Arabic",
+  "subtopic": "阿拉伯语小模型持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "对 1.6B 小模型做阿拉伯语持续预训练与指令微调的案例。"
+ },
+ {
+  "sid": "07-069",
+  "arxiv": "2505.18356",
+  "title": "The Unreasonable Effectiveness of Model Merging for Cross-Lingual Transfer in LLMs",
+  "subtopic": "模型合并跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较模块化合并/分层冻结等策略把语言能力与任务能力组合到低资源语言。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "数学推理任务（11）"
+ },
+ {
+  "sid": "07-070",
+  "arxiv": "2212.09535",
+  "title": "BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting",
+  "subtopic": "新增语言支持",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较持续预训练、MAD-X 与 IA3 等方法为 BLOOM 新增语言，量化数据量需求。",
+  "old_reason": "首个系统比较“为已有多语 LLM 新增语言”策略的研究，是语言适配方法比较的经典起点。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "含适配器类 PEFT（08）"
+ },
+ {
+  "sid": "07-071",
+  "arxiv": "2608.05510",
+  "title": "Different Perturbations, Different Mechanisms: Understanding Continued Pre-training for Zero-Shot Dialect Robustness",
+  "subtopic": "方言鲁棒性持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析不同扰动持续预训练对方言零样本鲁棒性的机制。",
+  "reserve": true
+ },
+ {
+  "sid": "07-072",
+  "arxiv": "2605.29714",
+  "title": "Leveraging Routing Dynamics in Mixture-of-Experts Models for Efficient Language Adaptation",
+  "subtopic": "MoE 语言适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "利用 MoE 路由动态选择性更新专家以高效适配新语言。",
+  "reserve": true
+ },
+ {
+  "sid": "07-073",
+  "arxiv": "2602.02266",
+  "title": "OpenSeal: Good, Fast, and Cheap Construction of an Open-Source Southeast Asian LLM via Parallel Data",
+  "subtopic": "平行数据持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以平行数据低成本构建东南亚语言模型。",
+  "reserve": true
+ },
+ {
+  "sid": "07-074",
+  "arxiv": "2606.06738",
+  "title": "Modular Monolingual Adaptation using Pretrained Language Models",
+  "subtopic": "模块化单语适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "模块化地把预训练模型适配到单一低资源语言。",
+  "reserve": true
+ },
+ {
+  "sid": "07-075",
+  "arxiv": "2608.30092",
+  "title": "Arkios: An Open Bilingual English-Nepali Language Model Trained From Scratch, with a Devanagari-Aware Tokenizer",
+  "subtopic": "尼泊尔语从零预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "英-尼泊尔双语模型从零训练案例。",
+  "reserve": true
+ },
+ {
+  "sid": "07-076",
+  "arxiv": "2411.07854",
+  "title": "Tucano: Advancing Neural Text Generation for Portuguese",
+  "subtopic": "葡萄牙语从零预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "为葡萄牙语从零训练系列小模型及语料。",
+  "reserve": true
+ },
+ {
+  "sid": "07-077",
+  "arxiv": "2403.15484",
+  "title": "RakutenAI-7B: Extending Large Language Models for Japanese",
+  "subtopic": "日语持续预训练",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "日语扩词表+持续预训练技术报告。",
+  "reserve": true,
+  "team": "Rakuten Group"
+ },
+ {
+  "sid": "07-078",
+  "arxiv": "2404.03608",
+  "title": "Sailor: Open Language Models for South-East Asia",
+  "subtopic": "东南亚语言持续预训练",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "基于 Qwen1.5 的东南亚语言持续预训练，报告数据去重、混合比例调优等经验。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-079",
+  "arxiv": "2403.15470",
+  "title": "Vi-Mistral-X: Building a Vietnamese Language Model with Advanced Continual Pre-training",
+  "subtopic": "越南语持续预训练",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "越南语持续预训练案例。",
+  "reserve": true
+ },
+ {
+  "sid": "07-080",
+  "arxiv": "2405.13929",
+  "title": "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian",
+  "subtopic": "俄语适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "俄语词表适配、持续预训练与指令微调案例。",
+  "reserve": true
+ },
+ {
+  "sid": "07-081",
+  "arxiv": "2408.11294",
+  "title": "RedWhale: An Adapted Korean LLM Through Efficient Continual Pretraining",
+  "subtopic": "韩语高效持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "韩语高效持续预训练案例。",
+  "reserve": true
+ },
+ {
+  "sid": "07-082",
+  "arxiv": "2407.18743",
+  "title": "Towards Effective and Efficient Continual Pre-training of Large Language Models",
+  "subtopic": "持续预训练配方（中文）",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "Llama-3-SynE：对 Llama 3 做中文与科学数据持续预训练，研究数据混合与课程。",
+  "reserve": true
+ },
+ {
+  "sid": "07-083",
+  "arxiv": "2406.01375",
+  "title": "D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models",
+  "subtopic": "领域持续预训练规模律",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "领域持续预训练混合比例规模律；用途：领域/语言混合比例估计。",
+  "reserve": true
+ },
+ {
+  "sid": "07-084",
+  "arxiv": "2501.13453",
+  "title": "Spurious Forgetting in Continual Learning of Language Models",
+  "subtopic": "伪遗忘",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "区分真实遗忘与任务对齐丢失；用途：评估语言适配后遗忘。",
+  "cross_only": true,
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-085",
+  "arxiv": "2503.05029",
+  "title": "Continual Pre-training of MoEs: How robust is your router?",
+  "subtopic": "MoE 持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究 MoE 在持续预训练中的路由稳定性与遗忘；用途：MoE 基座的语言适配。",
+  "reserve": true
+ },
+ {
+  "sid": "07-086",
+  "arxiv": "2404.01856",
+  "title": "Poro 34B and the Blessing of Multilinguality",
+  "subtopic": "芬兰语多语预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "芬兰语-英语-代码混合预训练，讨论多语对小语种的增益。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-087",
+  "arxiv": "2407.07080",
+  "title": "Adapting LLMs to Hebrew: Unveiling DictaLM 2.0 with Enhanced Vocabulary and Instruction Capabilities",
+  "subtopic": "希伯来语适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "希伯来语词表扩展与持续预训练案例。",
+  "reserve": true
+ },
+ {
+  "sid": "07-088",
+  "arxiv": "2404.04167",
+  "title": "Chinese Tiny LLM: Pretraining a Chinese-Centric Large Language Model",
+  "subtopic": "以非英语为中心的从零预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "从零训练以中文为主的 2B 模型的经验报告。",
+  "reserve": true
+ },
+ {
+  "sid": "07-089",
+  "arxiv": "2510.22747",
+  "title": "Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study",
+  "subtopic": "方言持续预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以魁北克法语方言为例研究低资源方言的持续预训练适配。",
+  "reserve": true
+ },
+ {
+  "sid": "07-090",
+  "arxiv": "2608.30609",
+  "title": "Reading the News: Adapting Large Language Models to Swedish Journalism Through Continued Pre-Training",
+  "subtopic": "瑞典语领域持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "瑞典语新闻领域持续预训练案例，涉及重放。",
+  "reserve": true
+ },
+ {
+  "sid": "07-091",
+  "arxiv": "2603.03508",
+  "title": "Raising Bars, Not Parameters: LilMoo Compact Language Model for Hindi",
+  "subtopic": "印地语小模型从零预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "印地语紧凑模型从零训练案例。",
+  "reserve": true
+ },
+ {
+  "sid": "07-092",
+  "arxiv": "2603.20732",
+  "title": "MzansiText and MzansiLM: An Open Corpus and Decoder-Only Language Model for South African Languages",
+  "subtopic": "南非语言从零预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "南非诸语言语料与解码器模型从零训练。",
+  "reserve": true
+ },
+ {
+  "sid": "07-093",
+  "arxiv": "2606.00284",
+  "title": "Specializing Without Forgetting: Analyzing Knowledge Preservation in Multilingual Model Adaptation",
+  "subtopic": "适配中的知识保留",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析多语模型适配中的知识保留与遗忘。",
+  "reserve": true
+ },
+ {
+  "sid": "07-094",
+  "arxiv": "2504.06536",
+  "title": "Lugha-Llama: Adapting Large Language Models for African Languages",
+  "subtopic": "非洲语言持续预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "非洲语言持续预训练与英语教育数据混合的案例。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：其核心内容涉及持续预训练/语言适配（07）"
+ },
+ {
+  "sid": "07-095",
+  "arxiv": "2401.02385",
+  "title": "TinyLlama: An Open-Source Small Language Model",
+  "subtopic": "小模型从零预训练",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "1.1B 小模型开放预训练报告；用途：小语种小模型从零训练的工程参考。",
+  "reserve": true
+ },
+ {
+  "sid": "07-096",
+  "arxiv": "2510.13580",
+  "title": "Sparse Subnetwork Enhancement for Underrepresented Languages in Large Language Models",
+  "subtopic": "稀疏子网络增强",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "仅更新语言相关稀疏子网络以增强欠代表语言并减少遗忘。",
+  "reserve": true
+ },
+ {
+  "sid": "07-097",
+  "arxiv": "2608.17530",
+  "title": "When to Review: Spaced Repetition for Continual Pre-Training of Language Models",
+  "subtopic": "间隔重放",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "将间隔重复用于持续预训练的重放调度；用途：重放策略设计。",
+  "reserve": true
+ }
+]

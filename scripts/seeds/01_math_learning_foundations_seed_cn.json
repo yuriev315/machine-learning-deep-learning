@@ -1,0 +1,919 @@
+[
+ {
+  "sid": "01-001",
+  "arxiv": "2410.12883",
+  "title": "Scaling Laws for Multilingual Language Models",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出多语言预训练中按语系分配采样比例的规模规律，可直接用于小语种在混合语料中的配比估算。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（规模规律与计算最优）"
+ },
+ {
+  "sid": "01-002",
+  "arxiv": "2510.22037",
+  "title": "ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "大规模多语言规模规律研究，涉及跨语言迁移矩阵与“多语言诅咒”的量化，适合规划小语种预训练算力与语言配比。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（规模规律与计算最优）"
+ },
+ {
+  "sid": "01-003",
+  "arxiv": "2603.17945",
+  "title": "ShapleyLaw: A Game-Theoretic Approach to Multilingual Scaling Laws",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以博弈论视角刻画多语言规模规律中各语言的贡献，关注语言间迁移对配比决策的影响。"
+ },
+ {
+  "sid": "01-004",
+  "arxiv": "2409.15051",
+  "title": "Scaling Laws of Decoder-Only Models on the Multilingual Machine Translation Task",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "考察解码器模型在多语言翻译任务上的规模规律，可为小语种翻译模型的规模选择提供参照。"
+ },
+ {
+  "sid": "01-005",
+  "arxiv": "2402.04177",
+  "title": "Scaling Laws for Downstream Task Performance of Large Language Models",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究预训练数据与下游翻译任务分布对齐程度如何影响迁移后的规模规律，对小语种迁移预训练数据选择有直接意义。"
+ },
+ {
+  "sid": "01-006",
+  "arxiv": "2404.08191",
+  "title": "Measuring Cross-lingual Transfer in Bytes",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以“等效数据字节”度量跨语言迁移量，可用于估计高资源语言预训练对目标低资源语言的贡献。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 06 类认领/列入种子；本类仅作为理论基础交叉标签（规模规律与计算最优）"
+ },
+ {
+  "sid": "01-007",
+  "arxiv": "2605.12715",
+  "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究数据受限条件下混合预训练的规模规律；小语种语料稀缺、需重复与混合，此类规律可用于确定重复轮数与配比。"
+ },
+ {
+  "sid": "01-008",
+  "arxiv": "2403.16952",
+  "title": "Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "用小规模实验预测数据配比对损失的影响；可迁移到小语种与高资源语言混合比例的选择。"
+ },
+ {
+  "sid": "01-009",
+  "arxiv": "2403.08540",
+  "title": "Language models scale reliably with over-training and on downstream tasks",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "给出过度训练（小模型多数据）场景的规模规律，适合部署受限的小语种小模型训练规划。"
+ },
+ {
+  "sid": "01-010",
+  "arxiv": "2404.10102",
+  "title": "Chinchilla Scaling: A replication attempt",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "复现并修正计算最优规模规律的拟合，帮助理解规模规律估计的不确定性。"
+ },
+ {
+  "sid": "01-011",
+  "arxiv": "2406.19146",
+  "title": "Resolving Discrepancies in Compute-Optimal Scaling of Language Models",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "解释不同计算最优结论间的分歧（学习率、预热、尾部计算等），为小规模实验外推提供方法注意事项。"
+ },
+ {
+  "sid": "01-012",
+  "arxiv": "2402.17193",
+  "title": "When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究微调阶段数据量、模型规模与微调方法（全参/PEFT）的规模关系，任务含翻译，对小语种微调资源规划有参考价值。"
+ },
+ {
+  "sid": "01-013",
+  "arxiv": "2203.15556",
+  "title": "Training Compute-Optimal Large Language Models",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "计算最优（Chinchilla）规模规律的奠基论文，是理解后续多语言规模规律的前提。",
+  "old_reason": "计算最优规模规律的奠基工作，近三年多语言/数据受限规模规律均以其为基线，无可替代的新版本。"
+ },
+ {
+  "sid": "01-014",
+  "arxiv": "2305.16264",
+  "title": "Scaling Data-Constrained Language Models",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "系统研究数据受限时重复训练的收益递减规律；小语种语料不足，重复轮数决策直接依赖此类结论。",
+  "old_reason": "数据受限（重复数据）规模规律的经典工作，小语种语料稀缺场景最常引用的依据，发表于窗口前约 5 个月。"
+ },
+ {
+  "sid": "01-015",
+  "arxiv": "2404.09937",
+  "title": "Compression Represents Intelligence Linearly",
+  "subtopic": "信息论与压缩视角",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以压缩率（每字节比特）衡量模型能力并与下游表现关联；按字节而非按词元的度量可公平比较不同文字系统的语言。"
+ },
+ {
+  "sid": "01-016",
+  "arxiv": "2309.10668",
+  "title": "Language Modeling Is Compression",
+  "subtopic": "信息论与压缩视角",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统阐述语言建模与无损压缩的等价关系，是以 bits-per-byte 跨语言公平比较模型的理论基础。",
+  "old_reason": "语言建模—压缩等价视角的代表性论文（2023-09），跨语言比较常用的 bits-per-byte 评估依此展开，近三年工作多以其为理论来源。"
+ },
+ {
+  "sid": "01-017",
+  "arxiv": "2405.18392",
+  "title": "Scaling Laws and Compute-Optimal Training Beyond Fixed Training Durations",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "分析常数学习率+冷却（WSD）调度可替代余弦调度，便于小语种持续预训练中灵活延长训练与复用检查点。"
+ },
+ {
+  "sid": "01-018",
+  "arxiv": "2410.05192",
+  "title": "Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "从损失地形角度解释 WSD 学习率调度，有助于持续预训练阶段调度设计。"
+ },
+ {
+  "sid": "01-019",
+  "arxiv": "2502.15938",
+  "title": "Straight to Zero: Why Linearly Decaying the Learning Rate to Zero Works Best for LLMs",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "比较学习率衰减终点与形状，为算力受限的小语种训练选择调度提供依据。"
+ },
+ {
+  "sid": "01-020",
+  "arxiv": "2405.15682",
+  "title": "The Road Less Scheduled",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出无需预设训练长度的 Schedule-Free 优化，适合语料规模不确定、需要随时停止的小语种训练。"
+ },
+ {
+  "sid": "01-021",
+  "arxiv": "2502.16982",
+  "title": "Muon is Scalable for LLM Training",
+  "subtopic": "优化器与学习率调度",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "报告 Muon 优化器在大模型训练中的扩展做法与效率，理解新一代优化器的基础资料。"
+ },
+ {
+  "sid": "01-022",
+  "arxiv": "2407.07972",
+  "title": "Deconstructing What Makes a Good Optimizer for Language Models",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "对比 SGD、Adam、Adafactor、Lion 等在语言模型上的稳定性与超参数敏感性，帮助资源受限团队选择优化器。"
+ },
+ {
+  "sid": "01-023",
+  "arxiv": "2509.02046",
+  "title": "Fantastic Pretraining Optimizers and Where to Find Them",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "在统一调参协议下比较多种预训练优化器的实际加速，提醒小团队不要轻信未充分调参的对比结论。"
+ },
+ {
+  "sid": "01-024",
+  "arxiv": "2509.01440",
+  "title": "Benchmarking Optimizers for Large Language Model Pretraining",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "系统基准化 LLM 预训练优化器，为优化器选择提供可复现对照。",
+  "reserve": true
+ },
+ {
+  "sid": "01-025",
+  "arxiv": "2410.21676",
+  "title": "How Does Critical Batch Size Scale in Pre-training?",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究临界批大小随数据量与模型规模的变化，直接影响小语种小数据训练的批大小选择。"
+ },
+ {
+  "sid": "01-026",
+  "arxiv": "2407.05872",
+  "title": "Scaling Exponents Across Parameterizations and Optimizers",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统比较不同参数化与优化器下的学习率迁移规律，便于在小模型上调参再外推。"
+ },
+ {
+  "sid": "01-027",
+  "arxiv": "2203.03466",
+  "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "μP/μTransfer：小模型调参后零样本迁移到大模型，降低资源受限团队的调参成本。",
+  "old_reason": "μP 超参数迁移的奠基工作，近三年参数化与学习率迁移研究（如 Scaling Exponents Across Parameterizations）均以其为前提。"
+ },
+ {
+  "sid": "01-028",
+  "arxiv": "2408.13359",
+  "title": "Power Scheduler: A Batch Size and Token Number Agnostic Learning Rate Scheduler",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "提出与批大小、词元数无关的学习率调度，便于持续预训练灵活扩展。",
+  "reserve": true
+ },
+ {
+  "sid": "01-029",
+  "arxiv": "2409.19913",
+  "title": "Scaling Optimal LR Across Token Horizons",
+  "subtopic": "优化器与学习率调度",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究最优学习率随训练词元数的变化规律，用于小语种不同训练长度下的学习率设置。",
+  "reserve": true
+ },
+ {
+  "sid": "01-030",
+  "arxiv": "2311.08360",
+  "title": "The Transient Nature of Emergent In-Context Learning in Transformers",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "发现上下文学习能力在训练中可能出现后又消退，提醒在小语种持续训练中监测少样本能力。"
+ },
+ {
+  "sid": "01-031",
+  "arxiv": "2401.12973",
+  "title": "In-Context Language Learning: Architectures and Algorithms",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "以“在上下文中学习新形式语言”为对象研究 ICL 机制，与“从少量示例/语法材料学习新语言”的小语种场景相关。"
+ },
+ {
+  "sid": "01-032",
+  "arxiv": "2404.11018",
+  "title": "Many-Shot In-Context Learning",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究数百至数千示例的上下文学习，摘要中包含低资源语言翻译设置，是长上下文替代微调的参考。"
+ },
+ {
+  "sid": "01-033",
+  "arxiv": "2403.16512",
+  "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统分析低资源语言上的少样本上下文学习与跨语言上下文学习，直接面向小语种。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "涉及提示与上下文示例选择策略（推理/提示类）"
+ },
+ {
+  "sid": "01-034",
+  "arxiv": "2311.00237",
+  "title": "The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "梳理上下文学习的理论解释与实证分析，为理解小语种少样本提示的局限提供理论背景。"
+ },
+ {
+  "sid": "01-035",
+  "arxiv": "2403.15796",
+  "title": "Understanding Emergent Abilities of Language Models from the Loss Perspective",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "从预训练损失阈值解释涌现能力，有助于判断小语种模型在何种损失水平下才可能出现下游能力。"
+ },
+ {
+  "sid": "01-036",
+  "arxiv": "2407.14985",
+  "title": "Generalization v.s. Memorization: Tracing Language Models' Capabilities Back to Pretraining Data",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以预训练数据频次追溯能力来源，区分泛化与记忆；对判断小语种表现是否来自数据记忆有方法意义。"
+ },
+ {
+  "sid": "01-037",
+  "arxiv": "2404.05405",
+  "title": "Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以受控合成数据测量每参数可存储的知识比特数，理解小模型容纳多语言知识的上限。"
+ },
+ {
+  "sid": "01-038",
+  "arxiv": "2406.11813",
+  "title": "How Do Large Language Models Acquire Factual Knowledge During Pretraining?",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究预训练中事实知识的获取与遗忘动态，关系到小语种低频知识能否被学到。"
+ },
+ {
+  "sid": "01-039",
+  "arxiv": "2402.10588",
+  "title": "Do Llamas Work in English? On the Latent Language of Multilingual Transformers",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用 logit lens 分析多语言模型中间层的“潜在语言”，是理解以英语为中心模型如何处理其他语言的核心论文。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-040",
+  "arxiv": "2411.04986",
+  "title": "The Semantic Hub Hypothesis: Language Models Share Semantic Representations Across Languages and Modalities",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出跨语言/跨模态共享语义表示的“语义枢纽”假说，为跨语言迁移提供表示层解释。"
+ },
+ {
+  "sid": "01-041",
+  "arxiv": "2402.16438",
+  "title": "Language-Specific Neurons: The Key to Multilingual Capabilities in Large Language Models",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "识别语言特异神经元并验证可控输出语言，为小语种能力定位与干预提供方法。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-042",
+  "arxiv": "2402.14700",
+  "title": "Unveiling Linguistic Regions in Large Language Models",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "定位模型中与语言能力相关的核心区域，分析其被扰动后的多语言退化，对持续训练中保护通用语言能力有启发。"
+ },
+ {
+  "sid": "01-043",
+  "arxiv": "2404.02431",
+  "title": "On the Multilingual Ability of Decoder-based Pre-trained Language Models: Finding and Controlling Language-Specific Neurons",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在解码器模型中寻找并操控语言特异神经元，为多语言表示的可解释性提供实证。"
+ },
+ {
+  "sid": "01-044",
+  "arxiv": "2404.06228",
+  "title": "Understanding Cross-Lingual Alignment -- A Survey",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统综述跨语言表示对齐的定义、度量与改进方法，是跨语言迁移理论的入门综述。"
+ },
+ {
+  "sid": "01-045",
+  "arxiv": "2406.13229",
+  "title": "Probing the Emergence of Cross-lingual Alignment during LLM Training",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用训练中间检查点研究跨语言对齐的出现过程及其与零样本迁移的关系。"
+ },
+ {
+  "sid": "01-046",
+  "arxiv": "2502.14830",
+  "title": "Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在微调中对齐中间层表示以增强向低资源语言的跨语言迁移。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "方法落在任务微调阶段"
+ },
+ {
+  "sid": "01-047",
+  "arxiv": "2404.07982",
+  "title": "The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "发现语言不平衡的训练可能促进跨语言泛化，对小语种与主导语言混合训练的配比有理论意义。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-048",
+  "arxiv": "2311.09205",
+  "title": "When Is Multilinguality a Curse? Language Modeling for 250 High- and Low-Resource Languages",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 250 种语言上受控分析多语言数据何时帮助/伤害低资源语言建模，是“多语言诅咒”的关键实证。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-049",
+  "arxiv": "2502.15603",
+  "title": "Do Multilingual LLMs Think In English?",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析多语言模型在关键决策中是否经由英语表示空间，对理解非英语生成的偏差有意义。"
+ },
+ {
+  "sid": "01-050",
+  "arxiv": "2408.10811",
+  "title": "Beyond English-Centric LLMs: What Language Do Multilingual Language Models Think in?",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较英语中心与非英语中心模型的潜在语言，说明训练语料构成如何影响内部表示。"
+ },
+ {
+  "sid": "01-051",
+  "arxiv": "2503.11280",
+  "title": "High-Dimensional Interlingual Representations of Large Language Models",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究多语言模型中跨语言共享（interlingual）表示的形成与度量，涉及低资源语言对齐不足的问题。"
+ },
+ {
+  "sid": "01-052",
+  "arxiv": "2504.09378",
+  "title": "Can you map it to English? The Role of Cross-Lingual Alignment in Multilingual Performance of LLMs",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "量化跨语言对齐程度与多语言任务表现的关系，可作为诊断小语种能力不足的工具。"
+ },
+ {
+  "sid": "01-053",
+  "arxiv": "2406.16135",
+  "title": "Crosslingual Capabilities and Knowledge Barriers in Multilingual Large Language Models",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "揭示跨语言知识迁移壁垒：模型会翻译但难以跨语言使用知识，对小语种知识获取路径有警示意义。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-054",
+  "arxiv": "2601.22851",
+  "title": "When Meanings Meet: Investigating the Emergence and Quality of Shared Concept Spaces during Multilingual Language Model Training",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "跟踪多语言训练过程中共享概念空间的出现与质量，补充跨语言对齐的训练动态证据。"
+ },
+ {
+  "sid": "01-055",
+  "arxiv": "2402.18815",
+  "title": "How do Large Language Models Handle Multilingualism?",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出多语言处理的分层工作流假说并据此做语言特异微调，是多语言机制分析的常引工作。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-056",
+  "arxiv": "2405.07987",
+  "title": "The Platonic Representation Hypothesis",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "论证不同模型/模态表示趋同，为跨语言共享表示提供更一般的理论视角。",
+  "reserve": true
+ },
+ {
+  "sid": "01-057",
+  "arxiv": "2503.17456",
+  "title": "Language-specific Neurons Do Not Facilitate Cross-Lingual Transfer",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验操控语言特异神经元能否提升低资源语言的跨语言迁移，给出反面证据，平衡神经元视角的结论。"
+ },
+ {
+  "sid": "01-058",
+  "arxiv": "2603.29026",
+  "title": "On the limited utility of parallel data for learning shared multilingual representations",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "考察平行语料对学习共享多语言表示的实际作用，关系到小语种是否值得优先收集平行数据。"
+ },
+ {
+  "sid": "01-059",
+  "arxiv": "2609.00155",
+  "title": "Lingua Franca or Probing Artifact? Rethinking Latent Language in Multilingual LLMs",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "反思“潜在语言为英语”结论是否源于探测方法伪影，补充 Do Llamas Work in English 一线的方法学检验。"
+ },
+ {
+  "sid": "01-060",
+  "arxiv": "2401.05605",
+  "title": "Scaling Laws for Forgetting When Fine-Tuning Large Language Models",
+  "subtopic": "迁移学习与灾难性遗忘",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "给出微调中遗忘量与微调参数量、步数的规模关系；小语种适配时需权衡目标语言提升与原能力遗忘。"
+ },
+ {
+  "sid": "01-061",
+  "arxiv": "2501.13453",
+  "title": "Spurious Forgetting in Continual Learning of Language Models",
+  "subtopic": "迁移学习与灾难性遗忘",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "区分真实知识丢失与任务对齐丢失造成的“伪遗忘”，有助于正确诊断小语种持续训练后的能力下降。"
+ },
+ {
+  "sid": "01-062",
+  "arxiv": "2404.16789",
+  "title": "Continual Learning of Large Language Models: A Comprehensive Survey",
+  "subtopic": "迁移学习与灾难性遗忘",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统综述大模型持续学习（持续预训练、持续指令微调等）及遗忘问题，是小语种增量适配的理论背景。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练是 07 的核心主题"
+ },
+ {
+  "sid": "01-063",
+  "arxiv": "2606.24752",
+  "title": "Can Scale Save Us From Plasticity Loss in Large Language Models?",
+  "subtopic": "迁移学习与灾难性遗忘",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究大模型继续训练中的可塑性丧失；关系到在已训练模型上再学习新语言的能力上限。"
+ },
+ {
+  "sid": "01-064",
+  "arxiv": "2406.04836",
+  "title": "Revisiting Catastrophic Forgetting in Large Language Model Tuning",
+  "subtopic": "迁移学习与灾难性遗忘",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "从损失地形平坦度角度分析微调遗忘并提出缓解方法。"
+ },
+ {
+  "sid": "01-065",
+  "arxiv": "2407.17467",
+  "title": "CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models",
+  "subtopic": "迁移学习与灾难性遗忘",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "预测持续预训练中通用数据与领域数据的临界混合比，可类比小语种数据与原分布数据的回放比例。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 07 类认领/列入种子；本类仅作为理论基础交叉标签（迁移学习与灾难性遗忘）"
+ },
+ {
+  "sid": "01-066",
+  "arxiv": "2311.08669",
+  "title": "On the Calibration of Multilingual Question Answering LLMs",
+  "subtopic": "不确定性与校准",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统评估多语言问答模型在不同语言（含低资源）上的校准，并比较改进校准的方法。"
+ },
+ {
+  "sid": "01-067",
+  "arxiv": "2311.08298",
+  "title": "A Survey of Confidence Estimation and Calibration in Large Language Models",
+  "subtopic": "不确定性与校准",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "综述大模型置信度估计与校准方法，是评价小语种输出可靠性的方法基础。"
+ },
+ {
+  "sid": "01-068",
+  "arxiv": "2412.05563",
+  "title": "A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions",
+  "subtopic": "不确定性与校准",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统梳理大模型不确定性量化方法与开放问题，便于在小语种场景中设计拒答或人工复核机制。"
+ },
+ {
+  "sid": "01-069",
+  "arxiv": "2608.17088",
+  "title": "There is No Theoretical Curse of Multilinguality For Embedding Space Structure",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从理论上分析多语言嵌入空间结构是否必然受“多语言诅咒”影响，补充 250 语言实证工作的理论面。"
+ },
+ {
+  "sid": "01-070",
+  "arxiv": "2406.10602",
+  "title": "Multilingual Large Language Models and Curse of Multilinguality",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "概述多语言大模型的架构、训练目标与“多语言诅咒”现象及缓解思路。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 03 类认领/列入种子；本类仅作为理论基础交叉标签（表示几何与跨语言对齐）"
+ },
+ {
+  "sid": "01-071",
+  "arxiv": "2601.01362",
+  "title": "Investigating the Multilingual Calibration Effects of Language Model Instruction-Tuning",
+  "subtopic": "不确定性与校准",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究指令微调对多语言（含低资源语言）校准的影响，关系到小语种微调后置信度是否可信。"
+ },
+ {
+  "sid": "01-072",
+  "arxiv": "2510.03136",
+  "title": "Beyond the Final Layer: Intermediate Representations for Better Multilingual Calibration in Large Language Models",
+  "subtopic": "不确定性与校准",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "发现非英语语言校准更差并利用中间层表示改进多语言校准。"
+ },
+ {
+  "sid": "01-073",
+  "arxiv": "2507.06306",
+  "title": "Humans overrely on overconfident language models, across languages",
+  "subtopic": "不确定性与校准",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "跨语言考察模型过度自信表达与用户过度依赖，关系到小语种助手的置信度表达设计。",
+  "reserve": true
+ },
+ {
+  "sid": "01-074",
+  "arxiv": "2407.01082",
+  "title": "Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs",
+  "subtopic": "采样与解码的概率基础",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出随模型置信度动态截断的 min-p 采样，理解截断采样的概率基础；小语种分布更平坦时截断策略影响更大。"
+ },
+ {
+  "sid": "01-075",
+  "arxiv": "2402.06925",
+  "title": "A Thorough Examination of Decoding Methods in the Era of LLMs",
+  "subtopic": "采样与解码的概率基础",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统比较多种解码方法在不同任务与模型上的表现与超参数敏感性。"
+ },
+ {
+  "sid": "01-076",
+  "arxiv": "2411.03524",
+  "title": "Mitigating Metric Bias in Minimum Bayes Risk Decoding",
+  "subtopic": "采样与解码的概率基础",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "分析以神经指标为效用的 MBR 解码会“迎合指标”的偏差并提出缓解；MBR 常用于机器翻译（含低资源语言）输出选择。"
+ },
+ {
+  "sid": "01-077",
+  "arxiv": "2406.20052",
+  "title": "Understanding and Mitigating Language Confusion in LLMs",
+  "subtopic": "采样与解码的概率基础",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究模型未按用户语言输出的“语言混淆”现象并分析解码/采样层面的缓解，与小语种生成直接相关。",
+  "reserve": true
+ },
+ {
+  "sid": "01-078",
+  "arxiv": "2506.13681",
+  "title": "Min-p, Max Exaggeration: A Critical Analysis of Min-p Sampling in Language Models",
+  "subtopic": "采样与解码的概率基础",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "对 min-p 采样的证据进行批判性复核，提醒解码方法结论需独立复现。",
+  "reserve": true
+ },
+ {
+  "sid": "01-079",
+  "arxiv": "2405.14535",
+  "title": "Exploring Alignment in Shared Cross-lingual Spaces",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以聚类与概念层面度量多语言模型潜在空间中的跨语言对齐与重叠。"
+ },
+ {
+  "sid": "01-080",
+  "arxiv": "2509.17030",
+  "title": "The Transfer Neurons Hypothesis: An Underlying Mechanism for Language Latent Space Transitions in Multilingual LLMs",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出负责在语言特异空间与共享语义空间之间转换的“迁移神经元”假说，补充潜在语言研究的机制解释。"
+ },
+ {
+  "sid": "01-081",
+  "arxiv": "2507.22608",
+  "title": "Language Arithmetics: Towards Systematic Language Neuron Identification and Manipulation",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统识别多语言模型中的语言神经元并通过“语言算术”操控输出语言，覆盖多种语言。"
+ },
+ {
+  "sid": "01-082",
+  "arxiv": "2508.17078",
+  "title": "Linguistic Neuron Overlap Patterns to Facilitate Cross-lingual Transfer on Low-resource Languages",
+  "subtopic": "表示几何与跨语言对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用语言神经元重叠模式促进向低资源语言的跨语言迁移。"
+ },
+ {
+  "sid": "01-083",
+  "arxiv": "2510.25947",
+  "title": "Revisiting Multilingual Data Mixtures in Language Model Pretraining",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "重新检验多语言预训练数据配比与“多语言诅咒”的关系，补充规模规律之外的配比实证。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 07 类认领/列入种子；本类仅作为理论基础交叉标签（规模规律与计算最优）",
+  "cross_only": true
+ },
+ {
+  "sid": "01-084",
+  "arxiv": "2402.14735",
+  "title": "How Transformers Learn Causal Structure with Gradient Descent",
+  "subtopic": "上下文学习与泛化理论",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "从理论上分析 Transformer 如何经梯度下降学到上下文中的因果结构（诱导头机制），是 ICL 理论的代表。",
+  "reserve": true
+ },
+ {
+  "sid": "01-085",
+  "arxiv": "2509.19371",
+  "title": "How to inject knowledge efficiently? Knowledge Infusion Scaling Law for Pre-training Large Language Models",
+  "subtopic": "规模规律与计算最优",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究预训练中领域知识注入量与遗忘的规模关系，可类比小语种知识注入的配比。",
+  "reserve": true
+ },
+ {
+  "sid": "01-086",
+  "arxiv": "2406.15948",
+  "title": "Teaching LLMs to Abstain across Languages via Multilingual Feedback",
+  "subtopic": "不确定性与校准",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究多语言（含低资源语言）场景下让模型在知识不足时拒答的方法。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "主分类已由 10 类认领/列入种子；本类仅作为理论基础交叉标签（不确定性与校准）",
+  "cross_only": true
+ }
+]

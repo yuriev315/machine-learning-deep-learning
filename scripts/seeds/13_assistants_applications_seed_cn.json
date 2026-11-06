@@ -1,0 +1,648 @@
+[
+ {
+  "sid": "13-001",
+  "arxiv": "2409.10913",
+  "title": "ASHABot: An LLM-Powered Chatbot to Support the Informational Needs of Community Health Workers",
+  "subtopic": "医疗：社区卫生工作者助手（印度）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向印度社区卫生工作者的 WhatsApp 聊天机器人实地部署与使用分析，真实用户、本地语言场景。"
+ },
+ {
+  "sid": "13-002",
+  "arxiv": "2512.10780",
+  "title": "Script Gap: Evaluating LLM Triage on Indian Languages in Native vs Romanized Scripts in a Real World Setting",
+  "subtopic": "医疗分诊：本地文字 vs 罗马化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在真实场景数据上比较印度语言原生文字与罗马化输入下的 LLM 分诊表现，切中低资源语言用户真实书写习惯。"
+ },
+ {
+  "sid": "13-003",
+  "arxiv": "2510.27401",
+  "title": "\"Koyi Sawaal Nahi Hai\": Reimagining Maternal Health Chatbots for Collective, Culturally Grounded Care",
+  "subtopic": "医疗：孕产妇健康聊天机器人设计（南亚）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "南亚孕产妇健康聊天机器人的文化扎根设计研究，涉及本地语言与集体照护情境。"
+ },
+ {
+  "sid": "13-004",
+  "arxiv": "2609.22110",
+  "title": "Evaluating Fine-Tuned and Base Language Models in Maternal and Vaccination Healthcare for African Settings",
+  "subtopic": "医疗：非洲孕产与疫苗问答",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较微调与基座模型在非洲语境孕产与疫苗健康问答中的表现。"
+ },
+ {
+  "sid": "13-005",
+  "arxiv": "2610.11586",
+  "title": "Measuring Cultural Alignment Beyond the Average: A Framework for Evaluating Maternal-Health LLM Interactions in Indian Contexts",
+  "subtopic": "医疗：印度孕产健康交互评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "以 102 名北印度孕产妇问卷校准十个 LLM 的文化对齐；问卷以英语施测，记为通用支撑（文化本地化评估方法）。"
+ },
+ {
+  "sid": "13-006",
+  "arxiv": "2512.12240",
+  "title": "System X: A Mobile Voice-Based AI System for EMR Generation and Clinical Decision Support in Low-Resource Maternal Healthcare",
+  "subtopic": "医疗：语音 AI 系统（低资源孕产医疗）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向低资源孕产医疗场景的移动语音 AI 系统，含病历生成与临床决策支持，语音+文本实地案例。"
+ },
+ {
+  "sid": "13-007",
+  "arxiv": "2603.13168",
+  "title": "Developing and evaluating a chatbot to support maternal health care",
+  "subtopic": "医疗：孕产健康聊天机器人开发评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "印度孕产健康电话聊天机器人，处理短小、语码混用的用户提问并做区域化扎根与安全分流。"
+ },
+ {
+  "sid": "13-008",
+  "arxiv": "2609.09356",
+  "title": "Auditable Emergency Triage for Maternal and Newborn Care in India",
+  "subtopic": "医疗：印度孕产新生儿急诊分诊",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "印度孕产与新生儿急诊分诊的可审计 LLM 系统。"
+ },
+ {
+  "sid": "13-009",
+  "arxiv": "2609.17710",
+  "title": "\"We Are Tired of Explaining\": Communication Practice and AI Roleplay Training for Community Health Workers in Rural India",
+  "subtopic": "医疗：卫生工作者 AI 角色扮演培训",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "印度农村社区卫生工作者的 AI 角色扮演沟通培训，真实用户研究。"
+ },
+ {
+  "sid": "13-010",
+  "arxiv": "2404.08705",
+  "title": "Introducing L2M3, A Multilingual Medical Large Language Model to Advance Health Equity in Low-Resource Regions",
+  "subtopic": "医疗：低资源地区多语言医疗模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向低资源地区社区卫生工作者的多语言医疗 LLM 方案。"
+ },
+ {
+  "sid": "13-011",
+  "arxiv": "2410.12868",
+  "title": "IMAS: A Comprehensive Agentic Approach to Rural Healthcare Delivery",
+  "subtopic": "医疗：农村医疗智能体",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向农村医疗服务的多智能体系统，含多语言交互（待核实）。"
+ },
+ {
+  "sid": "13-012",
+  "arxiv": "2505.18331",
+  "title": "PerMedCQA: Benchmarking Large Language Models on Medical Consumer Question Answering in Persian Language",
+  "subtopic": "医疗：波斯语消费者医疗问答",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "来自真实用户提问的波斯语医疗问答基准。"
+ },
+ {
+  "sid": "13-013",
+  "arxiv": "2608.27110",
+  "title": "DocTalkBN: A Novel Dataset of Expert Telemedicine Conversations in Bengali",
+  "subtopic": "医疗：孟加拉语远程问诊多轮对话",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "孟加拉语专家远程问诊多轮对话数据，直接支撑本地语言医疗对话助手。"
+ },
+ {
+  "sid": "13-014",
+  "arxiv": "2602.05374",
+  "title": "Cross-Lingual Empirical Evaluation of Large Language Models for Arabic Medical Tasks",
+  "subtopic": "医疗：阿拉伯语医疗任务跨语言评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "跨语言评估 LLM 在阿拉伯语医疗任务上的差距。"
+ },
+ {
+  "sid": "13-015",
+  "arxiv": "2601.08267",
+  "title": "Med-CoReasoner: Reducing Language Disparities in Medical Reasoning via Language-Informed Co-Reasoning",
+  "subtopic": "医疗：减少医疗推理语言差距",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "针对医疗推理中的语言差距提出协同推理方法，涉及低资源语言。"
+ },
+ {
+  "sid": "13-016",
+  "arxiv": "2604.20531",
+  "title": "Effects of Cross-lingual Evidence in Multilingual Medical Question Answering",
+  "subtopic": "医疗：跨语言证据对医疗问答",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析跨语言证据对多语言医疗问答的影响。"
+ },
+ {
+  "sid": "13-017",
+  "arxiv": "2610.31256",
+  "title": "IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark",
+  "subtopic": "医疗：印尼语临床营养问答",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "印尼语临床营养问答基准。"
+ },
+ {
+  "sid": "13-018",
+  "arxiv": "2411.15640",
+  "title": "AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset",
+  "subtopic": "医疗：泛非医疗问答基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "由非洲多国医疗从业者构建的医疗问答基准，体现地区知识差距；问答主体为英语。"
+ },
+ {
+  "sid": "13-019",
+  "arxiv": "2403.03640",
+  "title": "Apollo: A Lightweight Multilingual Medical LLM towards Democratizing Medical AI to 6B People",
+  "subtopic": "医疗：多语言医疗模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "多语言医疗 LLM 与评测，提供领域助手构建流程参考（覆盖主要大语种）。"
+ },
+ {
+  "sid": "13-020",
+  "arxiv": "2402.13963",
+  "title": "Towards Building Multilingual Language Model for Medicine",
+  "subtopic": "医疗：多语言医疗语料与模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "构建多语言医疗语料、模型与基准（MMedLM），方法可迁移至小语种医疗助手。"
+ },
+ {
+  "sid": "13-021",
+  "arxiv": "2409.08916",
+  "title": "Farmer.Chat: Scaling AI-Powered Agricultural Services for Smallholder Farmers",
+  "subtopic": "农业：小农户助手规模化部署",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "多国小农户多语言农业助手的规模化部署与使用分析，真实用户。"
+ },
+ {
+  "sid": "13-022",
+  "arxiv": "2510.18355",
+  "title": "KrishokBondhu: A Retrieval-Augmented Voice-Based Agricultural Advisory Call Center for Bengali Farmers",
+  "subtopic": "农业：孟加拉语语音呼叫中心",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向孟加拉农民的检索增强语音农业咨询呼叫中心，语音+文本助手实例。"
+ },
+ {
+  "sid": "13-023",
+  "arxiv": "2507.16974",
+  "title": "Leveraging Synthetic Data for Question Answering with Multilingual LLMs in the Agricultural Domain",
+  "subtopic": "农业：合成数据多语言农业问答",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用合成数据提升多语言 LLM 在农业问答上的表现（印度语言）。"
+ },
+ {
+  "sid": "13-024",
+  "arxiv": "2606.29243",
+  "title": "KrishokChat: A Provenance-Traceable Multi-Task Bengali Agricultural Benchmark with Safety-Critical Chemical Advisory",
+  "subtopic": "农业：孟加拉语农业基准与安全",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "孟加拉语农业多任务基准，包含农药建议等安全关键项。"
+ },
+ {
+  "sid": "13-025",
+  "arxiv": "2606.25647",
+  "title": "Smallholder Farmers on Remote Islands Receiving Retrieval-Grounded Multilingual LLM Assistance and Agronomic Advice",
+  "subtopic": "农业：偏远岛屿多语言农技助手",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "希腊偏远岛屿小农户（希腊语为主、含地区方言）的检索增强双语农技助手部署案例。"
+ },
+ {
+  "sid": "13-026",
+  "arxiv": "2603.03294",
+  "title": "Fine-Tuning and Evaluating Conversational AI for Agricultural Advisory",
+  "subtopic": "农业：对话式农业咨询微调评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "面向小农户的农业咨询对话模型微调与评估（事实检索与对话表达解耦），语言未在摘要中说明。"
+ },
+ {
+  "sid": "13-027",
+  "arxiv": "2607.13934",
+  "title": "Pezego-HITL: A policy-grounded large language model architecture for agricultural extension in Ghana",
+  "subtopic": "农业：加纳农技推广",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "加纳农业推广的政策扎根 LLM 架构与人在回路评估，语言维度待核实。"
+ },
+ {
+  "sid": "13-028",
+  "arxiv": "2407.04721",
+  "title": "AgriLLM: Harnessing Transformers for Farmer Queries",
+  "subtopic": "农业：农民真实提问",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "基于印度泰米尔纳德邦约 400 万条农民热线真实查询构建问答模型；查询语言以摘要未说明为准，记为通用支撑（真实农民需求数据范式）。"
+ },
+ {
+  "sid": "13-029",
+  "arxiv": "2411.02850",
+  "title": "WASHtsApp -- A RAG-powered WhatsApp Chatbot for supporting rural African clean water access, sanitation and hygiene",
+  "subtopic": "公共卫生：非洲农村 WhatsApp 助手",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "非洲农村饮水卫生 WhatsApp RAG 聊天机器人；摘要称本地语言支持尚属后续工作，记为通用支撑（低带宽渠道+专家/社区验证流程）。"
+ },
+ {
+  "sid": "13-030",
+  "arxiv": "2404.01991",
+  "title": "Kallaama: A Transcribed Speech Dataset about Agriculture in the Three Most Widely Spoken Languages in Senegal",
+  "subtopic": "农业：塞内加尔农业语音数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "沃洛夫语等塞内加尔三种语言的农业领域转写语音数据，支撑语音农业助手。"
+ },
+ {
+  "sid": "13-031",
+  "arxiv": "2402.01720",
+  "title": "Deep Learning Based Amharic Chatbot for FAQs in Universities",
+  "subtopic": "教育/公共服务：阿姆哈拉语 FAQ 机器人",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "大学场景阿姆哈拉语常见问题聊天机器人。"
+ },
+ {
+  "sid": "13-032",
+  "arxiv": "2607.17270",
+  "title": "Safety That Does Not Transfer: Cross-Lingual Clinical Correctness Drift in Deployable Medical Language Models",
+  "subtopic": "医疗：跨语言临床正确性漂移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "揭示可部署医疗模型在非洲语言等跨语言场景下临床正确性与安全性下降。"
+ },
+ {
+  "sid": "13-033",
+  "arxiv": "2610.30412",
+  "title": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
+  "subtopic": "医疗：分诊聊天机器人用户模拟评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以多轮、多语言用户行为模拟评估中低收入国家医疗分诊聊天机器人的真实失败模式。"
+ },
+ {
+  "sid": "13-034",
+  "arxiv": "2508.16357",
+  "title": "MizanQA: Benchmarking Large Language Models on Moroccan Legal Question Answering",
+  "subtopic": "法律：摩洛哥法律问答",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "摩洛哥法律问答基准，涉及阿拉伯语与本地法律知识。"
+ },
+ {
+  "sid": "13-035",
+  "arxiv": "2507.19995",
+  "title": "VLQA: The First Comprehensive, Large, and High-Quality Vietnamese Dataset for Legal Question Answering",
+  "subtopic": "法律：越南语法律问答",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "越南语法律问答数据集。"
+ },
+ {
+  "sid": "13-036",
+  "arxiv": "2412.14771",
+  "title": "ALKAFI-LLAMA3: Fine-Tuning LLMs for Precise Legal Understanding in Palestine",
+  "subtopic": "法律：巴勒斯坦法律助手",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向巴勒斯坦法律的阿拉伯语微调模型。"
+ },
+ {
+  "sid": "13-037",
+  "arxiv": "2608.29284",
+  "title": "Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning",
+  "subtopic": "法律：乌兹别克语法律 RAG 部署",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "乌兹别克语法律检索增强系统的云端与本地部署比较，兼含部署工程。"
+ },
+ {
+  "sid": "13-038",
+  "arxiv": "2503.22283",
+  "title": "BanglAssist: A Bengali-English Generative AI Chatbot for Code-Switching and Dialect-Handling in Customer Service",
+  "subtopic": "客服：孟加拉语-英语语码混用",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "处理语码混用与方言的孟加拉语客服聊天机器人。"
+ },
+ {
+  "sid": "13-039",
+  "arxiv": "2603.23172",
+  "title": "From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service",
+  "subtopic": "客服：合成 vs 原生多语言意图",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "物流客服多语言意图分类，对比合成与原生用户数据。"
+ },
+ {
+  "sid": "13-040",
+  "arxiv": "2605.26891",
+  "title": "Telenor Nordics Customer Service self-help corpus",
+  "subtopic": "客服：北欧语言自助语料",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "芬兰语、丹麦语、挪威语、瑞典语电信客服自助文档语料，较小语种领域数据。"
+ },
+ {
+  "sid": "13-041",
+  "arxiv": "2608.07520",
+  "title": "KumbhDoot: A Scale-Ready, LLM-Bounded Architecture for Mass-Gathering Public-Service Assistants",
+  "subtopic": "政务：大型集会公共服务助手",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向大型宗教集会的公共服务助手架构（印度），关注规模与约束。"
+ },
+ {
+  "sid": "13-042",
+  "arxiv": "2402.09809",
+  "title": "Effective and Scalable Math Support: Evidence on the Impact of an AI- Tutor on Math Achievement in Ghana",
+  "subtopic": "教育：加纳 WhatsApp 数学辅导 RCT",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "加纳 WhatsApp AI 数学辅导的对照实地研究；教学语言摘要未说明，记为通用支撑（低带宽教育助手效果评估范式）。"
+ },
+ {
+  "sid": "13-043",
+  "arxiv": "2604.04139",
+  "title": "Teacher Professional Development on WhatsApp and LLMs: Early Lessons from Cameroon",
+  "subtopic": "教育：喀麦隆教师培训",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "喀麦隆教师 WhatsApp+LLM 专业发展实地研究，摘要提到英/法多语言需求，记为通用支撑（低资源地区教育助手可用性证据）。"
+ },
+ {
+  "sid": "13-044",
+  "arxiv": "2505.03163",
+  "title": "The Impact of Large Language Models on K-12 Education in Rural India: A Thematic Analysis of Student Volunteer's Perspectives",
+  "subtopic": "教育：印度农村 K-12",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "印度农村 K-12 中 LLM 采用的教师访谈研究，语言非重点，记为通用支撑（部署障碍证据）。"
+ },
+ {
+  "sid": "13-045",
+  "arxiv": "2604.20996",
+  "title": "AFRILANGTUTOR: Advancing Language Tutoring and Culture Education in Low-Resource Languages with Large Language Models",
+  "subtopic": "教育：非洲低资源语言教学",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向非洲低资源语言的语言辅导与文化教育 LLM 研究，直接对应本地语言教学。"
+ },
+ {
+  "sid": "13-046",
+  "arxiv": "2406.00039",
+  "title": "How Ready Are Generative Pre-trained Large Language Models for Explaining Bengali Grammatical Errors?",
+  "subtopic": "教育：孟加拉语语法纠错解释",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估 LLM 为孟加拉语学习者解释语法错误的能力，语言学习助手案例。"
+ },
+ {
+  "sid": "13-047",
+  "arxiv": "2501.05840",
+  "title": "Applying Think-Aloud in ICTD: A Case Study of a Chatbot Use by Teachers in Rural Côte d'Ivoire",
+  "subtopic": "教育：科特迪瓦农村教师聊天机器人",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "科特迪瓦农村教师聊天机器人出声思维可用性研究，语言待核实，记为通用支撑（跨文化可用性评估方法）。"
+ },
+ {
+  "sid": "13-048",
+  "arxiv": "2501.15247",
+  "title": "Prompting ChatGPT for Chinese Learning as L2: A CEFR and EBCL Level Study",
+  "subtopic": "教育：第二语言学习",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "LLM 作为二语学习伙伴的等级控制研究，可迁移至小语种语言学习助手。"
+ },
+ {
+  "sid": "13-049",
+  "arxiv": "2409.04987",
+  "title": "How to Align Large Language Models for Teaching English? Designing and Developing LLM based-Chatbot for Teaching English Conversation in EFL, Findings and Limitations",
+  "subtopic": "教育：外语会话教学机器人",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "外语会话教学聊天机器人的设计与局限，可迁移到本地语言教学。"
+ },
+ {
+  "sid": "13-050",
+  "arxiv": "2505.08894",
+  "title": "WaLLM -- Understanding Use and Engagement with a General-Purpose LLM on WhatsApp",
+  "subtopic": "真实用户：WhatsApp 通用助手",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "WhatsApp 通用 LLM 助手的真实使用研究；语言与地区摘要未说明，记为通用支撑（消息平台部署与参与度设计）。"
+ },
+ {
+  "sid": "13-051",
+  "arxiv": "2406.00343",
+  "title": "Beyond Metrics: Evaluating LLMs' Effectiveness in Culturally Nuanced, Low-Resource Real-World Scenarios",
+  "subtopic": "真实场景：肯尼亚 WhatsApp 多语言消息",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用真实 WhatsApp 多语言/语码混用消息评估 LLM，超越自动指标。"
+ },
+ {
+  "sid": "13-052",
+  "arxiv": "2412.11203",
+  "title": "Task-Oriented Dialog Systems for the Senegalese Wolof Language",
+  "subtopic": "任务型对话：沃洛夫语",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "沃洛夫语任务型对话系统的数据与方法。"
+ },
+ {
+  "sid": "13-053",
+  "arxiv": "2609.30692",
+  "title": "LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant",
+  "subtopic": "语音助手：离线多语言",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "离线隐私保护多语言语音助手（需核对语言）。"
+ },
+ {
+  "sid": "13-054",
+  "arxiv": "2604.06008",
+  "title": "Designing Around Stigma: Human-Centered LLMs for Menstrual Health",
+  "subtopic": "健康：污名化话题的人本设计",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "与巴基斯坦女性共同设计并部署支持罗马化乌尔都语的 WhatsApp 经期健康助手，真实用户两周部署。"
+ },
+ {
+  "sid": "13-055",
+  "arxiv": "2607.23538",
+  "title": "Guiding Language Models to Be More Empathetic: Culturally Sensitive Mental Health Advice Generation Through Human-LLM Collaboration",
+  "subtopic": "心理健康：文化敏感建议",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉语真实心理健康案例与临床心理师建议，评估并引导 LLM 生成文化敏感建议。"
+ },
+ {
+  "sid": "13-056",
+  "arxiv": "2510.25409",
+  "title": "BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains",
+  "subtopic": "专业领域：印度语言领域知识",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖农业、法律、金融、传统医学等印度领域知识的双语基准。"
+ },
+ {
+  "sid": "13-057",
+  "arxiv": "2608.20390",
+  "title": "Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations",
+  "subtopic": "部署经验：十四万次真实对话",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "检索扎根宗教知识助手的架构、部署与 14 万次真实对话经验，产品工程参考。"
+ },
+ {
+  "sid": "13-058",
+  "arxiv": "2312.11803",
+  "title": "NLP for Maternal Healthcare: Perspectives and Guiding Principles in the Age of LLMs",
+  "subtopic": "医疗：原则与视角",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "孕产医疗 NLP 的原则与利益相关方视角，可作领域助手设计准则。"
+ },
+ {
+  "sid": "13-059",
+  "arxiv": "2307.14031",
+  "title": "Multi3WOZ: A Multilingual, Multi-Domain, Multi-Parallel Dataset for Training and Evaluating Culturally Adapted Task-Oriented Dialog Systems",
+  "subtopic": "经典：文化适配多语言任务型对话",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "文化适配（非直译）的阿拉伯语/法语/土耳其语任务型对话数据。",
+  "old_reason": "2023-07 公开，略早于窗口；文化适配多语言任务型对话的代表数据集，窗口内工作常以其为对照。"
+ },
+ {
+  "sid": "13-060",
+  "arxiv": "2603.22115",
+  "title": "Designing Medical Chatbots where Accuracy and Acceptability are in Conflict: An Exploratory, Vignette-based Study in Urban India",
+  "subtopic": "医疗：准确性与可接受性冲突（印度）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "印度城市 200 名成人对医疗聊天机器人“指南一致但违背本地习惯”建议的情景研究，语言非重点，记为通用支撑（可接受性设计证据）。",
+  "reserve": true
+ },
+ {
+  "sid": "13-061",
+  "arxiv": "2511.17554",
+  "title": "Beyond the Rubric: Cultural Misalignment in LLM Benchmarks for Sexual and Reproductive Health",
+  "subtopic": "健康：基准文化错位",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "分析生殖健康 LLM 基准在全球南方语境的文化错位，可指导本地化评估。",
+  "reserve": true
+ },
+ {
+  "sid": "13-062",
+  "arxiv": "2603.16872",
+  "title": "Trust, Safety, and Accuracy: Assessing LLMs for Routine Maternity Advice",
+  "subtopic": "医疗：孕产建议评估",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "印度农村孕产常规建议场景下评估商用 LLM 的可信度与准确性（问题语言待核实）。",
+  "reserve": true
+ },
+ {
+  "sid": "13-063",
+  "arxiv": "2602.06669",
+  "title": "compar:IA: The French Government's LLM arena to collect French-language human prompts and preference data",
+  "subtopic": "政务：政府 LLM 竞技场",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "政府运营收集本国语言真实提示与偏好的平台，可借鉴到小语种政务场景。",
+  "reserve": true
+ },
+ {
+  "sid": "13-064",
+  "arxiv": "2512.06734",
+  "title": "A Patient-Doctor-NLP-System to contest inequality for less privileged",
+  "subtopic": "医疗：弱势群体医患系统",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向弱势群体的医患 NLP 系统（需核对语言）。",
+  "reserve": true
+ }
+]

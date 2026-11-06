@@ -1,0 +1,829 @@
+[
+ {
+  "sid": "12-001",
+  "arxiv": "2005.11401",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "subtopic": "RAG 方法基础",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "检索增强生成（RAG）的原始论文，是本类所有多语言 RAG 研究的方法前提。",
+  "old_reason": "2020 年 RAG 原论文，经典补充；本类多语言 RAG 研究均以其为起点。",
+  "relevance_use": "理解检索器+生成器联合框架，为小语种本地知识问答提供基础架构"
+ },
+ {
+  "sid": "12-002",
+  "arxiv": "2210.09984",
+  "title": "Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages",
+  "subtopic": "多语言检索基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "MIRACL：18 种语言、由母语者标注的检索基准，NoMIRACL 等后续工作以其为基础。",
+  "old_reason": "2022 年发布，是多语言检索与多语言 RAG 评测的事实标准，经典补充。"
+ },
+ {
+  "sid": "12-003",
+  "arxiv": "2310.11511",
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "subtopic": "自反思检索增强",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "让模型自主决定检索并自我批判、带引用生成的代表方法。",
+  "old_reason": "2023-10-17 首发（距窗口起点差 12 天），自适应检索与引用生成的经典方法。",
+  "relevance_use": "为小语种 RAG 的检索决策与引用生成提供方法参考"
+ },
+ {
+  "sid": "12-004",
+  "arxiv": "2402.05672",
+  "title": "Multilingual E5 Text Embeddings: A Technical Report",
+  "subtopic": "多语言嵌入模型",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "multilingual-E5 系列的技术报告，是多语言检索最常用的开源嵌入基线之一。"
+ },
+ {
+  "sid": "12-005",
+  "arxiv": "2402.03216",
+  "title": "BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
+  "subtopic": "多语言嵌入模型",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "BGE-M3：同时支持稠密、稀疏、多向量检索的多语言长文档嵌入，并发布 MLDR 数据。"
+ },
+ {
+  "sid": "12-006",
+  "arxiv": "2407.19669",
+  "title": "mGTE: Generalized Long-Context Text Representation and Reranking Models for Multilingual Text Retrieval",
+  "subtopic": "多语言嵌入与重排序",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "从头训练长上下文多语言编码器，并构建嵌入与重排序模型。"
+ },
+ {
+  "sid": "12-007",
+  "arxiv": "2409.10173",
+  "title": "jina-embeddings-v3: Multilingual Embeddings With Task LoRA",
+  "subtopic": "多语言嵌入模型",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以任务专用 LoRA 适配的多语言嵌入模型。"
+ },
+ {
+  "sid": "12-008",
+  "arxiv": "2412.04506",
+  "title": "Arctic-Embed 2.0: Multilingual Retrieval Without Compromise",
+  "subtopic": "多语言嵌入模型",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "讨论在加入多语言能力时不牺牲英语检索质量的嵌入训练方案。"
+ },
+ {
+  "sid": "12-009",
+  "arxiv": "2503.07891",
+  "title": "Gemini Embedding: Generalizable Embeddings from Gemini",
+  "subtopic": "LLM 初始化嵌入",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以 Gemini 初始化的多语言嵌入模型，在 MMTEB 上报告结果。"
+ },
+ {
+  "sid": "12-010",
+  "arxiv": "2506.05176",
+  "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+  "subtopic": "LLM 嵌入与重排序",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "基于基础模型的多语言嵌入与重排序模型系列，含合成数据训练流程。"
+ },
+ {
+  "sid": "12-011",
+  "arxiv": "2509.20354",
+  "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+  "subtopic": "轻量多语言嵌入",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "小参数多语言嵌入模型，适合本地/端侧部署。",
+  "cross": [
+   "16"
+  ],
+  "cross_reason": "轻量化部署"
+ },
+ {
+  "sid": "12-012",
+  "arxiv": "2511.07025",
+  "title": "Llama-Embed-Nemotron-8B: A Universal Text Embedding Model for Multilingual and Cross-Lingual Tasks",
+  "subtopic": "多语言与跨语言嵌入",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向多语言与跨语言任务的通用嵌入模型，公开训练数据组成。"
+ },
+ {
+  "sid": "12-013",
+  "arxiv": "2501.00874",
+  "title": "LUSIFER: Language Universal Space Integration for Enhanced Multilingual Embeddings with Large Language Models",
+  "subtopic": "零样本多语言嵌入迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把多语言编码器与英语 LLM 嵌入器连接，无需多语言训练数据即可增强多语言嵌入。"
+ },
+ {
+  "sid": "12-014",
+  "arxiv": "2502.13595",
+  "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+  "subtopic": "多语言嵌入评测",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "覆盖 250+ 语言的大规模社区共建嵌入基准，含大量低资源语言任务。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言嵌入/检索基准"
+ },
+ {
+  "sid": "12-015",
+  "arxiv": "2401.00368",
+  "title": "Improving Text Embeddings with Large Language Models",
+  "subtopic": "LLM 合成数据训练嵌入",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "用 LLM 合成多语言检索数据训练嵌入（E5-mistral）。",
+  "relevance_use": "为缺少标注检索数据的小语种合成训练对提供方法",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "合成数据"
+ },
+ {
+  "sid": "12-016",
+  "arxiv": "2408.16672",
+  "title": "Jina-ColBERT-v2: A General-Purpose Multilingual Late Interaction Retriever",
+  "subtopic": "多语言多向量检索",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言晚交互（ColBERT 式）检索模型。"
+ },
+ {
+  "sid": "12-017",
+  "arxiv": "2402.15059",
+  "title": "ColBERT-XM: A Modular Multi-Vector Representation Model for Zero-Shot Multilingual Information Retrieval",
+  "subtopic": "模块化零样本多语言检索",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用模块化语言适配器实现只用英语训练、零样本迁移到其他语言的多向量检索。"
+ },
+ {
+  "sid": "12-018",
+  "arxiv": "2502.07972",
+  "title": "Training Sparse Mixture Of Experts Text Embedding Models",
+  "subtopic": "MoE 多语言嵌入",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以 MoE 结构训练多语言文本嵌入（Nomic Embed v2）。"
+ },
+ {
+  "sid": "12-019",
+  "arxiv": "2505.19356",
+  "title": "Optimized Text Embedding Models and Benchmarks for Amharic Passage Retrieval",
+  "subtopic": "阿姆哈拉语检索嵌入",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为阿姆哈拉语构建检索嵌入模型与基准，是低资源语言检索的具体案例。"
+ },
+ {
+  "sid": "12-020",
+  "arxiv": "2406.07424",
+  "title": "MINERS: Multilingual Language Models as Semantic Retrievers",
+  "subtopic": "多语言语义检索评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评测多语言模型作为语义检索器在低资源语言与码混场景的表现。"
+ },
+ {
+  "sid": "12-021",
+  "arxiv": "2312.16159",
+  "title": "Zero-Shot Cross-Lingual Reranking with Large Language Models for Low-Resource Languages",
+  "subtopic": "低资源语言 LLM 重排序",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究 LLM 在非洲语言跨语言检索中的零样本重排序。"
+ },
+ {
+  "sid": "12-022",
+  "arxiv": "2401.04810",
+  "title": "Translate-Distill: Learning Cross-Language Dense Retrieval by Translation and Distillation",
+  "subtopic": "翻译蒸馏跨语言检索",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用翻译与蒸馏训练跨语言稠密检索。"
+ },
+ {
+  "sid": "12-023",
+  "arxiv": "2311.05800",
+  "title": "Leveraging LLMs for Synthesizing Training Data Across Many Languages in Multilingual Dense Retrieval",
+  "subtopic": "合成多语言检索数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用 LLM 合成多语言检索训练数据（SWIM-IR），以替代人工标注。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "合成数据"
+ },
+ {
+  "sid": "12-024",
+  "arxiv": "2408.11942",
+  "title": "What are the limits of cross-lingual dense passage retrieval for low-resource languages?",
+  "subtopic": "低资源语言跨语言稠密检索",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析多语言 DPR 在极低资源语言上的局限。"
+ },
+ {
+  "sid": "12-025",
+  "arxiv": "2511.14758",
+  "title": "NeuCLIRBench: A Modern Evaluation Collection for Monolingual, Cross-Language, and Multilingual Information Retrieval",
+  "subtopic": "跨语言检索评测集",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "整合 NeuCLIR 赛道数据的单语/跨语言/多语言检索评测集。"
+ },
+ {
+  "sid": "12-026",
+  "arxiv": "2510.00908",
+  "title": "Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs",
+  "subtopic": "跨语言检索综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "综述多语言 LLM 时代的跨语言信息检索进展。"
+ },
+ {
+  "sid": "12-027",
+  "arxiv": "2605.24556",
+  "title": "The Multilingual Curse at the Retrieval Layer: Evidence from Amharic",
+  "subtopic": "低资源语言检索层诅咒",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以阿姆哈拉语为例研究多语言检索层的性能问题。"
+ },
+ {
+  "sid": "12-028",
+  "arxiv": "2312.11361",
+  "title": "\"Knowing When You Don't Know\": A Multilingual Relevance Assessment Dataset for Robust Retrieval-Augmented Generation",
+  "subtopic": "多语言 RAG 鲁棒性评测",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "NoMIRACL：评估 LLM 在检索结果不含答案时能否拒答（幻觉率与错误率）。"
+ },
+ {
+  "sid": "12-029",
+  "arxiv": "2407.01463",
+  "title": "Retrieval-augmented generation in multilingual settings",
+  "subtopic": "多语言 RAG 基线",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统构建多语言 RAG 基线并讨论检索器、生成器与提示语言的选择。"
+ },
+ {
+  "sid": "12-030",
+  "arxiv": "2410.21970",
+  "title": "Not All Languages are Equal: Insights into Multilingual Retrieval-Augmented Generation",
+  "subtopic": "多语言 RAG 评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评测 RAG 在不同语言知识源下的表现差异。"
+ },
+ {
+  "sid": "12-031",
+  "arxiv": "2502.11175",
+  "title": "Investigating Language Preference of Multilingual RAG Systems",
+  "subtopic": "多语言 RAG 语言偏好",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析多语言 RAG 中检索器与生成器对特定语言文档的偏好。"
+ },
+ {
+  "sid": "12-032",
+  "arxiv": "2410.13716",
+  "title": "MIRAGE-Bench: Automatic Multilingual Benchmark Arena for Retrieval-Augmented Generation Systems",
+  "subtopic": "多语言 RAG 评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "基于 MIRACL 构建的多语言 RAG 自动评测竞技场。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言 RAG 基准"
+ },
+ {
+  "sid": "12-033",
+  "arxiv": "2502.17163",
+  "title": "MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation",
+  "subtopic": "多语言 RAG 元评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以母语者标注构建多语言 RAG 元评测，用于检验自动评测器。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测方法"
+ },
+ {
+  "sid": "12-034",
+  "arxiv": "2410.01171",
+  "title": "Multilingual Retrieval Augmented Generation for Culturally-Sensitive Tasks: A Benchmark for Cross-lingual Robustness",
+  "subtopic": "跨语言 RAG 文化敏感问题",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "BordIRlines：领土争端等文化敏感问题上跨语言 RAG 的鲁棒性评测。"
+ },
+ {
+  "sid": "12-035",
+  "arxiv": "2505.10089",
+  "title": "XRAG: Cross-lingual Retrieval-Augmented Generation",
+  "subtopic": "跨语言 RAG 基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评测用户语言与检索文档语言不同情况下的 RAG 生成。"
+ },
+ {
+  "sid": "12-036",
+  "arxiv": "2504.03616",
+  "title": "Multilingual Retrieval-Augmented Generation for Knowledge-Intensive Task",
+  "subtopic": "多语言 RAG 策略",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较翻译检索、跨语言检索等多语言 RAG 策略在知识密集任务上的效果。"
+ },
+ {
+  "sid": "12-037",
+  "arxiv": "2504.00597",
+  "title": "On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation",
+  "subtopic": "多语言上下文利用",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究 LLM 对不同语言检索段落的利用一致性。"
+ },
+ {
+  "sid": "12-038",
+  "arxiv": "2511.09984",
+  "title": "Language Drift in Multilingual Retrieval-Augmented Generation: Characterization and Decoding-Time Mitigation",
+  "subtopic": "多语言 RAG 语言漂移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "刻画多语言 RAG 中输出语言偏离用户语言的现象并提出解码期缓解。"
+ },
+ {
+  "sid": "12-039",
+  "arxiv": "2507.07543",
+  "title": "The Cross-Lingual Cost: Retrieval Biases in RAG over Arabic-English Corpora",
+  "subtopic": "跨语言检索偏差",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究阿拉伯语-英语混合语料 RAG 中的检索偏差。"
+ },
+ {
+  "sid": "12-040",
+  "arxiv": "2311.00587",
+  "title": "Crosslingual Retrieval Augmented In-context Learning for Bangla",
+  "subtopic": "孟加拉语跨语言检索增强",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从高资源语言检索示例增强孟加拉语上下文学习。"
+ },
+ {
+  "sid": "12-041",
+  "arxiv": "2407.05502",
+  "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",
+  "subtopic": "多语言信息偏好",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究多语言 RAG 中 LLM 对查询同语言信息的偏好造成的信息不对等。"
+ },
+ {
+  "sid": "12-042",
+  "arxiv": "2604.25182",
+  "title": "CroSearch-R1: Better Leveraging Cross-lingual Knowledge for Retrieval-Augmented Generation",
+  "subtopic": "跨语言搜索智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以强化学习训练模型更好利用跨语言检索知识。"
+ },
+ {
+  "sid": "12-043",
+  "arxiv": "2601.18886",
+  "title": "XProvence: Zero-Cost Multilingual Context Pruning for Retrieval-Augmented Generation",
+  "subtopic": "多语言上下文剪枝",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言 RAG 的上下文剪枝/压缩。"
+ },
+ {
+  "sid": "12-044",
+  "arxiv": "2510.23070",
+  "title": "Quality-Aware Translation Tagging in Multilingual RAG system",
+  "subtopic": "翻译质量标注 RAG",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "在多语言 RAG 中标注翻译文档质量以减少翻译噪声影响。"
+ },
+ {
+  "sid": "12-045",
+  "arxiv": "2507.16011",
+  "title": "mRAKL: Multilingual Retrieval-Augmented Knowledge Graph Construction for Low-Resourced Languages",
+  "subtopic": "低资源语言知识图谱构建",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以检索增强方式为低资源语言（提格利尼亚语、阿姆哈拉语）补全知识图谱。"
+ },
+ {
+  "sid": "12-046",
+  "arxiv": "2402.16508",
+  "title": "Pre-training Cross-lingual Open Domain Question Answering with Large-scale Synthetic Supervision",
+  "subtopic": "跨语言开放域问答预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用维基百科跨语言链接合成监督预训练跨语言开放域问答。"
+ },
+ {
+  "sid": "12-047",
+  "arxiv": "2504.18225",
+  "title": "Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family",
+  "subtopic": "带引用的小模型 RAG",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "小型多语言 RAG 模型，原生支持引用来源。"
+ },
+ {
+  "sid": "12-048",
+  "arxiv": "2412.02592",
+  "title": "OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation",
+  "subtopic": "OCR 对 RAG 的影响",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "评估 OCR 错误对下游 RAG 的级联影响。",
+  "relevance_use": "小语种文档常依赖 OCR 入库，需评估 OCR 噪声对本地知识库的影响"
+ },
+ {
+  "sid": "12-049",
+  "arxiv": "2502.18443",
+  "title": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+  "subtopic": "PDF 文档解析",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "用视觉语言模型做 PDF 线性化的开源工具链。",
+  "relevance_use": "小语种 PDF 知识库与语料入库的文档解析工具",
+  "cross_only": true,
+  "cross_reason": "主分类在 05（05-016，语料抽取）；本类作文档解析交叉标签"
+ },
+ {
+  "sid": "12-050",
+  "arxiv": "2507.05595",
+  "title": "PaddleOCR 3.0 Technical Report",
+  "subtopic": "多语言 OCR 工具链",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "支持多语种识别与文档解析的开源 OCR 工具链。",
+  "relevance_use": "小语种文字识别与文档结构化入库"
+ },
+ {
+  "sid": "12-051",
+  "arxiv": "2603.28130",
+  "title": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+  "subtopic": "多语言文档解析评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向真实场景的多语言文档解析基准。"
+ },
+ {
+  "sid": "12-052",
+  "arxiv": "2502.16781",
+  "title": "Evaluating Robustness of LLMs in Question Answering on Multilingual Noisy OCR Data",
+  "subtopic": "多语言 OCR 噪声问答",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估多语言历史文献 OCR 噪声对 LLM 问答的影响。"
+ },
+ {
+  "sid": "12-053",
+  "arxiv": "2412.15248",
+  "title": "RoundTripOCR: A Data Generation Technique for Enhancing Post-OCR Error Correction in Low-Resource Devanagari Languages",
+  "subtopic": "低资源天城文 OCR 后纠错",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为低资源天城文语言合成 OCR 后纠错训练数据。",
+  "cross_only": true,
+  "cross_reason": "主分类在 05（05-069，下载时判定 duplicate_elsewhere）；本类作 OCR 后纠错交叉标签"
+ },
+ {
+  "sid": "12-054",
+  "arxiv": "2312.13040",
+  "title": "Retrieval-augmented Multilingual Knowledge Editing",
+  "subtopic": "检索增强多语言知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用检索增强方式在多语言 LLM 中更新知识。"
+ },
+ {
+  "sid": "12-055",
+  "arxiv": "2406.17764",
+  "title": "BMIKE-53: Investigating Cross-Lingual Knowledge Editing with In-Context Learning",
+  "subtopic": "跨语言知识编辑基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖 53 种语言的跨语言知识编辑基准。"
+ },
+ {
+  "sid": "12-056",
+  "arxiv": "2404.04990",
+  "title": "MLaKE: Multilingual Knowledge Editing Benchmark for Large Language Models",
+  "subtopic": "多语言知识编辑基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言多跳知识编辑基准。"
+ },
+ {
+  "sid": "12-057",
+  "arxiv": "2505.14393",
+  "title": "Editing Across Languages: A Survey of Multilingual Knowledge Editing",
+  "subtopic": "多语言知识编辑综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "综述多语言知识编辑的方法、基准与挑战。"
+ },
+ {
+  "sid": "12-058",
+  "arxiv": "2502.14645",
+  "title": "Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs",
+  "subtopic": "跨语言知识同步",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "一处编辑、多语言同步更新知识的框架。"
+ },
+ {
+  "sid": "12-059",
+  "arxiv": "2505.10740",
+  "title": "SemEval-2025 Task 7: Multilingual and Crosslingual Fact-Checked Claim Retrieval",
+  "subtopic": "多语言事实核查声明检索",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言与跨语言已核查声明检索共享任务。"
+ },
+ {
+  "sid": "12-060",
+  "arxiv": "2604.00706",
+  "title": "AfrIFact: Cultural Information Retrieval, Evidence Extraction and Fact Checking for African Languages",
+  "subtopic": "非洲语言事实核查",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "非洲语言的文化信息检索、证据抽取与事实核查数据集。"
+ },
+ {
+  "sid": "12-061",
+  "arxiv": "2504.11975",
+  "title": "SemEval-2025 Task 3: Mu-SHROOM, the Multilingual Shared Task on Hallucinations and Related Observable Overgeneration Mistakes",
+  "subtopic": "多语言幻觉片段检测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言 LLM 输出幻觉片段检测共享任务。"
+ },
+ {
+  "sid": "12-062",
+  "arxiv": "2503.16541",
+  "title": "Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models",
+  "subtopic": "多语言事实核验基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言事实核验与幻觉检测基准。"
+ },
+ {
+  "sid": "12-063",
+  "arxiv": "2509.25138",
+  "title": "Investigating Language and Retrieval Bias in Multilingual Previously Fact-Checked Claim Detection",
+  "subtopic": "多语言核查检索偏差",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究多语言已核查声明检测中的语言与检索偏差。"
+ },
+ {
+  "sid": "12-064",
+  "arxiv": "2312.10997",
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "subtopic": "RAG 综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "RAG 范式、检索、生成与增强技术的系统综述。",
+  "relevance_use": "小语种本地知识库建设的整体方法地图"
+ },
+ {
+  "sid": "12-065",
+  "arxiv": "2408.02337",
+  "title": "Developing PUGG for Polish: A Modern Approach to KBQA, MRC, and IR Dataset Construction",
+  "subtopic": "小语种知识库问答数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为波兰语构建 KBQA、阅读理解与检索数据集的流程。"
+ },
+ {
+  "sid": "12-066",
+  "arxiv": "2411.01192",
+  "title": "Swan and ArabicMTEB: Dialect-Aware, Arabic-Centric, Cross-Lingual, and Cross-Cultural Embedding Models and Benchmarks",
+  "subtopic": "方言感知嵌入",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语方言感知嵌入模型与基准。",
+  "reserve": true
+ },
+ {
+  "sid": "12-067",
+  "arxiv": "2608.26941",
+  "title": "KinyaEmbed: Contrastive Sentence Embeddings for Kinyarwanda via Multi-Stage Curriculum Training",
+  "subtopic": "卢旺达语句向量",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "卢旺达语句向量训练。",
+  "reserve": true
+ },
+ {
+  "sid": "12-068",
+  "arxiv": "2412.20061",
+  "title": "Comparative Analysis of Listwise Reranking with Large Language Models in Limited-Resource Language Contexts",
+  "subtopic": "低资源语言列表式重排",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "比较 LLM 列表式重排在资源受限语言中的表现。",
+  "reserve": true
+ },
+ {
+  "sid": "12-069",
+  "arxiv": "2601.02065",
+  "title": "Cost-Efficient Cross-Lingual Retrieval-Augmented Generation for Low-Resource Languages: A Case Study in Bengali Agricultural Advisory",
+  "subtopic": "孟加拉语农业 RAG",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉语农业咨询的低成本跨语言 RAG。",
+  "reserve": true,
+  "cross": [
+   "13"
+  ],
+  "cross_reason": "具体应用场景"
+ },
+ {
+  "sid": "12-070",
+  "arxiv": "2512.05959",
+  "title": "M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG",
+  "subtopic": "多语言多模态 RAG",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "大规模多语言多文化多模态 RAG。",
+  "reserve": true
+ },
+ {
+  "sid": "12-071",
+  "arxiv": "2605.12623",
+  "title": "DocAtlas: Multilingual Document Understanding Across 80+ Languages",
+  "subtopic": "多语言文档理解",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "覆盖 80+ 语言的文档理解。",
+  "reserve": true
+ },
+ {
+  "sid": "12-072",
+  "arxiv": "2408.09869",
+  "title": "Docling Technical Report",
+  "subtopic": "文档解析工具",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "开源文档转换工具。",
+  "reserve": true,
+  "relevance_use": "本地知识库文档入库"
+ },
+ {
+  "sid": "12-073",
+  "arxiv": "2407.01449",
+  "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+  "subtopic": "视觉文档检索",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "直接对页面图像检索，绕开 OCR。",
+  "reserve": true,
+  "relevance_use": "OCR 质量差的小语种文档检索替代方案"
+ },
+ {
+  "sid": "12-074",
+  "arxiv": "2510.21068",
+  "title": "Bridging Language Gaps with Adaptive RAG: Improving Indonesian Language Question Answering",
+  "subtopic": "印尼语自适应 RAG",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "印尼语自适应 RAG 问答。",
+  "reserve": true
+ },
+ {
+  "sid": "12-075",
+  "arxiv": "2406.13663",
+  "title": "Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation",
+  "subtopic": "答案归因",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "基于模型内部信号的 RAG 答案归因。",
+  "reserve": true,
+  "relevance_use": "小语种 RAG 引用核验"
+ },
+ {
+  "sid": "12-076",
+  "arxiv": "2502.07938",
+  "title": "Adapting Multilingual Embedding Models to Historical Luxembourgish",
+  "subtopic": "历史卢森堡语嵌入适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "把多语言嵌入适配到含 OCR 噪声的历史卢森堡语。",
+  "reserve": true
+ },
+ {
+  "sid": "12-077",
+  "arxiv": "2511.04560",
+  "title": "BanglaMedQA and BanglaMMedBench: Evaluating Retrieval-Augmented Generation Strategies for Bangla Biomedical Question Answering",
+  "subtopic": "孟加拉语医学 RAG",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉语生物医学问答的 RAG 策略评测。",
+  "reserve": true
+ }
+]

@@ -1,0 +1,910 @@
+[
+ {
+  "sid": "08-001",
+  "arxiv": "2402.06619",
+  "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+  "subtopic": "本地语言指令数据",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "通过全球众包收集多语人工撰写指令数据并汇编 Aya Collection，是本地语言指令数据构造的代表。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "数据来源与众包治理（04）"
+ },
+ {
+  "sid": "08-002",
+  "arxiv": "2401.01854",
+  "title": "Multilingual Instruction Tuning With Just a Pinch of Multilinguality",
+  "subtopic": "多语指令迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究在英语指令数据中加入少量多语示例对跨语言指令遵循的影响。"
+ },
+ {
+  "sid": "08-003",
+  "arxiv": "2312.12683",
+  "title": "Turning English-centric LLMs Into Polyglots: How Much Multilinguality Is Needed?",
+  "subtopic": "多语指令迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "考察英语为主的 LLM 指令微调中需要多少种语言才能获得跨语言泛化。"
+ },
+ {
+  "sid": "08-004",
+  "arxiv": "2402.14778",
+  "title": "Zero-shot cross-lingual transfer in instruction tuning of large language models",
+  "subtopic": "仅英文指令的跨语言迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统研究只用英文指令数据微调时向其他语言的零样本迁移及影响因素。"
+ },
+ {
+  "sid": "08-005",
+  "arxiv": "2404.04850",
+  "title": "How Many Languages Make Good Multilingual Instruction Tuning? A Case Study on BLOOM",
+  "subtopic": "指令语言数量",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 BLOOM 上逐步增加指令语言数量，分析其对多语任务的影响。"
+ },
+ {
+  "sid": "08-006",
+  "arxiv": "2402.13703",
+  "title": "Investigating Multilingual Instruction-Tuning: Do Polyglot Models Demand for Multilingual Instructions?",
+  "subtopic": "多语指令迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较单语/多语指令数据对多语模型指令遵循的效果，含平行指令数据。"
+ },
+ {
+  "sid": "08-007",
+  "arxiv": "2504.16677",
+  "title": "A Post-trainer's Guide to Multilingual Training Data: Uncovering Cross-lingual Transfer Dynamics",
+  "subtopic": "后训练多语数据",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析后训练阶段多语数据配比对跨语言迁移的动态影响。"
+ },
+ {
+  "sid": "08-008",
+  "arxiv": "2309.08958",
+  "title": "Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca",
+  "subtopic": "单语 vs 多语指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在计算预算约束下比较单语与多语指令微调及 LoRA/全参数设置。",
+  "old_reason": "首次公开 2023-09，是多语指令微调预算分配的经典比较，后续研究普遍引用。"
+ },
+ {
+  "sid": "08-009",
+  "arxiv": "2211.01786",
+  "title": "Crosslingual Generalization through Multitask Finetuning",
+  "subtopic": "多语多任务微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "BLOOMZ/mT0 与 xP3：首次系统研究多语多任务微调的跨语言泛化。",
+  "old_reason": "多语指令/多任务微调的奠基工作，xP3 与 BLOOMZ 仍是常用基线。"
+ },
+ {
+  "sid": "08-010",
+  "arxiv": "2106.09685",
+  "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+  "subtopic": "低秩适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "提出 LoRA；用途：小语种低算力适配的标准方法。",
+  "old_reason": "参数高效微调的基础方法，几乎所有小语种 LoRA 适配都以其为基础。"
+ },
+ {
+  "sid": "08-011",
+  "arxiv": "2305.14314",
+  "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+  "subtopic": "量化低秩适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "在 4-bit 量化基座上做 LoRA 微调；用途：单卡条件下的小语种微调。",
+  "old_reason": "使单 GPU 微调大模型成为可能，是资源受限小语种团队的常用方案。",
+  "cross": [
+   "16"
+  ],
+  "cross_reason": "量化（16）"
+ },
+ {
+  "sid": "08-012",
+  "arxiv": "2402.09353",
+  "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+  "subtopic": "LoRA 变体",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "把权重分解为幅度与方向分别适配；用途：替代 LoRA 的低成本适配选项。"
+ },
+ {
+  "sid": "08-013",
+  "arxiv": "2405.09673",
+  "title": "LoRA Learns Less and Forgets Less",
+  "subtopic": "LoRA 与遗忘",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "比较 LoRA 与全参数微调在目标域学习量与原能力遗忘上的权衡；用途：小语种适配中方法选择。"
+ },
+ {
+  "sid": "08-014",
+  "arxiv": "2403.14608",
+  "title": "Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey",
+  "subtopic": "PEFT 综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "全面综述 PEFT 方法与系统实现；用途：小语种适配方法选型背景。"
+ },
+ {
+  "sid": "08-015",
+  "arxiv": "2506.07597",
+  "title": "Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque",
+  "subtopic": "低资源语言指令化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以巴斯克语为例系统比较目标语言语料、合成指令与基座/指令模型起点对指令模型的影响。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "使用合成指令（09）"
+ },
+ {
+  "sid": "08-016",
+  "arxiv": "2412.13922",
+  "title": "Pipeline Analysis for Developing Instruct LLMs in Low-Resource Languages: A Case Study on Basque",
+  "subtopic": "低资源指令模型流水线",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较持续预训练、指令微调、对齐各阶段组合以构建巴斯克语指令模型。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "含持续预训练阶段（07）"
+ },
+ {
+  "sid": "08-017",
+  "arxiv": "2401.15006",
+  "title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+  "subtopic": "印地语指令微调",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在 OpenHathi 上用印地语指令数据（含翻译）做指令微调的技术报告。"
+ },
+ {
+  "sid": "08-018",
+  "arxiv": "2502.13647",
+  "title": "Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh",
+  "subtopic": "哈萨克语指令数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用公开政府与文化数据构建哈萨克语指令集并微调。"
+ },
+ {
+  "sid": "08-019",
+  "arxiv": "2510.24434",
+  "title": "LuxIT: A Luxembourgish Instruction Tuning Dataset from Monolingual Seed Data",
+  "subtopic": "卢森堡语指令数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从单语种子数据构造卢森堡语指令数据集并评估微调效果。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "指令由 LLM 生成（09）"
+ },
+ {
+  "sid": "08-020",
+  "arxiv": "2407.11186",
+  "title": "Empowering Persian LLMs for Instruction Following: A Novel Dataset and Training Approach",
+  "subtopic": "波斯语指令数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "构建波斯语指令数据与训练方法。"
+ },
+ {
+  "sid": "08-021",
+  "arxiv": "2508.15239",
+  "title": "WangchanThaiInstruct: An instruction-following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai",
+  "subtopic": "泰语人工指令数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "由人工构建的泰语文化感知指令数据集，并比较与翻译数据微调的差异。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "兼作评测集（15）"
+ },
+ {
+  "sid": "08-022",
+  "arxiv": "2411.18571",
+  "title": "Challenges in Adapting Multilingual LLMs to Low-Resource Languages using LoRA PEFT Tuning",
+  "subtopic": "LoRA 小语种适配",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以马拉地语为例考察 LoRA 指令微调对低资源语言生成质量的影响。"
+ },
+ {
+  "sid": "08-023",
+  "arxiv": "2412.12674",
+  "title": "Train More Parameters But Mind Their Placement: Insights into Language Adaptation with PEFT",
+  "subtopic": "PEFT 语言适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以冰岛语为例比较多种 PEFT 方法的可训练参数量与放置位置对语言适配效果及长上下文能力的影响。"
+ },
+ {
+  "sid": "08-024",
+  "arxiv": "2401.07598",
+  "title": "MAPLE: Multilingual Evaluation of Parameter Efficient Finetuning of Large Language Models",
+  "subtopic": "多语 PEFT 评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在多语任务上系统评估 PEFT（LoRA 秩、量化）对低资源语言的效果。"
+ },
+ {
+  "sid": "08-025",
+  "arxiv": "2407.01406",
+  "title": "Adapting Multilingual LLMs to Low-Resource Languages with Knowledge Graphs via Adapters",
+  "subtopic": "语言适配器",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用 ConceptNet 等多语知识图谱训练语言适配器以增强低资源语言。"
+ },
+ {
+  "sid": "08-026",
+  "arxiv": "2502.10140",
+  "title": "Small Models, Big Impact: Efficient Corpus and Graph-Based Adaptation of Small Multilingual Language Models for Low-Resource Languages",
+  "subtopic": "适配器（小模型）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较 Seq_bn/LoRA/前缀等适配器在小型多语模型上的低资源语言适配。"
+ },
+ {
+  "sid": "08-027",
+  "arxiv": "2502.08037",
+  "title": "Franken-Adapter: Cross-Lingual Adaptation of LLMs by Embedding Surgery",
+  "subtopic": "模块化跨语言适配",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "通过定制词表嵌入与指令模型拼接实现跨语言零样本适配。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "嵌入/词表替换（06）"
+ },
+ {
+  "sid": "08-028",
+  "arxiv": "2410.16006",
+  "title": "Exploring Continual Fine-Tuning for Enhancing Language Ability in Large Language Model",
+  "subtopic": "持续微调与语言能力",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究两阶段持续微调中语言能力增强与任务能力遗忘的关系。"
+ },
+ {
+  "sid": "08-029",
+  "arxiv": "2508.19089",
+  "title": "It's All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs",
+  "subtopic": "上下文学习教新语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较上下文学习与 PEFT 对极低资源语言（含罕见文字）的效果。"
+ },
+ {
+  "sid": "08-030",
+  "arxiv": "2506.19187",
+  "title": "Prompt, Translate, Fine-Tune, Re-Initialize, or Instruction-Tune? Adapting LLMs for In-Context Learning in Low-Resource Languages",
+  "subtopic": "少样本适配策略比较",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在多种低资源语言上比较提示、翻译、微调、重初始化与指令微调对上下文学习的作用。"
+ },
+ {
+  "sid": "08-031",
+  "arxiv": "2403.06018",
+  "title": "Few-Shot Cross-Lingual Transfer for Prompting Large Language Models in Low-Resource Languages",
+  "subtopic": "少样本跨语言提示",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较语言适配与少样本提示在低资源语言上的迁移。",
+  "exclude": true,
+  "exclude_reason": "同作者（Toukmaji）学士学位论文，内容为 08-030（ACL GEM 2025）的前身，避免重复版本计数。"
+ },
+ {
+  "sid": "08-032",
+  "arxiv": "2407.02320",
+  "title": "Exploring the Role of Transliteration in In-Context Learning for Low-resource Languages Written in Non-Latin Scripts",
+  "subtopic": "转写与上下文学习",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究对非拉丁文字低资源语言加入转写对上下文学习的影响。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "文字系统（02）"
+ },
+ {
+  "sid": "08-033",
+  "arxiv": "2402.19167",
+  "title": "Teaching Large Language Models an Unseen Language on the Fly",
+  "subtopic": "上下文学习新语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "DiPMT++：仅凭词典与少量平行句在上下文中让 LLM 翻译未见语言（壮语）。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类由 09 类先行认领（09-003）；本类仅作交叉标签：方法为上下文学习教未见语言（08 少样本学习）",
+  "cross_only": true
+ },
+ {
+  "sid": "08-034",
+  "arxiv": "2403.01929",
+  "title": "Analyzing and Adapting Large Language Models for Few-Shot Multilingual NLU: Are We There Yet?",
+  "subtopic": "少样本多语 NLU",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较监督微调、指令微调与上下文学习在少样本多语 NLU 上的效果与成本。"
+ },
+ {
+  "sid": "08-035",
+  "arxiv": "2311.08711",
+  "title": "PLUG: Leveraging Pivot Language in Cross-Lingual Instruction Tuning",
+  "subtopic": "枢轴语言指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "让模型先以英语枢轴思考再用目标语言回答的跨语言指令微调。"
+ },
+ {
+  "sid": "08-036",
+  "arxiv": "2405.13816",
+  "title": "Getting More from Less: Large Language Models are Good Spontaneous Multilingual Learners",
+  "subtopic": "问题翻译数据微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "只用多语问题（无答案标注）的翻译数据微调即可激活多语对齐。"
+ },
+ {
+  "sid": "08-037",
+  "arxiv": "2606.10428",
+  "title": "Which LoRA? An Empirical Study on the Effectiveness of LoRA Techniques During Multilingual Instruction Tuning",
+  "subtopic": "LoRA 变体比较",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在多语指令微调中比较多种 LoRA 变体的效果。"
+ },
+ {
+  "sid": "08-038",
+  "arxiv": "2605.29414",
+  "title": "Beyond Bilingual Transfer: Multilingual Code-Switching in Instruction Tuning",
+  "subtopic": "语码转换指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究多语语码转换指令数据对跨语言迁移的作用。"
+ },
+ {
+  "sid": "08-039",
+  "arxiv": "2603.28263",
+  "title": "Merge and Conquer: Instructing Multilingual Models by Adding Target Language Weights",
+  "subtopic": "合并式指令化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把目标语言权重加入指令模型以获得目标语言指令能力。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "模型合并（07）"
+ },
+ {
+  "sid": "08-040",
+  "arxiv": "2401.16405",
+  "title": "Scaling Sparse Fine-Tuning to Large Language Models",
+  "subtopic": "稀疏微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "把稀疏微调扩展到 LLM 并在多语指令任务上评估；用途：替代 LoRA 的参数高效语言适配。"
+ },
+ {
+  "sid": "08-041",
+  "arxiv": "2402.12354",
+  "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+  "subtopic": "LoRA 变体",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "为 LoRA 的 A/B 矩阵设置不同学习率；用途：LoRA 适配调参。"
+ },
+ {
+  "sid": "08-042",
+  "arxiv": "2404.02948",
+  "title": "PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models",
+  "subtopic": "LoRA 变体",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "用主奇异分量初始化 LoRA；用途：加速收敛的低成本适配。"
+ },
+ {
+  "sid": "08-043",
+  "arxiv": "2312.03732",
+  "title": "A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA",
+  "subtopic": "LoRA 缩放",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "rsLoRA：修正 LoRA 缩放因子以支持更高秩；用途：语言适配中的高秩 LoRA 设置。"
+ },
+ {
+  "sid": "08-044",
+  "arxiv": "2311.08572",
+  "title": "Low-Rank Adaptation for Multilingual Summarization: An Empirical Study",
+  "subtopic": "LoRA 多语摘要",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在多语与低资源摘要上比较 LoRA 与全参数微调，含跨语言迁移设置。"
+ },
+ {
+  "sid": "08-045",
+  "arxiv": "2312.09993",
+  "title": "LLaMAntino: LLaMA 2 Models for Effective Text Generation in Italian Language",
+  "subtopic": "意大利语 QLoRA 适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以 QLoRA 等方式把 Llama 2 适配意大利语的案例。"
+ },
+ {
+  "sid": "08-046",
+  "arxiv": "2404.09138",
+  "title": "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation",
+  "subtopic": "乌克兰语微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "对 Gemma 与 Mistral 做乌克兰语指令微调并发布数据集。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类已由 03 类认领（03-075）；本类仅作交叉标签：乌克兰语指令微调与指令数据（08）"
+ },
+ {
+  "sid": "08-047",
+  "arxiv": "2402.18766",
+  "title": "Advancing Generative AI for Portuguese with Open Decoder Gervásio PT*",
+  "subtopic": "葡萄牙语指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "在 Llama 2 上用葡萄牙语（含欧洲/巴西变体）指令数据微调。"
+ },
+ {
+  "sid": "08-048",
+  "arxiv": "2410.21200",
+  "title": "BanglaLlama: LLaMA for Bangla Language",
+  "subtopic": "孟加拉语指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉语指令数据构建与 Llama 适配。"
+ },
+ {
+  "sid": "08-049",
+  "arxiv": "2512.07454",
+  "title": "Persian-Phi: Efficient Cross-Lingual Adaptation of Compact LLMs via Curriculum Learning",
+  "subtopic": "小模型课程式适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以课程学习与 PEFT 把小模型适配到波斯语。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "课程学习（07）"
+ },
+ {
+  "sid": "08-050",
+  "arxiv": "2510.24619",
+  "title": "Zero-Shot Cross-Lingual Transfer using Prefix-Based Adaptation",
+  "subtopic": "前缀式适配",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较前缀微调与 LoRA 在零样本跨语言迁移中的效果。"
+ },
+ {
+  "sid": "08-051",
+  "arxiv": "2406.17377",
+  "title": "A Three-Pronged Approach to Cross-Lingual Adaptation with Multilingual LLMs",
+  "subtopic": "跨语言适配策略",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以印度低资源语言为例比较附加监督信号、英语中介与持续训练等适配方式。"
+ },
+ {
+  "sid": "08-052",
+  "arxiv": "2412.12499",
+  "title": "LinguaLIFT: An Effective Two-stage Instruction Tuning Framework for Low-Resource Language Reasoning",
+  "subtopic": "两阶段指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "先训练语言对齐层再用英文指令数据微调以迁移到低资源语言推理。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "推理任务（11）"
+ },
+ {
+  "sid": "08-053",
+  "arxiv": "2501.06892",
+  "title": "Language Fusion for Parameter-Efficient Cross-lingual Transfer",
+  "subtopic": "参数高效跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "FLARE：在 LoRA 适配器内融合源语言与目标语言表示的跨语言迁移。"
+ },
+ {
+  "sid": "08-054",
+  "arxiv": "2402.18913",
+  "title": "AdaMergeX: Cross-Lingual Transfer with Large Language Models via Adaptive Adapter Merging",
+  "subtopic": "适配器合并",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "合并语言能力与任务能力适配器实现跨语言迁移。"
+ },
+ {
+  "sid": "08-055",
+  "arxiv": "2311.09344",
+  "title": "Language and Task Arithmetic with Parameter-Efficient Layers for Zero-Shot Summarization",
+  "subtopic": "语言/任务算术",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用 PEFT 模块的语言与任务算术实现低资源语言零样本摘要。"
+ },
+ {
+  "sid": "08-056",
+  "arxiv": "2402.12976",
+  "title": "The Impact of Demonstrations on Multilingual In-Context Learning: A Multidimensional Analysis",
+  "subtopic": "多语上下文学习示例",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在多语言多任务上分析示例对上下文学习的实际作用。"
+ },
+ {
+  "sid": "08-057",
+  "arxiv": "2410.21228",
+  "title": "LoRA vs Full Fine-tuning: An Illusion of Equivalence",
+  "subtopic": "LoRA 与全参数比较",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "分析 LoRA 与全参数微调的谱结构差异与遗忘；用途：适配方法选择。"
+ },
+ {
+  "sid": "08-058",
+  "arxiv": "2311.17487",
+  "title": "Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model",
+  "subtopic": "繁体中文持续预训练+指令微调",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "繁体中文持续预训练与指令微调的技术报告。",
+  "reserve": true
+ },
+ {
+  "sid": "08-059",
+  "arxiv": "2601.16629",
+  "title": "Typologically Informed Parameter Aggregation",
+  "subtopic": "类型学参数聚合",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "按语言类型学聚合适配参数以服务未见语言。",
+  "cross_only": true,
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "02 类已列入（02-081）；本类仅作交叉标签：按类型学聚合适配参数（08）"
+ },
+ {
+  "sid": "08-060",
+  "arxiv": "2507.03003",
+  "title": "Breaking Physical and Linguistic Borders: Multilingual Federated Prompt Tuning for Low-Resource Languages",
+  "subtopic": "联邦提示微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向低资源语言的多语联邦提示微调。",
+  "reserve": true
+ },
+ {
+  "sid": "08-061",
+  "arxiv": "2502.04387",
+  "title": "FedP$^2$EFT: Federated Learning to Personalize PEFT for Multilingual LLMs",
+  "subtopic": "联邦个性化 PEFT",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "为多语客户端个性化 PEFT 结构。",
+  "reserve": true
+ },
+ {
+  "sid": "08-062",
+  "arxiv": "2311.07820",
+  "title": "On the Analysis of Cross-Lingual Prompt Tuning for Decoder-based Multilingual Model",
+  "subtopic": "跨语言提示微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析解码器多语模型的跨语言提示微调。",
+  "reserve": true
+ },
+ {
+  "sid": "08-063",
+  "arxiv": "2508.19464",
+  "title": "Bridging Language Gaps: Enhancing Few-Shot Language Adaptation",
+  "subtopic": "少样本语言适配",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以少量目标语言数据增强语言适配。",
+  "reserve": true
+ },
+ {
+  "sid": "08-064",
+  "arxiv": "2403.00411",
+  "title": "Cross-Lingual Learning vs. Low-Resource Fine-Tuning: A Case Study with Fact-Checking in Turkish",
+  "subtopic": "跨语言学习 vs 低资源微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "土耳其语事实核查中比较跨语言学习与低资源微调。",
+  "reserve": true
+ },
+ {
+  "sid": "08-065",
+  "arxiv": "2504.09753",
+  "title": "Improving Multilingual Capabilities with Cultural and Local Knowledge in Large Language Models While Enhancing Native Performance",
+  "subtopic": "本地知识指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "混合本地文化知识数据微调以提升印地语等多语能力并保持英语。",
+  "reserve": true
+ },
+ {
+  "sid": "08-066",
+  "arxiv": "2408.03172",
+  "title": "Leveraging Parameter Efficient Training Methods for Low Resource Text Classification: A Case Study in Marathi",
+  "subtopic": "PEFT 马拉地语",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "马拉地语文本分类上比较 PEFT 方法。",
+  "reserve": true
+ },
+ {
+  "sid": "08-067",
+  "arxiv": "2410.06898",
+  "title": "Generative Model for Less-Resourced Language with 1 billion parameters",
+  "subtopic": "斯洛文尼亚语小模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "斯洛文尼亚语 1B 生成模型训练与少样本评估。",
+  "reserve": true
+ },
+ {
+  "sid": "08-068",
+  "arxiv": "2403.16512",
+  "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
+  "subtopic": "少样本上下文学习",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统评估低资源语言的上下文学习与跨语言示例对齐。",
+  "cross_only": true,
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "主分类由 01 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-069",
+  "arxiv": "2404.06138",
+  "title": "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages",
+  "subtopic": "印尼地方语言指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "印尼及地方语言指令数据与 LoRA/全参数微调比较。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-070",
+  "arxiv": "2402.08015",
+  "title": "Walia-LLM: Enhancing Amharic-LLaMA by Integrating Task-Specific and Generative Datasets",
+  "subtopic": "阿姆哈拉语指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "阿姆哈拉语任务数据转指令格式微调。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-071",
+  "arxiv": "2409.17912",
+  "title": "Atlas-Chat: Adapting Large Language Models for Low-Resource Moroccan Arabic Dialect",
+  "subtopic": "摩洛哥阿拉伯语指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "摩洛哥方言指令数据构建与微调。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "主分类由 03 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-072",
+  "arxiv": "2406.12822",
+  "title": "Is It Good Data for Multilingual Instruction Tuning or Just Bad Multilingual Evaluation for Large Language Models?",
+  "subtopic": "翻译 vs 本地指令数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较翻译指令数据与本地原生指令数据。",
+  "cross_only": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类由 09 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-073",
+  "arxiv": "2409.12958",
+  "title": "MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions",
+  "subtopic": "反向指令构造",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "由本地文本反向生成指令的低资源指令集。",
+  "cross_only": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类由 09 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-074",
+  "arxiv": "2512.02213",
+  "title": "InstructLR: A Scalable Approach to Create Instruction Dataset for Under-Resourced Languages",
+  "subtopic": "低资源指令集构造",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "低资源语言指令数据构造流程。",
+  "cross_only": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类由 09 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-075",
+  "arxiv": "2305.15011",
+  "title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+  "subtopic": "多语指令数据+LoRA",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "52 种语言翻译指令数据与 LoRA 适配器。",
+  "cross_only": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "主分类由 09 类先行列入；本类仅作交叉标签：内容涉及指令微调/参数高效适配/少样本（08）"
+ },
+ {
+  "sid": "08-076",
+  "arxiv": "2406.08796",
+  "title": "Deep Exploration of Cross-Lingual Zero-Shot Generalization in Instruction Tuning",
+  "subtopic": "跨语言零样本指令泛化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统考察指令微调在英语与韩语之间的跨语言零样本任务泛化。",
+  "reserve": true
+ },
+ {
+  "sid": "08-077",
+  "arxiv": "2503.01611",
+  "title": "In-context Learning vs. Instruction Tuning: The Case of Small and Multilingual Language Models",
+  "subtopic": "ICL vs 指令微调（多语小模型）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "比较小型多语模型上的上下文学习与指令微调。",
+  "reserve": true
+ },
+ {
+  "sid": "08-078",
+  "arxiv": "2511.10229",
+  "title": "LangGPS: Language Separability Guided Data Pre-Selection for Joint Multilingual Instruction Tuning",
+  "subtopic": "多语指令数据选择",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以语言可分性指导多语联合指令微调的数据预选。",
+  "reserve": true
+ },
+ {
+  "sid": "08-079",
+  "arxiv": "2404.11932",
+  "title": "CrossIn: An Efficient Instruction Tuning Approach for Cross-Lingual Knowledge Alignment",
+  "subtopic": "跨语言指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "混合跨语言指令样本以提升跨语言知识对齐。",
+  "reserve": true
+ }
+]

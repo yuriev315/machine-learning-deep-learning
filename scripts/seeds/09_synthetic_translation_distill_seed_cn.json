@@ -1,0 +1,870 @@
+[
+ {
+  "sid": "09-001",
+  "arxiv": "2409.19151",
+  "title": "Can LLMs Really Learn to Translate a Low-Resource Language from One Grammar Book?",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "对 MTOB 式“读语法书翻译”做消融，区分平行例句与语法讲解的贡献，是语法书 in-context MT 的关键复核研究。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "涉及语法描述能否被模型利用的语言学问题"
+ },
+ {
+  "sid": "09-002",
+  "arxiv": "2402.18025",
+  "title": "Hire a Linguist!: Learning Endangered Languages with In-Context Linguistic Descriptions",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以词典、语法描述与形态分析器作为上下文（LINGOLLM）翻译濒危语言，代表无需训练的资源注入路线。"
+ },
+ {
+  "sid": "09-003",
+  "arxiv": "2402.19167",
+  "title": "Teaching Large Language Models an Unseen Language on the Fly",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出 DiPMT++ 以词典与平行例句在上下文中教模型翻译壮语等未见语言，含 ZhuangBench。"
+ },
+ {
+  "sid": "09-004",
+  "arxiv": "2410.15263",
+  "title": "Back to School: Translation Using Grammar Books",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在多种低资源语言上评估把语法书放进长上下文对 LLM 翻译的帮助。"
+ },
+ {
+  "sid": "09-005",
+  "arxiv": "2506.01796",
+  "title": "Read it in Two Steps: Translating Extremely Low-Resource Languages with Code-Augmented Grammar Books",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把语法书规则改写为代码形式并分“检索规则—应用规则”两步，改进极低资源语言 in-context 翻译。"
+ },
+ {
+  "sid": "09-006",
+  "arxiv": "2502.11862",
+  "title": "Understanding In-Context Machine Translation for Low-Resource Languages: A Case Study on Manchu",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以满语为案例拆解词典、语法、平行例句各类上下文资源对 LLM 翻译的作用，并用于合成平行数据。"
+ },
+ {
+  "sid": "09-007",
+  "arxiv": "2503.09454",
+  "title": "Explicit Learning and the LLM in Machine Translation",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用人造语言检验 LLM 能否从元语言解释（语法说明）中“显式学习”翻译，是 MTOB 路线的受控分析。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "以构造语言做受控语言学实验"
+ },
+ {
+  "sid": "09-008",
+  "arxiv": "2606.06428",
+  "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用强化学习训练模型更好利用上下文语言资料翻译未见语言，连接 in-context MT 与 RL 后训练。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "方法使用强化学习后训练"
+ },
+ {
+  "sid": "09-009",
+  "arxiv": "2607.22376",
+  "title": "A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以析因设计比较基于语法书的合成平行数据生成方案对低资源 MT 的影响。"
+ },
+ {
+  "sid": "09-010",
+  "arxiv": "2606.03782",
+  "title": "Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Resource Machine Translation?",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "生成基于语法的合成推理轨迹用于低资源翻译微调，检验“语言学推理”数据的价值。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "以推理轨迹作为训练数据"
+ },
+ {
+  "sid": "09-011",
+  "arxiv": "2404.04809",
+  "title": "Low-Resource Machine Translation through Retrieval-Augmented LLM Prompting: A Study on the Mambai Language",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以检索平行句与词典条目做提示，研究帝汶 Mambai 语翻译，并对比不同来源测试集。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "核心方法为检索增强提示"
+ },
+ {
+  "sid": "09-012",
+  "arxiv": "2406.15625",
+  "title": "Shortcomings of LLMs for Low-Resource Translation: Retrieval and Understanding are Both the Problem",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析 LLM 在检索增强低资源翻译中失败的来源（检索质量与理解能力）。"
+ },
+ {
+  "sid": "09-013",
+  "arxiv": "2410.18702",
+  "title": "GrammaMT: Improving Machine Translation with Grammar-Informed In-Context Learning",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用语素注释（IGT）作为上下文提升低资源及濒危语言翻译。"
+ },
+ {
+  "sid": "09-014",
+  "arxiv": "2309.16575",
+  "title": "A Benchmark for Learning to Translate a New Language from One Grammar Book",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "MTOB 原始基准：仅凭一本 Kalamang 语法书让 LLM 学翻译，是本类语法书 MT 后续工作的共同起点。",
+  "old_reason": "MTOB 原始论文（2023-09），本类“语法书/词典 in-context MT”全部后续工作的基准来源，属经典补充。"
+ },
+ {
+  "sid": "09-015",
+  "arxiv": "2604.18758",
+  "title": "Syntax as a Rosetta Stone: Universal Dependencies for In-Context Coptic Translation",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以 UD 句法分析作为上下文辅助科普特语翻译，扩展语法信息注入方式。",
+  "reserve": true
+ },
+ {
+  "sid": "09-016",
+  "arxiv": "2602.04764",
+  "title": "Beyond Many-Shot Translation: Scaling In-Context Demonstrations For Low-Resource Machine Translation",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究长上下文中大规模示例对低资源 MT 的边际效果。",
+  "reserve": true,
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "涉及长上下文利用"
+ },
+ {
+  "sid": "09-017",
+  "arxiv": "2411.15577",
+  "title": "From MTEB to MTOB: Retrieval-Augmented Classification for Descriptive Grammars",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以检索增强从描述语法中抽取类型学特征，服务语法书驱动的低资源语言处理。",
+  "reserve": true
+ },
+ {
+  "sid": "09-018",
+  "arxiv": "2404.13813",
+  "title": "From LLM to NMT: Advancing Low-Resource Machine Translation with Claude",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以 Claude 作为教师生成低资源语言合成平行数据并蒸馏到小型 NMT，属“高资源教师生成本地语言数据”的典型。"
+ },
+ {
+  "sid": "09-019",
+  "arxiv": "2505.14423",
+  "title": "Scaling Low-Resource MT via Synthetic Data Generation with LLMs",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统研究以 LLM 生成文档级合成平行语料扩展低资源 MT，并分析数据质量。"
+ },
+ {
+  "sid": "09-020",
+  "arxiv": "2506.19952",
+  "title": "CycleDistill: Bootstrapping Machine Translation using LLMs with Cyclical Distillation",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "仅用单语语料让 LLM 循环生成合成平行数据并自蒸馏，用于印度低资源语言 MT。"
+ },
+ {
+  "sid": "09-021",
+  "arxiv": "2508.08680",
+  "title": "TopXGen: Topic-Diverse Parallel Data Generation for Low-Resource Machine Translation",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "先用 LLM 生成主题多样的目标语言文本再回译构造平行数据，提升低资源 MT。"
+ },
+ {
+  "sid": "09-022",
+  "arxiv": "2407.08819",
+  "title": "Rule-Based, Neural and LLM Back-Translation: Comparative Insights from a Variant of Ladin",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在拉丁语族小语种 Ladin 变体上比较规则、神经与 LLM 回译的效果。"
+ },
+ {
+  "sid": "09-023",
+  "arxiv": "2610.18818",
+  "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验在 LLM 时代回译单语数据对低资源 MT 的增益。"
+ },
+ {
+  "sid": "09-024",
+  "arxiv": "2408.12780",
+  "title": "Quality or Quantity? On Data Scale and Diversity in Adapting Large Language Models for Low-Resource Translation",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析低资源 MT 适配中平行数据规模与多样性（含多任务数据）的作用，结论与常规 LLM 指令微调不同。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "涉及微调数据配比"
+ },
+ {
+  "sid": "09-025",
+  "arxiv": "2409.13949",
+  "title": "Mufu: Multilingual Fused Learning for Low-Resource Translation with LLM",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把多辅助语言的候选译文融入提示，让模型学习纠错式翻译，面向低资源语言。"
+ },
+ {
+  "sid": "09-026",
+  "arxiv": "2401.05811",
+  "title": "Tuning LLMs with Contrastive Alignment Instructions for Machine Translation in Unseen, Low-resource Languages",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出对比式跨语言对齐指令（AlignInstruct）提升 LLM 对未见低资源语言的翻译。"
+ },
+ {
+  "sid": "09-027",
+  "arxiv": "2603.25489",
+  "title": "Translation Asymmetry in LLMs as a Data Augmentation Factor: A Case Study for 6 Romansh Language Varieties",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用 LLM 翻译方向不对称性为罗曼什语多变体构造合成数据。"
+ },
+ {
+  "sid": "09-028",
+  "arxiv": "2410.03115",
+  "title": "X-ALMA: Plug & Play Modules and Adaptive Rejection for Quality Translation at Scale",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "50 种语言的 LLM 翻译模型，含语言专用模块与偏好式拒绝优化，关注中低资源语言质量。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "训练含偏好优化变体"
+ },
+ {
+  "sid": "09-029",
+  "arxiv": "2410.07830",
+  "title": "NusaMT-7B: Machine Translation for Low-Resource Indonesian Languages with Large Language Models",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以 LLM 持续预训练+回译/过滤数据做巴厘语等印尼地方语言翻译。",
+  "reserve": true
+ },
+ {
+  "sid": "09-030",
+  "arxiv": "2508.19481",
+  "title": "Improving Low-Resource Translation with Dictionary-Guided Fine-Tuning and RL: A Spanish-to-Wayuunaiki Study",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以词典引导微调与强化学习做西语—瓦尤语翻译。",
+  "reserve": true
+ },
+ {
+  "sid": "09-031",
+  "arxiv": "2604.12540",
+  "title": "When Does Data Augmentation Help? Evaluating LLM and Back-Translation Methods for Hausa and Fongbe NLP",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "比较 LLM 生成与回译数据增强在豪萨语、丰语任务上的效果。",
+  "reserve": true
+ },
+ {
+  "sid": "09-032",
+  "arxiv": "1511.06709",
+  "title": "Improving Neural Machine Translation Models with Monolingual Data",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "回译方法原始论文，本类所有回译式合成数据的方法来源。",
+  "old_reason": "回译（back-translation）原始论文（2015），本类合成平行数据方法的源头，经典补充。"
+ },
+ {
+  "sid": "09-033",
+  "arxiv": "2406.12822",
+  "title": "Is It Good Data for Multilingual Instruction Tuning or Just Bad Multilingual Evaluation for Large Language Models?",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较原生与翻译指令数据，并指出翻译测试集会掩盖差异，直接讨论翻译数据与原生数据之别。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "同时讨论翻译评测集的缺陷"
+ },
+ {
+  "sid": "09-034",
+  "arxiv": "2409.12958",
+  "title": "MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以“反向指令”从本地语言人写文本生成指令，覆盖 200 种语言，避免直接翻译带来的翻译腔。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "产物为指令微调数据"
+ },
+ {
+  "sid": "09-035",
+  "arxiv": "2411.15484",
+  "title": "Seed-Free Synthetic Data Generation Framework for Instruction-Tuning LLMs: A Case Study in Thai",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "无种子合成泰语指令数据并比较其与翻译数据的效果。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "产物为指令微调数据"
+ },
+ {
+  "sid": "09-036",
+  "arxiv": "2509.21294",
+  "title": "UPDESH: Synthesizing Grounded Instruction Tuning Data for 13 Indic Languages",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以本地语言维基等为依据合成 13 种印度语言指令数据，含人工评价。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "产物为指令微调数据"
+ },
+ {
+  "sid": "09-037",
+  "arxiv": "2512.02213",
+  "title": "InstructLR: A Scalable Approach to Create Instruction Dataset for Under-Resourced Languages",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "LLM 生成+自动过滤+人工校对为低资源语言构造指令数据的流程。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "产物为指令微调数据"
+ },
+ {
+  "sid": "09-038",
+  "arxiv": "2510.07074",
+  "title": "LuxInstruct: A Cross-Lingual Instruction Tuning Dataset For Luxembourgish",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为卢森堡语构造跨语言指令数据，研究避免机器翻译的替代方案。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "产物为指令微调数据"
+ },
+ {
+  "sid": "09-039",
+  "arxiv": "2510.24434",
+  "title": "LuxIT: A Luxembourgish Instruction Tuning Dataset from Monolingual Seed Data",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以卢森堡语单语种子文本经 LLM 合成指令数据并过滤。",
+  "reserve": true
+ },
+ {
+  "sid": "09-040",
+  "arxiv": "2510.09051",
+  "title": "Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以多语言合成数据蒸馏（改进的 self-instruct）构建乌尔都语模型，关注文化与翻译质量。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "产物为乌尔都语 LLM"
+ },
+ {
+  "sid": "09-041",
+  "arxiv": "2405.19744",
+  "title": "X-Instruction: Aligning Language Model in Low-resource Languages with Self-curated Cross-lingual Instructions",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用本地语言自然文本作回答、英文生成指令的跨语言指令数据，并自筛选，减少对翻译的依赖。"
+ },
+ {
+  "sid": "09-042",
+  "arxiv": "2407.00454",
+  "title": "Self-Translate-Train: Enhancing Cross-Lingual Transfer of Large Language Models via Inherent Capability",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "让 LLM 自行把训练数据翻译为目标语言再训练（translate-train），检验自翻译数据效果。"
+ },
+ {
+  "sid": "09-043",
+  "arxiv": "2402.12204",
+  "title": "Enhancing Multilingual Capabilities of Large Language Models through Self-Distillation from Resource-Rich Languages",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以模型在高资源语言上的回答为教师信号自蒸馏到低资源语言（SDRRL）。"
+ },
+ {
+  "sid": "09-044",
+  "arxiv": "2401.07817",
+  "title": "Question Translation Training for Better Multilingual Reasoning",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "只翻译问题而非整条数据来对齐多语言推理（QAlign），降低翻译成本与翻译腔。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "目标为多语言推理"
+ },
+ {
+  "sid": "09-045",
+  "arxiv": "2408.14960",
+  "title": "Multilingual Arbitrage: Optimizing Data Pools to Accelerate Multilingual Progress",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在多教师模型间按语言路由生成合成数据（套利），对比单教师蒸馏，直接关乎多语言合成数据来源。"
+ },
+ {
+  "sid": "09-046",
+  "arxiv": "2511.10338",
+  "title": "BhashaKritika: Building Synthetic Pretraining Data at Scale for Indic Languages",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "大规模合成印度语言预训练数据，比较翻译与生成路线并设计质量过滤。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "数据用于预训练"
+ },
+ {
+  "sid": "09-047",
+  "arxiv": "2610.26006",
+  "title": "Scaling Synthetic Pre-training Data and Evaluation for Indic LLMs",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "扩展印度语言合成预训练数据与评测。",
+  "reserve": true,
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "数据用于预训练"
+ },
+ {
+  "sid": "09-048",
+  "arxiv": "2411.06402",
+  "title": "Fineweb-Edu-Ar: Machine-translated Corpus to Support Arabic Small Language Models",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把英文教育语料机器翻译为阿拉伯语用于小模型预训练，代表“翻译预训练语料”路线。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "语料构建"
+ },
+ {
+  "sid": "09-049",
+  "title": "Multilingual Language Model Pretraining using Machine-translated Data",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以机器翻译的高质量英文网页语料预训练多语言模型（TransWebEdu），检验翻译数据能否替代原生数据。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "数据用于预训练",
+  "arxiv_seed_given": "",
+  "arxiv": "2502.13252"
+ },
+ {
+  "sid": "09-050",
+  "arxiv": "2405.14277",
+  "title": "Improving Language Models Trained on Translated Data with Continual Pre-Training and Dictionary Learning Analysis",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析仅用翻译数据训练的阿拉伯语模型的缺陷，并用少量原生数据持续预训练修补。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "修补方法为持续预训练"
+ },
+ {
+  "sid": "09-051",
+  "arxiv": "2601.10804",
+  "title": "BYOL: Bring Your Own Language Into LLMs",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "按语言资源层级选择合成/翻译数据方案把新语言接入 LLM 的框架。",
+  "reserve": true
+ },
+ {
+  "sid": "09-052",
+  "arxiv": "2603.06905",
+  "title": "MedInjection-FR: Exploring the Role of Native, Synthetic, and Translated Data in Biomedical Instruction Tuning",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "在法语医学指令微调中对照原生、合成与翻译数据，为“原生 vs 翻译 vs 合成”提供受控证据。",
+  "reserve": true
+ },
+ {
+  "sid": "09-053",
+  "arxiv": "2305.15011",
+  "title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把英文指令机器翻译到 52 种语言并用 GPT 生成回答，是翻译指令数据的早期代表。",
+  "old_reason": "翻译式多语言指令数据（52 语言）的代表性早期工作（2023-05），后续“翻译 vs 原生”比较常以其为对照。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "产物为指令微调数据"
+ },
+ {
+  "sid": "09-054",
+  "arxiv": "2601.16278",
+  "title": "Better as Generators Than Classifiers: Leveraging LLMs and Synthetic Data for Low-Resource Multilingual Classification",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "比较 LLM 直接分类与用其生成合成数据训练小模型在低资源语言上的效果。"
+ },
+ {
+  "sid": "09-055",
+  "arxiv": "2406.12739",
+  "title": "Self-Distillation for Model Stacking Unlocks Cross-Lingual NLU in 200+ Languages",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把 MT 编码器与 LLM 堆叠，并通过自蒸馏实现 200+ 语言的跨语言理解。"
+ },
+ {
+  "sid": "09-056",
+  "arxiv": "2402.02080",
+  "title": "Translation Errors Significantly Impact Low-Resource Languages in Cross-Lingual Learning",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "发现翻译评测集中的翻译错误显著影响低资源语言的跨语言结果，关乎翻译基准可信度。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "涉及翻译评测集质量"
+ },
+ {
+  "sid": "09-057",
+  "arxiv": "2503.04369",
+  "title": "Lost in Literalism: How Supervised Training Shapes Translationese in LLMs",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "分析监督训练数据如何导致 LLM 翻译腔并提出缓解，提供翻译腔成因证据。"
+ },
+ {
+  "sid": "09-058",
+  "arxiv": "2608.17399",
+  "title": "An Investigation of Translationese in the Generations of Multilingual Large Language Models",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "考察多语言 LLM 在非英语生成中的翻译腔特征。"
+ },
+ {
+  "sid": "09-059",
+  "arxiv": "2603.10351",
+  "title": "Mitigating Translationese Bias in Multilingual LLM-as-a-Judge via Disentangled Information Bottleneck",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究多语言 LLM 评审偏好翻译腔文本的偏差及缓解。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "LLM 评审偏差"
+ },
+ {
+  "sid": "09-060",
+  "arxiv": "2602.03484",
+  "title": "Preferences for Idiomatic Language are Acquired Slowly -- and Forgotten Quickly: A Case Study on Swedish",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以瑞典语研究模型对地道表达（相对翻译腔）偏好的习得与遗忘，涉及翻译数据训练的影响。"
+ },
+ {
+  "sid": "09-061",
+  "arxiv": "2509.11921",
+  "title": "Designing LLMs for cultural sensitivity: Evidence from English-Japanese translation",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究 LLM 翻译中的文化适切性与提示设计。",
+  "reserve": true,
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "文化适切性"
+ },
+ {
+  "sid": "09-062",
+  "arxiv": "2510.25967",
+  "title": "Semantic Label Drift in Cross-Cultural Translation",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究跨文化翻译导致的标签语义漂移，关乎用翻译构造数据的风险。",
+  "reserve": true
+ },
+ {
+  "sid": "09-063",
+  "arxiv": "2504.01919",
+  "title": "Bridging the Linguistic Divide: A Survey on Leveraging Large Language Models for Machine Translation",
+  "subtopic": "综述与数据资源",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "综述 LLM 用于机器翻译（含低资源场景、合成数据、回译）的研究。"
+ },
+ {
+  "sid": "09-064",
+  "arxiv": "2502.12301",
+  "title": "SMOL: Professionally translated parallel data for 115 under-represented languages",
+  "subtopic": "综述与数据资源",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "专业译者翻译的 115 种弱势语言平行数据，作为对照合成/机器翻译数据的人工高质量资源。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "语料构建"
+ },
+ {
+  "sid": "09-065",
+  "arxiv": "2412.20584",
+  "title": "Towards Neural No-Resource Language Translation: A Comparative Evaluation of Approaches",
+  "subtopic": "综述与数据资源",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "比较微调、思维链提示与 in-context 等方法在“无资源”语言翻译中的表现。",
+  "reserve": true
+ },
+ {
+  "sid": "09-066",
+  "arxiv": "2606.11786",
+  "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以翻译模型和持续指令微调为古邦马来语构建指令能力。",
+  "reserve": true
+ },
+ {
+  "sid": "09-067",
+  "arxiv": "2608.18655",
+  "title": "TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向非洲低资源语言研究高质量（含合成）翻译数据扩展对小模型 MT 的影响。"
+ },
+ {
+  "sid": "09-068",
+  "arxiv": "2402.17733",
+  "title": "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks",
+  "subtopic": "LLM 合成数据与回译用于低资源 MT",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "开源翻译专用 LLM 的持续预训练+翻译指令配方，为低资源 MT 适配提供可复用方法参照。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "含多语言持续预训练"
+ },
+ {
+  "sid": "09-069",
+  "arxiv": "2506.00507",
+  "title": "Exploring In-context Example Generation for Machine Translation",
+  "subtopic": "LLM 低资源机器翻译（语法书/词典/上下文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在缺少人工示例池时由 LLM 自行生成 in-context 翻译示例，面向低资源场景。"
+ },
+ {
+  "sid": "09-070",
+  "arxiv": "2601.21000",
+  "title": "UrduBench: An Urdu Reasoning Benchmark using Contextually Ensembled Translations with Human-in-the-Loop",
+  "subtopic": "翻译腔与机器翻译文本偏差",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以多系统翻译集成+人工校对构造乌尔都语推理基准，是控制翻译质量的数据构造案例。",
+  "reserve": true,
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "产物为评测基准"
+ },
+ {
+  "sid": "09-071",
+  "arxiv": "2608.00533",
+  "title": "Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究以东南亚低资源语言原生思维链（而非英文/翻译）蒸馏推理能力。",
+  "reserve": true,
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "目标为推理"
+ },
+ {
+  "sid": "09-072",
+  "arxiv": "2404.09163",
+  "title": "GeMQuAD : Generating Multilingual Question Answering Datasets from Large Language Models using Few Shot Learning",
+  "subtopic": "跨语言蒸馏与高资源教师",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "用 LLM 少样本生成并筛选多语言 QA 训练数据。",
+  "reserve": true
+ },
+ {
+  "sid": "09-073",
+  "arxiv": "2509.16914",
+  "title": "CUTE: A Multilingual Dataset for Enhancing Cross-Lingual Knowledge Transfer in Low-Resource Languages",
+  "subtopic": "翻译/合成指令与预训练数据",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以机器翻译构造并人工检查的多语言数据，用于低资源语言跨语言知识迁移。",
+  "reserve": true
+ }
+]

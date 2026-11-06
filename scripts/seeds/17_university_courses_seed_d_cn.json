@@ -1,0 +1,1351 @@
+[
+ {
+  "sid": "17-061",
+  "kind": "course",
+  "university": "Massachusetts Institute of Technology",
+  "course_code": "6.5940",
+  "course_title": "TinyML and Efficient Deep Learning Computing",
+  "term": "Fall 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Song Han"
+  ],
+  "official_url": "https://hanlab.mit.edu/courses/2024-fall-65940",
+  "schedule_url": "https://hanlab.mit.edu/courses/2024-fall-65940",
+  "verification_basis": "MIT HAN Lab 官方课程页“6.5940 TinyML and Efficient Deep Learning Computing, Fall 2024”，Instructor Song Han，日程表每讲 [Slides] 链接见 https://hanlab.mit.edu/courses/2024-fall-65940；幻灯片由该官方页面链接到课程 Dropbox（dl=0 改为 dl=1 直接下载同一文件）",
+  "dir_name": "MIT_6.5940_EfficientML_2024Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.dropbox.com/scl/fi/h3ggav4eopxsitqxzf6t2/Lec01-Introduction.pdf?rlkey=hzbpsha72p5e3ed4mdvcgcda5&st=pz5u977e&dl=1",
+    "name": "01_Lec01-Introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction (Sep 5)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/pxvvqyq2yu6mwgk79bq5x/Lec02-Basics.pdf?rlkey=tsumfkhrglic55jnjs4yu66ni&st=cmwnvuvn&dl=1",
+    "name": "02_Lec02-Basics_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Basics of Deep Learning (Sep 10)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/6qspcmk8qayy7mft737gh/Lec03-Pruning-I.pdf?rlkey=9jpifc92be0sitiknpbhn9ggf&st=lml94lam&dl=1",
+    "name": "03_Lec03-Pruning-I_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Pruning and Sparsity I (Sep 12)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/w5baiyci5cxl1ozpy6lsr/Lec04-Pruning-II.pdf?rlkey=6qxc1nz20isy9izwnqfebtukg&st=59gy1eal&dl=1",
+    "name": "04_Lec04-Pruning-II_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Pruning and Sparsity II (Sep 17)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/qc2s9opsa2mnqfithvwz1/Lec05-Quantization-I.pdf?rlkey=sizfzkdv85etnplz1nqgngeql&st=zr1y81q7&dl=1",
+    "name": "05_Lec05-Quantization-I_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Quantization I (Sep 19)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/qt970xoje5d1btek4a8cl/Lec06-Quantization-II.pdf?rlkey=lalxz5ed2hez0olwu4e4gokbj&st=f1oof15v&dl=1",
+    "name": "06_Lec06-Quantization-II_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Quantization II (Sep 24)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/hxhjhxonwqyw2hfoywzcp/Lec07-Neural-Architecture-Search-I.pdf?rlkey=o6s5dglazyb2o2nrc897ccppg&st=dcjyr42l&dl=1",
+    "name": "07_Lec07-Neural-Architecture-Search-I_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Neural Architecture Search I (Sep 26)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/kaia5vvmdwb2bj0xnbihm/Lec08-Neural-Architecture-Search-II.pdf?rlkey=vkp9i12ljbk4jmdfp05j3ctdy&st=hincmob7&dl=1",
+    "name": "08_Lec08-Neural-Architecture-Search-II_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Neural Architecture Search II (Oct 1)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/fjgnue7z3mi1ynxbd0y5k/Lec09-Knowledge-Distillation.pdf?rlkey=cup1qhlpx3vx0nrs7wuwj6m0d&st=jzhogqwp&dl=1",
+    "name": "09_Lec09-Knowledge-Distillation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Knowledge Distillation (Oct 3)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/udgt7c6sw5wpvrbh7us2t/Lec10-MCUNet.pdf?rlkey=sryh8aiehv8792uk1ocu00icn&st=8v4oql2g&dl=1",
+    "name": "10_Lec10-MCUNet_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 MCUNet: TinyML on Microcontrollers (Oct 8)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/z1980bzepegz85ara200n/Lec11-TinyEngine.pdf?rlkey=5evtfesbourbo03nlhazmiy1r&st=ehihqr5t&dl=1",
+    "name": "11_Lec11-TinyEngine_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 TinyEngine and Parallel Processing (Oct 10)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/4o87goykb0aoyopps02t4/Lec12-Transformers-and-LLM.pdf?rlkey=k97sdf3ls3xxz4fgvte6px279&dl=1",
+    "name": "12_Lec12-Transformers-and-LLM_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Transformer and LLM (Oct 17)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/aa5ea0hrc68cn3fh18nan/Lec13-LLM-Deployment.pdf?rlkey=gzq9yiddx4bnh14bxomtfmcoj&dl=1",
+    "name": "13_Lec13-LLM-Deployment_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Efficient LLM Deployment (Oct 22)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/ed32dovpq8no4571xmkzs/Lec14-LLM-Post-training.pdf?rlkey=5re66ef6shk3tr3v31ey6hzzo&st=d9n9h7ql&dl=1",
+    "name": "14_Lec14-LLM-Post-training_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 LLM Post Training (Oct 24)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/aorbruqhmbu3cpqtnbuyo/Lec15-Long-Context-LLM.pdf?rlkey=i7d5urg0m4mm96wc82nx76lgs&st=nssefmxf&dl=1",
+    "name": "15_Lec15-Long-Context-LLM_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Long Context LLM (Oct 29)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/lr3jlbzoa1du3og22wbiw/Lec16-Vision-Transformers.pdf?rlkey=6ejlatw4kpfzxgxg7zx2a6zo2&st=7btq6r53&dl=1",
+    "name": "16_Lec16-Vision-Transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Vision Transformer (Oct 31)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/6o45qs8xm20qhzkc192bv/Lec17-Efficient-GANs-Video-PointCloud.pdf?rlkey=71hrp50kjtl8zz8w7jntvbwn0&st=ywq378y5&dl=1",
+    "name": "17_Lec17-Efficient-GANs-Video-PointCloud_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 GAN, Video, and Point Cloud (Nov 5)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/f4end70haytw1nalboxp2/Lec18-Diffusion-Models.pdf?rlkey=emaxca812n2npb2rinq1nor64&st=ed3ziw4o&dl=1",
+    "name": "18_Lec18-Diffusion-Models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Diffusion Model (Nov 7)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/85ud2gzrtyllgeqgpv9gs/Lec19-Distributed-Training-I.pdf?rlkey=80t52w3peqqf8oanpc6ojmvnf&st=jn4yxsjy&dl=1",
+    "name": "19_Lec19-Distributed-Training-I_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 Distributed Training I (Nov 12)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/c0w7j7dxduuf8ply7lzeb/Lec20-Distributed-Training-II.pdf?rlkey=ynh3yx4jf99nojklt0ki7zh0y&st=vxzkzdt4&dl=1",
+    "name": "20_Lec20-Distributed-Training-II_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 Distributed Training II (Nov 14)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/35992g5bz2sa1hxo3dmn6/Lec21-On-Device-Training-And-Transfer-Learning.pdf?rlkey=yqym2zffstfrdsui371lkvael&st=sqmt0oro&dl=1",
+    "name": "21_Lec21-On-Device-Training-And-Transfer-Learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 On-Device Training and Transfer Learning (Nov 19)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/cn0wr4zxuv4hvpce81lo1/Course-Summary.pdf?rlkey=ycn79vnsu2n7395fz1v04khz0&st=z86d0rap&dl=1",
+    "name": "22_Course-Summary_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 Course Summary + Quantum Machine Learning I (Nov 21)"
+   },
+   {
+    "url": "https://www.dropbox.com/scl/fi/wxpnpwkrl6pw7lb4n4vrg/Lec23-Quantum-ML-II.pdf?rlkey=21msd9zdilhry5pydlkvbn7n4&st=aoyc9pzv&dl=1",
+    "name": "23_Lec23-Quantum-ML-II_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 23 Quantum Machine Learning II (Nov 26)"
+   }
+  ],
+  "expected_items": 23,
+  "completeness_note": "官方日程共 23 讲（Lecture 1–23），全部发布幻灯片，共 23 个 PDF 全部下载；四个“Chapter”分隔行、停课/感恩节与 3 次期末项目展示无讲义；第 22 讲文件名为 Course-Summary.pdf（课程总结 + 量子机器学习 I）。课程实验（Colab/Google Drive）未收。选 Fall 2024：官方课程列表中 Fall 2026 正在进行，未见 Fall 2025 版本。注意：第 1 讲 PDF 约 320 MB、第 18 讲约 194 MB，全套约 1.1 GB。",
+  "prereq": "6.191 Computation Structures 与 6.390 Intro to Machine Learning（官方页面所写；不满足者可提交同等经历申请）",
+  "coverage": "剪枝与稀疏、量化、神经架构搜索、知识蒸馏、微控制器 TinyML、Transformer/LLM 高效部署与后训练、长上下文、ViT、生成模型加速、分布式训练（数据/流水线/张量并行）、端侧训练与迁移学习",
+  "stage": "进阶（研究生）",
+  "language": "en",
+  "reason": "系统讲授量化（含 LLM 低比特权重量化 AWQ/SmoothQuant 等）、剪枝、蒸馏与分布式训练，直接支撑在有限算力和端侧设备上部署小语种模型、以蒸馏/量化降低本地化推理成本。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "16",
+   "07",
+   "09"
+  ]
+ },
+ {
+  "sid": "17-062",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "15-779",
+  "course_title": "Advanced Topics in Machine Learning Systems (LLM Edition)",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Zhihao Jia"
+  ],
+  "official_url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/",
+  "schedule_url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/schedule.html",
+  "verification_basis": "课程主页“15-779: Advanced Topics in Machine Learning Systems (LLM Edition)”，Instructor Zhihao Jia、TA Xinhao Cheng（https://www.cs.cmu.edu/~zhihaoj2/15-779/）；日程页 08/29（周五）至 12/05 与 2025 年日历一致，主页 Piazza 链接含 fall2025；学期为据此推定",
+  "dir_name": "CMU_15-779_MLSysLLM_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/01-course-introduction.pdf",
+    "name": "01_01-course-introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Course Introduction (08/29)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/02-MLSys-basics.pdf",
+    "name": "02_02-MLSys-basics_en.pdf",
+    "kind": "pdf",
+    "label": "Introduction to ML Systems (09/03)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/03-CUDA-programming.pdf",
+    "name": "03_03-CUDA-programming_en.pdf",
+    "kind": "pdf",
+    "label": "GPU Architecture and CUDA Programming (1)(2) (09/05, 09/10, shared deck)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/05-transformers-attention.pdf",
+    "name": "04_05-transformers-attention_en.pdf",
+    "kind": "pdf",
+    "label": "Case Study: Transformers, Attention, FlashAttention (09/12)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/06-warp-specialization.pdf",
+    "name": "05_06-warp-specialization_en.pdf",
+    "kind": "pdf",
+    "label": "Advanced CUDA Programming: Warp Specialization (09/17)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/07-mega-kernel.pdf",
+    "name": "06_07-mega-kernel_en.pdf",
+    "kind": "pdf",
+    "label": "Advanced CUDA Programming: Mega Kernel (09/19)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/08-ML-compilers-part-1.pdf",
+    "name": "07_08-ML-compilers-part-1_en.pdf",
+    "kind": "pdf",
+    "label": "ML Compilers Part 1: Tile-based DSL (09/24)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/09-ML-compilers-part-2.pdf",
+    "name": "08_09-ML-compilers-part-2_en.pdf",
+    "kind": "pdf",
+    "label": "ML Compilation: Kernel Auto-tuning (09/26)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/10-graph-level-optimizations.pdf",
+    "name": "09_10-graph-level-optimizations_en.pdf",
+    "kind": "pdf",
+    "label": "Advanced ML Compilation: Graph-Level Optimizations (10/01)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/11-kernel-superoptimization.pdf",
+    "name": "10_11-kernel-superoptimization_en.pdf",
+    "kind": "pdf",
+    "label": "Advanced ML Compilation: ML Superoptimization (10/03)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/12-ML-parallelization-part1.pdf",
+    "name": "11_12-ML-parallelization-part1_en.pdf",
+    "kind": "pdf",
+    "label": "ML Parallelization: Data Parallelism; ZeRO and FSDP (10/08, 10/10, shared deck)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/13-ML-parallelization-part2.pdf",
+    "name": "12_13-ML-parallelization-part2_en.pdf",
+    "kind": "pdf",
+    "label": "ML Parallelization: Model and Pipeline Parallelism (10/22)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/14-auto-parallelization.pdf",
+    "name": "13_14-auto-parallelization_en.pdf",
+    "kind": "pdf",
+    "label": "Automated ML Parallelization (10/24)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/15-LLM-serving-part1.pdf",
+    "name": "14_15-LLM-serving-part1_en.pdf",
+    "kind": "pdf",
+    "label": "LLM Serving: Batching, PagedAttention, RadixAttention (10/29)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/16-LLM-serving-part2.pdf",
+    "name": "15_16-LLM-serving-part2_en.pdf",
+    "kind": "pdf",
+    "label": "LLM Serving: Speculative Decoding (10/31)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/17-LLM-finetuning.pdf",
+    "name": "16_17-LLM-finetuning_en.pdf",
+    "kind": "pdf",
+    "label": "LLM Training: Parameter-Efficient Fine-Tuning (11/05)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~zhihaoj2/15-779/slides/18-mixture-of-experts.pdf",
+    "name": "17_18-mixture-of-experts_en.pdf",
+    "kind": "pdf",
+    "label": "LLMs: Mixture-of-Experts (11/19)"
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程 19 次有主题的讲课中 17 次为教师讲课，对应 17 个幻灯片 PDF（CUDA 编程两讲共用 03 号、数据并行与 ZeRO/FSDP 两讲共用 12 号，文件编号 04 缺失属官方编号），全部下载；11/12 Banghua Zhu、11/14 Mengzhou Xia 两次嘉宾讲座未发布幻灯片；项目讨论、停课与第 15 周无主题行无讲义。日程页未写年份，学期按日期与 Piazza 链接推定为 Fall 2025。",
+  "prereq": "官方页面未写明先修；内容默认已掌握深度学习基础、C/C++ 与计算机系统（如 15-213）",
+  "coverage": "ML 系统基础、GPU 架构与 CUDA 编程（warp specialization、mega kernel）、Triton 类 tile DSL 与 ML 编译、图级优化与超优化、数据/模型/流水线并行与 ZeRO/FSDP、自动并行、LLM 推理服务（连续批处理、PagedAttention、RadixAttention、投机解码）、参数高效微调系统、MoE",
+  "stage": "进阶研究（研究生）",
+  "language": "en",
+  "reason": "2025 年最新的 LLM 系统课，覆盖分布式训练、LoRA 类参数高效微调系统与 vLLM/SGLang 式推理服务，是为小语种模型做持续预训练、低成本适配与本地化服务部署的工程底座。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "16",
+   "07",
+   "08"
+  ]
+ },
+ {
+  "sid": "17-063",
+  "kind": "course",
+  "university": "University of California, San Diego",
+  "course_code": "DSC 204A",
+  "course_title": "Scalable Data Systems",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Hao Zhang"
+  ],
+  "official_url": "https://haoailab.com/dsc204a-f25/",
+  "schedule_url": "https://haoailab.com/dsc204a-f25/",
+  "verification_basis": "课程主页“DSC 204A: Scalable Data Systems, Fall 2025”，Instructor Hao Zhang（UC San Diego），日程表 Slides/Notes 列见 https://haoailab.com/dsc204a-f25/（原 hao-ai-lab.github.io/dsc204a-f25 301 跳转至此）",
+  "dir_name": "UCSD_DSC204A_ScalableDataSystems_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/1.%20Introduction.pdf",
+    "name": "01_1_Introduction_en.pdf",
+    "kind": "pdf",
+    "label": "L1 Introduction (Sep 26)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/2.%20basics-1.pdf",
+    "name": "02_2_basics-1_en.pdf",
+    "kind": "pdf",
+    "label": "L2 Computer organization, data representation, floating points (Sep 30)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/3.%20basics-2.pdf",
+    "name": "03_3_basics-2_en.pdf",
+    "kind": "pdf",
+    "label": "L3 Floating points, processors, memory hierarchy (Oct 2)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/4.%20basics-3.pdf",
+    "name": "04_4_basics-3_en.pdf",
+    "kind": "pdf",
+    "label": "L4 Cache, OS, scheduling (Oct 7)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/5.%20cloud.pdf",
+    "name": "05_5_cloud_en.pdf",
+    "kind": "pdf",
+    "label": "L5 Memory, cloud computing (Oct 9)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/6.%20network.pdf",
+    "name": "06_6_network_en.pdf",
+    "kind": "pdf",
+    "label": "L6 Cloud, network basics, collectives (Oct 14)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/7.%20collective-communication-1.pdf",
+    "name": "07_7_collective-communication-1_en.pdf",
+    "kind": "pdf",
+    "label": "L7 Collective communication 1 (Oct 16)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/8.%20collective-communication-2.pdf",
+    "name": "08_8_collective-communication-2_en.pdf",
+    "kind": "pdf",
+    "label": "L8 Collective communication 2, data warehouse (Oct 21)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/9.%20parallelism-1.pdf",
+    "name": "09_9_parallelism-1_en.pdf",
+    "kind": "pdf",
+    "label": "L9 Parallelism (Oct 23)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/10.%20parallelism-2.pdf",
+    "name": "10_10_parallelism-2_en.pdf",
+    "kind": "pdf",
+    "label": "L10 Batch processing, MapReduce (Oct 28)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/11.%20parallelism-3.pdf",
+    "name": "11_11_parallelism-3_en.pdf",
+    "kind": "pdf",
+    "label": "L11 Streaming processing, RDD, Spark (Oct 30)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/12.%20mlsys-1.pdf",
+    "name": "12_12_mlsys-1_en.pdf",
+    "kind": "pdf",
+    "label": "L12 MLsys overview, DL libraries (Nov 4)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/13.%20mlsys-2.pdf",
+    "name": "13_13_mlsys-2_en.pdf",
+    "kind": "pdf",
+    "label": "L17 Autodiff, MLsys overview, LLM architectures (Nov 25)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/14.%20mlsys-3.pdf",
+    "name": "14_14_mlsys-3_en.pdf",
+    "kind": "pdf",
+    "label": "L18 LLM, attention (Dec 2)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/15.%20mlsys-4.pdf",
+    "name": "15_15_mlsys-4_en.pdf",
+    "kind": "pdf",
+    "label": "L19 LLM inference and serving (Dec 4)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/16.%20mlsys-5.pdf",
+    "name": "16_16_mlsys-5_en.pdf",
+    "kind": "pdf",
+    "label": "L19 make-up: PagedAttention, ML parallelisms, deck 1 (Dec 11)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/slides/17.%20mlsys-6.pdf",
+    "name": "17_17_mlsys-6_en.pdf",
+    "kind": "pdf",
+    "label": "L19 make-up: PagedAttention, ML parallelisms, deck 2 (Dec 11)"
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/sep30_scribe.pdf",
+    "name": "scribe_sep30_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes sep30",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct2_scribe.pdf",
+    "name": "scribe_oct2_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct2",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct7_scribe.pdf",
+    "name": "scribe_oct7_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct7",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct9_scribe.pdf",
+    "name": "scribe_oct9_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct9",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct14_scribe.pdf",
+    "name": "scribe_oct14_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct14",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct16_scribe.pdf",
+    "name": "scribe_oct16_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct16",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct21_scribe.pdf",
+    "name": "scribe_oct21_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct21",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct23_scribe.pdf",
+    "name": "scribe_oct23_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct23",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct28_scribe.pdf",
+    "name": "scribe_oct28_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct28",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/oct30_scribe.pdf",
+    "name": "scribe_oct30_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes oct30",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/nov4_scribe.pdf",
+    "name": "scribe_nov4_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes nov4",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/nov6_scribe.pdf",
+    "name": "scribe_nov6_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes nov6 (guest lecture, no slides)",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/nov13_scribe.pdf",
+    "name": "scribe_nov13_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes nov13 (guest lecture, no slides)",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/nov18_scribe.pdf",
+    "name": "scribe_nov18_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes nov18 (guest lecture, no slides)",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/nov20_scribe.pdf",
+    "name": "scribe_nov20_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes nov20 (guest lecture, no slides)",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/nov25_scribe.pdf",
+    "name": "scribe_nov25_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes nov25",
+    "aux": true
+   },
+   {
+    "url": "https://haoailab.com/dsc204a-f25/assets/scribe_notes/dec2_scribe.pdf",
+    "name": "scribe_dec2_en.pdf",
+    "kind": "pdf",
+    "label": "Student scribe notes dec2",
+    "aux": true
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程共 19 个讲次编号（另有 12/11 补课），其中教师讲课 15 讲 + 补课共发布 17 份幻灯片 PDF（补课两份），全部下载；11/06、11/13、11/18、11/20 四次嘉宾讲座官方只发布学生 scribe 笔记、无幻灯片。官方发布的 17 份 scribe 笔记一并下载（aux，含四次嘉宾讲座笔记）。与同一教师的 CSE 234（兄弟库已有 W25）为不同课程。",
+  "prereq": "官方页面未列先修；内容面向数据科学研究生，默认具备编程、操作系统与机器学习基础",
+  "coverage": "计算机组成与浮点表示、存储层次、操作系统调度、云计算与网络、集合通信（all-reduce 等）、并行与 MapReduce/Spark、ML 系统与深度学习框架、自动微分、LLM 架构与注意力、LLM 推理服务、PagedAttention 与模型并行",
+  "stage": "进阶（研究生）",
+  "language": "en",
+  "reason": "从硬件、云与集合通信讲到 LLM 分布式训练与推理服务，帮助小语种团队理解大规模语料处理（MapReduce/Spark）和多卡训练/部署的系统代价，便于在有限预算下规划集群与服务。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "16",
+   "05"
+  ]
+ },
+ {
+  "sid": "17-064",
+  "kind": "course",
+  "university": "Cornell University",
+  "course_code": "CS 4787/5777",
+  "course_title": "Principles of Large-Scale Machine Learning Systems",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Christopher De Sa"
+  ],
+  "official_url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/",
+  "schedule_url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/",
+  "verification_basis": "Cornell 官方课程页“CS4787/5777: Principles of Large-Scale Machine Learning, Fall 2025”，Instructor Christopher De Sa，日程表 Notes/Notebook/HTML/Slides 链接见 https://www.cs.cornell.edu/courses/cs4787/2025fa/",
+  "dir_name": "Cornell_CS4787_LargeScaleML_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture1.pdf",
+    "name": "lecture01_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction and course overview (notes PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture2.html",
+    "name": "lecture02_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 2 Efficient linear algebra with NumPy (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture3.html",
+    "name": "lecture03_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 3 Software for learning with gradients; backpropagation (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture4.html",
+    "name": "lecture04_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 4 Machine learning frameworks (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture5.html",
+    "name": "lecture05_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 5 Gradient descent and SGD (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture6.html",
+    "name": "lecture06_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 6 Adapting algorithms to hardware; minibatching (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture7.html",
+    "name": "lecture07_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 7 Accelerating SGD with momentum (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture8.html",
+    "name": "lecture08_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 8 Preconditioning and adaptive learning rates (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture9.html",
+    "name": "lecture09_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 9 Sparsity and dimension reduction (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture9-demo.html",
+    "name": "lecture09_demo_en.html",
+    "kind": "html",
+    "label": "Lecture 9 demo notebook (HTML)",
+    "aux": true
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture10.html",
+    "name": "lecture10_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 10 Deep neural network review; overparameterization (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture11.html",
+    "name": "lecture11_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 11 Transformers and sequence models (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture12.html",
+    "name": "lecture12_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 12 Hyperparameter optimization (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture13.html",
+    "name": "lecture13_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 13 Scaling laws (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture15.html",
+    "name": "lecture15_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 15 Parallelism (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture16.html",
+    "name": "lecture16_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 16 Memory locality and memory bandwidth (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture16-demo.html",
+    "name": "lecture16_demo_en.html",
+    "kind": "html",
+    "label": "Lecture 16 demo notebook (HTML)",
+    "aux": true
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture17.pdf",
+    "name": "lecture17_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 Floating-point arithmetic; low-precision ML (notes PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture18.pdf",
+    "name": "lecture18_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 GPU parallelism: kernels and warps (notes PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture19.html",
+    "name": "lecture19_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 19 GPU parallelism 2: CUDA, TensorCores, NVLink (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture19-demo.html",
+    "name": "lecture19_demo_en.html",
+    "kind": "html",
+    "label": "Lecture 19 demo notebook (HTML)",
+    "aux": true
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture20.html",
+    "name": "lecture20_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 20 Distributed learning and the parameter server (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture20-slides.pdf",
+    "name": "lecture20_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 slides PDF (in addition to notebook)",
+    "aux": true
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture21-slides.pdf",
+    "name": "lecture21_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 Distributed learning 2; FSDP; distributed inference (slides PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture22-slides.pdf",
+    "name": "lecture22_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 ML on hardware beyond GPUs; ML accelerators (slides PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture23-slides.pdf",
+    "name": "lecture23_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 23 Deployment, low-latency inference, real-time learning, compression and pruning (slides PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture24.pdf",
+    "name": "lecture24_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 24 Foundation models; transfer learning; in-context learning; fine-tuning (notes PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture25.pdf",
+    "name": "lecture25_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 25 Online learning; multimodal learning and tokenization (notes PDF)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture26.html",
+    "name": "lecture26_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 26 Alternatives to autoregressive transformers: diffusion and state-space models (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture27.html",
+    "name": "lecture27_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 27 The future of machine learning; competitors to the transformer (rendered lecture notebook HTML)"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs4787/2025fa/lectures/lecture28.html",
+    "name": "lecture28_notebook_en.html",
+    "kind": "html",
+    "label": "Lecture 28 Final exam review; course summary (rendered lecture notebook HTML)"
+   }
+  ],
+  "expected_items": 27,
+  "completeness_note": "官方日程 28 讲中 27 讲有讲义，全部下载：5 讲为讲义 PDF（1、17、18、24、25），3 讲为幻灯片 PDF（21–23），19 讲为官方渲染的讲义笔记本 HTML（同讲 .ipynb 仅以 JupyterLite 在线形式提供，HTML 为其完整渲染版）；第 14 讲（期中复习）只有 Jeopardy 复习链接、无讲义。第 20 讲另有幻灯片 PDF、第 9/16/19 讲另有演示笔记本 HTML，作为 aux 一并下载。HTML 页面引用 cdnjs 上的 require.js/MathJax 脚本，离线显示公式可能需联网。",
+  "prereq": "CS3780 或同等（机器学习导论），CS 2110 或同等（官方页面所写）",
+  "coverage": "NumPy 高效线性代数、自动微分与 ML 框架、SGD/动量/自适应学习率、稀疏与降维、Transformer、超参数优化、缩放律、并行与内存局部性、低精度浮点、GPU/CUDA/TensorCore、参数服务器与 FSDP 分布式训练、加速器、低延迟部署与压缩剪枝、基础模型微调与上下文学习、分词与多模态、扩散与状态空间模型",
+  "stage": "本科高年级/研究生入门",
+  "language": "en",
+  "reason": "以可执行讲义笔记本把优化算法、低精度、GPU 并行与分布式训练串起来，适合作为小语种模型团队从算法到大规模训练系统的入门过渡，尤其是低精度与压缩部署对资源受限场景直接有用。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "16",
+   "01",
+   "07"
+  ]
+ },
+ {
+  "sid": "17-065",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CS 229S",
+  "course_title": "Systems for Machine Learning",
+  "term": "Fall 2023",
+  "term_year": 2023,
+  "instructors": [
+   "Azalia Mirhoseini",
+   "Simran Arora"
+  ],
+  "official_url": "https://cs229s.stanford.edu/fall2023/",
+  "schedule_url": "https://cs229s.stanford.edu/fall2023/calendar/",
+  "verification_basis": "课程主页“CS 229S - Systems for Machine Learning”（/fall2023/），Course Creators and Instructors Azalia Mirhoseini、Simran Arora；日程页 https://cs229s.stanford.edu/fall2023/calendar/ 每讲 Slides 链接指向公开 Google Slides，用 Google Slides 自带的 /export/pdf 导出同一幻灯片",
+  "dir_name": "Stanford_CS229S_SystemsForML_2023Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://docs.google.com/presentation/d/1-Ak4_aiS6prtXECuDT3vUWojuTawrwZYea8d87yGsbA/export/pdf",
+    "name": "01_Introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Introduction (Sep 27, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/1-Ak4_aiS6prtXECuDT3vUWojuTawrwZYea8d87yGsbA/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1Pqu-TYLSnL9XNXF6BHlWahEtgNGNbm1lwQzpgxduJJc/export/pdf",
+    "name": "02_TransformerArchitecture_en.pdf",
+    "kind": "pdf",
+    "label": "Transformer Architecture (Oct 02, Simran Arora); official link https://docs.google.com/presentation/d/1Pqu-TYLSnL9XNXF6BHlWahEtgNGNbm1lwQzpgxduJJc/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/14hK7SmkUNfSEIRGyptFD2bGO7K9sJOTnwjAVg3vgg6g/export/pdf",
+    "name": "03_HardwareAwareAlgorithmDesign_en.pdf",
+    "kind": "pdf",
+    "label": "Hardware Aware Algorithm Design (Oct 04, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/14hK7SmkUNfSEIRGyptFD2bGO7K9sJOTnwjAVg3vgg6g/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1PV0cKnzcHRCAbJy3OtER1UdJME7T7WBEqLLYmKWJR4g/export/pdf",
+    "name": "04_AnalyzingthePerformanceofTransformers_en.pdf",
+    "kind": "pdf",
+    "label": "Analyzing the Performance of Transformers (Oct 09, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/1PV0cKnzcHRCAbJy3OtER1UdJME7T7WBEqLLYmKWJR4g/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1kY5MOOJfWny7SvV4D7YeSAulOTMnnVJTKKG5DQYLid0/export/pdf",
+    "name": "05_HardwareAwareAlgorithmDesignII_en.pdf",
+    "kind": "pdf",
+    "label": "Hardware Aware Algorithm Design II (Oct 11, Simran Arora); official link https://docs.google.com/presentation/d/1kY5MOOJfWny7SvV4D7YeSAulOTMnnVJTKKG5DQYLid0/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1j_FYRlEirVIPLhE0HlsvjE_QckLpLfEFx7Ims6KU61o/export/pdf",
+    "name": "06_MemoryEfficientNeuralNetworks_en.pdf",
+    "kind": "pdf",
+    "label": "Memory Efficient Neural Networks (Oct 16, Simran Arora); official link https://docs.google.com/presentation/d/1j_FYRlEirVIPLhE0HlsvjE_QckLpLfEFx7Ims6KU61o/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1_qWfYaYTsxk89epNDNBlB9-gZLbrh2xKllavzis-iOs/export/pdf",
+    "name": "07_AdaptingLargeLanguageModels_en.pdf",
+    "kind": "pdf",
+    "label": "Adapting Large Language Models (Oct 18, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/1_qWfYaYTsxk89epNDNBlB9-gZLbrh2xKllavzis-iOs/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/14SxjHdkvIw80FCAu5c1NGvFKDVF5DgvD2MJ1OwQ-5Gs/export/pdf",
+    "name": "08_ParallelismFundamentals_en.pdf",
+    "kind": "pdf",
+    "label": "Parallelism Fundamentals (Oct 25, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/14SxjHdkvIw80FCAu5c1NGvFKDVF5DgvD2MJ1OwQ-5Gs/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1wrQO4uzwWr73SGj7aFxeVR9Cz0PY-mzJipn12enM39k/export/pdf",
+    "name": "09_EfficientAttention-FreeArchitectures_en.pdf",
+    "kind": "pdf",
+    "label": "Efficient Attention-Free Architectures (Nov 01, Simran Arora); official link https://docs.google.com/presentation/d/1wrQO4uzwWr73SGj7aFxeVR9Cz0PY-mzJipn12enM39k/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/1JTdtUhbDEmMVd42qDvT4CArI95ASU9U4UZ4ljTDmifc/export/pdf",
+    "name": "10_AdaptingLargeLanguageModelsII_en.pdf",
+    "kind": "pdf",
+    "label": "Adapting Large Language Models II (Nov 08, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/1JTdtUhbDEmMVd42qDvT4CArI95ASU9U4UZ4ljTDmifc/edit"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/12BUjwe8hr1ofHozLWO41D_aNG_JyC8zeQclfrwKrxE0/export/pdf",
+    "name": "11_SchedulingMLClusters_en.pdf",
+    "kind": "pdf",
+    "label": "Scheduling ML Clusters (Nov 29, Azalia Mirhoseini); official link https://docs.google.com/presentation/d/12BUjwe8hr1ofHozLWO41D_aNG_JyC8zeQclfrwKrxE0/edit"
+   }
+  ],
+  "expected_items": 11,
+  "completeness_note": "官方日程 21 行中 11 讲由教师讲授并发布幻灯片（Google Slides），全部以 PDF 导出下载；Tim Dettmers、Deepak Narayanan、Ce Zhang、William Fedus、Chris Ré、Tianqi Chen 六次嘉宾讲座无幻灯片（部分仅有 YouTube 链接）；12/4“Data Pipelines”、12/6“Research for ML Systems”两讲的 slides 链接为占位符“#”，官方未发布；感恩节两次停课。fall2024 页面仅复制了其中 9 份同一幻灯片，未见新学期独立讲义，故用 Fall 2023。",
+  "prereq": "CS106A/B/X 级 Python/NumPy 编程，CS109/MATH151/STATS116 级概率，MATH51/CS205 级多元微积分与线性代数；最好修过 CS221/CS229/CS230/CS124 等机器学习基础（官方页面所写）",
+  "coverage": "Transformer 架构与性能分析、硬件感知算法设计（FlashAttention 类）、内存高效网络（量化/稀疏）、LLM 适配（PEFT/蒸馏等）、并行基础、无注意力高效架构（状态空间模型等）、ML 集群调度",
+  "stage": "进阶（研究生）",
+  "language": "en",
+  "reason": "Stanford 首开的 LLM 时代系统课，聚焦硬件感知算法、内存高效与 LLM 适配，帮助在有限 GPU 上为小语种做高效微调与长序列/低成本推理。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "16",
+   "08",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-066",
+  "kind": "course",
+  "university": "The Hong Kong University of Science and Technology",
+  "course_code": "COMP 4901B",
+  "course_title": "Large Language Models",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Junxian He"
+  ],
+  "official_url": "https://jxhe.github.io/teaching/comp4901bf25",
+  "schedule_url": "https://jxhe.github.io/teaching/comp4901bf25",
+  "verification_basis": "教师主页课程页“Large Language Models (COMP 4901B), Fall 2025, HKUST”，Instructor Junxian He，日程表讲义链接见 https://jxhe.github.io/teaching/comp4901bf25",
+  "dir_name": "HKUST_COMP4901B_LLMs_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture0.pdf",
+    "name": "00_lecture0_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 0 Introduction to Large Language Models (03/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture1.pdf",
+    "name": "01_lecture1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Machine Learning Basics (05/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture2.pdf",
+    "name": "02_lecture2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Language Model (10/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture2_annotated.pdf",
+    "name": "02_lecture2_annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture3.pdf",
+    "name": "03_lecture3_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Neural Networks and Transformers (12/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture3_annotated.pdf",
+    "name": "03_lecture3_annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture4_transformer.pdf",
+    "name": "04_lecture4_transformer_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Transformers (17/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture4_transformer_annotated.pdf",
+    "name": "04_lecture4_transformer_annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture5_pretraining.pdf",
+    "name": "05_lecture5_pretraining_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Pretraining: Objectives and Data Curation (19/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture5_pretraining-annotated.pdf",
+    "name": "05_lecture5_pretraining-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture6_finetune.pdf",
+    "name": "06_lecture6_finetune_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Adapting Large Language Models (26/09)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture6_finetune-annotated.pdf",
+    "name": "06_lecture6_finetune-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture7_eval.pdf",
+    "name": "07_lecture7_eval_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Evaluation of Large Language Models (03/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture8_sft.pdf",
+    "name": "08_lecture8_sft_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Instruction Tuning and Alignment (08/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture8_sft-annotated.pdf",
+    "name": "08_lecture8_sft-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture9_sft2.pdf",
+    "name": "09_lecture9_sft2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Instruction Tuning and Alignment II (10/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture9_sft2-annotated.pdf",
+    "name": "09_lecture9_sft2-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture10-rl.pdf",
+    "name": "10_lecture10-rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Reinforcement Learning Basics (15/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture10-rl-annotated.pdf",
+    "name": "10_lecture10-rl-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture11-rl2.pdf",
+    "name": "11_lecture11-rl2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 RLHF (17/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture11-rl2-annotated.pdf",
+    "name": "11_lecture11-rl2-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture12-scaling.pdf",
+    "name": "12_lecture12-scaling_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Scaling Laws (22/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture12-scaling-annotated.pdf",
+    "name": "12_lecture12-scaling-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture13-reasoning.pdf",
+    "name": "13_lecture13-reasoning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Chain-of-Thought Reasoning (24/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture13-reasoning-annotated.pdf",
+    "name": "13_lecture13-reasoning-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture14-reasoning2.pdf",
+    "name": "14_lecture14-reasoning2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Deep Reasoning Models (31/10)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture14-reasoning2-annotated.pdf",
+    "name": "14_lecture14-reasoning2-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture15-synthetic-data.pdf",
+    "name": "15_lecture15-synthetic-data_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Synthetic Data Training: Data Synthesis and Distillation (05/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture15-synthetic-data-annotated.pdf",
+    "name": "15_lecture15-synthetic-data-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture16-agent-tool.pdf",
+    "name": "16_lecture16-agent-tool_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 LLM Agents (07/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture16-agent-tool-annotated.pdf",
+    "name": "16_lecture16-agent-tool-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture17-agent-tool2.pdf",
+    "name": "17_lecture17-agent-tool2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 LLM Agents II (12/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture17-agent-tool2-annotated.pdf",
+    "name": "17_lecture17-agent-tool2-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture18-bias.pdf",
+    "name": "18_lecture18-bias_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 LLM Bias and Safety (14/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture18-bias-annotated.pdf",
+    "name": "18_lecture18-bias-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture19-bias2.pdf",
+    "name": "19_lecture19-bias2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 LLM Safety, Attack, and Defense (19/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture19-bias2-annotated.pdf",
+    "name": "19_lecture19-bias2-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture20-rag.pdf",
+    "name": "20_lecture20-rag_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 Hallucination and RAG (24/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture20-rag-annotated.pdf",
+    "name": "20_lecture20-rag-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture21-rag-sparse.pdf",
+    "name": "21_lecture21-rag-sparse_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 RAG and MoE LLMs (26/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture21-rag-sparse-annotated.pdf",
+    "name": "21_lecture21-rag-sparse-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 annotated (in-class ink) version",
+    "aux": true
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture22-sparse.pdf",
+    "name": "22_lecture22-sparse_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 MoE LLMs, Vibe Coding, and Review (28/11)"
+   },
+   {
+    "url": "https://jxhe.github.io/teaching/comp4901Bf25/lecture22-sparse-annotated.pdf",
+    "name": "22_lecture22-sparse-annotated_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 annotated (in-class ink) version",
+    "aux": true
+   }
+  ],
+  "expected_items": 23,
+  "completeness_note": "官方日程 Lecture 0–22 共 23 讲均发布幻灯片 PDF，全部下载；其中 20 讲另有课堂手写批注版（annotated），一并下载并标 aux（第 0、1、7 讲无批注版）。作业发布/截止行、因天气停课一次、国庆与重阳节假期无讲义。",
+  "prereq": "须修过机器学习课程，了解机器学习与深度学习基础（官方页面所写）",
+  "coverage": "语言模型与 Transformer、预训练目标与数据清洗、模型适配、LLM 评测、指令微调与对齐、强化学习与 RLHF、缩放律、思维链与深度推理模型、合成数据与蒸馏、LLM 智能体与工具、偏见与安全攻防、幻觉与 RAG、MoE",
+  "stage": "本科高年级/研究生入门",
+  "language": "en",
+  "reason": "一门 2025 年完整的 LLM 全流程课，单设预训练数据清洗、评测、合成数据与蒸馏、RAG 专讲，正对应小语种 LLM 开发中“数据少—靠合成/蒸馏补—本地评测”的关键环节；来自亚洲高校，补充美国名校之外的视角。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "07",
+   "08",
+   "09",
+   "10",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-067",
+  "kind": "course",
+  "university": "University of Virginia",
+  "course_code": "CS 6501",
+  "course_title": "Natural Language Processing (Large Language Models)",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Yu Meng"
+  ],
+  "official_url": "https://yumeng5.github.io/teaching/2025-spring-cs6501",
+  "schedule_url": "https://yumeng5.github.io/teaching/2025-spring-cs6501",
+  "verification_basis": "教师主页课程页“CS 6501 Natural Language Processing (Spring 2025)”，University of Virginia，Instructor Yu Meng、TA Peng Wang，日程表 Slides 列见 https://yumeng5.github.io/teaching/2025-spring-cs6501",
+  "dir_name": "UVA_CS6501_NLP-LLMs_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/overview.pdf",
+    "name": "01_overview_en.pdf",
+    "kind": "pdf",
+    "label": "Course Overview (1/13)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/lm_basics.pdf",
+    "name": "02_lm_basics_en.pdf",
+    "kind": "pdf",
+    "label": "Language Model Architecture (1/15)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/pretrain_finetune.pdf",
+    "name": "03_pretrain_finetune_en.pdf",
+    "kind": "pdf",
+    "label": "Language Model Pretraining & Fine-Tuning (1/22)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/icl.pdf",
+    "name": "04_icl_en.pdf",
+    "kind": "pdf",
+    "label": "In-Context Learning (1/27)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/scaling.pdf",
+    "name": "05_scaling_en.pdf",
+    "kind": "pdf",
+    "label": "Scaling and Emergent Ability (1/29)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/cot.pdf",
+    "name": "06_cot_en.pdf",
+    "kind": "pdf",
+    "label": "Chain-of-Thought Prompting (2/5)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/guest_lecture_shi.pdf",
+    "name": "07_guest_lecture_shi_en.pdf",
+    "kind": "pdf",
+    "label": "Guest Lecture (Weijia Shi): Beyond Monolithic Language Models (2/10)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/inf_scale.pdf",
+    "name": "08_inf_scale_en.pdf",
+    "kind": "pdf",
+    "label": "Inference-Time Scaling (2/12)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/knowledge.pdf",
+    "name": "09_knowledge_en.pdf",
+    "kind": "pdf",
+    "label": "Parametric Knowledge in Language Models (2/17)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/rag.pdf",
+    "name": "10_rag_en.pdf",
+    "kind": "pdf",
+    "label": "Retrieval-Augmented Language Generation (2/19)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/long_context.pdf",
+    "name": "11_long_context_en.pdf",
+    "kind": "pdf",
+    "label": "Long Context Language Models (2/24)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/efficiency.pdf",
+    "name": "12_efficiency_en.pdf",
+    "kind": "pdf",
+    "label": "Efficiency (3/3)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/rlhf.pdf",
+    "name": "13_rlhf_en.pdf",
+    "kind": "pdf",
+    "label": "RLHF (3/5)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/code_lm.pdf",
+    "name": "14_code_lm_en.pdf",
+    "kind": "pdf",
+    "label": "Language Models for Code (3/17)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/guest_lecture_xiong.pdf",
+    "name": "15_guest_lecture_xiong_en.pdf",
+    "kind": "pdf",
+    "label": "Guest Lecture (Wei Xiong): Building Math Agent with Multi-turn Preference Learning (3/19)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/agent.pdf",
+    "name": "16_agent_en.pdf",
+    "kind": "pdf",
+    "label": "Language Agent Basics (3/24)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/multimodal.pdf",
+    "name": "17_multimodal_en.pdf",
+    "kind": "pdf",
+    "label": "Multimodal Language Models (3/26)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/guest_lecture_si.pdf",
+    "name": "18_guest_lecture_si_en.pdf",
+    "kind": "pdf",
+    "label": "Guest Lecture (Chenglei Si): How Far Are We From Automating AI Research? (3/31)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/guest_lecture_xia.pdf",
+    "name": "19_guest_lecture_xia_en.pdf",
+    "kind": "pdf",
+    "label": "Guest Lecture (Mengzhou Xia): Advancing the Pareto Frontier of Open Language Models (4/2)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/security.pdf",
+    "name": "20_security_en.pdf",
+    "kind": "pdf",
+    "label": "Security and Jailbreaking (4/9)"
+   },
+   {
+    "url": "https://yumeng5.github.io/teaching/2025-spring-cs6501/privacy.pdf",
+    "name": "21_privacy_en.pdf",
+    "kind": "pdf",
+    "label": "Privacy and Legal Issues (4/14)"
+   }
+  ],
+  "expected_items": 21,
+  "completeness_note": "官方日程 24 次讲课中 21 次发布幻灯片（17 次教师讲课 + 4 次嘉宾讲座），全部下载；Ruiqi Zhong（2/3）、Yangsibo Huang（2/26）、Sadhika Malladi（4/7）三次嘉宾讲座未发布幻灯片；MLK 假期、春假、项目展示与停课无讲义。",
+  "prereq": "官方页面未列先修；研究生课程，默认具备机器学习/深度学习与 NLP 基础",
+  "coverage": "LM 架构、预训练与微调、上下文学习、缩放与涌现、思维链、推理时扩展、参数知识、RAG、长上下文、效率、RLHF、代码 LM、语言智能体、多模态 LM、安全越狱、隐私与法律问题，另含 4 次前沿嘉宾讲座",
+  "stage": "进阶研究（研究生）",
+  "language": "en",
+  "reason": "以 LLM 为中心的研究生专题课，覆盖知识注入、RAG、长上下文、RLHF 与隐私/版权，帮助小语种开发者把握预训练—适配—评测各环节的前沿方法及数据合规风险。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "08",
+   "10",
+   "11",
+   "12",
+   "04"
+  ]
+ }
+]

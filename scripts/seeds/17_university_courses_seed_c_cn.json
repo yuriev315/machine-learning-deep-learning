@@ -1,0 +1,1609 @@
+[
+ {
+  "sid": "17-041",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-737",
+  "course_title": "Multilingual Natural Language Processing",
+  "term": "Fall 2023",
+  "term_year": 2023,
+  "instructors": [
+   "Lei Li"
+  ],
+  "official_url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/",
+  "schedule_url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/",
+  "verification_basis": "CMU 教师主页课程页标题“CMU 11-737: Multilingual Natural Language Processing”，Fall 2023，教师 Lei Li（页首 Instructor 链接 www.cs.cmu.edu/~leili），日程表与幻灯片链接均在该页（同内容镜像 lileicc.github.io/course/11737mnlp23fa）",
+  "dir_name": "CMU_11-737_MultilingualNLP_2023Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-01-intro.pdf",
+    "name": "01_multiling-01-intro_en.pdf",
+    "kind": "pdf",
+    "label": "L1 Introduction (8/29)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-02-typology.pdf",
+    "name": "02_multiling-02-typology_en.pdf",
+    "kind": "pdf",
+    "label": "L2 Typology: The Space of Languages"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-03-word.pdf",
+    "name": "03_multiling-03-word_en.pdf",
+    "kind": "pdf",
+    "label": "L3 Words and Morphology"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-04-seqlabeling.pdf",
+    "name": "04_multiling-04-seqlabeling_en.pdf",
+    "kind": "pdf",
+    "label": "L4 Sequence Labeling"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-05-mt.pdf",
+    "name": "05_multiling-05-mt_en.pdf",
+    "kind": "pdf",
+    "label": "L5 Machine Translation Overview and Evaluation"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-06-mtmodel.pdf",
+    "name": "06_multiling-06-mtmodel_en.pdf",
+    "kind": "pdf",
+    "label": "L6 Neural Machine Translation Models"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-07-decoding.pdf",
+    "name": "07_multiling-07-decoding_en.pdf",
+    "kind": "pdf",
+    "label": "L7 Sequence Decoding"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-08-unmt.pdf",
+    "name": "08_multiling-08-unmt_en.pdf",
+    "kind": "pdf",
+    "label": "L8 Semi-supervised and Unsupervised MT"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-09-mnmt.pdf",
+    "name": "09_multiling-09-mnmt_en.pdf",
+    "kind": "pdf",
+    "label": "L9 Multilingual NMT"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-10-mnmt-pretrain-joint-train.pdf",
+    "name": "10_multiling-10-mnmt-pretrain-joint-train_en.pdf",
+    "kind": "pdf",
+    "label": "L10 Pre-training for NMT"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-11-speech.pdf",
+    "name": "11_multiling-11-speech_en.pdf",
+    "kind": "pdf",
+    "label": "L11 Speech Processing"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-12-asr.pdf",
+    "name": "12_multiling-12-asr_en.pdf",
+    "kind": "pdf",
+    "label": "L12 End-to-end Speech Recognition"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-13-tts.pdf",
+    "name": "13_multiling-13-tts_en.pdf",
+    "kind": "pdf",
+    "label": "L13 Text-to-speech"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-14-speech-pre-training.pdf",
+    "name": "14_multiling-14-speech-pre-training_en.pdf",
+    "kind": "pdf",
+    "label": "L14 Speech Representation Learning"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-15-speech-translation.pdf",
+    "name": "15_multiling-15-speech-translation_en.pdf",
+    "kind": "pdf",
+    "label": "L15 Speech Translation"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-16-streaming-st.pdf",
+    "name": "16_multiling-16-streaming-st_en.pdf",
+    "kind": "pdf",
+    "label": "L16 Streaming Speech Translation"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-18-languagechange-codeswitching.pdf",
+    "name": "17_multiling-18-languagechange-codeswitching_en.pdf",
+    "kind": "pdf",
+    "label": "L18 Language Contact and Change, Code Switching, Pidgins, Creoles"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-20-metrics-and-InstructScore.pdf",
+    "name": "18_multiling-20-metrics-and-InstructScore_en.pdf",
+    "kind": "pdf",
+    "label": "L20 Learned Metrics"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-22-vocabulary_learning.pdf",
+    "name": "19_multiling-22-vocabulary_learning_en.pdf",
+    "kind": "pdf",
+    "label": "L22 Vocabulary Learning"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-23-NAT.pdf",
+    "name": "20_multiling-23-NAT_en.pdf",
+    "kind": "pdf",
+    "label": "L23 Non-Autoregressive Generation Models"
+   }
+  ],
+  "expected_items": 20,
+  "completeness_note": "官方日程共 24 次编号讲课另加 12/7“Image-Text Modeling for Multilingual NLP”一次（不含秋假、Democracy Day、感恩节与海报展示）。官方发布幻灯片 20 份，全部下载（第 23 讲 NAT 的幻灯片链接在源码中错位放在感恩节一行，按文件名归入第 23 讲）。未发布幻灯片：L17 Juan Pino（Meta）嘉宾讲座、L19 形态分析与屈折（可能的嘉宾讲座）、L21 Colin Cherry（Google）“LLM for MT”嘉宾讲座、L24 Stephen Mayhew（Duolingo）嘉宾讲座、12/7 图文建模（单元格写有 Slides 但无链接）。TTS 课的 notebook 与 FastSpeech2 代码为代码材料，未收。",
+  "prereq": "官方课程页未列出硬性先修（待核实）；课程默认学过 NLP/深度学习基础并能用 Python/PyTorch 完成 MT 与 ASR 作业",
+  "coverage": "语言类型学、词与形态、序列标注、机器翻译评测与模型、解码、半监督/无监督 MT、多语言 NMT 与预训练、语音识别/合成/语音翻译、语言接触与语码转换、学习型评测指标、词表学习、非自回归生成",
+  "stage": "研究生进阶",
+  "language": "en",
+  "reason": "CMU LTI 的多语言 NLP 专门课，从类型学、形态到多语言 MT、低资源语音与词表学习，直接对应小语种模型开发中的跨语言迁移、分词词表与评测问题。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "02",
+   "03",
+   "06",
+   "09",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-042",
+  "kind": "course",
+  "university": "Johns Hopkins University",
+  "course_code": "EN 601.468/668",
+  "course_title": "Machine Translation",
+  "term": "Fall 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Philipp Koehn"
+  ],
+  "official_url": "https://mt-class.org/jhu/",
+  "schedule_url": "http://mt-class.org/jhu/syllabus.html",
+  "verification_basis": "课程主页 mt-class.org/jhu 标题“EN 601.468/668 Machine Translation, Fall 2026, Computer Science Department, Johns Hopkins University”，Instructor Philipp Koehn；Syllabus 页逐讲列出幻灯片（https 证书主机名不符，幻灯片按官方页面原样使用 http 链接下载）",
+  "dir_name": "JHU_601-468_MachineTranslation_2026Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-introduction.pdf",
+    "name": "01_lecture-introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 01 Introduction"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-foundations.pdf",
+    "name": "02_lecture-foundations_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 03 Basics in Language and Probability"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-lm.pdf",
+    "name": "03_lecture-lm_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 08 Language Models"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf",
+    "name": "04_lecture-ibm-model1_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 10 IBM Model 1 and the EM Algorithm"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-phrase-based-models-and-decoding.pdf",
+    "name": "05_lecture-phrase-based-models-and-decoding_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 15 Phrase-Based Models and Decoding"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-evaluation.pdf",
+    "name": "06_lecture-evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 17 Evaluation"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-nn-intro.pdf",
+    "name": "07_lecture-nn-intro_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 22 Introduction to Neural Networks"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf",
+    "name": "08_lecture-nn-computation-graphs_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 24 Computation Graphs"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-nn-lm.pdf",
+    "name": "09_lecture-nn-lm_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 29 Neural Language Models"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-nmt.pdf",
+    "name": "10_lecture-nmt_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 01 Neural Translation Models"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf",
+    "name": "11_lecture-nmt-decoding_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 06 Decoding in Neural Translation Models"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf",
+    "name": "12_lecture-ml-tricks_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 08 Machine Learning Tricks"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-alt-architectures.pdf",
+    "name": "13_lecture-alt-architectures_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 13 Alternative Architectures"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf",
+    "name": "14_lecture-beyond-parallel_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 15 Beyond Parallel Data"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-adaptation.pdf",
+    "name": "15_lecture-adaptation_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 20 Adaptation"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-linguistic-intermezzo.pdf",
+    "name": "16_lecture-linguistic-intermezzo_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 27 Linguistic Intermezzo"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-large-language-models.pdf",
+    "name": "17_lecture-large-language-models_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 29 Large Language Models"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-speech-translation.pdf",
+    "name": "18_lecture-speech-translation_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 03 Speech Translation"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-preference-training.pdf",
+    "name": "19_lecture-preference-training_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 05 Preference Training"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-viz.pdf",
+    "name": "20_lecture-viz_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 10 Analysis and Visualization"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-data.pdf",
+    "name": "21_lecture-data_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 12 Corpus Acquisition from the Internet"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-challenges.pdf",
+    "name": "22_lecture-challenges_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 17 Current Challenges"
+   },
+   {
+    "url": "http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf",
+    "name": "23_lecture-computer-aided-translation_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 19 Computer Aided Translation"
+   }
+  ],
+  "expected_items": 23,
+  "completeness_note": "Fall 2026 学期进行中（检索日 2026-10-29），但官方 Syllabus 已为全部 23 次讲课（9/1–11/19）链接幻灯片，全部下载；12/1、12/3 为项目时间、12/8、12/10 为项目展示，无讲义。录像（mp4/YouTube）与阅读材料未收。注意：后续讲次的幻灯片可能在授课前被教师更新，本包为检索日官方链接版本。",
+  "prereq": "官方页面未列硬性先修；课程从语言学、概率与深度学习基础讲起，要求编程能力（作业为 Python）",
+  "coverage": "统计机器翻译（语言模型、IBM 模型与 EM、短语模型与解码）、评测、神经网络与计算图、神经语言模型、NMT 及其解码与训练技巧、替代架构、超越平行语料、领域适配、语言学插曲、大语言模型、语音翻译、偏好训练、分析可视化、互联网语料获取、计算机辅助翻译",
+  "stage": "本科高年级/研究生",
+  "language": "en",
+  "reason": "Koehn 主讲的经典 MT 课程的最新学期，覆盖平行语料挖掘、超越平行数据（回译/无监督）、领域适配与 LLM 翻译，直接服务小语种语料构建与翻译数据合成。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "03",
+   "05",
+   "09",
+   "10",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-043",
+  "kind": "course",
+  "university": "Charles University (Univerzita Karlova), ÚFAL",
+  "course_code": "NPFL120",
+  "course_title": "Multilingual Natural Language Processing",
+  "term": "Summer semester 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Daniel Zeman",
+   "Rudolf Rosa",
+   "Ondřej Bojar"
+  ],
+  "official_url": "https://ufal.mff.cuni.cz/courses/npfl120",
+  "schedule_url": "https://ufal.mff.cuni.cz/courses/npfl120#lectures",
+  "verification_basis": "ÚFAL 官方课程页标题“Multilingual Natural Language Processing”，SIS code NPFL120，Semester: summer，Guarantors Daniel Zeman / Rudolf Rosa / Ondřej Bojar，页面写明“in summer semester 2026, the course takes place every Thursday”，并注明 2026/27 学年起由 NPFL153 取代",
+  "dir_name": "CUNI_NPFL120_MultilingualNLP_2026Summer_LectureMaterials_en",
+  "files": [
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-01-wals.pdf",
+    "name": "01_npfl120-01-wals_en.pdf",
+    "kind": "pdf",
+    "label": "1. Introduction; WALS"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-02-plain.pdf",
+    "name": "02_npfl120-02-plain_en.pdf",
+    "kind": "pdf",
+    "label": "2. Alphabets, encoding, language identification"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-03-tok.pdf",
+    "name": "03_npfl120-03-tok_en.pdf",
+    "kind": "pdf",
+    "label": "3. Tokenization and Word Segmentation"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-05-interset.pdf",
+    "name": "04_npfl120-05-interset_en.pdf",
+    "kind": "pdf",
+    "label": "4. Interset, POS harmonization"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-04-ali-and-pbmt.pdf",
+    "name": "05_npfl120-04-ali-and-pbmt_en.pdf",
+    "kind": "pdf",
+    "label": "5. Machine Translation (Ondřej Bojar)"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-06-tagtransfer.pdf",
+    "name": "06_npfl120-06-tagtransfer_en.pdf",
+    "kind": "pdf",
+    "label": "6. Cross-lingual POS tagging"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-07-delex.pdf",
+    "name": "07_npfl120-07-delex_en.pdf",
+    "kind": "pdf",
+    "label": "7. Delexicalized parsing"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-08-treetransfer.pdf",
+    "name": "08_npfl120-08-treetransfer_en.pdf",
+    "kind": "pdf",
+    "label": "8. Tree projection"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-09-treetranslate.pdf",
+    "name": "09_npfl120-09-treetranslate_en.pdf",
+    "kind": "pdf",
+    "label": "9. Treebank translation"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-11-multiling-mt.pdf",
+    "name": "10_npfl120-11-multiling-mt_en.pdf",
+    "kind": "pdf",
+    "label": "10. Multilingual Machine Translation (Ondřej Bojar)"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-12-embeddings.pdf",
+    "name": "11_npfl120-12-embeddings_en.pdf",
+    "kind": "pdf",
+    "label": "11. Word Embeddings"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/langtech/npfl120/slides/npfl120-10-harmonization.pdf",
+    "name": "12_npfl120-10-harmonization_en.pdf",
+    "kind": "pdf",
+    "label": "13. Syntax harmonization and Enhanced Universal Dependencies"
+   },
+   {
+    "url": "https://docs.google.com/presentation/d/e/2PACX-1vQ5m6C7_BBom_mQcLWC1sk8wGzQ_R4AiULD1vOJzFbTHXBGvMIkyNrBs38kqYT263kaVKO8uoRWDHY2/pub?start=false&loop=false&delayms=60000",
+    "name": "npfl120-lecture12-contextual-embeddings_googleslides_pub_en.html",
+    "kind": "html",
+    "label": "Lecture 12 Contextual Word Embeddings (official Google Slides publish page, saved HTML)"
+   }
+  ],
+  "expected_items": 13,
+  "completeness_note": "官方讲次列表共 13 讲，全部有讲义并全部下载：12 讲为 PDF（文件编号与讲次顺序不一致，按官方页面讲次标注）；第 12 讲“Contextual Word Embeddings”官方只以 Google Slides 发布页形式提供，保存其发布页 HTML 本体（约 5.6 MB，幻灯片文字内嵌于页面数据中，可检索到 BERT/ELMo/contextual 等正文；完整版式显示需联网加载 Google 脚本，此为保存形式上的弱点）。录像、练习数据与脚本未收。该课 2026 夏季学期为最后一次开设（此后由 NPFL153 取代）。",
+  "prereq": "官方建议先修 NPFL100（Variability of languages in time and space）；需要基本的 NLP 与 Linux/脚本编程能力",
+  "coverage": "WALS 与类型学、文字/编码与语种识别、分词与切词、Interset 词性统一、对齐与短语机器翻译、跨语言词性标注迁移、去词汇化依存分析、树投射、树库翻译、多语言机器翻译、词向量、句法统一与增强 UD",
+  "stage": "研究生入门",
+  "language": "en",
+  "reason": "直接以“资源匮乏语言如何借助多语言资源构建 NLP 工具”为主线（跨语言迁移、标注投射、树库翻译、UD 统一），是小语种标注数据与工具构建最对口的课程之一。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "02",
+   "03",
+   "05",
+   "06",
+   "09"
+  ]
+ },
+ {
+  "sid": "17-044",
+  "kind": "course",
+  "university": "Charles University (Univerzita Karlova), ÚFAL",
+  "course_code": "NPFL087",
+  "course_title": "Statistical Machine Translation",
+  "term": "Summer semester 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Ondřej Bojar"
+  ],
+  "official_url": "https://ufal.mff.cuni.cz/courses/npfl087",
+  "schedule_url": "https://ufal.mff.cuni.cz/courses/npfl087#lectures",
+  "verification_basis": "ÚFAL 官方课程页标题“Statistical Machine Translation”，SIS code NPFL087，Semester: summer，Instructor Ondřej Bojar，页面“Timespace Coordinates for 2026 … STARTING DATE: Fri Feb 20, 2026”及 0–11 讲讲义列表",
+  "dir_name": "CUNI_NPFL087_StatisticalMT_2026Summer_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/2526/00-requirements-and-topics.pdf",
+    "name": "01_00-requirements-and-topics_en.pdf",
+    "kind": "pdf",
+    "label": "0. Class Overview and Project Suggestions (Intro Slides)"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/2526/01-eval.pdf",
+    "name": "02_01-eval_en.pdf",
+    "kind": "pdf",
+    "label": "1. Metrics of MT Quality"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/02-smt-pbmt-nmt.pdf",
+    "name": "03_02-smt-pbmt-nmt_en.pdf",
+    "kind": "pdf",
+    "label": "2. Overview of Approaches to MT: SMT, PBMT, NMT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/03-nmt-seq2seq-attn.pdf",
+    "name": "04_03-nmt-seq2seq-attn_en.pdf",
+    "kind": "pdf",
+    "label": "3. Introduction to NMT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/04-alignment.pdf",
+    "name": "05_04-alignment_en.pdf",
+    "kind": "pdf",
+    "label": "4. Alignment"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/05-pbmt.pdf",
+    "name": "06_05-pbmt_en.pdf",
+    "kind": "pdf",
+    "label": "5. Phrase-Based MT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/06-morphology.pdf",
+    "name": "07_06-morphology_en.pdf",
+    "kind": "pdf",
+    "label": "6. Morphology in MT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/07-syntax-in-smt.pdf",
+    "name": "08_07-syntax-in-smt_en.pdf",
+    "kind": "pdf",
+    "label": "7. Syntax in SMT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/08-transformer-and-syntax-in-nmt.pdf",
+    "name": "09_08-transformer-and-syntax-in-nmt_en.pdf",
+    "kind": "pdf",
+    "label": "8. Transformer; Syntax in NMT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/09-word-and-sent-reprs.pdf",
+    "name": "10_09-word-and-sent-reprs_en.pdf",
+    "kind": "pdf",
+    "label": "9. Does MT Understand? Word and Sentence Representations"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/10-multilingual-mt.pdf",
+    "name": "11_10-multilingual-mt_en.pdf",
+    "kind": "pdf",
+    "label": "10. Multi-Lingual MT"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1920/11-multimodal-mt.pdf",
+    "name": "12_11-multimodal-mt_en.pdf",
+    "kind": "pdf",
+    "label": "11. Multi-Modal Translation"
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1819/04-word-alignment-Koehn.pdf",
+    "name": "aux01_04-word-alignment-Koehn_en.pdf",
+    "kind": "pdf",
+    "label": "4. Koehn's Slides with Formulas (supplementary)",
+    "aux": true
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1819/05-pbmt-decoding-Haddow-2010.pdf",
+    "name": "aux02_05-pbmt-decoding-Haddow-2010_en.pdf",
+    "kind": "pdf",
+    "label": "5. Haddow's Slides for Recombination, Pruning, Future Cost (supplementary)",
+    "aux": true
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1819/05-pbmt-decoding-Koehn-2009.pdf",
+    "name": "aux03_05-pbmt-decoding-Koehn-2009_en.pdf",
+    "kind": "pdf",
+    "label": "5. Koehn's Slides for Future Cost (supplementary)",
+    "aux": true
+   },
+   {
+    "url": "https://ufal.mff.cuni.cz/~bojar/courses/npfl087/1819/06-factored-Koehn.pdf",
+    "name": "aux04_06-factored-Koehn_en.pdf",
+    "kind": "pdf",
+    "label": "6. Koehn's Slides for Factored Models (supplementary)",
+    "aux": true
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "官方讲次 0–11 共 12 讲，均发布“Lecture Slides/Intro Slides”，全部下载；其中第 0、1 讲为 2025/26 版，其余 10 讲官方仍链接 2019/20 版幻灯片（翻转课堂，配预录视频）。第 4–6 讲另链接的 Koehn/Haddow 补充幻灯片作为 aux 一并下载；录像、共享文档、MT Talks wiki、可选论文与 2023 年专题报告（other/ 目录）未收。页面注明部分条目日期仍为旧年份（“If you see an older year than 2026, the entry has not yet been updated”）。",
+  "prereq": "官方页面未列硬性先修；面向 ÚFAL 计算语言学硕士，需概率统计与编程基础",
+  "coverage": "MT 质量评测、SMT/PBMT/NMT 概览、NMT 入门、词/句对齐、短语翻译与解码、形态丰富语言的 MT、句法与 MT、Transformer、表示分析、多语言 MT、多模态翻译",
+  "stage": "研究生入门",
+  "language": "en",
+  "reason": "捷克 ÚFAL（形态丰富的中小语种 MT 研究重镇）的 MT 课，专设“Morphology in MT”“Multi-Lingual MT”等讲，补充 CMU/JHU 课程之外的欧洲中小语种视角。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "02",
+   "03",
+   "09",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-045",
+  "kind": "course",
+  "university": "Ludwig-Maximilians-Universität München (LMU), CIS",
+  "course_code": "Erweiterungsmodul: Machine Translation",
+  "course_title": "Machine Translation (Vorlesung + Übung)",
+  "term": "Summer semester 2023 (Apr–Aug 2023)",
+  "term_year": 2023,
+  "instructors": [
+   "Alexander Fraser"
+  ],
+  "official_url": "https://cis.lmu.de/~fraser/mt_2023",
+  "schedule_url": "https://cis.lmu.de/~fraser/mt_2023",
+  "verification_basis": "LMU CIS 教师主页课程页标题“Erweiterungsmodul: Machine Translation”，Instructor Alexander Fraser（CIS, LMU Munich），日程表 April 19th – August 2nd（2023 夏季学期，目录名 mt_2023）及逐讲幻灯片链接",
+  "dir_name": "LMU_MachineTranslation_2023Summer_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/00_orientation_and_intro.pdf",
+    "name": "01_00_orientation_and_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 19 Orientation and Introduction to MT"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/01_SMT_intro_and_eval.pdf",
+    "name": "02_01_SMT_intro_and_eval_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 25 Introduction to SMT"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/02_SMT_part2_word_align.pdf",
+    "name": "03_02_SMT_part2_word_align_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 26 Bitext alignment"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/03_SMT_part3_manytomany.pdf",
+    "name": "04_03_SMT_part3_manytomany_en.pdf",
+    "kind": "pdf",
+    "label": "May 2 Many-to-many alignments and Phrase-based model"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/04_SMT_part4_log_linear.pdf",
+    "name": "05_04_SMT_part4_log_linear_en.pdf",
+    "kind": "pdf",
+    "label": "May 3 Log-linear model and MERT"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/05_SMT_part5_decoding.pdf",
+    "name": "06_05_SMT_part5_decoding_en.pdf",
+    "kind": "pdf",
+    "label": "May 9 Decoding"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/06_linear_models.pdf",
+    "name": "07_06_linear_models_en.pdf",
+    "kind": "pdf",
+    "label": "May 10 Linear Models"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/07_neural_networks_embeddings.pdf",
+    "name": "08_07_neural_networks_embeddings_en.pdf",
+    "kind": "pdf",
+    "label": "May 17 Neural Networks (and Word Embeddings)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/09_training_RNN.pdf",
+    "name": "09_09_training_RNN_en.pdf",
+    "kind": "pdf",
+    "label": "May 24 Training and RNN/LSTMs"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/08_bwe.pdf",
+    "name": "10_08_bwe_en.pdf",
+    "kind": "pdf",
+    "label": "May 31 Bilingual Word Embeddings and Unsupervised SMT (Viktor Hangya)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/10_encoder_decoder.pdf",
+    "name": "11_10_encoder_decoder_en.pdf",
+    "kind": "pdf",
+    "label": "Jun 6 Encoder-Decoder and Attention (Katharina Hämmerl)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/11_transformer.pdf",
+    "name": "12_11_transformer_en.pdf",
+    "kind": "pdf",
+    "label": "Jun 7 Transformer (and Document NMT); also Jun 14 Unsupervised NMT"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/14_part1_OSM.pdf",
+    "name": "13_14_part1_OSM_en.pdf",
+    "kind": "pdf",
+    "label": "Jun 27 Operation Sequence Model (part 1)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/14_part2_OOV.pdf",
+    "name": "14_14_part2_OOV_en.pdf",
+    "kind": "pdf",
+    "label": "Jun 27 OOV Translation (part 2)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/13_sparsity.pdf",
+    "name": "15_13_sparsity_en.pdf",
+    "kind": "pdf",
+    "label": "Jun 28 Overcoming Sparsity in NMT"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/12_transfer.pdf",
+    "name": "16_12_transfer_en.pdf",
+    "kind": "pdf",
+    "label": "Jul 11 Transfer Learning for Unsupervised NMT (Alexandra Chronopoulou)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/15_pretrained.pdf",
+    "name": "17_15_pretrained_en.pdf",
+    "kind": "pdf",
+    "label": "Aug 2 Multilingual Pretrained Models (Katharina Hämmerl)"
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/tamchyna_acl_2016_slides.pdf",
+    "name": "aux01_tamchyna_acl_2016_slides_en.pdf",
+    "kind": "pdf",
+    "label": "May 16 review session: Tamchyna ACL 2016 slides",
+    "aux": true
+   },
+   {
+    "url": "https://cis.lmu.de/~fraser/mt_2023/CNN.pdf",
+    "name": "aux02_CNN_en.pdf",
+    "kind": "pdf",
+    "label": "Jun 20 review session: CNNs/RNNs for image captioning",
+    "aux": true
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程共 17 次内容讲课（不含练习评讲、节假日、复习与考试），全部有幻灯片：6/14“Unsupervised NMT”官方注明见 Transformer 讲义（与 6/7 同一文件），6/27 一讲分 OSM 与 OOV 两份 PDF，故共 17 个讲义 PDF，全部下载；练习评讲课附带的 Tamchyna 2016 与 CNN 幻灯片作为 aux 下载；Keynote 源文件、mp4 录像（多为 2021 年录制）与练习题未收。",
+  "prereq": "官方页面未列硬性先修；面向 LMU 计算语言学硕士，需概率与编程基础（练习含 PyTorch 教程）",
+  "coverage": "MT 历史与评测、SMT（词对齐、短语模型、对数线性模型与 MERT、解码）、线性模型、神经网络与词向量、RNN/LSTM、双语词向量与无监督 SMT、编码器-解码器与注意力、Transformer 与文档级 NMT、无监督 NMT、OSM 与未登录词翻译、NMT 稀疏性、迁移学习、多语言预训练模型",
+  "stage": "研究生入门",
+  "language": "en",
+  "reason": "课程含双语词向量、无监督 SMT/NMT、迁移学习与多语言预训练等低资源翻译专题，适合理解小语种缺乏平行语料时的翻译建模路线。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "03",
+   "06",
+   "09"
+  ]
+ },
+ {
+  "sid": "17-046",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-324/11-824",
+  "course_title": "Subword Modeling",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "David R. Mortensen"
+  ],
+  "official_url": "https://dmort27.github.io/subwordmodeling/",
+  "schedule_url": "https://dmort27.github.io/subwordmodeling/#schedule",
+  "verification_basis": "课程主页“Subword Modeling”写明 Semester: Spring 2026，Instructor Prof. David R. Mortensen（CMU LTI），官方大纲 syllabus-s26.pdf 与日程表逐讲链接讲义",
+  "dir_name": "CMU_11-824_SubwordModeling_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/01-introduction.pdf",
+    "name": "01_01-introduction_en.pdf",
+    "kind": "pdf",
+    "label": "L1 Intro Lecture; introduction to Project 1"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/02-signs.pdf",
+    "name": "02_02-signs_en.pdf",
+    "kind": "pdf",
+    "label": "L2 Signs, minimal signs, and compositionality"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/03-productivity.pdf",
+    "name": "03_03-productivity_en.pdf",
+    "kind": "pdf",
+    "label": "L3 Productivity and generalization"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/04-inflection_derivation.pdf",
+    "name": "04_04-inflection_derivation_en.pdf",
+    "kind": "pdf",
+    "label": "L4 Inflection, derivation, and compounding"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/05-morphotactics.pdf",
+    "name": "05_05-morphotactics_en.pdf",
+    "kind": "pdf",
+    "label": "L5 Morphotactics, affix ordering, mirror and relevance principles"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/06-computational_approaches.pdf",
+    "name": "06_06-computational_approaches_en.pdf",
+    "kind": "pdf",
+    "label": "L6 Computational approaches to morphological segmentation/tokenization"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/07-allomorphy.pdf",
+    "name": "07_07-allomorphy_en.pdf",
+    "kind": "pdf",
+    "label": "L7 Allomorphy"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/08-nonconcatenative.pdf",
+    "name": "08_08-nonconcatenative_en.pdf",
+    "kind": "pdf",
+    "label": "L8 Non-concatenative processes"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/09-lexemes.pdf",
+    "name": "09_09-lexemes_en.pdf",
+    "kind": "pdf",
+    "label": "L9 Lexemes and paradigms"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/10-grammatical-properties.pdf",
+    "name": "10_10-grammatical-properties_en.pdf",
+    "kind": "pdf",
+    "label": "L10 Grammatical properties"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/12-rules.pdf",
+    "name": "11_12-rules_en.pdf",
+    "kind": "pdf",
+    "label": "L11 Rules of realization and rules of referral"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/13-neural-reinflection.pdf",
+    "name": "12_13-neural-reinflection_en.pdf",
+    "kind": "pdf",
+    "label": "L12 Computational approaches to reinflection and paradigm completion"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/11-wp-morphology.pdf",
+    "name": "13_11-wp-morphology_en.pdf",
+    "kind": "pdf",
+    "label": "L13 Word-and-Paradigm morphology"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/15-descriptive-phonetics.pdf",
+    "name": "14_15-descriptive-phonetics_en.pdf",
+    "kind": "pdf",
+    "label": "L14 Descriptive phonetics"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/16-orthography-versus-ipa.pdf",
+    "name": "15_16-orthography-versus-ipa_en.pdf",
+    "kind": "pdf",
+    "label": "L15 IPA versus orthographies"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/18-g2p-and-p2g.pdf",
+    "name": "16_18-g2p-and-p2g_en.pdf",
+    "kind": "pdf",
+    "label": "L16 G2P and P2G"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/17-typology-of-orthographies.pdf",
+    "name": "17_17-typology-of-orthographies_en.pdf",
+    "kind": "pdf",
+    "label": "L17 Typology of orthographies"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/19-unicode.pdf",
+    "name": "18_19-unicode_en.pdf",
+    "kind": "pdf",
+    "label": "L20 Unicode: logical and visual representations"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/21-articulatory-features.pdf",
+    "name": "19_21-articulatory-features_en.pdf",
+    "kind": "pdf",
+    "label": "L21 Articulatory features"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/23-phonological-similarity.pdf",
+    "name": "20_23-phonological-similarity_en.pdf",
+    "kind": "pdf",
+    "label": "L22 Phonological Similarity"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/22-syllables.pdf",
+    "name": "21_22-syllables_en.pdf",
+    "kind": "pdf",
+    "label": "L23 Syllabification and syllable segmentation"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/lectures/24-comparative-reconstruction.pdf",
+    "name": "22_24-comparative-reconstruction_en.pdf",
+    "kind": "pdf",
+    "label": "L24 Comparative reconstruction"
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/assets/pdf/syllabus-s26.pdf",
+    "name": "aux01_syllabus-s26_en.pdf",
+    "kind": "pdf",
+    "label": "Syllabus Spring 2026",
+    "aux": true
+   },
+   {
+    "url": "https://dmort27.github.io/subwordmodeling/assets/zip/wp-totonac-inclass.zip",
+    "name": "aux02_wp-totonac-inclass_en.zip",
+    "kind": "zip",
+    "label": "Totonac Word-and-Paradigm in-class exercise",
+    "aux": true
+   }
+  ],
+  "expected_items": 22,
+  "completeness_note": "官方日程 26 个编号课次：第 18、19 次为项目会面，第 25、26 次为项目展示，均无讲义；其余 22 讲均发布讲义 PDF（教师采用讲义 handout 形式），全部下载（文件编号与课次编号不完全一致，按日程标注）。另附官方大纲与 Totonac 课堂练习 zip（aux）；四个项目说明页未收。",
+  "prereq": "官方：修过一门 NLP 课程，最好再修过一门机器学习课程；面向研究生与高年级本科生",
+  "coverage": "形态学（符号与组合性、能产性、屈折/派生/复合、语素顺序、语素变体、非线性形态、词位与范式、实现规则、词-范式形态学）、形态切分/分词与屈折生成的计算方法、描写语音学、IPA 与正字法、G2P/P2G、文字系统类型学、Unicode、发音特征、音系相似度、音节切分、历史比较重建",
+  "stage": "研究生进阶",
+  "language": "en",
+  "reason": "把形态学、正字法类型学、Unicode 与 G2P 系统地接到分词/子词建模上，并以濒危语言（Totonac）实例练习，直接服务小语种分词器设计、文字处理与形态丰富语言建模。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "02",
+   "03",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-047",
+  "kind": "course",
+  "university": "Charles University (Univerzita Karlova), ÚFAL",
+  "course_code": "NPFL094",
+  "course_title": "Morphological and Syntactic Analysis",
+  "term": "Winter semester 2025/26 讲义集（课程页现为 2026/27 冬季学期）",
+  "term_year": 2025,
+  "instructors": [
+   "Daniel Zeman"
+  ],
+  "official_url": "https://ufal.mff.cuni.cz/courses/npfl094",
+  "schedule_url": "https://ufal.mff.cuni.cz/courses/npfl094",
+  "verification_basis": "ÚFAL 官方课程页标题“Morphological and syntactic analysis”，SIS code NPFL094，Semester: winter，页面写明 2026–2027 冬季学期每周四授课、以英语讲授；讲义表逐份列出 PDF 及授课日期（2025-12 至 2026-10），教师 Daniel Zeman（讲义发布于其主页 ~zeman/vyuka/morfosynt）",
+  "dir_name": "CUNI_NPFL094_MorphSyntaxAnalysis_2025-26Winter_LectureMaterials_en",
+  "files": [
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa01-introduction.pdf",
+    "name": "01_msa01-introduction_en.pdf",
+    "kind": "pdf",
+    "label": "1 Introduction"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa02-pos.pdf",
+    "name": "02_msa02-pos_en.pdf",
+    "kind": "pdf",
+    "label": "2 Parts of speech / tagsets"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa03-lexicon.pdf",
+    "name": "03_msa03-lexicon_en.pdf",
+    "kind": "pdf",
+    "label": "3 Morphological lexicon"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa06-twolm.pdf",
+    "name": "04_msa06-twolm_en.pdf",
+    "kind": "pdf",
+    "label": "4 Two-level morphology"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa07-morphology-cfg.pdf",
+    "name": "05_msa07-morphology-cfg_en.pdf",
+    "kind": "pdf",
+    "label": "5 Morphology with CFG"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa08-morphology-ug.pdf",
+    "name": "06_msa08-morphology-ug_en.pdf",
+    "kind": "pdf",
+    "label": "6 Morphology with unification grammar"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa09-morphology-func.pdf",
+    "name": "07_msa09-morphology-func_en.pdf",
+    "kind": "pdf",
+    "label": "7 Morphology in functional programming"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa04-unsup.pdf",
+    "name": "08_msa04-unsup_en.pdf",
+    "kind": "pdf",
+    "label": "8 Unsupervised morphology"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa05-zhwordseg.pdf",
+    "name": "09_msa05-zhwordseg_en.pdf",
+    "kind": "pdf",
+    "label": "9 Chinese word segmentation"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa10-syntax.pdf",
+    "name": "10_msa10-syntax_en.pdf",
+    "kind": "pdf",
+    "label": "10 Syntax: Universal Dependencies"
+   },
+   {
+    "url": "http://ufal.mff.cuni.cz/~zeman/vyuka/morfosynt/msa11-parsing.pdf",
+    "name": "11_msa11-parsing_en.pdf",
+    "kind": "pdf",
+    "label": "11 Parsing"
+   }
+  ],
+  "expected_items": 11,
+  "completeness_note": "官方讲义表共列出 11 份幻灯片 PDF，全部下载。课程页同时承载 2025/26 与 2026/27 冬季学期（表中日期混有 2025-12、2026-01 与 2026-10），2026/27 学期正在进行，后续讲次可能更新讲义；本包为检索日官方链接版本。作业页、往年学生作业解答 zip 与 SIS 中的录像未收。",
+  "prereq": "官方建议先修 NPFL092 NLP Technology 等计算语言学专业课（非强制，可并修）",
+  "coverage": "词性与标注集、形态词典、二层形态学（有限状态）、上下文无关文法与合一文法的形态描述、函数式形态学、无监督形态学习、中文分词、Universal Dependencies 句法、句法分析；学生小项目针对缺乏资源的“未知语言”构建形态/句法分析器",
+  "stage": "研究生入门",
+  "language": "en",
+  "reason": "课程以“为尚无资源的语言构建形态与句法分析器”为练习主线，覆盖有限状态形态学、无监督形态学习与 UD 句法，是小语种形态分析与标注体系建设的直接参考。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "02",
+   "05",
+   "06"
+  ]
+ },
+ {
+  "sid": "17-048",
+  "kind": "course",
+  "university": "The University of Edinburgh",
+  "course_code": "INFR11145 (TTDS)",
+  "course_title": "Text Technologies for Data Science",
+  "term": "2024-25 Semester 1 (Sep–Dec 2024)",
+  "term_year": 2024,
+  "instructors": [
+   "Walid Magdy",
+   "Björn Ross"
+  ],
+  "official_url": "https://opencourse.inf.ed.ac.uk/archives/24-25/ttds.html",
+  "schedule_url": "https://opencourse.inf.ed.ac.uk/archives/24-25/node/1451.html",
+  "verification_basis": "爱丁堡大学 Informatics 官方 Opencourse 2024-25 归档：课程首页“TTDS: Text Technologies for Data Science”（Course lecturers Walid Magdy / Björn Ross），Course Materials 页说明讲义公开供旁听，Schedule 页逐讲链接幻灯片；幻灯片页脚“TTDS 2024/2025”",
+  "dir_name": "Edinburgh_TTDS_2024-25_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-09/ttds24_01intro.pdf",
+    "name": "01_ttds24_01intro_en.pdf",
+    "kind": "pdf",
+    "label": "1 Introduction"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-09/ttds24_02definitions.pdf",
+    "name": "02_ttds24_02definitions_en.pdf",
+    "kind": "pdf",
+    "label": "2 Definitions"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-09/ttds24_03laws.pdf",
+    "name": "03_ttds24_03laws_en.pdf",
+    "kind": "pdf",
+    "label": "3 Laws"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-09/ttds24_04tokenisation.pdf",
+    "name": "04_ttds24_04tokenisation_en.pdf",
+    "kind": "pdf",
+    "label": "4 Preprocessing"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds24_06indexing2.pdf",
+    "name": "05_ttds24_06indexing2_en.pdf",
+    "kind": "pdf",
+    "label": "6 Indexing 2"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds24_07rankedretrieval.pdf",
+    "name": "06_ttds24_07rankedretrieval_en.pdf",
+    "kind": "pdf",
+    "label": "7 Ranked Retrieval"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds24_08rankedretrieval2.pdf",
+    "name": "07_ttds24_08rankedretrieval2_en.pdf",
+    "kind": "pdf",
+    "label": "8 Ranked Retrieval 2"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds24_09evaluation.pdf",
+    "name": "08_ttds24_09evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "9 Evaluation"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds24_10evaluation2.pdf",
+    "name": "09_ttds24_10evaluation2_en.pdf",
+    "kind": "pdf",
+    "label": "10 Evaluation 2"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds24_11qe.pdf",
+    "name": "10_ttds24_11qe_en.pdf",
+    "kind": "pdf",
+    "label": "11 Query Expansion"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds2412websearch.pdf",
+    "name": "11_ttds2412websearch_en.pdf",
+    "kind": "pdf",
+    "label": "12 Web Search"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-10/ttds2413websearch2.pdf",
+    "name": "12_ttds2413websearch2_en.pdf",
+    "kind": "pdf",
+    "label": "13 Web Search 2"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-11/ttds24_14comparing-corpora.pdf",
+    "name": "13_ttds24_14comparing-corpora_en.pdf",
+    "kind": "pdf",
+    "label": "14 Comparing Corpora"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-11/ttds24_15comparing-corpora-2.pdf",
+    "name": "14_ttds24_15comparing-corpora-2_en.pdf",
+    "kind": "pdf",
+    "label": "15 Comparing Corpora 2"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-11/ttds24_16text-classification.pdf",
+    "name": "15_ttds24_16text-classification_en.pdf",
+    "kind": "pdf",
+    "label": "16 Text Classification"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-11/ttds24_17text-classification2.pdf",
+    "name": "16_ttds24_17text-classification2_en.pdf",
+    "kind": "pdf",
+    "label": "17 Text Classification 2"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/2024-11/ttds24_18l2r.pdf",
+    "name": "17_ttds24_18l2r_en.pdf",
+    "kind": "pdf",
+    "label": "18 Learning To Rank"
+   },
+   {
+    "url": "https://opencourse.inf.ed.ac.uk/archives/24-25/sites/default/files/https/opencourse.inf.ed.ac.uk/ttds/2024/20-rag-handout.pdf",
+    "name": "18_20-rag-handout_en.pdf",
+    "kind": "pdf",
+    "label": "19 RAG"
+   }
+  ],
+  "expected_items": 18,
+  "completeness_note": "官方日程共 19 个编号讲次另加第 9 周 1 次嘉宾讲座（无幻灯片）。18 讲的幻灯片全部下载；第 5 讲“Indexing”的官方链接错误地指向第 12 讲“Web Search”同一文件（已下载比对 SHA256 相同），该讲幻灯片实际未发布，未收。课程作业说明（CW1/CW3）、实验页与录像（需登录 Learn）未收。选 2024-25 而非 2025-26/2026-27：2025-26 归档日程仅保留第 1 周，2026-27 学期进行中。",
+  "prereq": "官方课程页未列出硬性先修（DRPS 条目未能读取，待核实）；课程大量从零实现检索系统，需 Python 编程与基础概率统计",
+  "coverage": "IR 基本定义与文本统计规律（Zipf/Heaps）、预处理与分词、倒排索引、排序检索（TF-IDF/BM25）、评测、查询扩展、网络搜索、语料比较（互信息、卡方、主题模型）、文本分类、学习排序、检索增强生成（RAG）",
+  "stage": "本科高年级/研究生",
+  "language": "en",
+  "reason": "完整的检索课程，从分词、倒排索引、BM25 到学习排序与 RAG，且有“语料比较”专题，适合为小语种构建检索评测集与 RAG 知识库时参考。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "05",
+   "12",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-049",
+  "kind": "course",
+  "university": "University of Waterloo",
+  "course_code": "CS 451/651",
+  "course_title": "Data-Intensive Distributed Computing",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Jimmy Lin"
+  ],
+  "official_url": "https://lintool.github.io/cs451-2025f/",
+  "schedule_url": "https://lintool.github.io/cs451-2025f/syllabus.html",
+  "verification_basis": "课程官网 Syllabus 页标题“CS 451/651: Data-Intensive Distributed Computing (Fall 2025)”，首页署名教师 Jimmy Lin（链接 cs.uwaterloo.ca/~jimmylin），逐周列出 PDF 幻灯片",
+  "dir_name": "Waterloo_CS451_DataIntensiveDistributedComputing_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week01-slides-v1.00.pdf",
+    "name": "01_cs451-2025f-week01-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W1 Sep 4 The Data Flywheel"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week02a-slides-v1.01.pdf",
+    "name": "02_cs451-2025f-week02a-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W2 Sep 9 Data Warehouses, Lakes, Lakehouses (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week02b-slides-v1.01.pdf",
+    "name": "03_cs451-2025f-week02b-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W2 Sep 11 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week03a-slides-v1.01.pdf",
+    "name": "04_cs451-2025f-week03a-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W3 Sep 16 Batch Processing I (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week03b-slides-v1.01.pdf",
+    "name": "05_cs451-2025f-week03b-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W3 Sep 18 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week04a-slides-v1.00.pdf",
+    "name": "06_cs451-2025f-week04a-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W4 Sep 23 Batch Processing II (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week04b-slides-v1.00.pdf",
+    "name": "07_cs451-2025f-week04b-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W4 Sep 25 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week05a-slides-v1.00.pdf",
+    "name": "08_cs451-2025f-week05a-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W5 Sep 30 Rubber, Meet Road (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week05b-slides-v1.00.pdf",
+    "name": "09_cs451-2025f-week05b-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W5 Oct 1 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week06a-slides-v1.00.pdf",
+    "name": "10_cs451-2025f-week06a-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W6 Oct 7 Data Infrastructure for ML (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week06b-slides-v1.01.pdf",
+    "name": "11_cs451-2025f-week06b-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W6 Oct 9 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week09a-slides-v1.02.pdf",
+    "name": "12_cs451-2025f-week09a-slides-v1.02_en.pdf",
+    "kind": "pdf",
+    "label": "W9 Oct 28 Text Processing I (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week09b-slides-v1.02.pdf",
+    "name": "13_cs451-2025f-week09b-slides-v1.02_en.pdf",
+    "kind": "pdf",
+    "label": "W9 Oct 30 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week10a-slides-v1.01.pdf",
+    "name": "14_cs451-2025f-week10a-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W10 Nov 4 Text Processing II (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week10b-slides-v1.00.pdf",
+    "name": "15_cs451-2025f-week10b-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W10 Nov 6 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week11a-slides-v1.01.pdf",
+    "name": "16_cs451-2025f-week11a-slides-v1.01_en.pdf",
+    "kind": "pdf",
+    "label": "W11 Nov 11 Finding Similar Items (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week11b-slides-v1.00.pdf",
+    "name": "17_cs451-2025f-week11b-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W11 Nov 13 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week12a-slides-v1.00.pdf",
+    "name": "18_cs451-2025f-week12a-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W12 Nov 18 Graph Processing (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week12b-slides-v1.00.pdf",
+    "name": "19_cs451-2025f-week12b-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W12 Nov 20 (b)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week13a-slides-v1.00.pdf",
+    "name": "20_cs451-2025f-week13a-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W13 Nov 25 Stream Processing (a)"
+   },
+   {
+    "url": "https://lintool.github.io/cs451-2025f/slides/cs451-2025f-week13b-slides-v1.00.pdf",
+    "name": "21_cs451-2025f-week13b-slides-v1.00_en.pdf",
+    "kind": "pdf",
+    "label": "W13 Nov 27 (b)"
+   }
+  ],
+  "expected_items": 21,
+  "completeness_note": "官方日程 13 个教学周（第 7 周阅读周、第 8 周期中考试除外）共 22 次讲课，其中 21 次发布 PDF 幻灯片，全部下载；第 14 周 12/2“LLMs”一讲官方未发布幻灯片。作业说明与阅读材料（部分为学校图书馆代理链接）未收。",
+  "prereq": "官方课程站未列出先修（Waterloo 课程目录中的正式先修待核实）；需较强编程能力（Python/Spark）与数据库、算法基础",
+  "coverage": "数据飞轮与数据平台、数据仓库/数据湖/湖仓、批处理（MapReduce/Spark）、数据工程实践、机器学习数据基础设施、大规模文本处理（倒排索引、稀疏/稠密/学习型稀疏检索）、相似项发现（MinHash/LSH 近重复检测）、图处理、流处理",
+  "stage": "本科高年级/研究生",
+  "language": "en",
+  "reason": "Jimmy Lin 的大数据课把大规模文本处理、倒排索引与稀疏/稠密检索、MinHash 近重复检测放在分布式数据管线中讲，可直接用于小语种网页语料清洗去重与检索索引构建。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "04",
+   "05",
+   "12",
+   "16"
+  ]
+ },
+ {
+  "sid": "17-050",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CS224U",
+  "course_title": "Natural Language Understanding",
+  "term": "Spring 2023",
+  "term_year": 2023,
+  "instructors": [
+   "Christopher Potts"
+  ],
+  "official_url": "https://web.stanford.edu/class/cs224u/",
+  "schedule_url": "https://web.stanford.edu/class/cs224u/",
+  "verification_basis": "课程主页“CS224U: Natural Language Understanding”，Teaching team 首位 Christopher Potts，日程 Apr 3–Jun 7（幻灯片文件名带 2023，Ed/Canvas 课程号对应 2023 春季），页脚“Maintained by Christopher Potts. ©Stanford University”",
+  "dir_name": "Stanford_CS224U_2023Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-intro-2023-handout.pdf",
+    "name": "01_cs224u-intro-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 3 Course introduction and overview"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-contextualreps-2023-handout.pdf",
+    "name": "02_cs224u-contextualreps-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 5-10 Contextual word representations"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/lisa-224u-diffusion.pdf",
+    "name": "03_lisa-224u-diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Diffusion objectives for text (Lisa Li)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/sidd-fantastic-lms-cs224u.pdf",
+    "name": "04_sidd-fantastic-lms-cs224u_en.pdf",
+    "kind": "pdf",
+    "label": "Fantastic language models and how to build them (Sidd Karamcheti)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-hw2-overview-2023.pdf",
+    "name": "05_cs224u-hw2-overview-2023_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 17 Overview of Assign/bakeoff 2"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-neuralir-2023-handout.pdf",
+    "name": "06_cs224u-neuralir-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "Retrieval augmented ICL: Information retrieval"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-incontextlearning-2023-handout.pdf",
+    "name": "07_cs224u-incontextlearning-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "Retrieval augmented ICL: In-context learning"
+   },
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1RIOAOTOOPyVLezFiIfGnYJSE8ofKuR4L",
+    "name": "08_mina-lee-prompters-before-prompts_en.pdf",
+    "kind": "pdf",
+    "label": "Prompters before prompts and promptees (Mina Lee)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-hw3-overview-2023.pdf",
+    "name": "09_cs224u-hw3-overview-2023_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 26 Overview of Assign/bakeoff 3"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-behavioraleval-2023-handout.pdf",
+    "name": "10_cs224u-behavioraleval-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "Advanced behavioral evaluation of NLU models"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-litreview-overview-2023.pdf",
+    "name": "11_cs224u-litreview-overview-2023_en.pdf",
+    "kind": "pdf",
+    "label": "May 8 Lit review overview"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/siyan-projects-cs224u.pdf",
+    "name": "12_siyan-projects-cs224u_en.pdf",
+    "kind": "pdf",
+    "label": "Siyan Li: What I did for 224u final project"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-analysis-2023-handout.pdf",
+    "name": "13_cs224u-analysis-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "Analysis methods for NLU"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-protocol-overview-2023.pdf",
+    "name": "14_cs224u-protocol-overview-2023_en.pdf",
+    "kind": "pdf",
+    "label": "May 17 Experiment protocol overview"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-methods-2023-handout.pdf",
+    "name": "15_cs224u-methods-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "NLP methods and metrics"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224u/slides/cs224u-presenting-2023-handout.pdf",
+    "name": "16_cs224u-presenting-2023-handout_en.pdf",
+    "kind": "pdf",
+    "label": "May 31 Presenting your research"
+   }
+  ],
+  "expected_items": 16,
+  "completeness_note": "官方日程按单元组织，共链接 16 份幻灯片（Potts 的 9 份专题 handout、作业/文献综述/实验方案概览 4 份、助教/嘉宾讲稿 3 份），全部下载；其中 Mina Lee“Prompters before prompts and promptees”由官方日程链接到 Google Drive 公开文件，按公开下载地址获取。Kawin Ethayarajh“Real-world NLP assessments”与“Course review (Jeopardy)”无幻灯片；课程 Python notebook（GitHub cgpotts/cs224u）与录像未收。该课 2023 年后未再更新主页（主页仍为 2023 春季版）。",
+  "prereq": "官方 Background materials 页：CS224N 为正式先修，默认熟悉 NLP 与机器学习核心概念",
+  "coverage": "上下文词表示与 Transformer 预训练、扩散式文本目标、检索增强的上下文学习（神经 IR：ColBERT/DPR/SPLADE，RAG/DSP）、提示与 ICL、高级行为评测（对抗/组合泛化）、模型分析方法（探针、因果抽象、干预）、NLP 实验方法与指标、科研写作与展示",
+  "stage": "研究生进阶",
+  "language": "en",
+  "reason": "Potts 的 NLU 课把神经检索与检索增强上下文学习作为核心单元，并系统讲行为评测与实验方法，可指导小语种 RAG 系统与评测协议设计。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "11",
+   "12",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-051",
+  "kind": "course",
+  "university": "Technische Universität Wien (TU Wien)",
+  "course_code": "Advanced Information Retrieval（TU Wien 硕士课，课程号待核实）",
+  "course_title": "Advanced Information Retrieval",
+  "term": "Summer semester 2022 (2021 & 2022 lecture set)",
+  "term_year": 2022,
+  "instructors": [
+   "Sebastian Hofstätter"
+  ],
+  "official_url": "https://github.com/sebastian-hofstaetter/teaching",
+  "schedule_url": "https://github.com/sebastian-hofstaetter/teaching#air-2022",
+  "verification_basis": "主讲人 Sebastian Hofstätter（TU Wien）官方教学仓库 README“Advanced Information Retrieval 2021 & 2022”，写明为 TU Wien 硕士课程并获 2021 Best Distance Learning Award；讲次表链接 11 份幻灯片 PDF（固定到提交 fbdc44cd，2022-06-20）；第 0 讲“Introduction 2022”",
+  "dir_name": "TUWien_AdvancedIR_2022Summer_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%200%20-%20Course%20Introduction.pdf",
+    "name": "00_Lecture0_CourseIntroduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 0 - Course Introduction"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%201%20-%20Crash%20Course%20-%20Fundamentals.pdf",
+    "name": "01_Lecture1_CrashCourse_Fundamentals_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 - Crash Course - Fundamentals"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%202%20-%20Crash%20Course%20-%20Evaluation.pdf",
+    "name": "02_Lecture2_CrashCourse_Evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 - Crash Course - Evaluation"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%203%20-%20Crash%20Course%20-%20Test%20Collections.pdf",
+    "name": "03_Lecture3_CrashCourse_TestCollections_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 - Crash Course - Test Collections"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%204%20-%20Word%20Representation%20Learning.pdf",
+    "name": "04_Lecture4_WordRepresentationLearning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 - Word Representation Learning"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%205%20-%20Sequence%20modelling%20in%20NLP.pdf",
+    "name": "05_Lecture5_SequencemodellinginNLP_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 - Sequence modelling in NLP"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%206%20-%20Transformer%20and%20BERT%20Pre-training.pdf",
+    "name": "06_Lecture6_TransformerandBERTPre-training_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 - Transformer and BERT Pre-training"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%207%20-%20Introduction%20to%20Neural%20Re-Ranking.pdf",
+    "name": "07_Lecture7_IntroductiontoNeuralRe-Ranking_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 - Introduction to Neural Re-Ranking"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%208%20-%20Transformer%20Contextualized%20Re-Ranking.pdf",
+    "name": "08_Lecture8_TransformerContextualizedRe-Ranking_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 - Transformer Contextualized Re-Ranking"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%209%20-%20Domain%20Specific%20Applications.pdf",
+    "name": "09_Lecture9_DomainSpecificApplications_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 - Domain Specific Applications"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/sebastian-hofstaetter/teaching/fbdc44cd1afe0cea66005d6f0000d25dcd8c0ebd/advanced-information-retrieval/Lecture%2010%20-%20Dense%20Retrieval%20and%20Knowledge%20Distillation.pdf",
+    "name": "10_Lecture10_DenseRetrievalandKnowledgeDistillation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 - Dense Retrieval and Knowledge Distillation"
+   }
+  ],
+  "expected_items": 11,
+  "completeness_note": "README 讲次表共 11 讲（Lecture 0–10），均发布幻灯片 PDF，全部按固定提交下载；同仓库 lectures-2020/2021 子目录为旧版重复材料、Closed Captions 文本稿与神经 IR 练习未收（可选）。2022 年后该课程材料未再更新。",
+  "prereq": "README 未列硬性先修；面向 TU Wien 硕士生，需机器学习与 Python/PyTorch 基础（练习为 PyTorch 神经重排序）",
+  "coverage": "IR 基础（索引与排序检索）、评测指标（MRR/MAP/NDCG）、测试集构建与偏差、词表示学习、序列建模、Transformer 与 BERT 预训练、神经重排序、Transformer 上下文化重排序（含效率权衡）、领域特定检索、稠密检索与知识蒸馏",
+  "stage": "研究生进阶",
+  "language": "en",
+  "reason": "以神经检索为主线（重排序、稠密检索、蒸馏、测试集构建），每讲有幻灯片与逐字稿，可作为小语种稠密检索与检索评测集构建的入门教材。",
+  "priority": "中",
+  "old_reason": "2022 年夏季学期早于近三年窗口；它是少数完整公开的神经信息检索硕士课（稠密检索、蒸馏、测试集偏差），2023 年后的同类课程多把讲义放在 Canvas 等需登录平台，难以替代。",
+  "cross": [
+   "12",
+   "15"
+  ]
+ },
+ {
+  "sid": "17-052",
+  "kind": "course",
+  "university": "University of Zurich (Universität Zürich)",
+  "course_code": "（研讨课，官方页未给课程号）",
+  "course_title": "NLP for Low-Resource and Marginalized Language Varieties",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Sina Ahmadi"
+  ],
+  "official_url": "https://sinaahmadi.github.io/lr-nlp-2026.html",
+  "schedule_url": "https://sinaahmadi.github.io/lr-nlp-2026.html",
+  "verification_basis": "授课教师 Sina Ahmadi 个人主页 Teaching 下课程页：“NLP for Low-Resource and Marginalized Language Varieties — University of Zurich · Spring 2026 · BIN-1-D.22 · Wednesdays”，链接 UZH OLAT 课程（需登录，未访问），Lectures 栏列出 4 讲的 slides 与 handout PDF",
+  "dir_name": "UZH_LowResourceMarginalizedVarietiesNLP_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_1_slides.pdf",
+    "name": "01_lecture_1_slides_en.pdf",
+    "kind": "pdf",
+    "label": "18 Feb Introduction (slides)"
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_2_slides.pdf",
+    "name": "02_lecture_2_slides_en.pdf",
+    "kind": "pdf",
+    "label": "25 Feb Pillar I: Data (slides)"
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_3_slides.pdf",
+    "name": "03_lecture_3_slides_en.pdf",
+    "kind": "pdf",
+    "label": "04 Mar Pillar II: Learning (slides)"
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_4_slides.pdf",
+    "name": "04_lecture_4_slides_en.pdf",
+    "kind": "pdf",
+    "label": "11 Mar Pillar III: Evaluation (slides)"
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_1_handout.pdf",
+    "name": "aux01_lecture_1_handout_en.pdf",
+    "kind": "pdf",
+    "label": "18 Feb Introduction (handout, same content in print layout)",
+    "aux": true
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_2_handout.pdf",
+    "name": "aux02_lecture_2_handout_en.pdf",
+    "kind": "pdf",
+    "label": "25 Feb Pillar I: Data (handout, same content in print layout)",
+    "aux": true
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_3_handout.pdf",
+    "name": "aux03_lecture_3_handout_en.pdf",
+    "kind": "pdf",
+    "label": "04 Mar Pillar II: Learning (handout, same content in print layout)",
+    "aux": true
+   },
+   {
+    "url": "https://sinaahmadi.github.io/docs/seminar/lecture_4_handout.pdf",
+    "name": "aux04_lecture_4_handout_en.pdf",
+    "kind": "pdf",
+    "label": "11 Mar Pillar III: Evaluation (handout, same content in print layout)",
+    "aux": true
+   }
+  ],
+  "expected_items": 4,
+  "completeness_note": "该课为研讨课：教师讲授部分共 4 讲（导论 + 数据/学习/评测三大支柱），每讲官方发布 slides 与 handout 两种 PDF，4 份 slides 全部下载为讲义，4 份 handout 作为 aux 一并下载；其余课次为学生研读 16 篇指定论文与期末项目，无教师讲义。OLAT 上的课程材料需登录，未收。",
+  "prereq": "官方页面未列先修（待核实）；研讨课面向有 NLP 基础的硕士生",
+  "coverage": "低资源与边缘化语言变体（方言、克里奥尔语、濒危语言）的界定；数据支柱（资源创建、标注策略、网络爬取多语数据质量）；学习支柱（跨语言迁移、跨语表示、零样本、字符噪声注入等）；评测支柱（方言连续体评测、跨语言性能不平等、社区需求与伦理）",
+  "stage": "研究生研讨",
+  "language": "en",
+  "reason": "唯一一门直接以“低资源与边缘化语言变体”为题的大学课程讲义，按数据-学习-评测三支柱组织，并附含濒危语言、方言与分词成本等指定论文清单，是本库主题最直接的课程材料。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "03",
+   "04",
+   "05",
+   "15"
+  ]
+ }
+]

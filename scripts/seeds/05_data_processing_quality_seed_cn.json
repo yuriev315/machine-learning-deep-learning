@@ -1,0 +1,910 @@
+[
+ {
+  "sid": "05-001",
+  "arxiv": "2406.06263",
+  "title": "MaskLID: Code-Switching Language Identification through Iterative Masking",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 GlotLID/OpenLID 等句级 LID 上通过迭代掩码识别语码转换文本中的多种语言，面向网络语料清洗。"
+ },
+ {
+  "sid": "05-002",
+  "arxiv": "2506.15304",
+  "title": "ConLID: Supervised Contrastive Learning for Low-Resource Language Identification",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用监督对比学习改进低资源语言识别的跨领域泛化。"
+ },
+ {
+  "sid": "05-003",
+  "arxiv": "2402.01505",
+  "title": "Code-Switched Language Identification is Harder Than You Think",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估现有 LID 在语码转换文本上的局限，讨论其对语料构建的影响。"
+ },
+ {
+  "sid": "05-004",
+  "arxiv": "2401.05749",
+  "title": "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "发现网络上大量低资源语言文本是多路机器翻译产物，质量偏低，提示预训练语料需识别机器翻译内容。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "关乎小语种网络语料来源可信度"
+ },
+ {
+  "sid": "05-005",
+  "arxiv": "2610.31636",
+  "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以斯洛伐克语 FineWeb2 子集为例，用智能体对网络语料做审计与错误归因。"
+ },
+ {
+  "sid": "05-006",
+  "arxiv": "2505.22232",
+  "title": "Judging Quality Across Languages: A Multilingual Approach to Pretraining Data Filtering with Language Models",
+  "subtopic": "质量筛选（模型分类器）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "JQL：用多语言嵌入与 LLM 标注蒸馏得到跨语言质量过滤器。"
+ },
+ {
+  "sid": "05-007",
+  "arxiv": "2502.10361",
+  "title": "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection",
+  "subtopic": "质量筛选（模型分类器）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 FineWeb2 上用模型分类器做多语言数据选择（FineWeb2-HQ），比较不同分类器。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "通过预训练实验评估数据选择效果"
+ },
+ {
+  "sid": "05-008",
+  "arxiv": "2501.07314",
+  "title": "FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering",
+  "subtopic": "质量筛选（模型分类器）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "用 LLM 做行级质量标注再蒸馏到小分类器。",
+  "relevance_use": "行级过滤思路可用于噪声较多的小语种网页"
+ },
+ {
+  "sid": "05-009",
+  "arxiv": "2602.15210",
+  "title": "ÜberWeb: Insights from Multilingual Curation for a 20-Trillion-Token Dataset",
+  "subtopic": "多语言数据整理",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "报告多语言大规模数据整理（过滤、配比）经验。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "涉及语言配比对训练的影响"
+ },
+ {
+  "sid": "05-010",
+  "arxiv": "2512.18834",
+  "title": "Mix, MinHash, and Match: Cross-Source Agreement for Multilingual Pretraining Datasets",
+  "subtopic": "去重与跨源一致性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用 MinHash 跨多个多语言语料源比对文档一致性以辅助质量判断。"
+ },
+ {
+  "sid": "05-011",
+  "arxiv": "2406.17557",
+  "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+  "subtopic": "质量筛选（启发式）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统消融英语网络数据的去重与启发式过滤，FineWeb2 的前身。",
+  "relevance_use": "FineWeb2 多语言流程的基础消融证据"
+ },
+ {
+  "sid": "05-012",
+  "arxiv": "2406.11794",
+  "title": "DataComp-LM: In search of the next generation of training sets for language models",
+  "subtopic": "质量筛选（模型分类器）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "受控比较数据过滤策略的基准。",
+  "relevance_use": "数据过滤策略对比方法学可迁移到小语种"
+ },
+ {
+  "sid": "05-013",
+  "arxiv": "2412.02595",
+  "title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+  "subtopic": "质量筛选（模型分类器）",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "分类器集成与合成改写处理 CommonCrawl。",
+  "relevance_use": "分类器集成可减少对单一过滤器的偏置"
+ },
+ {
+  "sid": "05-014",
+  "arxiv": "2511.16397",
+  "title": "AICC: Parse HTML Finer, Make Models Better -- A 7.3T AI-Ready Corpus Built by a Model-Based HTML Parser",
+  "subtopic": "正文抽取",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "以模型做 HTML 正文抽取，比较抽取器对语料质量的影响。",
+  "relevance_use": "正文抽取是小语种网页语料损失的第一环"
+ },
+ {
+  "sid": "05-015",
+  "arxiv": "2411.04257",
+  "title": "LSHBloom: Memory-efficient, Extreme-scale Document Deduplication",
+  "subtopic": "去重",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "用 Bloom filter 改进 MinHash LSH 去重的内存与速度。",
+  "relevance_use": "大规模多语言去重工程方案"
+ },
+ {
+  "sid": "05-016",
+  "arxiv": "2502.18443",
+  "title": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+  "subtopic": "OCR 与文档转换",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "用视觉语言模型把 PDF 线性化为文本。",
+  "relevance_use": "小语种大量文本存于 PDF/扫描件，转换质量决定可用语料"
+ },
+ {
+  "sid": "05-017",
+  "arxiv": "2406.13236",
+  "title": "Data Contamination Can Cross Language Barriers",
+  "subtopic": "基准污染检测",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "展示跨语言（翻译后）污染可绕过常规检测，并提出检测方法。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "污染影响多语言评测有效性"
+ },
+ {
+  "sid": "05-018",
+  "arxiv": "2311.09783",
+  "title": "Investigating Data Contamination in Modern Benchmarks for Large Language Models",
+  "subtopic": "基准污染检测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出检索与 TS-Guessing 等污染检测方法。",
+  "relevance_use": "污染检测方法可用于小语种评测集"
+ },
+ {
+  "sid": "05-019",
+  "arxiv": "2602.13139",
+  "title": "OpenLID-v3: Improving the Precision of Closely Related Language Identification -- An Experience Report",
+  "subtopic": "语言识别（近似语言）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "针对波斯尼亚/克罗地亚/塞尔维亚语、北意大利与南法罗曼语变体、斯堪的纳维亚语等近似语言提升 LID 精度的经验报告。"
+ },
+ {
+  "sid": "05-020",
+  "arxiv": "2601.18026",
+  "title": "CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data",
+  "subtopic": "语言识别（评测）",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "CommonLID：人工标注的网络域 LID 基准，指出现有数据高估低资源噪声网页上的 LID 性能。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "LID 基准"
+ },
+ {
+  "sid": "05-021",
+  "arxiv": "2406.17901",
+  "title": "Script-Agnostic Language Identification",
+  "subtopic": "语言识别（文字无关）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究同一语言多种文字书写时的文字无关语言识别。"
+ },
+ {
+  "sid": "05-022",
+  "arxiv": "2602.17655",
+  "title": "What Language is This? Ask Your Tokenizer",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用分词器信息进行语言识别。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "基于分词器"
+ },
+ {
+  "sid": "05-023",
+  "arxiv": "2311.09696",
+  "title": "Fumbling in Babel: An Investigation into ChatGPT's Language Identification Ability",
+  "subtopic": "语言识别（LLM）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估 ChatGPT 在大量语言上的语言识别能力，低资源语言表现较差。"
+ },
+ {
+  "sid": "05-024",
+  "arxiv": "2609.06963",
+  "title": "TurEngMix: A Text Corpus and Benchmark for Turkish-English Code-Mixed Language Identification and Named Entity Recognition",
+  "subtopic": "语言识别（语码混用）",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "土耳其语—英语语码混用的词级语言识别语料与基准。"
+ },
+ {
+  "sid": "05-025",
+  "arxiv": "2511.02958",
+  "title": "Automatic Machine Translation Detection Using a Surrogate Multilingual Translation Model",
+  "subtopic": "机器翻译文本检测",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用 NLLB 隐状态检测网络平行语料中的机器翻译句子，非英语对提升明显。"
+ },
+ {
+  "sid": "05-026",
+  "arxiv": "2411.05527",
+  "title": "How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "对非英语维基百科做质量审计，发现机器人生成、模板与语言混杂问题，并评估过滤收益。"
+ },
+ {
+  "sid": "05-027",
+  "arxiv": "2402.07446",
+  "title": "Quality Does Matter: A Detailed Look at the Quality and Utility of Web-Mined Parallel Corpora",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "审计僧伽罗语/泰米尔语网络挖掘平行语料质量，并评估按质量排序取子集的效果。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "平行语料来源质量"
+ },
+ {
+  "sid": "05-028",
+  "arxiv": "2511.03880",
+  "title": "Evaluating Machine Translation Datasets for Low-Web Data Languages: A Gendered Lens",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从性别视角审计低网络数据语言的机器翻译数据集内容。"
+ },
+ {
+  "sid": "05-029",
+  "arxiv": "2507.01785",
+  "title": "MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining",
+  "subtopic": "质量筛选（模型分类器）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "MuRating：把英语质量信号迁移为 17 种语言的多语言质量评分器。"
+ },
+ {
+  "sid": "05-030",
+  "arxiv": "2604.20549",
+  "title": "Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection",
+  "subtopic": "质量筛选（跨语言迁移）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "检验嵌入空间质量信号能否跨语言迁移，用高资源语言帮助过滤低资源语言数据。"
+ },
+ {
+  "sid": "05-031",
+  "arxiv": "2504.01542",
+  "title": "Register Always Matters: Analysis of LLM Pretraining Data Through the Lens of Language Variation",
+  "subtopic": "语域/体裁分类",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "按语域切分网页预训练数据并分析其对模型的影响。",
+  "relevance_use": "语域标签可作为小语种网页筛选维度"
+ },
+ {
+  "sid": "05-032",
+  "arxiv": "2406.19892",
+  "title": "Automatic register identification for the open web using multilingual deep learning",
+  "subtopic": "语域/体裁分类",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "16 种语言网页语域多标签分类（多语言 CORE）。"
+ },
+ {
+  "sid": "05-033",
+  "arxiv": "2410.24140",
+  "title": "Don't Touch My Diacritics",
+  "subtopic": "Unicode 规范化与变音符",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "论证变音符与 Unicode 规范化处理不当对多语言模型的影响，并给出建议。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "影响分词"
+ },
+ {
+  "sid": "05-034",
+  "arxiv": "2601.01091",
+  "title": "ks-lit-3m: A 3.1 million word kashmiri text dataset for large language model pretraining",
+  "subtopic": "Unicode 与旧编码转换",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "克什米尔语文学语料 KS-LIT-3M，涉及 InPage 旧格式到 Unicode 的转换。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "语料构建"
+ },
+ {
+  "sid": "05-035",
+  "arxiv": "2410.13305",
+  "title": "Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition",
+  "subtopic": "OCR 噪声与后校正",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以电子书为参照用 LLM 校正越南语历史文献 OCR 中的变音符错误，发布 VieBookRead。"
+ },
+ {
+  "sid": "05-036",
+  "arxiv": "2502.01205",
+  "title": "OCR Error Post-Correction with LLMs in Historical Documents: No Free Lunches",
+  "subtopic": "OCR 噪声与后校正",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较开源 LLM 对英语与芬兰语历史文献 OCR 后校正，芬兰语未达实用水平。"
+ },
+ {
+  "sid": "05-037",
+  "arxiv": "2608.19026",
+  "title": "Institutional Books - Enriched Text: A customizable multilingual open-source pipeline for denoising, deduplicating, and annotating OCR text at scale",
+  "subtopic": "OCR 噪声与后校正",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向多语言 OCR 书籍文本的去噪、去重与标注开源流水线。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "Institutional Books 来源"
+ },
+ {
+  "sid": "05-038",
+  "arxiv": "2601.14994",
+  "title": "Obscuring Data Contamination Through Translation: Evidence from Arabic Corpora",
+  "subtopic": "基准污染检测",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "显示翻译可掩盖污染信号，并提出翻译感知的污染检测（TACD）。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "影响评测有效性"
+ },
+ {
+  "sid": "05-039",
+  "arxiv": "2410.04579",
+  "title": "Upsample or Upweight? Balanced Training on Heavily Imbalanced Datasets",
+  "subtopic": "语言配比与采样温度",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较温度采样（上采样）与损失加权，提出逐步降温的 Cooldown 策略，含多语言实验。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "训练侧采样策略"
+ },
+ {
+  "sid": "05-040",
+  "arxiv": "2311.06440",
+  "title": "Separating the Wheat from the Chaff with BREAD: An open-source benchmark and metrics to detect redundancy in text",
+  "subtopic": "去重与冗余检测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言文本冗余/重复检测基准与指标，用于网页清洗规则评估。"
+ },
+ {
+  "sid": "05-041",
+  "arxiv": "2407.04910",
+  "title": "NADI 2024: The Fifth Nuanced Arabic Dialect Identification Shared Task",
+  "subtopic": "方言识别",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语方言识别共享任务，覆盖多国方言区分。"
+ },
+ {
+  "sid": "05-042",
+  "arxiv": "2402.16827",
+  "title": "A Survey on Data Selection for Language Models",
+  "subtopic": "数据筛选综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统综述预训练/微调数据选择方法（过滤、去重、配比）。",
+  "relevance_use": "数据清洗与选择方法全景，便于选择适合小语种的步骤"
+ },
+ {
+  "sid": "05-043",
+  "arxiv": "2406.04244",
+  "title": "Benchmark Data Contamination of Large Language Models: A Survey",
+  "subtopic": "基准污染检测",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "综述基准污染的成因与检测方法。",
+  "relevance_use": "为小语种评测集构建提供污染检测方法清单"
+ },
+ {
+  "sid": "05-044",
+  "arxiv": "2403.09892",
+  "title": "Geographically-Informed Language Identification",
+  "subtopic": "语言识别（地理先验）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用地理来源信息约束候选语言集合，改进大规模 LID 中近似语言混淆。"
+ },
+ {
+  "sid": "05-045",
+  "arxiv": "2504.21540",
+  "title": "Improving Informally Romanized Language Identification",
+  "subtopic": "语言识别（非正式罗马化）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "针对南亚等语言的非正式拉丁转写文本改进语言识别。"
+ },
+ {
+  "sid": "05-046",
+  "arxiv": "2603.15969",
+  "title": "Robust Language Identification for Romansh Varieties",
+  "subtopic": "语言识别（方言/变体）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "罗曼什语各书面变体的稳健识别。"
+ },
+ {
+  "sid": "05-047",
+  "arxiv": "2502.06692",
+  "title": "Multi-label Scandinavian Language Identification (SLIDE)",
+  "subtopic": "语言识别（近似语言）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "斯堪的纳维亚近似语言多标签 LID 数据与评测，承认同一文本可属多种语言。"
+ },
+ {
+  "sid": "05-048",
+  "arxiv": "2503.06547",
+  "title": "KréyoLID From Language Identification Towards Language Mining",
+  "subtopic": "语言识别（克里奥尔语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向克里奥尔语的语言识别并用于从网络挖掘语言数据。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "语言数据挖掘"
+ },
+ {
+  "sid": "05-049",
+  "arxiv": "2507.11832",
+  "title": "ILID: Native Script Language Identification for Indian Languages",
+  "subtopic": "语言识别（本土文字）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "印度语言本土文字 LID 数据与模型。"
+ },
+ {
+  "sid": "05-050",
+  "arxiv": "2606.06088",
+  "title": "CHALIS: A Challenge Dataset for Language Identification in Difficult Scenarios",
+  "subtopic": "语言识别（评测）",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "困难场景下的语言识别挑战集。"
+ },
+ {
+  "sid": "05-051",
+  "arxiv": "2610.16601",
+  "title": "MixLID: Token-Level Language Identification in Mixed-Language Text",
+  "subtopic": "语言识别（语码混用）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "混合语言文本的词元级语言识别。"
+ },
+ {
+  "sid": "05-052",
+  "arxiv": "2603.13238",
+  "title": "KazakhOCR: A Synthetic Benchmark for Evaluating Multimodal Models in Low-Resource Kazakh Script OCR",
+  "subtopic": "OCR 噪声与文字",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评测多模态模型对哈萨克语（多文字）OCR 能力的合成基准。"
+ },
+ {
+  "sid": "05-053",
+  "arxiv": "2310.16248",
+  "title": "GlotLID: Language Identification for Low-Resource Languages",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "覆盖 1600+ 语言的开源 LID，讨论近似语言混淆与标签噪声。",
+  "old_reason": "2023-10-25 公开（窗口前 4 天）；GlotCC、FineWeb2 等采用的核心小语种 LID 工具"
+ },
+ {
+  "sid": "05-054",
+  "arxiv": "2103.12028",
+  "title": "Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "人工审计多语言网络语料，发现大量低资源语言子集质量极差或语言错标。",
+  "old_reason": "2021 年；低资源语料审计的奠基工作，任务明确要求覆盖其后续"
+ },
+ {
+  "sid": "05-055",
+  "arxiv": "2305.13820",
+  "title": "An Open Dataset and Model for Language Identification",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "OpenLID：201 种语言的开源审计 LID 数据与模型。",
+  "old_reason": "2023-05 公开；HPLT 等采用的 LID 基线，后续 OpenLID-v2 工作依赖之"
+ },
+ {
+  "sid": "05-056",
+  "arxiv": "2107.06499",
+  "title": "Deduplicating Training Data Makes Language Models Better",
+  "subtopic": "去重",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "精确子串与 MinHash 近似去重对语言模型的影响。",
+  "old_reason": "2021 年；去重方法学经典，后续多语言去重均沿用",
+  "relevance_use": "去重方法基础"
+ },
+ {
+  "sid": "05-057",
+  "arxiv": "2304.09151",
+  "title": "UniMax: Fairer and More Effective Language Sampling for Large-Scale Multilingual Pretraining",
+  "subtopic": "语言配比与采样温度",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出按语料上限均匀采样替代温度采样，缓解低资源语言过度重复。",
+  "old_reason": "2023-04 公开；语言采样温度问题的标准参照",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类在 07（07-063）；本类仅作交叉标签：UniMax 提出按重复上限的语言采样，直接对应“语言配比与采样温度”",
+  "cross_only": true
+ },
+ {
+  "sid": "05-058",
+  "arxiv": "2509.07998",
+  "title": "Bilingual Word Level Language Identification for Omotic Languages",
+  "subtopic": "语言识别（低资源）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "奥摩语系语言的词级双语语言识别（备选）。",
+  "reserve": true
+ },
+ {
+  "sid": "05-059",
+  "arxiv": "2512.08143",
+  "title": "PolyLingua: Margin-based Inter-class Transformer for Robust Cross-domain Language Detection",
+  "subtopic": "语言识别",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "跨领域稳健语言检测（备选）。",
+  "reserve": true
+ },
+ {
+  "sid": "05-060",
+  "arxiv": "2502.18148",
+  "title": "NusaAksara: A Multimodal and Multilingual Benchmark for Preserving Indonesian Indigenous Scripts",
+  "subtopic": "文字处理（本土文字）",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "印尼本土文字的多模态基准（含 OCR/转写），备选；若 15 已认领则只作交叉。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "基准",
+  "reserve": true
+ },
+ {
+  "sid": "05-061",
+  "arxiv": "2405.20541",
+  "title": "Perplexed by Perplexity: Perplexity-Based Data Pruning With Small Reference Models",
+  "subtopic": "质量筛选（困惑度）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "小参考模型困惑度剪枝（备选）。",
+  "relevance_use": "困惑度过滤在低资源语言上需谨慎，提供方法基础",
+  "reserve": true
+ },
+ {
+  "sid": "05-062",
+  "arxiv": "2610.11585",
+  "title": "Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection",
+  "subtopic": "质量筛选（跨语言迁移）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究把英语质量分类器迁移到多语言预训练数据选择。",
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-063",
+  "arxiv": "2410.16186",
+  "title": "Contamination Report for Multilingual Benchmarks",
+  "subtopic": "基准污染检测",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "检测多个开源模型在多语言基准上的污染情况。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "影响多语言评测有效性"
+ },
+ {
+  "sid": "05-064",
+  "arxiv": "2601.20858",
+  "title": "When Flores Bloomz Wrong: Cross-Direction Contamination in Machine Translation Evaluation",
+  "subtopic": "基准污染检测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "揭示 FLORES 等翻译基准的跨方向污染问题。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "翻译评测有效性"
+ },
+ {
+  "sid": "05-065",
+  "arxiv": "2603.21571",
+  "title": "DATASHI: A Parallel English-Tashlhiyt Corpus for Orthography Normalization and Low-Resource Language Processing",
+  "subtopic": "正字法规范化",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "塔什尔希特柏柏尔语平行语料，聚焦正字法规范化。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "平行语料构建"
+ },
+ {
+  "sid": "05-066",
+  "arxiv": "2601.08629",
+  "title": "Get away with less: Need of source side data curation to build parallel corpus for low resource Machine Translation",
+  "subtopic": "平行语料筛选",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "讨论低资源翻译平行语料构建中的源端数据筛选（备选）。",
+  "reserve": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译"
+ },
+ {
+  "sid": "05-067",
+  "arxiv": "2609.33734",
+  "title": "Yorùbá in Unicode: An Overview of a Problem",
+  "subtopic": "Unicode 规范化与变音符",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统梳理约鲁巴语声调变音符在 Unicode 中的编码与规范化问题。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "影响分词与文本表示"
+ },
+ {
+  "sid": "05-068",
+  "arxiv": "2412.16119",
+  "title": "Deciphering the Underserved: Benchmarking LLM OCR for Low-Resource Scripts",
+  "subtopic": "OCR 噪声与文字",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "评测 LLM 对低资源文字的 OCR 能力。",
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-069",
+  "arxiv": "2412.15248",
+  "title": "RoundTripOCR: A Data Generation Technique for Enhancing Post-OCR Error Correction in Low-Resource Devanagari Languages",
+  "subtopic": "OCR 噪声与后校正",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为低资源天城文语言合成 OCR 错误数据以训练后校正模型。",
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-070",
+  "arxiv": "2408.02253",
+  "title": "Advancing Post-OCR Correction: A Comparative Study of Synthetic Data",
+  "subtopic": "OCR 噪声与后校正",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较合成数据策略对（低资源语言）OCR 后校正的作用。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "合成数据"
+ },
+ {
+  "sid": "05-071",
+  "arxiv": "2507.18264",
+  "title": "Zero-shot OCR Accuracy of Low-Resourced Languages: A Comparative Analysis on Sinhala and Tamil",
+  "subtopic": "OCR 噪声与文字",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较多种 OCR 引擎对僧伽罗文与泰米尔文的零样本准确率。",
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-072",
+  "arxiv": "2602.21042",
+  "title": "OmniOCR: Generalist OCR for Ethnic Minority Languages",
+  "subtopic": "OCR 噪声与文字",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向少数民族语言文字的通用 OCR（备选）。",
+  "reserve": true,
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-073",
+  "arxiv": "2609.11495",
+  "title": "Combining Synthetic and Real Data for Low-Resource Historical OCR: A Manchu Case Study",
+  "subtopic": "OCR 噪声与文字",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "满文历史文献 OCR 的合成+真实数据组合（备选）。",
+  "reserve": true,
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-074",
+  "arxiv": "2509.18577",
+  "title": "Prior-based Noisy Text Data Filtering: Fast and Strong Alternative For Perplexity",
+  "subtopic": "质量筛选（困惑度替代）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "relevance_use": "无需参考模型的噪声过滤，对缺少好参考模型的小语种可能更适用（备选）",
+  "reason": "基于词频先验的快速噪声文本过滤，替代困惑度过滤（备选）。",
+  "reserve": true,
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-075",
+  "arxiv": "2404.00565",
+  "title": "Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition",
+  "subtopic": "低资源语料审计",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用元数据识别埃及阿拉伯语维基百科中的模板化/机器翻译条目（备选）。",
+  "reserve": true,
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-076",
+  "arxiv": "2404.08345",
+  "title": "FastSpell: the LangId Magic Spell",
+  "subtopic": "语言识别（近似语言）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "HPLT 等流水线使用的近似语言二次判别 LID 工具（备选）。",
+  "reserve": true,
+  "cross": [],
+  "cross_reason": ""
+ },
+ {
+  "sid": "05-077",
+  "arxiv": "2509.08824",
+  "title": "Building High-Quality Datasets for Portuguese LLMs: From Common Crawl Snapshots to Industrial-Grade Corpora",
+  "subtopic": "多语言数据整理",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "relevance_use": "非英语单语种的过滤/毒性分类器构建流程可迁移（备选）",
+  "reason": "葡萄牙语 CommonCrawl 语料构建中的质量与毒性过滤实验（备选）。",
+  "reserve": true,
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "语料构建"
+ }
+]

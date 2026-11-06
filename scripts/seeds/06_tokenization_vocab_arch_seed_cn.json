@@ -1,0 +1,987 @@
+[
+ {
+  "sid": "06-001",
+  "arxiv": "2509.05486",
+  "title": "The Token Tax: Systematic Bias in Multilingual Tokenization",
+  "subtopic": "分词效率与 token 税",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "量化多语言分词不均对低资源语言成本与准确率的系统性影响（“token 税”）。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "在多语言基准上评估"
+ },
+ {
+  "sid": "06-002",
+  "arxiv": "2606.24460",
+  "title": "The African Language Tax: Quantifying the Cost, Latency, and Context Penalty of Tokenizing African Languages in Frontier LLMs",
+  "subtopic": "分词效率与 token 税（非洲语言）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "量化非洲语言在前沿商用模型分词下的费用、延迟与上下文损失。"
+ },
+ {
+  "sid": "06-003",
+  "arxiv": "2510.12389",
+  "title": "Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and Efficiency",
+  "subtopic": "分词公平性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从基础设施偏差角度分析子词分词在多语言间造成的访问与效率不平等。",
+  "reserve": true
+ },
+ {
+  "sid": "06-004",
+  "arxiv": "2607.24276",
+  "title": "The Tokenizer Tax: Quantifying and Explaining the Cross-Lingual Cost of Subword Tokenization for Indian Languages",
+  "subtopic": "分词效率与 token 税（印度语言）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "针对印度语言（多种婆罗米系文字）量化并解释子词分词的跨语言成本。"
+ },
+ {
+  "sid": "06-005",
+  "arxiv": "2411.14198",
+  "title": "Why do language models perform worse for morphologically complex languages?",
+  "subtopic": "形态复杂度与分词",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "检验形态复杂语言建模更难的原因，区分分词对齐、分词质量与数据量假说。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "涉及形态类型学"
+ },
+ {
+  "sid": "06-006",
+  "arxiv": "2507.06378",
+  "title": "Evaluating Morphological Alignment of Tokenizers in 70 Languages",
+  "subtopic": "形态对齐评估",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 70 种语言上评估分词器与形态边界的对齐程度及其与下游表现的关系。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "涉及形态学"
+ },
+ {
+  "sid": "06-007",
+  "arxiv": "2503.14433",
+  "title": "Splintering Nonconcatenative Languages for Better Tokenization",
+  "subtopic": "非拼接形态语言分词",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "针对希伯来语、阿拉伯语等非拼接形态语言改进分词的预处理方法。"
+ },
+ {
+  "sid": "06-008",
+  "arxiv": "2410.11627",
+  "title": "Tokenization and Morphology in Multilingual Language Models: A Comparative Analysis of mT5 and ByT5",
+  "subtopic": "子词与字节模型的形态表示",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较子词模型 mT5 与字节模型 ByT5 在多语言形态信息编码上的差异。"
+ },
+ {
+  "sid": "06-009",
+  "arxiv": "2506.17789",
+  "title": "Multilingual Tokenization through the Lens of Indian Languages: Challenges and Insights",
+  "subtopic": "印度语言分词",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从印度多文字、多形态语言角度梳理多语言分词的挑战。",
+  "reserve": true
+ },
+ {
+  "sid": "06-010",
+  "arxiv": "2411.12240",
+  "title": "Evaluating Tokenizer Performance of Large Language Models Across Official Indian Languages",
+  "subtopic": "印度语言分词评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估主流 LLM 分词器在 22 种印度官方语言上的效率。"
+ },
+ {
+  "sid": "06-011",
+  "arxiv": "2502.07057",
+  "title": "Tokenization Standards for Linguistic Integrity: Turkish as a Benchmark",
+  "subtopic": "黏着语分词（土耳其语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以土耳其语为例提出衡量分词语言完整性的指标。",
+  "reserve": true
+ },
+ {
+  "sid": "06-012",
+  "arxiv": "2406.15358",
+  "title": "Introducing Syllable Tokenization for Low-resource Languages: A Case Study with Swahili",
+  "subtopic": "音节分词（斯瓦希里语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为斯瓦希里语提出音节级分词并检验其对生成的影响。"
+ },
+ {
+  "sid": "06-013",
+  "arxiv": "2402.18376",
+  "title": "Tokenization Is More Than Compression",
+  "subtopic": "分词理论与评估",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "挑战“压缩率越高越好”的分词假设，为评估低资源语言分词器提供方法依据。"
+ },
+ {
+  "sid": "06-014",
+  "arxiv": "2606.15044",
+  "title": "Equity with Efficiency: An Empirical Study of Tokenizers for Multilingual Large Language Models",
+  "subtopic": "多语言分词器公平与效率",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "实证比较多语言 LLM 分词器的公平性与效率取舍。"
+ },
+ {
+  "sid": "06-015",
+  "arxiv": "2506.10766",
+  "title": "One Tokenizer To Rule Them All: Emergent Language Plasticity via Multilingual Tokenizers",
+  "subtopic": "多语言分词器与语言可塑性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究预训练时使用覆盖更多语言的分词器对后续新增语言适配能力的影响。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "涉及预训练后语言扩展"
+ },
+ {
+  "sid": "06-016",
+  "arxiv": "2511.03237",
+  "title": "MUTANT: A Recipe for Multilingual Tokenizer Design",
+  "subtopic": "多语言分词器设计",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "给出多语言（含印度语言）分词器设计的系统配方。"
+ },
+ {
+  "sid": "06-017",
+  "arxiv": "2508.06533",
+  "title": "The Art of Breaking Words: Rethinking Multilingual Tokenizer Design",
+  "subtopic": "多语言分词器设计",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "重新审视多语言分词器的词表规模、预分词与数据配比设计。",
+  "reserve": true
+ },
+ {
+  "sid": "06-018",
+  "arxiv": "2510.06128",
+  "title": "Parallel Tokenizers: Rethinking Vocabulary Design in Cross-Lingual Transfer of Low-Resource Languages",
+  "subtopic": "对齐词表与跨语言迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出跨语言语义对齐的并行词表以改善低资源语言迁移。"
+ },
+ {
+  "sid": "06-019",
+  "arxiv": "2609.15528",
+  "title": "To Each Language Its Tokenizer: Modular Tokenizers for Efficient Multilingual LLMs",
+  "subtopic": "模块化分词器",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为不同语言使用模块化分词器以提升多语言效率。",
+  "reserve": true
+ },
+ {
+  "sid": "06-020",
+  "arxiv": "2407.08818",
+  "title": "MAGNET: Improving the Multilingual Fairness of Language Models with Adaptive Gradient-Based Tokenization",
+  "subtopic": "自适应字节分组/分词公平",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "按文字系统学习字节分组边界，缓解非拉丁文字过度切分。"
+ },
+ {
+  "sid": "06-021",
+  "arxiv": "2403.10691",
+  "title": "MYTE: Morphology-Driven Byte Encoding for Better and Fairer Multilingual Language Modeling",
+  "subtopic": "形态驱动字节编码",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以语素为单位重新设计字节编码，使各语言序列长度更均衡。"
+ },
+ {
+  "sid": "06-022",
+  "arxiv": "2508.04796",
+  "title": "Parity-aware Byte-Pair Encoding: Improving Cross-lingual Fairness in Tokenization",
+  "subtopic": "公平 BPE",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在 BPE 合并时考虑最差压缩语言以提升跨语言分词公平。"
+ },
+ {
+  "sid": "06-023",
+  "arxiv": "2505.24689",
+  "title": "BPE Stays on SCRIPT: Structured Encoding for Robust Multilingual Pretokenization",
+  "subtopic": "按文字的预分词与编码",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用按文字（script）结构化的编码替代 UTF-8 字节预分词，改善多文字处理。",
+  "reserve": true
+ },
+ {
+  "sid": "06-024",
+  "arxiv": "2402.14714",
+  "title": "Efficient and Effective Vocabulary Expansion Towards Multilingual Large Language Models",
+  "subtopic": "词表扩展（韩语）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "EEVE：对韩文词表扩展与嵌入分阶段训练的高效方案。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "韩语模型案例"
+ },
+ {
+  "sid": "06-025",
+  "arxiv": "2311.05741",
+  "title": "Efficiently Adapting Pretrained Language Models To New Languages",
+  "subtopic": "词表扩展与持续预训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究为新语言（匈牙利语、泰语）扩展词表并持续训练的高效配方。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 07 认领（07-005）；本类仅作交叉标签：匈牙利语、泰语词表扩展+持续预训练，方法核心含词表扩展，与 06 的分词/词表/架构主题直接相关。",
+  "cross_only": true
+ },
+ {
+  "sid": "06-026",
+  "arxiv": "2402.10712",
+  "title": "An Empirical Study on Cross-lingual Vocabulary Adaptation for Efficient Language Model Inference",
+  "subtopic": "跨语言词表适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统比较多种词表替换/嵌入初始化方法对目标语言推理效率与性能的影响。"
+ },
+ {
+  "sid": "06-027",
+  "arxiv": "2406.11477",
+  "title": "How Can We Effectively Expand the Vocabulary of LLMs with 0.01GB of Target Language Text?",
+  "subtopic": "低资源词表扩展",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在极少目标语言文本条件下研究词表扩展与嵌入初始化策略。"
+ },
+ {
+  "sid": "06-028",
+  "arxiv": "2412.11704",
+  "title": "Adapting Chat Language Models Using Only Target Unlabeled Language Data",
+  "subtopic": "对话模型词表扩展",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "只用目标语言无标注数据为对话模型扩词表并保留对话能力。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "主分类已由 07 认领（07-066）；本类仅作交叉标签：对话模型在只有目标语言无标注数据时的词表扩展，与 06 的分词/词表/架构主题直接相关。",
+  "cross_only": true
+ },
+ {
+  "sid": "06-029",
+  "arxiv": "2406.14670",
+  "title": "Exploring Design Choices for Building Language-Specific LLMs",
+  "subtopic": "词表扩展设计选择",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统比较基座选择、词表扩展与持续预训练对单语言 LLM 的影响。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 07 认领（07-056）；本类仅作交叉标签：系统比较词表扩展对单语言 LLM 的影响，与 06 的分词/词表/架构主题直接相关。",
+  "cross_only": true
+ },
+ {
+  "sid": "06-030",
+  "arxiv": "2410.09644",
+  "title": "Adapters for Altering LLM Vocabularies: What Languages Benefit the Most?",
+  "subtopic": "词表适配器",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用词表适配模块替换词表，分析哪些语言（文字、切分程度）受益最多。"
+ },
+ {
+  "sid": "06-031",
+  "arxiv": "2408.04303",
+  "title": "Trans-Tokenization and Cross-lingual Vocabulary Transfers: Language Adaptation of LLMs for Low-Resource NLP",
+  "subtopic": "跨语言词表迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "基于平行语料对齐初始化目标语言词嵌入，面向低资源语言（如鞑靼语）。"
+ },
+ {
+  "sid": "06-032",
+  "arxiv": "2405.07883",
+  "title": "Zero-Shot Tokenizer Transfer",
+  "subtopic": "零样本分词器迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用超网络为任意新分词器预测嵌入，实现分词器零样本替换。"
+ },
+ {
+  "sid": "06-033",
+  "arxiv": "2311.08849",
+  "title": "OFA: A Framework of Initializing Unseen Subword Embeddings for Efficient Large-scale Multilingual Continued Pretraining",
+  "subtopic": "新词嵌入初始化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "利用外部多语言词向量初始化未见子词嵌入，降低大规模多语言持续预训练成本。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "持续预训练"
+ },
+ {
+  "sid": "06-034",
+  "arxiv": "2504.21018",
+  "title": "HYPEROFA: Expanding LLM Vocabulary to New Languages via Hypernetwork-Based Embedding Initialization",
+  "subtopic": "新词嵌入初始化（超网络）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在 OFA 基础上用超网络预测新语言词嵌入。",
+  "reserve": true
+ },
+ {
+  "sid": "06-035",
+  "arxiv": "2404.02534",
+  "title": "ANGOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model",
+  "subtopic": "嵌入初始化（安哥拉语言）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将 OFA 初始化与合成数据用于安哥拉班图语言模型。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "使用合成数据"
+ },
+ {
+  "sid": "06-036",
+  "arxiv": "2506.01535",
+  "title": "Dictionaries to the Rescue: Cross-Lingual Vocabulary Transfer for Low-Resource Languages Using Bilingual Dictionaries",
+  "subtopic": "词典驱动的词表迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "只用双语词典完成低资源语言的跨语言词表迁移。"
+ },
+ {
+  "sid": "06-037",
+  "arxiv": "2412.21140",
+  "title": "Facilitating large language model Russian adaptation with Learned Embedding Propagation",
+  "subtopic": "嵌入传播（俄语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用学习到的嵌入传播把词表适配迁移到指令模型，降低语言适配成本。",
+  "reserve": true
+ },
+ {
+  "sid": "06-038",
+  "arxiv": "2312.02598",
+  "title": "Impact of Tokenization on LLaMa Russian Adaptation",
+  "subtopic": "分词对语言适配的影响（俄语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较替换为目标语言分词器对俄语（西里尔）适配质量与效率的影响。"
+ },
+ {
+  "sid": "06-039",
+  "arxiv": "2412.12310",
+  "title": "Second Language (Arabic) Acquisition of LLMs via Progressive Vocabulary Expansion",
+  "subtopic": "渐进式词表扩展（阿拉伯语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "对阿拉伯文字采用渐进式词表扩展，模拟二语习得。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "阿拉伯语模型案例"
+ },
+ {
+  "sid": "06-040",
+  "arxiv": "2407.12869",
+  "title": "Bilingual Adaptation of Monolingual Foundation Models",
+  "subtopic": "双语适配与词表扩展（阿拉伯语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将英语基座通过扩词表与持续预训练适配为阿拉伯语-英语双语模型。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 07 认领（07-029）；本类仅作交叉标签：阿拉伯语适配中的词表扩展与嵌入初始化，与 06 的分词/词表/架构主题直接相关。",
+  "cross_only": true
+ },
+ {
+  "sid": "06-041",
+  "arxiv": "2501.02631",
+  "title": "Prune or Retrain: Optimizing the Vocabulary of Multilingual Models for Estonian",
+  "subtopic": "词表裁剪与重训（爱沙尼亚语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较词表裁剪与重训分词器对爱沙尼亚语的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "06-042",
+  "arxiv": "2410.18836",
+  "title": "From English-Centric to Effective Bilingual: LLMs with Custom Tokenizers for Underrepresented Languages",
+  "subtopic": "定制分词器（乌克兰语等）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为欠代表语言构建定制分词器并替换嵌入的双语化方案。",
+  "reserve": true
+ },
+ {
+  "sid": "06-043",
+  "arxiv": "2607.15209",
+  "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
+  "subtopic": "埃塞俄比亚文字词表扩展",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "对阿姆哈拉语与提格利尼亚语（埃塞俄比亚文字）的词表扩展比较研究。"
+ },
+ {
+  "sid": "06-044",
+  "arxiv": "2608.03494",
+  "title": "Beyond Initialization Loss: A Systematic Study of Token Embedding Initialization Strategies for LLM Vocabulary Extension",
+  "subtopic": "嵌入初始化策略比较",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统比较词表扩展时新 token 嵌入初始化策略。",
+  "reserve": true
+ },
+ {
+  "sid": "06-045",
+  "arxiv": "2510.21954",
+  "title": "Model-Aware Tokenizer Transfer",
+  "subtopic": "分词器迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用模型内部信息改进分词器迁移后的嵌入初始化。",
+  "reserve": true
+ },
+ {
+  "sid": "06-046",
+  "arxiv": "2401.10660",
+  "title": "Accelerating Multilingual Language Model for Excessively Tokenized Languages",
+  "subtopic": "过度切分语言加速",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为过度切分的非拉丁文字语言增加目标语言输出头以加速生成。",
+  "cross": [
+   "16"
+  ],
+  "cross_reason": "推理加速"
+ },
+ {
+  "sid": "06-047",
+  "arxiv": "2407.13623",
+  "title": "Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies",
+  "subtopic": "词表规模缩放律",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "给出词表大小随模型规模的缩放规律，为多语言词表规模选择提供依据。"
+ },
+ {
+  "sid": "06-048",
+  "arxiv": "2407.07080",
+  "title": "Adapting LLMs to Hebrew: Unveiling DictaLM 2.0 with Enhanced Vocabulary and Instruction Capabilities",
+  "subtopic": "词表增强（希伯来语）",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "希伯来文字的词表扩展与持续预训练案例。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "希伯来语模型案例"
+ },
+ {
+  "sid": "06-049",
+  "arxiv": "2506.03523",
+  "title": "TokAlign: Efficient Vocabulary Adaptation via Token Alignment",
+  "subtopic": "词表对齐替换",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "通过 token 对齐矩阵把旧词表嵌入迁移到新词表。"
+ },
+ {
+  "sid": "06-050",
+  "arxiv": "2401.13660",
+  "title": "MambaByte: Token-free Selective State Space Model",
+  "subtopic": "字节级状态空间模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "无分词字节级 Mamba 模型，为免去多语言分词不公提供架构路线。"
+ },
+ {
+  "sid": "06-051",
+  "arxiv": "2412.09871",
+  "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
+  "subtopic": "字节动态分块",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "基于熵的动态字节分块，在规模化下与 token 模型匹敌，对低资源语言与长尾文字有潜在价值。"
+ },
+ {
+  "sid": "06-052",
+  "arxiv": "2404.14408",
+  "title": "SpaceByte: Towards Deleting Tokenization from Large Language Modeling",
+  "subtopic": "字节级模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "按空格等边界分层的字节级模型，讨论无空格文字的局限。"
+ },
+ {
+  "sid": "06-053",
+  "arxiv": "2410.20771",
+  "title": "MrT5: Dynamic Token Merging for Efficient Byte-level Language Models",
+  "subtopic": "字节模型动态合并",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "对 ByT5 引入动态 token 删除以缩短多语言字节序列。"
+ },
+ {
+  "sid": "06-054",
+  "arxiv": "2501.10322",
+  "title": "Hierarchical Autoregressive Transformers: Combining Byte- and Word-Level Processing for Robust, Adaptable Language Models",
+  "subtopic": "字节-词层次模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "字节与词两级层次模型，可无需重训分词器适配新语言。"
+ },
+ {
+  "sid": "06-055",
+  "arxiv": "2507.07955",
+  "title": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+  "subtopic": "动态分块（H-Net）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "端到端学习分块的层次模型，作者报告在中文等弱分词启发式语言上收益更大。"
+ },
+ {
+  "sid": "06-056",
+  "arxiv": "2508.05628",
+  "title": "H-Net++: Hierarchical Dynamic Chunking for Tokenizer-Free Language Modelling in Morphologically-Rich Languages",
+  "subtopic": "形态丰富语言的无分词模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将动态分块用于形态丰富语言（波斯语）的无分词建模。"
+ },
+ {
+  "sid": "06-057",
+  "arxiv": "2406.19223",
+  "title": "T-FREE: Subword Tokenizer-Free Generative LLMs via Sparse Representations for Memory-Efficient Embeddings",
+  "subtopic": "无子词词表的稀疏表示",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "以字符三元组稀疏表示替代子词词表，作者称利于跨语言迁移。",
+  "reserve": true
+ },
+ {
+  "sid": "06-058",
+  "arxiv": "2505.17102",
+  "title": "BanglaByT5: Byte-Level Modelling for Bangla",
+  "subtopic": "字节级模型（孟加拉文）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "孟加拉文字的字节级模型案例。"
+ },
+ {
+  "sid": "06-059",
+  "arxiv": "2506.07541",
+  "title": "Bit-level BPE: Below the byte boundary",
+  "subtopic": "低于字节的编码（CJK）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "针对汉字等 CJK 字符在 UTF-8 下的长序列问题提出比特级 BPE。"
+ },
+ {
+  "sid": "06-060",
+  "arxiv": "2404.08191",
+  "title": "Measuring Cross-lingual Transfer in Bytes",
+  "subtopic": "字节模型跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用字节级模型度量跨语言迁移量，排除词表重叠影响。"
+ },
+ {
+  "sid": "06-061",
+  "arxiv": "2505.21265",
+  "title": "Multilingual Pretraining for Pixel Language Models",
+  "subtopic": "像素语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言像素语言模型预训练，绕开词表对多种文字的限制。"
+ },
+ {
+  "sid": "06-062",
+  "arxiv": "2504.02122",
+  "title": "Overcoming Vocabulary Constraints with Pixel-level Fallback",
+  "subtopic": "像素级回退编码",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为未登录文字/词提供像素级回退编码，改善非拉丁文字处理。"
+ },
+ {
+  "sid": "06-063",
+  "arxiv": "2603.27859",
+  "title": "KazByte: Adapting Qwen models to Kazakh via Byte-level Adapter",
+  "subtopic": "字节级适配器（哈萨克语）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用字节级适配器把 Qwen 适配到哈萨克语。"
+ },
+ {
+  "sid": "06-064",
+  "arxiv": "2401.14280",
+  "title": "RomanSetu: Efficiently unlocking multilingual capabilities of Large Language Models via Romanization",
+  "subtopic": "罗马化作为桥梁",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用罗马化文本作为英语与非拉丁文字印度语言之间的桥梁，减少 token 数并增强迁移。"
+ },
+ {
+  "sid": "06-065",
+  "arxiv": "2401.06620",
+  "title": "TransliCo: A Contrastive Learning Framework to Address the Script Barrier in Multilingual Pretrained Language Models",
+  "subtopic": "文字障碍与转写",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用转写对比学习缓解同一语言不同文字之间的表示割裂。"
+ },
+ {
+  "sid": "06-066",
+  "arxiv": "2407.02320",
+  "title": "Exploring the Role of Transliteration in In-Context Learning for Low-resource Languages Written in Non-Latin Scripts",
+  "subtopic": "转写与上下文学习",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究非拉丁文字低资源语言在上下文学习中加入转写的效果。",
+  "cross_only": true,
+  "cross_reason": "主分类已由 08 认领（08-032）；本类仅作交叉标签：非拉丁文字低资源语言的转写（文字处理）研究，与 06 的分词/词表/架构主题直接相关。"
+ },
+ {
+  "sid": "06-067",
+  "arxiv": "2406.19759",
+  "title": "Breaking the Script Barrier in Multilingual Pre-Trained Language Models with Transliteration-Based Post-Training Alignment",
+  "subtopic": "转写后训练对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用转写进行后训练对齐，改善不同文字语言之间的迁移。"
+ },
+ {
+  "sid": "06-068",
+  "arxiv": "2509.17493",
+  "title": "Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages",
+  "subtopic": "可逆转写（中国少数民族语言等）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "基于 Huffman 编码的可逆转写，提升非拉丁文字低资源语言的跨语言迁移。"
+ },
+ {
+  "sid": "06-069",
+  "arxiv": "2601.05776",
+  "title": "One Script Instead of Hundreds? On Pretraining Romanized Encoder Language Models",
+  "subtopic": "罗马化预训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究统一罗马化后预训练对多语言编码器的利弊。",
+  "reserve": true
+ },
+ {
+  "sid": "06-070",
+  "arxiv": "2409.18199",
+  "title": "LangSAMP: Language-Script Aware Multilingual Pretraining",
+  "subtopic": "语言/文字嵌入",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在多语言预训练中加入语言与文字嵌入，减轻表示中的语言信息负担。"
+ },
+ {
+  "sid": "06-071",
+  "arxiv": "2408.11396",
+  "title": "MoE-LPR: Multilingual Extension of Large Language Models through Mixture-of-Experts with Language Priors Routing",
+  "subtopic": "多语言 MoE 扩展",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "通过新增专家与语言先验路由扩展新语言，同时减轻原有语言遗忘。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "主分类已由 07 认领（07-044）；本类仅作交叉标签：以新增语言专家与语言先验路由扩展新语言的 MoE 架构，与 06 的分词/词表/架构主题直接相关。",
+  "cross_only": true
+ },
+ {
+  "sid": "06-072",
+  "arxiv": "2506.12388",
+  "title": "Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model",
+  "subtopic": "多语言动态 MoE",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "按语言相似度分组并动态扩展专家以缓解多语言诅咒。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "多语言诅咒"
+ },
+ {
+  "sid": "06-073",
+  "arxiv": "2510.04694",
+  "title": "Multilingual Routing in Mixture-of-Experts",
+  "subtopic": "MoE 多语言路由分析",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析 MoE 模型中不同语言的路由模式并通过干预路由提升多语言表现。"
+ },
+ {
+  "sid": "06-074",
+  "arxiv": "2410.05021",
+  "title": "DEPT: Decoupled Embeddings for Pre-training Language Models",
+  "subtopic": "解耦嵌入预训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "在异构（含多语言）数据源上解耦嵌入层预训练，缓解词表与数据异质性。",
+  "cross": [
+   "16"
+  ],
+  "cross_reason": "通信高效训练",
+  "reserve": true
+ },
+ {
+  "sid": "06-075",
+  "arxiv": "2305.15425",
+  "title": "Language Model Tokenizers Introduce Unfairness Between Languages",
+  "subtopic": "分词公平性（经典）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "首次系统量化分词长度在不同语言间的差异（最多十余倍），是 token 税研究的起点。",
+  "old_reason": "首次系统量化分词长度跨语言不公平的奠基论文，近三年 token 税研究均以其为出发点，作为经典补充。"
+ },
+ {
+  "sid": "06-076",
+  "arxiv": "2305.13707",
+  "title": "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models",
+  "subtopic": "分词成本（经典）",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "量化商用 API 按 token 计费下不同语言的费用差异，是“token 税”讨论的奠基文献。",
+  "old_reason": "首次量化商用 API 按 token 计费下的语言成本差异，“token 税”概念来源之一，作为经典补充。"
+ },
+ {
+  "sid": "06-077",
+  "arxiv": "2305.14481",
+  "title": "FOCUS: Effective Embedding Initialization for Monolingual Specialization of Multilingual Models",
+  "subtopic": "嵌入初始化（经典）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "基于重叠 token 的新词表嵌入初始化方法，后续 OFA/ZeTT 等的直接基线。",
+  "old_reason": "FOCUS 是近三年 OFA、ZeTT、HyperOFA 等嵌入初始化方法的直接基线，作为经典补充。"
+ },
+ {
+  "sid": "06-078",
+  "arxiv": "2112.06598",
+  "title": "WECHSEL: Effective initialization of subword embeddings for cross-lingual transfer of monolingual language models",
+  "subtopic": "嵌入初始化（经典）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用双语词向量初始化目标语言子词嵌入的经典方法，跨语言词表迁移的基线。",
+  "old_reason": "WECHSEL 是跨语言词表迁移/嵌入初始化的经典方法，近三年同类工作的标准对照，作为经典补充。"
+ },
+ {
+  "sid": "06-079",
+  "arxiv": "2105.13626",
+  "title": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+  "subtopic": "字节级模型（经典）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言字节级预训练模型的经典起点，后续 MrT5/BanglaByT5 等均以其为基座。",
+  "old_reason": "ByT5 是多语言字节级预训练的经典起点，MrT5、BanglaByT5 等近三年工作直接以其为基座，作为经典补充。",
+  "reserve": true
+ },
+ {
+  "sid": "06-080",
+  "arxiv": "2406.16508",
+  "title": "Large Vocabulary Size Improves Large Language Models",
+  "subtopic": "词表规模",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究词表规模对模型性能的影响及持续训练中替换为更大词表的方法。",
+  "reserve": true
+ },
+ {
+  "sid": "06-081",
+  "arxiv": "2311.08620",
+  "title": "Toucan: Token-Aware Character Level Language Modeling",
+  "subtopic": "字符级模型加速",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "字符级模型中学习合并字符为 token 以加速生成。",
+  "reserve": true
+ },
+ {
+  "sid": "06-082",
+  "arxiv": "2508.14292",
+  "title": "Tokens with Meaning: A Hybrid Tokenization Approach for Turkish",
+  "subtopic": "形态感知混合分词（土耳其语）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "结合形态分析与 BPE 的土耳其语混合分词。",
+  "reserve": true
+ },
+ {
+  "sid": "06-083",
+  "arxiv": "2502.06468",
+  "title": "Beyond Literal Token Overlap: Token Alignability for Multilinguality",
+  "subtopic": "词表重叠与跨语言迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "提出 token 可对齐性指标，解释多语言分词对跨语言迁移的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "06-084",
+  "arxiv": "2410.12989",
+  "title": "Qtok: A Comprehensive Framework for Evaluating Multilingual Tokenizer Quality in Large Language Models",
+  "subtopic": "多语言分词器评估框架",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言分词器质量评估框架。",
+  "reserve": true
+ },
+ {
+  "sid": "06-085",
+  "arxiv": "2601.14050",
+  "title": "Understanding Multilingualism in Mixture-of-Experts LLMs: Routing Mechanism, Expert Specialization, and Layerwise Steering",
+  "subtopic": "MoE 多语言机制",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析 MoE LLM 中的语言路由与专家分工。",
+  "reserve": true
+ },
+ {
+  "sid": "06-086",
+  "arxiv": "2608.27658",
+  "title": "When Tokenizers Fail: Byte-Level Chunking for Zero-Shot Transfer to Low-Resource Languages",
+  "subtopic": "字节分块零样本迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "字节级分块用于低资源语言零样本迁移。",
+  "reserve": true
+ },
+ {
+  "sid": "06-087",
+  "arxiv": "2404.18071",
+  "title": "Can Perplexity Predict Fine-tuning Performance? An Investigation of Tokenization Effects on Sequential Language Models for Nepali",
+  "subtopic": "分词影响（尼泊尔语，天城文）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "天城文尼泊尔语上不同分词方案对模型表现的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "06-088",
+  "arxiv": "2603.22629",
+  "title": "LGSE: Lexically Grounded Subword Embedding Initialization for Low-Resource Language Adaptation",
+  "subtopic": "词汇驱动嵌入初始化",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "利用词汇知识初始化低资源语言子词嵌入。",
+  "reserve": true
+ }
+]

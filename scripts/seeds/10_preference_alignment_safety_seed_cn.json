@@ -1,0 +1,1061 @@
+[
+ {
+  "sid": "10-001",
+  "arxiv": "2407.02552",
+  "title": "RLHF Can Speak Many Languages: Unlocking Multilingual Preference Optimization for LLMs",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统研究多语言偏好数据合成与在线/离线偏好优化，覆盖 23 种语言，是多语言 RLHF 的核心实证工作。"
+ },
+ {
+  "sid": "10-002",
+  "arxiv": "2406.18682",
+  "title": "The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以人工多语言红队数据区分“全球性”与“本地性”伤害并做安全偏好对齐，是 Aya 安全对齐工作。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "同时发布多语言红队评测数据"
+ },
+ {
+  "sid": "10-003",
+  "arxiv": "2404.12318",
+  "title": "Reuse Your Rewards: Reward Model Transfer for Zero-Shot Cross-Lingual Alignment",
+  "subtopic": "奖励模型与评审",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "把源语言奖励模型直接用于目标语言对齐，检验跨语言奖励迁移，适用于缺少偏好数据的语言。"
+ },
+ {
+  "sid": "10-005",
+  "arxiv": "2410.15522",
+  "title": "M-RewardBench: Evaluating Reward Models in Multilingual Settings",
+  "subtopic": "奖励模型与评审",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "首个多语言奖励模型基准（23 种语言），揭示奖励模型在非英语与低资源语言上的性能落差。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-009",
+  "arxiv": "2512.08777",
+  "title": "Fluent Alignment with Disfluent Judges: Post-training for Lower-resource Languages",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究在评审模型本身不流利的条件下为较低资源语言做偏好后训练、保持流利度。"
+ },
+ {
+  "sid": "10-015",
+  "arxiv": "2506.16502",
+  "title": "Relic: Enhancing Reward Model Generalization for Low-Resource Indic Languages with Few-Shot Examples",
+  "subtopic": "奖励模型与评审",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "直接面向低资源印度语言的奖励模型泛化问题。"
+ },
+ {
+  "sid": "10-017",
+  "arxiv": "2509.26601",
+  "title": "MENLO: From Preferences to Proficiency -- Evaluating and Modeling Native-like Quality Across 47 Languages",
+  "subtopic": "奖励模型与评审",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以母语者标注评估 47 种语言回答的“母语般”质量并训练评审/奖励模型。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "人工评价框架"
+ },
+ {
+  "sid": "10-019",
+  "arxiv": "2503.09407",
+  "title": "Got Compute, but No Data: Lessons From Post-training a Finnish LLM",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "技术报告",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "芬兰语模型后训练（含翻译/合成偏好数据）经验总结，直接对应“有算力缺数据”的小语种对齐。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "后训练数据依赖翻译与合成"
+ },
+ {
+  "sid": "10-028",
+  "arxiv": "2203.02155",
+  "title": "Training language models to follow instructions with human feedback",
+  "subtopic": "通用偏好优化方法",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "InstructGPT：RLHF 三阶段流程的奠基文献，多语言偏好对齐的方法来源。",
+  "old_reason": "RLHF（SFT→奖励模型→PPO）标准流程的奠基论文（2022），本类所有偏好对齐工作的方法来源。"
+ },
+ {
+  "sid": "10-029",
+  "arxiv": "2305.18290",
+  "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "subtopic": "通用偏好优化方法",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "DPO 原始论文，多数多语言偏好优化工作采用的基础算法。",
+  "old_reason": "DPO 原始论文（2023-05），本类多语言/低资源偏好优化几乎均以其为基础算法。"
+ },
+ {
+  "sid": "10-033",
+  "arxiv": "2307.16039",
+  "title": "Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "首个面向 26 种语言（含低资源）的 RLHF 指令模型，偏好数据经翻译与 ChatGPT 生成。",
+  "old_reason": "多语言 RLHF 的首个系统工作（2023-07），覆盖低资源语言，后续多语言偏好优化研究常以其为基线。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "偏好数据依赖翻译与合成"
+ },
+ {
+  "sid": "10-034",
+  "arxiv": "2310.02446",
+  "title": "Low-Resource Languages Jailbreak GPT-4",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "把有害请求翻译为低资源语言即可绕过 GPT-4 安全防护，揭示跨语言安全缺口。",
+  "old_reason": "揭示低资源语言越狱的开创性论文（2023-10-03，早于窗口约 4 周），本类多语言安全研究的直接起点。"
+ },
+ {
+  "sid": "10-035",
+  "arxiv": "2310.06474",
+  "title": "Multilingual Jailbreak Challenges in Large Language Models",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出 MultiJail 数据集并区分非故意/故意多语言越狱，提出 Self-Defense 安全数据生成。",
+  "old_reason": "MultiJail 基准与多语言越狱分类的经典论文（2023-10-10），后续多语言安全评测普遍采用。"
+ },
+ {
+  "sid": "10-037",
+  "arxiv": "2401.13136",
+  "title": "The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Contexts",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析低资源语言下不安全回答与无关回答增多的现象，并比较 SFT 与 RLHF 的多语言安全对齐效果。"
+ },
+ {
+  "sid": "10-048",
+  "arxiv": "2608.14626",
+  "title": "LLM Safety Alignment in Low-Resource Languages: A Systematic Literature Review",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "低资源语言 LLM 安全对齐的系统综述。"
+ },
+ {
+  "sid": "10-064",
+  "arxiv": "2406.16235",
+  "title": "Preference Tuning For Toxicity Mitigation Generalizes Across Languages",
+  "subtopic": "多语言毒性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "仅用英语偏好数据做 DPO 去毒即可跨语言降低毒性，并给出机理解释。"
+ },
+ {
+  "sid": "10-071",
+  "arxiv": "2402.13231",
+  "title": "Investigating Cultural Alignment of Large Language Models",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较提示语言与预训练语言对文化对齐的影响（埃及/美国调查），提出人类学提示。"
+ },
+ {
+  "sid": "10-073",
+  "arxiv": "2502.16534",
+  "title": "Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "检验多语言能力与文化对齐之间并不等价，直接相关小语种模型的文化适切性。"
+ },
+ {
+  "sid": "10-083",
+  "arxiv": "2406.01771",
+  "title": "LLMs Beyond English: Scaling the Multilingual Capability of LLMs with Cross-Lingual Feedback",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建覆盖 100 种语言的多语言指令与跨语言人类反馈偏好数据，以 DPO 对齐 xLLMs-100，直接面向低资源语言对齐。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "含多语言指令微调"
+ },
+ {
+  "sid": "10-004",
+  "arxiv": "2410.18027",
+  "title": "Cross-lingual Transfer of Reward Models in Multilingual Alignment",
+  "subtopic": "奖励模型与评审",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析英语训练的奖励模型向其他语言迁移的效果与机理。"
+ },
+ {
+  "sid": "10-006",
+  "arxiv": "2401.06838",
+  "title": "MAPO: Advancing Multilingual Reasoning through Multilingual Alignment-as-Preference Optimization",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以与英语推理一致性作为偏好信号做 DPO/PPO，提升非英语推理。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "主分类在 11 类（11-011 主列表）；本类仅作交叉标签：方法为多语言偏好优化",
+  "cross_only": true
+ },
+ {
+  "sid": "10-007",
+  "title": "Language Imbalance Driven Rewarding for Multilingual Self-improving",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用语言间能力不平衡构造偏好对进行多语言自我改进的迭代 DPO。",
+  "arxiv_seed_given": "",
+  "arxiv": "2410.08964"
+ },
+ {
+  "sid": "10-008",
+  "arxiv": "2503.04647",
+  "title": "Implicit Cross-Lingual Rewarding for Efficient Multilingual Preference Alignment",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以英语对齐模型的隐式奖励为其他语言构造偏好信号，降低多语言偏好数据成本。"
+ },
+ {
+  "sid": "10-010",
+  "arxiv": "2507.22159",
+  "title": "IndoPref: A Multi-Domain Pairwise Preference Dataset for Indonesian",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "原生构建的印尼语人工偏好数据集，代表本地语言偏好数据收集。"
+ },
+ {
+  "sid": "10-012",
+  "arxiv": "2509.08541",
+  "title": "CM-Align: Consistency-based Multilingual Alignment for Large Language Models",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以跨语言一致性筛选构造多语言偏好数据。"
+ },
+ {
+  "sid": "10-020",
+  "arxiv": "2406.15948",
+  "title": "Teaching LLMs to Abstain across Languages via Multilingual Feedback",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用多语言反馈让模型在低资源语言上学会拒答不确定问题，涉及跨语言对齐公平性。"
+ },
+ {
+  "sid": "10-021",
+  "arxiv": "2412.04261",
+  "title": "Aya Expanse: Combining Research Breakthroughs for a New Multilingual Frontier",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "整合多教师数据套利、多语言偏好训练与模型合并的多语言模型报告。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "已由 03 类认领（03-004）；本类仅作交叉标签：报告含多语言偏好训练与多教师数据套利",
+  "cross_only": true
+ },
+ {
+  "sid": "10-022",
+  "arxiv": "2401.08417",
+  "title": "Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation",
+  "subtopic": "通用偏好优化方法",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "面向翻译的偏好优化方法 CPO，可用于低资源 MT 的偏好对齐。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译任务"
+ },
+ {
+  "sid": "10-025",
+  "arxiv": "2608.13698",
+  "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+  "subtopic": "RLVR 与推理强化学习",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "大规模研究 GRPO 在非英语与多语言设置下的表现。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "推理强化学习"
+ },
+ {
+  "sid": "10-026",
+  "arxiv": "2608.20362",
+  "title": "Multilingual Verifier Bias in RLVR: Benchmark, Rollout Diagnosis, and the Cross-Lingual Selection Bottleneck",
+  "subtopic": "RLVR 与推理强化学习",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "揭示 RLVR 中验证器对非英语的偏差。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "推理强化学习"
+ },
+ {
+  "sid": "10-030",
+  "arxiv": "2402.01306",
+  "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+  "subtopic": "通用偏好优化方法",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "只需二元好/坏反馈的偏好优化，适合低资源语言难以收集成对偏好的情形。"
+ },
+ {
+  "sid": "10-031",
+  "arxiv": "2403.07691",
+  "title": "ORPO: Monolithic Preference Optimization without Reference Model",
+  "subtopic": "通用偏好优化方法",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "无参考模型的单阶段偏好优化，降低小语种对齐的算力需求。"
+ },
+ {
+  "sid": "10-036",
+  "arxiv": "2401.16765",
+  "title": "A Cross-Language Investigation into Jailbreak Attacks in Large Language Models",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "跨语言系统研究越狱攻击并分析表征与微调缓解。"
+ },
+ {
+  "sid": "10-039",
+  "arxiv": "2410.18210",
+  "title": "Towards Understanding the Fragility of Multilingual LLMs against Fine-Tuning Attacks",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "发现单一语言的少量有害微调即可跨语言破坏安全对齐。"
+ },
+ {
+  "sid": "10-040",
+  "arxiv": "2406.15481",
+  "title": "Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以语码转换查询做红队评测，涵盖低资源语言。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-041",
+  "arxiv": "2511.00689",
+  "title": "Do Methods to Jailbreak and Defend LLMs Generalize Across Languages?",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统检验越狱与防御方法的跨语言泛化性。"
+ },
+ {
+  "sid": "10-042",
+  "arxiv": "2605.18239",
+  "title": "Multilingual jailbreaking of LLMs using low-resource languages",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用低资源语言进行多语言越狱的实证研究。"
+ },
+ {
+  "sid": "10-043",
+  "arxiv": "2605.17173",
+  "title": "Why Do Safety Guardrails Degrade Across Languages?",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析安全护栏在非英语语言上退化的原因。"
+ },
+ {
+  "sid": "10-044",
+  "arxiv": "2602.11157",
+  "title": "Response-Based Knowledge Distillation for Multilingual Jailbreak Prevention Unwittingly Compromises Safety",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "发现以响应蒸馏做多语言防越狱反而损害安全，关乎跨语言安全迁移方法风险。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "方法为知识蒸馏"
+ },
+ {
+  "sid": "10-045",
+  "arxiv": "2605.02971",
+  "title": "Multilingual Safety Alignment via Self-Distillation",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以高资源语言安全行为自蒸馏到其他语言。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "方法为跨语言蒸馏"
+ },
+ {
+  "sid": "10-046",
+  "arxiv": "2606.07535",
+  "title": "Multilingual Refusal Alignment for Safer Large Language Models",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "跨语言对齐拒答行为以提升多语言安全。"
+ },
+ {
+  "sid": "10-047",
+  "arxiv": "2610.37245",
+  "title": "Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以豪萨语为例研究非洲语言的安全对齐。"
+ },
+ {
+  "sid": "10-049",
+  "arxiv": "2502.12485",
+  "title": "Safe at the Margins: A General Approach to Safety Alignment in Low-Resource English Languages -- A Singlish Case Study",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以新加坡式英语为例做低资源英语变体的安全对齐（SFT+DPO+KTO 比较）。"
+ },
+ {
+  "sid": "10-050",
+  "arxiv": "2507.08898",
+  "title": "SEALGuard: Safeguarding the Multilingual Conversations in Southeast Asian Languages for LLM Software Systems",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向东南亚语言的多语言安全护栏模型。"
+ },
+ {
+  "sid": "10-052",
+  "arxiv": "2504.04377",
+  "title": "PolyGuard: A Multilingual Safety Moderation Tool for 17 Languages",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "17 种语言的安全审核模型与数据集。"
+ },
+ {
+  "sid": "10-053",
+  "arxiv": "2509.15260",
+  "title": "Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's Low-Resource Languages",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "新加坡低资源语言（Singlish、马来语、泰米尔语等）的毒性红队基准。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-054",
+  "arxiv": "2507.05980",
+  "title": "Lost in Localization: Building RabakBench with Human-in-the-Loop Validation to Measure Multilingual Safety Gaps",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "人机协同验证的本地化多语言安全基准，涉及翻译与本地化质量控制。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-055",
+  "arxiv": "2606.01322",
+  "title": "TukaBench: A Culturally Grounded Jailbreak Benchmark for African Languages",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "文化扎根的非洲语言越狱基准。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-058",
+  "arxiv": "2608.11146",
+  "title": "The Illusion of Cross-Lingual Safety in Low-Resource Languages",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验低资源语言中跨语言安全迁移的“假象”。"
+ },
+ {
+  "sid": "10-059",
+  "arxiv": "2610.26474",
+  "title": "AfriGuard: Safety and Robust Refusal For African Languages",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "非洲语言安全与稳健拒答。"
+ },
+ {
+  "sid": "10-061",
+  "arxiv": "2602.13867",
+  "title": "Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向全球南方语言的高效、文化感知安全对齐。"
+ },
+ {
+  "sid": "10-065",
+  "arxiv": "2405.09373",
+  "title": "PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models",
+  "subtopic": "多语言毒性",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "17 种语言的自然毒性提示基准，评估指令/偏好微调对多语言毒性的影响。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-066",
+  "arxiv": "2404.14397",
+  "title": "RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?",
+  "subtopic": "多语言毒性",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "人工转创（transcreation）的多语言毒性提示集，评估 LLM 判定毒性的能力。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-067",
+  "arxiv": "2509.14493",
+  "title": "Translate, then Detect: Leveraging Machine Translation for Cross-Lingual Toxicity Classification",
+  "subtopic": "多语言毒性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较“先翻译后检测”与直接多语言检测的毒性分类，涉及低资源语言。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "依赖机器翻译"
+ },
+ {
+  "sid": "10-068",
+  "arxiv": "2410.22153",
+  "title": "Benchmarking LLM Guardrails in Handling Multilingual Toxicity",
+  "subtopic": "多语言毒性",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估现有护栏模型在多语言毒性与越狱提示上的表现。"
+ },
+ {
+  "sid": "10-069",
+  "arxiv": "2606.25380",
+  "title": "A Survey of Toxicity Detection and Mitigation Strategies for Multilingual Language Models",
+  "subtopic": "多语言毒性",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言毒性检测与缓解综述。"
+ },
+ {
+  "sid": "10-070",
+  "arxiv": "2402.10946",
+  "title": "CultureLLM: Incorporating Cultural Differences into Large Language Models",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以世界价值观调查为种子合成文化数据微调文化特定模型，涉及低资源文化。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "依赖合成数据"
+ },
+ {
+  "sid": "10-072",
+  "arxiv": "2311.14096",
+  "title": "Cultural Bias and Cultural Alignment of Large Language Models",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "跨 107 个国家/地区评估 GPT 系列的文化偏差与文化提示缓解。"
+ },
+ {
+  "sid": "10-074",
+  "title": "CARE: Multilingual Human Preference Learning for Cultural Awareness",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言人工文化偏好数据，用于地区文化对齐的偏好训练。",
+  "arxiv": "2504.05154"
+ },
+ {
+  "sid": "10-075",
+  "arxiv": "2608.30065",
+  "title": "Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以乌尔都语人工情境化基准评估对齐中的文化错配代价。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-076",
+  "arxiv": "2509.21798",
+  "title": "Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估并改进奖励模型的文化意识（多语言）。"
+ },
+ {
+  "sid": "10-080",
+  "arxiv": "2411.00860",
+  "title": "Survey of Cultural Awareness in Language Models: Text and Beyond",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "语言模型文化意识综述（含多语言与对齐方法）。"
+ },
+ {
+  "sid": "10-084",
+  "arxiv": "2512.05501",
+  "title": "SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "东南亚语言与文化的原生安全基准，用于评估护栏模型。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-085",
+  "arxiv": "2606.22841",
+  "title": "IndicGuard: A Multilingual Safety Guard Model and Dataset for Indic Languages",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向印度语言的安全护栏模型与数据集。"
+ },
+ {
+  "sid": "10-086",
+  "arxiv": "2512.02711",
+  "title": "CREST: Universal Safety Guardrails Through Cluster-Guided Cross-Lingual Transfer",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以语言聚类引导的跨语言迁移构建覆盖低资源语言的通用护栏。"
+ },
+ {
+  "sid": "10-088",
+  "arxiv": "2607.20410",
+  "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "面向斯里兰卡社会价值观（含僧伽罗语/泰米尔语）的文化对齐。"
+ },
+ {
+  "sid": "10-013",
+  "arxiv": "2605.26293",
+  "title": "CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "利用模型自身生成做跨语言对比偏好微调。",
+  "reserve": true
+ },
+ {
+  "sid": "10-016",
+  "arxiv": "2510.01146",
+  "title": "mR3: Multilingual Rubric-Agnostic Reward Reasoning Models",
+  "subtopic": "奖励模型与评审",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖多语言的推理式奖励模型训练与评测。",
+  "reserve": true
+ },
+ {
+  "sid": "10-018",
+  "arxiv": "2505.11475",
+  "title": "HelpSteer3-Preference: Open Human-Annotated Preference Data across Diverse Tasks and Languages",
+  "subtopic": "奖励模型与评审",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "公开人工偏好数据含多语言子集，可作为多语言奖励模型训练与对照数据。",
+  "reserve": true
+ },
+ {
+  "sid": "10-032",
+  "arxiv": "2411.15124",
+  "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+  "subtopic": "通用偏好优化方法",
+  "type": "技术报告",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "开放的后训练配方（SFT+DPO+RLVR），可复用于小语种模型后训练。",
+  "reserve": true
+ },
+ {
+  "sid": "10-038",
+  "arxiv": "2407.07342",
+  "title": "Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用多语言混合查询评估安全对齐的脆弱性。",
+  "reserve": true
+ },
+ {
+  "sid": "10-011",
+  "arxiv": "2511.07691",
+  "title": "CAPO: Confidence Aware Preference Optimization Learning for Multilingual Preferences",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "按置信度加权多语言偏好对以抵抗噪声（如翻译偏好数据）。",
+  "reserve": true
+ },
+ {
+  "sid": "10-014",
+  "arxiv": "2607.13315",
+  "title": "Meta-Learning Preferences for Multilingual LLM Alignment",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以元学习方式跨语言共享偏好学习。",
+  "reserve": true
+ },
+ {
+  "sid": "10-023",
+  "arxiv": "2409.17673",
+  "title": "Cross-lingual Human-Preference Alignment for Neural Machine Translation with Direct Quality Optimization",
+  "subtopic": "通用偏好优化方法",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以质量估计作为人类偏好代理对 NMT 做 DQO 对齐并研究跨语言迁移。",
+  "reserve": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译任务"
+ },
+ {
+  "sid": "10-024",
+  "arxiv": "2504.14669",
+  "title": "Trans-Zero: Self-Play Incentivizes Large Language Models for Multilingual Translation Without Parallel Data",
+  "subtopic": "RLVR 与推理强化学习",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "无平行数据的自博弈强化学习翻译，涉及低资源方向。",
+  "reserve": true,
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "翻译任务"
+ },
+ {
+  "sid": "10-027",
+  "arxiv": "2509.25543",
+  "title": "Aligning Multilingual Reasoning with Verifiable Semantics from a High-Resource Expert Model",
+  "subtopic": "RLVR 与推理强化学习",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以高资源专家模型的可验证语义奖励对齐多语言推理。",
+  "reserve": true,
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "推理强化学习"
+ },
+ {
+  "sid": "10-051",
+  "arxiv": "2504.15241",
+  "title": "MrGuard: A Multilingual Reasoning Guardrail for Universal LLM Safety",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言推理式安全护栏，含合成多语言数据与课程学习。",
+  "reserve": true
+ },
+ {
+  "sid": "10-056",
+  "arxiv": "2607.10112",
+  "title": "Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言安全基准与机制分析。",
+  "reserve": true
+ },
+ {
+  "sid": "10-057",
+  "arxiv": "2506.07645",
+  "title": "Evaluating LLMs Robustness in Less Resourced Languages with Proxy Models",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以代理模型评估低资源语言下的攻击鲁棒性。",
+  "reserve": true
+ },
+ {
+  "sid": "10-060",
+  "arxiv": "2601.12696",
+  "title": "UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "文化扎根的非洲语言安全策略基准。",
+  "reserve": true,
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-062",
+  "arxiv": "2504.02708",
+  "title": "The Hidden Space of Safety: Understanding Preference-Tuned LLMs in Multilingual context",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "分析偏好微调后模型在多语言下的安全表征差异。",
+  "reserve": true
+ },
+ {
+  "sid": "10-063",
+  "arxiv": "2602.22554",
+  "title": "Multilingual Safety Alignment Via Sparse Weight Editing",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以稀疏权重编辑实现多语言安全对齐迁移。",
+  "reserve": true
+ },
+ {
+  "sid": "10-077",
+  "arxiv": "2505.19484",
+  "title": "CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以多语言评判数据合成训练文化感知模型。",
+  "reserve": true
+ },
+ {
+  "sid": "10-078",
+  "arxiv": "2405.15145",
+  "title": "CulturePark: Boosting Cross-cultural Understanding in Large Language Models",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多智能体对话生成跨文化数据用于微调。",
+  "reserve": true
+ },
+ {
+  "sid": "10-079",
+  "arxiv": "2410.12971",
+  "title": "Self-Pluralising Culture Alignment for Large Language Models",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "让模型自我生成多元文化数据实现文化对齐。",
+  "reserve": true
+ },
+ {
+  "sid": "10-081",
+  "arxiv": "2605.22137",
+  "title": "Cross-Lingual Consensus: Aligning Multilingual Cultural Knowledge via Multilingual Self-Consistency",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以多语言自一致性对齐跨语言文化知识。",
+  "reserve": true
+ },
+ {
+  "sid": "10-082",
+  "arxiv": "2404.12464",
+  "title": "NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models",
+  "subtopic": "文化对齐与文化适切性",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以 75 国社会规范评估 LLM 文化适应性。",
+  "reserve": true,
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-087",
+  "arxiv": "2603.17915",
+  "title": "IndicSafe: A Benchmark for Evaluating Multilingual LLM Safety in South Asia",
+  "subtopic": "多语言安全：越狱与红队",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "南亚多语言安全基准。",
+  "reserve": true,
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "10-089",
+  "arxiv": "2610.27269",
+  "title": "African Languages AI Safety Readiness Report",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "技术报告",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "非洲语言 AI 安全准备度报告。",
+  "reserve": true
+ },
+ {
+  "sid": "10-090",
+  "arxiv": "2504.08848",
+  "title": "X-Guard: Multilingual Guard Agent for Content Moderation",
+  "subtopic": "安全对齐、护栏与跨语言安全迁移",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言内容审核护栏智能体（含低资源语言翻译与合成数据）。",
+  "reserve": true
+ },
+ {
+  "sid": "10-091",
+  "arxiv": "2608.06179",
+  "title": "SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models",
+  "subtopic": "多语言偏好优化与 RLHF",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向低资源北欧语言模型的分数加权生成对齐。",
+  "reserve": true
+ }
+]

@@ -1,0 +1,4746 @@
+{
+ "E-01": {
+  "eid": "E-01",
+  "name": "datatrove",
+  "repo": "https://github.com/huggingface/datatrove",
+  "ref_requested": "v0.10.1",
+  "time": "2026-10-29 15:34:59",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "1977fbb0f3c163d43cace334b073dda17fa3ef26",
+  "commit_date": "2026-09-30T09:12:03+01:00",
+  "files_kept": 246,
+  "bytes_kept": 3724780,
+  "excluded_files": [
+   {
+    "path": "src/datatrove/assets/url_filterblacklistsv0_3_0.tar.gz",
+    "reason": "excluded type .gz",
+    "bytes": 18172875
+   }
+  ],
+  "excluded_count": 1,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/datatrove_1977fbb_original_en.tar.gz",
+  "archive_sha256": "714db5bb5328ccf85119678a766cde9b66b0f1f7289f87429fc6ccd2839f3f68",
+  "renamed_copy_path": "reference_code/datatrove_1977fbb_en",
+  "renamed_copy_pack_sha256": "e441c6303a40815bd9e268d329296b837cd68e20737526985a262ae69872074f",
+  "status": "verified"
+ },
+ "E-02": {
+  "eid": "E-02",
+  "name": "GlotLID",
+  "repo": "https://github.com/cisnlp/GlotLID",
+  "ref_requested": "d63cc2f6db97de90b6877ccbe0253161f08fdb14",
+  "time": "2026-10-29 15:35:01",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "d63cc2f6db97de90b6877ccbe0253161f08fdb14",
+  "commit_date": "2026-04-15T06:05:40+02:00",
+  "files_kept": 21,
+  "bytes_kept": 980673,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/GlotLID_d63cc2f_original_en.tar.gz",
+  "archive_sha256": "af285d4a95ddb5dca4d935abc2fd3443f2cfecef2a045f259e624d8643c4d8c0",
+  "renamed_copy_path": "reference_code/GlotLID_d63cc2f_en",
+  "renamed_copy_pack_sha256": "05667d57726a66b5b3c55184534fd6c3a7c44bda4ac472380a5ea8d7fdb60cdd",
+  "status": "verified"
+ },
+ "E-03": {
+  "eid": "E-03",
+  "name": "sentencepiece",
+  "repo": "https://github.com/google/sentencepiece",
+  "ref_requested": "v0.2.2",
+  "time": "2026-10-29 15:35:02",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: 文档源文件仅 8 个"
+  ],
+  "commit": "e0cce7d37b065b5140349dbe12c6bcf6192fdd78",
+  "commit_date": "2026-07-02T01:52:43+09:00",
+  "files_kept": 256,
+  "bytes_kept": 11322082,
+  "excluded_files": [
+   {
+    "path": "src/normalization_rule.h",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7276223
+   },
+   {
+    "path": "data/botchan_1000_bpe.model",
+    "reason": "excluded type .model",
+    "bytes": 251564
+   },
+   {
+    "path": "data/nmt_nfkc_cf.tsv",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8599878
+   },
+   {
+    "path": "data/nfkc.bin",
+    "reason": "excluded type .bin",
+    "bytes": 240008
+   },
+   {
+    "path": "data/nfkc_cf.tsv",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8599300
+   },
+   {
+    "path": "data/nfkc.tsv",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8567758
+   },
+   {
+    "path": "data/wagahaiwa_nekodearu_2000_bpe_byte.model",
+    "reason": "excluded type .model",
+    "bytes": 265092
+   },
+   {
+    "path": "data/test_oss_model.model",
+    "reason": "excluded type .model",
+    "bytes": 253152
+   },
+   {
+    "path": "data/nfkc_cf.bin",
+    "reason": "excluded type .bin",
+    "bytes": 247165
+   },
+   {
+    "path": "data/nmt_nfkc.tsv",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8568336
+   },
+   {
+    "path": "data/nmt_nfkc.bin",
+    "reason": "excluded type .bin",
+    "bytes": 240007
+   },
+   {
+    "path": "data/nmt_nfkc_cf.bin",
+    "reason": "excluded type .bin",
+    "bytes": 247164
+   },
+   {
+    "path": "python/test/test_bpe_model.model",
+    "reason": "excluded type .model",
+    "bytes": 251564
+   },
+   {
+    "path": "python/test/test_ja_model.model",
+    "reason": "excluded type .model",
+    "bytes": 352301
+   },
+   {
+    "path": "python/test/test_model.model",
+    "reason": "excluded type .model",
+    "bytes": 253165
+   }
+  ],
+  "excluded_count": 15,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/sentencepiece_e0cce7d_original_en.tar.gz",
+  "archive_sha256": "96589e9e28354162ea2b6da4d77e2757bb336a5e7582a2ffb13e21644889775c",
+  "renamed_copy_path": "reference_code/sentencepiece_e0cce7d_en",
+  "renamed_copy_pack_sha256": "ae80a6affa13c56b85a5abfa7e3de159d1e84e433300b4b920153535e6f7648f",
+  "docs": {
+   "toc_kind": null,
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 8,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "doc",
+   "local_path": "engineering_docs/sentencepiece_docs_e0cce7d_en",
+   "files": 8,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 doc/ 目录的 Markdown 说明（选项、规范化、特殊符号等）；无目录文件",
+   "complete_doc_set": false,
+   "pack_sha256": "4ceb4db70b1d9c3292f061b85abc3d2924bc3870006280373a13f556ddcc9253",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "文档源文件仅 8 个",
+   "rechecked": "2026-10-29 15:45:06"
+  },
+  "status": "verified"
+ },
+ "E-04": {
+  "eid": "E-04",
+  "name": "tokenizers",
+  "repo": "https://github.com/huggingface/tokenizers",
+  "ref_requested": "v0.23.3",
+  "time": "2026-10-29 15:35:07",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "301277072263fb3830eb66eec7e47adadf76f1dc",
+  "commit_date": "2026-10-09T11:37:01+02:00",
+  "files_kept": 337,
+  "bytes_kept": 4876709,
+  "excluded_files": [
+   {
+    "path": "tokenizers/LICENSE",
+    "reason": "symlink"
+   }
+  ],
+  "excluded_count": 1,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/tokenizers_3012770_original_en.tar.gz",
+  "archive_sha256": "5a954c078c39227acb5ffbc432fe0f462329348942796be406c288e606d827cc",
+  "renamed_copy_path": "reference_code/tokenizers_3012770_en",
+  "renamed_copy_pack_sha256": "7c809e464be51f093b0c6026b18e7cd1398799c26196426e57352f0577870d86",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 18,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 26,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/tokenizers_docs_3012770_en",
+   "files": 46,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（HF doc-builder 源 source-doc-builder/ 与旧 Sphinx 源 source/）",
+   "complete_doc_set": true,
+   "pack_sha256": "3668bbcc9dd5845957a8c87bbaf6081b3b17abd628870fe74e9c560bbc7064cb",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 18,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 18,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 18,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    },
+    "sphinx_toctree": {
+     "entries": 5,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 18 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:06"
+  },
+  "status": "verified"
+ },
+ "E-05": {
+  "eid": "E-05",
+  "name": "text-dedup",
+  "repo": "https://github.com/ChenghaoMou/text-dedup",
+  "ref_requested": "7538f3ec6a28e72a86de5978e58655175b46a11e",
+  "time": "2026-10-29 15:35:08",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "7538f3ec6a28e72a86de5978e58655175b46a11e",
+  "commit_date": "2026-03-09T10:24:42Z",
+  "files_kept": 75,
+  "bytes_kept": 691990,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/text-dedup_7538f3e_original_en.tar.gz",
+  "archive_sha256": "a005ce4124daa1e8445bd2bad5ad97dc29f3698d6f9d6b4fc0bdf8d8fbc067d2",
+  "renamed_copy_path": "reference_code/text-dedup_7538f3e_en",
+  "renamed_copy_pack_sha256": "c61ba98159c817d7a138b8573a83e297c24076aecdb50b66f597e8741006c4e1",
+  "status": "verified"
+ },
+ "E-06": {
+  "eid": "E-06",
+  "name": "dvc",
+  "repo": "https://github.com/iterative/dvc",
+  "ref_requested": "3.67.1",
+  "time": "2026-10-29 15:35:09",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: sidebar_json_source 目录 27 项，解析率 0.296"
+  ],
+  "commit": "356dfa03278058b02df42124f243c2c345329dae",
+  "commit_date": "2026-03-31T10:49:52+05:45",
+  "files_kept": 591,
+  "bytes_kept": 3060457,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/dvc_356dfa0_original_en.tar.gz",
+  "archive_sha256": "1e460cb8201780270b60bd3d337747244672419ecba7f65a99305c2e2634a5d9",
+  "renamed_copy_path": "reference_code/dvc_356dfa0_en",
+  "renamed_copy_pack_sha256": "0c5f994f48a63b2dbf022cab912b344087abc2c3cc40504fed62bbc17eaeebec",
+  "docs_repo_commit": "21fabba8d66bf81e3cfcbcb9e061d4a5363399ad",
+  "docs_repo_commit_date": "2026-10-01T09:52:31+05:45",
+  "docs_archive_path": "reference_code/dvc-docs_21fabba_original_en.tar.gz",
+  "docs_archive_sha256": "7a11e575d78dcffcef424296fe6ce132f0a1d3d3c70ea8e5284269f6cc5846c4",
+  "docs": {
+   "toc_kind": "sidebar_json_source",
+   "toc_entries": 27,
+   "toc_missing": 19,
+   "toc_missing_examples": [
+    "artifacts/index.md",
+    "basic-concepts",
+    "cache/index.md",
+    "data-pipelines/index.md",
+    "exp/index.md",
+    "experiment-management/index.md",
+    "experiments/index.md",
+    "live/index.md",
+    "metrics/index.md",
+    "ml-frameworks/index.md"
+   ],
+   "doc_source_files": 201,
+   "toc_resolved_ratio": 0.296,
+   "path_in_repo": "content/docs",
+   "local_path": "engineering_docs/dvc_docs_21fabba_en",
+   "files": 202,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "官方站点源仓库 dvc.org 的 content/docs（目录为 sidebar.json）",
+   "complete_doc_set": false,
+   "pack_sha256": "61d1c3fd1cebf1acb72557747f0810d3b10468eeda16f4dfbaa3fd21a816cfa0",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "sidebar_json_source": {
+     "entries": 27,
+     "missing": 19,
+     "missing_examples": [
+      "artifacts/index.md",
+      "basic-concepts",
+      "cache/index.md",
+      "data-pipelines/index.md",
+      "exp/index.md",
+      "experiment-management/index.md",
+      "experiments/index.md",
+      "live/index.md",
+      "metrics/index.md",
+      "ml-frameworks/index.md"
+     ],
+     "ratio": 0.296
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sidebar_json_source 目录 27 项，解析率 0.296",
+   "rechecked": "2026-10-29 15:45:07"
+  },
+  "status": "verified"
+ },
+ "E-07": {
+  "eid": "E-07",
+  "name": "datasets",
+  "repo": "https://github.com/huggingface/datasets",
+  "ref_requested": "5.1.0",
+  "time": "2026-10-29 15:35:21",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "efe6ea4f88260b1a5066f28a9c90d82365a29f42",
+  "commit_date": "2026-10-05T17:32:38+02:00",
+  "files_kept": 382,
+  "bytes_kept": 7893193,
+  "excluded_files": [
+   {
+    "path": "tests/io/data/test_file.json.bz2",
+    "reason": "excluded type .bz2",
+    "bytes": 182
+   },
+   {
+    "path": "tests/io/data/test_file.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 155
+   },
+   {
+    "path": "tests/io/data/test_file.json.xz",
+    "reason": "excluded type .xz",
+    "bytes": 172
+   },
+   {
+    "path": "tests/features/data/test_mesh_ply.ply",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 16923229
+   },
+   {
+    "path": "tests/features/data/test_audio_16000.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15336
+   },
+   {
+    "path": "tests/features/data/test_nifti.nii.gz",
+    "reason": "excluded type .gz",
+    "bytes": 33209
+   },
+   {
+    "path": "tests/features/data/test_video_66x50.mov",
+    "reason": "excluded type .mov",
+    "bytes": 44391
+   },
+   {
+    "path": "tests/features/data/test_mesh_stl.stl",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 41275384
+   },
+   {
+    "path": "tests/features/data/test_audio_44100.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 40124
+   },
+   {
+    "path": "tests/features/data/test_audio_44100.wav",
+    "reason": "excluded type .wav",
+    "bytes": 809358
+   }
+  ],
+  "excluded_count": 10,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/datasets_efe6ea4_original_en.tar.gz",
+  "archive_sha256": "2a11f30256579313bd0e8ccd646ca6d79ec7ecc489f83d402e546008709044e7",
+  "renamed_copy_path": "reference_code/datasets_efe6ea4_en",
+  "renamed_copy_pack_sha256": "b9d6463b000a36243318b6c1b4b3818524f5fe41f07e1067a4891e87c3a8ccfa",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 62,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 62,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs/source",
+   "local_path": "engineering_docs/datasets_docs_efe6ea4_en",
+   "files": 67,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（HF doc-builder _toctree.yml）",
+   "complete_doc_set": true,
+   "pack_sha256": "e673a9c2f9f5207721f287c5ba4d257bd0abc3e7b5a375c1ccd382e94ca18f77",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 62,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 62,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 62,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 62 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:07"
+  },
+  "status": "verified"
+ },
+ "E-08": {
+  "eid": "E-08",
+  "name": "data-juicer",
+  "repo": "https://github.com/modelscope/data-juicer",
+  "ref_requested": "v1.6.1",
+  "time": "2026-10-29 15:35:24",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: sphinx_toctree 目录 68 项，解析率 0.044"
+  ],
+  "commit": "abb9e49897bdd0e0e2f44ce3272cc1ea5c5a6111",
+  "commit_date": "2026-10-19T14:00:44+08:00",
+  "files_kept": 1412,
+  "bytes_kept": 27569440,
+  "excluded_files": [
+   {
+    "path": "demos/process_video_on_ray/data/videos/video3.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2415837
+   },
+   {
+    "path": "demos/process_video_on_ray/data/videos/video1.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 789238
+   },
+   {
+    "path": "demos/process_video_on_ray/data/videos/video2.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2522962
+   },
+   {
+    "path": "demos/ego_hand_action_annotation/data/1018.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 3036537
+   },
+   {
+    "path": "demos/ego_hand_action_annotation/data/1034.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 3009315
+   },
+   {
+    "path": "demos/data/demo-dataset-images-bytes.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 476698
+   },
+   {
+    "path": "tests/ops/data/video3-no-audio.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 6285517
+   },
+   {
+    "path": "tests/ops/data/audio2.wav",
+    "reason": "excluded type .wav",
+    "bytes": 2494872
+   },
+   {
+    "path": "tests/ops/data/video5.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1063952
+   },
+   {
+    "path": "tests/ops/data/video13.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1524617
+   },
+   {
+    "path": "tests/ops/data/audio1.wav",
+    "reason": "excluded type .wav",
+    "bytes": 970574
+   },
+   {
+    "path": "tests/ops/data/video8.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2415837
+   },
+   {
+    "path": "tests/ops/data/video12.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 4685174
+   },
+   {
+    "path": "tests/ops/data/video14.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 449496
+   },
+   {
+    "path": "tests/ops/data/video3.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2415837
+   },
+   {
+    "path": "tests/ops/data/video9.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2415837
+   },
+   {
+    "path": "tests/ops/data/video1.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 789238
+   },
+   {
+    "path": "tests/ops/data/audio3.ogg",
+    "reason": "excluded type .ogg",
+    "bytes": 597254
+   },
+   {
+    "path": "tests/ops/data/video2.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2522962
+   },
+   {
+    "path": "tests/ops/data/video15.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 325574
+   },
+   {
+    "path": "tests/ops/data/video11.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 514177
+   },
+   {
+    "path": "tests/ops/data/video6.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 789238
+   },
+   {
+    "path": "tests/ops/data/video4.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1156869
+   },
+   {
+    "path": "tests/ops/data/video10.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 3173234
+   },
+   {
+    "path": "tests/ops/data/video7.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2522962
+   },
+   {
+    "path": "tests/core/data/test_data/parquet/sample.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 1760
+   },
+   {
+    "path": "tests/format/data/structured/demo-dataset.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 3062
+   }
+  ],
+  "excluded_count": 27,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/data-juicer_abb9e49_original_en.tar.gz",
+  "archive_sha256": "6ab24e4f417cb9e605802cef74d0942dd5a697422b558418e898c54af68d5622",
+  "renamed_copy_path": "reference_code/data-juicer_abb9e49_en",
+  "renamed_copy_pack_sha256": "bbdc8af43c17dc0ee820fe61a2500598728393af61102d5314628fc16eedc993",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 68,
+   "toc_missing": 65,
+   "toc_missing_examples": [
+    "sphinx_doc/source/api/data_juicer.analysis",
+    "sphinx_doc/source/api/data_juicer.config",
+    "sphinx_doc/source/api/data_juicer.core",
+    "sphinx_doc/source/api/data_juicer.format",
+    "sphinx_doc/source/api/data_juicer.ops",
+    "sphinx_doc/source/api/data_juicer.ops.aggregator",
+    "sphinx_doc/source/api/data_juicer.ops.common",
+    "sphinx_doc/source/api/data_juicer.ops.deduplicator",
+    "sphinx_doc/source/api/data_juicer.ops.filter",
+    "sphinx_doc/source/api/data_juicer.ops.grouper"
+   ],
+   "doc_source_files": 286,
+   "toc_resolved_ratio": 0.044,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/data-juicer_docs_abb9e49_en",
+   "files": 306,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（中英 Markdown 文档与 sphinx_doc 源）",
+   "complete_doc_set": false,
+   "pack_sha256": "4039c212fca8e3f87d0986872de4edcea563d5af7333ab6a97bf564485651662",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 68,
+     "toc_missing": 65,
+     "toc_resolved_ratio": 0.044,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 68,
+     "missing": 65,
+     "missing_examples": [
+      "sphinx_doc/source/api/data_juicer.analysis",
+      "sphinx_doc/source/api/data_juicer.config",
+      "sphinx_doc/source/api/data_juicer.core",
+      "sphinx_doc/source/api/data_juicer.format",
+      "sphinx_doc/source/api/data_juicer.ops",
+      "sphinx_doc/source/api/data_juicer.ops.aggregator",
+      "sphinx_doc/source/api/data_juicer.ops.common",
+      "sphinx_doc/source/api/data_juicer.ops.deduplicator",
+      "sphinx_doc/source/api/data_juicer.ops.filter",
+      "sphinx_doc/source/api/data_juicer.ops.grouper"
+     ],
+     "ratio": 0.044
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sphinx_toctree 目录 68 项，解析率 0.044",
+   "rechecked": "2026-10-29 15:45:08"
+  },
+  "status": "verified"
+ },
+ "E-09": {
+  "eid": "E-09",
+  "name": "dolma",
+  "repo": "https://github.com/allenai/dolma",
+  "ref_requested": "v1.2.1",
+  "time": "2026-10-29 15:35:29",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: 文档源文件仅 9 个"
+  ],
+  "commit": "fd22a34972a36bf1a60d2f161533d55b2be4c047",
+  "commit_date": "2025-06-25T11:52:53-07:00",
+  "files_kept": 618,
+  "bytes_kept": 13742603,
+  "excluded_files": [
+   {
+    "path": "scripts/code_reasoning_ablations_gsm8k_code.jsonl",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 5786409
+   },
+   {
+    "path": "tests/data/expected/mixer.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 15607
+   },
+   {
+    "path": "tests/data/expected/dedupe-by-url.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 532
+   },
+   {
+    "path": "tests/data/expected/email-spans.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 26112
+   },
+   {
+    "path": "tests/data/expected/email-spans-jq.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 26116
+   },
+   {
+    "path": "tests/data/expected/remove-paragraphs.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 26215
+   },
+   {
+    "path": "tests/data/expected/dedupe-paragraph-ngrams.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 817
+   },
+   {
+    "path": "tests/data/expected/filter-by-spans.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 14879
+   },
+   {
+    "path": "tests/data/expected/dedupe-paragraphs.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 784
+   },
+   {
+    "path": "tests/data/warc/sample-0000.warc.gz",
+    "reason": "excluded type .gz",
+    "bytes": 214006
+   },
+   {
+    "path": "tests/data/warc/sample-0001.warc.gz",
+    "reason": "excluded type .gz",
+    "bytes": 236859
+   },
+   {
+    "path": "tests/data/urls/easylist.txt.gz",
+    "reason": "excluded type .gz",
+    "bytes": 552557
+   },
+   {
+    "path": "tests/data/tokenizer/llama3-test-tokenizer.json",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 9085698
+   },
+   {
+    "path": "tests/data/formats/test.jsonl.gz",
+    "reason": "excluded type .gz",
+    "bytes": 65
+   },
+   {
+    "path": "tests/data/formats/test.jsonl.zst",
+    "reason": "excluded type .zst",
+    "bytes": 42
+   },
+   {
+    "path": "tests/data/provided/deduper/pathnotd0cumentz/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 25814
+   },
+   {
+    "path": "tests/data/provided/deduper/documents/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 25814
+   },
+   {
+    "path": "tests/data/provided/attributes/duplicate_paragraphs/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 702
+   },
+   {
+    "path": "tests/data/provided/attributes/sample/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 570
+   },
+   {
+    "path": "tests/data/provided/attributes/pii/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 614
+   },
+   {
+    "path": "tests/data/provided/attributes/toxicity/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 543
+   },
+   {
+    "path": "tests/data/provided/documents/000.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 25985
+   },
+   {
+    "path": "tests/data/multiple_files/cc_en_head-0091.jsonl.gz",
+    "reason": "excluded type .gz",
+    "bytes": 41066
+   },
+   {
+    "path": "tests/data/multiple_files/cc_en_head-0174.jsonl.gz",
+    "reason": "excluded type .gz",
+    "bytes": 27768
+   },
+   {
+    "path": "docs/assets/dolma-v1_6-20240131.pdf",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8879864
+   }
+  ],
+  "excluded_count": 25,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/dolma_fd22a34_original_en.tar.gz",
+  "archive_sha256": "87cc7378debc9983bbc627f2e55c969271585400e648627ef53c23b2716c22d7",
+  "renamed_copy_path": "reference_code/dolma_fd22a34_en",
+  "renamed_copy_pack_sha256": "2b35277f19c568e7177a2133be00e0061e5f32a7ba1132c10142a73d9ca37fb4",
+  "docs": {
+   "toc_kind": null,
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 9,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/dolma_docs_fd22a34_en",
+   "files": 30,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/ Markdown（mixer/taggers/tokenize 等），无目录文件",
+   "complete_doc_set": false,
+   "pack_sha256": "27868fa8e6da2d93e644a8b6ed26738af8d0815a6982aac6a165152de720a478",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "文档源文件仅 9 个",
+   "rechecked": "2026-10-29 15:45:08"
+  },
+  "status": "verified"
+ },
+ "E-10": {
+  "eid": "E-10",
+  "name": "peft",
+  "repo": "https://github.com/huggingface/peft",
+  "ref_requested": "v0.21.2",
+  "time": "2026-10-29 15:35:32",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57",
+  "commit_date": "2026-10-01T12:17:57+02:00",
+  "files_kept": 984,
+  "bytes_kept": 25262576,
+  "excluded_files": [
+   {
+    "path": "CONTRIBUTING.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "AGENTS.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "CLAUDE.md",
+    "reason": "symlink"
+   }
+  ],
+  "excluded_count": 3,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/peft_eaa35c7_original_en.tar.gz",
+  "archive_sha256": "c840750dd7aab5dc317ce0c36990ddc45f9cea841882a68fe329bb700b221fc1",
+  "renamed_copy_path": "reference_code/peft_eaa35c7_en",
+  "renamed_copy_pack_sha256": "53d792d2db37f86eea32c916913065b4d4d2123b68e6b4968c0de2ffdfc0963c",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 81,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 81,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs/source",
+   "local_path": "engineering_docs/peft_docs_eaa35c7_en",
+   "files": 84,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（_toctree.yml）",
+   "complete_doc_set": true,
+   "pack_sha256": "502655554356aef28ea1682b6d54685a5f4c6cc230f267bd228e6badb34585b8",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 81,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 81,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 81,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 81 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:08"
+  },
+  "status": "verified"
+ },
+ "E-11": {
+  "eid": "E-11",
+  "name": "trl",
+  "repo": "https://github.com/huggingface/trl",
+  "ref_requested": "v1.16.0",
+  "time": "2026-10-29 15:35:35",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "1b5c75ed94b7387f42532adb090c935166d4878d",
+  "commit_date": "2026-10-15T13:54:58-04:00",
+  "files_kept": 556,
+  "bytes_kept": 9219125,
+  "excluded_files": [
+   {
+    "path": "AGENTS.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "CLAUDE.md",
+    "reason": "symlink"
+   },
+   {
+    "path": ".cursor/BUGBOT.md",
+    "reason": "symlink"
+   }
+  ],
+  "excluded_count": 3,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/trl_1b5c75e_original_en.tar.gz",
+  "archive_sha256": "07aa729bca8418d201cef4b82c80d85ef2877bbb513f641ba9590550ba8e3ba7",
+  "renamed_copy_path": "reference_code/trl_1b5c75e_en",
+  "renamed_copy_pack_sha256": "a1090bec675f01b7cb3e88daf0455609b23715cc719d07cfac6bf2ce89a6a73e",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 57,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 57,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs/source",
+   "local_path": "engineering_docs/trl_docs_1b5c75e_en",
+   "files": 59,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（_toctree.yml）",
+   "complete_doc_set": true,
+   "pack_sha256": "c69d930eeba547b427a3630bdb723b95d05e3c838db6e3993d126da0c5912286",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 57,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 57,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 57,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 57 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:08"
+  },
+  "status": "verified"
+ },
+ "E-12": {
+  "eid": "E-12",
+  "name": "LLaMA-Factory",
+  "repo": "https://github.com/hiyouga/LLaMA-Factory",
+  "ref_requested": "v0.9.5",
+  "time": "2026-10-29 15:35:37",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "7af909522a951e3ad9f022ea6f88b6755257eaa5",
+  "commit_date": "2026-05-30T23:57:09+08:00",
+  "files_kept": 530,
+  "bytes_kept": 11540517,
+  "excluded_files": [
+   {
+    "path": "CLAUDE.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "data/mllm_demo_data/2.avi",
+    "reason": "excluded type .avi",
+    "bytes": 385746
+   },
+   {
+    "path": "data/mllm_demo_data/1.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 129024
+   },
+   {
+    "path": "data/mllm_demo_data/3.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 270849
+   },
+   {
+    "path": "data/mllm_demo_data/3.flac",
+    "reason": "excluded type .flac",
+    "bytes": 120041
+   },
+   {
+    "path": "data/mllm_demo_data/4.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 80918
+   },
+   {
+    "path": "data/mllm_demo_data/1.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 481185
+   },
+   {
+    "path": "data/mllm_demo_data/4.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 68056
+   },
+   {
+    "path": "data/mllm_demo_data/2.wav",
+    "reason": "excluded type .wav",
+    "bytes": 92886
+   }
+  ],
+  "excluded_count": 9,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/LLaMA-Factory_7af9095_original_en.tar.gz",
+  "archive_sha256": "99c0bae24f26c771fc2a6cfb61cda6cc8d64c3f0460614b9df0b9efe19f1277d",
+  "renamed_copy_path": "reference_code/LLaMA-Factory_7af9095_en",
+  "renamed_copy_pack_sha256": "a3e65056ec6dd7e583330878d727ab6292399c5523d86b08313eab9b61d5b1c9",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 50,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 55,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/LLaMA-Factory_docs_7af9095_en",
+   "files": 62,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（en/ 与 zh/ 两套 Sphinx 源）",
+   "complete_doc_set": true,
+   "pack_sha256": "a9717a1f07f303a3ef68bc72bf6bda91a5945f5d28b0ef485538fb5bd5c9ee58",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 24,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 50,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 50,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sphinx_toctree 目录 50 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:09"
+  },
+  "status": "verified"
+ },
+ "E-13": {
+  "eid": "E-13",
+  "name": "open-instruct",
+  "repo": "https://github.com/allenai/open-instruct",
+  "ref_requested": "64beb76c3efe2b600f39922ef83b5ea44669ea61",
+  "time": "2026-10-29 15:35:39",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: mkdocs_nav 目录 49 项，解析率 0.918"
+  ],
+  "commit": "64beb76c3efe2b600f39922ef83b5ea44669ea61",
+  "commit_date": "2026-10-28T23:27:16Z",
+  "files_kept": 1077,
+  "bytes_kept": 38188214,
+  "excluded_files": [
+   {
+    "path": "CLAUDE.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "open_instruct/test_data/tokenizer/tokenizer.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 132
+   },
+   {
+    "path": "scripts/tpu/maxtext/image-olmo35/build.sh",
+    "reason": "symlink"
+   },
+   {
+    "path": "docs/algorithms/trained_model_location/beaker_dataset.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8996082
+   }
+  ],
+  "excluded_count": 4,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/open-instruct_64beb76_original_en.tar.gz",
+  "archive_sha256": "7a13761d20487d8c766dc1d22530ab4ec2e218fecdbb1e937745c810d4b8129e",
+  "renamed_copy_path": "reference_code/open-instruct_64beb76_en",
+  "renamed_copy_pack_sha256": "8a902470bba63ec144d656cc682309db788d72eb7fe1c86883893db6bedf4d46",
+  "docs": {
+   "toc_kind": "mkdocs_nav",
+   "toc_entries": 49,
+   "toc_missing": 4,
+   "toc_missing_examples": [
+    "miles/configuration.md",
+    "miles/native-options.md",
+    "miles/native-serving-options.md",
+    "miles/native-training-options.md"
+   ],
+   "doc_source_files": 53,
+   "toc_resolved_ratio": 0.918,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/open-instruct_docs_64beb76_en",
+   "files": 134,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（根目录 mkdocs.yml 导航）",
+   "complete_doc_set": false,
+   "pack_sha256": "043b3ca0931ed1be75de9e630364a5568c1b7eb91f58196e6d112029485410cc",
+   "previous_checks": [
+    {
+     "toc_kind": "mkdocs_nav",
+     "toc_entries": 49,
+     "toc_missing": 4,
+     "toc_resolved_ratio": 0.918,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "mkdocs_nav": {
+     "entries": 49,
+     "missing": 4,
+     "missing_examples": [
+      "miles/configuration.md",
+      "miles/native-options.md",
+      "miles/native-serving-options.md",
+      "miles/native-training-options.md"
+     ],
+     "ratio": 0.918
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mkdocs_nav 目录 49 项，解析率 0.918",
+   "rechecked": "2026-10-29 15:45:09"
+  },
+  "status": "verified"
+ },
+ "E-14": {
+  "eid": "E-14",
+  "name": "Megatron-LM",
+  "repo": "https://github.com/NVIDIA/Megatron-LM",
+  "ref_requested": "core_v0.19.2",
+  "time": "2026-10-29 15:35:43",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "4b4acac9a1d28ea6829c8d4f566d75698a21249d",
+  "commit_date": "2026-09-18T12:18:15-07:00",
+  "files_kept": 2964,
+  "bytes_kept": 59947721,
+  "excluded_files": [
+   {
+    "path": "CLAUDE.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "examples/post_training/modelopt/conf/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Base.sh",
+    "reason": "symlink"
+   }
+  ],
+  "excluded_count": 2,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/Megatron-LM_4b4acac_original_en.tar.gz",
+  "archive_sha256": "237330550eab0129b4220d4768962b6a9a3e55ee5e32b1e9c6c89c88e208c658",
+  "renamed_copy_path": "reference_code/Megatron-LM_4b4acac_en",
+  "renamed_copy_pack_sha256": "97f446a3c569ed2c4314238c9f2756e63db61ad4f86784d940db24a904861c9f",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 56,
+   "toc_missing": 1,
+   "toc_missing_examples": [
+    "apidocs/index.rst"
+   ],
+   "doc_source_files": 60,
+   "toc_resolved_ratio": 0.982,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/Megatron-LM_docs_4b4acac_en",
+   "files": 93,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（Sphinx/MyST 源，index.md toctree）",
+   "complete_doc_set": true,
+   "pack_sha256": "282119209596d964330e377c18c7a5090c1fde2c88047c5979b2911fbfdf4cc2",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 56,
+     "toc_missing": 1,
+     "toc_resolved_ratio": 0.982,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 56,
+     "missing": 1,
+     "missing_examples": [
+      "apidocs/index.rst"
+     ],
+     "ratio": 0.982
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sphinx_toctree 目录 56 项，解析率 0.982",
+   "rechecked": "2026-10-29 15:45:10"
+  },
+  "status": "verified"
+ },
+ "E-15": {
+  "eid": "E-15",
+  "name": "DeepSpeed",
+  "repo": "https://github.com/deepspeedai/DeepSpeed",
+  "ref_requested": "v0.19.8",
+  "time": "2026-10-29 15:35:51",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "0eb3a8bcc6d9a8775478e5377482c4bf2dd23c1c",
+  "commit_date": "2026-10-19T13:31:24Z",
+  "files_kept": 2070,
+  "bytes_kept": 117172503,
+  "excluded_files": [
+   {
+    "path": "bin/deepspeed",
+    "reason": "symlink"
+   },
+   {
+    "path": "bin/dsr",
+    "reason": "symlink"
+   },
+   {
+    "path": "bin/deepspeed.pt",
+    "reason": "symlink"
+   },
+   {
+    "path": "blogs/deepspeed-superoffload/images/superoffload_comparison.jpg",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6662975
+   },
+   {
+    "path": "blogs/deepspeed-superoffload/images/superoffload_schedule.jpg",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6518576
+   },
+   {
+    "path": "blogs/deepspeed4science/media/Figure4.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 21642730
+   },
+   {
+    "path": "blogs/deepspeed4science/media/Figure5.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 25281036
+   },
+   {
+    "path": "blogs/deepspeed4science/media/Figure6-2.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6381004
+   },
+   {
+    "path": "blogs/deepspeed4science/media/Figure8.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 43892405
+   },
+   {
+    "path": "blogs/deepspeed4science/media/Figure2-2.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 16728664
+   },
+   {
+    "path": "blogs/zeropp/assets/images/zero-overview.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 10541403
+   }
+  ],
+  "excluded_count": 11,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/DeepSpeed_0eb3a8b_original_en.tar.gz",
+  "archive_sha256": "8ed2aba02cf8e886decb52da75a33fe16394de08119a05fb40e107e07addf0c3",
+  "renamed_copy_path": "reference_code/DeepSpeed_0eb3a8b_en",
+  "renamed_copy_pack_sha256": "7deb0d8560912d8cbf7b7d917e1e060381d25d5704e5b0093cb8c11dfb44860f",
+  "docs": {
+   "toc_kind": "jekyll_nav",
+   "toc_entries": 50,
+   "toc_missing": 2,
+   "toc_missing_examples": [
+    "posts",
+    "tutorials"
+   ],
+   "doc_source_files": 113,
+   "toc_resolved_ratio": 0.96,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/DeepSpeed_docs_0eb3a8b_en",
+   "files": 296,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（Jekyll 站点源：教程 _tutorials、博客 _posts，以及 code-docs 的 Sphinx API 源）",
+   "complete_doc_set": true,
+   "pack_sha256": "95c9824ed8a9c0438d5013272868a57f06568175abdc886e21911efad4a5c045",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 17,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "jekyll_nav",
+     "toc_entries": 50,
+     "toc_missing": 2,
+     "toc_resolved_ratio": 0.96,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 17,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    },
+    "jekyll_nav": {
+     "entries": 50,
+     "missing": 2,
+     "missing_examples": [
+      "posts",
+      "tutorials"
+     ],
+     "ratio": 0.96
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "jekyll_nav 目录 50 项，解析率 0.96",
+   "rechecked": "2026-10-29 15:45:11"
+  },
+  "status": "verified"
+ },
+ "E-16": {
+  "eid": "E-16",
+  "name": "torchtitan",
+  "repo": "https://github.com/pytorch/torchtitan",
+  "ref_requested": "v0.4.0",
+  "time": "2026-10-29 15:36:06",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: 文档源文件仅 6 个"
+  ],
+  "commit": "45e33cd413b64cb37a7840cfd3c9765d3c639ae1",
+  "commit_date": "2026-10-28T11:02:07-07:00",
+  "files_kept": 1061,
+  "bytes_kept": 16960644,
+  "excluded_files": [
+   {
+    "path": "requirements.txt",
+    "reason": "symlink"
+   },
+   {
+    "path": "AGENTS.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "requirements-dev.txt",
+    "reason": "symlink"
+   },
+   {
+    "path": "torchtitan/rl/requirements.txt",
+    "reason": "symlink"
+   },
+   {
+    "path": "torchtitan/experiments/graph_trainer/AGENTS.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "torchtitan/models/kimi_k3/requirements.txt",
+    "reason": "symlink"
+   },
+   {
+    "path": "torchtitan/models/qwen3_5/requirements.txt",
+    "reason": "symlink"
+   },
+   {
+    "path": "torchtitan/models/flux/requirements-flux.txt",
+    "reason": "symlink"
+   },
+   {
+    "path": "tests/assets/cc12m_test/cc12m-train-0000.tar",
+    "reason": "excluded type .tar",
+    "bytes": 3102720
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/video_text/video_03.npy",
+    "reason": "excluded type .npy",
+    "bytes": 16508
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/video_text/video_02.npy",
+    "reason": "excluded type .npy",
+    "bytes": 14528
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/video_text/video_00.npy",
+    "reason": "excluded type .npy",
+    "bytes": 6176
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/video_text/video_01.npy",
+    "reason": "excluded type .npy",
+    "bytes": 7040
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/audio_text/audio_01.wav",
+    "reason": "excluded type .wav",
+    "bytes": 810
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/audio_text/audio_02.wav",
+    "reason": "excluded type .wav",
+    "bytes": 1062
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/audio_text/audio_00.wav",
+    "reason": "excluded type .wav",
+    "bytes": 558
+   },
+   {
+    "path": "tests/assets/synthetic_multimodal/audio_text/audio_03.wav",
+    "reason": "excluded type .wav",
+    "bytes": 1326
+   }
+  ],
+  "excluded_count": 17,
+  "license": {
+   "file": "LICENSE",
+   "detected": "BSD-3-Clause"
+  },
+  "archive_path": "reference_code/torchtitan_45e33cd_original_en.tar.gz",
+  "archive_sha256": "000faa8eb0111929ffb6b605cb16971ba6eb1d2ccca346e8b9ac6d300fc5e95e",
+  "renamed_copy_path": "reference_code/torchtitan_45e33cd_en",
+  "renamed_copy_pack_sha256": "d5b4b9102973802a71188c353fe1a5c6ef9bec460533eb88f1c53171c9beed9f",
+  "docs": {
+   "toc_kind": null,
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 6,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/torchtitan_docs_45e33cd_en",
+   "files": 6,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/ 少量 Markdown（调试、评测、基准），主说明在各模块 README；无目录文件",
+   "complete_doc_set": false,
+   "pack_sha256": "6a05a80015733131cbb76a6db5729c3ec9126d394b4ce6442711dfef28e6cae1",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "文档源文件仅 6 个",
+   "rechecked": "2026-10-29 15:45:11"
+  },
+  "status": "verified"
+ },
+ "E-17": {
+  "eid": "E-17",
+  "name": "accelerate",
+  "repo": "https://github.com/huggingface/accelerate",
+  "ref_requested": "v1.15.0",
+  "time": "2026-10-29 15:36:09",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "6afc1e5ee217051fde702b23de2813344dc0fd33",
+  "commit_date": "2026-09-09T14:56:56+02:00",
+  "files_kept": 359,
+  "bytes_kept": 4170564,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/accelerate_6afc1e5_original_en.tar.gz",
+  "archive_sha256": "5f81c758f568e07cf053678139e137b6a82337c1f78fe07bdb78ebad852b9820",
+  "renamed_copy_path": "reference_code/accelerate_6afc1e5_en",
+  "renamed_copy_pack_sha256": "ace022ffa31e81f8224d83e8e7d5d38dc7877dfa7090a11b5d2f132355e9afa7",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 58,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 58,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs/source",
+   "local_path": "engineering_docs/accelerate_docs_6afc1e5_en",
+   "files": 62,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（_toctree.yml）",
+   "complete_doc_set": true,
+   "pack_sha256": "f851d60959f2122f0ca8d1a71d9b610a553e667d9d1465f5cc223616b3ceda37",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 58,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 58,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 58,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 58 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:11"
+  },
+  "status": "verified"
+ },
+ "E-18": {
+  "eid": "E-18",
+  "name": "lm-evaluation-harness",
+  "repo": "https://github.com/EleutherAI/lm-evaluation-harness",
+  "ref_requested": "v0.4.13",
+  "time": "2026-10-29 15:36:11",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: 未找到可解析的目录/导航文件"
+  ],
+  "commit": "ddd67220430a2470529f25fd5c05a576ca1057a0",
+  "commit_date": "2026-09-01T01:38:54+05:00",
+  "files_kept": 16388,
+  "bytes_kept": 13748391,
+  "excluded_files": [
+   {
+    "path": "tests/testdata/textsynth_test_7afdc285388e51094e12645f305328c759574fa3ec9751631025f8ad5ebf9f3e.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1975
+   },
+   {
+    "path": "tests/testdata/textsynth_test_6d6c62dd70caaa208712bf766deaf419cfac89538d4ab7745621e339394c0c23.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1806
+   },
+   {
+    "path": "tests/testdata/textsynth_test_9d5f33dbfe1e254928c89f5ed85e4c010d888065f55a8f1b863bc1eb0340a5f2.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1813
+   },
+   {
+    "path": "tests/testdata/gpt3_test_bb2cc49115e88788ed870ad0716eb00b280a885f91c7ed6e1e864435e5e2b6ac.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 2479
+   },
+   {
+    "path": "tests/testdata/textsynth_test_0c1c14571add7903b89e588c8212572b95bb57b334fc0752c89a7e045a5f63ae.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1853
+   },
+   {
+    "path": "tests/testdata/textsynth_test_0a89c2739f9598b4be2674b0a8e43931d7f3f0b696970bcba31f9b52bdf12297.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1805
+   },
+   {
+    "path": "tests/testdata/gpt3_test_cfd11f555a5a63b6dfa114a55a932e51b724cdd44d4842586b9ce37260bf7aaa.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 2984
+   },
+   {
+    "path": "tests/testdata/textsynth_test_7209c4617547bfe17cb9e7f5f735fe35822d650aefdc5fbeeaf0c1724effbe09.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1871
+   },
+   {
+    "path": "tests/testdata/textsynth_test_434076260b6af3a46b7a5eaceec3306a5872c400a3872f744280b237455a0f8e.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 2866
+   },
+   {
+    "path": "tests/testdata/textsynth_test_b1cbb29666cce5e31a1e97695858137398a0885ca5d5d98f515404fb6aeb99e7.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1813
+   },
+   {
+    "path": "tests/testdata/textsynth_test_abcbcba648d89e5d81a50511a6d24ddeb538de2ffe108c1370dd74ce6ac8038d.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1773
+   },
+   {
+    "path": "tests/testdata/gpt3_test_f307d52964c295e2005c5e782b688c24388e0cecadf29f1e6fc7f394236ea9c0.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1297
+   },
+   {
+    "path": "tests/testdata/textsynth_test_f4bfe4beb605bd52a8ab6be3c9293639e7e2261d98de58159d15ccb83131bf4e.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1911
+   },
+   {
+    "path": "tests/testdata/textsynth_test_51b5302f157cf224f694ccad973f255ae19e9e061d533256bdf75b04e0a917ab.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1766
+   },
+   {
+    "path": "tests/testdata/textsynth_test_3092d07756f3e1d010c07524cc8a2ecba7f0c19f9e39f2aaf2bf440bfe328004.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 2003
+   },
+   {
+    "path": "tests/testdata/textsynth_test_4fd8d66a6dad7f602b40e5d7dc298d6fe329299d086a4659743a41f4a4012659.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1960
+   },
+   {
+    "path": "tests/testdata/gpt3_test_0deb8e9bde8e8327bbc48157f638ff3ba06b0cd816dad2beb8ad90f7fbe795c7.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 570
+   },
+   {
+    "path": "tests/testdata/gguf_test_44e268d15decc4d2d0f99e57e1476269826cd3b54262f7a0981f75ddd45b25d0.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 153
+   },
+   {
+    "path": "tests/testdata/gguf_test_52ea409606de8755e03cf7c79f824101a4ce64bb6e6d3df556b8a4e7a5d92418.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 153
+   },
+   {
+    "path": "tests/testdata/textsynth_test_49c47ae40e11f349f2f6b492128188b1b2bc103a421c676ee4b2142a68b43516.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 2467
+   },
+   {
+    "path": "tests/testdata/gguf_test_8fcf3f2f52afeb2acd7c8e02c2cc3ce31a691b665d295f6c4e4bbd71c7caa1a2.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 532
+   },
+   {
+    "path": "tests/testdata/gpt3_test_8025023377febbd8c5f2b9f26705c394ff375d0cad7c89c10fd9b8e1eb66ff1c.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 70917
+   },
+   {
+    "path": "tests/testdata/textsynth_test_e7ad1e9f52a39e1ddd1e50f3c57ffa4546728dd150a67c0a0ddc8675c04e15d1.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 1848
+   }
+  ],
+  "excluded_count": 23,
+  "license": {
+   "file": "LICENSE.md",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/lm-evaluation-harness_ddd6722_original_en.tar.gz",
+  "archive_sha256": "f9f9df36df4f2b63849e1955a2ef3ed710dab9f2af517905ef2b911b25779965",
+  "renamed_copy_path": "reference_code/lm-evaluation-harness_ddd6722_en",
+  "renamed_copy_pack_sha256": "a138401b9fbd120a280d7e5d991effb140aa9c688a972b3b87b88412c64cc92e",
+  "docs": {
+   "toc_kind": null,
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 12,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/lm-evaluation-harness_docs_ddd6722_en",
+   "files": 13,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/ Markdown（接口、任务指南、新任务指南、去污染说明），无目录文件",
+   "complete_doc_set": false,
+   "pack_sha256": "b40cc0ec4540100485cbb7b2e46fe907bb4ab04f73397b9ebbcda359427a54d4",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "未找到可解析的目录/导航文件",
+   "rechecked": "2026-10-29 15:45:14"
+  },
+  "status": "verified"
+ },
+ "E-19": {
+  "eid": "E-19",
+  "name": "lighteval",
+  "repo": "https://github.com/huggingface/lighteval",
+  "ref_requested": "v0.13.0",
+  "time": "2026-10-29 15:36:19",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "7c1cd62716b0a198a630c26d781430c54726cd02",
+  "commit_date": "2025-11-24T16:34:58+01:00",
+  "files_kept": 479,
+  "bytes_kept": 2965615,
+  "excluded_files": [
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:ruin_names|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:lsat-rc|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 131
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_truthfulqa:mc|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:lsat-ar|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:tracking_shuffled_objects_seven_objects|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:tracking_shuffled_objects_five_objects|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_mmlu:us_foreign_policy|5_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:geometric_shapes|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:snarks|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_mmlu:college_chemistry|5_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:sat-en-without-passage|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:aqua-rat|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:temporal_sequences|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:date_understanding|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:causal_judgment|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:disambiguation_qa|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:logical_deduction_seven_objects|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:logiqa-en|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_hellaswag|10_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:navigate|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_gsm8k_test|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:logical_deduction_five_objects|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:salient_translation_error_detection|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:lsat-lr|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_bigbench_hard:movie_recommendation|3_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_arc:challenge|25_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 131
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-vllm/details_agieval:sat-en|0_2025-11-05T14-52-08.352779.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 131
+   },
+   {
+    "path": "tests/reference_details/Qwen2.5-VL-3B-Instruct-vlm/details_mmmu_pro:standard-4|0_2025-11-05T15-23-34.026089.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 133
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_gsm8k_test|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:salient_translation_error_detection|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:tracking_shuffled_objects_five_objects|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:navigate|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:logical_deduction_seven_objects|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:movie_recommendation|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:lsat-ar|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_mmlu:college_chemistry|5_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:snarks|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:sat-en-without-passage|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_hellaswag|10_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:temporal_sequences|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_mmlu:us_foreign_policy|5_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:aqua-rat|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:tracking_shuffled_objects_seven_objects|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:lsat-rc|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:causal_judgment|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:geometric_shapes|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:logical_deduction_five_objects|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:date_understanding|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_arc:challenge|25_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:disambiguation_qa|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:sat-en|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:logiqa-en|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_bigbench_hard:ruin_names|3_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_agieval:lsat-lr|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   },
+   {
+    "path": "tests/reference_details/SmolLM2-1.7B-Instruct-transformers/details_truthfulqa:mc|0_2025-11-05T14-43-47.148527.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 130
+   }
+  ],
+  "excluded_count": 55,
+  "license": {
+   "file": "LICENSE",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/lighteval_7c1cd62_original_en.tar.gz",
+  "archive_sha256": "6ed7748ea28f72fae76e2a2fe354d148a620d2ee88414ddf2ead6dc8fc52d30a",
+  "renamed_copy_path": "reference_code/lighteval_7c1cd62_en",
+  "renamed_copy_pack_sha256": "ca83e93570201eeff3f84639d906bf1f8a862f8a02a03aad041730dffde10d3e",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 26,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 26,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs/source",
+   "local_path": "engineering_docs/lighteval_docs_7c1cd62_en",
+   "files": 27,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（_toctree.yml）",
+   "complete_doc_set": true,
+   "pack_sha256": "943e09b1c8edaea76e5f86a3862ac23e5cfc59f8e40c1be39c007e7d755b476a",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 26,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 26,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 26,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 26 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:15"
+  },
+  "status": "verified"
+ },
+ "E-20": {
+  "eid": "E-20",
+  "name": "sacrebleu",
+  "repo": "https://github.com/mjpost/sacrebleu",
+  "ref_requested": "v2.6.0",
+  "time": "2026-10-29 15:36:20",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "2277caccfc7b956671a6a09f1646f62250034157",
+  "commit_date": "2026-01-12T18:07:17+01:00",
+  "files_kept": 57,
+  "bytes_kept": 461021,
+  "excluded_files": [
+   {
+    "path": "test/wmt17_en_de_systems.pkl.bz2",
+    "reason": "excluded type .bz2",
+    "bytes": 1759156
+   }
+  ],
+  "excluded_count": 1,
+  "license": {
+   "file": "LICENSE.txt",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/sacrebleu_2277cac_original_en.tar.gz",
+  "archive_sha256": "31fffd063ead0ce1d9e2cc1ed325f2e6d1fd3d907a2a02232bb8213a7c879e20",
+  "renamed_copy_path": "reference_code/sacrebleu_2277cac_en",
+  "renamed_copy_pack_sha256": "27abaeaf54d4fdcc8e1ac5c12b0ff8641f8b24d9047e166de859b7db01050e02",
+  "status": "verified"
+ },
+ "E-21": {
+  "eid": "E-21",
+  "name": "COMET",
+  "repo": "https://github.com/Unbabel/COMET",
+  "ref_requested": "v2.2.7",
+  "time": "2026-10-29 15:36:22",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: 文档源文件仅 6 个"
+  ],
+  "commit": "49c348dd0ff569c4d7c3f2b7c720fd5696f8de59",
+  "commit_date": "2025-05-21T11:37:19+01:00",
+  "files_kept": 90,
+  "bytes_kept": 1795711,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/COMET_49c348d_original_en.tar.gz",
+  "archive_sha256": "161b239bd41ba9731fdcf7bdeba01e27d0bf789c58393f5163c466f3e11372a1",
+  "renamed_copy_path": "reference_code/COMET_49c348d_en",
+  "renamed_copy_pack_sha256": "e2513dc75196064cf25e035e69e2064c8497d1cc08767ff4431143a2d2a852ef",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 5,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 6,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/COMET_docs_49c348d_en",
+   "files": 16,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（Sphinx）",
+   "complete_doc_set": false,
+   "pack_sha256": "cbf33d8f17678926da0a4e6332ca7829b9a0660ff85f24867c472a43031469d9",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 4,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 5,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 5,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "文档源文件仅 6 个",
+   "rechecked": "2026-10-29 15:45:15"
+  },
+  "status": "verified"
+ },
+ "E-22": {
+  "eid": "E-22",
+  "name": "argilla",
+  "repo": "https://github.com/argilla-io/argilla",
+  "ref_requested": "v2.8.0",
+  "time": "2026-10-29 15:36:24",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: mkdocs_nav 目录 34 项，解析率 0.941"
+  ],
+  "commit": "78cb5183f72e59857cf4da3015c42a91c3b46205",
+  "commit_date": "2025-03-10T09:51:29+01:00",
+  "files_kept": 3133,
+  "bytes_kept": 236525366,
+  "excluded_files": [
+   {
+    "path": "argilla-v1/tests/unit/labeling/text_classification/resources/weak-supervision-guide-matrix.npy",
+    "reason": "excluded type .npy",
+    "bytes": 36848
+   },
+   {
+    "path": "docs/_source/tutorials/notebooks/data/skweak/crunchbase_companies.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 2717109
+   },
+   {
+    "path": "docs/_source/tutorials/notebooks/data/skweak/wikidata_small_tokenised.json.gz",
+    "reason": "excluded type .gz",
+    "bytes": 11919777
+   },
+   {
+    "path": "docs/_source/_static/argilla-3-min-walkthrough.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 6505390
+   },
+   {
+    "path": "docs/_source/_static/images/guides/monitoring/kibana.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 7296410
+   },
+   {
+    "path": "docs/_source/_static/images/guides/monitoring/hf_monitoring.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 5017721
+   },
+   {
+    "path": "docs/_source/_static/tutorials/training-textclassification-smalltext-activelearning/video.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 719955
+   },
+   {
+    "path": "docs/_source/_static/tutorials/monitoring-textclassification-transformers-explainability/ModelLoss_Filter.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 729338
+   },
+   {
+    "path": "docs/_source/_static/tutorials/monitoring-textclassification-transformers-explainability/loss_sample.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 16789624
+   },
+   {
+    "path": "docs/_source/_static/tutorials/labelling-tokenclassification-spacy-pretrained/spacy.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 22950458
+   },
+   {
+    "path": "docs/_source/_static/tutorials/training-textclassification-transformers-pretrained/random_examples.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 9149425
+   },
+   {
+    "path": "docs/_source/_static/tutorials/training-textclassification-transformers-pretrained/positive_examples.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 18068196
+   },
+   {
+    "path": "docs/_source/_static/tutorials/labelling-tokenclassification-flair-fewshot/zeroshot_tutorial.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 16563160
+   },
+   {
+    "path": "docs/_source/_static/tutorials/training-textclassification-modal-activelearning/al_tuto.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 10786949
+   },
+   {
+    "path": "docs/_source/_static/tutorials/monitoring-textclassification-shaptransformersinterpret-explainability/model-explainability.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1589749
+   },
+   {
+    "path": "docs/_source/_static/tutorials/monitoring-textclassification-cleanlab-explainability/label_errors.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 13616599
+   },
+   {
+    "path": "docs/_source/_static/tutorials/labelling-textclassification-sklearn-weaksupervision/ws_multi-label.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 388843
+   },
+   {
+    "path": "docs/_source/_static/tutorials/labelling-textclassification-snorkel-weaksupervision/ws_news.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1297740
+   },
+   {
+    "path": "docs/_source/_static/tutorials/training-textclassification-setfit-fewshot/setfit.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 2830173
+   },
+   {
+    "path": "docs/_source/_static/tutorials/labelling-tokenclassification-skweak-weaksupervision/skweak.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 658046
+   }
+  ],
+  "excluded_count": 20,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/argilla_78cb518_original_en.tar.gz",
+  "archive_sha256": "09079a3f6ba65fce083ca3983c3f8975b463b38bb4d5fcd6b303431e1e780aa1",
+  "renamed_copy_path": "reference_code/argilla_78cb518_en",
+  "renamed_copy_pack_sha256": "c1fc348dfd8e1236ea021c4cfb4c14938610ffc5ea9b14c4e0a043d4b44ae444",
+  "docs": {
+   "toc_kind": "mkdocs_nav",
+   "toc_entries": 34,
+   "toc_missing": 2,
+   "toc_missing_examples": [
+    "community/changelog.md",
+    "community/popular_issues.md"
+   ],
+   "doc_source_files": 53,
+   "toc_resolved_ratio": 0.941,
+   "path_in_repo": "argilla/docs",
+   "local_path": "engineering_docs/argilla_docs_78cb518_en",
+   "files": 110,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 argilla/docs（argilla/mkdocs.yml 导航）",
+   "complete_doc_set": false,
+   "pack_sha256": "a8f663c5548b39405b65ce0a9e28f752fc2aae6a1db9f5a2ccf1ec7969f98407",
+   "previous_checks": [
+    {
+     "toc_kind": "mkdocs_nav",
+     "toc_entries": 29,
+     "toc_missing": 2,
+     "toc_resolved_ratio": 0.931,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "gitbook_summary",
+     "toc_entries": 19,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "mkdocs_nav": {
+     "entries": 34,
+     "missing": 2,
+     "missing_examples": [
+      "community/changelog.md",
+      "community/popular_issues.md"
+     ],
+     "ratio": 0.941
+    },
+    "gitbook_summary": {
+     "entries": 19,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mkdocs_nav 目录 34 项，解析率 0.941",
+   "rechecked": "2026-10-29 15:45:17"
+  },
+  "status": "verified"
+ },
+ "E-23": {
+  "eid": "E-23",
+  "name": "sentence-transformers",
+  "repo": "https://github.com/UKPLab/sentence-transformers",
+  "ref_requested": "v6.2.0",
+  "time": "2026-10-29 15:37:16",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "0b6937d55981e3486caf9b64ad2664c9a9edb51d",
+  "commit_date": "2026-10-21T13:15:54+02:00",
+  "files_kept": 832,
+  "bytes_kept": 23619075,
+  "excluded_files": [
+   {
+    "path": "examples/sentence_transformer/applications/image-search/Image_Search.ipynb",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6315237
+   }
+  ],
+  "excluded_count": 1,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/sentence-transformers_0b6937d_original_en.tar.gz",
+  "archive_sha256": "83d4c1ff9e55b2628272ea7200c06bb7f029a40f308aa069d8f07ab8b64dd228",
+  "renamed_copy_path": "reference_code/sentence-transformers_0b6937d_en",
+  "renamed_copy_pack_sha256": "53aeaf15f8e3406a630c6e143007d9e1215217fff51ec43b7e1b8b8cb37a9f2e",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 116,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 100,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/sentence-transformers_docs_0b6937d_en",
+   "files": 153,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（Sphinx 源；根 index.rst 位于仓库根，docs/ 下为分节文件）",
+   "complete_doc_set": true,
+   "pack_sha256": "a3b0c79d9aaca987f2236ef2351cf779983b855a3487c2b08e5127b6b2544016",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 116,
+     "toc_missing": 56,
+     "toc_resolved_ratio": 0.517,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 116,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sphinx_toctree 目录 116 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:17"
+  },
+  "status": "verified"
+ },
+ "E-24": {
+  "eid": "E-24",
+  "name": "FlagEmbedding",
+  "repo": "https://github.com/FlagOpen/FlagEmbedding",
+  "ref_requested": "v1.4.2",
+  "time": "2026-10-29 15:37:25",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "fd1a2bdf69488ffebe0327999d4400d8c8058a0b",
+  "commit_date": "2026-08-24T10:54:09+08:00",
+  "files_kept": 1150,
+  "bytes_kept": 50294351,
+  "excluded_files": [
+   {
+    "path": "research/visual_bge/visual_bge/eva_clip/bpe_simple_vocab_16e6.txt.gz",
+    "reason": "excluded type .gz",
+    "bytes": 1356917
+   },
+   {
+    "path": "research/BGE_VL/eval/data/circo_corpus.jsonl",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6023004
+   }
+  ],
+  "excluded_count": 2,
+  "license": {
+   "file": "LICENSE",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/FlagEmbedding_fd1a2bd_original_en.tar.gz",
+  "archive_sha256": "bff9b325a8f10e9436a3da9eb28bf5cf99d2a5cbb0c64f44bf5a73e7c0dd2c74",
+  "renamed_copy_path": "reference_code/FlagEmbedding_fd1a2bd_en",
+  "renamed_copy_pack_sha256": "18a5d743e404bf289e9884a4aa0507f66ec5018d9db790417698d85a6a239bfd",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 163,
+   "toc_missing": 1,
+   "toc_missing_examples": [
+    "source/self"
+   ],
+   "doc_source_files": 166,
+   "toc_resolved_ratio": 0.994,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/FlagEmbedding_docs_fd1a2bd_en",
+   "files": 178,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（Sphinx）",
+   "complete_doc_set": true,
+   "pack_sha256": "2f39eaa2e62bfe0a4888d2214e8ab5af934a2d0c5ae0ee63a79a7cefd56d8250",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 11,
+     "toc_missing": 1,
+     "toc_resolved_ratio": 0.909,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 163,
+     "toc_missing": 1,
+     "toc_resolved_ratio": 0.994,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 163,
+     "missing": 1,
+     "missing_examples": [
+      "source/self"
+     ],
+     "ratio": 0.994
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sphinx_toctree 目录 163 项，解析率 0.994",
+   "rechecked": "2026-10-29 15:45:18"
+  },
+  "status": "verified"
+ },
+ "E-25": {
+  "eid": "E-25",
+  "name": "haystack",
+  "repo": "https://github.com/deepset-ai/haystack",
+  "ref_requested": "v3.4.1",
+  "time": "2026-10-29 15:37:31",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "7f0ab62afb01c096557d5d69ec57276dd6583a57",
+  "commit_date": "2026-10-21T19:10:09Z",
+  "files_kept": 12130,
+  "bytes_kept": 104950266,
+  "excluded_files": [
+   {
+    "path": "test/test_files/audio/this is the content of the document.wav",
+    "reason": "excluded type .wav",
+    "bytes": 89644
+   },
+   {
+    "path": "test/test_files/audio/the context for this answer is here.wav",
+    "reason": "excluded type .wav",
+    "bytes": 99884
+   },
+   {
+    "path": "test/test_files/audio/answer.wav",
+    "reason": "excluded type .wav",
+    "bytes": 29228
+   },
+   {
+    "path": "test/test_files/audio/MLK_Something_happening.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 1069391
+   }
+  ],
+  "excluded_count": 4,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/haystack_7f0ab62_original_en.tar.gz",
+  "archive_sha256": "648b37bead3d5553fcf8a636673fceac224c1f91a254514471d12e2fdc9076b8",
+  "renamed_copy_path": "reference_code/haystack_7f0ab62_en",
+  "renamed_copy_pack_sha256": "a2dde83cffac8cc17b049534efa49f930c2118f645aff1a478f1131329a642f7",
+  "docs": {
+   "toc_kind": "docusaurus_sidebars",
+   "toc_entries": 466,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 470,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs-website/docs",
+   "local_path": "engineering_docs/haystack_docs_7f0ab62_en",
+   "files": 470,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs-website/docs（Docusaurus 当前版本文档；目录为 docs-website/sidebars.js，未纳入本路径）",
+   "complete_doc_set": true,
+   "pack_sha256": "93ae2209993633dbebfb3660c14d28fc9a24d52a1d03e513317423915f1ffd63",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "docusaurus_sidebars": {
+     "entries": 466,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "docusaurus_sidebars 目录 466 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:21"
+  },
+  "status": "verified"
+ },
+ "E-26": {
+  "eid": "E-26",
+  "name": "docling",
+  "repo": "https://github.com/docling-project/docling",
+  "ref_requested": "v2.144.0",
+  "time": "2026-10-29 15:37:40",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: mkdocs_nav 目录 113 项，解析率 0.54"
+  ],
+  "commit": "a857fd208ccd61fb4a5d230384554ce778f216df",
+  "commit_date": "2026-10-28T12:03:07Z",
+  "files_kept": 1869,
+  "bytes_kept": 125888519,
+  "excluded_files": [
+   {
+    "path": "tests/data/latex/groundtruth/2412.19437_main.tex.json",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6241778
+   },
+   {
+    "path": "tests/data/odf/groundtruth/odf_presentation_02.odp.json",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7454655
+   },
+   {
+    "path": "tests/data/odf/groundtruth/odf_presentation_02.odp.html",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7408010
+   },
+   {
+    "path": "tests/data/odf/sources/odf_presentation_02.odp.pdf",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8921030
+   },
+   {
+    "path": "tests/data/pdf/sources/2203.01017v2.pdf",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7215177
+   },
+   {
+    "path": "tests/data/pdf/sources/elsevier-00.pdf",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 20830040
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-flac.flac",
+    "reason": "excluded type .flac",
+    "bytes": 731450
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-ogg.ogg",
+    "reason": "excluded type .ogg",
+    "bytes": 118418
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_video-x-msvideo.avi",
+    "reason": "excluded type .avi",
+    "bytes": 2780472
+   },
+   {
+    "path": "tests/data/audio/sources/silent_1s.wav",
+    "reason": "excluded type .wav",
+    "bytes": 88244
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-wav.wav",
+    "reason": "excluded type .wav",
+    "bytes": 1762956
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_video-quicktime.mov",
+    "reason": "excluded type .mov",
+    "bytes": 323332
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_video-mp4.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 322884
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-m4a.m4a",
+    "reason": "excluded type .m4a",
+    "bytes": 149024
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-mpeg.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 161100
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 160683
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-x-wav.wav",
+    "reason": "excluded type .wav",
+    "bytes": 1762956
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_video-avi.avi",
+    "reason": "excluded type .avi",
+    "bytes": 2618430
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-mp3.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 161100
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-mp4.m4a",
+    "reason": "excluded type .m4a",
+    "bytes": 149024
+   },
+   {
+    "path": "tests/data/audio/sources/sample_10s_audio-x-flac.flac",
+    "reason": "excluded type .flac",
+    "bytes": 731450
+   },
+   {
+    "path": "tests/data/mets_gbs/sources/32044009881525_missing_coordocr.tar.gz",
+    "reason": "excluded type .gz",
+    "bytes": 169883
+   },
+   {
+    "path": "tests/data/mets_gbs/sources/32044009881525_select.tar.gz",
+    "reason": "excluded type .gz",
+    "bytes": 177891
+   },
+   {
+    "path": "tests/data/xbrl/sources/grve-taxonomy/taxonomy_package.zip",
+    "reason": "excluded type .zip",
+    "bytes": 431685
+   },
+   {
+    "path": "tests/data/xbrl/sources/mlac-taxonomy/taxonomy_package.zip",
+    "reason": "excluded type .zip",
+    "bytes": 457267
+   },
+   {
+    "path": "docs/examples/data/chart_document.pdf",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 5826631
+   },
+   {
+    "path": "docs/examples/data/2408.09869v3_enriched.json",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7292685
+   },
+   {
+    "path": "docs/examples/data/vidore_v3_hr-slice.parquet",
+    "reason": "excluded type .parquet",
+    "bytes": 5115935
+   }
+  ],
+  "excluded_count": 28,
+  "license": {
+   "file": "LICENSE",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/docling_a857fd2_original_en.tar.gz",
+  "archive_sha256": "0563e0ee60af062ad14542a544162a467b62a0c64875d7cea41a746fd65f5717",
+  "renamed_copy_path": "reference_code/docling_a857fd2_en",
+  "renamed_copy_pack_sha256": "a2e1af4a4739a90d135d1d98dc8181f4688513c41d59531a633cb4adaac8ee2f",
+  "docs": {
+   "toc_kind": "mkdocs_nav",
+   "toc_entries": 113,
+   "toc_missing": 52,
+   "toc_missing_examples": [
+    "//github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Docling_RAG.ipynb",
+    "_generated/examples/advanced_chunking_and_serialization.md",
+    "_generated/examples/backend_csv.md",
+    "_generated/examples/backend_xml_rag.md",
+    "_generated/examples/batch_convert.md",
+    "_generated/examples/code_formula_granite_docling.md",
+    "_generated/examples/compare_vlm_models.md",
+    "_generated/examples/custom_convert.md",
+    "_generated/examples/develop_formula_understanding.md",
+    "_generated/examples/develop_picture_enrichment.md"
+   ],
+   "doc_source_files": 91,
+   "toc_resolved_ratio": 0.54,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/docling_docs_a857fd2_en",
+   "files": 162,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（根目录 mkdocs.yml 导航）",
+   "complete_doc_set": false,
+   "pack_sha256": "90b29cf89602aab4c5921fe1cd8280b5eaa6cba75ea31bde17566ec86605803a",
+   "previous_checks": [
+    {
+     "toc_kind": "mkdocs_nav",
+     "toc_entries": 115,
+     "toc_missing": 53,
+     "toc_resolved_ratio": 0.539,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "mkdocs_nav": {
+     "entries": 113,
+     "missing": 52,
+     "missing_examples": [
+      "//github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Docling_RAG.ipynb",
+      "_generated/examples/advanced_chunking_and_serialization.md",
+      "_generated/examples/backend_csv.md",
+      "_generated/examples/backend_xml_rag.md",
+      "_generated/examples/batch_convert.md",
+      "_generated/examples/code_formula_granite_docling.md",
+      "_generated/examples/compare_vlm_models.md",
+      "_generated/examples/custom_convert.md",
+      "_generated/examples/develop_formula_understanding.md",
+      "_generated/examples/develop_picture_enrichment.md"
+     ],
+     "ratio": 0.54
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mkdocs_nav 目录 113 项，解析率 0.54",
+   "rechecked": "2026-10-29 15:45:22"
+  },
+  "status": "verified"
+ },
+ "E-27": {
+  "eid": "E-27",
+  "name": "smolagents",
+  "repo": "https://github.com/huggingface/smolagents",
+  "ref_requested": "v1.26.0",
+  "time": "2026-10-29 15:38:07",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "12c1bc820eca50ace6f80a21d90426d41d74f845",
+  "commit_date": "2026-05-29T07:08:24+02:00",
+  "files_kept": 184,
+  "bytes_kept": 2685044,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/smolagents_12c1bc8_original_en.tar.gz",
+  "archive_sha256": "392ff42801fc2d03951a696458599bdedc639842720fae4197fd0561d8b572df",
+  "renamed_copy_path": "reference_code/smolagents_12c1bc8_en",
+  "renamed_copy_pack_sha256": "6566c69621d924123c1a9981e1f9c2a2b7b23d33a262403b04efc5a32f8a8bfd",
+  "docs": {
+   "toc_kind": "hf_toctree",
+   "toc_entries": 70,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 70,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs/source",
+   "local_path": "engineering_docs/smolagents_docs_12c1bc8_en",
+   "files": 80,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/source（en/es/hi/ko/zh 各自 _toctree.yml）",
+   "complete_doc_set": true,
+   "pack_sha256": "74298e35acf51a56250ce8189e92db3c42d5fc6bcdcad8640fcb5dc6d69c9704",
+   "previous_checks": [
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 70,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "hf_toctree",
+     "toc_entries": 70,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "hf_toctree": {
+     "entries": 70,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "hf_toctree 目录 70 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:22"
+  },
+  "status": "verified"
+ },
+ "E-28": {
+  "eid": "E-28",
+  "name": "vllm",
+  "repo": "https://github.com/vllm-project/vllm",
+  "ref_requested": "v0.32.0",
+  "time": "2026-10-29 15:38:08",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+  "commit_date": "2026-10-17T11:57:10-07:00",
+  "files_kept": 7711,
+  "bytes_kept": 117659437,
+  "excluded_files": [
+   {
+    "path": "requirements/build/",
+    "reason": "excluded directory"
+   },
+   {
+    "path": "tests/multimodal/assets/corrupted.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 91678
+   },
+   {
+    "path": "tests/multimodal/assets/unsupported_8k_h264.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 98767
+   },
+   {
+    "path": "docs/assets/contributing/vllm_bench_serve_timeline.html",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7318341
+   }
+  ],
+  "excluded_count": 4,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/vllm_5df63a7_original_en.tar.gz",
+  "archive_sha256": "bfb53c0aa17e7d9bbb5a97dd9f50bd3415430d9ea3457fa831277d1f9808d055",
+  "renamed_copy_path": "reference_code/vllm_5df63a7_en",
+  "renamed_copy_pack_sha256": "59e8cc90c77270d99391db75640d4ab0b8ef23a4ae0125906f0d172a3e80b747",
+  "docs": {
+   "toc_kind": "mkdocs_awesome_nav",
+   "toc_entries": 23,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 243,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/vllm_docs_5df63a7_en",
+   "files": 357,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（mkdocs.yaml + .nav.yml 导航）",
+   "complete_doc_set": true,
+   "pack_sha256": "1c79f66844967a92540dcfba47eeca7c1154a7f9086bece2c5e01f9669c507ad",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "mkdocs_awesome_nav",
+     "toc_entries": 23,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "mkdocs_awesome_nav": {
+     "entries": 23,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mkdocs_awesome_nav 目录 23 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:24"
+  },
+  "status": "verified"
+ },
+ "E-29": {
+  "eid": "E-29",
+  "name": "llama.cpp",
+  "repo": "https://github.com/ggml-org/llama.cpp",
+  "ref_requested": "v0.8.0",
+  "time": "2026-10-29 15:38:31",
+  "retrieved": "2026-10-29",
+  "notes": [
+   "docs not counted as complete set: 未找到可解析的目录/导航文件"
+  ],
+  "commit": "8642541b255bfb5dc39cd351a178be09013a55d6",
+  "commit_date": "2026-10-28T13:30:38+02:00",
+  "files_kept": 3920,
+  "bytes_kept": 102255232,
+  "excluded_files": [
+   {
+    "path": "tools/mtmd/test-2.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 140060
+   },
+   {
+    "path": "tools/mtmd/test-3.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 661813
+   },
+   {
+    "path": "examples/llama.android/gradle/wrapper/gradle-wrapper.jar",
+    "reason": "excluded type .jar",
+    "bytes": 59203
+   },
+   {
+    "path": "models/ggml-vocab-llama-bpe.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 7818140
+   },
+   {
+    "path": "models/ggml-vocab-starcoder.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1719346
+   },
+   {
+    "path": "models/ggml-vocab-deepseek-llm.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 3970167
+   },
+   {
+    "path": "models/ggml-vocab-bert-bge.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 627549
+   },
+   {
+    "path": "models/ggml-vocab-gpt-neox.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1771431
+   },
+   {
+    "path": "models/ggml-vocab-qwen2.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 5928681
+   },
+   {
+    "path": "models/ggml-vocab-deepseek-coder.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1156067
+   },
+   {
+    "path": "models/ggml-vocab-gemma-4.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 15776467
+   },
+   {
+    "path": "models/ggml-vocab-qwen35.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 5928682
+   },
+   {
+    "path": "models/ggml-vocab-nomic-bert-moe.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 6821877
+   },
+   {
+    "path": "models/ggml-vocab-mpt.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1771393
+   },
+   {
+    "path": "models/ggml-vocab-aquila.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 4825676
+   },
+   {
+    "path": "models/ggml-vocab-command-r.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 10874545
+   },
+   {
+    "path": "models/ggml-vocab-gpt-2.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1766807
+   },
+   {
+    "path": "models/ggml-vocab-phi-3.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 726019
+   },
+   {
+    "path": "models/ggml-vocab-falcon.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 2287728
+   },
+   {
+    "path": "models/ggml-vocab-baichuan.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1340998
+   },
+   {
+    "path": "models/ggml-vocab-llama-spm.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 723869
+   },
+   {
+    "path": "models/ggml-vocab-refact.gguf",
+    "reason": "excluded type .gguf",
+    "bytes": 1720710
+   }
+  ],
+  "excluded_count": 22,
+  "license": {
+   "file": "LICENSE",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/llamacpp_8642541_original_en.tar.gz",
+  "archive_sha256": "59caecd55d6ecb3018da58192fd4482ff445fccb6b19977a91ad9c66bc8b3860",
+  "renamed_copy_path": "reference_code/llamacpp_8642541_en",
+  "renamed_copy_pack_sha256": "bf808244b2a67943ea63504c2c6619d895bb6e594ba5decfa90feda4eda45159",
+  "docs": {
+   "toc_kind": null,
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 53,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/llamacpp_docs_8642541_en",
+   "files": 70,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/ Markdown（构建、后端、多模态等），无目录文件",
+   "complete_doc_set": false,
+   "pack_sha256": "10c87989dfcb35ca39607700117f16f3722cb8e49165166a644031470564b933",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "未找到可解析的目录/导航文件",
+   "rechecked": "2026-10-29 15:45:25"
+  },
+  "status": "verified"
+ },
+ "E-30": {
+  "eid": "E-30",
+  "name": "sglang",
+  "repo": "https://github.com/sgl-project/sglang",
+  "ref_requested": "v0.5.22",
+  "time": "2026-10-29 15:38:41",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "baa9befa381511cd4d56f83980951e5a45fffc6d",
+  "commit_date": "2026-10-13T23:26:00-07:00",
+  "files_kept": 10589,
+  "bytes_kept": 139853470,
+  "excluded_files": [
+   {
+    "path": ".dockerignore",
+    "reason": "symlink"
+   },
+   {
+    "path": "tools/sglang-simulator/examples/assets/model.pkl",
+    "reason": "excluded type .pkl",
+    "bytes": 734
+   },
+   {
+    "path": "sgl-model-gateway/LICENSE",
+    "reason": "symlink"
+   }
+  ],
+  "excluded_count": 3,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/sglang_baa9bef_original_en.tar.gz",
+  "archive_sha256": "d94d07352842661d201cb26f2e0b4fbf364b5477d2cc8ed1fddfabc762d60a48",
+  "renamed_copy_path": "reference_code/sglang_baa9bef_en",
+  "renamed_copy_pack_sha256": "15981783f33bb2a057c89470754c68185cf744d95244564d6bdc91196c3f902d",
+  "docs": {
+   "toc_kind": "mintlify_docs",
+   "toc_entries": 342,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 357,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/sglang_docs_baa9bef_en",
+   "files": 614,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（Mintlify docs.json 导航）",
+   "complete_doc_set": true,
+   "pack_sha256": "1e4e10777d1e4602cc3e04992e344e59b092daacc38c818b1db6e453308de48c",
+   "previous_checks": [
+    {
+     "toc_kind": "docs.json",
+     "toc_entries": 341,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "mintlify_docs",
+     "toc_entries": 342,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "mintlify_docs": {
+     "entries": 342,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mintlify_docs 目录 342 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:28"
+  },
+  "status": "verified"
+ },
+ "E-31": {
+  "eid": "E-31",
+  "name": "llm-compressor",
+  "repo": "https://github.com/vllm-project/llm-compressor",
+  "ref_requested": "0.15.0",
+  "time": "2026-10-29 15:39:01",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "04546e05125298c87b267253959eff39c6968925",
+  "commit_date": "2026-10-28T17:12:10Z",
+  "files_kept": 816,
+  "bytes_kept": 5951021,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/llm-compressor_04546e0_original_en.tar.gz",
+  "archive_sha256": "68f21f3c6d375069006d9ae09212fec04138df63e2e35e65e905a2e55ae26432",
+  "renamed_copy_path": "reference_code/llm-compressor_04546e0_en",
+  "renamed_copy_pack_sha256": "abf962bf6e97345342f4e7ba961a6196159f05c0dacf5a0152e12c14eab5b61d",
+  "docs": {
+   "toc_kind": "mkdocs_awesome_nav",
+   "toc_entries": 59,
+   "toc_missing": 2,
+   "toc_missing_examples": [
+    "examples/README.md",
+    "experimental/README.md"
+   ],
+   "doc_source_files": 66,
+   "toc_resolved_ratio": 0.966,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/llm-compressor_docs_04546e0_en",
+   "files": 84,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（.nav.yml 导航）",
+   "complete_doc_set": true,
+   "pack_sha256": "4b26ea46f845dda35702a3796067e614ee10291816fef3a9a5f61621fef7e143",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "mkdocs_awesome_nav",
+     "toc_entries": 59,
+     "toc_missing": 2,
+     "toc_resolved_ratio": 0.966,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "mkdocs_awesome_nav": {
+     "entries": 59,
+     "missing": 2,
+     "missing_examples": [
+      "examples/README.md",
+      "experimental/README.md"
+     ],
+     "ratio": 0.966
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mkdocs_awesome_nav 目录 59 项，解析率 0.966",
+   "rechecked": "2026-10-29 15:45:28"
+  },
+  "status": "verified"
+ },
+ "E-32": {
+  "eid": "E-32",
+  "name": "open-webui",
+  "repo": "https://github.com/open-webui/open-webui",
+  "ref_requested": "v0.12.5",
+  "time": "2026-10-29 15:39:03",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+  "commit_date": "2026-10-29T18:05:24+09:00",
+  "files_kept": 5195,
+  "bytes_kept": 52681340,
+  "excluded_files": [
+   {
+    "path": "static/assets/welcome.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1926421
+   },
+   {
+    "path": "static/audio/greeting.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 16320
+   },
+   {
+    "path": "static/audio/notification.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 56006
+   },
+   {
+    "path": "test/test_files/image_gen/sd-empty.pt",
+    "reason": "excluded type .pt",
+    "bytes": 431
+   }
+  ],
+  "excluded_count": 4,
+  "license": {
+   "file": "LICENSE",
+   "detected": "BSD-3-Clause"
+  },
+  "archive_path": "reference_code/open-webui_f7ac7ee_original_en.tar.gz",
+  "archive_sha256": "87d298f5a720beb968fd26dc5f21339453216475b0444b70acdd79c298481077",
+  "renamed_copy_path": "reference_code/open-webui_f7ac7ee_en",
+  "renamed_copy_pack_sha256": "0d205abc16ad08249f41f94e6c15dfb7a327ca79b5316a344fc93356985d0e2b",
+  "docs_repo_commit": "c4f49998d7416a1defba7c2e78dbcf9c16ff8ac4",
+  "docs_repo_commit_date": "2026-10-29T12:27:39+01:00",
+  "docs_archive_path": "reference_code/open-webui-docs_c4f4999_original_en.tar.gz",
+  "docs_archive_sha256": "0f1195eb2303cd9d3c4ff4bc100e443f935229ebc8bba13b860833cb5f3dc42d",
+  "docs": {
+   "toc_kind": "docusaurus_autogenerated",
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 459,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/open-webui_docs_c4f4999_en",
+   "files": 511,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "官方文档站源仓库 open-webui/docs 的 docs/（Docusaurus，自动生成侧边栏）",
+   "complete_doc_set": true,
+   "pack_sha256": "08be22543b00940c5b9f60894ef2b425ef48740a63384494c364c9e7c6c4aa7d",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "front_matter_navigation",
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": "docusaurus_autogenerated",
+   "toc_check_version": 2,
+   "completeness_basis": "导航由目录树/前置元数据生成（docusaurus_autogenerated），已保存完整源树",
+   "rechecked": "2026-10-29 15:45:29"
+  },
+  "status": "verified"
+ },
+ "E-33": {
+  "eid": "E-33",
+  "name": "continue",
+  "repo": "https://github.com/continuedev/continue",
+  "ref_requested": "v2.1.0-vscode",
+  "time": "2026-10-29 15:39:20",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "b238c1f11f26805f4387e10bab878b009f98e7a4",
+  "commit_date": "2026-06-18T17:23:08-07:00",
+  "files_kept": 3043,
+  "bytes_kept": 154111159,
+  "excluded_files": [
+   {
+    "path": "extensions/intellij/gradle/wrapper/gradle-wrapper.jar",
+    "reason": "excluded type .jar",
+    "bytes": 43462
+   },
+   {
+    "path": "extensions/vscode/models/all-MiniLM-L6-v2/onnx/model_quantized.onnx",
+    "reason": "excluded type .onnx",
+    "bytes": 22972370
+   },
+   {
+    "path": "skills/cn-check.zip",
+    "reason": "excluded type .zip",
+    "bytes": 2735
+   },
+   {
+    "path": "docs/images/quick-actions-demo.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 13792418
+   },
+   {
+    "path": "docs/images/actions.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 5767101
+   },
+   {
+    "path": "docs/images/plan-mode.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 9469590
+   },
+   {
+    "path": "docs/images/classes.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7554586
+   },
+   {
+    "path": "docs/images/cn-demo.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 7126574
+   },
+   {
+    "path": "docs/images/actions-7d5b6b48fbf43eb6dbbb9ff7f42598a0.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 5767101
+   },
+   {
+    "path": "docs/images/agent-quick-start.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 6179568
+   },
+   {
+    "path": "docs/images/chat-quick-start.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 9820340
+   },
+   {
+    "path": "docs/images/plan-mode-compressed.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 26328404
+   },
+   {
+    "path": "docs/images/hub/create-an-agent.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 5859277
+   },
+   {
+    "path": "docs/images/hub/assets/images/agent-mission-control.gif",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 8669563
+   }
+  ],
+  "excluded_count": 14,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/continue_b238c1f_original_en.tar.gz",
+  "archive_sha256": "8c918bb0932b32015ba335f54a77c6890fda6c35c69aaa57ece43e0c6464d0bd",
+  "renamed_copy_path": "reference_code/continue_b238c1f_en",
+  "renamed_copy_pack_sha256": "a17cb1575a7bcc41f36d1efdb7e7ce48ee6e63ceb3f9cbe9fe665cbf6a8e80f1",
+  "docs": {
+   "toc_kind": "mintlify_docs",
+   "toc_entries": 97,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 153,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/continue_docs_b238c1f_en",
+   "files": 408,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（Mintlify docs.json 导航）",
+   "complete_doc_set": true,
+   "pack_sha256": "3a55ffc110d27b8e021e9d33f3e3dbe6e5cff1ee89e63ad8f27576a5c6d3b3a1",
+   "previous_checks": [
+    {
+     "toc_kind": "docs.json",
+     "toc_entries": 94,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "mintlify_docs",
+     "toc_entries": 97,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "mintlify_docs": {
+     "entries": 97,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mintlify_docs 目录 97 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:31"
+  },
+  "status": "verified"
+ },
+ "E-34": {
+  "eid": "E-34",
+  "name": "OpenHands-software-agent-sdk",
+  "repo": "https://github.com/OpenHands/software-agent-sdk",
+  "ref_requested": "v1.59.0",
+  "time": "2026-10-29 15:39:35",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "ccae18cb897bef7960f210aa3f380b577a84be7c",
+  "commit_date": "2026-10-28T15:34:29+01:00",
+  "files_kept": 1957,
+  "bytes_kept": 23467527,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/OpenHands-software-agent-sdk_ccae18c_original_en.tar.gz",
+  "archive_sha256": "83835720c0573adf6733ec879eec523eceb88348f964b9ca9ace8e96074cdfb0",
+  "renamed_copy_path": "reference_code/OpenHands-software-agent-sdk_ccae18c_en",
+  "renamed_copy_pack_sha256": "d643372e288f92e81621bab1e272d9ddec1d7bcfbe2823f86584a31f40e548f4",
+  "docs_repo_commit": "b053812969689d9dab97bbcd969f03f7cfb71a3b",
+  "docs_repo_commit_date": "2026-10-29T14:13:52+01:00",
+  "docs_archive_path": "reference_code/OpenHands-software-agent-sdk-docs_b053812_original_en.tar.gz",
+  "docs_archive_sha256": "67785dee9df6f35e533568c5e6dd23517ea246b76f739225340f101000d8a179",
+  "docs": {
+   "toc_kind": "mintlify_docs",
+   "toc_entries": 304,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 369,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": ".",
+   "local_path": "engineering_docs/OpenHands-software-agent-sdk_docs_b053812_en",
+   "files": 524,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "官方文档源仓库 OpenHands/docs 全部（Mintlify docs.json；含 SDK 与应用文档）",
+   "complete_doc_set": true,
+   "pack_sha256": "87854f2118a0d491e7dbd911513ebe487f99d8565288e97e550b20c7013789b6",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 1,
+     "toc_missing": 1,
+     "toc_resolved_ratio": 0.0,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "mintlify_docs",
+     "toc_entries": 304,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 1,
+     "missing": 1,
+     "missing_examples": [
+      "scripts/sphinx/source/openhands.sdk"
+     ],
+     "ratio": 0.0
+    },
+    "mintlify_docs": {
+     "entries": 304,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mintlify_docs 目录 304 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:31"
+  },
+  "status": "verified"
+ },
+ "E-35": {
+  "eid": "E-35",
+  "name": "aider",
+  "repo": "https://github.com/Aider-AI/aider",
+  "ref_requested": "v0.86.2",
+  "time": "2026-10-29 15:39:44",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "253f0368b873ba30d8ee26e463718f0c03614ddf",
+  "commit_date": "2026-02-11T16:42:24-08:00",
+  "files_kept": 562,
+  "bytes_kept": 17811865,
+  "excluded_files": [
+   {
+    "path": "aider/website/assets/aider-browser-social.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 12945046
+   },
+   {
+    "path": "aider/website/assets/watch.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 11339864
+   },
+   {
+    "path": "aider/website/assets/copypaste.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 13679407
+   },
+   {
+    "path": "aider/website/assets/install.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 7740091
+   },
+   {
+    "path": "aider/website/assets/shell-cmds-small.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 10547819
+   },
+   {
+    "path": "aider/website/assets/codespaces.mp4",
+    "reason": "excluded type .mp4",
+    "bytes": 1793301
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/12-32.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 19724
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/19-44.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18572
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/17-59.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10412
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/03-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 51404
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/07-43.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18188
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/11-28.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 27212
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/24-56.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 12620
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/15-34.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 11372
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/05-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13196
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/06-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 49388
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/24-25.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15596
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/25-35.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9356
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/01-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13964
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/02-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 30764
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/20-55.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 12236
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/10-55.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10796
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/14-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9644
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/03-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 28172
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/14-59.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 11948
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/16-29.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 20204
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/00-25.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 44876
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/09-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18956
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/12-48.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 8972
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/05-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 17708
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/01-30.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 12908
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/15-44.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 14924
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/18-35.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15020
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/04-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 20300
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/00-01.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 64652
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/13-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 14636
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/22-32.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10700
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/20-25.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10412
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/15-09.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 21164
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/21-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15980
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/10-41.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 21452
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/12-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10412
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/16-47.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 5804
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/16-14.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13388
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/10-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 8684
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/16-55.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 28844
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/16-04.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10796
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/14-30.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 38732
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/26-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 2828
+   },
+   {
+    "path": "aider/website/assets/audio/model-accepts-settings/19-54.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9068
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/02-05.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 2636
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/02-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10124
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/01-28.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13004
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/01-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 7340
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/00-01.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 22700
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/00-48.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 11084
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/01-42.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 21644
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/00-40.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 14444
+   },
+   {
+    "path": "aider/website/assets/audio/auto-accept-architect/00-11.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 7916
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/11-15.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18956
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/34-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 6572
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/16-07.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9932
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/28-52.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18188
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/19-04.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13388
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/35-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 36428
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/05-02.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10124
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/14-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 6956
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/24-39.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 14060
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/02-05.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13196
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/26-55.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 23948
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/09-02.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 16172
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/06-12.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10508
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/17-12.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 22796
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/31-52.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 8108
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/27-19.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 32684
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/32-36.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 16844
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/28-12.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 11276
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/01-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 12236
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/01-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 29996
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/33-05.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 17132
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/16-33.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 27884
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/20-50.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 5324
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/33-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 6764
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/32-42.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 19820
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/29-27.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 20876
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/32-27.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15788
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/30-25.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 16172
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/00-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13100
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/09-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 22220
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/01-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 11564
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/03-37.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 13772
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/00-01.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18764
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/13-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 19532
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/10-15.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 21452
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/20-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9836
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/32-54.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 18572
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/12-00.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9068
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/04-19.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 12332
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/16-16.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10508
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/27-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 16076
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/19-28.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15404
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/17-01.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 16076
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/05-55.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 21260
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/21-30.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10220
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/01-29.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 6284
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/30-37.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 20012
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/06-30.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 19532
+   },
+   {
+    "path": "aider/website/assets/audio/tree-sitter-language-pack/27-50.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 17612
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/02-50.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 8780
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/00-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 10796
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/01-20.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 7052
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/01-45.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 8012
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/01-30.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 15404
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/00-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 20972
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/02-10.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 19340
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/00-01.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 24332
+   },
+   {
+    "path": "aider/website/assets/audio/dont-drop-original-read-files/02-19.mp3",
+    "reason": "excluded type .mp3",
+    "bytes": 9932
+   },
+   {
+    "path": "aider/website/_posts/2023-12-21-unified-diffs.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "aider/website/_posts/2024-01-25-benchmarks-0125.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "aider/website/_posts/2023-11-06-benchmarks-speed-1106.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "aider/website/_posts/2023-07-02-benchmarks.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "aider/website/_posts/2023-05-25-ctags.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "aider/website/_posts/2023-11-06-benchmarks-1106.md",
+    "reason": "symlink"
+   }
+  ],
+  "excluded_count": 123,
+  "license": {
+   "file": "LICENSE.txt",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/aider_253f036_original_en.tar.gz",
+  "archive_sha256": "0828b494138f848c83626f1d100ed5f83f9ceb453d57849db2a01cbfb67e10bb",
+  "renamed_copy_path": "reference_code/aider_253f036_en",
+  "renamed_copy_pack_sha256": "c44f1b3a5b5e81ab921a614ef4093a3d7088a9e8fe5033b78e8cb7c91f13b655",
+  "docs": {
+   "toc_kind": "front_matter_navigation",
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 84,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "aider/website/docs",
+   "local_path": "engineering_docs/aider_docs_253f036_en",
+   "files": 84,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 aider/website/docs（Jekyll 站点源），无可解析目录文件",
+   "complete_doc_set": true,
+   "pack_sha256": "24f3696423293f9cd025c02a4050ac9f763925400b80b477ef4eee97a380dc6d",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "front_matter_navigation",
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": "front_matter_navigation",
+   "toc_check_version": 2,
+   "completeness_basis": "导航由目录树/前置元数据生成（front_matter_navigation），已保存完整源树",
+   "rechecked": "2026-10-29 15:45:31"
+  },
+  "status": "verified"
+ },
+ "E-36": {
+  "eid": "E-36",
+  "name": "prometheus",
+  "repo": "https://github.com/prometheus/prometheus",
+  "ref_requested": "v3.15.1",
+  "time": "2026-10-29 15:39:48",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "bae3eced0a5369e050e83ea73bc381d7c4b1a719",
+  "commit_date": "2026-10-21T15:24:03+02:00",
+  "files_kept": 1685,
+  "bytes_kept": 19403142,
+  "excluded_files": [
+   {
+    "path": "tsdb/testdata/20kseries.json",
+    "reason": "larger than 5242880 bytes",
+    "bytes": 10003571
+   }
+  ],
+  "excluded_count": 1,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/prometheus_bae3ece_original_en.tar.gz",
+  "archive_sha256": "a5b2a817583221b274aa34215f5e8c5871dc7798536efe5a8e832db83882cd07",
+  "renamed_copy_path": "reference_code/prometheus_bae3ece_en",
+  "renamed_copy_pack_sha256": "60f8e8bb0be6a6d034529d34aed33e137822ac1e1423b7b887bae1031bee1128",
+  "docs": {
+   "toc_kind": "front_matter_navigation",
+   "toc_entries": 0,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 30,
+   "toc_resolved_ratio": null,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/prometheus_docs_bae3ece_en",
+   "files": 32,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/ Markdown（配置、查询、存储等；站点导航在独立的 prometheus/docs 站点仓库，未纳入）",
+   "complete_doc_set": true,
+   "pack_sha256": "2e5f1ef9d10df1998ce49eaa9987f1b2a9a2a7d41c35423d8b8685efe071321d",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "front_matter_navigation",
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {},
+   "navigation_from_tree": "front_matter_navigation",
+   "toc_check_version": 2,
+   "completeness_basis": "导航由目录树/前置元数据生成（front_matter_navigation），已保存完整源树",
+   "rechecked": "2026-10-29 15:45:32"
+  },
+  "status": "verified"
+ },
+ "E-37": {
+  "eid": "E-37",
+  "name": "opentelemetry-python",
+  "repo": "https://github.com/open-telemetry/opentelemetry-python",
+  "ref_requested": "v1.45.1",
+  "time": "2026-10-29 15:39:51",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "14971cef9c84c2354cbaf6871090896fad0f9a1a",
+  "commit_date": "2026-10-06T14:29:19-03:00",
+  "files_kept": 1115,
+  "bytes_kept": 6928176,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/opentelemetry-python_14971ce_original_en.tar.gz",
+  "archive_sha256": "e010d97b5c4e79ac697482b2067adaa4822b5aaca0e04ac7df4f931368f38905",
+  "renamed_copy_path": "reference_code/opentelemetry-python_14971ce_en",
+  "renamed_copy_pack_sha256": "c46be38bc75a65ed98fe3ccdbfba9c579bf5c52a8a0008f40747a7270506cab5",
+  "docs": {
+   "toc_kind": "sphinx_toctree",
+   "toc_entries": 32,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 71,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/opentelemetry-python_docs_14971ce_en",
+   "files": 148,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（Sphinx API 参考与示例）；概念文档在 opentelemetry.io 站点仓库，体量过大未收",
+   "complete_doc_set": true,
+   "pack_sha256": "30a928e49d0480bba12be1c329886a233c75658932a13d7b85b02ebf19045c2b",
+   "previous_checks": [
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 2,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": "sphinx_toctree",
+     "toc_entries": 32,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    }
+   ],
+   "toc_all_kinds": {
+    "sphinx_toctree": {
+     "entries": 32,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "sphinx_toctree 目录 32 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:32"
+  },
+  "status": "verified"
+ },
+ "E-38": {
+  "eid": "E-38",
+  "name": "langfuse",
+  "repo": "https://github.com/langfuse/langfuse",
+  "ref_requested": "v4.71.0",
+  "time": "2026-10-29 15:39:53",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "d89f49b82620dc9a773bd2f97449289f4f6c199e",
+  "commit_date": "2026-10-27T16:01:24+01:00",
+  "files_kept": 7492,
+  "bytes_kept": 55127406,
+  "excluded_files": [
+   {
+    "path": "AGENTS.md",
+    "reason": "symlink"
+   },
+   {
+    "path": "web/src/__tests__/static/sounds-of-mars-one-small-step-earth.wav",
+    "reason": "excluded type .wav",
+    "bytes": 1768410
+   }
+  ],
+  "excluded_count": 2,
+  "license": {
+   "file": "LICENSE",
+   "detected": "MIT"
+  },
+  "archive_path": "reference_code/langfuse_d89f49b_original_en.tar.gz",
+  "archive_sha256": "dabb2f0b4a8021cbf2520d1645ce1d583945070eeeccad46f07df1502ccbed7d",
+  "renamed_copy_path": "reference_code/langfuse_d89f49b_en",
+  "renamed_copy_pack_sha256": "d18d3821e9d24b2cba33c34a64558e0e10924f6d5551e06c30947df17f07f12a",
+  "docs_repo_commit": "f7a44fa1961eedb2d430877ea656802c76b46837",
+  "docs_repo_commit_date": "2026-10-29T12:14:05Z",
+  "docs_archive_path": "reference_code/langfuse-docs_f7a44fa_original_en.tar.gz",
+  "docs_archive_sha256": "7290bd33db554c2662966276af79669db1b86dd8fd47b92b9a56c9d0ebe316a5",
+  "docs": {
+   "toc_kind": "fumadocs_meta",
+   "toc_entries": 590,
+   "toc_missing": 20,
+   "toc_missing_examples": [
+    "docs/administration/external:[Security Docs ↗](/security)",
+    "docs/external:[Security & Compliance ↗](/security)",
+    "docs/external:[Support ↗](/support)",
+    "docs/metrics/features/external:[Export to Mixpanel ↗](/integrations/analytics/mixpanel)",
+    "docs/metrics/features/external:[Export to PostHog ↗](/integrations/analytics/posthog)",
+    "docs/observability/external:[Integrations ↗](/integrations)",
+    "docs/observability/sdk/external:[JS/TS Reference ↗](https:/js.reference.langfuse.com/)",
+    "docs/observability/sdk/external:[Python Reference ↗](https:/python.reference.langfuse.com/)",
+    "docs/references/external:[API Reference ↗](https:/api.reference.langfuse.com)",
+    "docs/references/external:[JS SDK ↗](https:/js.reference.langfuse.com)"
+   ],
+   "doc_source_files": 1028,
+   "toc_resolved_ratio": 0.966,
+   "path_in_repo": "content",
+   "local_path": "engineering_docs/langfuse_docs_f7a44fa_en",
+   "files": 1106,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "官方站点源仓库 langfuse-docs 的 content/（docs、self-hosting、integrations、faq、guides 等 MDX；目录为各级 meta.json）",
+   "complete_doc_set": true,
+   "pack_sha256": "a9c541655d93a3067d42385c32773e9864e857f076e4913e1e028ca9e1db6e31",
+   "previous_checks": [
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    },
+    {
+     "toc_kind": "fumadocs_meta",
+     "toc_entries": 613,
+     "toc_missing": 87,
+     "toc_resolved_ratio": 0.858,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "fumadocs_meta": {
+     "entries": 590,
+     "missing": 20,
+     "missing_examples": [
+      "docs/administration/external:[Security Docs ↗](/security)",
+      "docs/external:[Security & Compliance ↗](/security)",
+      "docs/external:[Support ↗](/support)",
+      "docs/metrics/features/external:[Export to Mixpanel ↗](/integrations/analytics/mixpanel)",
+      "docs/metrics/features/external:[Export to PostHog ↗](/integrations/analytics/posthog)",
+      "docs/observability/external:[Integrations ↗](/integrations)",
+      "docs/observability/sdk/external:[JS/TS Reference ↗](https:/js.reference.langfuse.com/)",
+      "docs/observability/sdk/external:[Python Reference ↗](https:/python.reference.langfuse.com/)",
+      "docs/references/external:[API Reference ↗](https:/api.reference.langfuse.com)",
+      "docs/references/external:[JS SDK ↗](https:/js.reference.langfuse.com)"
+     ],
+     "ratio": 0.966
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "fumadocs_meta 目录 590 项，解析率 0.966",
+   "rechecked": "2026-10-29 15:45:36"
+  },
+  "status": "verified"
+ },
+ "E-39": {
+  "eid": "E-39",
+  "name": "argo-rollouts",
+  "repo": "https://github.com/argoproj/argo-rollouts",
+  "ref_requested": "v1.10.1",
+  "time": "2026-10-29 15:40:59",
+  "retrieved": "2026-10-29",
+  "notes": [],
+  "commit": "356117c8e9a21b74b58c2c01d640aa91994522b5",
+  "commit_date": "2026-10-12T14:30:54+03:00",
+  "files_kept": 1011,
+  "bytes_kept": 27145101,
+  "excluded_files": [],
+  "excluded_count": 0,
+  "license": {
+   "file": "LICENSE",
+   "detected": "Apache-2.0"
+  },
+  "archive_path": "reference_code/argo-rollouts_356117c_original_en.tar.gz",
+  "archive_sha256": "549923c9069752a861cda69fcbcf1c1f39a55ffeeae1085ac86fc1f0fb857dd4",
+  "renamed_copy_path": "reference_code/argo-rollouts_356117c_en",
+  "renamed_copy_pack_sha256": "afc76a244a62a48127f9206670952fc1740a2ac740adbe251eb82ab19fe5c413",
+  "docs": {
+   "toc_kind": "mkdocs_nav",
+   "toc_entries": 121,
+   "toc_missing": 0,
+   "toc_missing_examples": [],
+   "doc_source_files": 126,
+   "toc_resolved_ratio": 1.0,
+   "path_in_repo": "docs",
+   "local_path": "engineering_docs/argo-rollouts_docs_356117c_en",
+   "files": 189,
+   "format": "源文件（Markdown/RST，未构建 HTML）",
+   "scope_note": "仓库内 docs/（根目录 mkdocs.yml 导航）",
+   "complete_doc_set": true,
+   "pack_sha256": "af4a50a25dd5f7b6906f7484e84d43e7ed2ec2f317c518eb7805abc548df025a",
+   "previous_checks": [
+    {
+     "toc_kind": "mkdocs_nav",
+     "toc_entries": 121,
+     "toc_missing": 0,
+     "toc_resolved_ratio": 1.0,
+     "complete_doc_set": true
+    },
+    {
+     "toc_kind": null,
+     "toc_entries": 0,
+     "toc_missing": 0,
+     "toc_resolved_ratio": null,
+     "complete_doc_set": false
+    }
+   ],
+   "toc_all_kinds": {
+    "mkdocs_nav": {
+     "entries": 121,
+     "missing": 0,
+     "missing_examples": [],
+     "ratio": 1.0
+    }
+   },
+   "navigation_from_tree": null,
+   "toc_check_version": 2,
+   "completeness_basis": "mkdocs_nav 目录 121 项，解析率 1.0",
+   "rechecked": "2026-10-29 15:45:36"
+  },
+  "status": "verified"
+ }
+}

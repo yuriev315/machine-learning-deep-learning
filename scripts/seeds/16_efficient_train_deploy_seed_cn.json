@@ -1,0 +1,848 @@
+[
+ {
+  "sid": "16-001",
+  "arxiv": "2407.03211",
+  "title": "How Does Quantization Affect Multilingual LLMs?",
+  "subtopic": "量化对多语言能力的影响",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "首个系统研究量化对多语言 LLM 影响的工作，含自动与人工评价，指出非拉丁文字语言受损更明显（作者称）。"
+ },
+ {
+  "sid": "16-002",
+  "arxiv": "2601.18306",
+  "title": "Calibrating Beyond English: Language Diversity for Better Quantized Multilingual LLM",
+  "subtopic": "量化校准数据语言多样性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究量化校准集语言构成对多语言量化模型的影响。"
+ },
+ {
+  "sid": "16-003",
+  "arxiv": "2508.20893",
+  "title": "The Uneven Impact of Post-Training Quantization in Machine Translation",
+  "subtopic": "量化对翻译能力的影响",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "考察训练后量化对不同资源水平语言翻译质量的不均衡影响。"
+ },
+ {
+  "sid": "16-004",
+  "arxiv": "2503.03592",
+  "title": "English K_Quantization of LLMs Does Not Disproportionately Diminish Multilingual Performance",
+  "subtopic": "量化对多语言能力的影响",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验以英语校准的 llama.cpp K 量化是否偏损多语言性能（与 2407.03211 形成对照证据）。"
+ },
+ {
+  "sid": "16-005",
+  "arxiv": "2608.09941",
+  "title": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
+  "subtopic": "端侧小模型量化与语言类型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究端侧小模型量化在不同类型学语言上的退化。"
+ },
+ {
+  "sid": "16-006",
+  "arxiv": "2608.11786",
+  "title": "Language-Conditional Dequantization: Recovering What Quantization Steals from Non-English Languages",
+  "subtopic": "非英语量化损失恢复",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "针对量化导致的非英语能力损失提出语言条件恢复方法。"
+ },
+ {
+  "sid": "16-007",
+  "arxiv": "2608.24615",
+  "title": "Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation",
+  "subtopic": "单一低资源语言量化评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "孟加拉语理解任务上的量化效果系统评测。"
+ },
+ {
+  "sid": "16-008",
+  "arxiv": "2507.19699",
+  "title": "Towards Inclusive NLP: Assessing Compressed Multilingual Transformers across Diverse Language Benchmarks",
+  "subtopic": "压缩对多语言能力的影响",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估压缩（剪枝/量化）后的多语言模型在多语言基准上的表现。"
+ },
+ {
+  "sid": "16-009",
+  "arxiv": "2408.14398",
+  "title": "On the Limitations of Language Targeted Pruning: Investigating the Calibration Language Impact in Multilingual LLM Pruning",
+  "subtopic": "剪枝校准语言",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统研究剪枝校准语言对多语言 LLM 各语言能力的影响。"
+ },
+ {
+  "sid": "16-010",
+  "arxiv": "2409.16911",
+  "title": "Pruning Multilingual Large Language Models for Multilingual Inference",
+  "subtopic": "多语言剪枝",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "利用英语-非英语对齐特征指导剪枝以保持多语言推理能力。"
+ },
+ {
+  "sid": "16-011",
+  "arxiv": "2404.04748",
+  "title": "Multilingual Brain Surgeon: Large Language Models Can be Compressed Leaving No Language Behind",
+  "subtopic": "多语言压缩校准采样",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "按语言分布采样校准数据，减少压缩对低资源语言的损害。"
+ },
+ {
+  "sid": "16-012",
+  "arxiv": "2505.16956",
+  "title": "On Multilingual Encoder Language Model Compression for Low-Resource Languages",
+  "subtopic": "低资源语言编码器压缩",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "结合剪枝、蒸馏与词表裁剪压缩多语言编码器并考察低资源语言保持。"
+ },
+ {
+  "sid": "16-013",
+  "arxiv": "2404.04759",
+  "title": "What Happens When Small Is Made Smaller? Exploring the Impact of Compression on Small Data Pretrained Language Models",
+  "subtopic": "小数据非洲语言模型压缩",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究在小数据预训练的非洲语言模型上剪枝、蒸馏、量化的效果。"
+ },
+ {
+  "sid": "16-014",
+  "arxiv": "2411.14055",
+  "title": "DRPruning: Efficient Large Language Model Pruning through Distributionally Robust Optimization",
+  "subtopic": "分布鲁棒剪枝（多语言场景）",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用分布鲁棒优化平衡剪枝后各领域/语言的性能。"
+ },
+ {
+  "sid": "16-015",
+  "arxiv": "2503.06291",
+  "title": "IteRABRe: Iterative Recovery-Aided Block Reduction",
+  "subtopic": "层剪枝与语言能力保持",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "层块剪枝加恢复训练，并考察语言相关能力保持。"
+ },
+ {
+  "sid": "16-016",
+  "arxiv": "2602.09130",
+  "title": "UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization, and Distillation",
+  "subtopic": "压缩统一评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "统一比较剪枝、量化、蒸馏，含多语言能力维度。"
+ },
+ {
+  "sid": "16-017",
+  "arxiv": "2605.28042",
+  "title": "Extracting Small Translation Specialists from LLMs by Aggressively Pruning Experts",
+  "subtopic": "MoE 专家剪枝用于翻译",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "通过激进剪枝 MoE 专家提取小型翻译专用模型。"
+ },
+ {
+  "sid": "16-018",
+  "arxiv": "2502.18020",
+  "title": "AfroXLMR-Comet: Multilingual Knowledge Distillation with Attention Matching for Low-Resource languages",
+  "subtopic": "低资源语言蒸馏压缩",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以注意力匹配蒸馏压缩非洲语言多语言模型。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "方法为知识蒸馏"
+ },
+ {
+  "sid": "16-019",
+  "arxiv": "2509.23990",
+  "title": "The Hidden Costs of Translation Accuracy: Distillation, Quantization, and Environmental Impact",
+  "subtopic": "翻译模型压缩成本与环境影响",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较蒸馏、量化对翻译质量与能耗的权衡。"
+ },
+ {
+  "sid": "16-020",
+  "arxiv": "2603.11881",
+  "title": "Bielik-Minitron-7B: Compressing Large Language Models via Structured Pruning and Knowledge Distillation for the Polish Language",
+  "subtopic": "小语种模型剪枝+蒸馏",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "对波兰语模型做结构化剪枝与蒸馏，是小语种模型压缩的完整案例。"
+ },
+ {
+  "sid": "16-021",
+  "arxiv": "2610.21383",
+  "title": "Calibration Language Shapes Block-Influence Pruning in Multilingual Language Models",
+  "subtopic": "剪枝校准语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究校准语言对多语言模型块剪枝的影响。"
+ },
+ {
+  "sid": "16-022",
+  "arxiv": "2411.06506",
+  "title": "CULL-MT: Compression Using Language and Layer pruning for Machine Translation",
+  "subtopic": "面向翻译的语言与层剪枝",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "按目标翻译方向剪除层以压缩多语言翻译 LLM。"
+ },
+ {
+  "sid": "16-023",
+  "arxiv": "2409.14162",
+  "title": "On Importance of Pruning and Distillation for Efficient Low Resource NLP",
+  "subtopic": "低资源语言模型剪枝蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以马拉地语为例研究剪枝与蒸馏的效率-效果权衡。"
+ },
+ {
+  "sid": "16-024",
+  "arxiv": "2507.21568",
+  "title": "Multi-Hypothesis Distillation of Multilingual Neural Translation Models for Low-Resource Languages",
+  "subtopic": "低资源翻译模型蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多假设序列级蒸馏压缩多语言翻译模型，面向低资源语言。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "方法为蒸馏"
+ },
+ {
+  "sid": "16-025",
+  "arxiv": "2311.09709",
+  "title": "The Ups and Downs of Large Language Model Inference with Vocabulary Trimming by Language Heuristics",
+  "subtopic": "按语言裁剪词表加速推理",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "按语言启发式裁剪词表以降低推理开销，并报告其局限。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "涉及词表"
+ },
+ {
+  "sid": "16-026",
+  "arxiv": "2610.23249",
+  "title": "Who Pays for Efficient Inference? Confidence-Based Small-to-Large LLM Routing Across Tasks and Languages",
+  "subtopic": "跨语言路由与推理成本",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "考察小模型-大模型路由的节省在不同语言间如何分配。"
+ },
+ {
+  "sid": "16-027",
+  "arxiv": "2504.10013",
+  "title": "Training LLMs on HPC Systems: Best Practices from the OpenGPT-X Project",
+  "subtopic": "多语言 LLM 训练工程",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "欧洲多语言 LLM（OpenGPT-X）在 HPC 上训练的工程经验。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "预训练工程"
+ },
+ {
+  "sid": "16-028",
+  "arxiv": "2407.19610",
+  "title": "Mixture of Modular Experts: Distilling Knowledge from a Multilingual Teacher into Specialized Modular Language Models",
+  "subtopic": "多语言教师蒸馏为模块化小模型",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "多语言教师蒸馏为按语言模块化的小模型（涉及语言均为高资源），作方法参考。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "方法为蒸馏"
+ },
+ {
+  "sid": "16-029",
+  "arxiv": "2406.16758",
+  "title": "Towards Fast Multilingual LLM Inference: Speculative Decoding and Specialized Drafters",
+  "subtopic": "多语言推测解码",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为非英语语言训练专用草稿模型以加速推测解码。"
+ },
+ {
+  "sid": "16-030",
+  "arxiv": "2605.30580",
+  "title": "Speculative Decoding and the Curse of Multilinguality",
+  "subtopic": "多语言推测解码",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析推测解码接受率在不同语言间的差异。"
+ },
+ {
+  "sid": "16-031",
+  "arxiv": "2604.16368",
+  "title": "Cross-Family Speculative Decoding for Polish Language Models on Apple Silicon: An Empirical Evaluation of Bielik 11B with UAG-Extended MLX-LM",
+  "subtopic": "小语种模型端侧推测解码",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "波兰语模型在 Apple Silicon 上的跨族推测解码实证。"
+ },
+ {
+  "sid": "16-032",
+  "arxiv": "2410.10665",
+  "title": "Double Jeopardy and Climate Impact in the Use of Large Language Models: Socio-economic Disparities and Reduced Utility for Non-English Speakers",
+  "subtopic": "token 膨胀与使用成本",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "量化非英语用户因 token 膨胀承担的成本与碳排放差异。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "以分词长度差异为成因"
+ },
+ {
+  "sid": "16-033",
+  "arxiv": "2602.11174",
+  "title": "The Script Tax: Measuring Tokenization-Driven Efficiency and Latency Disparities in Multilingual Language Models",
+  "subtopic": "token 膨胀与推理成本/延迟",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "测量不同文字系统导致的效率与延迟差异。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "以分词长度差异为成因"
+ },
+ {
+  "sid": "16-034",
+  "arxiv": "2608.09046",
+  "title": "Measuring the Tokenization Premium: A Cost Audit for Underserved Language Communities",
+  "subtopic": "token 膨胀与推理成本",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "为弱势语言社区做 API 成本审计。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "以分词长度差异为成因"
+ },
+ {
+  "sid": "16-035",
+  "arxiv": "2609.00378",
+  "title": "Removable and Irreducible: A Token-Cost Ledger for the Multilingual Tokenization Tax",
+  "subtopic": "token 膨胀与推理成本",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "区分多语言 token 成本中可消除与不可消除部分。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "以分词长度差异为成因"
+ },
+ {
+  "sid": "16-036",
+  "arxiv": "2401.10774",
+  "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+  "subtopic": "推测解码",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "多解码头推测解码；多语言推测解码工作（2406.16758）的对照方法。"
+ },
+ {
+  "sid": "16-037",
+  "arxiv": "2401.15077",
+  "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+  "subtopic": "推测解码",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "特征层推测采样，是部署小语种模型时可直接复用的加速方法。"
+ },
+ {
+  "sid": "16-038",
+  "arxiv": "2312.07104",
+  "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+  "subtopic": "服务框架",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "RadixAttention 前缀缓存与结构化生成运行时，是部署小语种助手的常用服务框架。"
+ },
+ {
+  "sid": "16-039",
+  "arxiv": "2401.09670",
+  "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+  "subtopic": "服务调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "预填充/解码分离调度；长 token 序列（如 token 膨胀语言）下预填充开销更突出。"
+ },
+ {
+  "sid": "16-040",
+  "arxiv": "2403.02310",
+  "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+  "subtopic": "服务调度",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "分块预填充调度，权衡吞吐与延迟。"
+ },
+ {
+  "sid": "16-041",
+  "arxiv": "2402.02750",
+  "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+  "subtopic": "KV 缓存量化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "KV 缓存 2bit 量化；对 token 更长的小语种输入可降低显存。"
+ },
+ {
+  "sid": "16-042",
+  "arxiv": "2404.00456",
+  "title": "QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs",
+  "subtopic": "权重/激活量化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "旋转消除离群值的 4bit 全量化方法。"
+ },
+ {
+  "sid": "16-043",
+  "arxiv": "2405.16406",
+  "title": "SpinQuant: LLM Quantization with Learned Rotations",
+  "subtopic": "权重/激活量化",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "学习旋转矩阵的量化方法。"
+ },
+ {
+  "sid": "16-044",
+  "arxiv": "2402.04396",
+  "title": "QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks",
+  "subtopic": "极低比特量化",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "2bit 级别权重量化方法。",
+  "reserve": true
+ },
+ {
+  "sid": "16-045",
+  "arxiv": "2401.06118",
+  "title": "Extreme Compression of Large Language Models via Additive Quantization",
+  "subtopic": "极低比特量化",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "AQLM 加性量化，极端压缩。",
+  "reserve": true
+ },
+ {
+  "sid": "16-046",
+  "arxiv": "2402.17764",
+  "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
+  "subtopic": "低比特训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "三值权重从头训练，为低算力地区部署提供方向。"
+ },
+ {
+  "sid": "16-047",
+  "arxiv": "2407.08608",
+  "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+  "subtopic": "注意力内核",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "Hopper 架构注意力加速与 FP8。",
+  "reserve": true
+ },
+ {
+  "sid": "16-048",
+  "arxiv": "2410.06511",
+  "title": "TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "PyTorch 原生 FSDP2/张量/流水线并行一体化训练栈，适合小团队做持续预训练。"
+ },
+ {
+  "sid": "16-049",
+  "arxiv": "2402.15627",
+  "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "万卡训练的效率与容错工程。",
+  "reserve": true
+ },
+ {
+  "sid": "16-050",
+  "arxiv": "2403.03507",
+  "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+  "subtopic": "显存高效训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "梯度低秩投影降低全参训练显存，可在消费级 GPU 上做小语种持续预训练。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "与参数高效适配相关"
+ },
+ {
+  "sid": "16-051",
+  "arxiv": "2407.14679",
+  "title": "Compact Language Models via Pruning and Knowledge Distillation",
+  "subtopic": "剪枝+蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "Minitron 结构化剪枝加蒸馏方法；Bielik-Minitron 等小语种压缩直接沿用。"
+ },
+ {
+  "sid": "16-052",
+  "arxiv": "2402.18158",
+  "title": "Evaluating Quantized Large Language Models",
+  "subtopic": "量化评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "系统评估量化对多类能力的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "16-053",
+  "arxiv": "2411.02355",
+  "title": "\"Give Me BF16 or Give Me Death\": Accuracy-Performance Trade-Offs in LLM Quantization",
+  "subtopic": "量化评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "大规模比较 FP8/INT8/INT4 量化的精度与服务性能权衡。"
+ },
+ {
+  "sid": "16-054",
+  "arxiv": "2504.04823",
+  "title": "Quantization Hurts Reasoning? An Empirical Study on Quantized Reasoning Models",
+  "subtopic": "量化评测",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "量化对推理模型的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "16-055",
+  "arxiv": "2311.09755",
+  "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+  "subtopic": "校准数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "校准数据对量化剪枝的影响，为多语言校准研究提供基础。"
+ },
+ {
+  "sid": "16-056",
+  "arxiv": "2404.14294",
+  "title": "A Survey on Efficient Inference for Large Language Models",
+  "subtopic": "高效推理综述",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "数据/模型/系统三层面高效推理综述。"
+ },
+ {
+  "sid": "16-057",
+  "arxiv": "1910.02054",
+  "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "ZeRO 分片优化器状态/梯度/参数，是 FSDP/DeepSpeed 的基础。",
+  "old_reason": "首次公开 2019；ZeRO/FSDP 是当前多语言模型训练与持续预训练的标准显存方案，窗口内无替代性原始论文。"
+ },
+ {
+  "sid": "16-058",
+  "arxiv": "2104.04473",
+  "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "张量/流水线/数据 3D 并行的经典工作。",
+  "old_reason": "首次公开 2021；3D 并行的定义性论文，窗口内大规模训练系统均基于此。"
+ },
+ {
+  "sid": "16-059",
+  "arxiv": "2309.06180",
+  "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "subtopic": "KV 缓存与服务",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "vLLM/PagedAttention，开源服务事实标准。",
+  "old_reason": "首次公开 2023-09，略早于窗口；vLLM 是部署开源小语种模型最常用的推理引擎。"
+ },
+ {
+  "sid": "16-060",
+  "arxiv": "2210.17323",
+  "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+  "subtopic": "权重量化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "主流训练后权重量化方法，多语言量化研究普遍以其为对象。",
+  "old_reason": "首次公开 2022；GPTQ 是 2407.03211 等多语言量化研究的被测方法之一。"
+ },
+ {
+  "sid": "16-061",
+  "arxiv": "2306.00978",
+  "title": "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+  "subtopic": "权重量化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "激活感知权重量化，端侧部署常用。",
+  "old_reason": "首次公开 2023-06；AWQ 是当前端侧/服务端部署最常用量化方案之一，校准语言问题直接相关。"
+ },
+ {
+  "sid": "16-062",
+  "arxiv": "2601.12033",
+  "title": "Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection",
+  "subtopic": "量化后多语言公平与安全",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "系统研究静态/动态量化对英、法、荷、西、土等语言公平性及英、韩、阿语安全性的影响，并提出关键权重保护。"
+ },
+ {
+  "sid": "16-063",
+  "arxiv": "2601.13328",
+  "title": "Reducing Tokenization Premiums for Low-Resource Languages",
+  "subtopic": "token 膨胀成本降低",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "降低低资源语言 token 溢价。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "方法涉及分词",
+  "reserve": true
+ },
+ {
+  "sid": "16-064",
+  "arxiv": "2510.26271",
+  "title": "Distilling Multilingual Vision-Language Models: When Smaller Models Stay Multilingual",
+  "subtopic": "蒸馏后多语言保持",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "蒸馏后小模型多语言能力保持。",
+  "reserve": true
+ },
+ {
+  "sid": "16-065",
+  "arxiv": "2412.05862",
+  "title": "Domain-Specific Translation with Open-Source Large Language Models: Resource-Oriented Analysis",
+  "subtopic": "资源导向翻译部署",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "开源 LLM 领域翻译的资源导向分析。",
+  "reserve": true
+ },
+ {
+  "sid": "16-066",
+  "arxiv": "2608.03480",
+  "title": "Efficient Multilingual Neural Machine Translation via Corpus-Driven Vocabulary Pruning: An English-Arabic Case Study",
+  "subtopic": "词表裁剪加速",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以词表裁剪提升多语言 NMT 效率。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "词表",
+  "reserve": true
+ },
+ {
+  "sid": "16-067",
+  "arxiv": "2604.16235",
+  "title": "Optimizing Korean-Centric LLMs via Token Pruning",
+  "subtopic": "词表裁剪加速",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "剪除与目标应用无关语言的 token 与嵌入，评测韩语中心任务上的稳定性与语言混淆。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "词表"
+ },
+ {
+  "sid": "16-068",
+  "arxiv": "2603.18037",
+  "title": "Adapting Methods for Domain-Specific Japanese Small LMs: Scale, Architecture, and Quantization",
+  "subtopic": "小模型量化部署",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "日语领域小模型的规模、架构与量化。",
+  "reserve": true
+ },
+ {
+  "sid": "16-069",
+  "arxiv": "2408.11796",
+  "title": "LLM Pruning and Distillation in Practice: The Minitron Approach",
+  "subtopic": "剪枝+蒸馏",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "Minitron 实践报告。",
+  "reserve": true
+ },
+ {
+  "sid": "16-070",
+  "arxiv": "2606.17609",
+  "title": "The Benchmark Illusion: Pruned LLMs Can Pass Multiple Choice but Fail to Answer",
+  "subtopic": "剪枝评测陷阱（多语言 QA）",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以多语言问答追踪同一问题剪枝前后表现，揭示选择题评测高估剪枝模型能力。"
+ },
+ {
+  "sid": "16-071",
+  "arxiv": "2410.17170",
+  "title": "Self-calibration for Language Model Quantization and Pruning",
+  "subtopic": "校准数据",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "无外部校准数据的自校准。",
+  "reserve": true
+ },
+ {
+  "sid": "16-072",
+  "arxiv": "2501.00733",
+  "title": "On Importance of Layer Pruning for Smaller BERT Models and Low Resource Languages",
+  "subtopic": "低资源语言层剪枝",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "低资源语言小 BERT 层剪枝。",
+  "reserve": true
+ },
+ {
+  "sid": "16-073",
+  "arxiv": "2410.12513",
+  "title": "FiRST: Finetuning Router-Selective Transformers for Input-Adaptive Latency Reduction",
+  "subtopic": "自适应层跳过",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "输入自适应层选择降低延迟（含多语言任务）。",
+  "reserve": true
+ },
+ {
+  "sid": "16-074",
+  "arxiv": "2402.16775",
+  "title": "A Comprehensive Evaluation of Quantization Strategies for Large Language Models",
+  "subtopic": "量化评测",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "量化策略综合评测。",
+  "reserve": true
+ },
+ {
+  "sid": "16-075",
+  "arxiv": "2312.03863",
+  "title": "Efficient Large Language Models: A Survey",
+  "subtopic": "高效 LLM 综述",
+  "type": "综述",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "高效 LLM 综述。",
+  "reserve": true
+ },
+ {
+  "sid": "16-076",
+  "arxiv": "2407.04965",
+  "title": "Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression",
+  "subtopic": "压缩多维评测",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "压缩后安全多维评测。",
+  "reserve": true
+ },
+ {
+  "sid": "16-077",
+  "arxiv": "2403.03853",
+  "title": "ShortGPT: Layers in Large Language Models are More Redundant Than You Expect",
+  "subtopic": "层剪枝",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "层冗余与层剪枝。",
+  "reserve": true
+ }
+]

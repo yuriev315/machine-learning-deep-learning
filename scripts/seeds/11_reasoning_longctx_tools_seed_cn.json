@@ -1,0 +1,900 @@
+[
+ {
+  "sid": "11-001",
+  "arxiv": "2210.03057",
+  "title": "Language Models are Multilingual Chain-of-Thought Reasoners",
+  "subtopic": "多语言数学推理基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出 MGSM（GSM8K 人工翻译为 10 种类型多样语言），是多语言 CoT 推理评测的起点，后续大量工作沿用。",
+  "old_reason": "2022 年发布的 MGSM 是多语言推理评测的事实标准，近三年论文普遍以其为基线，需作为经典补充。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "提出多语言推理评测基准"
+ },
+ {
+  "sid": "11-002",
+  "arxiv": "2201.11903",
+  "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "subtopic": "思维链方法基础",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "思维链提示的原始论文；多语言 CoT、推理语言选择等研究都以其为方法起点。",
+  "old_reason": "CoT 是本类全部多语言推理研究的方法前提，经典补充。",
+  "relevance_use": "理解多语言 CoT/推理语言实验所依赖的基础提示方法"
+ },
+ {
+  "sid": "11-003",
+  "arxiv": "2305.07004",
+  "title": "Not All Languages Are Created Equal in LLMs: Improving Multilingual Capability by Cross-Lingual-Thought Prompting",
+  "subtopic": "跨语言思维提示",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出跨语言思维提示（XLT），把非英语问题引导到英语思考再作答，是“用哪种语言思考”问题的早期代表。",
+  "old_reason": "2023-05 发布，是推理语言选择（先转英语思考）路线的早期经典，后续工作常作对照。"
+ },
+ {
+  "sid": "11-004",
+  "arxiv": "2308.01223",
+  "title": "Do Multilingual Language Models Think Better in English?",
+  "subtopic": "推理语言选择",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较自翻译到英语再推理与直接用原语言推理，直接讨论“用哪种语言思考”。",
+  "old_reason": "2023-08 发布，是“自翻译再推理”问题的经典对照研究，近三年工作频繁引用。"
+ },
+ {
+  "sid": "11-005",
+  "arxiv": "2310.20246",
+  "title": "Breaking Language Barriers in Multilingual Mathematical Reasoning: Insights and Observations",
+  "subtopic": "多语言数学推理训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建多语言数学指令数据 MGSM8KInstruct 并训练 MathOctopus，系统比较多语言数学推理训练策略。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "多语言数学指令微调数据与训练"
+ },
+ {
+  "sid": "11-006",
+  "arxiv": "2401.07037",
+  "title": "xCoT: Cross-lingual Instruction Tuning for Cross-lingual Chain-of-Thought Reasoning",
+  "subtopic": "跨语言思维链微调",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "通过跨语言指令微调让模型在低资源语言问题上进行跨语言思维链推理。"
+ },
+ {
+  "sid": "11-007",
+  "arxiv": "2405.17386",
+  "title": "MindMerger: Efficient Boosting LLM Reasoning in non-English Languages",
+  "subtopic": "外部多语言编码器融合",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "把多语言编码器能力融入 LLM 以提升非英语（含低资源语言）推理，属于“理解在外部、推理在 LLM”路线。"
+ },
+ {
+  "sid": "11-008",
+  "arxiv": "2401.10695",
+  "title": "LangBridge: Multilingual Reasoning Without Multilingual Supervision",
+  "subtopic": "多语言编码器桥接",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用多语言编码器桥接英语推理模型，仅用英语数据实现多语言推理，涉及大量低资源语言评测。"
+ },
+ {
+  "sid": "11-009",
+  "arxiv": "2401.07817",
+  "title": "Question Translation Training for Better Multilingual Reasoning",
+  "subtopic": "问题翻译对齐训练",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "提出 QAlign：先做问题翻译对齐再做英语指令微调，以利用英语推理能力服务非英语问题。",
+  "cross_only": true,
+  "cross_reason": "主分类在 09（09-044，问题翻译训练）；本类作推理交叉标签"
+ },
+ {
+  "sid": "11-010",
+  "arxiv": "2405.01345",
+  "title": "The Power of Question Translation Training in Multilingual Reasoning: Broadened Scope and Deepened Insights",
+  "subtopic": "问题翻译对齐训练",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "扩展问题翻译训练到更多场景与模型规模，并分析其对多语言推理表示的影响。"
+ },
+ {
+  "sid": "11-011",
+  "arxiv": "2401.06838",
+  "title": "MAPO: Advancing Multilingual Reasoning through Multilingual Alignment-as-Preference Optimization",
+  "subtopic": "推理一致性偏好优化",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以非英语推理与英语推理的一致性作为偏好信号做优化，直接面向多语言推理质量。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "方法为偏好优化"
+ },
+ {
+  "sid": "11-012",
+  "arxiv": "2406.02301",
+  "title": "mCoT: Multilingual Instruction Tuning for Reasoning Consistency in Language Models",
+  "subtopic": "多语言推理一致性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "构建多语言数学推理指令数据 mCoT-MATH，研究跨语言推理一致性。"
+ },
+ {
+  "sid": "11-013",
+  "arxiv": "2501.16154",
+  "title": "AdaMCoT: Rethinking Cross-Lingual Factual Reasoning through Adaptive Multilingual Chain-of-Thought",
+  "subtopic": "自适应思考语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "让模型自适应选择中间“思考语言”进行跨语言事实推理，直接涉及推理语言与回答语言的分离。"
+ },
+ {
+  "sid": "11-014",
+  "arxiv": "2505.05408",
+  "title": "Crosslingual Reasoning through Test-Time Scaling",
+  "subtopic": "推理模型测试时扩展",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究英语为主训练的推理模型在多语言输入下的测试时扩展效果及思考语言行为，含低资源语言观察。"
+ },
+ {
+  "sid": "11-015",
+  "arxiv": "2505.17407",
+  "title": "Language Matters: How Do Multilingual Input and Reasoning Paths Affect Large Reasoning Models?",
+  "subtopic": "推理模型思考语言",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析大推理模型面对多语言输入时的推理语言选择及其对不同任务表现的影响。"
+ },
+ {
+  "sid": "11-016",
+  "arxiv": "2505.22888",
+  "title": "When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy",
+  "subtopic": "思考语言控制与准确率",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "评测强制推理模型用用户语言思考时的准确率代价，直接对应“回答语言 vs 推理语言”区分。"
+ },
+ {
+  "sid": "11-017",
+  "arxiv": "2508.14828",
+  "title": "Long Chain-of-Thought Reasoning Across Languages",
+  "subtopic": "长思维链跨语言迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "考察长思维链能力在不同语言间的迁移、翻译的长 CoT 数据与思考语言选择。"
+ },
+ {
+  "sid": "11-018",
+  "arxiv": "2510.07300",
+  "title": "Think Natively: Unlocking Multilingual Reasoning with Consistency-Enhanced Reinforcement Learning",
+  "subtopic": "母语思考强化学习",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "用强化学习鼓励模型以输入语言思考并保持跨语言推理一致性。"
+ },
+ {
+  "sid": "11-019",
+  "arxiv": "2510.20647",
+  "title": "The Reasoning Lingua Franca: A Double-Edged Sword for Multilingual AI",
+  "subtopic": "英语作推理通用语",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析推理模型默认以英语推理对多语言任务的利弊。"
+ },
+ {
+  "sid": "11-020",
+  "arxiv": "2502.17407",
+  "title": "Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning",
+  "subtopic": "测试时扩展的语言泛化",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "构建多语言竞赛数学基准 MCLM，检验测试时扩展方法在多语言下是否同样有效。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "提出多语言数学推理基准"
+ },
+ {
+  "sid": "11-021",
+  "arxiv": "2504.18428",
+  "title": "PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts",
+  "subtopic": "多语言数学推理评测",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "多语言、多难度数学推理基准，并分析推理语言与输入语言不一致等现象。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言推理基准"
+ },
+ {
+  "sid": "11-022",
+  "arxiv": "2505.19126",
+  "title": "MMATH: A Multilingual Benchmark for Mathematical Reasoning",
+  "subtopic": "多语言数学推理评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言竞赛级数学推理基准，讨论推理模型的语言不一致（off-target）问题。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言推理基准"
+ },
+ {
+  "sid": "11-023",
+  "arxiv": "2502.09457",
+  "title": "A Survey of Multilingual Reasoning in Language Models",
+  "subtopic": "多语言推理综述",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统综述多语言推理的表示、对齐、评测与挑战，是本类入门材料。"
+ },
+ {
+  "sid": "11-024",
+  "arxiv": "2504.02890",
+  "title": "Reasoning Transfer for an Extremely Low-Resource and Endangered Language: Bridging Languages Through Sample-Efficient Language Understanding",
+  "subtopic": "极低资源濒危语言推理迁移",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向极低资源濒危语言研究如何把高资源语言的推理能力迁移过去，直接对应小语种推理。"
+ },
+ {
+  "sid": "11-025",
+  "arxiv": "2505.19848",
+  "title": "Improving Multilingual Math Reasoning for African Languages",
+  "subtopic": "非洲语言数学推理",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统比较数据类型、训练方式对非洲语言数学推理的影响。"
+ },
+ {
+  "sid": "11-026",
+  "arxiv": "2507.17476",
+  "title": "MultiNRC: A Challenging and Native Multilingual Reasoning Evaluation Benchmark for LLMs",
+  "subtopic": "原生多语言推理基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "原生构建（非翻译）的多语言推理基准，可用于区分翻译基准与本地原生推理能力。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的原生多语言推理基准"
+ },
+ {
+  "sid": "11-027",
+  "arxiv": "2510.09555",
+  "title": "A Comprehensive Evaluation of Multilingual Chain-of-Thought Reasoning: Performance, Consistency, and Faithfulness Across Languages",
+  "subtopic": "多语言 CoT 忠实性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从准确率、跨语言一致性与思维链忠实性三方面评估多语言推理。"
+ },
+ {
+  "sid": "11-028",
+  "arxiv": "2505.14815",
+  "title": "Language Mixing in Reasoning Language Models: Patterns, Impact, and Internal Causes",
+  "subtopic": "推理中的语言混用",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究推理模型思维链中的语言混用模式、对表现的影响与内部成因。"
+ },
+ {
+  "sid": "11-029",
+  "arxiv": "2601.02996",
+  "title": "Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners",
+  "subtopic": "多语言潜在推理",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析大推理模型在不同语言中的潜在（隐式）推理能力。"
+ },
+ {
+  "sid": "11-030",
+  "arxiv": "2502.15603",
+  "title": "Do Multilingual LLMs Think In English?",
+  "subtopic": "潜在推理语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用可解释性方法考察多语言 LLM 内部是否以英语表示进行决策。",
+  "cross_only": true,
+  "cross_reason": "主分类在 01（01-049）；与“用哪种语言思考”直接相关，作交叉标签"
+ },
+ {
+  "sid": "11-031",
+  "arxiv": "2502.17956",
+  "title": "Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments",
+  "subtopic": "程序化思维跨语言",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究程序思维（PoT）在跨语言与多语言环境下的推理表现，涉及用代码执行代替自然语言推理。"
+ },
+ {
+  "sid": "11-032",
+  "arxiv": "2507.00246",
+  "title": "EfficientXLang: Towards Improving Token Efficiency Through Cross-Lingual Reasoning",
+  "subtopic": "推理语言与 token 效率",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究用非英语语言推理对 token 效率与准确率的影响。"
+ },
+ {
+  "sid": "11-033",
+  "arxiv": "2504.11833",
+  "title": "Could Thinking Multilingually Empower LLM Reasoning?",
+  "subtopic": "多语言思考增益",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "探讨用多种语言思考并聚合能否提升推理上限。"
+ },
+ {
+  "sid": "11-034",
+  "arxiv": "2512.22712",
+  "title": "Beg to Differ: Understanding Reasoning-Answer Misalignment Across Languages",
+  "subtopic": "推理与答案不一致",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究不同语言下推理过程与最终答案不一致现象，直接对应“回答正确 vs 推理正确”区分。"
+ },
+ {
+  "sid": "11-035",
+  "arxiv": "2603.10793",
+  "title": "Multilingual Reasoning Gym: Multilingual Scaling of Procedural Reasoning Environments",
+  "subtopic": "多语言推理训练环境",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把可程序生成、可验证的推理环境扩展到多语言，用于训练与评测多语言推理。"
+ },
+ {
+  "sid": "11-036",
+  "arxiv": "2510.14305",
+  "title": "MathMist: A Parallel Multilingual Benchmark Dataset for Mathematical Problem Solving and Reasoning",
+  "subtopic": "多语言平行数学基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "含低资源语言的平行多语言数学推理数据集。"
+ },
+ {
+  "sid": "11-037",
+  "arxiv": "2510.02272",
+  "title": "How Well Does Mathematical Reasoning Transfer Across Languages in English-Centric LLMs?",
+  "subtopic": "英语中心模型推理迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究英语中心 LLM 的数学推理能力向其他语言迁移的程度与条件。"
+ },
+ {
+  "sid": "11-038",
+  "arxiv": "2507.05418",
+  "title": "Learn Globally, Speak Locally: Bridging the Gaps in Multilingual Reasoning",
+  "subtopic": "本地语言推理忠实性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "构建多语言事实推理评测并提出训练方法，促使模型以用户语言进行忠实推理。"
+ },
+ {
+  "sid": "11-039",
+  "arxiv": "2608.00533",
+  "title": "Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages",
+  "subtopic": "东南亚低资源语言原生 CoT",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究东南亚低资源语言中以母语进行思维链推理。"
+ },
+ {
+  "sid": "11-040",
+  "arxiv": "2607.05992",
+  "title": "PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages",
+  "subtopic": "低资源语言数学评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把数学推理评测扩展到高资源语言之外。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言推理基准"
+ },
+ {
+  "sid": "11-041",
+  "arxiv": "2605.09548",
+  "title": "Crosslingual On-Policy Self-Distillation for Multilingual Reasoning",
+  "subtopic": "跨语言自蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用跨语言在线自蒸馏提升多语言推理。",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "方法为蒸馏"
+ },
+ {
+  "sid": "11-042",
+  "arxiv": "2406.16655",
+  "title": "Large Language Models are Cross-Lingual Knowledge-Free Reasoners",
+  "subtopic": "推理与知识解耦迁移",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "把跨语言推理分解为知识检索与无知识推理，分析二者的跨语言迁移差异。"
+ },
+ {
+  "sid": "11-043",
+  "arxiv": "2408.10151",
+  "title": "Multilingual Needle in a Haystack: Investigating Long-Context Behavior of Multilingual Large Language Models",
+  "subtopic": "多语言长上下文检索",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "MLNeedle：考察针与干草堆语言不同时多语言 LLM 的长上下文检索表现。"
+ },
+ {
+  "sid": "11-044",
+  "arxiv": "2409.18006",
+  "title": "Evaluating Multilingual Long-Context Models for Retrieval and Reasoning",
+  "subtopic": "多语言长上下文推理",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "在多种语言（含低资源语言）上评测长上下文检索与推理能力。"
+ },
+ {
+  "sid": "11-045",
+  "arxiv": "2503.01996",
+  "title": "One ruler to measure them all: Benchmarking multilingual long-context language models",
+  "subtopic": "多语言长上下文基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "ONERULER：把 RULER 式长上下文测试扩展到数十种语言，考察指令语言与上下文语言不一致的影响。"
+ },
+ {
+  "sid": "11-046",
+  "arxiv": "2504.12845",
+  "title": "Can LLMs reason over extended multilingual contexts? Towards long-context evaluation beyond retrieval and haystacks",
+  "subtopic": "多语言长上下文推理",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "超越“找针”检索的多语言长上下文推理评测。"
+ },
+ {
+  "sid": "11-047",
+  "arxiv": "2504.13615",
+  "title": "Long-context Non-factoid Question Answering in Indic Languages",
+  "subtopic": "印度语言长文问答",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究印度语言长上下文非事实型问答及上下文压缩方法。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "涉及长文档问答与上下文选择"
+ },
+ {
+  "sid": "11-048",
+  "arxiv": "2404.06654",
+  "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+  "subtopic": "长上下文评测方法",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "通用合成长上下文基准，多语言版本（如 ONERULER）以其为蓝本。",
+  "relevance_use": "为小语种长上下文评测提供可复制的合成任务框架"
+ },
+ {
+  "sid": "11-049",
+  "arxiv": "2501.10868",
+  "title": "JSONSchemaBench: A Rigorous Benchmark of Structured Outputs for Language Models",
+  "subtopic": "结构化输出与约束解码",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "评测约束解码框架在真实 JSON Schema 上的覆盖率与质量。",
+  "relevance_use": "小语种应用中结构化输出/约束解码工具的选择依据"
+ },
+ {
+  "sid": "11-050",
+  "arxiv": "2408.02442",
+  "title": "Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models",
+  "subtopic": "格式约束对推理的影响",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "研究 JSON 等格式约束对 LLM 推理表现的影响。",
+  "relevance_use": "部署小语种模型时权衡格式约束与推理质量"
+ },
+ {
+  "sid": "11-051",
+  "arxiv": "2601.05366",
+  "title": "Lost in Execution: On the Multilingual Robustness of Tool Calling in Large Language Models",
+  "subtopic": "多语言工具调用鲁棒性",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究用户语言变化时工具调用执行的鲁棒性，区分“理解小语种请求”与“正确执行工具”。"
+ },
+ {
+  "sid": "11-052",
+  "arxiv": "2603.05515",
+  "title": "Enhancing Tool Calling in LLMs with the International Tool Calling Dataset",
+  "subtopic": "国际化工具调用数据",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建面向多国家/多语言 API 的工具调用数据集并用于训练评测。"
+ },
+ {
+  "sid": "11-053",
+  "arxiv": "2509.14477",
+  "title": "Ticket-Bench: A Kickoff for Multilingual and Regionalized Agent Evaluation",
+  "subtopic": "多语言区域化智能体评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言、区域化的函数调用智能体评测。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言工具调用基准"
+ },
+ {
+  "sid": "11-054",
+  "arxiv": "2509.20957",
+  "title": "Tool Calling for Arabic LLMs: Data Strategies and Instruction Tuning",
+  "subtopic": "阿拉伯语工具调用",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究阿拉伯语 LLM 工具调用的数据策略与指令微调，是英语之外工具调用的具体案例。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "工具调用指令微调"
+ },
+ {
+  "sid": "11-055",
+  "arxiv": "2506.23394",
+  "title": "Teaching a Language Model to Speak the Language of Tools",
+  "subtopic": "小语种模型函数调用适配",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为非英语（保加利亚语）模型增加函数调用能力的训练方法与评测。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "函数调用微调"
+ },
+ {
+  "sid": "11-056",
+  "arxiv": "2412.01130",
+  "title": "Enhancing Function-Calling Capabilities in LLMs: Strategies for Prompt Formats, Data Integration, and Multilingual Translation",
+  "subtopic": "函数调用多语言翻译数据",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较提示格式、数据融合与多语言翻译管线对函数调用能力的影响（含繁体中文）。"
+ },
+ {
+  "sid": "11-057",
+  "arxiv": "2607.06008",
+  "title": "PolyWorkBench: Benchmarking LLM Agents for Cross-Lingual Long-Horizon Workflows",
+  "subtopic": "跨语言长程工作流智能体",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评测跨语言长程工作流中的 LLM 智能体。"
+ },
+ {
+  "sid": "11-058",
+  "arxiv": "2606.31648",
+  "title": "Think in English, Answer in Korean: Efficient Adaptation of Multilingual Tool-Using Agents",
+  "subtopic": "工具智能体思考语言",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "研究多语言工具使用智能体中“用英语思考、用目标语言回答”的高效适配。"
+ },
+ {
+  "sid": "11-059",
+  "arxiv": "2609.23490",
+  "title": "BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents",
+  "subtopic": "多语言智能体基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "大规模多语言 LLM 智能体基准。",
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "专门的多语言智能体基准"
+ },
+ {
+  "sid": "11-060",
+  "arxiv": "2406.18518",
+  "title": "APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets",
+  "subtopic": "可验证函数调用数据合成",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "自动生成可执行验证的函数调用数据管线。",
+  "relevance_use": "可借鉴其执行验证流程为小语种合成工具调用数据",
+  "cross": [
+   "09"
+  ],
+  "cross_reason": "合成数据管线"
+ },
+ {
+  "sid": "11-061",
+  "arxiv": "2409.00920",
+  "title": "ToolACE: Winning the Points of LLM Function Calling",
+  "subtopic": "函数调用数据合成",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "合成多样 API 与对话以训练函数调用，含中英双语数据。",
+  "relevance_use": "为小语种函数调用训练数据构建提供参考"
+ },
+ {
+  "sid": "11-062",
+  "arxiv": "2402.10588",
+  "title": "Do Llamas Work in English? On the Latent Language of Multilingual Transformers",
+  "subtopic": "潜在语言分析",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用 logit lens 分析多语言 Transformer 的中间层是否以英语为枢纽。",
+  "cross_only": true,
+  "cross_reason": "主分类在 01（01-039）；潜在思考语言分析，作交叉标签"
+ },
+ {
+  "sid": "11-063",
+  "arxiv": "2408.10811",
+  "title": "Beyond English-Centric LLMs: What Language Do Multilingual Language Models Think in?",
+  "subtopic": "潜在推理语言",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "考察非英语中心模型内部的潜在思考语言。",
+  "cross_only": true,
+  "cross_reason": "主分类在 01（01-050）；潜在思考语言分析，作交叉标签"
+ },
+ {
+  "sid": "11-064",
+  "arxiv": "2502.07346",
+  "title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
+  "subtopic": "多语言高级能力评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖推理、工具使用、长上下文等高级能力的多语言评测套件。",
+  "reserve": true,
+  "cross": [
+   "15"
+  ],
+  "cross_reason": "综合多语言评测"
+ },
+ {
+  "sid": "11-065",
+  "arxiv": "2406.12045",
+  "title": "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "subtopic": "工具-用户交互评测",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "评测智能体在真实领域中与用户、工具交互的可靠性。",
+  "reserve": true,
+  "relevance_use": "为小语种智能体可靠性评测提供模板"
+ },
+ {
+  "sid": "11-066",
+  "arxiv": "2609.18445",
+  "title": "M-SQE: Multilingual Skill Quality Estimation for Enhancing Language Equality in Agentic Skill Use",
+  "subtopic": "多语言智能体技能使用",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究智能体技能使用中的语言公平。",
+  "reserve": true
+ },
+ {
+  "sid": "11-067",
+  "arxiv": "2410.03576",
+  "title": "Table Question Answering for Low-resourced Indic Languages",
+  "subtopic": "低资源表格推理",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "面向低资源印度语言的表格问答（结构化推理）。",
+  "reserve": true
+ },
+ {
+  "sid": "11-068",
+  "arxiv": "2506.02483",
+  "title": "Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks",
+  "subtopic": "多语言神经符号推理",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "用神经符号推理增强多语言长上下文推理任务。",
+  "reserve": true
+ },
+ {
+  "sid": "11-069",
+  "arxiv": "2608.20853",
+  "title": "MGAL: A Multilingual Granularity-Aware Long-Context Benchmark",
+  "subtopic": "多语言长上下文基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言长上下文基准。",
+  "reserve": true
+ },
+ {
+  "sid": "11-070",
+  "arxiv": "2507.15849",
+  "title": "The Impact of Language Mixing on Bilingual LLM Reasoning",
+  "subtopic": "双语推理语言混用",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究双语模型推理中语言切换的作用。",
+  "reserve": true
+ },
+ {
+  "sid": "11-071",
+  "arxiv": "2602.21887",
+  "title": "ExpLang: Improved Exploration and Exploitation in LLM Reasoning with On-Policy Thinking Language Selection",
+  "subtopic": "思考语言选择强化学习",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "在强化学习中在线选择思考语言。",
+  "reserve": true
+ },
+ {
+  "sid": "11-072",
+  "arxiv": "2604.16917",
+  "title": "x1: Learning to Think Adaptively Across Languages and Cultures",
+  "subtopic": "自适应跨语言思考",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "学习按语言与文化自适应思考。",
+  "reserve": true
+ },
+ {
+  "sid": "11-073",
+  "arxiv": "2604.03616",
+  "title": "The Format Tax",
+  "subtopic": "格式约束代价",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "研究结构化格式要求带来的性能代价。",
+  "reserve": true,
+  "relevance_use": "结构化输出部署权衡"
+ },
+ {
+  "sid": "11-074",
+  "arxiv": "2510.12836",
+  "title": "BanglaMATH : A Bangla benchmark dataset for testing LLM mathematical reasoning at grades 6, 7, and 8",
+  "subtopic": "孟加拉语数学推理基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "孟加拉语原生数学推理基准。",
+  "reserve": true
+ },
+ {
+  "sid": "11-075",
+  "arxiv": "2504.01857",
+  "title": "Cross-Lingual Consistency: A Novel Inference Framework for Advancing Reasoning in Large Language Models",
+  "subtopic": "跨语言一致性推理框架",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "在推理时集成多种语言的推理路径并做跨语言一致性投票。"
+ },
+ {
+  "sid": "11-076",
+  "arxiv": "2604.04720",
+  "title": "What Makes Good Multilingual Reasoning? Disentangling Traces with Measurable Features",
+  "subtopic": "多语言推理轨迹质量",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用可度量特征拆解多语言推理轨迹，分析何种推理轨迹在多语言下有效。"
+ },
+ {
+  "sid": "11-077",
+  "arxiv": "2601.13262",
+  "title": "CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning",
+  "subtopic": "多语言领域推理强化学习",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "用课程式强化学习提升多语言医学推理，涉及推理语言一致性。"
+ },
+ {
+  "sid": "11-078",
+  "arxiv": "2606.15080",
+  "title": "AdaMame: A Training Recipe for Adaptive Multilingual Reasoning",
+  "subtopic": "自适应多语言推理训练",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "提出自适应多语言推理训练配方。",
+  "reserve": true
+ },
+ {
+  "sid": "11-079",
+  "arxiv": "2610.09607",
+  "title": "Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning",
+  "subtopic": "推理语言选择",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究多语言推理中骨架/计划使用哪种语言。",
+  "reserve": true
+ },
+ {
+  "sid": "11-080",
+  "arxiv": "2602.14517",
+  "title": "Large Language Models for Math Education in Low-Resource Languages: A Study in Sinhala and Tamil",
+  "subtopic": "僧伽罗语泰米尔语数学推理",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "研究僧伽罗语和泰米尔语数学问题上的 LLM 推理表现。",
+  "reserve": true
+ }
+]

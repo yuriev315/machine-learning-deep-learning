@@ -1,0 +1,843 @@
+[
+ {
+  "sid": "15-001",
+  "arxiv": "2412.03304",
+  "title": "Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation",
+  "subtopic": "翻译基准质量与文化偏差",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统分析 MMLU 翻译版中的文化敏感题目并发布经人工改进的 42 语种版本，是“翻译基准 vs 文化偏差”的核心文献。"
+ },
+ {
+  "sid": "15-002",
+  "arxiv": "2411.19799",
+  "title": "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge",
+  "subtopic": "原生区域知识基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "从各地本地考试收集原生题目构建多语言区域知识基准，代表“原生构建”路线。"
+ },
+ {
+  "sid": "15-003",
+  "arxiv": "2406.09948",
+  "title": "BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages",
+  "subtopic": "文化知识基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "覆盖多国多语言日常文化知识，含低资源语言，由母语者构建问题。"
+ },
+ {
+  "sid": "15-004",
+  "arxiv": "2406.03368",
+  "title": "IrokoBench: A New Benchmark for African Languages in the Age of Large Language Models",
+  "subtopic": "非洲语言基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "人工翻译构建的非洲语言 NLI/数学/知识问答基准，直接测 LLM 在低资源非洲语言上的差距。"
+ },
+ {
+  "sid": "15-005",
+  "arxiv": "2311.07978",
+  "title": "AfroBench: How Good are Large Language Models on African Languages?",
+  "subtopic": "非洲语言基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "汇集多任务多数据集评测 LLM 在非洲语言上的表现。"
+ },
+ {
+  "sid": "15-006",
+  "arxiv": "2311.07463",
+  "title": "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks",
+  "subtopic": "大规模多语言评测",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "跨语言、模型、任务的大规模评测，并讨论数据污染问题。"
+ },
+ {
+  "sid": "15-007",
+  "arxiv": "2504.15521",
+  "title": "The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks",
+  "subtopic": "多语言评测综述与方法论",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "对两千余个多语言基准的元分析，讨论翻译基准与本地化基准、与人类判断相关性。"
+ },
+ {
+  "sid": "15-008",
+  "arxiv": "2503.10497",
+  "title": "MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation",
+  "subtopic": "翻译构建知识推理基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言版 MMLU-Pro，采用 LLM 翻译加人工审校，可作为翻译构建基准的案例。"
+ },
+ {
+  "sid": "15-009",
+  "arxiv": "2411.09116",
+  "title": "P-MMEval: A Parallel Multilingual Multitask Benchmark for Consistent Evaluation of LLMs",
+  "subtopic": "平行多任务基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "平行多语言多任务评测集，便于跨语言一致性比较。"
+ },
+ {
+  "sid": "15-010",
+  "arxiv": "2607.00724",
+  "title": "MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark",
+  "subtopic": "原生构建事实问答基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以原生来源构建的多语言多文化事实问答基准。",
+  "exclude": true,
+  "exclude_reason": "作者在 arXiv 注释中声明撤稿（“Due to the company's data approval issue, we need to withdraw the article”，v3 2026-07-15）；协调者 2026-10-29 决定不计数，PDF 移出交付目录"
+ },
+ {
+  "sid": "15-011",
+  "arxiv": "2504.10356",
+  "title": "MultiLoKo: a multilingual local knowledge benchmark for LLMs spanning 31 languages",
+  "subtopic": "原生区域知识基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "区分本地原生问题与翻译问题，研究翻译对基准的影响。"
+ },
+ {
+  "sid": "15-012",
+  "arxiv": "2502.21228",
+  "title": "ECLeKTic: a Novel Challenge Set for Evaluation of Cross-Lingual Knowledge Transfer",
+  "subtopic": "跨语言知识迁移评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以只存在于单一语言维基的知识测试跨语言知识迁移。"
+ },
+ {
+  "sid": "15-013",
+  "arxiv": "2510.24081",
+  "title": "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures",
+  "subtopic": "参与式原生构建基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "由多国研究者参与式构建、覆盖百余种语言与文化的常识基准。"
+ },
+ {
+  "sid": "15-014",
+  "arxiv": "2602.10732",
+  "title": "Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling",
+  "subtopic": "人工撰写多文化基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "人工撰写、模板控制的多语言多文化推理基准。"
+ },
+ {
+  "sid": "15-015",
+  "arxiv": "2604.20225",
+  "title": "The GaoYao Benchmark: A Comprehensive Framework for Evaluating Multilingual and Multicultural Abilities of Large Language Models",
+  "subtopic": "多语言多文化综合基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言多文化能力综合评测框架。"
+ },
+ {
+  "sid": "15-016",
+  "arxiv": "2502.14301",
+  "title": "SEA-HELM: Southeast Asian Holistic Evaluation of Language Models",
+  "subtopic": "区域原生评测套件",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向东南亚语言的整体评测套件，强调母语者参与与文化。"
+ },
+ {
+  "sid": "15-017",
+  "arxiv": "2502.06298",
+  "title": "SeaExam and SeaBench: Benchmarking LLMs with Local Multilingual Questions in Southeast Asia",
+  "subtopic": "区域原生评测套件",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以东南亚本地考试与本地场景问题构建基准。"
+ },
+ {
+  "sid": "15-018",
+  "arxiv": "2411.02538",
+  "title": "MILU: A Multi-task Indic Language Understanding Benchmark",
+  "subtopic": "印度语言基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "覆盖多种印度语言、含区域特定知识的理解基准。"
+ },
+ {
+  "sid": "15-019",
+  "arxiv": "2404.16816",
+  "title": "IndicGenBench: A Multilingual Benchmark to Evaluate Generation Capabilities of LLMs on Indic Languages",
+  "subtopic": "印度语言生成评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评测 LLM 在多种印度语言上的生成能力，含低资源语言。"
+ },
+ {
+  "sid": "15-020",
+  "arxiv": "2402.11548",
+  "title": "KMMLU: Measuring Massive Multitask Language Understanding in Korean",
+  "subtopic": "单语原生考试基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "从韩国本地考试构建原生题目，并对比翻译版 MMLU。"
+ },
+ {
+  "sid": "15-021",
+  "arxiv": "2402.12840",
+  "title": "ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic",
+  "subtopic": "单语原生考试基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以阿拉伯地区本地学校考试原生构建。"
+ },
+ {
+  "sid": "15-022",
+  "arxiv": "2407.12402",
+  "title": "TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish",
+  "subtopic": "单语原生考试基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "土耳其语原生课程题目基准。"
+ },
+ {
+  "sid": "15-023",
+  "arxiv": "2502.11020",
+  "title": "TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages",
+  "subtopic": "低资源语系原生基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "面向多种突厥语（含低资源语言与多文字）的原生基准。"
+ },
+ {
+  "sid": "15-024",
+  "arxiv": "2406.07302",
+  "title": "BertaQA: How Much Do Language Models Know About Local Culture?",
+  "subtopic": "本地文化知识基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "巴斯克语地方文化与全球知识对比的双语基准，是小语种本地知识评测案例。"
+ },
+ {
+  "sid": "15-025",
+  "arxiv": "2509.03162",
+  "title": "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala",
+  "subtopic": "低资源语言原生基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "僧伽罗语原生考试题基准。"
+ },
+ {
+  "sid": "15-026",
+  "arxiv": "2511.11334",
+  "title": "LaoBench: A Large-Scale Multidimensional Lao Benchmark for Large Language Models",
+  "subtopic": "低资源语言原生基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "老挝语大规模多维度基准。"
+ },
+ {
+  "sid": "15-027",
+  "arxiv": "2602.05150",
+  "title": "GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek",
+  "subtopic": "单语原生考试基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "希腊语原生来源多任务基准，与翻译基准对照。"
+ },
+ {
+  "sid": "15-028",
+  "arxiv": "2510.21193",
+  "title": "Estonian Native Large Language Model Benchmark",
+  "subtopic": "小语种原生基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "爱沙尼亚语原生基准，代表小语种本土构建。"
+ },
+ {
+  "sid": "15-029",
+  "arxiv": "2602.18788",
+  "title": "BURMESE-SAN: Burmese NLP Benchmark for Evaluating Large Language Models",
+  "subtopic": "低资源语言基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "缅甸语 LLM 评测基准。"
+ },
+ {
+  "sid": "15-030",
+  "arxiv": "2502.14911",
+  "title": "Batayan: A Filipino NLP benchmark for evaluating Large Language Models",
+  "subtopic": "低资源语言基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "菲律宾语基准，涉及母语者翻译与原生构建。"
+ },
+ {
+  "sid": "15-031",
+  "arxiv": "2412.00948",
+  "title": "Uhura: A Benchmark for Evaluating Scientific Question Answering and Truthfulness in Low-Resource African Languages",
+  "subtopic": "非洲语言基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "非洲低资源语言科学问答与真实性评测，人工翻译构建。"
+ },
+ {
+  "sid": "15-032",
+  "arxiv": "2502.19582",
+  "title": "Where Are We? Evaluating LLM Performance on African Languages",
+  "subtopic": "非洲语言评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "系统评估 LLM 在大量非洲语言上的表现。"
+ },
+ {
+  "sid": "15-033",
+  "arxiv": "2409.11404",
+  "title": "AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs",
+  "subtopic": "方言与文化基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "阿拉伯语方言与文化能力基准，含人工后编辑。"
+ },
+ {
+  "sid": "15-034",
+  "arxiv": "2411.05049",
+  "title": "ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding",
+  "subtopic": "低资源评测方法问题",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "以谚语任务揭示低资源语言评测中选项顺序、提示语言等不稳定性。"
+ },
+ {
+  "sid": "15-035",
+  "arxiv": "2610.09152",
+  "title": "sk-bench: A Native-First Benchmark for Evaluating Large Language Models in Slovak",
+  "subtopic": "小语种原生基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "斯洛伐克语“原生优先”基准。"
+ },
+ {
+  "sid": "15-036",
+  "arxiv": "2605.04208",
+  "title": "Nsanku: Evaluating Zero-Shot Translation Performance of LLMs for Ghanaian Languages",
+  "subtopic": "低资源翻译评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "评估 LLM 对加纳多种语言的零样本翻译。"
+ },
+ {
+  "sid": "15-037",
+  "arxiv": "2406.17789",
+  "title": "Spanish and LLM Benchmarks: is MMLU Lost in Translation?",
+  "subtopic": "翻译基准质量",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "分析 MMLU 机器翻译版本中的翻译错误对评测结果的影响。"
+ },
+ {
+  "sid": "15-038",
+  "arxiv": "2504.09714",
+  "title": "Evaluating the Quality of Benchmark Datasets for Low-Resource Languages: A Case Study on Turkish",
+  "subtopic": "翻译基准质量",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "审查土耳其语基准（多为翻译）的质量问题。"
+ },
+ {
+  "sid": "15-039",
+  "arxiv": "2605.07093",
+  "title": "The Translation Tax Is Not a Scalar: A Counterfactual Audit of English-Source Cue Inheritance in Chinese Multilingual Benchmarks",
+  "subtopic": "翻译基准质量",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "反事实审计翻译基准从英语源继承的线索。"
+ },
+ {
+  "sid": "15-040",
+  "arxiv": "2602.22207",
+  "title": "Recovered in Translation: Efficient Pipeline for Automated Translation of Benchmarks and Datasets",
+  "subtopic": "基准翻译流程",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出基准自动翻译流水线并讨论翻译质量对评测的影响。"
+ },
+ {
+  "sid": "15-041",
+  "arxiv": "2508.20511",
+  "title": "Languages Still Left Behind: Toward a Better Multilingual Machine Translation Benchmark",
+  "subtopic": "翻译基准质量",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "审视 FLORES 类多语言翻译基准的质量与领域问题。"
+ },
+ {
+  "sid": "15-042",
+  "arxiv": "2502.12404",
+  "title": "WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects",
+  "subtopic": "翻译评测数据扩展",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以人工翻译扩展 WMT24 测试集至 55 种语言与方言。"
+ },
+ {
+  "sid": "15-043",
+  "arxiv": "2409.00626",
+  "title": "Correcting FLORES Evaluation Dataset for Four African Languages",
+  "subtopic": "FLORES 后续修订",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "母语者修正 FLORES 中四种非洲语言的翻译错误。"
+ },
+ {
+  "sid": "15-044",
+  "arxiv": "2502.04314",
+  "title": "BOUQuET: dataset, Benchmark and Open initiative for Universal Quality Evaluation in Translation",
+  "subtopic": "翻译评测数据扩展",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "非英语中心、可扩展到更多语言的翻译评测数据与开放倡议。"
+ },
+ {
+  "sid": "15-045",
+  "arxiv": "2404.01667",
+  "title": "METAL: Towards Multilingual Meta-Evaluation",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "构建多语言元评测数据集，检验 LLM 评审在多语言摘要上的可靠性。"
+ },
+ {
+  "sid": "15-046",
+  "arxiv": "2406.15053",
+  "title": "PARIKSHA: A Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data",
+  "subtopic": "母语者评价与 LLM 评审一致性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "大规模母语者人工评价与 LLM 评审一致性比较（印度语言）。"
+ },
+ {
+  "sid": "15-047",
+  "arxiv": "2505.12201",
+  "title": "How Reliable is Multilingual LLM-as-a-Judge?",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "系统分析多语言 LLM 评审在跨语言判断中的一致性。"
+ },
+ {
+  "sid": "15-048",
+  "arxiv": "2410.17578",
+  "title": "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "多语言评审与奖励模型的元评测基准，含低资源语言子集。"
+ },
+ {
+  "sid": "15-049",
+  "arxiv": "2410.13394",
+  "title": "Cross-Lingual Auto Evaluation for Assessing Multilingual LLMs",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "提出跨语言自动评测框架与评审模型（印度语言）。"
+ },
+ {
+  "sid": "15-050",
+  "arxiv": "2504.04953",
+  "title": "M-Prometheus: A Suite of Open Multilingual LLM Judges",
+  "subtopic": "多语言评审模型",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "开源多语言评审模型套件。"
+ },
+ {
+  "sid": "15-051",
+  "arxiv": "2503.17039",
+  "title": "Evaluating the Evaluator: Summarization Metrics and LLM-Judges beyond English",
+  "subtopic": "非英语自动评测可靠性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验摘要指标与 LLM 评审在非英语语言上与人工判断的相关性。"
+ },
+ {
+  "sid": "15-052",
+  "arxiv": "2607.14480",
+  "title": "Lower-Resource, Higher Scores: Language Bias in LLM Evaluators",
+  "subtopic": "LLM 评审语言偏差",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "研究 LLM 评审对不同资源水平语言的评分偏差。"
+ },
+ {
+  "sid": "15-053",
+  "arxiv": "2607.02235",
+  "title": "Challenges and Recommendations for LLM-as-a-Judge in Multilingual Settings and for Low-Resource Languages",
+  "subtopic": "LLM 评审方法论",
+  "type": "综述",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "总结多语言与低资源语言下 LLM 评审的挑战与建议。"
+ },
+ {
+  "sid": "15-054",
+  "arxiv": "2311.09828",
+  "title": "AfriMTE and AfriCOMET: Enhancing COMET to Embrace Under-resourced African Languages",
+  "subtopic": "低资源 MT 指标",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "为非洲语言构建人工 MT 质量标注并改进 COMET。"
+ },
+ {
+  "sid": "15-055",
+  "arxiv": "2506.04557",
+  "title": "SSA-COMET: Do LLMs Outperform Learned Metrics in Evaluating MT for Under-Resourced African Languages?",
+  "subtopic": "低资源 MT 指标",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "比较学习型指标与 LLM 评审对非洲语言 MT 的评估效果。"
+ },
+ {
+  "sid": "15-056",
+  "arxiv": "2406.03893",
+  "title": "How Good is Zero-Shot MT Evaluation for Low Resource Indian Languages?",
+  "subtopic": "低资源 MT 指标",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "检验自动指标在低资源印度语言 MT 上与人工评分的一致性。"
+ },
+ {
+  "sid": "15-057",
+  "arxiv": "2602.17425",
+  "title": "Evaluating Extremely Low-Resource Machine Translation: A Comparative Study of ChrF++ and BLEU Metrics",
+  "subtopic": "低资源 MT 指标",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "比较 chrF++ 与 BLEU 在极低资源 MT 评估中的表现。"
+ },
+ {
+  "sid": "15-058",
+  "arxiv": "2408.15366",
+  "title": "Pitfalls and Outlooks in Using COMET",
+  "subtopic": "MT 指标可靠性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "梳理 COMET 使用中的技术与数据陷阱，影响低资源语言 MT 评估的可信度。"
+ },
+ {
+  "sid": "15-059",
+  "arxiv": "2603.25222",
+  "title": "Translation or Recitation? Calibrating Evaluation Scores for Machine Translation of Extremely Low-Resource Languages",
+  "subtopic": "低资源 MT 评测与记忆/污染",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "讨论极低资源语言 MT 评测中记忆与真实翻译的区分与分数校准。"
+ },
+ {
+  "sid": "15-060",
+  "arxiv": "2608.09766",
+  "title": "Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness",
+  "subtopic": "翻译评测污染控制",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "以对比与本地化设计检测翻译评测的污染与本地化鲁棒性。"
+ },
+ {
+  "sid": "15-061",
+  "arxiv": "2606.15643",
+  "title": "Extending Item Response Theory for Efficient and Meaningful Multilingual Evaluation",
+  "subtopic": "评测统计方法",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "将项目反应理论用于多语言评测的效率与可比性。"
+ },
+ {
+  "sid": "15-062",
+  "arxiv": "2601.15706",
+  "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+  "subtopic": "多语言评测方法论",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "讨论跨全球语言的 LLM 评测方法改进。"
+ },
+ {
+  "sid": "15-063",
+  "arxiv": "2610.36990",
+  "title": "The State and Fate of Multilingual, Contextual Evaluation in the NLP World",
+  "subtopic": "多语言评测方法论",
+  "type": "综述",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "回顾多语言、语境化评测的现状。"
+ },
+ {
+  "sid": "15-064",
+  "arxiv": "2411.00640",
+  "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+  "subtopic": "评测统计不确定性",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "通用支撑",
+  "reason": "给出 LLM 评测的置信区间与显著性方法；低资源基准题量小，更需报告不确定性。"
+ },
+ {
+  "sid": "15-065",
+  "arxiv": "2406.10229",
+  "title": "Quantifying Variance in Evaluation Benchmarks",
+  "subtopic": "评测统计不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "量化基准分数方差，适用于判断小语种基准上差异是否可靠。"
+ },
+ {
+  "sid": "15-066",
+  "arxiv": "2508.13144",
+  "title": "Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation",
+  "subtopic": "评测统计不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出信噪比框架以降低评测不确定性，可指导小语种基准设计。"
+ },
+ {
+  "sid": "15-067",
+  "arxiv": "2410.02677",
+  "title": "CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming",
+  "subtopic": "文化知识基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "人机协作构建、经人工审核的多国文化基准。"
+ },
+ {
+  "sid": "15-068",
+  "arxiv": "2412.12417",
+  "title": "Bridging the Gap: Enhancing LLM Performance for Low-Resource African Languages with New Benchmarks, Fine-Tuning, and Cultural Adjustments",
+  "subtopic": "非洲语言基准",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "人工翻译构建非洲语言基准并分析文化调整。"
+ },
+ {
+  "sid": "15-069",
+  "arxiv": "2308.16884",
+  "title": "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants",
+  "subtopic": "大规模平行理解基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "122 种语言变体的平行阅读理解基准，是低资源语言 LLM 评测的事实标准。",
+  "old_reason": "首次公开 2023-08，略早于窗口；至今仍是覆盖面最广的多语言理解基准，窗口内大量工作以其为评测基础。"
+ },
+ {
+  "sid": "15-070",
+  "arxiv": "2309.07445",
+  "title": "SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects",
+  "subtopic": "大规模平行分类基准",
+  "type": "基准与数据集",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "基于 FLORES-200 的 200+ 语言主题分类基准。",
+  "old_reason": "首次公开 2023-09，略早于窗口；是 200+ 语言覆盖的经典评测，被大量窗口内论文使用。"
+ },
+ {
+  "sid": "15-071",
+  "arxiv": "2309.07462",
+  "title": "Are Large Language Model-based Evaluators the Solution to Scaling Up Multilingual Evaluation?",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "原始研究",
+  "priority": "高",
+  "relevance": "直接相关",
+  "reason": "首批系统检验 LLM 评审在多语言下与母语者判断一致性的研究。",
+  "old_reason": "首次公开 2023-09，略早于窗口；是多语言 LLM-as-judge 可靠性问题的奠基研究，METAL 等后续工作直接继承。"
+ },
+ {
+  "sid": "15-072",
+  "arxiv": "2410.15522",
+  "title": "M-RewardBench: Evaluating Reward Models in Multilingual Settings",
+  "subtopic": "多语言奖励模型评测",
+  "type": "基准与数据集",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "多语言奖励模型评测基准，含翻译质量对结果的分析。",
+  "cross": [
+   "10"
+  ],
+  "cross_reason": "主分类已由 10 类（10-005）认领；本类仅作交叉标签：多语言奖励模型评测并分析翻译质量对评测结论的影响。",
+  "cross_only": true
+ },
+ {
+  "sid": "15-073",
+  "arxiv": "2503.04360",
+  "title": "Exploring the Multilingual NLG Evaluation Abilities of LLM-Based Evaluators",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "分析 LLM 评审在多语言生成评估中的能力。",
+  "reserve": true
+ },
+ {
+  "sid": "15-074",
+  "arxiv": "2507.06774",
+  "title": "Checklist Engineering Empowers Multilingual LLM Judges",
+  "subtopic": "多语言 LLM-as-judge",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "以检查表提升多语言评审。",
+  "reserve": true
+ },
+ {
+  "sid": "15-075",
+  "arxiv": "2410.03492",
+  "title": "Towards Reproducible LLM Evaluation: Quantifying Uncertainty in LLM Benchmark Scores",
+  "subtopic": "评测统计不确定性",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "通用支撑",
+  "reason": "量化基准分数不确定性的可复现方法。",
+  "reserve": true
+ },
+ {
+  "sid": "15-076",
+  "arxiv": "2509.06401",
+  "title": "Do LLMs exhibit the same commonsense capabilities across languages?",
+  "subtopic": "跨语言常识评测",
+  "type": "原始研究",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "跨语言常识能力比较。",
+  "reserve": true
+ },
+ {
+  "sid": "15-077",
+  "arxiv": "2511.00657",
+  "title": "Do You Know About My Nation? Investigating Multilingual Language Models' Cultural Literacy Through Factual Knowledge",
+  "subtopic": "文化知识基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "多语言模型的国家文化事实知识评测。",
+  "reserve": true
+ },
+ {
+  "sid": "15-078",
+  "arxiv": "2505.02177",
+  "title": "Measuring Hong Kong Massive Multi-Task Language Understanding",
+  "subtopic": "区域原生基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "香港粤语与繁体中文原生多任务基准。",
+  "reserve": true
+ },
+ {
+  "sid": "15-079",
+  "arxiv": "2409.08706",
+  "title": "L3Cube-IndicQuest: A Benchmark Question Answering Dataset for Evaluating Knowledge of LLMs in Indic Context",
+  "subtopic": "印度语言知识基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "印度区域知识问答基准。",
+  "reserve": true
+ },
+ {
+  "sid": "15-080",
+  "arxiv": "2412.07251",
+  "title": "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context",
+  "subtopic": "文化知识基准",
+  "type": "基准与数据集",
+  "priority": "低",
+  "relevance": "直接相关",
+  "reason": "韩国文化语境基准。",
+  "reserve": true
+ },
+ {
+  "sid": "15-081",
+  "arxiv": "2406.11580",
+  "title": "Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation",
+  "subtopic": "人工评价协议",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "通用支撑",
+  "reason": "提出 ESA 人工评价协议，可用于低资源语言母语者 MT 评价。",
+  "reserve": true
+ },
+ {
+  "sid": "15-082",
+  "arxiv": "2303.12528",
+  "title": "MEGA: Multilingual Evaluation of Generative AI",
+  "subtopic": "大规模多语言评测",
+  "type": "原始研究",
+  "priority": "中",
+  "relevance": "直接相关",
+  "reason": "早期多语言生成式 AI 系统评测。",
+  "old_reason": "首次公开 2023-03；MEGAVERSE 的前身，作经典补充备选。",
+  "reserve": true
+ }
+]

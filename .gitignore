@@ -1,0 +1,29 @@
+# 全文、参考代码与二进制只放 Release 附件，不进普通 Git
+*.pdf
+*.PDF
+*.pptx
+*.ppt
+*.docx
+*.epub
+*.djvu
+*.zip
+*.tar
+*.tar.*
+*.tgz
+*.7z
+*.rar
+*.gz
+books/
+papers/
+university_materials/
+engineering_docs/
+reference_code/
+# 缓存、锁、日志、临时下载
+__pycache__/
+*.pyc
+.*.lock
+*.log
+*.part
+*.tmp
+*.crdownload
+*.partial
